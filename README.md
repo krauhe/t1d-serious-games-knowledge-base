@@ -4,7 +4,7 @@
 
 ## Formatted and searchable edition
 
-The formatted and searchable edition will be linked here after its first verified deployment.
+[Open the formatted and searchable knowledge base.](https://krauhe.github.io/t1d-serious-games-knowledge-base/)
 
 This independent knowledge base is intended for researchers, clinicians, diabetes educators, game designers, developers, patient organisations, and maintainers. It integrates peer-reviewed evidence, structured product information, learning science, human factors, type 1 diabetes (T1D) physiology, evaluation methodology, and software-sustainability practice.
 

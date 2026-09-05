@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Scientific knowledge base for discovering, designing, evaluating, and sustaining serious games relevant to type 1 diabetes.",
+  "homepage": "https://krauhe.github.io/t1d-serious-games-knowledge-base/",
   "license": "MIT",
   "type": "module",
   "scripts": {
