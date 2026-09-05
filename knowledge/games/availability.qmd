@@ -1,0 +1,134 @@
+---
+title: "Availability and Sustainability"
+subtitle: "Why evaluated games disappear and public games remain unevaluated"
+description: "Point-in-time access, maintenance barriers and sustainability practices for type 1 diabetes serious games."
+toc: true
+---
+
+## The accessibility paradox
+
+For ==type 1 diabetes (T1D)== serious games, scientific evaluation and public availability frequently concern different products. [Reinders et al. (2024)](https://doi.org/10.1016/j.diabres.2024.111833) reviewed 21 studies, 23 research-origin games and 13 app-store games. Their audit found:
+
+1. **21 of 23 research-origin games were not publicly available.**
+2. No identified web or personal-computer research game could be located.
+3. Only one of 11 research mobile games was free in Google Play.
+4. All 13 app-store games were visible in Apple’s store, five were visible in Google Play and 11 were free.
+5. The public products generally lacked peer-reviewed product-level outcome evaluation.
+
+This is not a simple quality ranking. Research prototypes can generate valuable design and feasibility evidence without becoming distributable products. Public products can be maintained and widely used without having undergone independent comparative evaluation. A useful knowledge base must therefore report **evidence** and **availability** as separate dimensions.
+
+## Point-in-time access snapshot
+
+The entries below are the most accessible core or companion products identified in the 24 August 2026 audit, with selected products rechecked on 5 September 2026. Store and browser access can differ by country, device, operating-system version, account, and transport-security compatibility.
+
+| Product | Access point | Observed status | Cost/account caveat | Evidence caveat |
+|---|---|---|---|---|
+| [AvaType1](https://avatype1.com/) | iOS/iPadOS | Public; active 2026 release | Free; United States listing verified | No peer-reviewed product outcome study located |
+| FlightGlucose | Browser | No locally functioning access link on 5 September 2026: both an automated request and a Chromium browser failed during the TLS handshake, although indexed content remained retrievable | Five free scenarios claimed; Learner and Educator subscriptions advertised; direct play not verified | No peer-reviewed outcome study located |
+| [GlucoZor](https://www.glucozor.fr/) | Official French site | Site active; mobile-store status incomplete | Free claim | No independent controlled product outcome study located |
+| [Level One](https://playlevelone.com/) | iOS/Android | Public | Free; account introduced; full regional coverage not verified | No peer-reviewed product outcome study located |
+| [MyDiabetic](https://www.my-diabetic.com/) | iOS/Android | Public | Free; English/Czech | Co-design and short feasibility evidence; no controlled long-term outcome |
+| [Rufus](https://play.google.com/store/apps/details?id=com.sproutel.rufus) | Mobile; optional bear | Public app; update observed December 2025 | App free; physical-bear distribution varies | No controlled product trial located |
+| [T1D Simulator](https://krauhe.github.io/t1d-simulator/) | Browser | Public | Free; no account identified | No peer-reviewed educational outcome evidence located |
+| [Novi-Chek](https://www.accu-chek.fr/produits/application/novi-chek) | Mobile; French | Official product-information page accessible; tested App Store and Google Play acquisition links returned HTTP 404 | Historically free; present acquisition and regional availability remain incompletely verified | No controlled product trial located |
+| [Sweet Strategy](https://apps.apple.com/tw/app/%E7%94%9C-%E6%94%BB%E7%95%A5/id1619470848) | Taiwan iOS | Public regional listing | Free; Traditional Chinese | No independent product outcome evaluation located |
+| [eddii](https://www.eddiihealth.com/eddii-app) | United States mobile service | Public | Download and care-service terms differ; real health-data integration | Adjacent management service; independent educational efficacy unestablished |
+
+Publicly accessible experiential works include [Hell Hath No Insulin](https://weeabetes.itch.io/hell-hath-no-insulin), [Permanence](https://ivy-leaves.itch.io/permanence) and [Holesome](https://holesome.itch.io/holesome). These are relevant to lived experience, identity and burden, but no peer-reviewed outcome evaluation was located.
+
+## Why a research game often disappears
+
+### Funding ends before maintenance begins
+
+Research grants commonly fund requirements work, a prototype, recruitment, analysis and publication. Long-term hosting, operating-system updates, app signing, accessibility repair, translation, user support and security response are different recurring activities. They may have no funded owner after the study closes.
+
+### The build is not a citable research object
+
+Articles often describe a game without providing a versioned executable, source repository, installation instructions, licence, archival identifier or maintenance contact. The paper survives; the product does not. This was a recurrent finding in the accessibility audit ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
+
+### Multidisciplinary knowledge is concentrated in people
+
+A credible T1D game can require software engineering, clinical diabetes knowledge, physiology, learning design, game design, accessibility, localisation, privacy governance and lived-experience input. If design rationale and content provenance remain tacit, departure of one researcher or developer can make safe maintenance impractical.
+
+### Proprietary dependencies age quickly
+
+GlucoBoy/DIDGET depended on specialised meters and game hardware. PAL depended on a robot, tablet and dashboard ecosystem. Mobile products depend on developer accounts, store policies, software-development kits and operating-system compatibility. Each dependency creates another termination point.
+
+### Health-data integration raises the operating burden
+
+Products linked to glucose monitoring, insulin data or clinical services require privacy, security, data-retention and therapeutic-boundary decisions. These obligations differ materially from a fictional simulation that does not process personal health data. The distinction should be visible to users and maintainers.
+
+### Localisation is not a one-time translation
+
+Language, food culture, insulin terminology, glucose units, school roles and clinical pathways change the meaning of content. Sustainable localisation requires version control, domain review and a process for propagating scientific corrections across languages.
+
+## Why games are rarely offered during diagnosis education
+
+The literature and product audit support system-level explanations, not an account of any individual clinical encounter:
+
+1. **No stable procurement object:** staff cannot recommend an obsolete build, study login or unsupported device.
+2. **Weak product-level evidence:** pooled reviews rarely identify which current product works for which learner.
+3. **Paediatric concentration:** many designs may appear irrelevant or patronising to newly diagnosed adults.
+4. **Guideline mismatch:** care pathways define educational content but rarely evaluate named games and current versions.
+5. **Workflow constraints:** diagnosis education requires short, reliable and explainable resources that fit clinical teaching.
+6. **Professional trust:** punitive framing, inaccurate physiology or unclear provenance can make a game difficult to endorse.
+7. **Discovery failure:** biomedical databases omit independent games; app stores omit evidence; papers omit surviving access links.
+8. **Equity:** hardware, language, region, reading level, disability access and connectivity determine who can participate.
+
+A brochure is easier to print, revise, approve and hand to every patient. That operational advantage does not mean a brochure teaches dynamic causal relationships better; it means the maintenance and governance burden is lower.
+
+## Availability states used in this knowledge base
+
+| State | Meaning |
+|---|---|
+| **Publicly available** | A working official or distribution access point was located at the verification date |
+| **Region/device limited** | Access was verified only for a specified store, country, language or hardware environment |
+| **Study-only/trial-only** | Access required participation or researcher provision |
+| **Research prototype** | A prototype was documented but no public build was located |
+| **Archived/historical** | Documentation or lawful historical access information survives, but routine contemporary access does not |
+| **Discontinued** | Credible sources indicate that ordinary distribution ended |
+| **Uncertain** | Available evidence was insufficient to determine current access |
+
+Price is recorded separately as free, paid, subscription/service-based, historically paid, not applicable or unknown. “Free” never implies absence of data collection, an account, hardware costs or regional restrictions.
+
+## Minimum survival package for future projects
+
+1. **Versioned release:** archive the exact evaluated build and identify its platform requirements.
+2. **Open metadata:** publish title history, audience, learning objectives, mechanisms, evidence, access and owner contact in a machine-readable record.
+3. **Scientific provenance:** link every clinical or physiological claim to a maintained source register.
+4. **Design rationale:** document what each mechanic is intended to teach and how that claim should be evaluated.
+5. **Separation of content and code:** make text, translations, scenarios and citations reviewable without specialist code changes.
+6. **Sustainable licensing:** use an explicit software and content licence where rights permit; document third-party exclusions.
+7. **Low-dependency distribution:** prefer browser or widely supported platforms when the learning objective does not require specialist hardware.
+8. **Named stewardship:** define who reviews content, handles security, renews infrastructure and decides when a version should be withdrawn.
+9. **Reproducible evaluation:** retain protocols, outcome definitions, analysis code and de-identified aggregate results where lawful.
+10. **Succession process:** make contributor onboarding and project transfer possible before the original investigator leaves.
+
+Open source and artificial intelligence may reduce some programming, documentation and localisation costs, but neither substitutes for clinical accountability, user testing, evidence appraisal, privacy governance or a funded maintenance owner.
+
+## Re-verification schedule
+
+1. Check active core products every six months.
+2. Check store- and region-limited records from at least two regions where practical.
+3. Preserve the previous observation; do not silently overwrite access history.
+4. Record the checked URL, date, device/store context and confidence.
+5. Change “unavailable” only when a public build is found; change “public” when the access point is actually tested or a credible discontinuation notice is located.
+6. Re-run literature searches annually and after a major review publication.
+
+## Image access and republication
+
+The catalogue retains an image source URL, copyright holder and reuse status where these were identifiable. A private scholarly build may display lawfully acquired review copies. A public build should embed only images with adequate permission or licence; otherwise it should provide a labelled link to the official screenshot or source page. Public visibility of an image is not, by itself, republication permission.
+
+## References
+
+[Novak, D. (2024) ‘A serious game (MyDiabetic) to support children's education in type 1 diabetes mellitus: Iterative participatory co-design and feasibility study’, *JMIR Serious Games*, 12, e49478.](https://doi.org/10.2196/49478)
+
+[Nørlev, J. et al. (2022) ‘Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage: A systematic scoping review’, *Journal of Diabetes Science and Technology*, 16(5), pp. 1253–1269.](https://pubmed.ncbi.nlm.nih.gov/34024156/)
+
+[Reinders, E.F.H. et al. (2024) ‘Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers’, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
+
+## Abbreviation glossary
+
+| Abbreviation | Meaning |
+|---|---|
+| T1D | Type 1 diabetes. |

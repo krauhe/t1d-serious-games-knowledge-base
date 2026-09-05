@@ -1,0 +1,77 @@
+---
+title: "Serious Games for Type 1 Diabetes"
+subtitle: "Evidence, availability and design knowledge"
+description: "A structured, evidence-aware entry point to games for type 1 diabetes education and self-management."
+toc: true
+---
+
+## Scope and source note
+
+This section maps digital serious games, simulations, experiential games and selected adjacent gamified products relevant to ==type 1 diabetes (T1D)== education and self-management. It uses the systematic scoping review by [Nørlev et al. (2022)](https://pubmed.ncbi.nlm.nih.gov/34024156/) as an anchor, while extending beyond its September 2020 search cut-off and its focus on children aged 8–14 years. The independent search and availability audit closed on 24 August 2026; the catalogue was updated on 5 September 2026.
+
+This is a structured scoping review and evidence map, not a registered systematic review. Product descriptions are based on publications, registries, official websites and distribution listings. No listed game was directly playtested during this desk-research phase. Availability, price and regional access are therefore dated observations rather than permanent product attributes.
+
+## Executive synthesis
+
+Serious games can provide repeated, low-consequence practice and several small studies report immediate knowledge, procedural or psychosocial improvements. The literature does **not** establish that T1D serious games as a class improve long-term self-management or ==glycated haemoglobin (HbA1c)==. A mixed-diabetes meta-analysis found no statistically significant HbA1c effect (mean difference −0.09 percentage points, 95% confidence interval −0.29 to 0.10; *P*=.36) ([Yao et al., 2024](https://doi.org/10.2196/43574)). A 2026 paediatric T1D scoping review identified 23 studies: mobile applications accounted for 52%, goal setting, challenges, and fun were each coded in 96%, social features in 35%, and 70% of studies lacked an explicit theoretical framework. The review reported promising effects across several outcome classes but concluded that sustained benefit remains inadequately established ([Guan et al., 2026](https://doi.org/10.1186/s12887-026-07142-5)).
+
+The field also has an availability problem. In a 2024 review and accessibility audit, 21 of 23 research-origin games were not publicly available, whereas app-store products were easier to obtain but generally lacked peer-reviewed product evaluation ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)). Research evidence and public access frequently concern different products.
+
+The current catalogue contains **45** games, prototypes and explicitly labelled adjacent products. It includes T1D Simulator as one developer-led public product under the same evidence, provenance and availability criteria as every other record. Its public release is documented, but no peer-reviewed educational outcome evidence was identified.
+
+![Figure 1. Selected milestones in T1D serious games. The four columns show changes in platform and educational structure from console games to mobile, tangible, participatory, browser, virtual-reality and exergame formats. The examples are illustrative rather than exhaustive. Column colour identifies historical period, not evidence quality or effectiveness.](../../figures/original/t1d-games-selected-timeline.svg)
+
+## What can be concluded?
+
+| Epistemic category | Current conclusion |
+|---|---|
+| **Established** | Individual games can be acceptable and can produce short-term, test-proximal knowledge or procedural gains. Research-game public availability is poor. |
+| **Plausible, with partial evidence** | Well-scaffolded simulation may strengthen causal mental models; narrative may support identification and discussion; focused procedural rehearsal may reduce task-related distress. |
+| **Unsupported as a general claim** | Gamification reliably improves HbA1c; satisfaction proves learning; app-store ratings demonstrate clinical benefit; a scientifically detailed model automatically produces understanding. |
+| **Unknown** | Which mechanisms support durable transfer; the required dose of play; comparative effectiveness between genres; effects in newly diagnosed adults; long-term harms, equity and maintenance. |
+
+## Conceptual boundaries
+
+A **serious game** is a complete game intended to produce an outcome beyond entertainment, such as knowledge, procedural competence, coping or professional learning. The label does not guarantee educational quality.
+
+**Gamification** adds selected game-design elements—such as points, streaks, quests or badges—to an activity that is not otherwise a complete game. Rewarding glucose logging is not equivalent to teaching interpretation.
+
+A **simulation** is an interactive representation of a system. It becomes a serious game when goals, constraints, progression, feedback and meaningful agency are added. Physiological fidelity and pedagogical fidelity are separate properties.
+
+An **experiential game** primarily represents what living with a condition feels like or demands. Appropriate outcomes may include reflection, recognition or empathy rather than factual knowledge or dosing competence.
+
+**Transfer** is the application of learning beyond the practised task. Immediate recall of the same material is not evidence of transfer to unfamiliar scenarios or daily self-management.
+
+## Navigate this section
+
+1. [Evidence map](evidence-map.qmd) — outcome studies, methodological strength and permitted claims.
+2. [Complete catalogue](catalogue.qmd) — all 45 records with audience, platform, provenance, evidence and access links.
+3. [Availability and sustainability](availability.qmd) — current access, discontinuation and why research games often disappear.
+4. [Selected profiles](profiles.qmd) — evidence-aware descriptions of active, historical, research and experiential games.
+5. [`data/games.json`](../../data/games.json) — the machine-readable source, including uncertainty and verification dates.
+
+## Interpretation principles
+
+1. **Outcome proximity matters.** A quiz score, observed procedure, self-reported behaviour and clinical biomarker answer different questions.
+2. **Acceptability is not effectiveness.** Completion and satisfaction show that an intervention can be used, not that it produces learning or health benefit.
+3. **A compound intervention cannot identify a game effect.** If a study combines a game with animation, coaching or exercise, the components cannot be credited separately without an appropriate design.
+4. **Public visibility is not scientific validation.** Store ratings, downloads and developer testimonials are adoption or marketing signals.
+5. **Publication is not availability.** A peer-reviewed prototype may remain inaccessible outside its study population.
+6. **Absence of evidence is recorded explicitly.** “No evaluation located” is not equivalent to evidence of no effect.
+
+## References
+
+[Nørlev, J. et al. (2022) ‘Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage: A systematic scoping review’, *Journal of Diabetes Science and Technology*, 16(5), pp. 1253–1269.](https://pubmed.ncbi.nlm.nih.gov/34024156/)
+
+[Guan, Y. et al. (2026) ‘Application of gamified interventions in children with type 1 diabetes: A scoping review’, *BMC Pediatrics*, 26, 779.](https://doi.org/10.1186/s12887-026-07142-5)
+
+[Reinders, E.F.H. et al. (2024) ‘Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers’, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
+
+[Yao, M. et al. (2024) ‘Effects of electronic games on diabetes self-management and outcomes: Systematic review and meta-analysis’, *Journal of Medical Internet Research*, 26, e43574.](https://doi.org/10.2196/43574)
+
+## Abbreviation glossary
+
+| Abbreviation | Meaning |
+|---|---|
+| HbA1c | Glycated haemoglobin; a biomarker reflecting average glycaemia over approximately 2–3 months. |
+| T1D | Type 1 diabetes; autoimmune diabetes requiring exogenous insulin. |

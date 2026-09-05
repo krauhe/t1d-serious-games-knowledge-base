@@ -1,0 +1,104 @@
+---
+title: "Glucose–insulin model families"
+description: "A purpose-led comparison of mechanistic, control-oriented, stochastic, and data-driven models relevant to type 1 diabetes serious games."
+status: "Foundational synthesis"
+updated: 2026-09-05
+evidence-cutoff: "Curated source review updated through 2025; links checked in the source review"
+source-note: "General research-model comparison; inclusion does not imply endorsement for clinical use."
+---
+
+A model is a claim about which mechanisms matter for a particular purpose. For ==type 1 diabetes== (T1D) serious games, the best model is not automatically the most anatomically detailed or the model with the best short-horizon prediction. It is the simplest model that preserves the causal relationships required by the learning objectives, behaves safely at edge cases, and can be validated for its intended use.
+
+[Back to module index](index.qmd) · [Glucose–insulin system](glucose-insulin-system.qmd) · [Variability and safety](variability-and-safety.qmd)
+
+## Distinguish model purpose before model structure
+
+Research models serve different questions:
+
+- **Physiological explanation:** Which organs, pools, and signals account for observed fluxes?
+- **Parameter estimation:** Can insulin sensitivity or glucose effectiveness be identified from an experiment?
+- **Control design:** What compact dynamics are sufficient to predict and regulate glucose over a short horizon?
+- **In silico trials:** Does a controller remain safe across a virtual population and specified disturbances?
+- **Education:** Does the representation produce interpretable consequences that support a learning objective?
+
+A model validated for one purpose is not automatically valid for another. Good controller performance does not establish anatomical fidelity; reproducing an average meal curve does not establish exercise validity; and a plausible educational trajectory is not evidence of clinical predictive accuracy ([Cobelli et al., 2009](https://pubmed.ncbi.nlm.nih.gov/20948577/)).
+
+## Major model families
+
+| Family and examples | Core abstraction | Strengths | Important limitations |
+|---|---|---|---|
+| Minimal identification models, including Bergman | A compact glucose compartment plus a remote insulin-action state | Few parameters; useful for estimating insulin sensitivity from intravenous tests | No oral meal or subcutaneous depot in the original form; incomplete representation of T1D daily life ([Bergman et al., 1979](https://pubmed.ncbi.nlm.nih.gov/443421/)) |
+| Organ-resolved physiological models, including Sorensen | Multiple organ and vascular compartments with explicit hormone and substrate flows | Mechanistic interpretation and organ-level questions | Many parameters, difficult individual identification, and input routes that may not match everyday T1D ([Sorensen, 1985](https://hdl.handle.net/1721.1/15234)) |
+| Control-oriented compartmental models, including Hovorka | Subcutaneous insulin depots, plasma insulin, glucose pools, meal appearance, and separate insulin-action channels | Published parameters, tractability, and extensive use in closed-loop research | Linear insulin action in the original formulation; no native exercise or glucagon subsystem ([Hovorka et al., 2004](https://pubmed.ncbi.nlm.nih.gov/15382830/)) |
+| Meal-centred whole-body models, including Dalla Man and the Virginia–Padova platform | Detailed meal appearance, nonlinear utilization, hepatic regulation, and virtual subjects | Strong postprandial structure and broad use for preclinical controller evaluation | Complex calibration; individual virtual-subject parameters are not fully open ([Dalla Man et al., 2007](https://pubmed.ncbi.nlm.nih.gov/17926672/); [Dalla Man et al., 2014](https://pubmed.ncbi.nlm.nih.gov/24876534/)) |
+| Stochastic virtual-population models, including Cambridge extensions | A mechanistic core plus between-person and within-person variability and sensor error | Supports robustness testing and distributions of outcomes | Statistical variability may not identify the biological cause of each deviation ([Wilinska et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20167177/)) |
+| Online control and data-driven models | Empirical insulin-action curves, system identification, machine learning, or hybrids | Adaptation and short-horizon operational prediction | Limited physiological interpretability; vulnerable to data shift and hidden confounding ([Bondia et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29994703/)) |
+
+The Virginia–Padova platform was accepted by the ==United States Food and Drug Administration== (FDA) for specified preclinical evaluation of artificial-pancreas control strategies, an important regulatory milestone. That status applies to an intended regulatory use and validation programme; it does not mean that every extension, game mechanic, or educational claim inherits regulatory validation ([Kovatchev et al., 2009](https://pubmed.ncbi.nlm.nih.gov/21129332/)).
+
+## Structural choices that matter in games
+
+### One glucose pool or several
+
+A one-pool model is easy to explain but cannot naturally represent blood-to-interstitial lag or delayed tissue exchange. Two-pool models can distinguish an accessible circulation from a more slowly equilibrating peripheral pool, but those pools are mathematical aggregates rather than literal anatomical containers ([Cengiz and Tamborlane, 2009](https://pubmed.ncbi.nlm.nih.gov/19469670/)).
+
+### Linear or saturating insulin action
+
+Linear insulin-action states are identifiable and computationally convenient. Human clamp evidence shows, however, that insulin effects are nonlinear and tissue-specific: suppression of lipolysis and hepatic glucose production saturates at lower concentrations than stimulation of whole-body disposal ([Rizza et al., 1981](https://pubmed.ncbi.nlm.nih.gov/7011057/)). Extrapolating a linear model far beyond its calibration range can therefore produce implausible effects.
+
+### Deterministic or stochastic trajectories
+
+Deterministic models make causal demonstrations reproducible. Stochastic components can represent absorption, sensitivity, meals, and measurement variation, but unexplained noise can frustrate learners. A useful compromise is hierarchical variability: stable virtual-person traits, slower day-level modifiers, and small event-level variation, each bounded and disclosed.
+
+### Mechanistic or data-driven modifiers
+
+Mechanistic states support explanation and counterfactual exploration. Data-driven residual models can improve prediction within the training distribution, but may encode correlations without teachable causal meaning. Hybrid models should label which outputs arise from known structure and which arise from learned correction.
+
+## Evidence and validation ladder
+
+1. **Dimensional and conservation checks:** units, non-negative stores, and mass-balance behaviour are coherent.
+2. **Mechanism-level checks:** isolated meals, insulin, activity, and counterregulation have the expected direction and time order.
+3. **Scenario checks:** combinations reproduce qualitative findings from relevant human studies.
+4. **Population checks:** variability spans plausible outcomes without relying on implausible parameter combinations.
+5. **Edge-case checks:** prolonged insulin deficiency, overlapping insulin and exercise, delayed meals, and sensor lag do not create silent numerical or conceptual failures.
+6. **Educational checks:** intended learners form more accurate mental models and do not interpret the game as personal treatment guidance.
+
+The final step is not reducible to physiological fit. Educational validity requires user research and learning-outcome evaluation.
+
+### Evidence limitations
+
+- Published model parameters often come from small, demographically narrow cohorts and controlled protocols.
+- Model comparison is complicated by different inputs, outputs, datasets, and intended uses.
+- Proprietary parameter sets restrict independent reproduction.
+- Exercise, stress, illness, menstrual-cycle effects, and long-term adaptation remain incompletely represented in general-purpose glucose–insulin models.
+- “Virtual patient” is a modelling term, not proof that the simulation predicts a real individual.
+
+## Implications for serious-game design
+
+::: {.callout-note title="Modelling and design inference"}
+1. Select structure from learning objectives, then document omitted physiology.
+2. Use published models as evidence-bearing components, not as authority for uncited extensions.
+3. Validate every newly added modifier independently before testing combinations.
+4. Keep population variability separate from player personalisation unless real clinical validation and governance exist.
+5. Make uncertainty visible in explanatory text, scenario ranges, or repeated trials.
+6. Avoid outputs that resemble personal dose calculators or clinical predictions.
+:::
+
+## References
+
+- [Bergman, R.N. et al. (1979). Quantitative estimation of insulin sensitivity. *American Journal of Physiology*, 236, E667–E677.](https://pubmed.ncbi.nlm.nih.gov/443421/)
+- [Bondia, J. et al. (2018). Insulin estimation and prediction in closed-loop glucose control. *IEEE Journal of Biomedical and Health Informatics*, 22, 1730–1745.](https://pubmed.ncbi.nlm.nih.gov/29994703/)
+- [Cengiz, E. and Tamborlane, W.V. (2009). A tale of two compartments: interstitial versus blood glucose monitoring. *Diabetes Technology & Therapeutics*, 11(Suppl 1), S11–S16.](https://pubmed.ncbi.nlm.nih.gov/19469670/)
+- [Cobelli, C. et al. (2009). Diabetes: models, signals, and control. *IEEE Reviews in Biomedical Engineering*, 2, 54–96.](https://pubmed.ncbi.nlm.nih.gov/20948577/)
+- [Dalla Man, C., Rizza, R.A. and Cobelli, C. (2007). Meal simulation model of the glucose–insulin system. *IEEE Transactions on Biomedical Engineering*, 54, 1740–1749.](https://pubmed.ncbi.nlm.nih.gov/17926672/)
+- [Dalla Man, C. et al. (2014). The Virginia–Padova type 1 diabetes simulator: new features. *Journal of Diabetes Science and Technology*, 8, 26–34.](https://pubmed.ncbi.nlm.nih.gov/24876534/)
+- [Hovorka, R. et al. (2004). Nonlinear model predictive control of glucose concentration in subjects with type 1 diabetes. *Physiological Measurement*, 25, 905–920.](https://pubmed.ncbi.nlm.nih.gov/15382830/)
+- [Kovatchev, B.P. et al. (2009). In silico preclinical trials: a proof of concept in closed-loop control. *Journal of Diabetes Science and Technology*, 3, 44–55.](https://pubmed.ncbi.nlm.nih.gov/21129332/)
+- [Rizza, R.A., Mandarino, L.J. and Gerich, J.E. (1981). Dose-response characteristics for effects of insulin on production and utilization of glucose in man. *American Journal of Physiology*, 240, E630–E639.](https://pubmed.ncbi.nlm.nih.gov/7011057/)
+- [Sorensen, J.T. (1985). *A physiologic model of glucose metabolism in man and its use to design and assess improved insulin therapies*. Massachusetts Institute of Technology.](https://hdl.handle.net/1721.1/15234)
+- [Wilinska, M.E. et al. (2010). Simulation environment to evaluate closed-loop insulin delivery systems in type 1 diabetes. *Journal of Diabetes Science and Technology*, 4, 132–144.](https://pubmed.ncbi.nlm.nih.gov/20167177/)
+
+## Abbreviation glossary
+
+- **FDA:** United States Food and Drug Administration.
+- **T1D:** type 1 diabetes.

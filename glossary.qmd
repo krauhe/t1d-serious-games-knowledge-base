@@ -1,0 +1,65 @@
+---
+title: "Evidence and Design Glossary"
+description: "Operational definitions used across the T1D serious-games knowledge base."
+date: "2026-09-05"
+---
+
+# Evidence and Design Glossary
+
+## Product and intervention categories
+
+**Serious game.** A game designed with an explicit purpose beyond entertainment, while still using rules, goals, player actions, feedback, challenge, or other game structures. The label does not itself establish educational or clinical effectiveness.
+
+**Simulation.** A manipulable representation of a system that allows users to test actions and observe model-generated consequences. A simulation may or may not be a game.
+
+**Gamification.** The addition of selected game-associated elements, such as points, badges, streaks, quests, or leaderboards, to an activity that is not otherwise structured as a game.
+
+**Experiential game.** A game intended to communicate part of an experience, perspective, or emotional burden. Its primary purpose may be empathy or reflection rather than disease-management competence.
+
+**Exergame.** A game in which physical activity is a principal mode of interaction or intended behavioural outcome.
+
+**Prototype.** An incomplete or restricted implementation used to investigate requirements, feasibility, interaction, or a design hypothesis. Prototype status must not be interpreted as public availability.
+
+## Evidence terms
+
+**Controlled outcome study.** A study that compares an intervention group with a concurrent or otherwise specified control condition.
+
+**Feasibility.** Whether recruitment, delivery, adherence, data collection, and intervention use are workable enough to justify a larger study. Feasibility is not synonymous with effectiveness.
+
+**Usability.** The extent to which intended users can operate a product effectively, efficiently, and satisfactorily in a specified context.
+
+**Acceptability.** The extent to which users consider an intervention appropriate or tolerable. Acceptability can coexist with no measurable learning effect.
+
+**Transfer.** Application of knowledge or skill to a task or context that was not directly rehearsed. Near transfer concerns similar situations; far transfer concerns materially different situations.
+
+**Self-efficacy.** A person's belief that they can perform a specific behaviour or manage a class of situations. It is task- and context-dependent rather than a general personality score.
+
+**Surrogate endpoint.** A measurement used as a substitute for a patient-important outcome. A surrogate may be useful without fully predicting clinical benefit.
+
+## Epistemic labels
+
+**Direct evidence.** Evidence from a T1D serious-game population and outcome relevant to the claim being made.
+
+**Adjacent evidence.** Evidence from a related population, disease, intervention, platform, or educational setting. It may inform a design hypothesis but does not directly establish the same effect in T1D.
+
+**Industry practice.** A documented convention used in commercial or professional game development. It is not treated as health-effect evidence.
+
+**Design inference.** A reasoned proposal derived from theory, mechanism, observation, or adjacent evidence that remains to be tested in the intended context.
+
+**Product claim.** A statement made by a developer, owner, distributor, or marketing source that has not been independently established as an outcome.
+
+## Common abbreviations
+
+**AR - Augmented reality.** Digital elements are overlaid on a view of the physical environment.
+
+**CGM - Continuous glucose monitoring.** A sensor estimates interstitial glucose repeatedly over time and displays current values and trends.
+
+**HbA1c - Glycated haemoglobin.** A marker reflecting average glycaemia over approximately two to three months.
+
+**RCT - Randomised controlled trial.** Participants are assigned by a random process to intervention and comparator conditions.
+
+**T1D - Type 1 diabetes.** An autoimmune disease requiring exogenous insulin because insulin-producing beta cells are destroyed.
+
+**T2D - Type 2 diabetes.** A heterogeneous metabolic disease characterised by insulin resistance and progressive impairment of insulin secretion.
+
+**VR - Virtual reality.** A computer-generated environment presented with an immersive display, commonly a headset.

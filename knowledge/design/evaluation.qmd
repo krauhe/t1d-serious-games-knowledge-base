@@ -1,0 +1,214 @@
+---
+title: "Evaluation and Outcome Measurement"
+description: "A staged framework for testing usability, learning, transfer, psychosocial outcomes and clinical effects"
+---
+
+## Scope and source note
+
+This chapter describes an evaluation programme for ==type 1 diabetes (T1D)== serious games. It separates product operation, player experience, learning, transfer, behaviour, psychosocial outcomes and clinical endpoints. The central rule is to measure the construct the intervention is intended to change and to match the strength of the claim to the study design.
+
+## The outcome ladder
+
+| Domain | Example question | Example measure | What it does not establish |
+|---|---|---|---|
+| Reach | Who can find and start the product? | Eligible users reached; device/language exclusions | Effective use |
+| Usability | Can users operate it? | Task completion, error recovery, System Usability Scale | Learning |
+| Engagement | Do users voluntarily attend and return? | Starts, active use, completion, exposure distribution | Benefit |
+| Experience | How is play perceived? | Competence, autonomy, curiosity, meaning, ease of control | Knowledge or behaviour |
+| Knowledge | Can users retrieve the taught content? | Parallel-form test, delayed recall | Practical competence |
+| Causal reasoning | Can users predict and explain a new scenario? | Unseen-case prediction and explanation rubric | Real-world behaviour |
+| Procedure | Can users perform a specified task? | Observed simulation or checklist | Broad self-management |
+| Psychosocial | Did task-specific confidence or distress change? | Validated construct-specific instrument | Glycaemic benefit |
+| Behaviour | Did an action change outside the game? | Prospectively defined observation or report | Clinical causality |
+| Clinical | Did health status change? | Glycated haemoglobin, time in range, acute events | Which game component caused it |
+| Implementation | Can organisations adopt and maintain it? | Reach, fidelity, cost, support load, continued availability | Individual efficacy |
+
+Satisfaction cannot be promoted upward on this ladder. A highly rated game may teach little; an effective practice task may be demanding rather than immediately enjoyable.
+
+## Build a theory of change before selecting instruments
+
+A minimum theory of change should specify:
+
+1. **Population and setting:** age, diagnosis stage, prior knowledge, treatment context, language and relevant access needs.
+2. **Intervention:** game version, content, mechanics, feedback, expected exposure and co-interventions.
+3. **Active mechanism:** retrieval, procedural rehearsal, causal comparison, narrative identification, caregiver discussion or another explicit process.
+4. **Proximal outcome:** the first measurable change expected from that mechanism.
+5. **Transfer pathway:** how the proximal change could influence behaviour or well-being outside the game.
+6. **Distal outcome:** any clinical or service consequence, with a plausible time horizon.
+7. **Harms:** misconceptions, anxiety, shame, unsafe overgeneralisation, privacy loss or inequitable exclusion.
+
+> **Evidence label — Direct T1D evidence.** Packy & Marlon changed parent-reported self-care and communication without changing knowledge or glycated haemoglobin. Koodak-e-Tavana changed a narrow distress outcome after a week. These patterns show why outcomes should follow the intervention's causal target rather than defaulting to one universal endpoint ([Brown et al., 1997](https://doi.org/10.3109/14639239709089835); [Ebrahimpour et al., 2015](https://doi.org/10.5812/ijp.25(3)2015.427)).
+
+## Stage 1: formative and usability evaluation
+
+Formative work asks whether intended users understand the representation, instructions, controls and feedback. It can identify failure modes efficiently but does not estimate effectiveness.
+
+### Recommended observations
+
+1. time and number of decisions to first meaningful action;
+2. comprehension of axes, timing and delayed effects;
+3. task completion without facilitator rescue;
+4. error type, recovery route and repeated error;
+5. use and interpretation of feedback;
+6. abandonment at each step;
+7. accessibility barriers by input, vision, hearing, reading and device;
+8. emotional response, misconceptions and unsafe interpretation;
+9. whether the distinction between fictional simulation and personal advice is understood.
+
+Small moderated samples can reveal prominent interface problems; they cannot establish population prevalence. Report recruitment, prior familiarity, tasks, facilitator prompts and how design changes were derived. Participatory co-design adds lived expertise but should distinguish user preference from outcome evidence. MyDiabetic and Nørlev et al.'s smartphone work are T1D examples of documented participatory development ([Novak, 2024](https://doi.org/10.2196/49478); [Nørlev et al., 2022](https://doi.org/10.2196/33955)).
+
+> **Evidence label — Industry practice.** Funnel analytics and screen-level abandonment can locate friction in public products. They should be privacy-minimised and interpreted together with qualitative observation; absence of a click does not reveal why a learner stopped.
+
+## Stage 2: feasibility and signal detection
+
+A feasibility study asks whether recruitment, delivery, measurement, retention and safety procedures work well enough for a definitive test. Pre/post change in a single group can provide a signal, but it cannot separate intervention effects from testing, maturation, regression to the mean, researcher attention or concurrent education.
+
+Report at minimum:
+
+1. number screened, eligible, enrolled, started and analysed;
+2. reasons for non-participation and attrition;
+3. offered and actual exposure distributions;
+4. technical failures and support contacts;
+5. missing outcome data by group and time point;
+6. all prespecified outcomes, including null and adverse findings;
+7. intervention version and changes made during the study;
+8. feasibility progression criteria established before analysis.
+
+> **Evidence label — Direct T1D evidence.** The emoTICare analysis included 44 of 73 enrolled adolescents. Improvements after the intervention are useful pilot signals, but loss between enrolment and analysis and the lack of a concurrent control group constrain causal inference ([Martín-Ávila et al., 2025](https://doi.org/10.3389/fendo.2025.1668398)).
+
+## Stage 3: controlled outcome evaluation
+
+The comparator determines the scientific question:
+
+| Comparator | Question answered |
+|---|---|
+| No intervention or waitlist | Does the package outperform no added programme? |
+| Usual education | Does adding the game improve outcomes under routine conditions? |
+| Attention-matched non-educational game | Is the content more important than device access and play time? |
+| Brochure or video with matched content | Does interactivity add value beyond content exposure? |
+| Alternative game mechanic | Which mechanism is more effective? |
+| Dismantling design | Is a component such as explanatory feedback or counterfactual replay active? |
+
+Blinding participants to receiving a game is usually impossible. Allocation concealment, blinded outcome assessment where feasible, prespecified analysis and parallel-form tests still reduce bias. The intervention should be reported with sufficient detail to reproduce its version, content and exposure. The ==Template for Intervention Description and Replication (TIDieR)== checklist and ==Consolidated Standards of Reporting Trials for electronic and mobile health (CONSORT-EHEALTH)== extension provide relevant reporting structures ([Hoffmann et al., 2014](https://doi.org/10.1136/bmj.g1687); [Eysenbach, 2011](https://doi.org/10.2196/jmir.1923)).
+
+> **Evidence label — Direct T1D evidence.** The Packy & Marlon study used an entertainment-game control, which controlled some attention and hardware effects. Its n=59 sample, self-reported outcomes and 1990s delivery context limit current generalisation, but its comparator remains methodologically informative ([Brown et al., 1997](https://doi.org/10.3109/14639239709089835)).
+
+## Measuring learning and transfer
+
+An assessment should sample the intended knowledge domain rather than repeat the exact game questions. Good practice includes:
+
+1. create a content blueprint before writing items;
+2. use parallel, non-identical forms at baseline and follow-up;
+3. include confidence or explanation when guessing is plausible;
+4. score safety-critical misconceptions separately from total knowledge;
+5. use at least one delayed assessment;
+6. predefine near- and far-transfer tasks;
+7. blind rubric scorers where practicable;
+8. report instrument reliability and validity evidence in the study population.
+
+For causal reasoning, use unfamiliar traces or scenarios. Ask the participant to predict direction and timing, select an informative intervention, explain the mechanism and identify residual uncertainty. A total score should not conceal a dangerous causal misconception.
+
+> **Evidence label — Adjacent evidence.** Retrieval research supports delayed testing and transfer-oriented prompts, while game-evaluation reviews document overreliance on immediate knowledge and instruments with weak validity evidence ([Butler, 2010](https://doi.org/10.1037/a0019902); [Gris and Bengtson, 2021](https://doi.org/10.17083/ijsg.v8i1.383)).
+
+> **Evidence label — Direct T1D evidence gap.** Delayed transfer to unfamiliar T1D scenarios is rarely tested. A simulation should not claim to teach causal reasoning until performance improves on cases not encountered during play.
+
+## Measuring player experience and engagement
+
+Engagement has behavioural and experiential components. Behavioural exposure includes starts, active minutes, sessions and completion. Experience includes mastery, autonomy, curiosity, immersion, meaning and ease of control. These constructs should not be collapsed into one “engagement” number.
+
+The ==Player Experience Inventory (PXI)== provides a validated multidimensional framework for player experience, but a translation or shortened version requires new validation before it can be presented as equivalent ([Vanden Abeele et al., 2020](https://doi.org/10.1016/j.ijhcs.2019.102370)).
+
+Report distributions rather than only averages. Ten highly active participants can obscure many who never reach the first learning action. Satisfaction should include non-completers where possible; completer-only surveys are vulnerable to survivorship bias.
+
+## Measuring self-efficacy, distress and communication
+
+Use construct-specific measures:
+
+1. task-specific self-efficacy for the exact capability practised;
+2. validated diabetes-distress or procedure-distress instruments for the intended age;
+3. observed performance where feasible;
+4. family communication or conflict instruments if a caregiver mechanism is proposed;
+5. qualitative interviews to identify unanticipated effects;
+6. prespecified adverse emotional outcomes.
+
+Do not treat lower perceived threat as uniformly beneficial; risk comprehension and emotional burden are different constructs. Do not infer clinical anxiety or depression from an ad hoc mood item. Psychological claims require suitable expertise, safeguarding and referral procedures.
+
+## Behavioural and clinical endpoints
+
+Clinical outcomes are often distal to educational exposure. Glycated haemoglobin integrates average glycaemia over preceding months and is influenced by treatment, technology, access, life events and baseline control. ==Continuous glucose monitoring (CGM)== metrics can describe glucose exposure more granularly, but remain inappropriate as the sole test of a short factual game.
+
+> **Evidence label — Direct diabetes evidence.** A meta-analysis across diabetes types found no significant pooled glycated-haemoglobin effect from electronic games: mean difference −0.09 percentage points (95% confidence interval −0.29 to 0.10; P=.36; seven studies, n=607). Intervention and population heterogeneity prevents a T1D-specific class-effect claim ([Yao et al., 2024](https://doi.org/10.2196/43574)).
+
+If clinical outcomes are selected, specify the expected pathway, exposure duration, baseline range, co-interventions, sensor-data completeness, multiplicity and clinically meaningful difference. International consensus definitions can standardise CGM endpoints such as time in range, but standardisation does not make them causally appropriate for every intervention ([Battelino et al., 2019](https://doi.org/10.2337/dci19-0028)).
+
+## Implementation, equity and sustainability outcomes
+
+Evaluation should extend beyond individual efficacy. ==Reach, Effectiveness, Adoption, Implementation and Maintenance (RE-AIM)== is one framework for asking who participates, which organisations adopt, how delivery differs from the protocol, what it costs and whether use continues ([Glasgow et al., 1999](https://doi.org/10.2105/AJPH.89.9.1322)).
+
+Record:
+
+1. access by age, language, region, device and disability;
+2. educator or clinician time required;
+3. support workload and recurrent cost;
+4. fidelity and legitimate local adaptation;
+5. privacy and account barriers;
+6. availability six and twelve months after the study;
+7. ownership of clinical-content and software updates;
+8. version compatibility between the evaluated and public product.
+
+> **Evidence label — Direct T1D evidence.** Reinders et al. found that 21 of 23 research-origin diabetes games were not publicly available in their 2024 audit. Availability is therefore an outcome that must be measured independently of efficacy ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
+
+## Claim matrix
+
+| Finding | Defensible claim | Overclaim |
+|---|---|---|
+| Users completed tasks in testing | The tested build was usable for these tasks and participants | The product is accessible to all intended users |
+| Immediate knowledge increased in one group | Results are compatible with test-proximal learning | The game caused durable knowledge gain |
+| A controlled test improved novel-case performance | The evaluated package improved measured transfer under study conditions | Real-world self-management improved |
+| Self-reported confidence increased | Task confidence increased on the selected measure | Objective competence increased |
+| A compound intervention changed glycated haemoglobin | The package may have affected the endpoint | The game mechanic caused the effect |
+| App-store ratings are favourable | Reviewers who posted ratings were favourable | The product is safe or effective |
+
+## Minimum protocol set
+
+1. Public protocol and prespecified primary outcome.
+2. Versioned intervention description and content map.
+3. Recruitment and attrition flow.
+4. Appropriate comparator and justified sample size.
+5. Direct, valid measurement of the target construct.
+6. Immediate and delayed assessment where learning durability is claimed.
+7. Unseen scenario where transfer is claimed.
+8. Usability, exposure and adverse-effect reporting.
+9. Equity and accessibility description.
+10. Public availability and maintenance follow-up.
+
+The United Kingdom Medical Research Council framework for complex interventions emphasises programme theory, context, stakeholder engagement and iterative development; it is a useful orientation when the “game” is a package of software, teaching, support and clinical context rather than an isolated binary treatment ([Skivington et al., 2021](https://doi.org/10.1136/bmj.n2061)).
+
+## References
+
+- [Battelino, T. et al. (2019) “Clinical targets for continuous glucose monitoring data interpretation: recommendations from the international consensus on time in range”, *Diabetes Care*, 42(8), pp. 1593–1603.](https://doi.org/10.2337/dci19-0028)
+- [Brown, S.J. et al. (1997) “Educational video game for juvenile diabetes: results of a controlled trial”, *Medical Informatics*, 22(1), pp. 77–89.](https://doi.org/10.3109/14639239709089835)
+- [Butler, A.C. (2010) “Repeated testing produces superior transfer of learning relative to repeated studying”, *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 36(5), pp. 1118–1133.](https://doi.org/10.1037/a0019902)
+- [Ebrahimpour, F. et al. (2015) “Effect of playing interactive computer game on distress of insulin injection among type 1 diabetic children”, *Iranian Journal of Pediatrics*, 25(3), e427.](https://doi.org/10.5812/ijp.25(3)2015.427)
+- [Eysenbach, G. (2011) “CONSORT-EHEALTH: improving and standardizing evaluation reports of web-based and mobile health interventions”, *Journal of Medical Internet Research*, 13(4), e126.](https://doi.org/10.2196/jmir.1923)
+- [Glasgow, R.E., Vogt, T.M. and Boles, S.M. (1999) “Evaluating the public health impact of health promotion interventions: the RE-AIM framework”, *American Journal of Public Health*, 89(9), pp. 1322–1327.](https://doi.org/10.2105/AJPH.89.9.1322)
+- [Gris, G. and Bengtson, C. (2021) “Assessment measures in game-based learning research: a systematic review”, *International Journal of Serious Games*, 8(1), pp. 3–26.](https://doi.org/10.17083/ijsg.v8i1.383)
+- [Hoffmann, T.C. et al. (2014) “Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide”, *BMJ*, 348, g1687.](https://doi.org/10.1136/bmj.g1687)
+- [Novak, D. (2024) “A serious game (MyDiabetic) to support children's education in type 1 diabetes mellitus: Iterative participatory co-design and feasibility study”, *JMIR Serious Games*, 12, e49478.](https://doi.org/10.2196/49478)
+- [Martín-Ávila, A. et al. (2025) “The impact of the emoTICare program on socioemotional adjustment and psychological well-being in adolescents with type 1 diabetes mellitus”, *Frontiers in Endocrinology*, 16, 1668398.](https://doi.org/10.3389/fendo.2025.1668398)
+- [Nørlev, J. et al. (2022) “Using distance communication for the user-centered development of a smartphone-based serious game for children with type 1 diabetes: Participatory design approach”, *JMIR Serious Games*, 10(1), e33955.](https://doi.org/10.2196/33955)
+- [Reinders, E.F.H. et al. (2024) “Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers”, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
+- [Skivington, K. et al. (2021) “A new framework for developing and evaluating complex interventions: update of Medical Research Council guidance”, *BMJ*, 374, n2061.](https://doi.org/10.1136/bmj.n2061)
+- [Vanden Abeele, V. et al. (2020) “Development and validation of the Player Experience Inventory”, *International Journal of Human-Computer Studies*, 135, 102370.](https://doi.org/10.1016/j.ijhcs.2019.102370)
+- [Yao, M. et al. (2024) “Effects of electronic games on diabetes self-management and outcomes: systematic review and meta-analysis”, *Journal of Medical Internet Research*, 26, e43574.](https://doi.org/10.2196/43574)
+
+## Abbreviation glossary
+
+| Abbreviation | Meaning |
+|---|---|
+| CGM | Continuous glucose monitoring. A sensor-based method that estimates interstitial glucose repeatedly over time. |
+| CONSORT-EHEALTH | Consolidated Standards of Reporting Trials for electronic and mobile health. A reporting extension for trials delivered through web and mobile technologies. |
+| PXI | Player Experience Inventory. A multidimensional questionnaire for evaluating player experience. |
+| RE-AIM | Reach, Effectiveness, Adoption, Implementation and Maintenance. An implementation framework spanning individual and organisational outcomes. |
+| T1D | Type 1 diabetes. Autoimmune loss of insulin-producing beta cells creates a lifelong need for exogenous insulin. |
+| TIDieR | Template for Intervention Description and Replication. A checklist for describing an intervention sufficiently for replication. |

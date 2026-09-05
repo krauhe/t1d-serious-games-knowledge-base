@@ -1,0 +1,247 @@
+---
+title: "Selected Game Profiles"
+subtitle: "Purpose, provenance, evidence, access and transferable design observations"
+description: "Evidence-aware profiles of current, historical, research and experiential games relevant to type 1 diabetes."
+toc: true
+---
+
+## Scope and image policy
+
+These profiles expand the most consequential records in the complete catalogue of ==type 1 diabetes (T1D)== games. They describe documented product characteristics and study findings; they are not direct play reviews. Every record remains `not_playtested` for this desk-research phase.
+
+No third-party game image is embedded on this public-source page. “Image/source” links lead to an official page, store listing, article figure or historical source. The JSON catalogue separately records a private-review file path where a local copy exists, together with source URL, copyright holder and reuse status. Public visibility does not by itself authorise republication.
+
+## Currently available core games
+
+### AvaType1
+
+**Purpose and loop.** AvaType1 combines simulated T1D decisions with arcade-style activities. It is principally presented for children aged 6–12, while teen, adult and technical lesson tiers attempt to support different depths of explanation.
+
+**Provenance.** The product is independent and lived-experience-led. The developer describes living with T1D and beginning the project after a daughter’s diagnosis.
+
+**Evidence.** No peer-reviewed product outcome evaluation was located. Feature breadth and developer experience should therefore be reported as provenance, not effectiveness.
+
+**Access.** Free public iOS/iPadOS distribution in English was verified in 2026. [Official product and image source](https://avatype1.com/).
+
+**Design relevance.** Layered explanations may let one interface serve children and technically advanced users, but each tier requires comprehension testing. A reacting character can make consequences legible without proving learning.
+
+### FlightGlucose
+
+**Purpose and loop.** FlightGlucose is a browser scenario simulation covering basal and bolus insulin, insulin on board, hypoglycaemia, ketones, exercise and alcohol across 13 stated scenarios.
+
+**Provenance.** The product is independently distributed through Diabetes Simulations. Clinical and legal ownership details were not sufficiently clear in the reviewed material.
+
+**Evidence.** No peer-reviewed outcome evaluation was located. Claims on the product site remain developer claims.
+
+**Access.** No locally functioning access link was available on 5 September 2026. Direct HTTPS requests and a Chromium browser both failed during the TLS handshake for the homepage and `/play/`, matching a user-reported browser failure. Web indexes nevertheless retrieved current site content, so the product cannot be classified as universally unavailable. The indexed site advertised five free scenarios without an account, paid Learner and Educator subscriptions, and seven languages; these remain developer claims and could not be verified through direct play. The recorded official domain is `diabetessimulations.com`, but it is deliberately not presented as an active link while it remains inaccessible from the local test environment.
+
+**Design relevance.** Browser delivery can remove installation friction only when hosting and transport security work across intended clients. Scenarios can organise a curriculum. Crisis-oriented framing may motivate some users while increasing anxiety or narrowing motivation for others; this requires user research rather than assumption.
+
+### GlucoZor
+
+**Purpose and loop.** GlucoZor uses dinosaur care, quizzes and mini-games to teach children and parents about daily diabetes management.
+
+**Provenance.** Development involved Dinno Santé/Air Liquide Healthcare and Aide aux Jeunes Diabétiques, representing a commercial–nonprofit–clinical collaboration.
+
+**Evidence.** Development and evaluation material is limited; no independent controlled outcome study of the current public product was located.
+
+**Access.** The French official site was active at review, but contemporary mobile-store distribution was incompletely verified. [Official product and image source](https://www.glucozor.fr/).
+
+**Design relevance.** The product illustrates age- and language-specific presentation as well as the need to report website and app availability separately.
+
+### Level One: A Diabetes Game
+
+**Purpose and loop.** Level One presents short, progressive glucose-management puzzles. The player times insulin or rapid carbohydrate while observing a stylised bloodstream. The documented curriculum includes carbohydrate counting, insulin ratios, sensitivity, ==continuous glucose monitoring (CGM)==, ketones and exercise.
+
+**Provenance.** The collaboration includes Level Ex/Relevate Health Group, Breakthrough T1D and Beyond Type 1. The origin story is lived-experience-led through a founder whose daughter developed T1D.
+
+**Evidence.** No independent peer-reviewed product outcome evaluation was located. Public reviews can inform usability hypotheses but cannot establish learning.
+
+**Access.** Free public iOS and Android listings were verified; an account had been introduced and complete regional access was not checked. [Official product and image source](https://playlevelone.com/).
+
+**Design relevance.** The micro-level structure offers a short path to meaningful action and makes one causal relation visible at a time. It may reduce initial cognitive load relative to broad simulations. Transfer beyond the practised puzzles remains untested.
+
+### MyDiabetic
+
+**Purpose and loop.** Players guide a child character through food, supplies, insulin pens, pumps, meters, CGM and daily glucose-management routines.
+
+**Provenance.** The public product emerged from Czech academic, clinical, patient-organisation and development collaboration.
+
+**Evidence.** Iterative work involved 32 children across design/evaluation phases and five peers. The publication reports short educational improvement after one week but no controlled long-term or clinical endpoint ([Novak, 2024](https://doi.org/10.2196/49478)).
+
+**Access.** Free public iOS/Android distribution in English and Czech was verified. [Official product and image source](https://www.my-diabetic.com/).
+
+**Design relevance.** A daily-life routine can integrate devices and procedures more concretely than a decontextualised quiz. Co-design strengthens relevance claims, not efficacy claims.
+
+### Rufus, the Bear with Diabetes
+
+**Purpose and loop.** Children check a bear’s glucose, prepare meals and insulin, complete care tasks and unlock stories. An optional physical bear extends role play beyond the screen.
+
+**Provenance.** Rufus is supported by Breakthrough T1D and developed through Empath Labs/Sproutel in a nonprofit–commercial collaboration.
+
+**Evidence.** No controlled educational outcome trial of the current product was located. Download counts and store ratings do not establish learning.
+
+**Access.** The mobile app was free and publicly listed; Google Play showed more than 10,000 downloads and an update in December 2025. Physical-bear access depends on diagnosis-kit and purchase arrangements. [Official announcement](https://www.breakthrought1d.org/news-and-updates/new-interactive-rufus-the-bear-with-diabetes/) · [Store and image source](https://play.google.com/store/apps/details?id=com.sproutel.rufus).
+
+**Design relevance.** Care for a fictional character may provide emotional and procedural distance. The learning construct should distinguish correct completion of a care animation from understanding the underlying physiology.
+
+### T1D Simulator
+
+**Purpose and loop.** T1D Simulator is a public browser-based causal simulation. Players select actions for fixed fictional characters, advance simulated time, observe glucose trajectories and compare alternative decisions in campaign and challenge structures.
+
+**Provenance.** The project is independent, developer-led and reported as lived-experience-informed. A formal published co-design study was not identified.
+
+**Evidence.** No peer-reviewed educational outcome evidence was located. Physiological documentation and software tests can establish properties of the implementation but cannot establish knowledge gain, transfer, sustained engagement or clinical benefit.
+
+**Access.** Free browser access in Danish and English, without an identified account requirement, was verified on 5 September 2026. [Public product and image source](https://krauhe.github.io/t1d-simulator/).
+
+**Design relevance.** Time-compressed simulation and counterfactual replay create an opportunity for hypothesis testing across interacting food, insulin and activity effects. The broader interface may impose more initial cognitive load than a microgame, and the intended causal learning remains to be demonstrated empirically.
+
+## Currently available gamified companions
+
+### Novi-Chek
+
+Novi-Chek is a Roche Diagnostics France educational companion for approximately ages 13–25. It combines reference content, progression and quizzes. Roche's product-information page remained accessible on 5 September 2026, but the tested App Store and Google Play acquisition links returned HTTP 404; current acquisition is therefore incompletely verified. No independent controlled product-level outcome study was located. Its transition-age targeting is a useful contrast to the field’s strong child focus. [Official product and image source](https://www.accu-chek.fr/produits/application/novi-chek).
+
+### Sweet Strategy
+
+Sweet Strategy is a Traditional Chinese iOS/iPadOS companion containing educational mini-games related to food and daily life. Development is attributed to Innpression Limited with clinical contributors whose roles were not fully mapped. A free Taiwan listing was verified; no independent product outcome evaluation was located. The product illustrates the importance of culturally local food content and explicit regional metadata. [Store and image source](https://apps.apple.com/tw/app/%E7%94%9C-%E6%94%BB%E7%95%A5/id1619470848).
+
+## Historical games
+
+### Captain Novolin
+
+**Purpose and loop.** This 1992 ==Super Nintendo Entertainment System (SNES)== side-scrolling game combined action, food collection, insulin-related tasks and diabetes questions.
+
+**Provenance.** Sculptured Software and Raya Systems developed the game with Novo Nordisk and a United States public-health partner.
+
+**Evidence.** No controlled product-specific outcome study was located. Its importance is historical: diabetes content appeared in a complete commercial console game rather than only in clinical teaching material.
+
+**Access.** The product is discontinued and ordinary access is limited to collector markets or lawful archival contexts. [Historical information and image source](https://en.wikipedia.org/wiki/Captain_Novolin).
+
+**Design relevance.** Educational questions can interrupt play when they are attached to an unrelated action loop. Food moralisation and fixed cartridge content also limit contemporary applicability.
+
+### Packy & Marlon
+
+**Purpose and loop.** The 1994 SNES adventure embedded diabetes tasks in an action-platform story featuring elephant protagonists.
+
+**Provenance.** Raya Systems and Sculptured Software developed the commercial game; it subsequently became the subject of a controlled research evaluation.
+
+**Evidence.** In 59 participants aged 8–16 over six months, the trial reported improved self-care (*P*=.003) and parent communication (*P*=.025), a non-significant urgent-care trend (*P*=.08), and no difference in knowledge or ==glycated haemoglobin (HbA1c)== ([Brown et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9183781/)).
+
+**Access.** Discontinued; collector or lawful historical access only. [Historical information and image source](https://en.wikipedia.org/wiki/Packy_and_Marlon).
+
+**Design relevance.** Contextual action and shared discussion may affect behavioural and relational outcomes even when factual test scores do not change. The small historical study does not establish clinical benefit.
+
+### Monster Manor
+
+**Purpose and loop.** Monster Manor linked real glucose checks to virtual monster collection and care.
+
+**Provenance.** Ayogo, Sanofi and Diabetes UK formed a commercial–nonprofit collaboration.
+
+**Evidence.** A scholarly product description discusses design and theory, but no controlled product outcome study was located ([Kamel Boulos et al., 2015](https://doi.org/10.2196/games.3930)).
+
+**Access.** The formerly free mobile game was no longer publicly available in the 2024 audit ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)). [Article and image source](https://doi.org/10.2196/games.3930).
+
+**Design relevance.** A reward can increase a monitored action without teaching interpretation. The product also demonstrates that reputable partners do not guarantee long-term public continuity.
+
+## Consequential research prototypes
+
+### Koodak-e-Tavana Insulin Injection Game
+
+This Persian personal-computer prototype rehearsed insulin injection with children. A 30-child randomised one-week study reported reduced observed behavioural distress, including a between-group *P*=.03 ([Ebrahimpour et al., 2015](https://doi.org/10.5812/ijp.25(3)2015.427)). The product was not publicly released. Its narrow causal pathway—from procedural rehearsal to procedure-related distress—is more testable than a general claim to improve diabetes management. [Open article and image source](https://pmc.ncbi.nlm.nih.gov/articles/PMC4324272/).
+
+### Augmented-Reality Diabetes Education Game
+
+Children manipulated physical cards while a tablet overlaid educational feedback. The study supports feasibility and usability, not durable clinical effect ([Calle-Bustos et al., 2017](https://doi.org/10.1371/journal.pone.0184645)). The setup was not maintained as a public product. Tangible manipulation may make abstract food relationships concrete, but required hardware raises deployment and maintenance costs. [Open article and image source](https://doi.org/10.1371/journal.pone.0184645).
+
+### PAL
+
+PAL combined a tablet, progress dashboard, social robot and care-team roles. Participatory and usability work addressed objectives and engagement, but component effects and durable transfer were not established. No public service was located. The project demonstrates both the value of care-network integration and the sustainability burden of a multi-device ecosystem. [PAL dashboard publication](https://doi.org/10.1145/3312714.3312736).
+
+### Tako Dojo
+
+Tako Dojo used a martial-arts-themed mobile progression for adolescents. A pre/post evaluation involved 124 participants, but study access and controlled clinical evidence were limited; no public release was located. Its age-tailored framing is potentially useful, while the absence of durable transfer evidence remains decisive. [Publication](https://doi.org/10.1007/s10758-017-9344-x).
+
+### Tangbao Superman Transformation
+
+This Mandarin Chinese narrative-driven ==virtual reality (VR)== intervention was studied for four weeks across four hospitals in 54 children aged 4–9. Educational domains improved with reported standardised effects of 0.78–1.27; completion was 95% and the child usability score was 86/100 ([Gu et al., 2025](https://doi.org/10.1038/s41598-025-30114-1)). Without a comparator or biomedical endpoint, the data support feasibility and test-proximal change, not causal or clinical efficacy. Specialised hardware further limits transferability.
+
+### DiaPed
+
+DiaPed is an Arabic/French mobile education game studied in 40 children and adolescents. Knowledge increased from 29.8±6.02 to 68.6±1.58 out of 70, with *P*<.001 and reported *d*=6.72 ([Atitallah et al., 2025](https://doi.org/10.1177/30502225251357044)). The near-maximum post-test result, absence of a control group and absence of delayed transfer testing substantially limit inference. No public listing was located.
+
+### WeCan
+
+WeCan is a resilience-oriented adolescent mobile intervention. In a two-arm feasibility study, 20 of 31 intervention participants completed and 82% of respondents reported satisfaction ([WeCan study, 2024](https://doi.org/10.1016/j.pedhc.2024.05.009)). The contrast shows why satisfaction among respondents should be reported alongside denominators and attrition. The product remained study-only.
+
+### emoTICare
+
+emoTICare uses a narrative adventure to address illness perception, emotional awareness and social skills in adolescents. A quasi-experimental study of 44 participants reported reduced perceived illness threat and preliminary socioemotional changes ([Martín-Ávila et al., 2025](https://doi.org/10.3389/fendo.2025.1668398)). The small non-randomised design does not justify claims of general distress reduction or psychological treatment. [Trial record](https://clinicaltrials.gov/study/NCT06331429).
+
+### ExerT1D
+
+ExerT1D combines active video games, peers and diabetes-specific exercise discussion. Qualitative work reports acceptability, peer support and perceived improvements in exercise-management awareness ([Mak et al., 2025](https://doi.org/10.2196/65665)); subsequent protocol-development and feasibility reporting is available ([Ash et al., 2026](https://doi.org/10.1159/000550880)). It is a research programme requiring exercise-gaming infrastructure. Its findings cannot be transferred to a sedentary simulation or interpreted as established clinical efficacy.
+
+## Experiential games
+
+### I Got This
+
+This short mobile narrative represented diagnosis and early daily decisions for a teenager. Ayogo and the Diabetes Hands Foundation developed it with documented community involvement. No controlled evaluation was located and current store access was uncertain. It should be classified as an empathy/awareness product rather than a competence intervention unless outcomes demonstrate otherwise ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
+
+### Hell Hath No Insulin
+
+This independent, lived-experience-led Windows game represents the recurring demands of insulin and T1D through narrative and symbolic action. It is publicly available on itch.io under free/pay-what-you-want terms. No peer-reviewed outcome evaluation was located. [Product and image source](https://weeabetes.itch.io/hell-hath-no-insulin).
+
+### Permanence
+
+Permanence is an independent short browser/personal-computer narrative about chronicity and identity. It is publicly accessible through itch.io; price terms should be checked at access. No peer-reviewed evaluation was located. [Product and image source](https://ivy-leaves.itch.io/permanence).
+
+### Holesome
+
+Holesome is a compact independent experiential game distributed through itch.io. Its lived-experience framing was not independently verified beyond the product material, and no peer-reviewed outcome evaluation was located. [Product and image source](https://holesome.itch.io/holesome).
+
+## Cross-profile conclusions
+
+1. **Complete games and evaluated games are not the same set.** Public products are more accessible; research prototypes usually provide stronger study documentation.
+2. **Narrow outcomes permit stronger tests.** Injection distress, procedure performance or a defined causal concept is easier to evaluate than “diabetes management”.
+3. **Characters serve different functions.** They may support identification, role play, emotional distance or task continuity; these mechanisms should not be conflated.
+4. **Simulation breadth creates both opportunity and cognitive load.** Integrated physiology may support causal comparison only when decisions, consequences and explanations remain legible.
+5. **Experiential truth and management competence require different outcomes.** An empathy-oriented game need not teach dosing, and a dosing simulator should not claim psychological benefit without evaluation.
+6. **Sustainability is part of intervention validity.** A product that cannot be accessed, updated or cited cannot become routine educational infrastructure.
+
+## References
+
+[Ash, G.I. et al. (2026) ‘Testing multiple delivery methods of the virtual exercise games for youth with T1D (ExerT1D) peer intervention: Protocol development and feasibility’, *Hormone Research in Paediatrics*.](https://doi.org/10.1159/000550880)
+
+[Atitallah, S. et al. (2025) ‘A serious game “DiaPed”: Impact on therapeutic education for children with type 1 diabetes in Tunisia’, *SAGE Open Pediatrics*, 12, 30502225251357044.](https://doi.org/10.1177/30502225251357044)
+
+[Brown, S.J. et al. (1997) ‘Educational video game for juvenile diabetes: Results of a controlled trial’, *Medical Informatics*, 22(1).](https://pubmed.ncbi.nlm.nih.gov/9183781/)
+
+[Calle-Bustos, A.-M. et al. (2017) ‘An augmented reality game to support therapeutic education for children with diabetes’, *PLOS ONE*, 12(9), e0184645.](https://doi.org/10.1371/journal.pone.0184645)
+
+[Ebrahimpour, F. et al. (2015) ‘The effect of playing an insulin injection game on behavioural distress in children with type 1 diabetes’, *Iranian Journal of Pediatrics*.](https://doi.org/10.5812/ijp.25(3)2015.427)
+
+[Gu, H., Mohd Muhaiyuddin, N.D.B. and Shaari, N.B. (2026) ‘Narrative-driven virtual reality serious game to support type 1 diabetes self-management in children’, *Scientific Reports*, 16, 596.](https://doi.org/10.1038/s41598-025-30114-1)
+
+[Kamel Boulos, M.N. et al. (2015) ‘Digital games for type 1 and type 2 diabetes: Underpinning theory with three illustrative examples’, *JMIR Serious Games*, 3(1), e3.](https://doi.org/10.2196/games.3930)
+
+[Novak, D. (2024) ‘A serious game (MyDiabetic) to support children's education in type 1 diabetes mellitus: Iterative participatory co-design and feasibility study’, *JMIR Serious Games*, 12, e49478.](https://doi.org/10.2196/49478)
+
+[Mak, S.S. et al. (2025) ‘An exergames program for adolescents with type 1 diabetes: Qualitative study of acceptability’, *JMIR Diabetes*, 10, e65665.](https://doi.org/10.2196/65665)
+
+[Martín-Ávila, J. et al. (2025) ‘The impact of the emoTICare program on socioemotional adjustment and psychological well-being in adolescents with type 1 diabetes mellitus’, *Frontiers in Endocrinology*, 16, 1668398.](https://doi.org/10.3389/fendo.2025.1668398)
+
+[Reinders, E.F.H. et al. (2024) ‘Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers’, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
+
+[Wu, Y. et al. (2024) ‘Delivering a smartphone serious game-based intervention to promote resilience for adolescents with type 1 diabetes: A feasibility study’, *Journal of Pediatric Health Care*, 38(6), pp. 893–902.](https://doi.org/10.1016/j.pedhc.2024.05.009)
+
+## Abbreviation glossary
+
+| Abbreviation | Meaning |
+|---|---|
+| CGM | Continuous glucose monitoring; repeated sensor-based estimation of interstitial glucose. |
+| HbA1c | Glycated haemoglobin; a biomarker reflecting average glycaemia over approximately 2–3 months. |
+| SNES | Super Nintendo Entertainment System; a 1990s home console platform. |
+| T1D | Type 1 diabetes. |
+| VR | Virtual reality; an immersive computer-generated environment. |

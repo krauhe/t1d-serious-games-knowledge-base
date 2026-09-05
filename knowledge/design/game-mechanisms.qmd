@@ -1,0 +1,170 @@
+---
+title: "Game Mechanisms and Ethical Engagement"
+description: "Narrative, progression, difficulty, rewards, social play and emotional safety"
+---
+
+## Scope and source note
+
+This chapter examines how game rules can support learning about ==type 1 diabetes (T1D)==. A game mechanism is not an educational mechanism by itself. Levels, stories, points and avatars matter only through what they cause a learner to attend to, decide, practise, retrieve or discuss.
+
+Nørlev et al. identified recurrent mechanisms in games for children aged 8–14 years, including narrative, feedback, avatars, simulation, goals, levels and social interaction. The review could not determine an optimal combination, because interventions, outcomes and study quality were too heterogeneous ([Nørlev et al., 2022](https://doi.org/10.1177/19322968211018236)). Feature frequency should therefore be read as field description, not causal ranking.
+
+## From learning objective to playable rule
+
+| Learning purpose | Candidate game mechanism | Required learning action | Principal validity risk |
+|---|---|---|---|
+| Recall concepts | Spaced challenge, quiz, card or dialogue choice | Retrieve and discriminate | Repeated-item memorisation |
+| Causal reasoning | Simulation, prediction and counterfactual replay | Form and revise a causal explanation | Winning by exploiting scoring rules |
+| Procedure | Role play, sequencing, timed or untimed rehearsal | Execute steps and recover from errors | Animation mistaken for performance |
+| Coping | Bounded challenge, narrative rehearsal, reflection | Identify and practise a coping response | Distress reduced to “motivation” |
+| Caregiver communication | Cooperative roles and joint debrief | Explain, listen and negotiate responsibility | Coercion or unequal access to support |
+| Empathy | Experiential narrative and perspective-taking | Attend to burden, uncertainty and context | Stereotyping one lived experience |
+
+The same visible mechanic can serve different functions. A timer may create useful fluency practice after mastery, or overload a newly diagnosed learner. A character may enable perspective-taking, or merely decorate a quiz. A leaderboard may prompt discussion, or turn simulated glycaemia into a moral ranking.
+
+## Narrative and character identification
+
+Narrative can situate abstract concepts in goals that matter to a character: attending school, eating with friends, exercising, travelling or managing an unexpected interruption. This context can supply memory cues and make consequences socially legible. It can also create psychological distance, allowing a learner to help a fictional person rather than experience each error as a judgement about personal care.
+
+> **Evidence label — Direct T1D evidence.** Packy & Marlon embedded self-care tasks within an adventure and improved parent-reported self-care and diabetes communication in a small six-month ==randomised controlled trial (RCT)==. The study cannot isolate narrative from practice, feedback or home exposure, and it found no advantage for knowledge or glycated haemoglobin ([Brown et al., 1997](https://doi.org/10.3109/14639239709089835)).
+
+> **Evidence label — Direct T1D evidence.** emoTICare used a narrative intervention for socioemotional learning and reported favourable within-person changes in a single-group pilot. The design supports feasibility but does not isolate narrative or establish comparative efficacy ([Martín-Ávila et al., 2025](https://doi.org/10.3389/fendo.2025.1668398)).
+
+> **Evidence label — Adjacent evidence.** A meta-analysis of narrative game-based health interventions found positive average effects across behaviour, knowledge, self-efficacy and enjoyment, but effects differed by population and design and the evidence was not T1D-specific ([Zhou et al., 2020](https://doi.org/10.1080/10810730.2019.1701586)).
+
+> **Evidence label — Design inference.** The narrative problem and learning problem should be the same event. If play stops for an unrelated diabetes quiz, education becomes an admission fee for returning to the story. A stronger structure makes the physiological or psychosocial decision advance the plot and makes its consequence visible within that context.
+
+Characters should not be treated as universal representations. Age, culture, language, family structure, technology, food practices and treatment modality influence identification. Documented co-design is preferable to assuming that a mascot is intrinsically child-friendly or that realistic characters are intrinsically adult-appropriate.
+
+## Goals, progression and difficulty
+
+Goals focus attention, and levels can sequence prerequisites. Progression is educationally meaningful when access to a more complex task follows demonstrated competence, not only accumulated activity. Difficulty should arise from the target capability—for example, longer delays, interacting factors or reduced scaffolding—rather than hidden changes to the represented physiology.
+
+Three forms of progression should be distinguished:
+
+1. **Content progression:** additional concepts or variables are introduced.
+2. **Support progression:** prompts, worked examples and explanatory overlays are gradually withdrawn.
+3. **Transfer progression:** surface details and contexts change while the underlying principle remains relevant.
+
+> **Evidence label — Adjacent evidence.** Cognitive-load theory predicts that novices can be overloaded by interacting elements that experts process as a single schema ([Sweller, 1988](https://doi.org/10.1207/s15516709cog1202_4)). Meta-analytic evidence supports scaffolding in digital game-based learning on average, but the effective form depends on task and learner ([Cai et al., 2022](https://doi.org/10.1007/s10648-021-09655-0)).
+
+> **Evidence label — Industry practice.** A short first scenario with one recommended action reduces the setup knowledge required before meaningful play. This is a product-design convention rather than evidence of educational benefit. It should be tested through time to first meaningful action, abandonment, comprehension and voluntary continuation.
+
+> **Evidence label — Design inference.** Preserve a stable causal model across difficulty settings. Adjust scenario complexity, number of concurrent objectives, time pressure, allowed retries and strength of scaffolding. Otherwise the learner cannot tell whether an altered outcome reflects physiology or an undisclosed difficulty rule.
+
+## Feedback, failure and retry
+
+Failure is educationally useful only when it supplies information. A score that decreases without explaining the relevant action encourages trial-and-error search; it does not necessarily support causal understanding.
+
+A diagnostic failure sequence can ask:
+
+1. What occurred?
+2. Which earlier action or mechanism contributed?
+3. What signal should be noticed next time?
+4. Which single change would test that explanation?
+5. Can the learner retry without redoing unrelated material?
+
+> **Evidence label — Direct T1D evidence.** Koodak-e-Tavana targeted one stressful procedure and reduced observed injection-related behavioural distress in a 30-child, one-week RCT. Its narrow task–feedback–outcome chain is more interpretable than a broad claim to improve “diabetes management”, although durability is unknown ([Ebrahimpour et al., 2015](https://doi.org/10.5812/ijp.25(3)2015.427)).
+
+> **Evidence label — Adjacent evidence.** Formative-feedback reviews support task-focused information that helps learners close a specific gap. Praise or punishment detached from the task carries less diagnostic information ([Shute, 2008](https://doi.org/10.3102/0034654307313795)).
+
+> **Evidence label — Design inference.** A reset should reproduce the relevant starting conditions. Counterfactual comparison is weakened if several background variables change at the same time.
+
+## Points, badges, streaks and rewards
+
+Gamification adds selected game-design elements to a non-game activity. It should not be conflated with a complete serious game. Meta-analyses report small positive average effects of gamification on learning-related outcomes, with substantial heterogeneity and weaker certainty for motivation and behaviour in higher-quality studies ([Sailer and Homner, 2020](https://doi.org/10.1007/s10648-019-09498-w)). A health review similarly found mixed or neutral results in a substantial minority of studies and generally limited evidence quality ([Johnson et al., 2016](https://doi.org/10.1016/j.invent.2016.10.002)).
+
+Rewards can serve at least four functions:
+
+1. signal progress;
+2. direct attention;
+3. acknowledge mastery;
+4. unlock a new form of practice.
+
+They can also introduce construct-irrelevant goals. Rewarding session length favours screen time; rewarding a perfect simulated trace may encourage score optimisation, conceal recovery skills and imply moral judgement about glucose outcomes. Rewarding correct explanation, calibrated prediction, detection of uncertainty and improvement after feedback is more closely aligned with learning.
+
+> **Evidence label — Adjacent evidence.** Expected, controlling external rewards can reduce freely chosen interest, whereas informational positive feedback can support perceived competence ([Deci et al., 1999](https://doi.org/10.1037/0033-2909.125.6.627)). This finding does not ban points; it requires clarity about what they communicate and whether they constrain autonomy.
+
+> **Evidence label — Design inference.** Do not use simulated glucose control as a global ranking of people. If social scores are used, prefer bounded scenario mastery, explanation quality or collaborative achievement, and explicitly separate game performance from real-world treatment competence.
+
+## Autonomy, competence and curiosity
+
+==Self-determination theory (SDT)== distinguishes support for autonomy, competence and relatedness from externally controlled participation. In game research, satisfaction of these needs is associated with enjoyment and continued play, but observational associations do not prove that adding choices or rewards will produce health learning ([Ryan et al., 2006](https://doi.org/10.1007/s11031-006-9051-8)).
+
+Meaningful autonomy requires choices whose consequences a learner can understand. Too many unfamiliar options can increase decision complexity rather than agency. Competence support requires achievable challenges and feedback that attributes improvement to learnable skills. Curiosity can be evoked by a prediction gap—“what will happen if…?”—but must be followed by a legible answer.
+
+> **Evidence label — Adjacent evidence.** SDT-informed health interventions show positive average effects on motivation and health behaviour, although intervention components and effects vary ([Ntoumanis et al., 2021](https://doi.org/10.1080/17437199.2020.1718529)).
+
+> **Evidence label — Industry practice.** Make one recommended first action visible while keeping alternatives accessible and reversible. Measure whether the default accelerates meaningful play without reducing informed choice.
+
+## Social and caregiver mechanisms
+
+Social play can support explanation, observational learning and distributed responsibility. It can also expose health information, intensify comparison and create moderation or safeguarding obligations.
+
+> **Evidence label — Direct T1D evidence.** Packy & Marlon's communication outcome suggests that shared game content can affect parent–child conversation. Qare and Qure and PAL provide design precedents for paired or care-team roles, but not strong comparative outcome evidence ([Brown et al., 1997](https://doi.org/10.3109/14639239709089835); [Moosa et al., 2018](https://doi.org/10.1109/COMAPP.2018.8460213)).
+
+> **Evidence label — Design inference.** Begin with local cooperative play, shared prediction or a structured debrief before building an open social network. The smaller design can test whether conversation is the active mechanism without immediately assuming moderation, identity and disclosure risks.
+
+Social features must not require a caregiver to be available at a particular time. Solo routes and asynchronous discussion prompts preserve access for learners with different family circumstances.
+
+## Emotional safety and ethical engagement
+
+Engagement should mean voluntary attention to a meaningful activity, not maximum return frequency. T1D content can involve hypoglycaemia, injection anxiety, diabetic ketoacidosis, uncertainty and long-term burden. Consequences should be explained accurately without using fear, guilt or shame as routine retention mechanics.
+
+Person-centred diabetes-language guidance recommends neutral, factual, strengths-based and respectful language ([Dickinson et al., 2017](https://doi.org/10.2337/dci17-0041)). Paediatric guidance similarly emphasises developmentally appropriate education, autonomy support and psychosocial care ([Lindholm Olinder et al., 2022](https://doi.org/10.1111/pedi.13418); [de Wit et al., 2022](https://doi.org/10.1111/pedi.13428)).
+
+Ethical guardrails include:
+
+1. no punishment for pausing or stopping;
+2. no loss-framed streaks tied to health behaviour;
+3. no hidden difficulty changes to the causal system;
+4. no public ranking that resembles judgement of personal diabetes control;
+5. no artificial scarcity, loot boxes or monetisation of health anxiety;
+6. a clear boundary between fictional simulation and personal treatment advice;
+7. visible help and recovery routes;
+8. adverse-emotion and misconception checks during evaluation.
+
+> **Evidence label — Industry practice and ethics.** These guardrails are risk controls, not claims that they increase learning. Their success should be assessed through comprehension, voluntary stopping, qualitative reports, adverse-event monitoring and review with intended users.
+
+## Mechanism audit template
+
+For each feature, record:
+
+1. the learner problem it assumes;
+2. the intended capability;
+3. the action required from the player;
+4. the game rule that elicits that action;
+5. the feedback and retry path;
+6. the anticipated psychological mechanism;
+7. plausible unintended learning or harm;
+8. the direct outcome that would support the causal chain;
+9. evidence label and source;
+10. the decision rule for retaining, revising or removing the feature.
+
+## References
+
+- [Brown, S.J. et al. (1997) “Educational video game for juvenile diabetes: results of a controlled trial”, *Medical Informatics*, 22(1), pp. 77–89.](https://doi.org/10.3109/14639239709089835)
+- [Cai, Z. et al. (2022) “Effects of scaffolding in digital game-based learning on students’ achievement”, *Educational Psychology Review*, 34, pp. 537–574.](https://doi.org/10.1007/s10648-021-09655-0)
+- [de Wit, M. et al. (2022) “ISPAD Clinical Practice Consensus Guidelines 2022: psychological care of children, adolescents and young adults with diabetes”, *Pediatric Diabetes*, 23(8), pp. 1373–1389.](https://doi.org/10.1111/pedi.13428)
+- [Deci, E.L., Koestner, R. and Ryan, R.M. (1999) “A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation”, *Psychological Bulletin*, 125(6), pp. 627–668.](https://doi.org/10.1037/0033-2909.125.6.627)
+- [Dickinson, J.K. et al. (2017) “The use of language in diabetes care and education”, *Diabetes Care*, 40, pp. 1790–1799.](https://doi.org/10.2337/dci17-0041)
+- [Ebrahimpour, F. et al. (2015) “Effect of playing interactive computer game on distress of insulin injection among type 1 diabetic children”, *Iranian Journal of Pediatrics*, 25(3), e427.](https://doi.org/10.5812/ijp.25(3)2015.427)
+- [Johnson, D. et al. (2016) “Gamification for health and wellbeing: a systematic review”, *Internet Interventions*, 6, pp. 89–106.](https://doi.org/10.1016/j.invent.2016.10.002)
+- [Lindholm Olinder, A. et al. (2022) “ISPAD Clinical Practice Consensus Guidelines 2022: diabetes education in children and adolescents”, *Pediatric Diabetes*, 23(8), pp. 1229–1242.](https://doi.org/10.1111/pedi.13418)
+- [Martín-Ávila, A. et al. (2025) “The impact of the emoTICare program on socioemotional adjustment and psychological well-being in adolescents with type 1 diabetes mellitus”, *Frontiers in Endocrinology*, 16, 1668398.](https://doi.org/10.3389/fendo.2025.1668398)
+- [Moosa, S. et al. (2018) “Qare and Qure: paired educational games for children with diabetes and caregivers”, *COMAPP 2018*.](https://doi.org/10.1109/COMAPP.2018.8460213)
+- [Nørlev, J. et al. (2022) “Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage”, *Journal of Diabetes Science and Technology*, 16(5), pp. 1253–1269.](https://doi.org/10.1177/19322968211018236)
+- [Ntoumanis, N. et al. (2021) “A meta-analysis of self-determination theory-informed intervention studies in the health domain”, *Health Psychology Review*, 15(2), pp. 214–244.](https://doi.org/10.1080/17437199.2020.1718529)
+- [Ryan, R.M., Rigby, C.S. and Przybylski, A.K. (2006) “The motivational pull of video games”, *Motivation and Emotion*, 30, pp. 344–360.](https://doi.org/10.1007/s11031-006-9051-8)
+- [Sailer, M. and Homner, L. (2020) “The gamification of learning: a meta-analysis”, *Educational Psychology Review*, 32, pp. 77–112.](https://doi.org/10.1007/s10648-019-09498-w)
+- [Shute, V.J. (2008) “Focus on formative feedback”, *Review of Educational Research*, 78(1), pp. 153–189.](https://doi.org/10.3102/0034654307313795)
+- [Sweller, J. (1988) “Cognitive load during problem solving: effects on learning”, *Cognitive Science*, 12(2), pp. 257–285.](https://doi.org/10.1207/s15516709cog1202_4)
+- [Zhou, C. et al. (2020) “A meta-analysis of narrative game-based interventions for promoting healthy behaviors”, *Journal of Health Communication*, 25(1), pp. 54–65.](https://doi.org/10.1080/10810730.2019.1701586)
+
+## Abbreviation glossary
+
+| Abbreviation | Meaning |
+|---|---|
+| RCT | Randomised controlled trial. Random allocation reduces systematic baseline differences between intervention groups. |
+| SDT | Self-determination theory. A motivation theory centred on autonomy, competence and relatedness. |
+| T1D | Type 1 diabetes. Autoimmune loss of insulin-producing beta cells creates a lifelong need for exogenous insulin. |

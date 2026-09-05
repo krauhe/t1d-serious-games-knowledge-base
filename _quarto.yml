@@ -1,0 +1,77 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - figures/original/pixel-landscape-background.png
+    - figures/original/pixel-biomes-background.png
+    - figures/original/t1d-serious-games-header-icon.png
+    - figures/original/t1d-serious-games-header-mark.png
+    - figures/original/t1d-serious-games-pixel-mark.png
+    - assets/fonts/PressStart2P-Regular.ttf
+    - assets/fonts/OFL.txt
+
+website:
+  title: "T1D Serious Games Knowledge Base"
+  description: "Scientific evidence, game profiles, learning design, physiology, evaluation, and sustainability guidance for serious games relevant to type 1 diabetes."
+  favicon: figures/original/t1d-serious-games-header-icon.png
+  repo-url: https://github.com/krauhe/t1d-serious-games-knowledge-base
+  repo-actions: [issue]
+  search:
+    location: sidebar
+    type: overlay
+  reader-mode: true
+  page-navigation: true
+  page-footer:
+    center: "Original content and data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Software: [MIT](LICENSE) · © 2026 Kristian Rauhe Harreby"
+  sidebar:
+    logo: figures/original/t1d-serious-games-header-icon.png
+    style: docked
+    collapse-level: 1
+    contents:
+      - section: "Start here"
+        contents:
+          - index.qmd
+          - methods.qmd
+          - references/SOURCE-INDEX.md
+          - references/PAYWALLED-WISHLIST.md
+          - glossary.qmd
+      - section: "Games and evidence"
+        contents:
+          - knowledge/games/index.qmd
+          - knowledge/games/evidence-map.qmd
+          - knowledge/games/catalogue.qmd
+          - knowledge/games/profiles.qmd
+          - knowledge/games/availability.qmd
+          - text: "Comparative analysis"
+            href: knowledge/comparisons/comparative-analysis.qmd
+      - section: "Learning and design"
+        contents:
+          - knowledge/design/index.qmd
+          - knowledge/design/learning-science.qmd
+          - knowledge/design/game-mechanisms.qmd
+          - knowledge/design/evaluation.qmd
+          - knowledge/human-factors/onboarding-and-accessibility.qmd
+      - section: "T1D Physiology and Modelling"
+        contents:
+          - knowledge/physiology/index.qmd
+          - knowledge/physiology/glucose-insulin-system.qmd
+          - knowledge/physiology/meals-insulin-exercise.qmd
+          - knowledge/physiology/variability-and-safety.qmd
+          - knowledge/physiology/model-families.qmd
+      - section: "Adoption and sustainability"
+        contents:
+          - knowledge/sustainability/index.qmd
+          - knowledge/sustainability/why-games-disappear.qmd
+          - knowledge/sustainability/maintenance-patterns.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    link-external-newwindow: true
+    code-copy: true
+
+lang: en
+date-format: "D MMMM YYYY"

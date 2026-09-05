@@ -1,0 +1,109 @@
+---
+title: "Comparative Analysis of T1D Serious Games"
+description: "A comparative analysis of learning scope, interaction design, evidence, and accessibility across selected type 1 diabetes games."
+date: "2026-09-05"
+---
+
+# Comparative Analysis of T1D Serious Games
+
+## Scope and comparison rules
+
+This chapter compares selected serious games relevant to ==type 1 diabetes (T1D)==. The products represent materially different audiences, learning objectives, interaction structures, and development histories. The comparison uses public product material, the structured catalogue, and peer-reviewed studies where available. No product was playtested during this desk-research phase.
+
+The comparison separates five questions:
+
+1. What learning problem does the product address?
+2. What does the player repeatedly do?
+3. How broad and physiologically explicit is the represented system?
+4. What product-specific outcome evidence exists?
+5. Can an intended user currently obtain and operate the product?
+
+These dimensions cannot be collapsed into a defensible single score. Public accessibility does not demonstrate educational effectiveness, while an evaluated intervention has little practical reach if the tested version is no longer obtainable. Breadth, realism, simplicity, emotional engagement, and evidential maturity should therefore be reported separately.
+
+## Contemporary public-product comparison
+
+| Product | Primary interaction and learning scope | Principal design advantage | Principal limitation | Product-specific evidence | Access at last verification |
+|---|---|---|---|---|---|
+| [Level One](https://playlevelone.com/) | Short physics-like puzzles about food, insulin, glucose, ketones, exercise, and timing | Rapid entry into progressively harder causal problems | Abstract representation may not make every mechanism explicit | No peer-reviewed outcome evaluation located | Free iOS/Android; account and regional limits apply |
+| [AvaType1](https://avatype1.com/) | Narrative everyday scenarios with choices about living with T1D | Situational framing can connect knowledge to social context | Breadth, depth, and current platform support were incompletely verified | No independent controlled outcome evaluation located | Public iOS/Android listings were identified |
+| FlightGlucose | Browser scenarios spanning insulin, meals, activity, hypoglycaemia, ketones, and alcohol | Installation-free scenario structure when hosting is reachable | Developer, clinical, language, and evaluation claims require fuller independent verification | No peer-reviewed outcome evaluation located | No locally functioning access link on 5 September 2026; indexed content advertised five free scenarios and subscriptions |
+| [MyDiabetic](https://www.my-diabetic.com/) | Guide a child character through devices, food, insulin, and daily routines | Participatory design and concrete care context | Short, uncontrolled learning evidence does not establish durable competence | Co-design and feasibility evaluation; no controlled long-term outcome evidence ([Novak, 2024](https://doi.org/10.2196/49478)) | Free iOS/Android; English and Czech verified |
+| [Rufus](https://www.breakthrought1d.org/news-and-updates/new-interactive-rufus-the-bear-with-diabetes/) | Care for a bear through monitoring, meals, insulin, tasks, and stories | Emotional distance and role play may suit younger children | Correct completion of a care animation is not necessarily physiological understanding | No controlled evaluation of the current product located | Free mobile app; optional physical bear has separate access conditions |
+| [GlucoZor](https://www.glucozor.fr/) | Dinosaur care, quizzes, and mini-games for children and parents | Child- and family-oriented French presentation | Contemporary store access and independent evaluation remain uncertain | Development information; no controlled current-product outcome study located | Official French site active; app continuity incompletely verified |
+| [T1D Simulator](https://krauhe.github.io/t1d-simulator/) | Select actions for fixed fictional characters, advance time, observe glucose trajectories, and compare alternatives | Broad, time-compressed causal simulation with counterfactual comparison | A broad interface and interacting variables may increase initial cognitive load | No peer-reviewed educational outcome evaluation located | Free browser access in Danish and English; no account identified |
+
+The representative images and their source links can be inspected in the [Game explorer](../../explorer.html). Images shown in the private build are not automatically cleared for public republication.
+
+## Design-archetype comparison
+
+### Micro-puzzles versus broad simulation
+
+Level One uses short, constrained problems, whereas FlightGlucose and T1D Simulator expose broader scenario systems. The micro-puzzle structure reduces the number of active variables and can make progression legible. A broad simulation can support interaction between factors and counterfactual comparison, but only if the learner can attribute a change to the relevant mechanisms.
+
+**Design inference.** These approaches are complementary rather than mutually exclusive. Broad simulations may benefit from a micro-level entry sequence in which only one relation is actionable. Microgames may benefit from later transfer tasks that combine previously isolated relations. Comparative studies should test unfamiliar scenarios, not merely completion of each product's own levels.
+
+### Care narrative versus system manipulation
+
+Rufus, GlucoZor, AvaType1, and MyDiabetic place learning within character care or everyday situations. Level One, FlightGlucose, and T1D Simulator place greater emphasis on manipulating variables and interpreting consequences, although their scope and degree of abstraction differ.
+
+Narrative and character identification can support attention, emotional distance, and discussion, but a character is not a mechanism by itself. [Nørlev et al. (2022)](https://pubmed.ncbi.nlm.nih.gov/34024156/) identified narrative, feedback, goals, avatars, simulation, levels, and social interaction across T1D games, but the review could not establish an optimal combination.
+
+**Design inference.** Character-based context is most educationally useful when it changes the reasoning problem: for example, when the scenario makes time, uncertainty, competing goals, or caregiver roles visible. Cosmetic narrative without integration into decisions may improve presentation without improving transfer.
+
+### Procedural rehearsal versus causal explanation
+
+MyDiabetic and Rufus foreground care tasks. Level One, FlightGlucose, and T1D Simulator foreground causal consequences to different degrees. Historical Koodak-e-Tavana work illustrates the value of a narrowly specified procedural target: a 30-child randomised study reported reduced insulin-injection distress over one week, but its size and follow-up constrain generalisation ([Ebrahimpour et al., 2015](https://doi.org/10.5812/ijp.25(3)2015.427)).
+
+**Comparative implication.** A procedural game should measure procedure performance or procedure-related distress. A causal simulation should measure prediction, explanation, and transfer. Neither should borrow the other's evidence simply because both concern T1D.
+
+## Comparison with historically evaluated games
+
+The 1994 console game Packy & Marlon remains important because it had a six-month controlled evaluation. Among 59 participants aged 8-16 years, the study reported improved parent communication and self-care, no difference in diabetes knowledge or glycated haemoglobin, and only a non-significant trend in urgent care ([Brown et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9183781/)). The result demonstrates neither class-wide clinical benefit nor failure. It shows that behavioural and relational outcomes may change without a knowledge-test or biomedical effect.
+
+No equivalent controlled product-specific outcome study was located for the contemporary public products in the comparison table. Consequently, a claim that any of them is educationally superior would exceed the evidence.
+
+## Comparison with participatory research
+
+MyDiabetic and the Nørlev smartphone prototype document participatory work with children or families ([Novak, 2024](https://doi.org/10.2196/49478); [Nørlev et al., 2022](https://doi.org/10.2196/33955)). Other products document varying combinations of clinical, academic, commercial, nonprofit, or lived-experience involvement, but public descriptions rarely establish who controlled learning objectives, physiological claims, interaction decisions, or long-term maintenance.
+
+Lived experience and participatory co-design answer related but different questions. Lived experience can identify neglected problems and sustain motivation. Participatory methods can reveal variation between intended users and make design decisions auditable. Neither replaces physiological validation or outcome evaluation.
+
+## Cross-product design lessons
+
+The purpose of comparison is not only to identify what one project should copy. It reveals complementary strengths across the field:
+
+1. **From Level One:** constrain the earliest task and allow a meaningful action before presenting the entire system.
+2. **From MyDiabetic:** document participatory decisions and represent concrete devices and routines.
+3. **From Rufus and GlucoZor:** consider emotional distance, age-specific presentation, and caregiver co-learning.
+4. **From FlightGlucose:** browser scenarios can reduce installation barriers, but cross-client uptime, transport security, ownership, and evidence require explicit monitoring.
+5. **From Packy & Marlon:** measure behaviour and communication separately from knowledge and biomarkers.
+6. **From Koodak-e-Tavana:** choose narrow, testable outcomes for focused procedural experiences.
+7. **From broad causal simulations:** test whether reproducible starting states, time compression, and counterfactual replay support causal hypothesis formation and transfer.
+
+Items 1-7 are design inferences or research questions. None is a demonstrated comparative advantage without direct testing.
+
+## Priority comparative studies
+
+1. Compare a micro-puzzle introduction with a broad-simulation introduction on time to meaningful action, comprehension, and dropout.
+2. Compare static explanation, worked animation, and interactive counterfactual replay on delayed transfer to unseen glucose scenarios.
+3. Test whether character-based context improves explanation, memory, distress, or caregiver discussion, and identify for whom it does not.
+4. Separate effects in children, adolescents, newly diagnosed adults, experienced adults, and caregivers.
+5. Archive the exact intervention version, assessment, tutorial state, and scenario set so a later product update does not inherit unsupported evidence.
+6. Report adverse interpretations, including false confidence, model over-trust, shame, anxiety, and unsafe real-world experimentation.
+
+## Conclusion
+
+T1D serious games form a heterogeneous field rather than a single intervention category. Short puzzles, care-roleplay games, narrative experiences, procedural rehearsal, and broad simulations should not be judged by one undifferentiated standard. Their educational value depends on the relationship between audience, learning objective, repeated player activity, feedback, assessment, accessibility, and maintenance. Current evidence does not justify naming one product or design archetype as generally superior. A useful directory should instead make these differences explicit so readers can select, study, or develop products for a defined purpose rather than according to project affiliation.
+
+## References
+
+1. [Brown, S.J. et al. (1997) “Educational video game for juvenile diabetes: Results of a controlled trial”, *Medical Informatics*, 22(1), 77-89.](https://pubmed.ncbi.nlm.nih.gov/9183781/)
+2. [Ebrahimpour, F. et al. (2015) “The effect of playing an insulin injection game on behavioural distress in children with type 1 diabetes”, *Iranian Journal of Pediatrics*.](https://doi.org/10.5812/ijp.25(3)2015.427)
+3. [Novak, D. (2024) “A serious game (MyDiabetic) to support children's education in type 1 diabetes mellitus: Iterative participatory co-design and feasibility study”, *JMIR Serious Games*, 12, e49478.](https://doi.org/10.2196/49478)
+4. [Nørlev, J. et al. (2022a) “Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage: A systematic scoping review”, *Journal of Diabetes Science and Technology*, 16(5), 1253-1269.](https://pubmed.ncbi.nlm.nih.gov/34024156/)
+5. [Nørlev, J. et al. (2022b) “Using distance communication for the user-centered development of a smartphone-based serious game for children with type 1 diabetes: Participatory design approach”, *JMIR Serious Games*, 10(1), e33955.](https://doi.org/10.2196/33955)
+6. [Reinders, E.F.H. et al. (2024) “Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers”, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
+
+## Abbreviation glossary
+
+**T1D - Type 1 diabetes.** An autoimmune disease requiring exogenous insulin because insulin-producing beta cells are destroyed.

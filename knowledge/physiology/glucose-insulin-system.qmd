@@ -1,0 +1,84 @@
+---
+title: "The glucose–insulin system"
+description: "Glucose fluxes, insulin action, hepatic regulation, counterregulation, and glucose measurement in type 1 diabetes."
+status: "Foundational synthesis"
+updated: 2026-09-05
+evidence-cutoff: "Curated source review updated through 2025; links checked in the source review"
+source-note: "General physiology only; quantitative anchors are retained only with linked sources."
+---
+
+In ==type 1 diabetes== (T1D), autoimmune loss of pancreatic beta cells causes absolute or near-absolute endogenous insulin deficiency. Exogenous insulin restores an essential signal, but subcutaneous delivery does not recreate the concentration, timing, pulsatility, or portal route of insulin secreted by a healthy pancreas. The resulting glucose dynamics are best understood as interacting flows across organs and tissues, not as a single input–output rule.
+
+[Back to module index](index.qmd)
+
+## Glucose concentration is the result of flux balance
+
+Plasma glucose is connected to interstitial and intracellular pools. Glucose enters the circulation from intestinal absorption and endogenous production, principally by the liver and secondarily by the renal cortex. It leaves through insulin-independent use, insulin-stimulated tissue uptake, storage, and—above a variable renal threshold—urinary excretion. In the post-absorptive state, the liver contributes roughly 75–85% of endogenous glucose production, with the renal cortex supplying most of the remainder ([Petersen et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28731034/); [Gerich, 2010](https://pubmed.ncbi.nlm.nih.gov/20546255/)).
+
+The three major insulin-sensitive processes are distinct:
+
+1. **Peripheral uptake.** Insulin receptor signalling recruits ==glucose transporter type 4== (GLUT4) to muscle and adipose-cell membranes, increasing glucose entry. Skeletal muscle accounts for most insulin-mediated whole-body glucose disposal under clamp conditions ([DeFronzo et al., 1981](https://pubmed.ncbi.nlm.nih.gov/7026740/); [Chadt and Al-Hasani, 2020](https://pubmed.ncbi.nlm.nih.gov/32591907/)).
+2. **Hepatic output.** Insulin suppresses glycogen breakdown and new glucose production. Glucagon and catecholamines can increase both processes when glucose availability or energy demand requires it ([Petersen et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28731034/)).
+3. **Adipose lipolysis.** Insulin suppresses the release of glycerol and free fatty acids. This reduces substrates and signals that otherwise support gluconeogenesis and ketogenesis ([Rizza et al., 1981](https://pubmed.ncbi.nlm.nih.gov/7011057/); [Petersen and Shulman, 2018](https://pubmed.ncbi.nlm.nih.gov/30067154/)).
+
+These effects have different dose–response characteristics. Clamp studies found that suppression of adipose lipolysis occurs at lower insulin concentrations than suppression of hepatic glucose production, while stimulation of whole-body glucose disposal requires higher concentrations ([Rizza et al., 1981](https://pubmed.ncbi.nlm.nih.gov/7011057/)). A single undifferentiated “insulin strength” variable therefore conceals real tissue-level differences.
+
+## What changes in type 1 diabetes
+
+Healthy beta cells release insulin into the portal circulation, exposing the liver to a higher concentration than peripheral tissues. The liver removes about half of endogenous insulin during first passage, producing a fasting portal-to-peripheral gradient of approximately 2–3:1 ([Najjar and Perdomo, 2019](https://pubmed.ncbi.nlm.nih.gov/30968756/)). Subcutaneous insulin enters peripheral circulation first. At comparable whole-body action, this route tends to create relatively greater peripheral exposure and relatively lower portal exposure than endogenous secretion.
+
+T1D also changes counterregulation. The glucagon response to falling glucose becomes impaired in many people, while repeated hypoglycaemia can shift autonomic warning and hormonal responses to lower glucose concentrations. This acquired state is called ==hypoglycaemia-associated autonomic failure== (HAAF). It can be partly reversible with avoidance of recurrent hypoglycaemia, but severity and recovery vary ([Cryer, 2013](https://pubmed.ncbi.nlm.nih.gov/23883381/); [Cryer, 2014](https://pubmed.ncbi.nlm.nih.gov/24962915/)).
+
+::: {.callout-important title="Established evidence"}
+Exogenous insulin cannot be withdrawn from the circulation as quickly as endogenous secretion can be suppressed. During a rapid change in demand—especially exercise—active insulin may continue to stimulate peripheral uptake and suppress hepatic output even when the physiological need for circulating glucose has risen.
+:::
+
+## Counterregulation is layered, not fail-safe
+
+In people without diabetes, falling glucose first suppresses insulin secretion, then increases glucagon, followed by adrenaline and autonomic symptoms. Cortisol and growth hormone contribute more slowly. In established T1D, the first defence is unavailable because circulating insulin derives from an external depot, and the glucagon response to hypoglycaemia is often diminished. Adrenaline becomes particularly important, but its response can also be blunted after recent hypoglycaemia ([Cryer, 2002](https://pubmed.ncbi.nlm.nih.gov/12107742/); [Mitrakou et al., 1991](https://pubmed.ncbi.nlm.nih.gov/1987794/)).
+
+Counterregulation should not be represented as an unlimited glucose rescue. Hepatic glycogen availability, antecedent glucose, recent activity, sleep, alcohol exposure, diabetes duration, and prior hypoglycaemia can all alter the response. The same falling trajectory can therefore lead to different outcomes.
+
+## What a glucose sensor measures
+
+A ==continuous glucose monitor== (CGM) measures glucose in subcutaneous interstitial fluid rather than directly in blood. Human tracer studies estimate a physiological plasma-to-interstitial delay of about 5–6 minutes in healthy fasting adults; sensor chemistry and signal processing add further delay ([Basu et al., 2013](https://pubmed.ncbi.nlm.nih.gov/24009261/); [Cengiz and Tamborlane, 2009](https://pubmed.ncbi.nlm.nih.gov/19469670/)). During rapid change, the displayed value is therefore a delayed, filtered estimate rather than an instantaneous plasma measurement.
+
+### Evidence limitations
+
+- Compartmental descriptions are useful abstractions. An “interstitial compartment” in a model need not correspond one-to-one with a discrete anatomical pool.
+- Clamp-derived dose–response values describe controlled groups and endpoints; they are not personal sensitivity constants.
+- Counterregulatory thresholds vary with antecedent glucose exposure and study protocol.
+- Sensor lag is dynamic. A single fixed delay cannot reproduce all rates of change, tissue conditions, and devices.
+
+## Implications for serious-game design
+
+::: {.callout-note title="Modelling and design inference"}
+1. Represent at least two conceptually separate insulin effects: suppression of glucose production and stimulation of peripheral disposal.
+2. Show that a delayed insulin action can overlap a meal, exercise bout, or recovery period after the initiating decision.
+3. Treat counterregulation as conditional and capacity-limited, not as a guaranteed correction.
+4. If the interface presents sensor glucose, distinguish the displayed measurement from the underlying physiological state.
+5. Use variability to demonstrate uncertainty, but make its major drivers visible so that players can learn causal reasoning.
+:::
+
+## References
+
+- [Basu, A. et al. (2013). Time lag of glucose from intravascular to interstitial compartment in humans. *Diabetes*, 62, 4083–4087.](https://pubmed.ncbi.nlm.nih.gov/24009261/)
+- [Cengiz, E. and Tamborlane, W.V. (2009). A tale of two compartments: interstitial versus blood glucose monitoring. *Diabetes Technology & Therapeutics*, 11(Suppl 1), S11–S16.](https://pubmed.ncbi.nlm.nih.gov/19469670/)
+- [Chadt, A. and Al-Hasani, H. (2020). Glucose transporters in adipose tissue, liver, and skeletal muscle in metabolic health and disease. *Pflügers Archiv*, 472, 1273–1298.](https://pubmed.ncbi.nlm.nih.gov/32591907/)
+- [Cryer, P.E. (2002). Hypoglycaemia: the limiting factor in the glycaemic management of type 1 and type 2 diabetes. *Diabetologia*, 45, 937–948.](https://pubmed.ncbi.nlm.nih.gov/12107742/)
+- [Cryer, P.E. (2013). Mechanisms of hypoglycemia-associated autonomic failure in diabetes. *New England Journal of Medicine*, 369, 362–372.](https://pubmed.ncbi.nlm.nih.gov/23883381/)
+- [Cryer, P.E. (2014). Glycemic goals in diabetes: trade-off between glycemic control and iatrogenic hypoglycemia. *Diabetes*, 63, 2188–2195.](https://pubmed.ncbi.nlm.nih.gov/24962915/)
+- [DeFronzo, R.A. et al. (1981). The effect of insulin on the disposal of intravenous glucose. *Diabetes*, 30, 1000–1007.](https://pubmed.ncbi.nlm.nih.gov/7026740/)
+- [Gerich, J.E. (2010). Role of the kidney in normal glucose homeostasis and in the hyperglycaemia of diabetes mellitus. *Diabetic Medicine*, 27, 136–142.](https://pubmed.ncbi.nlm.nih.gov/20546255/)
+- [Mitrakou, A. et al. (1991). Hierarchy of glycemic thresholds for counterregulatory hormone secretion, symptoms, and cerebral dysfunction. *American Journal of Physiology*, 260, E67–E74.](https://pubmed.ncbi.nlm.nih.gov/1987794/)
+- [Najjar, S.M. and Perdomo, G. (2019). Hepatic insulin clearance: mechanism and physiology. *Physiology*, 34, 198–215.](https://pubmed.ncbi.nlm.nih.gov/30968756/)
+- [Petersen, M.C., Vatner, D.F. and Shulman, G.I. (2017). Regulation of hepatic glucose metabolism in health and disease. *Nature Reviews Endocrinology*, 13, 572–587.](https://pubmed.ncbi.nlm.nih.gov/28731034/)
+- [Petersen, M.C. and Shulman, G.I. (2018). Mechanisms of insulin action and insulin resistance. *Physiological Reviews*, 98, 2133–2223.](https://pubmed.ncbi.nlm.nih.gov/30067154/)
+- [Rizza, R.A., Mandarino, L.J. and Gerich, J.E. (1981). Dose-response characteristics for effects of insulin on production and utilization of glucose in man. *American Journal of Physiology*, 240, E630–E639.](https://pubmed.ncbi.nlm.nih.gov/7011057/)
+
+## Abbreviation glossary
+
+- **CGM:** continuous glucose monitor.
+- **GLUT4:** glucose transporter type 4.
+- **HAAF:** hypoglycaemia-associated autonomic failure.
+- **T1D:** type 1 diabetes.

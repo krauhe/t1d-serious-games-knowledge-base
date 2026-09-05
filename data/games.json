@@ -1,0 +1,4742 @@
+{
+  "catalogue_title": "Serious Games for Type 1 Diabetes Education and Self-Management",
+  "catalogue_version": "2026-09-05-v3",
+  "verification_date": "2026-09-05",
+  "scope": "Structured scoping-review catalogue of T1D-specific digital serious games, selected experiential games, and clearly labelled adjacent gamified products.",
+  "epistemic_note": "Availability and price are point-in-time observations. App-store visibility may vary by country, device and account. No product was playtested in this desk-research phase. Developer statements are not treated as evidence of effectiveness.",
+  "required_record_status": "not_playtested",
+  "games": [
+    {
+      "id": "level-one",
+      "title": "Level One: A Diabetes Game",
+      "aliases": [
+        "Level One"
+      ],
+      "release_history": [
+        "iOS launch April 2025",
+        "Android release May 2025",
+        "version 1.6 listed in 2026"
+      ],
+      "scope_group": "currently_available_core",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "App Store 13+; content also addresses newly diagnosed children and adults",
+        "roles": [
+          "person with T1D",
+          "parent",
+          "teacher",
+          "school nurse",
+          "caregiver"
+        ]
+      },
+      "platforms": [
+        "iOS",
+        "iPadOS",
+        "Android"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "particle/physics puzzle and causal glucose-management simulation",
+      "learning_objectives": [
+        "carbohydrate counting",
+        "bolus calculation",
+        "insulin sensitivity and ratios",
+        "CGM interpretation",
+        "hypoglycaemia",
+        "hyperglycaemia",
+        "ketones",
+        "exercise"
+      ],
+      "core_gameplay_loop": "Foods enter a stylised bloodstream; the player times insulin and fast carbohydrate to keep simulated glucose within range across more than 60 short levels.",
+      "game_mechanisms": [
+        "short levels",
+        "progressive difficulty",
+        "immediate causal feedback",
+        "retry without real-world harm",
+        "scores"
+      ],
+      "pedagogical_mechanisms": [
+        "simulation",
+        "deliberate practice",
+        "worked progression",
+        "retrieval and application",
+        "error-based learning"
+      ],
+      "developer": {
+        "names": [
+          "Level Ex",
+          "Relevate Health Group",
+          "Breakthrough T1D Play",
+          "Beyond Type 1"
+        ],
+        "classification": "commercial with nonprofit partners",
+        "lived_experience_involvement": "Verified: founder Sam Glassenberg developed the concept after his daughter's T1D diagnosis."
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Public ratings and testimonials indicate acceptability but are not controlled evidence.",
+        "limitations": [
+          "no independent learning or clinical trial located",
+          "account and analytics requirements",
+          "English only"
+        ],
+        "design_detail": "public product without peer-reviewed outcome evaluation located"
+      },
+      "availability": {
+        "status": "publicly available",
+        "price": "free",
+        "monetisation": "no advertisements or in-app purchases claimed",
+        "regions": "verified in US, UK and several EU storefronts; global completeness not established",
+        "account_requirements": "sign-in introduced in version 1.2",
+        "hardware_dependencies": "compatible smartphone or tablet",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "publicly available"
+      },
+      "links": {
+        "official": [
+          "https://playlevelone.com/"
+        ],
+        "stores": [
+          "https://apps.apple.com/us/app/level-one-a-diabetes-game/id6739605694",
+          "https://play.google.com/store/apps/details?id=com.medlevelex.diabetes"
+        ],
+        "archives": [],
+        "publications": []
+      },
+      "screenshot": {
+        "source_url": "https://playlevelone.com/wp-content/themes/diabetplayphph/img/intro_tv_screen.jpg",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "Level Ex/Relevate Health",
+        "reuse_status": "not cleared for reproduction"
+      },
+      "design_assessment": {
+        "strengths": [
+          "low-consequence causal rehearsal",
+          "short sessions",
+          "advanced curriculum breadth",
+          "explicit caregiver audience"
+        ],
+        "limitations": [
+          "high abstraction may conceal physiology",
+          "store reviews report pacing and explanation problems",
+          "no independent effectiveness evidence"
+        ],
+        "design_relevance": [
+          "strong comparator for fast start",
+          "useful example of progressive micro-levels and visible causal effects"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "ava-type-1",
+      "title": "AvaType1",
+      "aliases": [
+        "AVA Type 1",
+        "AvA Type 1"
+      ],
+      "release_history": [
+        "iOS version 1.0 February 2026",
+        "version 1.1.3 March 2026"
+      ],
+      "scope_group": "currently_available_core",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "6-12 primary; teen, adult and technical lesson levels",
+        "roles": [
+          "child with T1D",
+          "parent",
+          "caregiver"
+        ]
+      },
+      "platforms": [
+        "iOS",
+        "iPadOS"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "educational simulation with arcade mini-games",
+      "learning_objectives": [
+        "glucose ranges",
+        "food-insulin-activity relationships",
+        "insulin-to-carbohydrate ratios",
+        "correction factors",
+        "basal insulin"
+      ],
+      "core_gameplay_loop": "Players manipulate a real-time simulated glucose system, observe the AVA robot's state and complete glucose-range arcade challenges and quizzes.",
+      "game_mechanisms": [
+        "simulation",
+        "mini-games",
+        "streaks",
+        "progress tracking",
+        "visual themes"
+      ],
+      "pedagogical_mechanisms": [
+        "causal visualisation",
+        "immediate feedback",
+        "age-adaptive explanation",
+        "retrieval practice"
+      ],
+      "developer": {
+        "names": [
+          "Kameron Martin"
+        ],
+        "classification": "independent and lived-experience-led",
+        "lived_experience_involvement": "Verified: developer diagnosed with T1D in 1992 and describes building the app for his daughter, diagnosed in 2022."
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "No independent study located.",
+        "limitations": [
+          "very recent release",
+          "two App Store ratings at verification",
+          "iOS only"
+        ],
+        "design_detail": "public product without peer-reviewed evaluation"
+      },
+      "availability": {
+        "status": "publicly available",
+        "price": "free",
+        "monetisation": "no ads, tracking or data collection claimed",
+        "regions": "US App Store verified; other regions incompletely verified",
+        "account_requirements": "none stated",
+        "hardware_dependencies": "iOS 16+; optional Bluetooth companion concept",
+        "verified_on": "2026-08-24",
+        "confidence": "high for US iOS",
+        "status_detail": "publicly available"
+      },
+      "links": {
+        "official": [
+          "https://avatype1.com/"
+        ],
+        "stores": [
+          "https://apps.apple.com/us/app/avatype1/id6758495309"
+        ],
+        "archives": [],
+        "publications": []
+      },
+      "screenshot": {
+        "source_url": "https://avatype1.com/images/screenshots/app-game.jpg",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "Kameron Martin/AVA Type 1",
+        "reuse_status": "not cleared for reproduction"
+      },
+      "design_assessment": {
+        "strengths": [
+          "lived-experience origin",
+          "age-layered explanations",
+          "explicitly simulated rather than treatment data",
+          "no-data-collection claim"
+        ],
+        "limitations": [
+          "unvalidated model and learning effect",
+          "visual overlap in published screenshot",
+          "restricted platform"
+        ],
+        "design_relevance": [
+          "direct comparator for layered scientific depth",
+          "shows value of a character that reacts to glucose"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "flightglucose",
+      "title": "FlightGlucose",
+      "aliases": [
+        "Diabetes Simulations FlightGlucose"
+      ],
+      "release_history": [
+        "Public browser version verified August 2026",
+        "Cross-client access inconsistency documented 2026-09-05: indexed content remained retrievable, while direct Windows HTTPS connections failed during the TLS handshake"
+      ],
+      "scope_group": "currently_available_core",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific with some non-T1D scenarios",
+        "age_range": "not formally specified",
+        "roles": [
+          "person with T1D",
+          "caregiver",
+          "learner"
+        ]
+      },
+      "platforms": [
+        "web browser",
+        "progressive web app claimed"
+      ],
+      "languages": [
+        "English",
+        "six additional languages claimed"
+      ],
+      "genre": "scenario-based glucose-management simulation",
+      "learning_objectives": [
+        "basal and bolus timing",
+        "insulin on board",
+        "hypoglycaemia treatment",
+        "ketones and DKA",
+        "exercise",
+        "alcohol"
+      ],
+      "core_gameplay_loop": "Select a scenario, administer insulin, carbohydrate, basal insulin, exercise or rescue actions, then observe compressed glucose dynamics and scenario feedback.",
+      "game_mechanisms": [
+        "missions",
+        "difficulty tiers",
+        "time compression",
+        "continuous status display",
+        "pass/fail states"
+      ],
+      "pedagogical_mechanisms": [
+        "scenario rehearsal",
+        "systems feedback",
+        "prediction",
+        "worked tutorial"
+      ],
+      "developer": {
+        "names": [
+          "Diabetes Simulations"
+        ],
+        "classification": "independent; exact legal owner not verified",
+        "lived_experience_involvement": "not verified"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "No independent validation located.",
+        "limitations": [
+          "model provenance not independently verified",
+          "some alarmist crisis framing",
+          "mixed clinical claims require expert audit"
+        ],
+        "design_detail": "public product without peer-reviewed evaluation"
+      },
+      "availability": {
+        "status": "availability incompletely verified",
+        "price": "five scenarios free; Learner USD 4.99/month or USD 39.99/year; Educator USD 14.99/month per seat claimed on 2026-09-05",
+        "monetisation": "freemium subscriptions; some paid features described as planned",
+        "regions": "indexed content was retrievable, but direct Windows HTTPS access failed during the TLS handshake on 2026-09-05; cross-client availability is inconsistent",
+        "account_requirements": "no account claimed for the free tier",
+        "hardware_dependencies": "modern browser",
+        "verified_on": "2026-09-05",
+        "confidence": "moderate",
+        "status_detail": "availability incompletely verified: direct Windows TLS handshake failed although indexed content remained retrievable"
+      },
+    "links": {
+      "official": [],
+      "stores": [],
+      "archives": [],
+      "publications": []
+    },
+    "screenshot": {
+      "file": null,
+      "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": "Diabetes Simulations",
+        "reuse_status": "image unavailable; no local image retained"
+      },
+      "design_assessment": {
+        "strengths": [
+          "broad scenario curriculum",
+          "browser-based delivery when reachable",
+          "compressed counterfactual practice"
+        ],
+        "limitations": [
+          "unknown clinical validation",
+          "high cognitive load",
+          "danger/survival framing may increase anxiety"
+        ],
+        "design_relevance": [
+          "direct browser-simulation comparator",
+          "illustrates both value and risk of crisis-oriented scenarios"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "mydiabetic",
+      "title": "MyDiabetic",
+      "aliases": [
+        "MyDiabetic serious game"
+      ],
+      "release_history": [
+        "Academic development 2016-2022",
+        "peer-reviewed feasibility publication 2024",
+        "public iOS and Android releases active in 2026"
+      ],
+      "scope_group": "currently_available_core",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "5-12; full engagement expected from 8-12",
+        "roles": [
+          "child with T1D",
+          "peer without T1D",
+          "caregiver"
+        ]
+      },
+      "platforms": [
+        "iOS",
+        "iPadOS",
+        "Android"
+      ],
+      "languages": [
+        "English",
+        "Czech"
+      ],
+      "genre": "daily-life character-care simulation",
+      "learning_objectives": [
+        "symptoms and diagnosis",
+        "carbohydrate counting",
+        "insulin pen and pump",
+        "glucometer and CGM",
+        "glucagon",
+        "ketones",
+        "activity",
+        "hygiene"
+      ],
+      "core_gameplay_loop": "Follow a character's daily routine, complete care tasks, buy supplies and food, manage simulated glucose and unlock progressively advanced devices and procedures.",
+      "game_mechanisms": [
+        "avatar care",
+        "timeline",
+        "levels",
+        "coins",
+        "mini-games",
+        "audio guide",
+        "repetition"
+      ],
+      "pedagogical_mechanisms": [
+        "procedural rehearsal",
+        "simulation",
+        "observational learning",
+        "guided practice",
+        "family and peer discussion"
+      ],
+      "developer": {
+        "names": [
+          "Czech Technical University in Prague",
+          "Digital Parenting",
+          "Daniel Novak and student teams",
+          "clinical and patient-organisation advisers"
+        ],
+        "classification": "academic-clinical collaboration with public distribution",
+        "lived_experience_involvement": "Verified participatory design with children with T1D and parents; no developer lived-experience claim located."
+      },
+      "evidence": {
+        "level": "usability or participatory co-design study",
+        "studies": [
+          {
+            "citation": "Novak 2024, doi:10.2196/49478",
+            "design": "three iterative co-design/evaluation cycles",
+            "sample_size": "32 children across iterations; five peers additionally exposed",
+            "outcomes": "positive acceptance and reported one-week educational improvement",
+            "limitations": "small heterogeneous samples, brief exposure, no controlled clinical endpoint"
+          }
+        ],
+        "summary": "Best-documented currently downloadable T1D-specific research game, but effectiveness remains preliminary.",
+        "limitations": [
+          "no randomized comparison",
+          "no long-term retention or HbA1c evidence"
+        ],
+        "design_detail": "participatory co-design and short feasibility/learning evaluation"
+      },
+      "availability": {
+        "status": "publicly available",
+        "price": "free",
+        "monetisation": "none identified",
+        "regions": "US storefront verified; Czech project distribution; other regions incompletely verified",
+        "account_requirements": "not established",
+        "hardware_dependencies": "large mobile app; iOS/Android",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "publicly available"
+      },
+      "links": {
+        "official": [
+          "https://www.my-diabetic.com/"
+        ],
+        "stores": [
+          "https://apps.apple.com/us/app/mydiabetic/id1492327698"
+        ],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.2196/49478"
+        ]
+      },
+      "screenshot": {
+        "source_url": "https://www.my-diabetic.com/assets/images/introbedroom2-1-720x486.jpg",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "MyDiabetic project",
+        "reuse_status": "website-image reuse not cleared; applicable article figures require separate attribution review"
+      },
+      "design_assessment": {
+        "strengths": [
+          "curriculum breadth",
+          "procedural interaction",
+          "participatory development",
+          "public availability"
+        ],
+        "limitations": [
+          "dated 3D presentation",
+          "potentially large onboarding burden",
+          "brief efficacy testing"
+        ],
+        "design_relevance": [
+          "strongest precedent for combining physiology, procedures and daily life",
+          "supports an audio-guided novice path"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "rufus",
+      "title": "Rufus, the Bear with Diabetes",
+      "aliases": [
+        "Rufus the Bear app"
+      ],
+      "release_history": [
+        "Physical comfort bear used for decades",
+        "interactive mobile app launched through Breakthrough T1D and Empath Labs in 2021",
+        "Android update December 2025"
+      ],
+      "scope_group": "currently_available_core",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "young children and newly diagnosed families",
+        "roles": [
+          "child with T1D",
+          "parent",
+          "sibling"
+        ]
+      },
+      "platforms": [
+        "iOS",
+        "Android",
+        "Amazon Appstore",
+        "optional physical bear"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "virtual pet/care simulation with interactive stories",
+      "learning_objectives": [
+        "blood glucose checks",
+        "insulin pen and pump",
+        "carbohydrate values",
+        "food selection",
+        "effects of carbohydrate and insulin",
+        "activity"
+      ],
+      "core_gameplay_loop": "Care for Rufus by checking glucose, preparing insulin and meals, completing coach tasks and unlocking 21 animated stories.",
+      "game_mechanisms": [
+        "caregiving",
+        "task sets",
+        "unlockable stories",
+        "character attachment",
+        "optional tangible companion"
+      ],
+      "pedagogical_mechanisms": [
+        "role reversal",
+        "procedural rehearsal",
+        "narrative modelling",
+        "caregiver co-play"
+      ],
+      "developer": {
+        "names": [
+          "Breakthrough T1D",
+          "Empath Labs",
+          "Sproutel"
+        ],
+        "classification": "nonprofit-commercial collaboration",
+        "lived_experience_involvement": "Community involvement is plausible and historically described, but the app's specific co-design sample was not independently documented."
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Long community history and store feedback support acceptability, not measured learning or clinical benefit.",
+        "limitations": [
+          "no independent trial",
+          "young-child focus",
+          "physical bear access differs by region"
+        ],
+        "design_detail": "public product; no peer-reviewed outcome evaluation located"
+      },
+      "availability": {
+        "status": "publicly available",
+        "price": "app free; physical bear free in some newly diagnosed kits and otherwise limited purchase",
+        "monetisation": "no app purchase identified",
+        "regions": "app-store access verified; physical distribution is programme- and country-dependent",
+        "account_requirements": "not established",
+        "hardware_dependencies": "smartphone/tablet; bear optional",
+        "verified_on": "2026-08-24",
+        "confidence": "high for app, moderate for bear distribution",
+        "status_detail": "publicly available"
+      },
+      "links": {
+        "official": [
+          "https://www.breakthrought1d.org/news-and-updates/new-interactive-rufus-the-bear-with-diabetes/"
+        ],
+        "stores": [
+          "https://play.google.com/store/apps/details?id=com.sproutel.rufus"
+        ],
+        "archives": [],
+        "publications": []
+      },
+      "screenshot": {
+        "source_url": "https://play.google.com/store/apps/details?id=com.sproutel.rufus",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "Breakthrough T1D/Empath Labs",
+        "reuse_status": "not cleared for reproduction"
+      },
+      "design_assessment": {
+        "strengths": [
+          "developmentally appropriate role-play",
+          "caregiver participation",
+          "procedural specificity",
+          "positive non-stigmatising character"
+        ],
+        "limitations": [
+          "no outcomes study",
+          "limited depth for older users"
+        ],
+        "design_relevance": [
+          "supports character-centred safe practice",
+          "demonstrates continuity between physical comfort objects and digital learning"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "glucozor",
+      "title": "GlucoZor",
+      "aliases": [
+        "Glucozor"
+      ],
+      "release_history": [
+        "Web/mobile product publicly documented by 2015",
+        "official site and legal terms accessible in 2026"
+      ],
+      "scope_group": "currently_available_core",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "9-11 in official terms",
+        "roles": [
+          "child with T1D",
+          "parent"
+        ]
+      },
+      "platforms": [
+        "web browser",
+        "historical iOS and Android listings"
+      ],
+      "languages": [
+        "French"
+      ],
+      "genre": "dinosaur-care simulation with mini-games",
+      "learning_objectives": [
+        "glucose variation",
+        "food",
+        "insulin",
+        "activity",
+        "daily self-management"
+      ],
+      "core_gameplay_loop": "Feed, treat and play with a dinosaur while responding to simulated glucose changes and completing mini-games.",
+      "game_mechanisms": [
+        "virtual pet",
+        "mini-games",
+        "feedback",
+        "progression"
+      ],
+      "pedagogical_mechanisms": [
+        "simulation",
+        "caregiving role",
+        "repetition",
+        "parent-supported discussion"
+      ],
+      "developer": {
+        "names": [
+          "Dinno Santé/Air Liquide Healthcare",
+          "Aide aux Jeunes Diabétiques"
+        ],
+        "classification": "commercial-nonprofit-clinical collaboration",
+        "lived_experience_involvement": "Patient-association partnership verified; direct child co-design not established."
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Clinical content validation by AJD is documented; effectiveness is not.",
+        "limitations": [
+          "French only",
+          "store availability uncertain",
+          "older technology"
+        ],
+        "design_detail": "public product without independent peer-reviewed outcome evaluation"
+      },
+      "availability": {
+        "status": "availability incompletely verified",
+        "price": "free claimed",
+        "monetisation": "industry-funded",
+        "regions": "France/French-speaking use",
+        "account_requirements": "parental consent required",
+        "hardware_dependencies": "browser or compatible legacy app",
+        "verified_on": "2026-08-24",
+        "confidence": "high for website, low-to-moderate for current app stores",
+        "status_detail": "official web presence active; mobile-store status incompletely verified"
+      },
+      "links": {
+        "official": [
+          "https://www.glucozor.fr/",
+          "https://www.glucozor.fr/le-jeu/mentions_legales"
+        ],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1016/j.diabres.2024.111833"
+        ]
+      },
+      "screenshot": {
+        "source_url": "https://www.glucozor.fr/wp-content/themes/glucozor/assets/img/jouerglucozorenfantdiabete.png",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "Dinno Santé/Air Liquide Healthcare",
+        "reuse_status": "not cleared for reproduction"
+      },
+      "design_assessment": {
+        "strengths": [
+          "clinically partnered content",
+          "clear child-parent framing",
+          "character care"
+        ],
+        "limitations": [
+          "narrow language and age range",
+          "no outcomes evidence",
+          "uncertain mobile maintenance"
+        ],
+        "design_relevance": [
+          "example of transparent industry/nonprofit provenance",
+          "illustrates maintenance risk despite an active website"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "novi-chek",
+      "title": "Novi-Chek: diabète de type 1",
+      "aliases": [
+        "Novi-Check",
+        "Novi-Chek"
+      ],
+      "release_history": [
+        "award-winning first version by 2017",
+        "second version 2020",
+        "store listing indexed with an October 2024 update, but direct storefront access could not be verified from the local computer in September 2026"
+      ],
+      "scope_group": "currently_available_gamified_companion",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "13-25",
+        "roles": [
+          "adolescent with T1D",
+          "young adult with T1D"
+        ]
+      },
+      "platforms": [
+        "iOS",
+        "Android historically"
+      ],
+      "languages": [
+        "French"
+      ],
+      "genre": "gamified educational companion and quiz",
+      "learning_objectives": [
+        "pathophysiology",
+        "insulin and monitoring",
+        "carbohydrate counting",
+        "daily life",
+        "autonomy"
+      ],
+      "core_gameplay_loop": "Read illustrated education, answer quizzes and equip an avatar for a mountain ascent while configuring reminders and treatment information.",
+      "game_mechanisms": [
+        "quiz",
+        "avatar journey",
+        "progress",
+        "equipment rewards",
+        "notifications"
+      ],
+      "pedagogical_mechanisms": [
+        "retrieval practice",
+        "chunked reference",
+        "self-monitoring prompts"
+      ],
+      "developer": {
+        "names": [
+          "Roche Diagnostics France",
+          "health-professional contributors"
+        ],
+        "classification": "commercial-clinical",
+        "lived_experience_involvement": "not documented"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Awards and professional development are not effectiveness evidence.",
+        "limitations": [
+          "quiz-dominant",
+          "industry provenance",
+          "French/region limitation"
+        ],
+        "design_detail": "public product without independent outcome evaluation"
+      },
+      "availability": {
+      "status": "availability incompletely verified",
+        "price": "free",
+        "monetisation": "industry-funded",
+      "regions": "official French product page accessible; direct iOS and Android acquisition could not be verified from the local computer",
+        "account_requirements": "not established",
+        "hardware_dependencies": "smartphone",
+        "verified_on": "2026-09-05",
+      "confidence": "high for product-page continuity; low for current app acquisition",
+      "status_detail": "official Roche product page accessible; tested App Store and Google Play links returned HTTP 404"
+      },
+      "links": {
+        "official": [
+          "https://www.accu-chek.fr/produits/application/novi-chek"
+        ],
+      "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1016/j.diabres.2024.111833"
+        ]
+      },
+      "screenshot": {
+        "source_url": "https://www.accu-chek.fr/sites/g/files/papvje271/files/styles/image_500x600/public/2023-12/NC.png",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "Roche Diagnostics France",
+        "reuse_status": "not cleared for reproduction"
+      },
+      "design_assessment": {
+        "strengths": [
+          "newly diagnosed/autonomy pathway",
+          "reference plus retrieval",
+          "daily-life scope"
+        ],
+        "limitations": [
+          "weak simulation",
+          "no independent evaluation",
+          "language restriction"
+        ],
+        "design_relevance": [
+          "shows how a progress narrative can organise reference material",
+          "useful comparator for transition-age users"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "sweet-strategy",
+      "title": "Sweet Strategy",
+      "aliases": [
+        "甜・攻略",
+        "甜.攻略"
+      ],
+      "release_history": [
+        "iOS release 2022",
+        "version 1.3 January 2023",
+        "listing visible in 2026"
+      ],
+      "scope_group": "currently_available_gamified_companion",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children and adolescents",
+        "roles": [
+          "child with T1D",
+          "adolescent with T1D"
+        ]
+      },
+      "platforms": [
+        "iOS",
+        "iPadOS"
+      ],
+      "languages": [
+        "Traditional Chinese",
+        "English listed by store but content not independently verified"
+      ],
+      "genre": "self-management utility containing three educational mini-games",
+      "learning_objectives": [
+        "carbohydrate calculation",
+        "food",
+        "daily situations",
+        "insulin calculation",
+        "T1D knowledge"
+      ],
+      "core_gameplay_loop": "Use an educational companion and food database, then complete around-the-world, puzzle and cooking/food games.",
+      "game_mechanisms": [
+        "mini-games",
+        "puzzles",
+        "progress"
+      ],
+      "pedagogical_mechanisms": [
+        "retrieval",
+        "food classification",
+        "situated reference"
+      ],
+      "developer": {
+        "names": [
+          "Innpression Limited",
+          "Hong Kong clinical contributors not fully mapped"
+        ],
+        "classification": "commercial/clinical collaboration",
+        "lived_experience_involvement": "not verified"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "No measured outcomes located.",
+        "limitations": [
+          "regional and language limitation",
+          "hybrid utility rather than a full serious game"
+        ],
+        "design_detail": "public product without peer-reviewed evaluation located"
+      },
+      "availability": {
+        "status": "publicly available",
+        "price": "free",
+        "monetisation": "none identified",
+        "regions": "Hong Kong/Taiwan listing verified",
+        "account_requirements": "not established",
+        "hardware_dependencies": "iOS device",
+        "verified_on": "2026-08-24",
+        "confidence": "high for Taiwan iOS",
+        "status_detail": "public iOS listing"
+      },
+      "links": {
+        "official": [],
+        "stores": [
+          "https://apps.apple.com/tw/app/%E7%94%9C-%E6%94%BB%E7%95%A5/id1619470848"
+        ],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1016/j.diabres.2024.111833"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": "https://apps.apple.com/tw/app/%E7%94%9C-%E6%94%BB%E7%95%A5/id1619470848",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "Innpression Limited",
+        "reuse_status": "image not retained"
+      },
+      "design_assessment": {
+        "strengths": [
+          "local food context",
+          "psychology and daily-life material",
+          "free access"
+        ],
+        "limitations": [
+          "no evaluation",
+          "limited international accessibility",
+          "game layer may be secondary"
+        ],
+        "design_relevance": [
+          "supports culturally local food content",
+          "shows value of daily-situation modules"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "eddii",
+      "title": "eddii",
+      "aliases": [
+        "eddii Diabetes Health App"
+      ],
+      "release_history": [
+        "public iOS/Android product active by 2023",
+        "Dexcom partner listing and nationwide US virtual care active in 2026"
+      ],
+      "scope_group": "adjacent_gamified_management",
+      "target_population": {
+        "diabetes_specificity": "mixed T1D, T2D and metabolic conditions",
+        "age_range": "children and adults",
+        "roles": [
+          "person with diabetes",
+          "guardian"
+        ]
+      },
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "CGM-linked gamified self-management and virtual-care app",
+      "learning_objectives": [
+        "data logging",
+        "CGM interpretation",
+        "diabetes knowledge",
+        "mental-health reflection"
+      ],
+      "core_gameplay_loop": "Connect Dexcom or log health data, interact with the eddii character, complete quizzes and games, earn rewards and view summaries.",
+      "game_mechanisms": [
+        "character",
+        "rewards",
+        "quizzes",
+        "notifications",
+        "data-linked feedback"
+      ],
+      "pedagogical_mechanisms": [
+        "self-monitoring",
+        "reinforcement",
+        "microlearning"
+      ],
+      "developer": {
+        "names": [
+          "eddii Health",
+          "Dexcom integration partner"
+        ],
+        "classification": "commercial",
+        "lived_experience_involvement": "founder narrative includes diabetes community motivation, but specific lived-experience co-design not verified here"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [
+          {
+            "citation": "Ahmadi et al. 2024, JDST 19322968231223759",
+            "design": "product-related study",
+            "sample_size": "see source",
+            "outcomes": "engagement-related evidence",
+            "limitations": "not equivalent to proof of learning or clinical benefit for the current product"
+          }
+        ],
+        "summary": "Should be listed as a gamified management utility, not a stand-alone education game.",
+        "limitations": [
+          "real health data and privacy considerations",
+          "US care-service coupling",
+          "mixed diabetes population"
+        ],
+        "design_detail": "public product with limited related publication; independent educational efficacy not established"
+      },
+      "availability": {
+        "status": "publicly available",
+        "price": "app download appears free; care services and rewards may have separate terms",
+        "monetisation": "commercial virtual care",
+        "regions": "US availability verified",
+        "account_requirements": "account and health-data permissions",
+        "hardware_dependencies": "smartphone; Dexcom optional but preferred",
+        "verified_on": "2026-08-24",
+        "confidence": "high for US",
+        "status_detail": "publicly available"
+      },
+      "links": {
+        "official": [
+          "https://www.eddiihealth.com/eddii-app",
+          "https://www.dexcom.com/en-us/partnerships/digital-health-apps/eddii"
+        ],
+        "stores": [],
+        "archives": [],
+        "publications": []
+      },
+      "screenshot": {
+        "source_url": "https://www.eddiihealth.com/eddii-app",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "eddii Health",
+        "reuse_status": "not cleared for reproduction"
+      },
+      "design_assessment": {
+        "strengths": [
+          "links play to real monitoring",
+          "family oversight",
+          "mental-health content"
+        ],
+        "limitations": [
+          "privacy and therapeutic-boundary complexity",
+          "not a pure learning game",
+          "commercial and regional dependencies"
+        ],
+        "design_relevance": [
+          "illustrates risks of mixing simulation with real patient data",
+          "supports a clear boundary between learning products and therapeutic services"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "captain-novolin",
+      "title": "Captain Novolin",
+      "aliases": [],
+      "release_history": [
+        "SNES release 1992",
+        "discontinued"
+      ],
+      "scope_group": "historical_core",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children",
+        "roles": [
+          "child with T1D"
+        ]
+      },
+      "platforms": [
+        "Super Nintendo Entertainment System"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "side-scrolling action game",
+      "learning_objectives": [
+        "food choices",
+        "insulin",
+        "glucose monitoring",
+        "diabetes facts"
+      ],
+      "core_gameplay_loop": "Defeat food-themed enemies, collect appropriate foods and insulin, and answer diabetes questions.",
+      "game_mechanisms": [
+        "action",
+        "collecting",
+        "quiz",
+        "levels"
+      ],
+      "pedagogical_mechanisms": [
+        "retrieval",
+        "repetition",
+        "narrative framing"
+      ],
+      "developer": {
+        "names": [
+          "Sculptured Software",
+          "Raya Systems",
+          "Novo Nordisk",
+          "US National Institute of Diabetes and Digestive and Kidney Diseases"
+        ],
+        "classification": "commercial/clinical/public collaboration",
+        "lived_experience_involvement": "not documented"
+      },
+      "evidence": {
+        "level": "development description or conceptual framework",
+        "studies": [],
+        "summary": "Historically consequential but not evidence of effectiveness.",
+        "limitations": [
+          "stereotyped good-versus-bad food framing",
+          "obsolete platform",
+          "no product-specific trial"
+        ],
+        "design_detail": "development history; no controlled product-specific outcome study located"
+      },
+      "availability": {
+        "status": "discontinued",
+        "price": "collector market only",
+        "monetisation": "original commercial cartridge",
+        "regions": "historical North American release",
+        "account_requirements": "none",
+        "hardware_dependencies": "SNES or legally obtained compatible environment",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "discontinued"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [
+          "https://en.wikipedia.org/wiki/Captain_Novolin"
+        ],
+        "publications": [
+          "https://pubmed.ncbi.nlm.nih.gov/11189794/"
+        ]
+      },
+      "screenshot": {
+        "source_url": "https://en.wikipedia.org/wiki/Captain_Novolin",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "historical game rights holder",
+        "reuse_status": "not cleared for reproduction"
+      },
+      "design_assessment": {
+        "strengths": [
+          "embedded education in a complete console game",
+          "recognisable historical milestone"
+        ],
+        "limitations": [
+          "didactic interruptions",
+          "moralising food representation",
+          "inaccessible"
+        ],
+        "design_relevance": [
+          "shows the limits of attaching quizzes to unrelated action play"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "packy-and-marlon",
+      "title": "Packy & Marlon",
+      "aliases": [
+        "Packy and Marlon"
+      ],
+      "release_history": [
+        "SNES release 1994",
+        "discontinued"
+      ],
+      "scope_group": "historical_core",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "8-16 years in trial",
+        "roles": [
+          "child or adolescent with T1D"
+        ]
+      },
+      "platforms": [
+        "Super Nintendo Entertainment System"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "action-platform game with diabetes self-care decisions",
+      "learning_objectives": [
+        "self-care",
+        "communication",
+        "food",
+        "insulin",
+        "hypoglycaemia"
+      ],
+      "core_gameplay_loop": "Play an adventure while monitoring the elephant protagonists' diabetes and making contextual self-care decisions.",
+      "game_mechanisms": [
+        "narrative",
+        "characters",
+        "action",
+        "contextual decisions",
+        "progression"
+      ],
+      "pedagogical_mechanisms": [
+        "situated rehearsal",
+        "modelling",
+        "reinforcement"
+      ],
+      "developer": {
+        "names": [
+          "Raya Systems",
+          "Sculptured Software"
+        ],
+        "classification": "commercial/research collaboration",
+        "lived_experience_involvement": "not established"
+      },
+      "evidence": {
+        "level": "controlled outcome study",
+        "studies": [
+          {
+            "citation": "Brown et al. 1997",
+            "design": "six-month randomised trial",
+            "sample_size": 59,
+            "outcomes": "improved parent communication (P=.025) and self-care (P=.003); urgent visits trend P=.08; no knowledge or HbA1c difference",
+            "limitations": "small single-era study; several borderline outcomes"
+          }
+        ],
+        "summary": "The strongest early evidence concerned communication and self-care rather than glycaemic control.",
+        "limitations": [
+          "small sample",
+          "obsolete platform",
+          "limited replication"
+        ],
+        "design_detail": "controlled outcome study"
+      },
+      "availability": {
+        "status": "discontinued",
+        "price": "collector market only",
+        "monetisation": "original commercial cartridge",
+        "regions": "historical North American release",
+        "account_requirements": "none",
+        "hardware_dependencies": "SNES or legally obtained compatible environment",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "discontinued"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [
+          "https://en.wikipedia.org/wiki/Packy_and_Marlon"
+        ],
+        "publications": [
+          "https://pubmed.ncbi.nlm.nih.gov/9183781/"
+        ]
+      },
+      "screenshot": {
+        "source_url": "https://en.wikipedia.org/wiki/Packy_and_Marlon",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "historical game rights holder",
+        "reuse_status": "not cleared for reproduction"
+      },
+      "design_assessment": {
+        "strengths": [
+          "integrates self-care into narrative play",
+          "measured behavioural and relational outcomes"
+        ],
+        "limitations": [
+          "no HbA1c or knowledge effect",
+          "inaccessible"
+        ],
+        "design_relevance": [
+          "supports contextual action and caregiver communication beyond factual quizzes"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "monster-manor",
+      "title": "Monster Manor",
+      "aliases": [],
+      "release_history": [
+        "mobile launch 2013",
+        "unavailable by the 2024 accessibility audit"
+      ],
+      "scope_group": "historical_core",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children",
+        "roles": [
+          "child with T1D"
+        ]
+      },
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "collection game linked to blood-glucose checks",
+      "learning_objectives": [
+        "regular glucose monitoring",
+        "habit formation"
+      ],
+      "core_gameplay_loop": "Log a blood-glucose check to earn in-game rewards used to collect and care for monsters.",
+      "game_mechanisms": [
+        "collection",
+        "rewards",
+        "character care",
+        "habit streak"
+      ],
+      "pedagogical_mechanisms": [
+        "extrinsic reinforcement",
+        "self-monitoring"
+      ],
+      "developer": {
+        "names": [
+          "Ayogo",
+          "Sanofi",
+          "Diabetes UK"
+        ],
+        "classification": "commercial/nonprofit collaboration",
+        "lived_experience_involvement": "community involvement reported but not independently mapped"
+      },
+      "evidence": {
+        "level": "development description or conceptual framework",
+        "studies": [
+          {
+            "citation": "Kamel Boulos et al. 2015",
+            "design": "viewpoint and product description",
+            "sample_size": null,
+            "outcomes": "no controlled outcomes",
+            "limitations": "developer-facing description"
+          }
+        ],
+        "summary": "No controlled independent evaluation was located.",
+        "limitations": [
+          "real-data reward may privilege measurement frequency over interpretation",
+          "no clinical trial"
+        ],
+        "design_detail": "development description/viewpoint"
+      },
+      "availability": {
+        "status": "discontinued",
+        "price": "formerly free",
+        "monetisation": "sponsor-funded",
+        "regions": "formerly UK and selected stores",
+        "account_requirements": "historically required",
+        "hardware_dependencies": "obsolete mobile app",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "discontinued"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.2196/games.3930"
+        ]
+      },
+      "screenshot": {
+        "source_url": "https://doi.org/10.2196/games.3930",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "JMIR/Ayogo figure rights",
+        "reuse_status": "article-figure licence and attribution require verification before reproduction"
+      },
+      "design_assessment": {
+        "strengths": [
+          "clear habit loop",
+          "appealing character collection"
+        ],
+        "limitations": [
+          "extrinsic reward dependence",
+          "service discontinued",
+          "limited causal learning"
+        ],
+        "design_relevance": [
+          "warns that maintenance and educational depth matter as much as initial engagement"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "koodak-e-tavana",
+      "title": "Koodak-e-Tavana Insulin Injection Game",
+      "aliases": [
+        "Capable Child"
+      ],
+      "release_history": [
+        "research prototype reported 2014-2015"
+      ],
+      "scope_group": "research_prototype",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children",
+        "roles": [
+          "child with T1D"
+        ]
+      },
+      "platforms": [
+        "PC"
+      ],
+      "languages": [
+        "Persian"
+      ],
+      "genre": "injection-procedure simulation",
+      "learning_objectives": [
+        "insulin injection sequence",
+        "injection coping"
+      ],
+      "core_gameplay_loop": "Practise the steps of insulin injection in a game environment and receive procedural feedback.",
+      "game_mechanisms": [
+        "simulation",
+        "feedback",
+        "repetition"
+      ],
+      "pedagogical_mechanisms": [
+        "procedural rehearsal",
+        "graded exposure",
+        "mastery practice"
+      ],
+      "developer": {
+        "names": [
+          "Iranian paediatric and informatics research team"
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "child-centred requirements reported; lived-experience governance not documented"
+      },
+      "evidence": {
+        "level": "controlled outcome study",
+        "studies": [
+          {
+            "citation": "Ebrahimpour et al. 2015",
+            "design": "randomised one-week study",
+            "sample_size": 30,
+            "outcomes": "observational distress score improved; intervention within-group P=.001, between-group P=.03",
+            "limitations": "short follow-up and small single-site sample"
+          }
+        ],
+        "summary": "Suggests reduced injection distress after brief use; durability is unknown.",
+        "limitations": [
+          "small sample",
+          "short follow-up",
+          "no public release"
+        ],
+        "design_detail": "small randomised trial"
+      },
+      "availability": {
+        "status": "study or trial only",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "Iranian study setting",
+        "account_requirements": "study participation",
+        "hardware_dependencies": "research PC",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "study-only; public release not located"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4324272/",
+          "https://doi.org/10.5812/ijp.25(3)2015.427"
+        ]
+      },
+      "screenshot": {
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4324272/",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "article authors/publisher",
+        "reuse_status": "open-access article figure; licence must accompany public reuse"
+      },
+      "design_assessment": {
+        "strengths": [
+          "specific anxiety-relevant task",
+          "procedural fidelity",
+          "measured distress"
+        ],
+        "limitations": [
+          "narrow curriculum",
+          "not accessible"
+        ],
+        "design_relevance": [
+          "supports focused low-consequence practice for stressful procedures"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "ar-food-game",
+      "title": "Augmented-Reality Diabetes Education Game",
+      "aliases": [
+        "AR diabetes food game"
+      ],
+      "release_history": [
+        "research prototype published 2017"
+      ],
+      "scope_group": "research_prototype",
+      "target_population": {
+        "diabetes_specificity": "paediatric diabetes education",
+        "age_range": "children",
+        "roles": [
+          "child with diabetes"
+        ]
+      },
+      "platforms": [
+        "tablet",
+        "augmented reality cards"
+      ],
+      "languages": [
+        "Spanish"
+      ],
+      "genre": "augmented-reality food and self-care game",
+      "learning_objectives": [
+        "food choices",
+        "carbohydrate",
+        "daily self-management"
+      ],
+      "core_gameplay_loop": "Manipulate physical markers viewed through a tablet and receive contextual educational feedback.",
+      "game_mechanisms": [
+        "augmented reality",
+        "tangible interaction",
+        "feedback",
+        "challenges"
+      ],
+      "pedagogical_mechanisms": [
+        "situated learning",
+        "dual coding",
+        "active manipulation"
+      ],
+      "developer": {
+        "names": [
+          "Calle-Bustos et al."
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "participatory input reported"
+      },
+      "evidence": {
+        "level": "pre/post or feasibility study",
+        "studies": [
+          {
+            "citation": "Calle-Bustos et al. 2017",
+            "design": "prototype evaluation",
+            "sample_size": "reported in article",
+            "outcomes": "usability and learning-related measures",
+            "limitations": "no long-term clinical endpoint"
+          }
+        ],
+        "summary": "Demonstrated feasibility of tangible AR learning but not durable clinical benefit.",
+        "limitations": [
+          "prototype hardware",
+          "small evaluation",
+          "not public"
+        ],
+        "design_detail": "feasibility/usability study"
+      },
+      "availability": {
+        "status": "research prototype; not publicly available",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "Spanish study setting",
+        "account_requirements": "study participation",
+        "hardware_dependencies": "tablet and printed markers",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "research prototype; public distribution not located"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1371/journal.pone.0184645"
+        ]
+      },
+      "screenshot": {
+        "source_url": "https://doi.org/10.1371/journal.pone.0184645",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "article authors",
+        "reuse_status": "CC BY article figure with attribution"
+      },
+      "design_assessment": {
+        "strengths": [
+          "embodied interaction",
+          "links objects to decisions"
+        ],
+        "limitations": [
+          "setup friction",
+          "obsolete prototype",
+          "limited outcome evidence"
+        ],
+        "design_relevance": [
+          "supports concrete visual manipulation but not required hardware"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "food-quiz",
+      "title": "Food Quiz",
+      "aliases": [
+        "Glasemann diabetes mini-game"
+      ],
+      "release_history": [
+        "research prototype described 2010"
+      ],
+      "scope_group": "research_prototype",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children",
+        "roles": [
+          "child with T1D"
+        ]
+      },
+      "platforms": [
+        "PC/web prototype"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "food-classification quiz",
+      "learning_objectives": [
+        "food and carbohydrate knowledge"
+      ],
+      "core_gameplay_loop": "Classify food items and receive correctness feedback.",
+      "game_mechanisms": [
+        "quiz",
+        "score",
+        "feedback"
+      ],
+      "pedagogical_mechanisms": [
+        "retrieval practice",
+        "corrective feedback"
+      ],
+      "developer": {
+        "names": [
+          "Glasemann et al."
+        ],
+        "classification": "academic",
+        "lived_experience_involvement": "not verified"
+      },
+      "evidence": {
+        "level": "development description or conceptual framework",
+        "studies": [
+          {
+            "citation": "Glasemann et al. 2010",
+            "design": "design paper",
+            "sample_size": null,
+            "outcomes": "no controlled clinical outcomes",
+            "limitations": "concept-oriented"
+          }
+        ],
+        "summary": "Illustrates the risk of adding rewards to didactic material without integrating learning and play.",
+        "limitations": [
+          "very narrow",
+          "not public"
+        ],
+        "design_detail": "development/conceptual study"
+      },
+      "availability": {
+        "status": "research prototype; not publicly available",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "not applicable",
+        "account_requirements": "study context",
+        "hardware_dependencies": "unspecified",
+        "verified_on": "2026-08-24",
+        "confidence": "moderate",
+        "status_detail": "prototype; unavailable"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1145/1858171.1858219"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "simple retrieval loop"
+        ],
+        "limitations": [
+          "low authenticity",
+          "limited transfer"
+        ],
+        "design_relevance": [
+          "avoid separating a generic quiz from the simulated consequence"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "social-diabetes-platform",
+      "title": "Social Diabetes Learning Platform",
+      "aliases": [
+        "Glucose Race",
+        "user-centric social diabetes game"
+      ],
+      "release_history": [
+        "prototype papers 2012"
+      ],
+      "scope_group": "research_prototype",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children and adolescents",
+        "roles": [
+          "young person with T1D",
+          "peer"
+        ]
+      },
+      "platforms": [
+        "web",
+        "mobile concept"
+      ],
+      "languages": [
+        "English",
+        "Norwegian"
+      ],
+      "genre": "social learning platform with mini-games",
+      "learning_objectives": [
+        "daily self-management",
+        "peer learning",
+        "motivation"
+      ],
+      "core_gameplay_loop": "Complete diabetes learning activities and compare or share progress within a moderated social environment.",
+      "game_mechanisms": [
+        "goals",
+        "social comparison",
+        "badges",
+        "mini-games"
+      ],
+      "pedagogical_mechanisms": [
+        "social learning",
+        "retrieval",
+        "peer modelling"
+      ],
+      "developer": {
+        "names": [
+          "Norwegian research consortium",
+          "Brox et al.",
+          "Lauritzen et al.",
+          "Bomark et al."
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "user-centred requirements included children and clinicians"
+      },
+      "evidence": {
+        "level": "usability or participatory co-design study",
+        "studies": [
+          {
+            "citation": "Brox et al. 2012; Lauritzen et al. 2012; Bomark et al. 2012",
+            "design": "design and platform papers",
+            "sample_size": "varied",
+            "outcomes": "requirements, feasibility and acceptability",
+            "limitations": "no durable outcome evidence"
+          }
+        ],
+        "summary": "Provides early co-design and social-learning evidence, not clinical efficacy.",
+        "limitations": [
+          "privacy/moderation burden",
+          "prototype discontinued"
+        ],
+        "design_detail": "participatory design/development"
+      },
+      "availability": {
+        "status": "research prototype; not publicly available",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "Norway",
+        "account_requirements": "research platform",
+        "hardware_dependencies": "web access",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "research prototype; unavailable"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.5220/0003874104590466"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "participatory design",
+          "peer-learning ambition"
+        ],
+        "limitations": [
+          "moderation and privacy",
+          "no public continuity"
+        ],
+        "design_relevance": [
+          "social features require a governance model, not only UI"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "pal",
+      "title": "PAL",
+      "aliases": [
+        "Personal Assistant for a healthy Lifestyle"
+      ],
+      "release_history": [
+        "EU research prototype evaluated 2016-2019"
+      ],
+      "scope_group": "research_prototype",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children",
+        "roles": [
+          "child with T1D",
+          "caregiver",
+          "clinician"
+        ]
+      },
+      "platforms": [
+        "tablet",
+        "web dashboard",
+        "social robot"
+      ],
+      "languages": [
+        "multiple European languages"
+      ],
+      "genre": "robot-assisted gamified education ecosystem",
+      "learning_objectives": [
+        "knowledge",
+        "self-management goals",
+        "care-team communication"
+      ],
+      "core_gameplay_loop": "Interact with a robot or avatar, complete learning goals and review progress with caregivers and clinicians.",
+      "game_mechanisms": [
+        "avatar",
+        "goals",
+        "progress dashboard",
+        "rewards"
+      ],
+      "pedagogical_mechanisms": [
+        "coaching",
+        "goal setting",
+        "feedback",
+        "social support"
+      ],
+      "developer": {
+        "names": [
+          "EU PAL consortium"
+        ],
+        "classification": "academic/clinical/industry collaboration",
+        "lived_experience_involvement": "children and care teams participated in design"
+      },
+      "evidence": {
+        "level": "usability or participatory co-design study",
+        "studies": [
+          {
+            "citation": "Peters et al. 2019",
+            "design": "objectives/dashboard design study",
+            "sample_size": "reported in source",
+            "outcomes": "usability and engagement",
+            "limitations": "multi-component system and no isolated clinical effect"
+          }
+        ],
+        "summary": "Ambitious social-robot ecosystem with limited evidence of durable transfer.",
+        "limitations": [
+          "high hardware and deployment burden",
+          "prototype dependence"
+        ],
+        "design_detail": "feasibility and participatory design"
+      },
+      "availability": {
+        "status": "research prototype; not publicly available",
+        "price": "not applicable",
+        "monetisation": "EU research funding",
+        "regions": "European trial sites",
+        "account_requirements": "study participation",
+        "hardware_dependencies": "robot/tablet/dashboard ecosystem",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "research-only; no public service located"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1145/3312714.3312736"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "care-network integration",
+          "adaptive coaching"
+        ],
+        "limitations": [
+          "high friction and cost",
+          "component effects inseparable"
+        ],
+        "design_relevance": [
+          "a lightweight web game should not inherit unnecessary hardware dependence"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "diaquarium",
+      "title": "Diaquarium",
+      "aliases": [],
+      "release_history": [
+        "research prototype published 2018"
+      ],
+      "scope_group": "research_prototype",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children",
+        "roles": [
+          "child with T1D"
+        ]
+      },
+      "platforms": [
+        "mobile prototype"
+      ],
+      "languages": [
+        "Norwegian",
+        "English"
+      ],
+      "genre": "virtual aquarium and self-management game",
+      "learning_objectives": [
+        "monitoring",
+        "daily diabetes routines"
+      ],
+      "core_gameplay_loop": "Complete diabetes-related activities to care for and develop a virtual aquarium.",
+      "game_mechanisms": [
+        "virtual pet",
+        "collection",
+        "rewards",
+        "progression"
+      ],
+      "pedagogical_mechanisms": [
+        "habit reinforcement",
+        "metaphoric feedback"
+      ],
+      "developer": {
+        "names": [
+          "Rønningen et al."
+        ],
+        "classification": "academic",
+        "lived_experience_involvement": "user-centred design reported"
+      },
+      "evidence": {
+        "level": "usability or participatory co-design study",
+        "studies": [
+          {
+            "citation": "Rønningen et al. 2018",
+            "design": "prototype paper",
+            "sample_size": "reported in source",
+            "outcomes": "design and usability",
+            "limitations": "no clinical endpoint"
+          }
+        ],
+        "summary": "Virtual-care loop was evaluated as a concept, not as a clinical intervention.",
+        "limitations": [
+          "extrinsic routine mapping",
+          "unavailable"
+        ],
+        "design_detail": "design/usability study"
+      },
+      "availability": {
+        "status": "research prototype; not publicly available",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "Norway",
+        "account_requirements": "study context",
+        "hardware_dependencies": "research app",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "prototype; unavailable"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1007/978-3-319-78759-6_40"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "gentle persistent world",
+          "routine salience"
+        ],
+        "limitations": [
+          "limited causal physiology",
+          "possible choreification"
+        ],
+        "design_relevance": [
+          "progression should reward understanding rather than data entry alone"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "diabetic-mario",
+      "title": "Diabetic Mario",
+      "aliases": [],
+      "release_history": [
+        "research prototype published 2016"
+      ],
+      "scope_group": "research_prototype",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children",
+        "roles": [
+          "child with T1D"
+        ]
+      },
+      "platforms": [
+        "PC prototype"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "platform game with diabetes decisions",
+      "learning_objectives": [
+        "food",
+        "insulin",
+        "activity",
+        "glucose balance"
+      ],
+      "core_gameplay_loop": "Navigate a platform environment while making diabetes-related choices that affect the character.",
+      "game_mechanisms": [
+        "platforming",
+        "goals",
+        "feedback",
+        "levels"
+      ],
+      "pedagogical_mechanisms": [
+        "situated decision practice",
+        "feedback"
+      ],
+      "developer": {
+        "names": [
+          "Baghaei et al."
+        ],
+        "classification": "academic",
+        "lived_experience_involvement": "co-design details limited"
+      },
+      "evidence": {
+        "level": "controlled outcome study",
+        "studies": [
+          {
+            "citation": "Baghaei et al. 2016",
+            "design": "prototype evaluation",
+            "sample_size": "reported in article",
+            "outcomes": "engagement and knowledge-related measures",
+            "limitations": "short and small"
+          }
+        ],
+        "summary": "Supports integrated game context but lacks long-term evidence.",
+        "limitations": [
+          "prototype",
+          "borrowed franchise language",
+          "no clinical outcome"
+        ],
+        "design_detail": "small comparative usability/learning study"
+      },
+      "availability": {
+        "status": "research prototype; not publicly available",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "New Zealand research setting",
+        "account_requirements": "study participation",
+        "hardware_dependencies": "PC",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "research-only; unavailable"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1089/g4h.2015.0038"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "integrates decisions into play"
+        ],
+        "limitations": [
+          "limited physiological depth",
+          "not maintained"
+        ],
+        "design_relevance": [
+          "game actions should remain causally tied to learning goals"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "virtual-coach",
+      "title": "Virtual Coach",
+      "aliases": [],
+      "release_history": [
+        "prototype reported 2015"
+      ],
+      "scope_group": "research_prototype",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children",
+        "roles": [
+          "child with T1D"
+        ]
+      },
+      "platforms": [
+        "web prototype"
+      ],
+      "languages": [
+        "Italian"
+      ],
+      "genre": "virtual coaching environment",
+      "learning_objectives": [
+        "daily self-management",
+        "knowledge",
+        "goal attainment"
+      ],
+      "core_gameplay_loop": "Receive virtual coaching tasks, make diabetes-management choices and review feedback.",
+      "game_mechanisms": [
+        "avatar",
+        "goals",
+        "feedback"
+      ],
+      "pedagogical_mechanisms": [
+        "coaching",
+        "scaffolding",
+        "self-regulation"
+      ],
+      "developer": {
+        "names": [
+          "Pesare et al."
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "not fully documented"
+      },
+      "evidence": {
+        "level": "pre/post or feasibility study",
+        "studies": [
+          {
+            "citation": "Pesare et al. 2015",
+            "design": "conference paper",
+            "sample_size": null,
+            "outcomes": "conceptual and technical",
+            "limitations": "no controlled endpoints"
+          }
+        ],
+        "summary": "No durable outcome evidence located.",
+        "limitations": [
+          "sparse reporting",
+          "unavailable"
+        ],
+        "design_detail": "development/feasibility description"
+      },
+      "availability": {
+        "status": "research prototype; not publicly available",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "Italy",
+        "account_requirements": "study context",
+        "hardware_dependencies": "web access",
+        "verified_on": "2026-08-24",
+        "confidence": "moderate",
+        "status_detail": "prototype; unavailable"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.18293/DMS2015-035"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "structured guidance"
+        ],
+        "limitations": [
+          "low evidence and access"
+        ],
+        "design_relevance": [
+          "coaching should be optional and directly connected to observable simulation"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "tako-dojo",
+      "title": "Tako Dojo",
+      "aliases": [],
+      "release_history": [
+        "research evaluation published 2019"
+      ],
+      "scope_group": "research_prototype",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "adolescents",
+        "roles": [
+          "adolescent with T1D"
+        ]
+      },
+      "platforms": [
+        "mobile game"
+      ],
+      "languages": [
+        "Italian"
+      ],
+      "genre": "educational mobile game",
+      "learning_objectives": [
+        "T1D knowledge",
+        "self-management choices"
+      ],
+      "core_gameplay_loop": "Complete themed challenges and diabetes knowledge activities across a martial-arts-inspired progression.",
+      "game_mechanisms": [
+        "narrative theme",
+        "levels",
+        "challenges",
+        "feedback"
+      ],
+      "pedagogical_mechanisms": [
+        "retrieval",
+        "progressive difficulty",
+        "reinforcement"
+      ],
+      "developer": {
+        "names": [
+          "D'Aprile et al."
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "adolescent testing documented"
+      },
+      "evidence": {
+        "level": "pre/post or feasibility study",
+        "studies": [
+          {
+            "citation": "D'Aprile et al. 2019",
+            "design": "adolescent evaluation",
+            "sample_size": 124,
+            "outcomes": "knowledge/acceptability reported",
+            "limitations": "limited controlled clinical evidence"
+          }
+        ],
+        "summary": "Relatively large prototype sample, but no evidence of durable biomedical benefit.",
+        "limitations": [
+          "study reporting access limited",
+          "not public"
+        ],
+        "design_detail": "pre/post evaluation"
+      },
+      "availability": {
+        "status": "study or trial only",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "Italy",
+        "account_requirements": "study participation",
+        "hardware_dependencies": "mobile device",
+        "verified_on": "2026-08-24",
+        "confidence": "moderate",
+        "status_detail": "study-only; public release not located"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1007/s10758-017-9344-x"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "adolescent-specific presentation",
+          "substantial feasibility sample"
+        ],
+        "limitations": [
+          "weak access and sustainability",
+          "uncertain transfer"
+        ],
+        "design_relevance": [
+          "age-tailored framing may be more useful than a single universal tone"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "qare-and-qure",
+      "title": "Qare and Qure",
+      "aliases": [
+        "QARE",
+        "QURE"
+      ],
+      "release_history": [
+        "research prototype reported 2018"
+      ],
+      "scope_group": "research_prototype",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children",
+        "roles": [
+          "child with T1D",
+          "caregiver"
+        ]
+      },
+      "platforms": [
+        "mobile prototype"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "paired child-caregiver educational games",
+      "learning_objectives": [
+        "self-care",
+        "caregiver support",
+        "knowledge"
+      ],
+      "core_gameplay_loop": "Child and caregiver use linked game experiences to complete diabetes-management challenges.",
+      "game_mechanisms": [
+        "paired roles",
+        "goals",
+        "feedback",
+        "progression"
+      ],
+      "pedagogical_mechanisms": [
+        "caregiver co-learning",
+        "social support",
+        "retrieval"
+      ],
+      "developer": {
+        "names": [
+          "Moosa et al."
+        ],
+        "classification": "academic",
+        "lived_experience_involvement": "not fully documented"
+      },
+      "evidence": {
+        "level": "development description or conceptual framework",
+        "studies": [
+          {
+            "citation": "Moosa et al. 2018",
+            "design": "conference paper",
+            "sample_size": "reported in source",
+            "outcomes": "design/usability",
+            "limitations": "no long-term outcomes"
+          }
+        ],
+        "summary": "Distinctive paired-role concept without public deployment evidence.",
+        "limitations": [
+          "prototype",
+          "IEEE report access limited"
+        ],
+        "design_detail": "development/conference evaluation"
+      },
+      "availability": {
+        "status": "research prototype; not publicly available",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "study context",
+        "account_requirements": "study participation",
+        "hardware_dependencies": "mobile devices",
+        "verified_on": "2026-08-24",
+        "confidence": "moderate",
+        "status_detail": "research-only; unavailable"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1109/COMAPP.2018.8460213"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "explicit caregiver role",
+          "shared learning"
+        ],
+        "limitations": [
+          "coordination friction",
+          "unavailable"
+        ],
+        "design_relevance": [
+          "catalogues and scenario libraries should identify caregiver suitability explicitly"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "sparapani-prototype",
+      "title": "Brazilian Paediatric T1D Serious-Game Framework",
+      "aliases": [
+        "Sparapani prototype"
+      ],
+      "release_history": [
+        "conceptual framework published 2019"
+      ],
+      "scope_group": "research_prototype",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "school-age children",
+        "roles": [
+          "child with T1D"
+        ]
+      },
+      "platforms": [
+        "concept/prototype"
+      ],
+      "languages": [
+        "Portuguese"
+      ],
+      "genre": "participatory serious-game framework",
+      "learning_objectives": [
+        "self-care",
+        "daily-life coping",
+        "knowledge"
+      ],
+      "core_gameplay_loop": "Not sufficiently specified as a publicly playable product; the work maps children's experiences to design requirements.",
+      "game_mechanisms": [
+        "narrative",
+        "goals",
+        "feedback"
+      ],
+      "pedagogical_mechanisms": [
+        "experience-centred design",
+        "situated learning"
+      ],
+      "developer": {
+        "names": [
+          "Sparapani et al."
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "children's reported experiences were central to the framework"
+      },
+      "evidence": {
+        "level": "development description or conceptual framework",
+        "studies": [
+          {
+            "citation": "Sparapani et al. 2019",
+            "design": "qualitative framework",
+            "sample_size": "reported in article",
+            "outcomes": "design requirements",
+            "limitations": "not an outcome trial"
+          }
+        ],
+        "summary": "Strong lived-context elicitation, but not evidence for a released game.",
+        "limitations": [
+          "no public product",
+          "no measured learning effect"
+        ],
+        "design_detail": "qualitative/conceptual framework"
+      },
+      "availability": {
+        "status": "research prototype; not publicly available",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "Brazil",
+        "account_requirements": "none outside study",
+        "hardware_dependencies": "not applicable",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "concept/research prototype"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6432989/"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "experience-led requirements",
+          "daily-life focus"
+        ],
+        "limitations": [
+          "not a playable intervention"
+        ],
+        "design_relevance": [
+          "supports grounding scenarios in lived experience rather than abstract curriculum alone"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "tangbao-superman",
+      "title": "Tangbao Superman Transformation",
+      "aliases": [],
+      "release_history": [
+        "VR intervention evaluated 2025 and published in the 2026 journal volume"
+      ],
+      "scope_group": "new_research_game",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "4-9 years",
+        "roles": [
+          "young child with T1D"
+        ]
+      },
+      "platforms": [
+        "virtual reality"
+      ],
+      "languages": [
+        "Mandarin Chinese"
+      ],
+      "genre": "immersive VR education game",
+      "learning_objectives": [
+        "T1D knowledge",
+        "self-management skills",
+        "attitude"
+      ],
+      "core_gameplay_loop": "Complete immersive superhero-themed T1D learning tasks across structured sessions.",
+      "game_mechanisms": [
+        "immersion",
+        "narrative",
+        "avatar",
+        "missions",
+        "feedback"
+      ],
+      "pedagogical_mechanisms": [
+        "experiential rehearsal",
+        "multimodal learning",
+        "repetition"
+      ],
+      "developer": {
+        "names": [
+          "Gu et al.; Chinese/Malaysian academic collaboration with four Chinese paediatric hospitals"
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "participatory design involved children, parents and clinicians"
+      },
+      "evidence": {
+        "level": "pre/post or feasibility study",
+        "studies": [
+          {
+            "citation": "Gu et al. 2025",
+            "design": "four-week multisite single-group pre/post",
+            "sample_size": 54,
+            "outcomes": "all educational domains P<.001, standardised effects 0.78-1.27; SUS-C 86/100; 95% completion",
+            "limitations": "no control group, short duration, no biomedical endpoint"
+          }
+        ],
+        "summary": "Large short-term changes are compatible with learning but vulnerable to testing, maturation and expectancy effects.",
+        "limitations": [
+          "no control",
+          "young narrow age range",
+          "VR access burden"
+        ],
+        "design_detail": "single-group pre/post feasibility study"
+      },
+      "availability": {
+        "status": "study or trial only",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "four Chinese hospitals",
+        "account_requirements": "study participation",
+        "hardware_dependencies": "VR headset",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "study-only"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1038/s41598-025-30114-1",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12775479/"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": "https://doi.org/10.1038/s41598-025-30114-1",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "article authors/publisher",
+        "reuse_status": "image not retained"
+      },
+      "design_assessment": {
+        "strengths": [
+          "high acceptability",
+          "age-specific immersive tasks"
+        ],
+        "limitations": [
+          "no causal efficacy estimate",
+          "hardware friction"
+        ],
+        "design_relevance": [
+          "supports multimodal feedback but not necessarily VR"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "diaped",
+      "title": "DiaPed",
+      "aliases": [],
+      "release_history": [
+        "Tunisian study published 2025"
+      ],
+      "scope_group": "new_research_game",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children and adolescents",
+        "roles": [
+          "young person with T1D"
+        ]
+      },
+      "platforms": [
+        "mobile application"
+      ],
+      "languages": [
+        "Arabic",
+        "French"
+      ],
+      "genre": "mobile educational serious game",
+      "learning_objectives": [
+        "T1D knowledge",
+        "daily self-management"
+      ],
+      "core_gameplay_loop": "Complete mobile educational modules and challenges with immediate feedback.",
+      "game_mechanisms": [
+        "levels",
+        "quiz",
+        "feedback",
+        "rewards"
+      ],
+      "pedagogical_mechanisms": [
+        "retrieval",
+        "microlearning",
+        "repetition"
+      ],
+      "developer": {
+        "names": [
+          "Tunisian clinical/informatics team"
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "not fully reported"
+      },
+      "evidence": {
+        "level": "pre/post or feasibility study",
+        "studies": [
+          {
+            "citation": "Atitallah et al. 2025",
+            "design": "pre/post",
+            "sample_size": 40,
+            "outcomes": "knowledge score 29.8 (SD 6.02) to 68.6 (SD 1.58) of 70, P<.001; reported d=6.72",
+            "limitations": "no control and extreme ceiling effect"
+          }
+        ],
+        "summary": "The very large gain supports immediate test learning but is not a credible estimate of durable comparative effectiveness.",
+        "limitations": [
+          "no control",
+          "ceiling",
+          "small sample"
+        ],
+        "design_detail": "single-group pre/post study"
+      },
+      "availability": {
+        "status": "study or trial only",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "Tunisia",
+        "account_requirements": "study participation",
+        "hardware_dependencies": "smartphone",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "study-only; public listing not located"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1177/30502225251357044"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "localisation",
+          "large immediate knowledge change"
+        ],
+        "limitations": [
+          "weak causal design",
+          "unknown public continuity"
+        ],
+        "design_relevance": [
+          "knowledge tests should include delayed and transfer measures"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "wecan",
+      "title": "WeCan",
+      "aliases": [],
+      "release_history": [
+        "feasibility trial published 2024"
+      ],
+      "scope_group": "new_research_game",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "adolescents",
+        "roles": [
+          "adolescent with T1D"
+        ]
+      },
+      "platforms": [
+        "mobile"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "gamified self-management intervention",
+      "learning_objectives": [
+        "self-management",
+        "motivation",
+        "goal completion"
+      ],
+      "core_gameplay_loop": "Complete gamified self-management activities and receive motivational feedback.",
+      "game_mechanisms": [
+        "goals",
+        "rewards",
+        "feedback"
+      ],
+      "pedagogical_mechanisms": [
+        "self-regulation",
+        "reinforcement"
+      ],
+      "developer": {
+        "names": [
+          "WeCan research team"
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "not fully mapped"
+      },
+      "evidence": {
+        "level": "pre/post or feasibility study",
+        "studies": [
+          {
+            "citation": "WeCan feasibility study 2024",
+            "design": "two-arm feasibility",
+            "sample_size": 61,
+            "outcomes": "recruitment 62.89%; intervention completion 64.52% (20/31); 82% satisfied",
+            "limitations": "not powered for efficacy"
+          }
+        ],
+        "summary": "Feasibility was mixed: satisfaction among respondents was high, but completion loss was substantial.",
+        "limitations": [
+          "attrition",
+          "no efficacy conclusion"
+        ],
+        "design_detail": "two-arm feasibility study"
+      },
+      "availability": {
+        "status": "study or trial only",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "study setting",
+        "account_requirements": "study participation",
+        "hardware_dependencies": "smartphone",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "study-only"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1016/j.pedhc.2024.05.009"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "reports implementation metrics"
+        ],
+        "limitations": [
+          "retention",
+          "unavailable"
+        ],
+        "design_relevance": [
+          "measure starts, returns and completion rather than satisfaction alone"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "emoticare",
+      "title": "emoTICare",
+      "aliases": [],
+      "release_history": [
+        "trial registered 2024",
+        "protocol and outcomes published 2025"
+      ],
+      "scope_group": "new_research_game",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "adolescents",
+        "roles": [
+          "adolescent with T1D"
+        ]
+      },
+      "platforms": [
+        "computer/tablet"
+      ],
+      "languages": [
+        "Spanish"
+      ],
+      "genre": "narrative socioemotional adventure",
+      "learning_objectives": [
+        "emotional awareness",
+        "coping",
+        "social skills",
+        "illness perception"
+      ],
+      "core_gameplay_loop": "Travel through a graphical time-travel adventure, complete emotion-focused tasks and reflect on diabetes-related situations.",
+      "game_mechanisms": [
+        "narrative",
+        "character identification",
+        "missions",
+        "reflection"
+      ],
+      "pedagogical_mechanisms": [
+        "socioemotional skills training",
+        "guided reflection",
+        "coping rehearsal"
+      ],
+      "developer": {
+        "names": [
+          "Spanish/Panamanian emoTICare research consortium"
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "adolescent adaptation reported"
+      },
+      "evidence": {
+        "level": "pre/post or feasibility study",
+        "studies": [
+          {
+            "citation": "Martín-Ávila et al. 2025",
+            "design": "quasi-experimental",
+            "sample_size": 44,
+            "outcomes": "reduced perceived illness threat and changes/trends in emotional awareness and social skills",
+            "limitations": "small sample, non-definitive control structure, short follow-up"
+          }
+        ],
+        "summary": "Extends the field beyond factual education toward coping; evidence remains preliminary.",
+        "limitations": [
+          "small sample",
+          "limited causal certainty",
+          "not public"
+        ],
+        "design_detail": "small quasi-experimental outcome study"
+      },
+      "availability": {
+        "status": "study or trial only",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "Panama/Spain research settings",
+        "account_requirements": "study participation",
+        "hardware_dependencies": "compatible device",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "trial-only"
+      },
+      "links": {
+        "official": [
+          "https://clinicaltrials.gov/study/NCT06331429"
+        ],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1371/journal.pone.0325763",
+          "https://doi.org/10.3389/fendo.2025.1668398"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "targets coping and distress-related mechanisms",
+          "narrative coherence"
+        ],
+        "limitations": [
+          "preliminary evidence",
+          "no public continuity"
+        ],
+        "design_relevance": [
+          "supports optional emotional and social scenarios without claiming psychotherapy"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "norlev-smartphone-prototype",
+      "title": "Nørlev Participatory Smartphone Game Prototype",
+      "aliases": [],
+      "release_history": [
+        "participatory design study published 2022"
+      ],
+      "scope_group": "new_research_game",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children 8-12",
+        "roles": [
+          "child with T1D"
+        ]
+      },
+      "platforms": [
+        "smartphone prototype"
+      ],
+      "languages": [
+        "Danish"
+      ],
+      "genre": "co-designed educational smartphone game",
+      "learning_objectives": [
+        "daily-life self-management",
+        "knowledge",
+        "coping"
+      ],
+      "core_gameplay_loop": "Prototype concepts were iteratively co-designed with children; no stable public game loop was released.",
+      "game_mechanisms": [
+        "co-designed goals",
+        "feedback",
+        "narrative concepts"
+      ],
+      "pedagogical_mechanisms": [
+        "participatory design",
+        "situated learning"
+      ],
+      "developer": {
+        "names": [
+          "Nørlev et al."
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "direct participatory involvement of children with T1D"
+      },
+      "evidence": {
+        "level": "usability or participatory co-design study",
+        "studies": [
+          {
+            "citation": "Nørlev et al. 2022",
+            "design": "participatory design",
+            "sample_size": "reported in article",
+            "outcomes": "design requirements and preferences",
+            "limitations": "no released intervention or effectiveness test"
+          }
+        ],
+        "summary": "High relevance for requirements, no efficacy evidence.",
+        "limitations": [
+          "prototype",
+          "no public access"
+        ],
+        "design_detail": "participatory co-design"
+      },
+      "availability": {
+        "status": "research prototype; not publicly available",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "Denmark",
+        "account_requirements": "study participation",
+        "hardware_dependencies": "smartphone",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "research prototype"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.2196/33955"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "direct child voice",
+          "Danish context"
+        ],
+        "limitations": [
+          "no playable public output"
+        ],
+        "design_relevance": [
+          "structured playtesting with intended users should precede effectiveness claims"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "turkish-game-video-rct",
+      "title": "Turkish Digital Game and Video Animation Intervention",
+      "aliases": [],
+      "release_history": [
+        "randomised trial published 2025"
+      ],
+      "scope_group": "new_research_game",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children",
+        "roles": [
+          "child with T1D"
+        ]
+      },
+      "platforms": [
+        "digital game",
+        "video"
+      ],
+      "languages": [
+        "Turkish"
+      ],
+      "genre": "combined educational game and animation",
+      "learning_objectives": [
+        "self-management",
+        "quality of life",
+        "glycaemic management"
+      ],
+      "core_gameplay_loop": "Use a digital educational game alongside a video animation; product details are incompletely reported in the abstract.",
+      "game_mechanisms": [
+        "educational challenges",
+        "feedback"
+      ],
+      "pedagogical_mechanisms": [
+        "multimedia learning",
+        "repetition"
+      ],
+      "developer": {
+        "names": [
+          "Turkish paediatric nursing research team"
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "not verified"
+      },
+      "evidence": {
+        "level": "controlled outcome study",
+        "studies": [
+          {
+            "citation": "Turkish digital game/video RCT 2025",
+            "design": "two-arm randomised trial",
+            "sample_size": 55,
+            "outcomes": "quality of life higher and HbA1c decreased in intervention while increasing in control; P<.05",
+            "limitations": "abstract omits effect magnitude and the game effect cannot be separated from video"
+          }
+        ],
+        "summary": "Promising comparative signal, but attribution to the game and clinical magnitude remain unresolved.",
+        "limitations": [
+          "small trial",
+          "compound intervention",
+          "limited reporting",
+          "not public"
+        ],
+        "design_detail": "single-blind randomised controlled trial"
+      },
+      "availability": {
+        "status": "study or trial only",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "Turkey",
+        "account_requirements": "study participation",
+        "hardware_dependencies": "unspecified digital device",
+        "verified_on": "2026-08-24",
+        "confidence": "high for study, low for product",
+        "status_detail": "trial-only; product not located"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1016/j.pedn.2025.01.023"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "controlled design",
+          "clinical endpoint"
+        ],
+        "limitations": [
+          "intervention components inseparable",
+          "no access"
+        ],
+        "design_relevance": [
+          "future evaluation should preregister effect sizes and isolate game components"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "glucoboy-didget",
+      "title": "GlucoBoy / DIDGET",
+      "aliases": [
+        "GlucoBoy",
+        "Bayer DIDGET"
+      ],
+      "release_history": [
+        "Game Boy Advance accessory launched in the 2000s",
+        "DIDGET launched 2010",
+        "discontinued"
+      ],
+      "scope_group": "historical_hardware",
+      "target_population": {
+        "diabetes_specificity": "diabetes monitoring",
+        "age_range": "children",
+        "roles": [
+          "child with diabetes"
+        ]
+      },
+      "platforms": [
+        "Game Boy Advance",
+        "Nintendo DS"
+      ],
+      "languages": [
+        "English and regional variants"
+      ],
+      "genre": "glucose-meter hardware unlocking game rewards",
+      "learning_objectives": [
+        "monitoring adherence"
+      ],
+      "core_gameplay_loop": "Perform blood-glucose tests with dedicated hardware to unlock items or progression in console games.",
+      "game_mechanisms": [
+        "unlock rewards",
+        "collection",
+        "progression"
+      ],
+      "pedagogical_mechanisms": [
+        "extrinsic reinforcement",
+        "self-monitoring"
+      ],
+      "developer": {
+        "names": [
+          "Guidance Interactive",
+          "Bayer"
+        ],
+        "classification": "commercial",
+        "lived_experience_involvement": "GlucoBoy was founded by a parent of a child with diabetes"
+      },
+      "evidence": {
+        "level": "development description or conceptual framework",
+        "studies": [],
+        "summary": "No strong independent clinical evaluation located.",
+        "limitations": [
+          "hardware lock-in",
+          "reward focuses on measurement rather than interpretation"
+        ],
+        "design_detail": "public product/development history"
+      },
+      "availability": {
+        "status": "discontinued",
+        "price": "collector market only",
+        "monetisation": "commercial hardware",
+        "regions": "historical selected markets",
+        "account_requirements": "none",
+        "hardware_dependencies": "proprietary meter and Nintendo hardware",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "discontinued"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.2196/games.3930"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "connects routine action to immediate reward"
+        ],
+        "limitations": [
+          "obsolete hardware",
+          "weak causal education"
+        ],
+        "design_relevance": [
+          "avoid requiring personal health data or proprietary devices"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "mundo-carakuato",
+      "title": "Mundo Carakuato",
+      "aliases": [],
+      "release_history": [
+        "app-store product identified in Reinders et al. 2024"
+      ],
+      "scope_group": "app_store_secondary",
+      "target_population": {
+        "diabetes_specificity": "diabetes education",
+        "age_range": "children",
+        "roles": [
+          "child with diabetes"
+        ]
+      },
+      "platforms": [
+        "mobile"
+      ],
+      "languages": [
+        "Spanish"
+      ],
+      "genre": "educational adventure",
+      "learning_objectives": [
+        "diabetes knowledge",
+        "self-care"
+      ],
+      "core_gameplay_loop": "Complete an educational adventure with diabetes-related challenges.",
+      "game_mechanisms": [
+        "narrative",
+        "challenges",
+        "feedback"
+      ],
+      "pedagogical_mechanisms": [
+        "retrieval",
+        "situated learning"
+      ],
+      "developer": {
+        "names": [
+          "developer not fully verified"
+        ],
+        "classification": "uncertain",
+        "lived_experience_involvement": "not verified"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Indexed in the 2024 accessibility review.",
+        "limitations": [
+          "provenance and current status incomplete"
+        ],
+        "design_detail": "public product without product-specific outcome evidence located"
+      },
+      "availability": {
+        "status": "availability incompletely verified",
+        "price": "historically free/unknown",
+        "monetisation": "unknown",
+        "regions": "Spanish-language stores",
+        "account_requirements": "unknown",
+        "hardware_dependencies": "smartphone",
+        "verified_on": "2026-08-24",
+        "confidence": "low",
+        "status_detail": "current availability uncertain"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1016/j.diabres.2024.111833"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "language localisation"
+        ],
+        "limitations": [
+          "weak discoverability and verification"
+        ],
+        "design_relevance": [
+          "directory entries require dated confidence labels"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "xugarhero",
+      "title": "Xugarhero",
+      "aliases": [],
+      "release_history": [
+        "app-store product identified in Reinders et al. 2024"
+      ],
+      "scope_group": "app_store_secondary",
+      "target_population": {
+        "diabetes_specificity": "diabetes education",
+        "age_range": "children",
+        "roles": [
+          "child with diabetes"
+        ]
+      },
+      "platforms": [
+        "mobile"
+      ],
+      "languages": [
+        "not fully verified"
+      ],
+      "genre": "educational mini-game collection",
+      "learning_objectives": [
+        "diabetes knowledge",
+        "self-management"
+      ],
+      "core_gameplay_loop": "Complete superhero-themed diabetes learning activities.",
+      "game_mechanisms": [
+        "character",
+        "challenges",
+        "rewards"
+      ],
+      "pedagogical_mechanisms": [
+        "retrieval",
+        "reinforcement"
+      ],
+      "developer": {
+        "names": [
+          "developer not fully verified"
+        ],
+        "classification": "uncertain",
+        "lived_experience_involvement": "not verified"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Indexed in the 2024 accessibility review.",
+        "limitations": [
+          "sparse public documentation"
+        ],
+        "design_detail": "public product without product-specific outcome evidence located"
+      },
+      "availability": {
+        "status": "availability incompletely verified",
+        "price": "unknown",
+        "monetisation": "unknown",
+        "regions": "not fully verified",
+        "account_requirements": "unknown",
+        "hardware_dependencies": "smartphone",
+        "verified_on": "2026-08-24",
+        "confidence": "low",
+        "status_detail": "current availability uncertain"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1016/j.diabres.2024.111833"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "child-oriented theme"
+        ],
+        "limitations": [
+          "unverifiable continuity"
+        ],
+        "design_relevance": [
+          "avoid a directory entry without verification date and provenance"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "jerry-the-bear",
+      "title": "Jerry the Bear",
+      "aliases": [
+        "Jerry the Bear with Diabetes"
+      ],
+      "release_history": [
+        "physical connected toy and companion content launched in the 2010s"
+      ],
+      "scope_group": "physical_game",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "young children",
+        "roles": [
+          "child with T1D",
+          "family"
+        ]
+      },
+      "platforms": [
+        "physical interactive toy",
+        "mobile companion"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "therapeutic play and caretaking toy",
+      "learning_objectives": [
+        "glucose checking",
+        "insulin",
+        "food",
+        "emotional normalisation"
+      ],
+      "core_gameplay_loop": "Care for a bear with T1D by checking glucose, administering pretend insulin and feeding meals.",
+      "game_mechanisms": [
+        "role play",
+        "character care",
+        "tangible interaction"
+      ],
+      "pedagogical_mechanisms": [
+        "modelling",
+        "procedural rehearsal",
+        "externalisation"
+      ],
+      "developer": {
+        "names": [
+          "Sproutel"
+        ],
+        "classification": "commercial/lived-experience-led",
+        "lived_experience_involvement": "developed with families and diabetes organisations"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Therapeutic play rationale is plausible; product-specific comparative evidence is limited.",
+        "limitations": [
+          "physical cost",
+          "availability turnover"
+        ],
+        "design_detail": "public product with limited formal outcome evidence located"
+      },
+      "availability": {
+        "status": "availability incompletely verified",
+        "price": "physical product historically paid",
+        "monetisation": "commercial toy",
+        "regions": "historically US",
+        "account_requirements": "varied",
+        "hardware_dependencies": "proprietary toy",
+        "verified_on": "2026-08-24",
+        "confidence": "moderate",
+        "status_detail": "availability uncertain; digital Rufus successor is active"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1016/j.diabres.2024.111833"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": "Sproutel",
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "tangible role play",
+          "emotionally safe character"
+        ],
+        "limitations": [
+          "cost and logistics",
+          "young age focus"
+        ],
+        "design_relevance": [
+          "fictional characters can permit emotional and procedural distance"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "diabetes-spel",
+      "title": "DiabetesSpel",
+      "aliases": [
+        "Diabetes Spel"
+      ],
+      "release_history": [
+        "app-store product identified in Reinders et al. 2024"
+      ],
+      "scope_group": "app_store_secondary",
+      "target_population": {
+        "diabetes_specificity": "diabetes education",
+        "age_range": "children/families",
+        "roles": [
+          "learner"
+        ]
+      },
+      "platforms": [
+        "mobile"
+      ],
+      "languages": [
+        "Dutch"
+      ],
+      "genre": "educational quiz/game",
+      "learning_objectives": [
+        "diabetes knowledge"
+      ],
+      "core_gameplay_loop": "Answer diabetes questions and complete short activities.",
+      "game_mechanisms": [
+        "quiz",
+        "score",
+        "feedback"
+      ],
+      "pedagogical_mechanisms": [
+        "retrieval"
+      ],
+      "developer": {
+        "names": [
+          "developer not fully verified"
+        ],
+        "classification": "uncertain",
+        "lived_experience_involvement": "not verified"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Indexed in Reinders et al.",
+        "limitations": [
+          "verification incomplete"
+        ],
+        "design_detail": "public product without product-specific outcome evidence located"
+      },
+      "availability": {
+        "status": "availability incompletely verified",
+        "price": "unknown",
+        "monetisation": "unknown",
+        "regions": "Dutch-language stores",
+        "account_requirements": "unknown",
+        "hardware_dependencies": "smartphone",
+        "verified_on": "2026-08-24",
+        "confidence": "low",
+        "status_detail": "current availability uncertain"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1016/j.diabres.2024.111833"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "local language"
+        ],
+        "limitations": [
+          "quiz-dominant and poorly indexed"
+        ],
+        "design_relevance": [
+          "localisation alone does not establish experiential learning"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "diabetes-academy",
+      "title": "Diabetes Academy",
+      "aliases": [],
+      "release_history": [
+        "app-store product identified in Reinders et al. 2024"
+      ],
+      "scope_group": "app_store_secondary",
+      "target_population": {
+        "diabetes_specificity": "mixed diabetes education",
+        "age_range": "unspecified",
+        "roles": [
+          "learner"
+        ]
+      },
+      "platforms": [
+        "mobile"
+      ],
+      "languages": [
+        "not fully verified"
+      ],
+      "genre": "gamified education",
+      "learning_objectives": [
+        "diabetes knowledge"
+      ],
+      "core_gameplay_loop": "Complete educational modules, questions and rewards.",
+      "game_mechanisms": [
+        "quiz",
+        "progression",
+        "rewards"
+      ],
+      "pedagogical_mechanisms": [
+        "retrieval",
+        "microlearning"
+      ],
+      "developer": {
+        "names": [
+          "developer not fully verified"
+        ],
+        "classification": "uncertain",
+        "lived_experience_involvement": "not verified"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Indexed in Reinders et al.",
+        "limitations": [
+          "T1D specificity and current status unclear"
+        ],
+        "design_detail": "public product without product-specific outcome evidence located"
+      },
+      "availability": {
+        "status": "availability incompletely verified",
+        "price": "unknown",
+        "monetisation": "unknown",
+        "regions": "not fully verified",
+        "account_requirements": "unknown",
+        "hardware_dependencies": "smartphone",
+        "verified_on": "2026-08-24",
+        "confidence": "low",
+        "status_detail": "current availability uncertain"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1016/j.diabres.2024.111833"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "structured curriculum"
+        ],
+        "limitations": [
+          "unclear scope and continuity"
+        ],
+        "design_relevance": [
+          "directory should distinguish T1D-specific from mixed content"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "diabetics-diner",
+      "title": "Diabetic's Diner",
+      "aliases": [
+        "Diabetics Diner"
+      ],
+      "release_history": [
+        "app-store product identified in Reinders et al. 2024"
+      ],
+      "scope_group": "app_store_secondary",
+      "target_population": {
+        "diabetes_specificity": "diabetes nutrition",
+        "age_range": "unspecified",
+        "roles": [
+          "learner"
+        ]
+      },
+      "platforms": [
+        "mobile"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "food-management game",
+      "learning_objectives": [
+        "food choices",
+        "carbohydrate"
+      ],
+      "core_gameplay_loop": "Make food-related decisions in a diner-themed game.",
+      "game_mechanisms": [
+        "time management",
+        "score",
+        "food selection"
+      ],
+      "pedagogical_mechanisms": [
+        "classification",
+        "situated practice"
+      ],
+      "developer": {
+        "names": [
+          "developer not fully verified"
+        ],
+        "classification": "uncertain",
+        "lived_experience_involvement": "not verified"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Indexed in Reinders et al.",
+        "limitations": [
+          "T1D specificity and nutritional accuracy unclear"
+        ],
+        "design_detail": "public product without product-specific outcome evidence located"
+      },
+      "availability": {
+        "status": "availability incompletely verified",
+        "price": "unknown",
+        "monetisation": "unknown",
+        "regions": "not fully verified",
+        "account_requirements": "unknown",
+        "hardware_dependencies": "smartphone",
+        "verified_on": "2026-08-24",
+        "confidence": "low",
+        "status_detail": "current availability uncertain"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1016/j.diabres.2024.111833"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "contextual food play"
+        ],
+        "limitations": [
+          "possible moralising nutrition frame",
+          "unverified"
+        ],
+        "design_relevance": [
+          "food should be modelled quantitatively, not as intrinsically good or bad"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "i-got-this",
+      "title": "I Got This",
+      "aliases": [],
+      "release_history": [
+        "mobile narrative game released 2015",
+        "later availability uncertain"
+      ],
+      "scope_group": "experiential_game",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "adolescents and peers",
+        "roles": [
+          "young person with T1D",
+          "peer without T1D"
+        ]
+      },
+      "platforms": [
+        "mobile"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "short narrative experience of diagnosis and daily life",
+      "learning_objectives": [
+        "empathy",
+        "diagnosis experience",
+        "daily-life awareness"
+      ],
+      "core_gameplay_loop": "Follow a teenager through diagnosis and early daily decisions in a short interactive story.",
+      "game_mechanisms": [
+        "narrative",
+        "character identification",
+        "choices"
+      ],
+      "pedagogical_mechanisms": [
+        "perspective taking",
+        "situated narrative"
+      ],
+      "developer": {
+        "names": [
+          "Ayogo",
+          "Diabetes Hands Foundation"
+        ],
+        "classification": "commercial/nonprofit collaboration",
+        "lived_experience_involvement": "diabetes-community involvement documented"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Designed primarily for empathy and awareness rather than competence testing.",
+        "limitations": [
+          "short",
+          "availability uncertain"
+        ],
+        "design_detail": "public product without controlled evaluation located"
+      },
+      "availability": {
+        "status": "availability incompletely verified",
+        "price": "historically free",
+        "monetisation": "sponsor/nonprofit",
+        "regions": "historically mobile stores",
+        "account_requirements": "unknown",
+        "hardware_dependencies": "compatible legacy mobile device",
+        "verified_on": "2026-08-24",
+        "confidence": "moderate",
+        "status_detail": "current store availability uncertain"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.1016/j.diabres.2024.111833"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": "Ayogo/Diabetes Hands Foundation",
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "experiential perspective",
+          "diagnosis context"
+        ],
+        "limitations": [
+          "limited management depth",
+          "uncertain access"
+        ],
+        "design_relevance": [
+          "supports a distinct empathy/experience mode rather than conflating it with physiology training"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "hell-hath-no-insulin",
+      "title": "Hell Hath No Insulin",
+      "aliases": [],
+      "release_history": [
+        "independent itch.io release; listing active in 2026"
+      ],
+      "scope_group": "experiential_game",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "teens/adults",
+        "roles": [
+          "person with T1D",
+          "peer"
+        ]
+      },
+      "platforms": [
+        "Windows",
+        "itch.io"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "short lived-experience-led narrative/action game",
+      "learning_objectives": [
+        "experiential understanding",
+        "burden and interruption"
+      ],
+      "core_gameplay_loop": "Navigate a stylised experience shaped by the recurring demands of insulin and T1D.",
+      "game_mechanisms": [
+        "narrative",
+        "constraint",
+        "symbolic action"
+      ],
+      "pedagogical_mechanisms": [
+        "perspective taking",
+        "experiential representation"
+      ],
+      "developer": {
+        "names": [
+          "weeabetes"
+        ],
+        "classification": "independent/lived-experience-led",
+        "lived_experience_involvement": "developer presents the work as lived-experience-led"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Relevant to experiential representation, not validated self-management education.",
+        "limitations": [
+          "small independent work",
+          "no outcome study"
+        ],
+        "design_detail": "public product without peer-reviewed evaluation"
+      },
+      "availability": {
+        "status": "publicly available",
+        "price": "free or pay-what-you-want",
+        "monetisation": "optional payment",
+        "regions": "global itch.io access subject to platform",
+        "account_requirements": "itch.io optional",
+        "hardware_dependencies": "Windows PC",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "publicly available"
+      },
+      "links": {
+        "official": [
+          "https://weeabetes.itch.io/hell-hath-no-insulin"
+        ],
+        "stores": [
+          "https://weeabetes.itch.io/hell-hath-no-insulin"
+        ],
+        "archives": [],
+        "publications": []
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": "https://weeabetes.itch.io/hell-hath-no-insulin",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "weeabetes",
+        "reuse_status": "image not retained"
+      },
+      "design_assessment": {
+        "strengths": [
+          "authentic perspective",
+          "emotional specificity"
+        ],
+        "limitations": [
+          "not a management curriculum"
+        ],
+        "design_relevance": [
+          "experiential truth can complement but not substitute for causal simulation"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "permanence",
+      "title": "Permanence",
+      "aliases": [],
+      "release_history": [
+        "independent itch.io listing active in 2026"
+      ],
+      "scope_group": "experiential_game",
+      "target_population": {
+        "diabetes_specificity": "T1D lived experience",
+        "age_range": "teens/adults",
+        "roles": [
+          "person with T1D",
+          "peer"
+        ]
+      },
+      "platforms": [
+        "browser/PC via itch.io"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "short narrative game",
+      "learning_objectives": [
+        "empathy",
+        "chronicity and identity"
+      ],
+      "core_gameplay_loop": "Move through a short interactive narrative about the persistent presence of chronic illness.",
+      "game_mechanisms": [
+        "narrative",
+        "choice",
+        "atmosphere"
+      ],
+      "pedagogical_mechanisms": [
+        "perspective taking",
+        "reflection"
+      ],
+      "developer": {
+        "names": [
+          "ivy-leaves"
+        ],
+        "classification": "independent/lived-experience-led",
+        "lived_experience_involvement": "developer framing indicates personal experience; details not independently verified"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Experiential art-game evidence category only.",
+        "limitations": [
+          "no evaluation",
+          "not practical training"
+        ],
+        "design_detail": "public product without peer-reviewed evaluation"
+      },
+      "availability": {
+        "status": "publicly available",
+        "price": "free/pay-what-you-want status to verify at purchase",
+        "monetisation": "independent distribution",
+        "regions": "global itch.io subject to platform",
+        "account_requirements": "optional",
+        "hardware_dependencies": "compatible browser/PC",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "publicly available"
+      },
+      "links": {
+        "official": [
+          "https://ivy-leaves.itch.io/permanence"
+        ],
+        "stores": [
+          "https://ivy-leaves.itch.io/permanence"
+        ],
+        "archives": [],
+        "publications": []
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": "https://ivy-leaves.itch.io/permanence",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "ivy-leaves",
+        "reuse_status": "image not retained"
+      },
+      "design_assessment": {
+        "strengths": [
+          "identity-focused narrative"
+        ],
+        "limitations": [
+          "not self-management education"
+        ],
+        "design_relevance": [
+          "separate emotional narrative goals from physiological competence claims"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "holesome",
+      "title": "Holesome",
+      "aliases": [],
+      "release_history": [
+        "independent itch.io listing active in 2026"
+      ],
+      "scope_group": "experiential_game",
+      "target_population": {
+        "diabetes_specificity": "T1D lived experience",
+        "age_range": "teens/adults",
+        "roles": [
+          "person with T1D",
+          "peer"
+        ]
+      },
+      "platforms": [
+        "itch.io"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "short experiential game",
+      "learning_objectives": [
+        "empathy",
+        "daily burden"
+      ],
+      "core_gameplay_loop": "Engage with a compact symbolic representation of diabetes-related experience.",
+      "game_mechanisms": [
+        "symbolic interaction",
+        "narrative"
+      ],
+      "pedagogical_mechanisms": [
+        "perspective taking"
+      ],
+      "developer": {
+        "names": [
+          "holesome"
+        ],
+        "classification": "independent/lived-experience-led",
+        "lived_experience_involvement": "presented as lived-experience work; not independently verified"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Included as an experiential work outside the conventional education-game literature.",
+        "limitations": [
+          "no evaluation",
+          "limited documentation"
+        ],
+        "design_detail": "public product without peer-reviewed evaluation"
+      },
+      "availability": {
+        "status": "publicly available",
+        "price": "store page terms apply",
+        "monetisation": "independent distribution",
+        "regions": "global itch.io subject to platform",
+        "account_requirements": "optional",
+        "hardware_dependencies": "compatible device",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "publicly available"
+      },
+      "links": {
+        "official": [
+          "https://holesome.itch.io/holesome"
+        ],
+        "stores": [
+          "https://holesome.itch.io/holesome"
+        ],
+        "archives": [],
+        "publications": []
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": "https://holesome.itch.io/holesome",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "holesome",
+        "reuse_status": "image not retained"
+      },
+      "design_assessment": {
+        "strengths": [
+          "under-indexed lived-experience perspective"
+        ],
+        "limitations": [
+          "no management evidence"
+        ],
+        "design_relevance": [
+          "directory taxonomy should include experiential games without implying clinical efficacy"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "stable-t1d",
+      "title": "stable T1D",
+      "aliases": [],
+      "release_history": [
+        "public web product active in 2026"
+      ],
+      "scope_group": "adjacent_gamified_management",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "adults/teens",
+        "roles": [
+          "person with T1D"
+        ]
+      },
+      "platforms": [
+        "web/mobile"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "gamified self-management utility",
+      "learning_objectives": [
+        "reflection",
+        "routine tracking"
+      ],
+      "core_gameplay_loop": "Track or reflect on T1D routines using game-like progress cues.",
+      "game_mechanisms": [
+        "progress",
+        "goals",
+        "feedback"
+      ],
+      "pedagogical_mechanisms": [
+        "self-monitoring",
+        "goal setting"
+      ],
+      "developer": {
+        "names": [
+          "stable T1D team"
+        ],
+        "classification": "independent/commercial",
+        "lived_experience_involvement": "site presents a T1D-community orientation; details not fully verified"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Adjacent utility rather than a simulation game.",
+        "limitations": [
+          "evidence absent",
+          "privacy and health-data boundaries require review"
+        ],
+        "design_detail": "public product without peer-reviewed outcome evaluation located"
+      },
+      "availability": {
+        "status": "publicly available",
+        "price": "current terms require direct verification",
+        "monetisation": "not fully verified",
+        "regions": "web access",
+        "account_requirements": "likely account",
+        "hardware_dependencies": "web-capable device",
+        "verified_on": "2026-08-24",
+        "confidence": "moderate",
+        "status_detail": "public web presence"
+      },
+      "links": {
+        "official": [
+          "https://stablet1d.com/"
+        ],
+        "stores": [],
+        "archives": [],
+        "publications": []
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": "https://stablet1d.com/",
+        "captured_on": "2026-08-24",
+        "copyright_holder": "stable T1D",
+        "reuse_status": "image not retained"
+      },
+      "design_assessment": {
+        "strengths": [
+          "adult relevance",
+          "low hardware burden"
+        ],
+        "limitations": [
+          "utility/game boundary",
+          "no outcome evidence"
+        ],
+        "design_relevance": [
+          "preserve the no-personal-health-data boundary"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "wst",
+      "title": "Web-based Simulation Training for Adults with T1D",
+      "aliases": [
+        "WST",
+        "NCT04439903"
+      ],
+      "release_history": [
+        "completed pilot trial"
+      ],
+      "scope_group": "simulation_adjacent",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "adults",
+        "roles": [
+          "adult with T1D"
+        ]
+      },
+      "platforms": [
+        "web"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "personalised replay simulation",
+      "learning_objectives": [
+        "retrospective pattern interpretation",
+        "self-management problem solving"
+      ],
+      "core_gameplay_loop": "Replay and manipulate personalised diabetes scenarios to examine alternative decisions.",
+      "game_mechanisms": [
+        "counterfactual simulation",
+        "scenario replay"
+      ],
+      "pedagogical_mechanisms": [
+        "reflection",
+        "causal comparison"
+      ],
+      "developer": {
+        "names": [
+          "clinical research team, NCT04439903"
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "adult participant involvement; design role unclear"
+      },
+      "evidence": {
+        "level": "pre/post or feasibility study",
+        "studies": [
+          {
+            "citation": "NCT04439903",
+            "design": "pilot",
+            "sample_size": 15,
+            "outcomes": "feasibility",
+            "limitations": "small and not necessarily a game"
+          }
+        ],
+        "summary": "Relevant simulation pedagogy but outside the core serious-game set.",
+        "limitations": [
+          "personal data boundary",
+          "small study",
+          "not public"
+        ],
+        "design_detail": "small completed pilot"
+      },
+      "availability": {
+        "status": "study or trial only",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "trial site",
+        "account_requirements": "study participation",
+        "hardware_dependencies": "web",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "trial-only"
+      },
+      "links": {
+        "official": [
+          "https://clinicaltrials.gov/study/NCT04439903"
+        ],
+        "stores": [],
+        "archives": [],
+        "publications": []
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "counterfactual reasoning",
+          "adult focus"
+        ],
+        "limitations": [
+          "personalisation raises regulatory/privacy complexity"
+        ],
+        "design_relevance": [
+          "counterfactual replay can support causal comparison without requiring a competitive game structure"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "exert1d",
+      "title": "ExerT1D",
+      "aliases": [],
+      "release_history": [
+        "protocol and qualitative development published"
+      ],
+      "scope_group": "exergame",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "adolescents",
+        "roles": [
+          "adolescent with T1D"
+        ]
+      },
+      "platforms": [
+        "exergame/research platform"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "exercise serious game",
+      "learning_objectives": [
+        "physical activity",
+        "exercise confidence",
+        "T1D exercise management"
+      ],
+      "core_gameplay_loop": "Perform game-mediated physical activity with T1D-specific educational support.",
+      "game_mechanisms": [
+        "movement",
+        "goals",
+        "feedback"
+      ],
+      "pedagogical_mechanisms": [
+        "practice",
+        "self-efficacy",
+        "behavioural activation"
+      ],
+      "developer": {
+        "names": [
+          "ExerT1D research team"
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "qualitative adolescent input reported"
+      },
+      "evidence": {
+        "level": "usability or participatory co-design study",
+        "studies": [],
+        "summary": "Promising for exercise barriers; efficacy evidence is not yet definitive.",
+        "limitations": [
+          "hardware/access",
+          "not public"
+        ],
+        "design_detail": "protocol/qualitative co-design"
+      },
+      "availability": {
+        "status": "research prototype; not publicly available",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "trial settings",
+        "account_requirements": "study participation",
+        "hardware_dependencies": "exercise gaming setup",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "research-only"
+      },
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": [
+          "https://doi.org/10.2196/65665",
+          "https://doi.org/10.1159/000550880"
+        ]
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "targets a specific behavioural barrier"
+        ],
+        "limitations": [
+          "hardware and study-only access"
+        ],
+        "design_relevance": [
+          "simulate exercise consequences while making clear that play is not physical activity"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "insuonline",
+      "title": "InsuOnline",
+      "aliases": [
+        "NCT01759953"
+      ],
+      "release_history": [
+        "clinician-training trial registered"
+      ],
+      "scope_group": "clinician_training",
+      "target_population": {
+        "diabetes_specificity": "insulin management across diabetes",
+        "age_range": "adult professionals",
+        "roles": [
+          "clinician"
+        ]
+      },
+      "platforms": [
+        "online"
+      ],
+      "languages": [
+        "Portuguese"
+      ],
+      "genre": "clinical decision serious game",
+      "learning_objectives": [
+        "insulin prescribing",
+        "clinical decision making"
+      ],
+      "core_gameplay_loop": "Treat simulated clinical cases and receive decision feedback.",
+      "game_mechanisms": [
+        "cases",
+        "scores",
+        "feedback"
+      ],
+      "pedagogical_mechanisms": [
+        "case-based learning",
+        "deliberate practice"
+      ],
+      "developer": {
+        "names": [
+          "Brazilian clinical education team"
+        ],
+        "classification": "academic/clinical",
+        "lived_experience_involvement": "not applicable/documented"
+      },
+      "evidence": {
+        "level": "controlled outcome study",
+        "studies": [
+          {
+            "citation": "NCT01759953",
+            "design": "controlled professional-education study",
+            "sample_size": "see registry",
+            "outcomes": "professional knowledge/decision outcomes",
+            "limitations": "not patient education and not T1D-specific"
+          }
+        ],
+        "summary": "Excluded from patient-game conclusions but retained as a clinician-training comparator.",
+        "limitations": [
+          "different audience",
+          "different outcomes"
+        ],
+        "design_detail": "clinician-training trial"
+      },
+      "availability": {
+        "status": "study or trial only",
+        "price": "not applicable",
+        "monetisation": "research funded",
+        "regions": "Brazil",
+        "account_requirements": "professional study access",
+        "hardware_dependencies": "web",
+        "verified_on": "2026-08-24",
+        "confidence": "high",
+        "status_detail": "trial/research access"
+      },
+      "links": {
+        "official": [
+          "https://clinicaltrials.gov/study/NCT01759953"
+        ],
+        "stores": [],
+        "archives": [],
+        "publications": []
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": "2026-08-24",
+        "copyright_holder": null,
+        "reuse_status": "image unavailable"
+      },
+      "design_assessment": {
+        "strengths": [
+          "case-based deliberate practice"
+        ],
+        "limitations": [
+          "not patient-facing"
+        ],
+        "design_relevance": [
+          "professional and patient directories should remain separate"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "t1d-simulator",
+      "title": "T1D Simulator",
+      "aliases": [
+        "Type 1 Diabetes Simulator"
+      ],
+      "release_history": [
+        "public browser release active in 2026"
+      ],
+      "scope_group": "currently_available_core",
+      "target_population": {
+        "diabetes_specificity": "T1D-specific",
+        "age_range": "children, adolescents and adults; exact validated age range not established",
+        "roles": [
+          "person with T1D",
+          "caregiver",
+          "learner"
+        ]
+      },
+      "platforms": [
+        "web browser"
+      ],
+      "languages": [
+        "Danish",
+        "English"
+      ],
+      "genre": "causal blood-glucose simulation with campaign and challenge modes",
+      "learning_objectives": [
+        "causal reasoning about glucose dynamics",
+        "food, insulin and activity interactions",
+        "safe counterfactual experimentation"
+      ],
+      "core_gameplay_loop": "Select actions for fixed fictional characters, advance simulated time, observe the glucose trajectory and compare alternative decisions.",
+      "game_mechanisms": [
+        "scenario goals",
+        "time-compressed simulation",
+        "feedback",
+        "progression",
+        "counterfactual replay"
+      ],
+      "pedagogical_mechanisms": [
+        "hypothesis testing",
+        "causal comparison",
+        "deliberate practice",
+        "explanatory feedback"
+      ],
+      "developer": {
+        "names": [
+          "T1D Simulator project"
+        ],
+        "classification": "independent/developer-led",
+        "lived_experience_involvement": "developer reports lived experience with T1D; no formal participatory co-design study identified"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Public mechanistic learning simulation; software and physiological documentation do not establish educational effectiveness.",
+        "limitations": [
+          "no peer-reviewed outcome evidence identified",
+          "no demonstrated transfer to unfamiliar scenarios",
+          "no validated sustained-engagement or clinical outcome evidence",
+          "formal co-design evidence not identified"
+        ],
+        "design_detail": "public product without peer-reviewed outcome evaluation located"
+      },
+      "availability": {
+        "status": "publicly available",
+        "price": "free",
+        "monetisation": "none identified",
+        "regions": "public web access; regional accessibility not formally audited",
+        "account_requirements": "none identified",
+        "hardware_dependencies": "modern web browser",
+        "verified_on": "2026-09-05",
+        "confidence": "high for public web access; moderate for cross-device and regional completeness",
+        "status_detail": "publicly available"
+      },
+      "links": {
+        "official": [
+          "https://krauhe.github.io/t1d-simulator/"
+        ],
+        "stores": [],
+        "archives": [],
+        "publications": []
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": "https://krauhe.github.io/t1d-simulator/",
+        "captured_on": null,
+        "copyright_holder": "T1D Simulator project",
+        "reuse_status": "image not retained"
+      },
+      "design_assessment": {
+        "strengths": [
+          "browser access without a study login",
+          "causal simulation of interacting factors",
+          "fixed fictional characters rather than personal health data",
+          "counterfactual replay"
+        ],
+        "limitations": [
+          "educational effects remain unevaluated",
+          "broad interface may impose greater cognitive load than a microgame",
+          "maintenance continuity has not been independently assessed"
+        ],
+        "design_relevance": [
+          "offers a public comparator for mechanistic, counterfactual learning in a browser environment"
+        ]
+      },
+      "playtest_status": "not_playtested"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+---
+title: "Game Catalogue"
+subtitle: "A complete, evidence-aware register"
+description: "All catalogued type 1 diabetes games, prototypes and adjacent products with provenance and access status."
+toc: true
+---
+
+## How to read the catalogue
+
+This page summarises all **45** records in the machine-readable catalogue. The core scope is ==type 1 diabetes (T1D)== education and self-management; adjacent categories are retained because they expose useful mechanisms, outcomes or sustainability problems. Inclusion is not endorsement.
+
+Evidence and access are independent fields. “Public product without peer-reviewed evaluation” means that a product could be located but that no qualifying outcome study was identified. “Unavailable” means that no public build was located at the stated verification date; it does not prove that no private or institutional copy exists. Unless a later date is shown, access was verified on **24 August 2026**. No product was playtested during this desk-research phase.
+
+The [canonical JSON record](../../data/games.json) retains aliases, release history, intended roles, language, learning objectives, core loop, mechanisms, detailed study extraction, developer classification, lived-experience involvement, price, monetisation, region, account and hardware requirements, source links, image provenance, design assessment and confidence.
+
+## Currently available core games and companions
+
+| Game | Audience; platform; language | Developer/provenance | Highest evidence category | Access and cost |
+|---|---|---|---|---|
+| [AvaType1](https://avatype1.com/) | Primarily ages 6–12, with tiered teen/adult material; iOS/iPadOS; English | Independent and lived-experience-led | Public product without peer-reviewed evaluation located | Public; free; US iOS confidence high |
+| FlightGlucose | Learners/caregivers; browser; English plus six languages claimed | Independent; legal owner not fully verified | Public product without peer-reviewed evaluation located | No locally functioning access link on 5 September 2026; indexed content claimed five free scenarios and paid subscriptions |
+| [GlucoZor](https://www.glucozor.fr/) | Children aged approximately 9–11 and parents; web/historical mobile; French | Commercial–nonprofit–clinical collaboration | Public product without independent peer-reviewed outcome evaluation | Official site active; free claim; current store access incompletely verified |
+| [Level One: A Diabetes Game](https://playlevelone.com/) | Children, adults and caregivers; iOS/Android; English | Commercial development with nonprofit partners and documented family experience | Public product without peer-reviewed outcome evaluation located | Public; free; account; regional completeness uncertain |
+| [MyDiabetic](https://www.my-diabetic.com/) | Children aged 5–12 and peers; iOS/Android; English/Czech | Academic–clinical collaboration with public distribution | Participatory co-design and short feasibility/learning evaluation | Public; free; availability confidence high |
+| [Rufus, the Bear with Diabetes](https://www.breakthrought1d.org/news-and-updates/new-interactive-rufus-the-bear-with-diabetes/) | Young children and newly diagnosed families; mobile plus optional physical bear; English | Nonprofit–commercial collaboration | Public product without peer-reviewed outcome evaluation located | Public free app; physical-bear distribution varies |
+| [T1D Simulator](https://krauhe.github.io/t1d-simulator/) | Children, adolescents, adults and caregivers; browser; Danish/English | Independent, developer-led and lived-experience-informed | Public product without peer-reviewed outcome evaluation located | Public; free; no account identified; checked 5 September 2026 |
+| [Novi-Chek: diabète de type 1](https://www.accu-chek.fr/produits/application/novi-chek) | Ages 13–25; mobile; French | Commercial–clinical | Public product without independent outcome evaluation | Official product page accessible; current app acquisition incompletely verified |
+| [Sweet Strategy](https://apps.apple.com/tw/app/%E7%94%9C-%E6%94%BB%E7%95%A5/id1619470848) | Children/adolescents; iOS/iPadOS; Traditional Chinese | Commercial–clinical collaboration | Public product without peer-reviewed evaluation located | Taiwan iOS listing; free; region-limited |
+
+## Historical hardware, console games and physical play
+
+| Game | Audience; platform | Developer/provenance | Highest evidence category | Access and cost |
+|---|---|---|---|---|
+| [Captain Novolin](https://en.wikipedia.org/wiki/Captain_Novolin) | Children; Super Nintendo Entertainment System | Sculptured Software, Raya Systems, Novo Nordisk and a United States public-health partner | Development history; no controlled product-specific outcome study located | Discontinued; collector market only |
+| [Packy & Marlon](https://en.wikipedia.org/wiki/Packy_and_Marlon) | Ages 8–16 in the trial; Super Nintendo Entertainment System | Commercial–research collaboration | Small controlled outcome study | Discontinued; collector market only |
+| [Monster Manor](https://doi.org/10.2196/games.3930) | Children; iOS/Android | Ayogo, Sanofi and Diabetes UK | Development description | Discontinued; formerly free |
+| [GlucoBoy / DIDGET](https://doi.org/10.2196/games.3930) | Children; Game Boy Advance/Nintendo DS | Guidance Interactive and Bayer | Product/development history | Discontinued; proprietary hardware; collector market only |
+| [Jerry the Bear](https://doi.org/10.1016/j.diabres.2024.111833) | Young children and families; interactive toy/mobile companion | Sproutel; lived-experience-led commercial development | Limited formal product evidence located | Current physical-product access uncertain; historically paid; digital Rufus successor active |
+
+## Research prototypes and study-only interventions
+
+| Game/intervention | Audience; platform; language | Developer/provenance | Highest evidence category | Access status |
+|---|---|---|---|---|
+| [Augmented-Reality Diabetes Education Game](https://doi.org/10.1371/journal.pone.0184645) | Children; tablet and ==augmented reality (AR)== cards; Spanish | Academic–clinical | Feasibility/usability | Research prototype; no public distribution located |
+| [Brazilian Paediatric T1D Serious-Game Framework](https://pmc.ncbi.nlm.nih.gov/articles/PMC6432989/) | School-age children; concept/prototype; Portuguese | Academic–clinical, with direct child participation | Qualitative/conceptual framework | Not a public product |
+| [DiaPed](https://doi.org/10.1177/30502225251357044) | Children/adolescents; mobile; Arabic/French | Academic–clinical | Uncontrolled pre/post study | Study-only; public listing not located |
+| [Diaquarium](https://doi.org/10.1007/978-3-319-78759-6_40) | Children; mobile prototype; Norwegian/English | Academic | Design/usability study | Prototype unavailable |
+| [Diabetic Mario](https://doi.org/10.1089/g4h.2015.0038) | Children; personal-computer prototype; English | Academic | Small comparative usability/learning study | Research-only; unavailable |
+| [emoTICare](https://clinicaltrials.gov/study/NCT06331429) | Adolescents; computer/tablet; Spanish | Academic–clinical consortium | Small quasi-experimental outcome study | Trial-only |
+| [Food Quiz](https://doi.org/10.1145/1858171.1858219) | Children; computer/web prototype; English | Academic | Development/conceptual study | Prototype unavailable |
+| [Koodak-e-Tavana Insulin Injection Game](https://pmc.ncbi.nlm.nih.gov/articles/PMC4324272/) | Children; personal computer; Persian | Academic–clinical | Small randomised trial | Study-only; public release not located |
+| [Nørlev Participatory Smartphone Game Prototype](https://doi.org/10.2196/33955) | Children aged 8–12; smartphone; Danish | Academic–clinical with direct child participation | Participatory co-design | Research prototype; no public release |
+| [PAL](https://doi.org/10.1145/3312714.3312736) | Children, caregivers and clinicians; tablet/dashboard/social robot | European academic–clinical–industry collaboration | Feasibility and participatory design | Research-only; no public service located |
+| [Qare and Qure](https://doi.org/10.1109/COMAPP.2018.8460213) | Children and caregivers; paired mobile prototype; English | Academic | Development/conference evaluation | Research-only; unavailable |
+| [Social Diabetes Learning Platform](https://doi.org/10.5220/0003874104590466) | Children/adolescents and peers; web/mobile concept; Norwegian/English | Academic–clinical consortium | Participatory design/development | Prototype unavailable |
+| [Tako Dojo](https://doi.org/10.1007/s10758-017-9344-x) | Adolescents; mobile; Italian | Academic–clinical | Pre/post evaluation | Study-only; public release not located |
+| [Tangbao Superman Transformation](https://doi.org/10.1038/s41598-025-30114-1) | Ages 4–9; ==virtual reality (VR)==; Mandarin Chinese | Academic–clinical, four-hospital collaboration | Uncontrolled pre/post feasibility study | Study-only; specialised hardware |
+| [Turkish Digital Game and Video Animation Intervention](https://doi.org/10.1016/j.pedn.2025.01.023) | Children; digital game plus video; Turkish | Academic–clinical | Small single-blind randomised trial of a compound intervention | Trial-only; product not located |
+| [Virtual Coach](https://doi.org/10.18293/DMS2015-035) | Children; web prototype; Italian | Academic–clinical | Development/feasibility description | Prototype unavailable |
+| [WeCan](https://doi.org/10.1016/j.pedhc.2024.05.009) | Adolescents; mobile; English | Academic–clinical | Two-arm feasibility study | Study-only |
+
+## Adjacent management, simulation, exercise and clinician training
+
+These products are not directly interchangeable with patient-facing educational games. They are retained with explicit scope labels.
+
+| Product | Scope and audience | Developer/provenance | Evidence | Access |
+|---|---|---|---|---|
+| [eddii](https://www.eddiihealth.com/eddii-app) | Continuous-glucose-monitor-linked gamified management and virtual care; children/adults | Commercial | Related publication; independent educational efficacy not established | Public US service; commercial terms may apply |
+| [stable T1D](https://stablet1d.com/) | Gamified reflection/routine utility; teens/adults | Independent/commercial | No peer-reviewed outcome evaluation located | Public web presence; terms and account requirements require re-verification |
+| [Web-based Simulation Training for Adults with T1D](https://clinicaltrials.gov/study/NCT04439903) | Personalised scenario replay; adults | Academic–clinical | Small completed pilot | Trial-only; uses personal data |
+| [ExerT1D](https://doi.org/10.2196/65665) | Exercise serious-game programme; adolescents | Academic–clinical with qualitative participant input | Protocol, feasibility and qualitative acceptability | Research-only; exercise-gaming setup required |
+| [InsuOnline](https://clinicaltrials.gov/study/NCT01759953) | Insulin-prescribing cases; clinicians; Portuguese | Academic–clinical | Controlled professional-education study | Trial/research access; not patient education |
+
+## Secondary app-store records with unresolved continuity
+
+These products were identified in the accessibility review by [Reinders et al. (2024)](https://doi.org/10.1016/j.diabres.2024.111833), but current direct access, ownership or T1D specificity remained incompletely verified.
+
+| Product | Reported format | Evidence | Current status/confidence |
+|---|---|---|---|
+| [Mundo Carakuato](https://doi.org/10.1016/j.diabres.2024.111833) | Spanish mobile educational adventure for children | No product-specific outcome evaluation located | Availability uncertain; low confidence |
+| [Xugarhero](https://doi.org/10.1016/j.diabres.2024.111833) | Mobile educational mini-game collection | No product-specific outcome evaluation located | Availability, language and provenance uncertain; low confidence |
+| [DiabetesSpel](https://doi.org/10.1016/j.diabres.2024.111833) | Dutch mobile quiz/game | No product-specific outcome evaluation located | Availability uncertain; low confidence |
+| [Diabetes Academy](https://doi.org/10.1016/j.diabres.2024.111833) | Mobile gamified education | No product-specific outcome evaluation located | T1D specificity, availability and provenance uncertain; low confidence |
+| [Diabetic's Diner](https://doi.org/10.1016/j.diabres.2024.111833) | English-language food-management game | No product-specific outcome evaluation located | Availability and nutritional accuracy uncertain; low confidence |
+
+## Experiential and narrative games
+
+These titles represent diagnosis, chronicity, identity or daily burden. They should not be evaluated as dosing curricula unless they make and test such claims.
+
+| Game | Audience and format | Provenance | Evidence and access |
+|---|---|---|---|
+| [I Got This](https://doi.org/10.1016/j.diabres.2024.111833) | Adolescents and peers; short mobile diagnosis narrative | Ayogo and Diabetes Hands Foundation; community involvement documented | No controlled outcome evaluation located; current store access uncertain |
+| [Hell Hath No Insulin](https://weeabetes.itch.io/hell-hath-no-insulin) | Teens/adults; Windows/itch.io | Independent and lived-experience-led | No peer-reviewed evaluation; public; free/pay what you want |
+| [Permanence](https://ivy-leaves.itch.io/permanence) | Teens/adults; browser/personal computer | Independent and lived-experience-led | No peer-reviewed evaluation; public; terms require confirmation at access |
+| [Holesome](https://holesome.itch.io/holesome) | Teens/adults; itch.io | Independent and lived-experience-led | No peer-reviewed evaluation; public; store terms apply |
+
+## Data-quality rules
+
+1. A product has one stable identifier even when its title or platform changes.
+2. Developer claims are recorded as provenance or marketing, never as measured effects.
+3. Unknown values remain “unknown” or “not verified”; they are not inferred from branding.
+4. Access status includes a verification date and confidence level.
+5. Research access, study-only access and public access are different states.
+6. Screenshot metadata can point to an external source or a private-review copy. Third-party images are not automatically licensed for public republication.
+7. Every record remains `not_playtested` until direct, documented assessment occurs.
+
+## References
+
+[Nørlev, J. et al. (2022) ‘Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage: A systematic scoping review’, *Journal of Diabetes Science and Technology*, 16(5), pp. 1253–1269.](https://pubmed.ncbi.nlm.nih.gov/34024156/)
+
+[Reinders, E.F.H. et al. (2024) ‘Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers’, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
+
+## Abbreviation glossary
+
+| Abbreviation | Meaning |
+|---|---|
+| AR | Augmented reality; digital information aligned with the physical environment. |
+| T1D | Type 1 diabetes. |
+| VR | Virtual reality; an immersive computer-generated environment. |

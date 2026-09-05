@@ -1,0 +1,74 @@
+---
+title: "T1D Serious Games Knowledge Base"
+description: "A scientific resource for discovering, comparing, designing, evaluating, and sustaining serious games relevant to type 1 diabetes."
+date: "2026-09-05"
+---
+
+# Learning Type 1 Diabetes Through Play
+
+This independent knowledge base examines how games and simulations can support education, self-management learning, psychological coping, and professional understanding in ==type 1 diabetes (T1D)==. It is written for clinicians, researchers, educators, designers, developers, patient organisations, and maintainers who require structured information about products, evidence, accessibility, design, and sustainability.
+
+## What the evidence currently supports
+
+Serious games can make abstract, time-dependent relationships observable and repeatable. They can also provide immediate feedback, allow error without real-world physiological consequences, and structure practice across progressively harder scenarios. These affordances are educationally plausible and are supported by individual studies, but the T1D evidence base remains heterogeneous, predominantly paediatric, and often short-term ([Nørlev et al., 2022](https://pubmed.ncbi.nlm.nih.gov/34024156/); [Guan et al., 2026](https://doi.org/10.1186/s12887-026-07142-5)). The 2026 paediatric review identified 23 studies, but 70% lacked an explicit theoretical framework and evidence of sustained benefit remained limited.
+
+Measured knowledge gain, practical competence, transfer to unfamiliar situations, self-efficacy, sustained engagement, behaviour change, and clinical outcomes are different endpoints. A positive result for one cannot be used as evidence for another. Across diabetes types, a 2024 meta-analysis found no statistically significant pooled effect on glycated haemoglobin, while physical-activity effects were larger but heterogeneous and derived partly from exergames rather than disease-management simulations ([Yao et al., 2024](https://doi.org/10.2196/43574)).
+
+## Why this resource exists
+
+The field has repeatedly produced promising academic prototypes that ceased to be accessible after the study period. In a 2024 accessibility review, 21 of 23 research-origin games could not be accessed publicly; app-store games were easier to find but usually lacked peer-reviewed evaluation ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)). This creates a persistent separation between evaluated interventions and usable products.
+
+The purpose of this repository is therefore broader than identifying a single preferred game. It supports four tasks:
+
+1. **Discover** existing and historical games, including prototypes, discontinued products, commercial releases, nonprofit projects, and lived-experience-led work.
+2. **Interpret** what each game attempts to teach, which mechanisms it uses, and what its evidence does and does not establish.
+3. **Design** testable learning experiences grounded in T1D physiology, learning science, human factors, and ethical engagement.
+4. **Sustain** projects through open documentation, structured data, governance, reproducible review methods, and realistic maintenance planning.
+
+## Project origin and public purpose
+
+This knowledge base originated in research undertaken to improve [T1D Simulator](https://github.com/krauhe/t1d-simulator), an educational game for exploring glucose dynamics in T1D. Its broader purpose is to facilitate the discovery, use, design, evaluation, and long-term maintenance of T1D learning games, irrespective of product, developer, or institutional origin.
+
+> **Evidence label — Sustainability hypothesis.** Static educational material such as a brochure can often be revised as a bounded content object. A serious game requires continuing coordination across T1D physiology and clinical practice, pedagogy, game design, software engineering, user experience, accessibility, evaluation, governance, and lived experience. When time-limited funding ends or a central researcher, developer, clinician, or community advocate changes role, tacit knowledge and operational ownership may be lost. This may contribute to the documented disappearance of evaluated games, although the relative importance of these causes has not yet been established empirically ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
+
+The knowledge base therefore separates reusable evidence, design patterns, evaluation methods, documented failures, and maintenance practices from any single product. The source code, physiological simulation model, and technical documentation underpinning T1D Simulator are available under the [GNU General Public License version 3](https://github.com/krauhe/t1d-simulator/blob/main/LICENSE). The knowledge base's original scientific content, structured data, and figures are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), while its software and build tooling use the [MIT License](LICENSE). Together, these resources are intended to reduce duplicated work and support current and future serious-game teams working for the benefit of the T1D community.
+
+The project's origin does not confer evidentiary priority. Every catalogued product is assessed using the same criteria for evidence, provenance, accessibility, and sustainability.
+
+## A compact design thesis
+
+A brochure can describe a dynamic system. A simulation can allow a learner to:
+
+> Predict an outcome -> act -> observe the consequence -> obtain a causal explanation -> retry -> vary one condition.
+
+This loop is a design hypothesis rather than proof of effectiveness. Its educational value depends on the validity of the represented physiology, the quality and timing of feedback, the learner's prior knowledge, the diversity of scenarios, and whether competence transfers beyond the game.
+
+## How to use the knowledge base
+
+| If you need to... | Start with... |
+|---|---|
+| identify available or historical products | [Game explorer](explorer.html) and [catalogue](knowledge/games/catalogue.qmd) |
+| judge what outcome evidence actually shows | [Evidence map](knowledge/games/evidence-map.qmd) and [evaluation](knowledge/design/evaluation.qmd) |
+| design a learning loop | [Learning science](knowledge/design/learning-science.qmd) and [game mechanisms](knowledge/design/game-mechanisms.qmd) |
+| design a game that represents glucose or treatment dynamics | [T1D Physiology and Modelling](knowledge/physiology/index.qmd) |
+| reduce onboarding and cognitive friction | [Human factors](knowledge/human-factors/onboarding-and-accessibility.qmd) |
+| plan for survival beyond a research grant | [Adoption and sustainability](knowledge/sustainability/index.qmd) |
+
+## Epistemic labels used throughout
+
+**Direct evidence** means evidence obtained in a T1D serious-game population relevant to the claim. **Adjacent evidence** comes from another disease, educational setting, technology, or population. **Industry practice** describes a documented production convention without implying health effectiveness. **Design inference** is a reasoned proposal requiring evaluation. **Product claim** is a statement made by a developer or distributor that has not been independently verified as an outcome.
+
+## Scope and status
+
+The principal evidence search closed on 24 August 2026. Availability and price are time-dependent and carry a verification date and confidence rating. The repository is maintained as a living scientific resource; omissions and corrections should be documented transparently as the evidence map develops.
+
+## References
+
+1. [Nørlev, J. et al. (2022) “Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage: A systematic scoping review”, *Journal of Diabetes Science and Technology*, 16(5), 1253-1269.](https://pubmed.ncbi.nlm.nih.gov/34024156/)
+2. [Reinders, E.F.H. et al. (2024) “Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers”, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
+3. [Guan, Y. et al. (2026) “Application of gamified interventions in children with type 1 diabetes: A scoping review”, *BMC Pediatrics*, 26, 779.](https://doi.org/10.1186/s12887-026-07142-5)
+4. [Yao, M. et al. (2024) “Effects of electronic games on diabetes self-management and outcomes: Systematic review and meta-analysis”, *Journal of Medical Internet Research*, 26, e43574.](https://doi.org/10.2196/43574)
+
+## Abbreviation glossary
+
+**T1D - Type 1 diabetes.** An autoimmune disease characterised by loss of insulin-producing beta cells and a consequent requirement for exogenous insulin.

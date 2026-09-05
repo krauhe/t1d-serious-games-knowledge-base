@@ -1,0 +1,87 @@
+---
+title: "Methods, Evidence Classification, and Source Handling"
+description: "Scope, search approach, eligibility, evidence tiers, and availability verification."
+date: "2026-09-05"
+---
+
+# Methods, Evidence Classification, and Source Handling
+
+## Review type and scope
+
+The present resource is a structured scoping review and evidence map. It is not represented as a registered systematic review. The anchor publication was the systematic scoping review by [Nørlev et al. (2022)](https://pubmed.ncbi.nlm.nih.gov/34024156/), whose search ended on 23 September 2020 and focused on children aged 8-14 years. Those boundaries made independent searching necessary for adults, newly diagnosed people, caregivers, psychological outcomes, experiential games, contemporary commercial products, and work published after the anchor search.
+
+The independent search closed on 24 August 2026. The eligibility scope includes ==type 1 diabetes (T1D)== education and self-management, serious games, simulations, gamified educational interventions, virtual and augmented reality, narrative or experiential games, and selected mixed-diabetes or professional-training comparators. Exergames, physical games, clinician-training products, and weakly gamified utilities are classified separately rather than merged with core T1D learning games.
+
+## Search and discovery routes
+
+Discovery combined:
+
+1. backward citation chaining from the 18 game-related articles included by Nørlev et al.;
+2. forward citation checking in at least two citation indexes, supplemented by exact-title searches;
+3. independent searches of PubMed and PubMed Central, Crossref and OpenAlex, JMIR, ACM, IEEE Xplore, ClinicalTrials.gov, app stores, official product sites, and independent distribution platforms;
+4. comparison with later reviews, particularly [Reinders et al. (2024)](https://doi.org/10.1016/j.diabres.2024.111833), [Yao et al. (2024)](https://doi.org/10.2196/43574), and the paediatric T1D review by [Guan et al. (2026)](https://doi.org/10.1186/s12887-026-07142-5); and
+5. manual availability verification because publication status does not establish continued public access.
+
+Search concepts combined diabetes terms with game, serious game, simulation, gamification, virtual reality, augmented reality, narrative, education, self-management, resilience, coping, distress, child, adolescent, adult, caregiver, and clinician terms. Database-specific queries, retrieval outcomes, and individual eligibility decisions are retained in the source register and acquisition notes.
+
+## Evidence classes
+
+Each study or product is separated into one of the following evidence classes:
+
+| Class | What it can establish | Recurrent limitations |
+|---|---|---|
+| Controlled outcome study | Comparative effects under the tested conditions | Small samples, short follow-up, contamination, composite interventions |
+| Pre/post or feasibility study | Change over time, feasibility, recruitment, retention, and signals for later testing | No counterfactual; maturation and expectancy effects |
+| Usability or participatory design study | Interaction barriers, acceptability, requirements, and design priorities | Does not establish learning or clinical benefit |
+| Development description or conceptual framework | Intervention rationale, mechanics, architecture, and intended mechanisms | Intended mechanisms may not occur in practice |
+| Public product without peer-reviewed evaluation | Current functionality, access, price, and stated purpose | No independent effectiveness inference is justified |
+| Marketing or developer claim | What the producer says about a product | Treated as a claim, not a measured outcome |
+
+## Outcome hierarchy
+
+The evidence map does not combine distinct outcomes into a single effectiveness score. It records at least:
+
+1. knowledge and factual recall;
+2. procedural competence and applied decision quality;
+3. transfer to unfamiliar or real-world scenarios;
+4. self-efficacy, autonomy, coping, and diabetes distress;
+5. engagement, session completion, and sustained use;
+6. self-management behaviour;
+7. healthcare use and safety events; and
+8. clinical endpoints such as ==glycated haemoglobin (HbA1c)==, continuous-glucose-monitor metrics, or insulin requirements.
+
+A statistically significant knowledge effect is not classified as demonstrated behaviour change. User satisfaction is not classified as transfer. A change in a surrogate endpoint is not automatically a patient-important clinical benefit.
+
+## Availability and sustainability verification
+
+Availability is recorded separately from evidence. Every catalogue record should state:
+
+1. public, study-only, archived, discontinued, prototype, or uncertain status;
+2. price or subscription status;
+3. platform, hardware, region, and language limitations;
+4. account and connectivity requirements;
+5. verification date and confidence; and
+6. official, store, publication, and archive links where available.
+
+Regional app-store availability is difficult to exhaustively verify. A game visible in one storefront is therefore not labelled globally available without supporting checks.
+
+## Conflicts of interest and equal treatment
+
+Project-affiliated games are catalogued with the same schema, evidence thresholds, availability checks, and uncertainty labels as other products. They receive no implementation chapter, composite ranking advantage, or exemption from the distinction between developer claims and independent evidence.
+
+## Updating
+
+The scientific search date and each product-verification date are versioned separately. Substantive corrections should identify the affected claim, source, prior wording, new wording, and date. A future update may meet formal systematic-review standards, but that designation will not be used unless protocol, reproducible searches, screening, duplicate assessment, and reporting requirements are fulfilled.
+
+## References
+
+1. [Nørlev, J. et al. (2022) “Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage: A systematic scoping review”, *Journal of Diabetes Science and Technology*, 16(5), 1253-1269.](https://pubmed.ncbi.nlm.nih.gov/34024156/)
+2. [Reinders, E.F.H. et al. (2024) “Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers”, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
+3. [Guan, Y. et al. (2026) “Application of gamified interventions in children with type 1 diabetes: A scoping review”, *BMC Pediatrics*, 26, 779.](https://doi.org/10.1186/s12887-026-07142-5)
+4. [Yao, M. et al. (2024) “Effects of electronic games on diabetes self-management and outcomes: Systematic review and meta-analysis”, *Journal of Medical Internet Research*, 26, e43574.](https://doi.org/10.2196/43574)
+
+## Abbreviation glossary
+
+**HbA1c - Glycated haemoglobin.** The proportion of haemoglobin with glucose attached, used as an integrated marker of glycaemia over approximately the preceding two to three months.
+
+**T1D - Type 1 diabetes.** An autoimmune disease that requires exogenous insulin because endogenous insulin secretion becomes insufficient.

@@ -1,0 +1,151 @@
+---
+title: "Learning Science for Type 1 Diabetes Serious Games"
+description: "Simulation, feedback, retrieval, transfer and social learning"
+---
+
+## Scope and source note
+
+This chapter synthesises learning mechanisms relevant to ==type 1 diabetes (T1D)== serious games. Direct T1D evidence is sparse and heterogeneous; it is therefore separated from adjacent evidence in cognitive science, health communication and digital game-based learning. The mechanisms below are hypotheses about how an intervention may work. Their presence in a game does not establish that learning occurred.
+
+## Start with the capability, not the medium
+
+T1D education can target several distinct capabilities:
+
+| Intended change | Suitable learning task | Inadequate proxy |
+|---|---|---|
+| Factual knowledge | Recall and discriminate concepts | Time spent in the application |
+| Procedural competence | Perform or sequence a task under varied conditions | Self-reported enjoyment |
+| Causal understanding | Predict, act, explain and revise under controlled variation | Repeating a memorised level solution |
+| Coping or self-efficacy | Practise a bounded challenge and assess task-specific confidence | A generic “fun” score |
+| Family communication | Joint decisions and structured debrief | A public leaderboard |
+| Empathy or recognition | Perspective-taking and reflective discussion | Glycaemic outcomes |
+
+The central principle is constructive alignment: the learning activity, game rule and assessment should represent the same capability. [Gris and Bengtson (2021)](https://doi.org/10.17083/ijsg.v8i1.383) found that game-based learning studies often used indirect engagement or usability measures without adequate psychometric evidence. Such measures can explain whether an intervention was usable; they cannot substitute for direct assessment of learning.
+
+## Simulation and deliberate practice
+
+==Deliberate practice== is structured repetition of a defined task with informative feedback and opportunities for correction; it is not synonymous with exposure or repetition alone ([Ericsson et al., 1993](https://doi.org/10.1037/0033-295X.100.3.363)). A simulation merely creates an interactive model; it becomes practice when the learner repeatedly makes relevant decisions, compares outcomes with expectations and changes strategy.
+
+T1D contains delayed and interacting processes. Food absorption, subcutaneous insulin action, physical activity, sleep, stress and biological variation do not occur on one time scale. Real-life trials are confounded because the initial conditions cannot be reproduced, and deliberately testing poor decisions may be unsafe. A simulation can instead freeze the initial state, compress time and permit a controlled change to one variable.
+
+> **Evidence label — Direct T1D evidence.** The six-month Packy & Marlon ==randomised controlled trial (RCT)== enrolled 59 participants aged 8–16 years. Compared with a non-health entertainment game, the intervention improved parent-reported self-care (P=.003) and diabetes-related parent communication (P=.025), but did not improve diabetes knowledge or glycated haemoglobin. This establishes a product-specific behavioural and relational signal, not a general effect of simulation ([Brown et al., 1997](https://doi.org/10.3109/14639239709089835)).
+
+> **Evidence label — Adjacent evidence.** Meta-analyses of digital games report small-to-moderate average learning effects, with substantial variation by design and comparator. Serious games were not consistently more motivating than conventional instruction, and evidence about retention and transfer was thinner than evidence about immediate performance ([Wouters et al., 2013](https://doi.org/10.1037/a0031311); [Clark et al., 2016](https://doi.org/10.3102/0034654315582065)).
+
+> **Evidence label — Design inference.** For a causal simulation, a defensible core loop is **predict → act → observe → explain → retry → vary**. Prediction externalises the learner's current model; controlled variation tests whether the explanation, rather than a remembered click sequence, guides the next decision.
+
+Simulation fidelity should be judged relative to the learning objective. More physiological detail can improve the range of possible explanations, but it can also make attribution ambiguous. Early tasks may therefore require fewer active variables, even when the underlying model is broader.
+
+## Feedback: outcome, explanation and agency
+
+Outcome feedback reports what occurred: for example, that a simulated glucose trace rose. Explanatory feedback helps the learner identify why the change occurred and what evidence would distinguish competing explanations. Formative-feedback research emphasises specificity, task focus and an actionable route forward ([Shute, 2008](https://doi.org/10.3102/0034654307313795); [Hattie and Timperley, 2007](https://doi.org/10.3102/003465430298487)).
+
+A useful feedback architecture has four layers:
+
+1. **State:** what changed, and over what interval?
+2. **Attribution:** which mechanism or prior action contributed materially?
+3. **Uncertainty:** which alternative explanations remain possible?
+4. **Next experiment:** which single change would make the explanation more discriminating?
+
+Immediate disclosure of the complete answer can suppress reasoning. Feedback may instead be staged: first request a prediction, then show the outcome, then ask for an explanation, and finally offer a mechanistic account. Scaffolding should be removable as competence develops.
+
+> **Evidence label — Adjacent evidence.** Reviews of scaffolding in digital game-based learning support guided assistance on average, but effects vary with the support type, learner and task. This warrants controlled, context-sensitive scaffolding rather than assuming that more hints are always better ([Cai et al., 2022](https://doi.org/10.1007/s10648-021-09655-0)).
+
+> **Evidence label — Design inference.** Counterfactual replay is particularly relevant to delayed systems. Repeating the same starting state while changing one action can make a causal contrast visible. Its value must be evaluated by whether learners identify the changed mechanism and succeed on a novel case, not by whether they open the replay tool.
+
+## Retrieval, spacing and varied practice
+
+==Retrieval practice== requires a learner to reconstruct knowledge rather than re-read it. Laboratory evidence shows that repeated retrieval can improve delayed retention and, under some conditions, transfer to new inference questions ([Roediger and Karpicke, 2006](https://doi.org/10.1111/j.1467-9280.2006.01693.x); [Butler, 2010](https://doi.org/10.1037/a0019902)). Far transfer remains difficult and should not be assumed from an immediate quiz score.
+
+In T1D games, retrieval can take several forms:
+
+1. **Declarative retrieval:** recall what insulin on board means.
+2. **Discrimination:** select which mechanism best explains a trace.
+3. **Procedural retrieval:** choose or order the steps in a simulated task.
+4. **Conditional retrieval:** determine when a principle applies and when it does not.
+5. **Explanatory retrieval:** justify a decision without selecting from supplied answers.
+
+Quizzes are strongest when they are integrated with the situation, use corrective feedback and reappear after spacing. A repeated item presented immediately after its answer primarily tests recognition or short-lived recall. Parallel cases with different surface details are a stronger test of principle-based learning.
+
+> **Evidence label — Direct T1D evidence.** Several recent T1D game studies report large immediate pre/post knowledge changes, but many are uncontrolled, short and vulnerable to item repetition or ceiling effects. The earlier controlled Packy & Marlon study did not show a knowledge advantage despite behavioural changes. The direct evidence therefore supports measuring knowledge, but not treating immediate knowledge gain as sufficient evidence of competence ([Nørlev et al., 2022](https://doi.org/10.1177/19322968211018236); [Yao et al., 2024](https://doi.org/10.2196/43574)).
+
+## Transfer and causal mental models
+
+==Transfer== is successful use of learning beyond the practised instance. Near transfer concerns structurally similar cases; far transfer concerns materially different contexts or real-world behaviour. A learner who reproduces a level solution may have learned an action sequence without learning why it worked.
+
+A transfer-oriented curriculum should vary surface features while preserving the target relation. Examples include changing meal size and timing while retaining the same absorption principle, or changing irrelevant visual context while preserving the need to account for delayed insulin action. The assessment case should not be available during training.
+
+Three complementary probes can distinguish memorisation from causal understanding:
+
+1. **Prediction:** forecast direction and timing before the simulation runs.
+2. **Intervention:** choose which variable to change to test a hypothesis.
+3. **Explanation:** state the mechanism and identify evidence inconsistent with it.
+
+> **Evidence label — Direct T1D evidence gap.** Published T1D game studies rarely use delayed, unfamiliar scenarios to measure transfer. Simulation has a plausible advantage for causal learning, but that advantage remains unestablished until learners outperform an appropriate comparator on new cases.
+
+## Social and caregiver learning
+
+Self-management is distributed across people and settings, particularly for children. Games can create a shared object for discussion: a child and caregiver can compare predictions, explain an outcome and negotiate who is responsible for which decision. Paired games such as Qare and Qure and participatory projects such as PAL explicitly represent caregiver or care-team roles ([Moosa et al., 2018](https://doi.org/10.1109/COMAPP.2018.8460213); [Nørlev et al., 2022](https://doi.org/10.2196/33955)).
+
+> **Evidence label — Direct T1D evidence.** Packy & Marlon's improvement in parent communication is the clearest controlled signal that a game can change family interaction, although the sample was small and the outcome was self-reported ([Brown et al., 1997](https://doi.org/10.3109/14639239709089835)).
+
+> **Evidence label — Design inference.** Structured co-play or a private caregiver debrief may deliver social learning with lower privacy and safeguarding burdens than an open social network. A shared score is useful only if it prompts explanation rather than comparison of personal glucose control.
+
+Social design must account for unequal caregiver time, literacy and digital access. It should not imply that a child with less available support is less engaged or responsible.
+
+## Self-efficacy, autonomy and distress
+
+==Self-efficacy== is confidence in the ability to perform a specified task. It differs from general self-esteem, knowledge and enjoyment. ==Diabetes distress== is the emotional burden associated with diabetes and its management; it is not interchangeable with depression or anxiety disorder.
+
+Low-consequence rehearsal may strengthen task-specific confidence when the challenge is attainable, feedback is informative and the learner can attribute improvement to their own developing competence. Autonomy requires meaningful, comprehensible choice; a large menu of unexplained options is not necessarily autonomy.
+
+> **Evidence label — Direct T1D evidence.** In a 30-child RCT, one week of Koodak-e-Tavana play reduced observed injection-related behavioural distress within the intervention group (P=.001) and relative to control (P=.03). The narrow target, small sample and short follow-up limit generalisation ([Ebrahimpour et al., 2015](https://doi.org/10.5812/ijp.25(3)2015.427)).
+
+> **Evidence label — Direct T1D evidence.** A 44-participant single-group, quasi-experimental emoTICare study reported reduced perceived illness threat and improvement in emotional expression after a six-week programme; attrition and the absence of a concurrent control group prevent firm causal attribution ([Martín-Ávila et al., 2025](https://doi.org/10.3389/fendo.2025.1668398)).
+
+> **Evidence label — Adjacent evidence.** Self-determination research associates autonomy, competence and relatedness support with engagement and health behaviour, but effects depend on context and intervention quality ([Ryan et al., 2006](https://doi.org/10.1007/s11031-006-9051-8); [Ntoumanis et al., 2021](https://doi.org/10.1080/17437199.2020.1718529)).
+
+Games should not define distress as a motivation deficit. Distress-focused interventions require validated measures, adverse-effect monitoring and a pathway to human support. They should not be positioned as substitutes for psychological care.
+
+## Actionable, non-prescriptive design patterns
+
+1. Write one observable learning objective for each scenario.
+2. Require the learner to perform the cognitive or procedural action named by that objective.
+3. Ask for a prediction before revealing the simulated outcome.
+4. Use explanatory feedback that links a visible consequence to a relevant prior action.
+5. Permit immediate retry from an identical starting state.
+6. Change one variable first; introduce interacting variables progressively.
+7. Revisit principles after spacing and with altered surface details.
+8. Include at least one unseen transfer case in evaluation.
+9. Design caregiver participation as an explicit role, not an assumed resource.
+10. Measure distress and misconceptions as possible harms, not only benefits.
+
+These are design hypotheses. Their value depends on usability testing and outcome evaluation in the intended population.
+
+## References
+
+- [Brown, S.J. et al. (1997) “Educational video game for juvenile diabetes: results of a controlled trial”, *Medical Informatics*, 22(1), pp. 77–89.](https://doi.org/10.3109/14639239709089835)
+- [Butler, A.C. (2010) “Repeated testing produces superior transfer of learning relative to repeated studying”, *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 36(5), pp. 1118–1133.](https://doi.org/10.1037/a0019902)
+- [Cai, Z. et al. (2022) “Effects of scaffolding in digital game-based learning on students’ achievement: a three-level meta-analysis”, *Educational Psychology Review*, 34, pp. 537–574.](https://doi.org/10.1007/s10648-021-09655-0)
+- [Clark, D.B., Tanner-Smith, E.E. and Killingsworth, S.S. (2016) “Digital games, design, and learning: a systematic review and meta-analysis”, *Review of Educational Research*, 86(1), pp. 79–122.](https://doi.org/10.3102/0034654315582065)
+- [Ebrahimpour, F. et al. (2015) “Effect of playing interactive computer game on distress of insulin injection among type 1 diabetic children”, *Iranian Journal of Pediatrics*, 25(3), e427.](https://doi.org/10.5812/ijp.25(3)2015.427)
+- [Ericsson, K.A., Krampe, R.T. and Tesch-Römer, C. (1993) “The role of deliberate practice in the acquisition of expert performance”, *Psychological Review*, 100(3), pp. 363–406.](https://doi.org/10.1037/0033-295X.100.3.363)
+- [Gris, G. and Bengtson, C. (2021) “Assessment measures in game-based learning research: a systematic review”, *International Journal of Serious Games*, 8(1), pp. 3–26.](https://doi.org/10.17083/ijsg.v8i1.383)
+- [Hattie, J. and Timperley, H. (2007) “The power of feedback”, *Review of Educational Research*, 77(1), pp. 81–112.](https://doi.org/10.3102/003465430298487)
+- [Martín-Ávila, A. et al. (2025) “The impact of the emoTICare program on socioemotional adjustment and psychological well-being in adolescents with type 1 diabetes mellitus”, *Frontiers in Endocrinology*, 16, 1668398.](https://doi.org/10.3389/fendo.2025.1668398)
+- [Moosa, S. et al. (2018) “Qare and Qure: paired educational games for children with diabetes and caregivers”, *COMAPP 2018*.](https://doi.org/10.1109/COMAPP.2018.8460213)
+- [Nørlev, J. et al. (2022a) “Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage”, *Journal of Diabetes Science and Technology*, 16(5), pp. 1253–1269.](https://doi.org/10.1177/19322968211018236)
+- [Nørlev, J. et al. (2022b) “Using distance communication for the user-centered development of a smartphone-based serious game for children with type 1 diabetes: Participatory design approach”, *JMIR Serious Games*, 10(1), e33955.](https://doi.org/10.2196/33955)
+- [Ntoumanis, N. et al. (2021) “A meta-analysis of self-determination theory-informed intervention studies in the health domain”, *Health Psychology Review*, 15(2), pp. 214–244.](https://doi.org/10.1080/17437199.2020.1718529)
+- [Roediger, H.L. and Karpicke, J.D. (2006) “Test-enhanced learning: taking memory tests improves long-term retention”, *Psychological Science*, 17(3), pp. 249–255.](https://doi.org/10.1111/j.1467-9280.2006.01693.x)
+- [Ryan, R.M., Rigby, C.S. and Przybylski, A.K. (2006) “The motivational pull of video games: a self-determination theory approach”, *Motivation and Emotion*, 30, pp. 344–360.](https://doi.org/10.1007/s11031-006-9051-8)
+- [Shute, V.J. (2008) “Focus on formative feedback”, *Review of Educational Research*, 78(1), pp. 153–189.](https://doi.org/10.3102/0034654307313795)
+- [Wouters, P. et al. (2013) “A meta-analysis of the cognitive and motivational effects of serious games”, *Journal of Educational Psychology*, 105(2), pp. 249–265.](https://doi.org/10.1037/a0031311)
+- [Yao, M. et al. (2024) “Effects of electronic games on diabetes self-management and outcomes: systematic review and meta-analysis”, *Journal of Medical Internet Research*, 26, e43574.](https://doi.org/10.2196/43574)
+
+## Abbreviation glossary
+
+| Abbreviation | Meaning |
+|---|---|
+| RCT | Randomised controlled trial. Participants are allocated to intervention groups by chance to reduce systematic baseline differences. |
+| T1D | Type 1 diabetes. Autoimmune loss of insulin-producing beta cells creates a lifelong need for exogenous insulin. |

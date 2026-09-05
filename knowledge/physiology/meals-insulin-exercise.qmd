@@ -1,0 +1,99 @@
+---
+title: "Meals, insulin, and exercise"
+description: "Interacting absorption and action profiles that shape short-term glucose trajectories in type 1 diabetes."
+status: "Foundational synthesis"
+updated: 2026-09-05
+evidence-cutoff: "Curated source review updated through 2025; links checked in the source review"
+source-note: "General physiology and pharmacology; examples are educational and not dosing instructions."
+---
+
+In ==type 1 diabetes== (T1D), meals, subcutaneous insulin, and physical activity are not independent inputs. Each initiates a time-varying process, and the observed glucose trajectory reflects their overlap with the current physiological state.
+
+[Back to module index](index.qmd) · [Glucose–insulin system](glucose-insulin-system.qmd)
+
+## Meals: appearance is a process, not an instant event
+
+Ingested carbohydrate must be dispersed, digested to monosaccharides, transported through intestinal cells, and pass through the portal circulation before it contributes to systemic glucose. Under ordinary physiological conditions, gastric emptying is usually the rate-limiting step in glucose appearance ([Horowitz et al., 1993](https://pubmed.ncbi.nlm.nih.gov/8405758/); [Marathe et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23613599/)).
+
+Meal form and composition alter that time course:
+
+- Liquids bypass much of the mechanical processing required for solids and usually empty faster.
+- Intact food structure and viscous fibre delay the availability and diffusion of digestible carbohydrate ([Würsch and Pi-Sunyer, 1997](https://pubmed.ncbi.nlm.nih.gov/9353622/)).
+- Fat activates intestinal feedback that slows gastric emptying and can shift part of the glucose response later ([Marathe et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23613599/)).
+- Protein contributes amino acids, stimulates glucagon, and can support delayed gluconeogenesis; its net glycaemic effect depends on carbohydrate, fat, insulin, and context ([Paterson et al., 2016](https://pubmed.ncbi.nlm.nih.gov/26499756/); [Bell et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25998293/)).
+
+The ==glycaemic index== (GI) summarises the post-meal glucose response to a fixed amount of available carbohydrate, but it combines several mechanisms into one empirical ranking. Food preparation, matrix, fibre, fat, gastric emptying, and individual response all limit its precision ([Jenkins et al., 1981](https://pubmed.ncbi.nlm.nih.gov/6259925/); [Wolever, 2008](https://pubmed.ncbi.nlm.nih.gov/18175767/)).
+
+::: {.callout-important title="Established evidence"}
+Carbohydrate amount matters, but amount alone does not determine the shape of the post-meal trajectory. A game that gives every meal the same absorption curve will erase an important learning objective: rapid, delayed, and prolonged glucose appearance can occur with the same nominal carbohydrate content.
+:::
+
+## Subcutaneous insulin: depot, circulation, action
+
+Pharmaceutical insulin must first leave the subcutaneous depot. Formulation chemistry, dose volume, local blood flow, temperature, injection depth, anatomical site, and tissue condition influence its absorption ([Søeborg et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19150402/); [Heinemann, 2018](https://pubmed.ncbi.nlm.nih.gov/30058925/)). Once circulating, insulin is cleared rapidly; intravenous insulin has a plasma half-life of approximately 4–6 minutes in healthy adults. After subcutaneous administration, however, the apparent time course is dominated by slow absorption from the depot rather than plasma clearance ([Becker, 2007](https://pubmed.ncbi.nlm.nih.gov/18076215/)).
+
+Rapid-acting analogues destabilise insulin self-association to accelerate absorption. Basal analogues use precipitation, albumin binding, or multi-hexamer formation to prolong release. These strategies alter average profiles but do not eliminate within-person or between-person variability ([Heinemann, 2002](https://pubmed.ncbi.nlm.nih.gov/12450450/); [Haahr and Heise, 2014](https://pubmed.ncbi.nlm.nih.gov/24729196/)).
+
+The effect profile is also not equivalent to the concentration profile. Receptor signalling, glucose transporter recruitment, suppression of hepatic glucose output, and tissue-specific sensitivity add delay and shape. “Insulin on board” is therefore an operational approximation of residual activity, not a directly observed physiological quantity.
+
+## Exercise: different modes, different balances
+
+Muscle contraction recruits ==glucose transporter type 4== (GLUT4) through signalling that is partly independent of insulin. Contraction and insulin can therefore have additive effects on muscle glucose uptake ([Sylow et al., 2017](https://pubmed.ncbi.nlm.nih.gov/27739515/)).
+
+During continuous moderate aerobic activity, muscle uptake commonly rises faster than hepatic glucose production when circulating insulin is active, favouring a glucose fall. The risk can persist after activity because glycogen restoration and increased insulin sensitivity continue. Human studies support an after-effect extending into the next day and, under some protocols, up to 48 hours; the magnitude and duration depend on activity, fitness, glycogen status, and the study population ([Mikines et al., 1988](https://pubmed.ncbi.nlm.nih.gov/3126668/); [Cartee, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4816200/)).
+
+High-intensity intervals and resistance exercise evoke stronger catecholamine responses and hepatic glucose release. Their immediate glucose direction is more context-dependent than steady aerobic activity. In a meta-analysis of high-intensity interval exercise in adults with T1D, fasted sessions tended to raise glucose while postprandial sessions tended to lower it, illustrating the importance of active insulin and meal state ([McClure et al., 2023](https://pubmed.ncbi.nlm.nih.gov/36549943/)). Resistance exercise is often less glucose-lowering during the bout than aerobic exercise, but can still be followed by later glucose lowering ([Yardley et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23172972/)).
+
+## Interaction matrix
+
+| Process | Primary near-term effect | Important delayed effect | Main source of uncertainty |
+|---|---|---|---|
+| Rapidly absorbed carbohydrate | Raises glucose appearance | Usually limited tail | Gastric emptying, food form, starting state |
+| Mixed high-fat meal | May delay early appearance | Can prolong the post-meal rise | Composition, meal size, gastric motility |
+| Rapid-acting subcutaneous insulin | Increases peripheral disposal and suppresses hepatic output after an absorption delay | Residual action can outlast early meal appearance | Depot absorption, site, temperature, dose volume |
+| Moderate aerobic activity | Increases contraction-mediated uptake | Increased insulin sensitivity and glycogen restoration | Active insulin, intensity, duration, glycogen state |
+| Intense or resistance activity | Raises uptake and may strongly raise hepatic output | Later insulin sensitisation | Prandial state, catecholamines, fitness, protocol |
+
+### Evidence limitations
+
+- Controlled exercise studies are often small and use specific fitness levels, insulin conditions, meal states, and activity protocols.
+- Meal studies vary in food form, macronutrient composition, gastric-motility status, and outcome definition.
+- Average pharmacokinetic curves conceal substantial within-person variability.
+- Evidence on fat and protein supports delayed effects, but no single universal conversion rule is valid across meals and individuals.
+
+## Implications for serious-game design
+
+::: {.callout-note title="Modelling and design inference"}
+1. Use time-distributed events rather than instant changes.
+2. Allow the player to inspect overlapping meal appearance, insulin action, and activity effects as separate conceptual layers.
+3. Give meals a small number of physiologically interpretable profiles—such as rapid, mixed, and delayed—rather than claiming food-specific precision.
+4. Separate continuous aerobic activity from high-intensity and resistance activity; their acute glucose directions are not interchangeable.
+5. Carry exercise effects into recovery. Ending all effects when the activity animation stops teaches the wrong time scale.
+6. Do not turn simulated responses into personal carbohydrate or insulin recommendations.
+:::
+
+## References
+
+- [Becker, R.H.A. (2007). Insulin glulisine complementing basal insulins: a review of structure and activity. *Diabetes Technology & Therapeutics*, 9, 109–121.](https://pubmed.ncbi.nlm.nih.gov/18076215/)
+- [Bell, K.J. et al. (2015). Impact of fat, protein, and glycemic index on postprandial glucose control in type 1 diabetes. *Diabetes Care*, 38, 1008–1015.](https://pubmed.ncbi.nlm.nih.gov/25998293/)
+- [Cartee, G.D. (2015). Mechanisms for greater insulin-stimulated glucose uptake after acute exercise. *American Journal of Physiology-Endocrinology and Metabolism*, 309, E949–E959.](https://pmc.ncbi.nlm.nih.gov/articles/PMC4816200/)
+- [Haahr, H. and Heise, T. (2014). A review of the pharmacological properties of insulin degludec and their clinical relevance. *Clinical Pharmacokinetics*, 53, 787–800.](https://pubmed.ncbi.nlm.nih.gov/24729196/)
+- [Heinemann, L. (2002). Variability of insulin absorption and insulin action. *Diabetes Technology & Therapeutics*, 4, 673–682.](https://pubmed.ncbi.nlm.nih.gov/12450450/)
+- [Heinemann, L. (2018). Factors affecting the absorption of subcutaneously administered insulin: effect on variability. *Diabetes Therapy*, 9, 457–471.](https://pubmed.ncbi.nlm.nih.gov/30058925/)
+- [Horowitz, M. et al. (1993). Relationships between oesophageal transit and solid and liquid gastric emptying in diabetes mellitus. *European Journal of Nuclear Medicine*, 20, 97–102.](https://pubmed.ncbi.nlm.nih.gov/8405758/)
+- [Jenkins, D.J. et al. (1981). Glycemic index of foods: a physiological basis for carbohydrate exchange. *American Journal of Clinical Nutrition*, 34, 362–366.](https://pubmed.ncbi.nlm.nih.gov/6259925/)
+- [Marathe, C.S. et al. (2013). Relationships between gastric emptying, postprandial glycemia, and incretin hormones. *Diabetes Care*, 36, 1396–1405.](https://pubmed.ncbi.nlm.nih.gov/23613599/)
+- [McClure, R.D. et al. (2023). Blood glucose response to high-intensity interval exercise in adults with type 1 diabetes: systematic review and meta-analysis. *Canadian Journal of Diabetes*, 47, 171–179.](https://pubmed.ncbi.nlm.nih.gov/36549943/)
+- [Mikines, K.J. et al. (1988). Effect of physical exercise on sensitivity and responsiveness to insulin in humans. *American Journal of Physiology*, 254, E248–E259.](https://pubmed.ncbi.nlm.nih.gov/3126668/)
+- [Paterson, M.A. et al. (2016). Influence of dietary protein on postprandial blood glucose levels in individuals with type 1 diabetes mellitus. *Diabetic Medicine*, 33, 592–598.](https://pubmed.ncbi.nlm.nih.gov/26499756/)
+- [Søeborg, T. et al. (2009). Absorption kinetics of insulin after subcutaneous administration. *European Journal of Pharmaceutical Sciences*, 36, 78–90.](https://pubmed.ncbi.nlm.nih.gov/19150402/)
+- [Sylow, L. et al. (2017). Exercise-stimulated glucose uptake: regulation and implications for glycaemic control. *Nature Reviews Endocrinology*, 13, 133–148.](https://pubmed.ncbi.nlm.nih.gov/27739515/)
+- [Wolever, T.M. (2008). The glycemic index: methodology and clinical implications. *American Journal of Clinical Nutrition*, 87, 258S–268S.](https://pubmed.ncbi.nlm.nih.gov/18175767/)
+- [Würsch, P. and Pi-Sunyer, F.X. (1997). The role of viscous soluble fiber in the metabolic control of diabetes. *Diabetes Care*, 20, 1774–1780.](https://pubmed.ncbi.nlm.nih.gov/9353622/)
+- [Yardley, J.E. et al. (2013). Resistance versus aerobic exercise: acute effects on glycemia in type 1 diabetes. *Diabetes Care*, 36, 537–542.](https://pubmed.ncbi.nlm.nih.gov/23172972/)
+
+## Abbreviation glossary
+
+- **GI:** glycaemic index.
+- **GLUT4:** glucose transporter type 4.
+- **T1D:** type 1 diabetes.

@@ -1,0 +1,52 @@
+[
+  {
+    "group": "Start here",
+    "items": [
+      { "title": "Home", "source": "index.qmd" },
+      { "title": "Methods and sources", "source": "methods.qmd" },
+      { "title": "Source register", "source": "references/SOURCE-INDEX.md" },
+      { "title": "Full-text wishlist", "source": "references/PAYWALLED-WISHLIST.md" },
+      { "title": "Glossary", "source": "glossary.qmd" }
+    ]
+  },
+  {
+    "group": "Games and evidence",
+    "items": [
+      { "title": "Game explorer", "generated": "explorer.html" },
+      { "title": "Field overview", "source": "knowledge/games/index.qmd" },
+      { "title": "Evidence map", "source": "knowledge/games/evidence-map.qmd" },
+      { "title": "Catalogue", "source": "knowledge/games/catalogue.qmd" },
+      { "title": "Profiles", "source": "knowledge/games/profiles.qmd" },
+      { "title": "Availability", "source": "knowledge/games/availability.qmd" },
+      { "title": "Comparative analysis", "source": "knowledge/comparisons/comparative-analysis.qmd" }
+    ]
+  },
+  {
+    "group": "Learning and design",
+    "items": [
+      { "title": "Design overview", "source": "knowledge/design/index.qmd" },
+      { "title": "Learning science", "source": "knowledge/design/learning-science.qmd" },
+      { "title": "Game mechanisms", "source": "knowledge/design/game-mechanisms.qmd" },
+      { "title": "Evaluation", "source": "knowledge/design/evaluation.qmd" },
+      { "title": "Human factors", "source": "knowledge/human-factors/onboarding-and-accessibility.qmd" }
+    ]
+  },
+  {
+    "group": "T1D Physiology and Modelling",
+    "items": [
+      { "title": "Physiology overview", "source": "knowledge/physiology/index.qmd" },
+      { "title": "Glucose-insulin system", "source": "knowledge/physiology/glucose-insulin-system.qmd" },
+      { "title": "Meals, insulin and exercise", "source": "knowledge/physiology/meals-insulin-exercise.qmd" },
+      { "title": "Variability and safety", "source": "knowledge/physiology/variability-and-safety.qmd" },
+      { "title": "Model families", "source": "knowledge/physiology/model-families.qmd" }
+    ]
+  },
+  {
+    "group": "Adoption and sustainability",
+    "items": [
+      { "title": "Adoption overview", "source": "knowledge/sustainability/index.qmd" },
+      { "title": "Why games disappear", "source": "knowledge/sustainability/why-games-disappear.qmd" },
+      { "title": "Maintenance patterns", "source": "knowledge/sustainability/maintenance-patterns.qmd" }
+    ]
+  }
+]

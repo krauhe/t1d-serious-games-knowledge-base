@@ -1,0 +1,145 @@
+---
+title: "Why Serious Games Disappear"
+description: "Evidence, system barriers and testable hypotheses about discontinuation"
+---
+
+## Scope and source note
+
+This chapter asks why evaluated games for ==type 1 diabetes (T1D)== commonly cease to be publicly obtainable and why games are rarely embedded in diagnosis education. Product disappearance is poorly reported, so the analysis combines direct availability audits with adjacent implementation and software-sustainability evidence. Proposed causal explanations are labelled as hypotheses where direct evidence is absent.
+
+## The documented availability gap
+
+> **Evidence label — Direct T1D evidence.** Reinders et al. reviewed 21 studies, 23 research-origin diabetes games and 13 app-store games. Twenty-one of 23 research games were not publicly available at the 2024 audit. None of the identified web or personal-computer research games could be located, and only one of 11 research mobile games was freely obtainable through Google Play. Public app-store products were easier to find but generally lacked peer-reviewed product-level evaluation ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
+
+The finding establishes loss of access, not the cause. Publications rarely document who owned maintenance, why a server closed, whether intellectual-property restrictions prevented release, or whether the evaluated build was safe to distribute. A dead link can represent project failure, planned study closure, obsolete technology, unresolved liability or simple migration to an undocumented address.
+
+The resulting field has an evidence–access discontinuity:
+
+1. evaluated prototypes can become inaccessible;
+2. accessible products can remain unevaluated;
+3. studies can refer to a version no longer equivalent to the public build;
+4. systematic reviews can aggregate interventions that no clinician or learner can now obtain.
+
+Availability should therefore be a dated research variable, not a permanent property inferred from a paper.
+
+## Why a brochure is operationally easier
+
+A printed or static digital brochure can be revised as a bounded content object. A serious game is a socio-technical system: executable software, educational content, art and audio, platform dependencies, analytics, privacy decisions, user support and sometimes a physiological representation. It must continue to function while clinical and technical environments change.
+
+> **Evidence label — Adjacent evidence.** Reviews of healthcare-programme sustainability find substantial inconsistency in definitions and measurement. Sustainability depends on intervention design, organisational setting and the wider environment, not only on initial efficacy ([Braithwaite et al., 2020](https://doi.org/10.1136/bmjopen-2019-036453)). A review of digital-health interventions identified funding, integration, local technical capacity, stakeholder participation and governance as interdependent sustainability factors; its low- and middle-income-country scope limits direct transfer to all settings ([Kaboré et al., 2022](https://doi.org/10.3389/fdgth.2022.1014375)).
+
+> **Evidence label — Design inference.** Brochures are easier to commission because cost, editorial responsibility and delivery are legible to a health organisation. A game requires recurrent technical and educational ownership, and the commissioning organisation may not have a budget category or accountable role for that combined work. This hypothesis should be tested with funders, clinics, patient organisations and developers rather than accepted as universal.
+
+## Failure modes across the product life cycle
+
+### 1. Funding is structured around study completion
+
+Research awards commonly fund development, recruitment and analysis within a fixed period. Hosting, operating-system changes, user support, localisation and security response continue afterward.
+
+> **Evidence label — Adjacent evidence.** Research-software scholarship identifies lack of durable funding for research software engineers, weak career incentives and inadequate recognition of software outputs as recurrent sustainability problems ([Anzt et al., 2021](https://doi.org/10.12688/f1000research.23224.1)).
+
+> **Evidence label — Hypothesis for T1D games.** If grant success is defined by publication rather than maintained access, teams can satisfy academic incentives without creating an operational successor. Direct interviews with discontinued-game teams would be required to estimate how often this explains T1D product loss.
+
+### 2. Responsibility is concentrated in one person
+
+A clinician, doctoral researcher, developer or lived-experience advocate may hold most of the tacit knowledge: what the game is for, which simplifications are intentional, how to deploy it and who can approve changes.
+
+> **Evidence label — Adjacent evidence.** In an analysis of more than 36,000 open-source projects, most relied on one core developer; 89% had lost their core development team at least once, and only 27% of abandoned projects attracted a new core developer. These figures describe a broad open-source sample, not health games, but they quantify the general succession risk ([Nourry et al., 2025](https://doi.org/10.1587/transinf.2025EDL8005)).
+
+Loss of a principal investigator or developer is not itself fatal. It becomes fatal when decision rationale, deployment access, licensing, clinical ownership and release procedures are not transferable.
+
+### 3. Multidisciplinary work has no multidisciplinary owner
+
+Maintaining a health game may require:
+
+1. software engineering and dependency management;
+2. clinical and physiological review;
+3. learning design and age-appropriate pedagogy;
+4. game and interaction design;
+5. accessibility and localisation;
+6. privacy, security and regulatory judgement;
+7. outcome evaluation and analytics;
+8. community moderation or support;
+9. lived-experience input.
+
+No individual should be assumed competent in all domains. The operational problem is not merely assembling expertise during development, but assigning recurring decisions after launch.
+
+> **Evidence label — Design inference.** A responsibility matrix is more informative than a list of collaborators. Each recurrent decision—clinical correction, dependency update, safeguarding incident, translation, release and retirement—needs an accountable role and a backup.
+
+### 4. The product is bound to a transient platform
+
+Console hardware, browser interfaces, app-store rules, mobile application programming interfaces, certificates, authentication providers and analytics services change. Server-dependent products can disappear even when the source interface remains archived. Proprietary hardware can make a game unusable when manufacturing stops.
+
+> **Evidence label — Direct T1D evidence.** The field includes discontinued console games, obsolete mobile products and study-only prototypes. Reinders et al.'s audit shows the aggregate access consequence but does not attribute it to specific technical causes ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
+
+> **Evidence label — Industry practice.** Reduce unnecessary dependencies, document supported platforms, use portable data formats, automate dependency checks and preserve release artifacts. These practices reduce exposure; they do not guarantee organisational maintenance.
+
+### 5. Evidence and product versions diverge
+
+A trial evaluates a specified intervention at a specified time. A public product may add content, change feedback, replace a physiological model or alter monetisation. Conversely, a maintained interface may preserve obsolete clinical content because no review cadence exists.
+
+> **Evidence label — Design inference.** Every study should identify the exact game version or archived commit. Every public evidence page should state whether the current version is materially equivalent to the evaluated build. “Evidence-based” should not be inherited indefinitely by an evolving product name.
+
+### 6. Privacy, liability and professional trust are unresolved
+
+Games connected to real glucose, insulin or identity data create different obligations from fictional simulations. A clinic must understand data flow, intended use, support responsibility, failure response and the boundary between education and personalised decision support.
+
+> **Evidence label — Industry practice.** Maintain a plain-language data map, named security contact, incident procedure and explicit intended-purpose statement. Absence of collected personal health data can reduce some risks, but it does not establish educational validity or eliminate ordinary security obligations.
+
+> **Evidence label — Hypothesis for routine care.** Clinicians may rationally prefer a less interactive but stable resource when a game's provenance, current version or support route is unclear. Interviews and implementation studies are needed to distinguish this from lack of awareness or negative attitudes toward games.
+
+### 7. Localisation and accessibility are treated as launch features
+
+Translation is an ongoing clinical-content process, not a one-time string substitution. Changes to source text must propagate to every language; illustrations and scenarios may require cultural review. Accessibility also changes as interfaces and platforms evolve.
+
+> **Evidence label — Design inference.** A product that cannot state which version each translation reflects does not have controlled localisation. Translation status, review owner and source-language version should be part of release metadata.
+
+### 8. Discovery infrastructure is weak
+
+Biomedical databases index publications, app stores index products, and independent distribution platforms index small creative works. None reliably joins current access, price, audience, evidence, provenance and maintenance status.
+
+> **Evidence label — Direct T1D evidence.** The research/public-product split observed by Reinders et al. means that a literature search and an app-store search retrieve different parts of the field ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
+
+> **Evidence label — Design inference.** A maintained directory should retain discontinued products as historical records, verify active links on a schedule and display evidence and access as separate fields. Deleting dead products conceals the field's sustainability record.
+
+## Why games may not enter diagnosis education
+
+The following synthesis describes system-level barriers; it cannot explain an individual's clinical experience.
+
+1. **No stable procurement object:** the research build may not be publicly obtainable.
+2. **Weak product-specific evidence:** reviews rarely identify which currently available version works for which learner.
+3. **Paediatric concentration:** child-oriented aesthetics and study populations do not answer adult diagnosis needs.
+4. **Workflow mismatch:** diagnosis education is time-constrained and emotionally demanding; unsupported setup is costly.
+5. **No accountable maintainer:** clinicians need a route for corrections and failures.
+6. **Guideline mismatch:** guidelines specify educational content and processes more often than named software products.
+7. **Trust and liability:** unclear provenance or personal-data use raises the cost of recommendation.
+8. **Equity:** language, device, reading level, disability and regional access determine who can use the resource.
+9. **Discovery failure:** relevant products are distributed across incompatible information systems.
+10. **Evidence–version drift:** a publication may not describe the currently obtainable build.
+
+These explanations are plausible in combination. A rigorous implementation study would sample clinicians, educators, people newly diagnosed at different ages, caregivers, procurement staff, patient organisations and former game teams.
+
+## Research agenda on discontinuation
+
+1. Build a cohort of published T1D game projects and verify access annually.
+2. Contact former teams using a standard interview guide: intended lifespan, funding, ownership, platform, maintenance effort, handover attempts and retirement decision.
+3. Distinguish planned closure from preventable abandonment.
+4. Record the interval between study completion, publication, last update and loss of access.
+5. Compare projects with and without an identified post-grant owner.
+6. Evaluate whether open licensing, automated tests, contributor guidance and archival releases predict longer availability.
+7. Document the cost of keeping a minimal safe version operational.
+8. Publish null findings and failed handovers so later teams can learn from them.
+
+## References
+
+- [Anzt, H. et al. (2021) “An environment for sustainable research software in Germany and beyond: current state, open challenges, and call for action”, *F1000Research*, 9, 295.](https://doi.org/10.12688/f1000research.23224.1)
+- [Braithwaite, J. et al. (2020) “Built to last? The sustainability of healthcare system improvements, programmes and interventions: a systematic integrative review”, *BMJ Open*, 10, e036453.](https://doi.org/10.1136/bmjopen-2019-036453)
+- [Kaboré, S.S. et al. (2022) “Barriers and facilitators for the sustainability of digital health interventions in low- and middle-income countries: a systematic review”, *Frontiers in Digital Health*, 4, 1014375.](https://doi.org/10.3389/fdgth.2022.1014375)
+- [Nourry, O. et al. (2025) “Abandonment and resilience: understanding core developer turnover in open source software”, *IEICE Transactions on Information and Systems*, E108.D(11), pp. 1412–1415.](https://doi.org/10.1587/transinf.2025EDL8005)
+- [Reinders, E.F.H. et al. (2024) “Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers”, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
+
+## Abbreviation glossary
+
+| Abbreviation | Meaning |
+|---|---|
+| T1D | Type 1 diabetes. Autoimmune loss of insulin-producing beta cells creates a lifelong need for exogenous insulin. |

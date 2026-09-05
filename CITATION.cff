@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this knowledge base, please cite the project using the metadata below."
+title: "T1D Serious Games Knowledge Base"
+type: dataset
+authors:
+  - family-names: "Rauhe Harreby"
+    given-names: "Kristian"
+repository-code: "https://github.com/krauhe/t1d-serious-games-knowledge-base"
+url: "https://github.com/krauhe/t1d-serious-games-knowledge-base"
+license: CC-BY-4.0
+version: 0.1.0
+abstract: >-
+  A structured scientific knowledge base for discovering, comparing,
+  designing, evaluating, and sustaining serious games relevant to type 1
+  diabetes education and self-management.

@@ -1,0 +1,112 @@
+---
+title: "Variability and safety"
+description: "Contextual modifiers, acute risks, uncertainty, and educational boundaries for type 1 diabetes serious games."
+status: "Foundational synthesis"
+updated: 2026-09-05
+evidence-cutoff: "Curated source review updated through 2025; links checked in the source review"
+source-note: "This page supports safe educational design and does not replace clinical or emergency guidance."
+---
+
+==Type 1 diabetes== (T1D) glucose dynamics vary across people, across days, and within a day. Some variation has identifiable physiological drivers; some reflects measurement error or unobserved context; and some remains unexplained. Serious games should make this uncertainty legible without suggesting that outcomes are arbitrary.
+
+[Back to module index](index.qmd) · [Meals, insulin, and exercise](meals-insulin-exercise.qmd)
+
+## Context changes the response
+
+### Circadian rhythm and sleep
+
+The dawn phenomenon is a pre-awakening rise in glucose or insulin requirement associated with growth hormone, cortisol, changing hepatic glucose output, and changing insulin sensitivity. Its timing and magnitude vary substantially between people and nights ([Porcellati et al., 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3836156/); [Carroll and Schade, 2005](https://pubmed.ncbi.nlm.nih.gov/16033737/)). The classical “Somogyi effect”—routine rebound hyperglycaemia caused by nocturnal hypoglycaemia—is not supported as a common explanation in modern monitoring studies; nocturnal glucose data are needed to distinguish competing causes ([Hirsch et al., 1990](https://pubmed.ncbi.nlm.nih.gov/2190769/); [Choudhary et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23672623/)).
+
+Sleep restriction and circadian misalignment can reduce insulin sensitivity and alter counterregulation, but effect size and direction depend on protocol and population. T1D-specific datasets remain smaller than those in people without diabetes or with type 2 diabetes ([Reutrakul and Van Cauter, 2014](https://pubmed.ncbi.nlm.nih.gov/24628249/); [Donga et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20357381/)).
+
+### Illness and inflammation
+
+Acute infection can raise counterregulatory hormones and inflammatory cytokines, increasing hepatic glucose production and reducing insulin sensitivity. Gastrointestinal illness can simultaneously reduce nutrient intake or absorption, so glucose direction is not guaranteed. In T1D, severe insulin deficiency during illness also increases lipolysis and ketone production ([Wolfsdorf et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29900641/); [Glaser et al., 2022](https://pubmed.ncbi.nlm.nih.gov/36250645/)).
+
+### Psychological stress
+
+Acute stress activates sympathetic and hypothalamic–pituitary–adrenal responses. Catecholamines can raise hepatic glucose output, while behavioural and autonomic responses vary. Controlled studies in T1D show heterogeneous glycaemic responses rather than a universal rise ([Gonder-Frederick et al., 1990](https://pubmed.ncbi.nlm.nih.gov/2226381/); [Wiesli et al., 2005](https://pubmed.ncbi.nlm.nih.gov/16043731/)). Diabetes distress is a separate construct: the emotional burden of ongoing self-management. It should not be represented as a character flaw or a simple hormone slider ([Fisher, Gonzalez and Polonsky, 2014](https://pubmed.ncbi.nlm.nih.gov/24606397/)).
+
+### Menstrual cycle
+
+Some people experience phase-related changes in insulin sensitivity and glucose, particularly in the luteal phase, but the direction, magnitude, and cycle-to-cycle consistency vary. Group averages should not be converted into a deterministic rule for every menstruating person with T1D ([Codner and Escobar-Morreale, 2007](https://pubmed.ncbi.nlm.nih.gov/17284617/); [Gamarra and Trimboli, 2023](https://pubmed.ncbi.nlm.nih.gov/36836608/)).
+
+### Alcohol
+
+Ethanol metabolism shifts hepatic redox state and can inhibit gluconeogenesis. This can increase delayed hypoglycaemia susceptibility when hepatic glucose production is needed, especially when glycogen availability is limited. Alcohol can also impair recognition and response to hypoglycaemia. The effect depends on amount, food, activity, insulin, and timing; it is not appropriately represented as a fixed glucose decrement ([Turner et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11679452/); [Lieber, 2004](https://pubmed.ncbi.nlm.nih.gov/15303622/)).
+
+### Temperature, site, and tissue
+
+Local heat, exercise of nearby muscle, injection depth, anatomical region, and subcutaneous blood flow can change insulin absorption. Repeated use of the same site can produce lipohypertrophy, where absorption becomes slower and more variable ([Heinemann, 2018](https://pubmed.ncbi.nlm.nih.gov/30058925/); [Frid et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27594187/)). These factors change timing and uncertainty rather than simply multiplying insulin “strength.”
+
+## Acute safety concepts
+
+### Hypoglycaemia
+
+Hypoglycaemia is a mismatch in which glucose availability becomes insufficient relative to insulin action and tissue demand. Neurogenic symptoms arise from autonomic activation; neuroglycopenic symptoms reflect inadequate glucose delivery to the brain. Repeated episodes can reduce warning responses through ==hypoglycaemia-associated autonomic failure== (HAAF), increasing future risk ([Cryer, 2013](https://pubmed.ncbi.nlm.nih.gov/23883381/)).
+
+Games should neither trivialise hypoglycaemia nor use frightening imagery as a default. The educational goal is to communicate delayed causality, recognition, and the need to follow appropriate real-world guidance outside the game.
+
+### Ketosis and diabetic ketoacidosis
+
+When insulin is severely deficient relative to counterregulatory drive, adipose lipolysis supplies fatty acids to the liver, where ketone production can accelerate. ==Diabetic ketoacidosis== (DKA) combines ketonaemia, metabolic acidosis, dehydration, and electrolyte disturbance and requires urgent medical assessment and treatment ([Kitabchi et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19564476/); [Glaser et al., 2022](https://pubmed.ncbi.nlm.nih.gov/36250645/)). Nutritional ketosis is not physiologically equivalent to DKA: context, insulin availability, glucose, acid–base state, and clinical symptoms differ.
+
+::: {.callout-warning title="Educational boundary"}
+A serious game may teach why hypoglycaemia or DKA can develop and may direct players to authoritative care resources. It must not diagnose the player, calculate personal corrective insulin, prescribe carbohydrate treatment, or substitute its simulated state for real glucose or ketone measurements. Any real-world emergency message should be authored or reviewed against current clinical guidance for the intended country and audience.
+:::
+
+## A useful uncertainty taxonomy
+
+| Source of variation | Example | Appropriate game treatment |
+|---|---|---|
+| Mechanistic state | Active insulin during exercise | Make the state observable and causally explanatory |
+| Contextual modifier | Illness or sleep loss | Use a bounded modifier with clear uncertainty |
+| Between-person variation | Insulin sensitivity or gastric emptying | Use diverse virtual profiles, not stereotypes |
+| Within-person variation | Different absorption from nominally similar injections | Add constrained stochastic variation |
+| Measurement process | Delayed interstitial sensor value | Separate measured display from latent state |
+| Model-form uncertainty | Omitted hormone or simplified meal process | Disclose the simplification and test edge cases |
+
+### Evidence limitations
+
+- Many contextual studies are observational or involve small cohorts.
+- Findings from people without T1D cannot automatically be transferred quantitatively to T1D.
+- Population averages for sleep, stress, menstrual phase, and season are especially poor individual predictors.
+- Acute safety thresholds and treatment protocols depend on clinical context and current guidance; this page deliberately does not reproduce them.
+
+## Implications for serious-game design
+
+::: {.callout-note title="Modelling and design inference"}
+1. Prefer causal modifiers with uncertainty ranges over deterministic event scripts.
+2. Distinguish acute glucose direction from later risk; alcohol and exercise are important examples.
+3. Give players explanatory feedback such as “absorption is delayed” or “illness raised hepatic output,” not blame-based feedback.
+4. Test combinations, including illness plus reduced intake, evening exercise plus sleep, and heat plus an active subcutaneous depot.
+5. Provide explicit boundaries between educational simulation, personal health data, and clinical decision support.
+:::
+
+## References
+
+- [Carroll, M.F. and Schade, D.S. (2005). The dawn phenomenon revisited: implications for diabetes therapy. *Endocrine Practice*, 11, 55–64.](https://pubmed.ncbi.nlm.nih.gov/16033737/)
+- [Choudhary, P. et al. (2013). Do high fasting glucose levels suggest nocturnal hypoglycaemia? The Somogyi effect—more fiction than fact? *Diabetic Medicine*, 30, 914–917.](https://pubmed.ncbi.nlm.nih.gov/23672623/)
+- [Codner, E. and Escobar-Morreale, H.F. (2007). Hyperandrogenism and polycystic ovary syndrome in women with type 1 diabetes mellitus. *Journal of Clinical Endocrinology & Metabolism*, 92, 1209–1216.](https://pubmed.ncbi.nlm.nih.gov/17284617/)
+- [Cryer, P.E. (2013). Mechanisms of hypoglycemia-associated autonomic failure in diabetes. *New England Journal of Medicine*, 369, 362–372.](https://pubmed.ncbi.nlm.nih.gov/23883381/)
+- [Donga, E. et al. (2010). Partial sleep restriction decreases insulin sensitivity in type 1 diabetes. *Diabetes Care*, 33, 1573–1577.](https://pubmed.ncbi.nlm.nih.gov/20357381/)
+- [Fisher, L., Gonzalez, J.S. and Polonsky, W.H. (2014). The confusing tale of depression and distress in patients with diabetes. *Diabetic Medicine*, 31, 764–772.](https://pubmed.ncbi.nlm.nih.gov/24606397/)
+- [Frid, A.H. et al. (2016). New insulin delivery recommendations. *Mayo Clinic Proceedings*, 91, 1231–1255.](https://pubmed.ncbi.nlm.nih.gov/27594187/)
+- [Gamarra, E. and Trimboli, P. (2023). Menstrual cycle, glucose control and insulin sensitivity in type 1 diabetes: a systematic review. *Journal of Personalized Medicine*, 13, 374.](https://pubmed.ncbi.nlm.nih.gov/36836608/)
+- [Glaser, N. et al. (2022). International Society for Pediatric and Adolescent Diabetes clinical practice consensus guidelines 2022: diabetic ketoacidosis and hyperglycemic hyperosmolar state. *Pediatric Diabetes*, 23, 835–856.](https://pubmed.ncbi.nlm.nih.gov/36250645/)
+- [Gonder-Frederick, L.A. et al. (1990). Environmental stress and blood glucose change in insulin-dependent diabetes mellitus. *Health Psychology*, 9, 503–515.](https://pubmed.ncbi.nlm.nih.gov/2226381/)
+- [Heinemann, L. (2018). Factors affecting the absorption of subcutaneously administered insulin: effect on variability. *Diabetes Therapy*, 9, 457–471.](https://pubmed.ncbi.nlm.nih.gov/30058925/)
+- [Hirsch, I.B. et al. (1990). Failure of nocturnal hypoglycemia to cause daytime hyperglycemia in patients with insulin-dependent diabetes mellitus. *Diabetes Care*, 13, 133–142.](https://pubmed.ncbi.nlm.nih.gov/2190769/)
+- [Kitabchi, A.E. et al. (2009). Hyperglycemic crises in adult patients with diabetes. *Diabetes Care*, 32, 1335–1343.](https://pubmed.ncbi.nlm.nih.gov/19564476/)
+- [Lieber, C.S. (2004). The discovery of the microsomal ethanol oxidizing system and its physiologic and pathologic role. *Drug Metabolism Reviews*, 36, 511–529.](https://pubmed.ncbi.nlm.nih.gov/15303622/)
+- [Porcellati, F. et al. (2013). Thirty years of research on the dawn phenomenon. *Diabetes Care*, 36, 3860–3862.](https://pmc.ncbi.nlm.nih.gov/articles/PMC3836156/)
+- [Reutrakul, S. and Van Cauter, E. (2014). Interactions between sleep, circadian function, and glucose metabolism. *Sleep Medicine Clinics*, 9, 47–55.](https://pubmed.ncbi.nlm.nih.gov/24628249/)
+- [Turner, B.C. et al. (2001). The effect of evening alcohol consumption on next-morning glucose control in type 1 diabetes. *Diabetes Care*, 24, 1888–1893.](https://pubmed.ncbi.nlm.nih.gov/11679452/)
+- [Wiesli, P. et al. (2005). Acute psychological stress affects glucose concentrations in patients with type 1 diabetes following food intake but not in the fasting state. *Diabetes Care*, 28, 1910–1915.](https://pubmed.ncbi.nlm.nih.gov/16043731/)
+- [Wolfsdorf, J.I. et al. (2018). International Society for Pediatric and Adolescent Diabetes clinical practice consensus guidelines 2018: diabetic ketoacidosis and the hyperglycemic hyperosmolar state. *Pediatric Diabetes*, 19(Suppl 27), 155–177.](https://pubmed.ncbi.nlm.nih.gov/29900641/)
+
+## Abbreviation glossary
+
+- **DKA:** diabetic ketoacidosis.
+- **HAAF:** hypoglycaemia-associated autonomic failure.
+- **T1D:** type 1 diabetes.

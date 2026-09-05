@@ -1,0 +1,67 @@
+---
+title: "T1D Physiology and Modelling"
+description: "A selective scientific foundation for games that represent glucose regulation, treatment dynamics, variability, or physiological safety."
+status: "Foundational synthesis"
+updated: 2026-09-05
+evidence-cutoff: "Curated source review updated through 2025; links checked in the source review"
+source-note: "This module reorganises general physiological and modelling evidence for game developers. It is not a clinical protocol or treatment guide."
+---
+
+==Type 1 diabetes== (T1D) removes the body's main source of endogenous insulin. That change affects much more than a single glucose-lowering signal: it alters hepatic glucose regulation, peripheral glucose uptake, counterregulation, meal timing, exercise responses, and the relationship between an insulin dose and its later effect. A serious game that represents these processes needs enough of this structure to produce understandable causal patterns without implying that a simplified system can predict an individual person's response.
+
+This module is relevant when gameplay makes claims about glucose trajectories, insulin action, meals, exercise, treatment decisions, or other physiological consequences. It is not a universal requirement for every T1D game. A psychosocial, narrative, communication, procedural, or empathy-oriented game may not require a glucose–insulin model; it instead requires evidence and domain review appropriate to the constructs and experiences it represents.
+
+This module is a scientific orientation for developers, researchers, writers, and evaluators. It separates three kinds of statement throughout:
+
+- **Established evidence** describes mechanisms or recurring clinical patterns supported by human physiology and T1D studies.
+- **Evidence limitations** identify population, protocol, measurement, or transferability constraints.
+- **Modelling and design inference** translates evidence into possible educational representations. These inferences are design choices, not clinical findings.
+
+## Module map
+
+1. [The glucose–insulin system](glucose-insulin-system.qmd) explains glucose sources, tissue uptake, insulin action, hepatic regulation, counterregulation, and measurement lag.
+2. [Meals, insulin, and exercise](meals-insulin-exercise.qmd) focuses on interacting time courses: nutrient appearance, subcutaneous insulin action, aerobic activity, and high-intensity or resistance activity.
+3. [Variability and safety](variability-and-safety.qmd) covers circadian effects, illness, sleep, stress, alcohol, temperature, injection-site variability, hypoglycaemia, ketosis, and educational boundaries.
+4. [Model families](model-families.qmd) compares major glucose–insulin model families and explains how purpose, identifiability, transparency, and validation constrain their use in games.
+
+## The minimum causal picture
+
+An educational representation of T1D should preserve four ideas.
+
+First, glucose concentration reflects competing fluxes rather than a moral score or a direct measure of effort. Meals and endogenous production add glucose; tissues consume or store it; the kidneys can excrete glucose at sufficiently high concentrations. The balance changes continuously ([Petersen et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28731034/); [Gerich, 2010](https://pubmed.ncbi.nlm.nih.gov/20546255/)).
+
+Second, exogenous insulin is delayed and variable because it must leave a subcutaneous depot before reaching the circulation. Its timing cannot reproduce the rapid, portal delivery of endogenous insulin, and identical nominal doses need not create identical action profiles ([Heinemann, 2002](https://pubmed.ncbi.nlm.nih.gov/12450450/); [Najjar and Perdomo, 2019](https://pubmed.ncbi.nlm.nih.gov/30968756/)).
+
+Third, context matters. Exercise can increase muscle glucose uptake independently of insulin and can increase insulin sensitivity after activity; illness and some forms of intense exercise can increase hepatic glucose output; sleep, circadian phase, stress, temperature, and tissue condition can modify the response ([Sylow et al., 2017](https://pubmed.ncbi.nlm.nih.gov/27739515/); [Riddell et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28126459/)).
+
+Fourth, short-term glucose outcomes are uncertain even when the direction of a mechanism is known. Between-person variability, within-person day-to-day variability, imperfect sensing, unobserved context, and model-form error all contribute. A game should therefore teach conditional reasoning and pattern recognition rather than present a single trajectory as biologically inevitable.
+
+## Design principles derived from the evidence
+
+::: {.callout-note title="Modelling and design inference"}
+These are development principles inferred from the science, not treatment recommendations.
+
+1. Represent **delays and overlap**. Meals, insulin, exercise, and counterregulatory responses unfold on different time scales.
+2. Expose **state dependence**. The same action can have a different outcome when active insulin, meal absorption, recent exercise, illness, or time of day differs.
+3. Preserve **directional asymmetry**. Moderate aerobic exercise commonly lowers glucose when insulin is active; intense exercise can transiently raise it through catecholamine-driven hepatic output.
+4. Include **bounded variability**. Variation should be interpretable and linked to visible or teachable causes where possible, not added as unexplained randomness.
+5. Treat adverse events as **safety concepts**, not punishment. Explanations should be factual, calm, and paired with clear educational signposting.
+6. Keep simulation distinct from care. Do not convert game outcomes into personal dose advice, diagnosis, or emergency guidance.
+:::
+
+## Scope
+
+Included here are short-horizon glucose physiology, subcutaneous insulin action, meals, activity, selected contextual modifiers, acute safety concepts, and general model-family comparisons. Detailed immunology, prevention, long-term complications, device procurement, cost-effectiveness, and individual treatment algorithms are outside this module. Population findings are not presented as personal predictions.
+
+## References
+
+- [Gerich, J.E. (2010). Role of the kidney in normal glucose homeostasis and in the hyperglycaemia of diabetes mellitus. *Diabetic Medicine*, 27, 136–142.](https://pubmed.ncbi.nlm.nih.gov/20546255/)
+- [Heinemann, L. (2002). Variability of insulin absorption and insulin action. *Diabetes Technology & Therapeutics*, 4, 673–682.](https://pubmed.ncbi.nlm.nih.gov/12450450/)
+- [Najjar, S.M. and Perdomo, G. (2019). Hepatic insulin clearance: mechanism and physiology. *Physiology*, 34, 198–215.](https://pubmed.ncbi.nlm.nih.gov/30968756/)
+- [Petersen, M.C., Vatner, D.F. and Shulman, G.I. (2017). Regulation of hepatic glucose metabolism in health and disease. *Nature Reviews Endocrinology*, 13, 572–587.](https://pubmed.ncbi.nlm.nih.gov/28731034/)
+- [Riddell, M.C. et al. (2017). Exercise management in type 1 diabetes: a consensus statement. *The Lancet Diabetes & Endocrinology*, 5, 377–390.](https://pubmed.ncbi.nlm.nih.gov/28126459/)
+- [Sylow, L. et al. (2017). Exercise-stimulated glucose uptake: regulation and implications for glycaemic control. *Nature Reviews Endocrinology*, 13, 133–148.](https://pubmed.ncbi.nlm.nih.gov/27739515/)
+
+## Abbreviation glossary
+
+- **T1D:** type 1 diabetes.

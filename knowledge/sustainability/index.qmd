@@ -1,0 +1,34 @@
+---
+title: "Sustainability and Maintenance"
+description: "How serious games can remain available, trustworthy and maintainable after a study ends"
+---
+
+Sustainability is part of intervention validity. A serious game that produced a promising result in a trial but cannot be obtained, installed or supported is not an implementable educational resource. Conversely, a maintained public product is not necessarily effective. Evidence, access and maintenance must be reported separately.
+
+## Three objects that are often conflated
+
+| Object | Core question | Typical evidence |
+|---|---|---|
+| **Research intervention** | Did a specified build change a prespecified outcome in a study population? | Protocol, trial report, analysis and limitations |
+| **Public product** | Can intended users currently obtain and operate a corresponding version? | Verified link, price, region, language, account and device status |
+| **Maintained service or project** | Is there an owner, process and resource base for correction, content review and succession? | Governance, release history, support route, tests and maintenance policy |
+
+A publication can survive while its software disappears. A repository can survive while nobody maintains it. A product can remain in an app store while its evidence applies to an earlier build.
+
+## Read by operational question
+
+1. [Why games disappear](why-games-disappear.qmd) — evidence and hypotheses about the gap between publication, public availability and routine adoption.
+2. [Maintenance patterns](maintenance-patterns.qmd) — governance, architecture, documentation, testing, succession and cautious use of artificial intelligence.
+
+## Four evidence labels
+
+1. **Direct type 1 diabetes evidence** refers to availability or implementation evidence from games involving type 1 diabetes.
+2. **Adjacent evidence** refers to implementation science, digital-health sustainability or empirical software-engineering research.
+3. **Industry practice** refers to operational patterns that are common or standards-informed but not tested as type 1 diabetes outcome interventions.
+4. **Design inference** identifies a locally testable conclusion rather than a demonstrated causal effect.
+
+## Sustainability is dynamic
+
+Maintenance is not a one-time transition from “research” to “finished product”. Clinical knowledge, dependencies, browsers, mobile operating systems, privacy expectations, accessibility standards and user needs change. A sustainable project is one that can detect those changes, make proportionate decisions and communicate its current status—including the decision to archive or retire a product responsibly.
+
+The aim is not indefinite survival of every prototype. Some software is appropriately a time-limited experiment. The scientific obligation is to state that status, preserve enough material to interpret the evidence, and avoid presenting an unmaintained build as a current intervention.

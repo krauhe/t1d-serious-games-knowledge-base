@@ -8,7 +8,9 @@
 
 # Quarto and operating-system build artefacts.
 /_site/
+/output/private/
 /.quarto/
+/node_modules/
+/.validation/
 .DS_Store
 Thumbs.db
-

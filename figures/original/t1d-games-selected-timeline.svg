@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720" role="img" aria-labelledby="title desc">
+  <title id="title">Selected development milestones in type 1 diabetes serious games</title>
+  <desc id="desc">A four-period timeline shows movement from cartridge console games through mobile and connected projects to contemporary browser, virtual reality, exercise and experiential products. The examples are selected rather than exhaustive.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0 L12 6 L0 12 Z" fill="#577085"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#173b5d" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="720" rx="28" fill="#f5f9fb"/>
+  <text x="700" y="48" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="29" font-weight="700" fill="#173b5d">Selected milestones in T1D serious games</text>
+  <text x="700" y="78" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="16" fill="#5c6f82">Examples illustrate changes in platform and learning structure; the timeline is not an exhaustive release history</text>
+
+  <line x1="115" y1="190" x2="1285" y2="190" stroke="#577085" stroke-width="4" marker-end="url(#arrow)"/>
+  <g font-family="Inter, Segoe UI, sans-serif">
+    <g>
+      <circle cx="165" cy="190" r="13" fill="#2563a6" stroke="white" stroke-width="4"/>
+      <rect x="62" y="112" width="206" height="49" rx="12" fill="#e6f0fb" stroke="#a9c5e0"/>
+      <text x="165" y="143" text-anchor="middle" font-size="19" font-weight="700" fill="#173b5d">1992-1997</text>
+    </g>
+    <g>
+      <circle cx="510" cy="190" r="13" fill="#087f7a" stroke="white" stroke-width="4"/>
+      <rect x="407" y="112" width="206" height="49" rx="12" fill="#e1f4f1" stroke="#9acbc7"/>
+      <text x="510" y="143" text-anchor="middle" font-size="19" font-weight="700" fill="#173b5d">2008-2017</text>
+    </g>
+    <g>
+      <circle cx="855" cy="190" r="13" fill="#a76204" stroke="white" stroke-width="4"/>
+      <rect x="752" y="112" width="206" height="49" rx="12" fill="#fff2d5" stroke="#e2c071"/>
+      <text x="855" y="143" text-anchor="middle" font-size="19" font-weight="700" fill="#173b5d">2018-2024</text>
+    </g>
+    <g>
+      <circle cx="1200" cy="190" r="13" fill="#7255ad" stroke="white" stroke-width="4"/>
+      <rect x="1097" y="112" width="206" height="49" rx="12" fill="#eee9fb" stroke="#c4b4e2"/>
+      <text x="1200" y="143" text-anchor="middle" font-size="19" font-weight="700" fill="#173b5d">2025-2026</text>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)" font-family="Inter, Segoe UI, sans-serif">
+    <g>
+      <rect x="35" y="235" width="270" height="365" rx="18" fill="white" stroke="#cfdbe4"/>
+      <text x="62" y="274" font-size="15" font-weight="700" fill="#2563a6" letter-spacing="1.1">CONSOLE ERA</text>
+      <text x="62" y="313" font-size="20" font-weight="700" fill="#173b5d">Captain Novolin</text>
+      <text x="62" y="339" font-size="14" fill="#5c6f82">Action platformer • 1992</text>
+      <line x1="62" y1="361" x2="278" y2="361" stroke="#dce5eb"/>
+      <text x="62" y="397" font-size="20" font-weight="700" fill="#173b5d">Packy &amp; Marlon</text>
+      <text x="62" y="423" font-size="14" fill="#5c6f82">Adventure platformer • 1994</text>
+      <text x="62" y="452" font-size="14" fill="#456278">Six-month controlled trial</text>
+      <line x1="62" y1="474" x2="278" y2="474" stroke="#dce5eb"/>
+      <text x="62" y="510" font-size="20" font-weight="700" fill="#173b5d">Glucoboy</text>
+      <text x="62" y="536" font-size="14" fill="#5c6f82">Meter-linked handheld play</text>
+      <text x="62" y="565" font-size="14" fill="#456278">Hardware-dependent access</text>
+    </g>
+
+    <g>
+      <rect x="380" y="235" width="270" height="365" rx="18" fill="white" stroke="#cfdbe4"/>
+      <text x="407" y="274" font-size="15" font-weight="700" fill="#087f7a" letter-spacing="1.1">MOBILE + TANGIBLE</text>
+      <text x="407" y="313" font-size="20" font-weight="700" fill="#173b5d">Monster Manor</text>
+      <text x="407" y="339" font-size="14" fill="#5c6f82">Glucose-check reward loop</text>
+      <line x1="407" y1="361" x2="623" y2="361" stroke="#dce5eb"/>
+      <text x="407" y="397" font-size="20" font-weight="700" fill="#173b5d">AR food game</text>
+      <text x="407" y="423" font-size="14" fill="#5c6f82">Cards + tablet overlay • 2017</text>
+      <line x1="407" y1="445" x2="623" y2="445" stroke="#dce5eb"/>
+      <text x="407" y="481" font-size="20" font-weight="700" fill="#173b5d">Koodak-e-Tavana</text>
+      <text x="407" y="507" font-size="14" fill="#5c6f82">Focused injection rehearsal</text>
+      <text x="407" y="536" font-size="14" fill="#456278">Short randomised study</text>
+      <text x="407" y="571" font-size="13" fill="#7b8d9c">AR = augmented reality</text>
+    </g>
+
+    <g>
+      <rect x="725" y="235" width="270" height="365" rx="18" fill="white" stroke="#cfdbe4"/>
+      <text x="752" y="274" font-size="15" font-weight="700" fill="#a76204" letter-spacing="1.1">CO-DESIGN + NETWORKS</text>
+      <text x="752" y="313" font-size="20" font-weight="700" fill="#173b5d">PAL</text>
+      <text x="752" y="339" font-size="14" fill="#5c6f82">Tablet, dashboard, robot</text>
+      <line x1="752" y1="361" x2="968" y2="361" stroke="#dce5eb"/>
+      <text x="752" y="397" font-size="20" font-weight="700" fill="#173b5d">Nørlev prototype</text>
+      <text x="752" y="423" font-size="14" fill="#5c6f82">Participatory smartphone design</text>
+      <line x1="752" y1="445" x2="968" y2="445" stroke="#dce5eb"/>
+      <text x="752" y="481" font-size="20" font-weight="700" fill="#173b5d">MyDiabetic</text>
+      <text x="752" y="507" font-size="14" fill="#5c6f82">Daily-care role play • public</text>
+      <text x="752" y="536" font-size="14" fill="#456278">Participatory + feasibility work</text>
+      <text x="752" y="571" font-size="13" fill="#7b8d9c">Public access remains uncommon</text>
+    </g>
+
+    <g>
+      <rect x="1070" y="235" width="295" height="365" rx="18" fill="white" stroke="#cfdbe4"/>
+      <text x="1097" y="274" font-size="15" font-weight="700" fill="#7255ad" letter-spacing="1.1">DIVERSE CONTEMPORARY FORMS</text>
+      <text x="1097" y="313" font-size="20" font-weight="700" fill="#173b5d">Level One + AvaType1</text>
+      <text x="1097" y="339" font-size="14" fill="#5c6f82">Mobile puzzles + narrative</text>
+      <line x1="1097" y1="361" x2="1338" y2="361" stroke="#dce5eb"/>
+      <text x="1097" y="397" font-size="20" font-weight="700" fill="#173b5d">T1D Simulator</text>
+      <text x="1097" y="423" font-size="14" fill="#5c6f82">Browser causal simulation</text>
+      <line x1="1097" y1="445" x2="1338" y2="445" stroke="#dce5eb"/>
+      <text x="1097" y="481" font-size="20" font-weight="700" fill="#173b5d">Tangbao + ExerT1D</text>
+      <text x="1097" y="507" font-size="14" fill="#5c6f82">Virtual reality + exergaming</text>
+      <text x="1097" y="541" font-size="14" fill="#456278">New forms; evidence still early</text>
+      <text x="1097" y="571" font-size="13" fill="#7b8d9c">Public and study-only products coexist</text>
+    </g>
+  </g>
+
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="14" fill="#536a7d">
+    <text x="700" y="650" text-anchor="middle">Platform diversity increased, but public availability and product-specific outcome evidence remain separate dimensions.</text>
+    <text x="700" y="677" text-anchor="middle">Selected examples only • dates and access status should be read with the catalogue verification record</text>
+  </g>
+</svg>

@@ -1,0 +1,235 @@
+---
+title: "Maintenance, Governance and Succession Patterns"
+description: "Practical patterns for keeping evidence, code and responsibility transferable"
+---
+
+## Scope and source note
+
+This chapter describes non-prescriptive maintenance patterns for serious games relevant to ==type 1 diabetes (T1D)==. Direct comparative evidence for maintaining T1D games is minimal, so most patterns derive from research-software practice, open-source governance and digital-health implementation. They should be treated as risk controls and testable operational hypotheses, not guarantees of survival.
+
+## Open source is an enabling condition, not an owner
+
+Publishing source code can permit inspection, reuse and rescue. It does not create maintainers, funding, clinical accountability, documentation or a contributor community.
+
+> **Evidence label — Adjacent evidence.** A survey of maintainers of 104 deprecated open-source projects identified multiple reasons for project failure and found associations between project continuity and practices such as contribution guidance and continuous integration. The observational design does not prove that these practices prevent failure ([Coelho and Valente, 2017](https://doi.org/10.1145/3106237.3106246)).
+
+> **Evidence label — Adjacent evidence.** Governance research across 352 open-source projects found that participation and responsibility structures were related to maintenance outcomes. The sample and historical SourceForge context limit direct transfer, but the study supports treating governance as an operational variable rather than an administrative afterthought ([Midha and Bhattacherjee, 2012](https://doi.org/10.1016/j.dss.2012.03.002)).
+
+> **Evidence label — Design inference.** “Open source” should be decomposed into licence, accessible source, reproducible build, documented contribution process, named decision rights and a release owner. A project can satisfy the first two while remaining practically unmaintainable.
+
+## A minimal governance model
+
+Governance should answer who may decide, who must review and what happens when nobody is available.
+
+| Decision class | Accountable role | Required review | Backup or succession route |
+|---|---|---|---|
+| Educational scope | Product/education steward | Learners and relevant educator | Named deputy or steering group |
+| Clinical content | Clinical content steward | Appropriately qualified reviewer | Second reviewer or partner organisation |
+| Physiological model | Model steward | Independent scientific/code review | Documented assumptions and validation suite |
+| Software release | Technical maintainer | Automated tests and release checklist | Second person with repository and deployment access |
+| Accessibility/localisation | Accessibility or language steward | Users from intended group | Versioned translation and audit status |
+| Privacy/security | Security/data steward | Threat and data-flow review | Incident contact and escalation process |
+| Research claims | Evidence steward | Protocol/publication check | Public evidence register |
+| Retirement | Project owner or governing group | Clinical, archival and communication review | Defined archival custodian |
+
+One person may hold several roles in a small project, but the roles should remain explicit. A named backup is meaningful only if that person has access, documentation and authority.
+
+> **Evidence label — Adjacent evidence.** Core-developer turnover is common and many projects depend on one central maintainer. This makes succession planning a routine condition, not an exceptional disaster plan ([Nourry et al., 2025](https://doi.org/10.1587/transinf.2025EDL8005)).
+
+## Separate four maintained knowledge objects
+
+1. **Scientific basis:** what is known about physiology, education and psychosocial outcomes.
+2. **Implementation specification:** which scientific relationships and learning rules the product actually implements.
+3. **Product code and assets:** executable behaviour, interface, dependencies and licences.
+4. **Evidence register:** which version was evaluated, in whom, using which outcomes, with what limitations.
+
+This separation prevents a common error: treating a scientifically referenced background document as proof that the implementation is correct, or treating correct implementation as proof that users learn.
+
+> **Evidence label — Industry practice.** Give each object an owner, review cadence and version identifier. Cross-link them with stable references. A change to one object should trigger an explicit decision about whether the others require review.
+
+## Documentation for transfer rather than display
+
+Documentation should enable another qualified person to perform a real task. A minimum set includes:
+
+1. intended purpose, intended users and explicit non-purpose;
+2. architectural overview and dependency map;
+3. local setup and deterministic build instructions;
+4. deployment and rollback procedure;
+5. test strategy and known coverage gaps;
+6. content provenance and citation links;
+7. decision records for non-obvious clinical, educational and technical choices;
+8. data-flow and privacy description;
+9. accessibility and localisation status;
+10. release and version history;
+11. known issues, limitations and unsafe interpretations;
+12. maintainer, reviewer and succession contacts;
+13. retirement and archival process.
+
+The ==Findable, Accessible, Interoperable and Reusable principles for research software (FAIR4RS)== address identification, access, interoperability and reuse while recognising that software is executable, composite and continuously versioned ([Chue Hong et al., 2022](https://doi.org/10.15497/RDA00068)). FAIR4RS does not require that every artifact be fully open, nor does compliance guarantee maintenance. It supplies a structured reuse target.
+
+Software citation should identify the version used in research, not only a project homepage. The ==Future of Research Communications and e-Scholarship (FORCE11)== principles emphasise importance, credit, unique identification, persistence, accessibility and specificity ([Smith et al., 2016](https://doi.org/10.7717/peerj-cs.86)).
+
+## Architecture that permits replacement
+
+Maintainability is improved when high-change and high-risk components are separable:
+
+1. educational content from interface code;
+2. translations from source-language text;
+3. game rules from physiological equations;
+4. personal or research data services from fictional play;
+5. analytics from core operation;
+6. external platform adapters from domain logic;
+7. copyrighted third-party media from redistributable public assets.
+
+> **Evidence label — Adjacent evidence.** Research-software guidance consistently identifies version control, documentation, modularity and automated testing as robustness practices. Their implementation is uneven even in mature scientific-model projects ([Taschuk and Wilson, 2017](https://doi.org/10.1371/journal.pcbi.1005412); [Fritz et al., 2025](https://doi.org/10.14279/eceasst.v83.2622)).
+
+> **Evidence label — Design inference.** Prefer the least operationally complex architecture that meets the learning need. A static browser game may reduce server and account dependencies; a connected product may justify those dependencies when real-data integration is central. The decision should be stated, not allowed to emerge accidentally.
+
+## Tests as executable transfer knowledge
+
+Tests do more than prevent regression. They encode which behaviours future maintainers must preserve.
+
+A balanced suite may include:
+
+1. unit tests for domain rules and calculations;
+2. quantitative tests for model invariants and accepted ranges;
+3. scenario tests for complete learning interactions;
+4. link and asset checks;
+5. accessibility checks supplemented by human testing;
+6. source/translation synchronisation checks;
+7. privacy and security checks proportionate to data use;
+8. browser/device smoke tests;
+9. tests that map evaluated study scenarios to the released version.
+
+Numbers derived from literature should be linked to their source and rationale. Otherwise, a passing test preserves a threshold whose scientific meaning may already be lost.
+
+> **Evidence label — Industry practice.** Continuous integration should run the smallest reliable checks on each proposed change and broader release checks before deployment. Automated tests reduce dependence on memory; they cannot decide whether the scientific target remains current or clinically appropriate.
+
+## Dependency and platform policy
+
+Maintain a machine-readable dependency inventory and answer:
+
+1. Which dependencies execute in the user environment?
+2. Which are abandoned, proprietary or restricted by region?
+3. Which process identifies security or compatibility updates?
+4. How quickly must critical updates be reviewed?
+5. Can an external service be disabled without losing the core learning activity?
+6. Are release artifacts preserved for the versions cited in studies?
+
+Avoid uncontrolled upgrades in clinically meaningful logic. Pin versions where reproducibility matters, but schedule updates so pinning does not become permanent obsolescence.
+
+## Clinical-content and evidence maintenance
+
+Create a recurring content audit with three independent questions:
+
+1. **Current science:** has the external evidence changed?
+2. **Correct implementation:** does the software still represent the approved rule or model?
+3. **Demonstrated learning:** does evidence support the public educational claim for this version and population?
+
+> **Evidence label — Direct T1D evidence.** Research-game availability and public-product evaluation were largely disconnected in Reinders et al.'s audit. A maintenance system must therefore track current access and current evidence separately ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
+
+A public evidence register should label controlled studies, uncontrolled feasibility, usability/co-design, development descriptions and marketing claims separately. Null results and discontinued versions remain part of the record.
+
+## Contribution pathways and community stewardship
+
+Potential contributors need small, legible entry points:
+
+1. a contribution guide and code of conduct;
+2. labelled issues suitable for clinical, educational, translation, accessibility and technical contributions;
+3. templates that request rationale, evidence and test impact;
+4. documented review requirements for high-risk changes;
+5. acknowledgement and citable releases;
+6. a transparent route from contributor to maintainer;
+7. protected boundaries around personal health information and confidential reports.
+
+Open contribution does not mean unreviewed change. A clinical correction and a visual typo should have different review requirements.
+
+> **Evidence label — Adjacent evidence.** Software citation improves visibility and credit, two conditions that can support contributor incentives, but citation alone is insufficient for sustainability ([Druskat et al., 2021](https://arxiv.org/abs/2103.06681)).
+
+## Succession rehearsal
+
+Succession plans should be tested before they are needed. Once or twice yearly, ask a person who did not implement the feature to:
+
+1. set up the project from documented instructions;
+2. run the tests;
+3. trace one scientific claim into the implementation;
+4. make a small change;
+5. deploy to a non-production environment;
+6. locate credentials and incident contacts through the approved process;
+7. produce an archival release.
+
+The failures are documentation findings. Update the transfer package rather than relying on verbal explanation from the current maintainer.
+
+## Cautious artificial-intelligence-assisted maintenance
+
+==Artificial intelligence (AI)== coding assistants may reduce the cost of search, code explanation, test drafting, dependency triage and routine documentation. They do not acquire ownership, professional accountability or reliable access to tacit clinical intent.
+
+> **Evidence label — Adjacent evidence.** A preregistered, two-phase experiment with 151 participants, mostly professional developers, found no clear downstream maintainability advantage or disadvantage when new developers evolved code previously produced with AI assistance; any benefit was small and uncertain, while habitual AI users appeared to work differently from non-habitual users ([Borg et al., 2026](https://doi.org/10.1007/s10664-026-10889-1)).
+
+> **Evidence label — Adjacent evidence.** A 2025 ==randomised controlled trial (RCT)== of 16 experienced open-source developers completing 246 tasks in familiar mature repositories found that early-2025 AI tools increased task time by 19%, despite participants perceiving a speed-up. This preprint captures one tool generation and setting, and should not be generalised to later systems or unfamiliar codebases ([Becker et al., 2025](https://arxiv.org/abs/2507.09089)).
+
+The evidence is therefore context-dependent and rapidly changing. A safe maintenance policy treats AI output as an untrusted proposal:
+
+1. provide a bounded task, relevant documentation and explicit non-goals;
+2. prohibit disclosure of personal health information, credentials and restricted source material;
+3. require a human owner for every accepted change;
+4. inspect the diff and run independent tests;
+5. require domain review for physiological, clinical, safeguarding or regulatory changes;
+6. record the rationale when AI changes a non-obvious design decision;
+7. verify licences and provenance for generated or suggested assets and text;
+8. measure local outcomes such as review time, defects, rollback and comprehension rather than assuming productivity.
+
+> **Evidence label — Design inference.** AI may lower the activation cost for a successor who is reading a well-documented project. It cannot compensate for missing decision records, absent tests, inaccessible deployment accounts or no organisation willing to own the product.
+
+## Planned retirement is a valid maintenance outcome
+
+When continued safe operation is no longer feasible:
+
+1. state that the product is unmaintained or retired;
+2. remove misleading active-use and efficacy claims;
+3. preserve a citable version and documentation where lawful;
+4. explain data retention and service shutdown;
+5. link to current alternatives without implying endorsement;
+6. retain the evidence and availability history;
+7. identify whether a fork or transfer is permitted by the licence.
+
+Archival transparency is preferable to an apparently active product that silently fails.
+
+## Operational readiness checklist
+
+| Area | Minimum evidence of readiness |
+|---|---|
+| Ownership | Named accountable owner and backup for each risk domain |
+| Access | Verified public route, price, language, device and account requirements |
+| Reproducibility | Versioned source, build instructions and archived release |
+| Quality | Automated tests plus human domain and accessibility review |
+| Evidence | Version-specific claim register with limitations |
+| Safety | Intended-purpose boundary, incident route and risk review |
+| Maintenance | Dependency, content and link-review cadence |
+| Succession | Second person has successfully completed a handover exercise |
+| Retirement | Archive and communication procedure exists before launch |
+| AI use | Human ownership, confidentiality rules, diff review and independent verification |
+
+## References
+
+- [Becker, J. et al. (2025) “Measuring the impact of early-2025 AI on experienced open-source developer productivity”, preprint.](https://arxiv.org/abs/2507.09089)
+- [Borg, M. et al. (2026) “Echoes of AI: investigating the downstream effects of AI assistants on software maintainability”, *Empirical Software Engineering*.](https://doi.org/10.1007/s10664-026-10889-1)
+- [Chue Hong, N.P. et al. (2022) “FAIR principles for research software (FAIR4RS Principles), version 1.0”, Research Data Alliance.](https://doi.org/10.15497/RDA00068)
+- [Coelho, J. and Valente, M.T. (2017) “Why modern open source projects fail”, *Proceedings of ESEC/FSE 2017*, pp. 186–196.](https://doi.org/10.1145/3106237.3106246)
+- [Druskat, S., Katz, D.S. and Todorov, I.T. (2021) “Research software sustainability and citation”, preprint.](https://arxiv.org/abs/2103.06681)
+- [Fritz, J., Mesiti, M. and Thiele, J.P. (2025) “A concise guide to good practices for automated testing and documentation of research software”, *Electronic Communications of the EASST*, 83.](https://doi.org/10.14279/eceasst.v83.2622)
+- [Nourry, O. et al. (2025) “Abandonment and resilience: understanding core developer turnover in open source software”, *IEICE Transactions on Information and Systems*, E108.D(11), pp. 1412–1415.](https://doi.org/10.1587/transinf.2025EDL8005)
+- [Reinders, E.F.H. et al. (2024) “Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers”, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
+- [Midha, V. and Bhattacherjee, A. (2012) “Governance practices and software maintenance: a study of open source projects”, *Decision Support Systems*, 54(1), pp. 23–32.](https://doi.org/10.1016/j.dss.2012.03.002)
+- [Smith, A.M. et al. (2016) “Software citation principles”, *PeerJ Computer Science*, 2, e86.](https://doi.org/10.7717/peerj-cs.86)
+- [Taschuk, M. and Wilson, G. (2017) “Ten simple rules for making research software more robust”, *PLOS Computational Biology*, 13(4), e1005412.](https://doi.org/10.1371/journal.pcbi.1005412)
+
+## Abbreviation glossary
+
+| Abbreviation | Meaning |
+|---|---|
+| AI | Artificial intelligence. Here it refers principally to code-generating or code-explaining software assistants. |
+| FAIR4RS | Findable, Accessible, Interoperable and Reusable principles for research software. A community framework for making software identifiable and reusable. |
+| FORCE11 | Future of Research Communications and e-Scholarship. A community that develops principles for scholarly communication, including software citation. |
+| RCT | Randomised controlled trial. Participants or tasks are assigned by chance to reduce systematic differences between conditions. |
+| T1D | Type 1 diabetes. Autoimmune loss of insulin-producing beta cells creates a lifelong need for exogenous insulin. |

@@ -1,0 +1,43 @@
+---
+title: "Learning and Game Design"
+description: "Evidence-aware design knowledge for serious games about type 1 diabetes"
+---
+
+This section links learning objectives to game actions, feedback, progression and evaluation. It is written for researchers, clinicians and developers. It does not prescribe a single game format: a procedural microgame, a causal simulation, a family activity and an experiential narrative may each be appropriate for different outcomes.
+
+## Four evidence labels
+
+Every recommendation in this section uses one of four labels.
+
+| Label | Meaning | Appropriate use |
+|---|---|---|
+| **Direct type 1 diabetes evidence** | The claim is supported by a study of people with type 1 diabetes or their caregivers. | Product- and population-specific conclusions, with the original design limitations retained. |
+| **Adjacent evidence** | The mechanism is supported in another learning, health-game or behavioural context. | A reason to test a design hypothesis in type 1 diabetes, not proof that it will work there. |
+| **Industry practice** | The pattern is widely used in product development or human–computer interaction but lacks a directly comparable health-outcome test. | Prototyping, usability and operational decisions that still require local verification. |
+| **Design inference** | The proposal follows logically from the learning objective, system dynamics and known constraints. | Explicit hypotheses to prototype and evaluate; never an effectiveness claim. |
+
+The labels describe the basis of a claim, not a hierarchy in which one label is always sufficient. A design may be theoretically credible yet unusable, or usable yet educationally ineffective.
+
+## Read by development question
+
+1. [Learning science](learning-science.qmd) — how simulation, prediction, feedback, retrieval, variation and social learning may change what a learner knows or can do.
+2. [Game mechanisms](game-mechanisms.qmd) — how narrative, goals, progression, difficulty, rewards, autonomy and emotional safety can operationalise a learning theory.
+3. [Evaluation](evaluation.qmd) — how to distinguish usability, engagement, learning, transfer, behaviour, psychosocial outcomes and clinical endpoints.
+
+## A compact design chain
+
+Before selecting a game mechanic, document the complete causal chain:
+
+1. **Learner need:** What capability, understanding or experience is currently missing?
+2. **Learning objective:** What should the learner be able to recall, explain, decide, perform or discuss?
+3. **Learning activity:** What must the learner actually do to acquire that capability?
+4. **Game mechanism:** What rules and representations make that activity repeatable and worth attempting?
+5. **Feedback:** What information permits error detection and revision?
+6. **Transfer task:** What unfamiliar case would demonstrate that learning extends beyond memorising the level?
+7. **Outcome measure:** What observation can validly test the intended change?
+
+A point system should therefore never be the starting theory. Points can signal progress, but they cannot determine whether the player practised causal reasoning, injection preparation, coping, family communication or factual recall.
+
+## Scope boundary
+
+This section concerns educational and psychosocial design. It does not provide insulin-dosing advice, certify physiological models, or infer clinical benefit from engagement. Product sustainability and succession are treated separately in [Sustainability and Maintenance](../sustainability/index.qmd).

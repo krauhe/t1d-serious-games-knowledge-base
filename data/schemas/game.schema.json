@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:t1d-serious-games-knowledge-base:game-catalogue-schema",
+  "title": "T1D serious-games catalogue",
+  "type": "object",
+  "required": [
+    "catalogue_title",
+    "catalogue_version",
+    "verification_date",
+    "scope",
+    "epistemic_note",
+    "games"
+  ],
+  "properties": {
+    "catalogue_title": { "type": "string", "minLength": 1 },
+    "catalogue_version": { "type": "string", "minLength": 1 },
+    "verification_date": { "type": "string", "format": "date" },
+    "scope": { "type": "string", "minLength": 1 },
+    "epistemic_note": { "type": "string", "minLength": 1 },
+    "games": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/game" }
+    }
+  },
+  "$defs": {
+    "nonEmptyStringArray": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "linkSet": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri", "pattern": "^https://" }
+    },
+    "game": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "aliases",
+        "release_history",
+        "scope_group",
+        "target_population",
+        "platforms",
+        "languages",
+        "genre",
+        "learning_objectives",
+        "core_gameplay_loop",
+        "game_mechanisms",
+        "pedagogical_mechanisms",
+        "developer",
+        "evidence",
+        "availability",
+        "links",
+        "screenshot",
+        "design_assessment",
+        "playtest_status"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "title": { "type": "string", "minLength": 1 },
+        "aliases": { "$ref": "#/$defs/nonEmptyStringArray" },
+        "release_history": { "$ref": "#/$defs/nonEmptyStringArray" },
+        "scope_group": { "type": "string", "minLength": 1 },
+        "target_population": {
+          "type": "object",
+          "required": ["diabetes_specificity", "age_range", "roles"],
+          "properties": {
+            "diabetes_specificity": { "type": "string", "minLength": 1 },
+            "age_range": { "type": "string", "minLength": 1 },
+            "roles": { "$ref": "#/$defs/nonEmptyStringArray" }
+          }
+        },
+        "platforms": { "$ref": "#/$defs/nonEmptyStringArray" },
+        "languages": { "$ref": "#/$defs/nonEmptyStringArray" },
+        "genre": { "type": "string", "minLength": 1 },
+        "learning_objectives": { "$ref": "#/$defs/nonEmptyStringArray" },
+        "core_gameplay_loop": { "type": "string", "minLength": 1 },
+        "game_mechanisms": { "$ref": "#/$defs/nonEmptyStringArray" },
+        "pedagogical_mechanisms": { "$ref": "#/$defs/nonEmptyStringArray" },
+        "developer": {
+          "type": "object",
+          "required": ["names", "classification", "lived_experience_involvement"],
+          "properties": {
+            "names": { "$ref": "#/$defs/nonEmptyStringArray" },
+            "classification": { "type": "string", "minLength": 1 },
+            "lived_experience_involvement": { "type": "string", "minLength": 1 }
+          }
+        },
+        "evidence": {
+          "type": "object",
+          "required": ["level", "design_detail", "studies", "summary", "limitations"],
+          "properties": {
+            "level": {
+              "type": "string",
+              "enum": [
+                "controlled outcome study",
+                "pre/post or feasibility study",
+                "usability or participatory co-design study",
+                "development description or conceptual framework",
+                "public product without peer-reviewed evaluation",
+                "marketing or developer claim without independent evidence"
+              ]
+            },
+            "design_detail": { "type": "string", "minLength": 1 },
+            "studies": { "type": "array" },
+            "summary": { "type": "string", "minLength": 1 },
+            "limitations": { "$ref": "#/$defs/nonEmptyStringArray" }
+          }
+        },
+        "availability": {
+          "type": "object",
+          "required": ["status", "status_detail", "price", "monetisation", "regions", "account_requirements", "hardware_dependencies", "verified_on", "confidence"],
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "publicly available",
+                "availability incompletely verified",
+                "study or trial only",
+                "research prototype; not publicly available",
+                "discontinued"
+              ]
+            },
+            "status_detail": { "type": "string", "minLength": 1 },
+            "price": { "type": "string", "minLength": 1 },
+            "monetisation": { "type": "string", "minLength": 1 },
+            "regions": { "type": "string", "minLength": 1 },
+            "account_requirements": { "type": "string", "minLength": 1 },
+            "hardware_dependencies": { "type": "string", "minLength": 1 },
+            "verified_on": { "type": "string", "format": "date" },
+            "confidence": { "type": "string", "minLength": 1 }
+          }
+        },
+        "links": {
+          "type": "object",
+          "required": ["official", "stores", "archives", "publications"],
+          "properties": {
+            "official": { "$ref": "#/$defs/linkSet" },
+            "stores": { "$ref": "#/$defs/linkSet" },
+            "archives": { "$ref": "#/$defs/linkSet" },
+            "publications": { "$ref": "#/$defs/linkSet" }
+          }
+        },
+        "screenshot": {
+          "type": "object",
+          "required": ["file", "source_url", "captured_on", "copyright_holder", "reuse_status"],
+          "properties": {
+            "file": { "type": ["string", "null"] },
+            "source_url": { "type": ["string", "null"], "format": "uri" },
+            "captured_on": { "type": ["string", "null"], "format": "date" },
+            "copyright_holder": { "type": ["string", "null"], "minLength": 1 },
+            "reuse_status": { "type": "string", "minLength": 1 }
+          }
+        },
+        "design_assessment": {
+          "type": "object",
+          "required": ["strengths", "limitations", "design_relevance"],
+          "properties": {
+            "strengths": { "$ref": "#/$defs/nonEmptyStringArray" },
+            "limitations": { "$ref": "#/$defs/nonEmptyStringArray" },
+            "design_relevance": { "$ref": "#/$defs/nonEmptyStringArray" }
+          }
+        },
+        "playtest_status": { "const": "not_playtested" }
+      }
+    }
+  }
+}
