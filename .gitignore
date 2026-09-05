@@ -1,0 +1,14 @@
+# Local scholarly literature. These files may be read locally but must not be
+# committed or redistributed through the repository.
+/private-literature/
+
+# Third-party game images retained only for private review until reuse rights
+# have been documented.
+/figures/game-images-review-only/
+
+# Quarto and operating-system build artefacts.
+/_site/
+/.quarto/
+.DS_Store
+Thumbs.db
+
