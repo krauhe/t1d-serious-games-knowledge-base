@@ -64,13 +64,13 @@ for (const entry of pageEntries) {
 }
 
 const headerMarkPath = path.join(projectRoot, 'figures', 'original', 't1d-serious-games-header-icon.png');
-const backgroundPath = path.join(projectRoot, 'figures', 'original', 'pixel-biomes-background.png');
+const backgroundPath = path.join(projectRoot, 'figures', 'original', 'pixel-arcade-biomes-background.png');
 const pixelFontPath = path.join(projectRoot, 'assets', 'fonts', 'PressStart2P-Regular.ttf');
 const headerMarkDataUri = dataUriForFile(headerMarkPath);
 const backgroundDataUri = dataUriForFile(backgroundPath);
 const pixelFontDataUri = dataUriForFile(pixelFontPath);
 const baseStyles = fs.readFileSync(path.join(projectRoot, 'styles.css'), 'utf8')
-  .replaceAll('figures/original/pixel-biomes-background.png', backgroundDataUri)
+  .replaceAll('figures/original/pixel-arcade-biomes-background.png', backgroundDataUri)
   .replaceAll('assets/fonts/PressStart2P-Regular.ttf', pixelFontDataUri);
 const generatedAt = new Date().toISOString().slice(0, 10);
 const html = `<!doctype html>

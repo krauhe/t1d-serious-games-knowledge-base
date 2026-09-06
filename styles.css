@@ -50,8 +50,14 @@ body {
   pointer-events: none;
   background-color: var(--canvas);
   background-image:
-    linear-gradient(180deg, rgba(237, 249, 247, 0.54), rgba(243, 246, 235, 0.66)),
-    url("figures/original/pixel-biomes-background.png");
+    linear-gradient(
+      180deg,
+      rgba(237, 249, 247, 0.50) 0%,
+      rgba(232, 242, 225, 0.42) 42%,
+      rgba(66, 57, 91, 0.20) 72%,
+      rgba(10, 25, 55, 0.14) 100%
+    ),
+    url("figures/original/pixel-arcade-biomes-background.png");
   background-position: center, center var(--landscape-position);
   background-repeat: no-repeat;
   background-size: cover, max(1500px, 100vw) auto;

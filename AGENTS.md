@@ -15,3 +15,8 @@ This file is the primary working agreement for Codex and other coding agents ope
 
 - Write public-facing knowledge-base content in scientific English.
 - Use linked author-date citations for scientific claims and distinguish measured evidence from interpretation, design inference, and developer claims.
+
+## Scientific review skill
+
+- For scientific audits, literature updates and evidence-based chapter revisions, use [.agents/skills/t1d-kb-scientific-review/SKILL.md](.agents/skills/t1d-kb-scientific-review/SKILL.md). Verify that sources support the actual claims; a citation or successful link check alone is insufficient.
+- Acquire used full texts when lawfully available and record unresolved sources in the existing full-text wishlist. Keep acquisition records separate from public explanatory prose.

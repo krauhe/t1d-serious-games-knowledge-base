@@ -1,0 +1,175 @@
+{
+  "review_date": "2026-09-06",
+  "report_sha256": "b5c78a0b992fcbb13b02f3a5f1f7f44ef7b14c711ade9a023e3b3d8b92964b8c",
+  "findings": [
+    {
+      "id": "F01",
+      "severity": "major",
+      "title": "twelve misidentified physiological references",
+      "status": "open",
+      "report_line": 45
+    },
+    {
+      "id": "F02",
+      "severity": "major",
+      "title": "a controlled study is created from an uncontrolled pilot",
+      "status": "open",
+      "report_line": 68
+    },
+    {
+      "id": "F03",
+      "severity": "major",
+      "title": "eddii's outcome evidence is materially understated",
+      "status": "open",
+      "report_line": 76
+    },
+    {
+      "id": "F04",
+      "severity": "major",
+      "title": "I Got This has the wrong disease and provenance",
+      "status": "open",
+      "report_line": 86
+    },
+    {
+      "id": "F05",
+      "severity": "major",
+      "title": "mixed-diabetes findings are labelled direct T1D evidence",
+      "status": "open",
+      "report_line": 94
+    },
+    {
+      "id": "F06",
+      "severity": "major",
+      "title": "non-release is converted into disappearance",
+      "status": "open",
+      "report_line": 102
+    },
+    {
+      "id": "F07",
+      "severity": "major",
+      "title": "sustainability hypotheses become established causal explanations",
+      "status": "open",
+      "report_line": 110
+    },
+    {
+      "id": "F08",
+      "severity": "major",
+      "title": "historical search reproducibility is overstated",
+      "status": "open",
+      "report_line": 118
+    },
+    {
+      "id": "F09",
+      "severity": "major",
+      "title": "study extraction is incomplete despite a complete-looking schema",
+      "status": "open",
+      "report_line": 128
+    },
+    {
+      "id": "F10",
+      "severity": "major",
+      "title": "Qare and Qure's paired-caregiver interpretation is unverified",
+      "status": "open",
+      "report_line": 136
+    },
+    {
+      "id": "F11",
+      "severity": "major",
+      "title": "prescriptive learning claims exceed their cited support",
+      "status": "open",
+      "report_line": 144
+    },
+    {
+      "id": "F12",
+      "severity": "minor",
+      "title": "the five-to-eight-user heuristic needs qualification",
+      "status": "open",
+      "report_line": 154
+    },
+    {
+      "id": "F13",
+      "severity": "major",
+      "title": "field-wide absence claims lack reproducible bounds",
+      "status": "open",
+      "report_line": 162
+    },
+    {
+      "id": "F14",
+      "severity": "minor",
+      "title": "platform and availability representations disagree",
+      "status": "open",
+      "report_line": 170
+    },
+    {
+      "id": "F15",
+      "severity": "minor",
+      "title": "bibliographic metadata needs a second pass beyond wrong identifiers",
+      "status": "open",
+      "report_line": 178
+    },
+    {
+      "id": "F16",
+      "severity": "major",
+      "title": "quantitative physiology is not consistently anchored to context",
+      "status": "open",
+      "report_line": 186
+    },
+    {
+      "id": "F17",
+      "severity": "major",
+      "title": "endpoint labels obscure what was measured",
+      "status": "open",
+      "report_line": 194
+    },
+    {
+      "id": "F18",
+      "severity": "major",
+      "title": "numerical accuracy is not the same as methodological credibility",
+      "status": "open",
+      "report_line": 202
+    },
+    {
+      "id": "F19",
+      "severity": "major",
+      "title": "useful comparator literature is omitted or disconnected",
+      "status": "open",
+      "report_line": 210
+    },
+    {
+      "id": "F20",
+      "severity": "minor",
+      "title": "“neutral” comparison still contains unlabelled preferences",
+      "status": "open",
+      "report_line": 218
+    },
+    {
+      "id": "F21",
+      "severity": "major",
+      "title": "source acquisition was too narrowly governed and incompletely tracked",
+      "status": "partially addressed",
+      "report_line": 226
+    },
+    {
+      "id": "F22",
+      "severity": "editorial",
+      "title": "governance contradicts the current licensing documents",
+      "status": "open",
+      "report_line": 236
+    },
+    {
+      "id": "F23",
+      "severity": "major",
+      "title": "living-update provenance is insufficiently granular",
+      "status": "open",
+      "report_line": 244
+    },
+    {
+      "id": "F24",
+      "severity": "major",
+      "title": "correction propagation and release checks are inadequate",
+      "status": "open",
+      "report_line": 252
+    }
+  ],
+  "note": "Finding statuses refer to reviewed scientific content, not the newly delivered audit tooling."
+}

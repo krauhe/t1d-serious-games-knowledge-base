@@ -1,0 +1,443 @@
+{
+  "review_date": "2026-09-06",
+  "scope": "Complete source-corpus inspection, not complete independent verification of all underlying evidence",
+  "documents": [
+    {
+      "path": "index.qmd",
+      "lines": 74,
+      "words": 1086,
+      "sha256": "946e5326dd65f36d7ef2055c02b1f49ed46a2d392578931b6ce9e446faa8fcb1",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "methods.qmd",
+      "lines": 87,
+      "words": 923,
+      "sha256": "052903ad5f7db1970806d68e56f3ca9d7bf9f5794ea01f138d064ec0d4f5cb51",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "references/SOURCE-INDEX.md",
+      "lines": 129,
+      "words": 1922,
+      "sha256": "ef50e1875b862d52c52d69c7930566d9b448295155e5c0cafd7f714fac349b5f",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "references/PAYWALLED-WISHLIST.md",
+      "lines": 47,
+      "words": 960,
+      "sha256": "69fd2bd67495557f8e3b93787ddb7382cce95029ed1495acc52a419b83ba1dd5",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "glossary.qmd",
+      "lines": 65,
+      "words": 576,
+      "sha256": "b340ea0e7d66ae2f5b5d324c809bb70dd083b2e9fc6a01247a9bd733066f1a3b",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/games/index.qmd",
+      "lines": 77,
+      "words": 1035,
+      "sha256": "a7961abab2cd68c2681abbf9c53b146c3ed3dae13f8628a55196a36a298d3d6b",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/games/evidence-map.qmd",
+      "lines": 132,
+      "words": 1848,
+      "sha256": "148b26227ce813fe68aac7f1f179415be9f3a9db55969a7d72407acfbec08ea1",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/games/catalogue.qmd",
+      "lines": 119,
+      "words": 1731,
+      "sha256": "39689c900fba7342c6b8eb122150d48b2b80d9b7c37e95a3ae7bbd45ea02c391",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/games/profiles.qmd",
+      "lines": 247,
+      "words": 2820,
+      "sha256": "a8cf070a5b8c06d3b0200c249a93f5e1e680cb42ad36c902f8384922e66ea251",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/games/availability.qmd",
+      "lines": 134,
+      "words": 1617,
+      "sha256": "7d200e0f58b0143f5c3544edfc10cc476639e2f00e1ffbf0cb192ebef4d2c6dc",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/comparisons/comparative-analysis.qmd",
+      "lines": 109,
+      "words": 1680,
+      "sha256": "02e288825cb1af0bdf746b26c66e989cf32ea4a05873656f678019143f7b1fd6",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/design/index.qmd",
+      "lines": 43,
+      "words": 487,
+      "sha256": "b8f90a8dc25300dd2eb30fdfbb719a0f38bce7a540db10f1ed1a3273edffd20a",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/design/learning-science.qmd",
+      "lines": 151,
+      "words": 2286,
+      "sha256": "4d67e7faa53e55f61d9beb8234f047c97508bcf9daf2fd3ac4e853cb1cc041b7",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/design/game-mechanisms.qmd",
+      "lines": 170,
+      "words": 2298,
+      "sha256": "c802edc096f7dd5f5f7221b25bf3342e9028316813f139f5076e8380a019ed01",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/design/evaluation.qmd",
+      "lines": 214,
+      "words": 2575,
+      "sha256": "d55191a8f2c14fa4cec785c7e0d5d6b2f8050ce4c40c3e1ea2e709994a66f4bb",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/human-factors/onboarding-and-accessibility.qmd",
+      "lines": 133,
+      "words": 1641,
+      "sha256": "0a24663cf83aa156bf9129bdc008e80d92329a628bc4953342c89b1109a1a2cd",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/physiology/index.qmd",
+      "lines": 67,
+      "words": 878,
+      "sha256": "0b6aa3968aea295ae0c133bdcdfb83fa200aa65cfb5c76565ba7cc3ed18de0f3",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/physiology/glucose-insulin-system.qmd",
+      "lines": 84,
+      "words": 1200,
+      "sha256": "8f5db1a7933c82ade0c9759493f401ef0ebaccb76957f75663bf663d2ad63fe5",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/physiology/meals-insulin-exercise.qmd",
+      "lines": 99,
+      "words": 1409,
+      "sha256": "2b307b2358a9dfb92213ba9a511d48f662ae132c1419bd4e4bf1662c9dc4690f",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/physiology/variability-and-safety.qmd",
+      "lines": 112,
+      "words": 1488,
+      "sha256": "d6e3fac7df7466cff5b821e4bf0940de0c01aa6e49d88fbe7073ccb8b4144350",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/physiology/model-families.qmd",
+      "lines": 104,
+      "words": 1369,
+      "sha256": "366f934e21e1fa54491c7ee205f05e02c8702ecd09291b736cd4f55c4dc4d181",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/sustainability/index.qmd",
+      "lines": 34,
+      "words": 402,
+      "sha256": "6fc693f7e9eac0b11cc41a300f1761a5596659aac177907e462b3d5765cbf1b2",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/sustainability/why-games-disappear.qmd",
+      "lines": 145,
+      "words": 1842,
+      "sha256": "95e398b438974b5d42acd42a9670c42d745e2b46ba8b40c7edc919f13c30fc7f",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "knowledge/sustainability/maintenance-patterns.qmd",
+      "lines": 235,
+      "words": 2395,
+      "sha256": "bcb21fabe11203ce1c2709ff14869b9ddcbdf6f990af3cb52f558a947cdce559",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "README.md",
+      "lines": 111,
+      "words": 1251,
+      "sha256": "17a0c1a93c80a6c8bbb8f8e975a66cbac715efffd20fa59821379a318ac508fc",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "EDITORIAL-POLICY.md",
+      "lines": 48,
+      "words": 525,
+      "sha256": "44819f1c79abac3b79a2d3b2ca6921b2ca3e450fcb8c0187ec66b47045f699b2",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "lines": 56,
+      "words": 375,
+      "sha256": "0e5ccd8eb9103d145f97ac000f24519b564f7f92c6244d312ab5e7c46cad0e60",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "lines": 53,
+      "words": 359,
+      "sha256": "f5b7f9643f1dc304739972453791c148b2637529875f0d03a34e6943b933c84f",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "LICENSING.md",
+      "lines": 39,
+      "words": 471,
+      "sha256": "86579cb92329eb2d6e2c8f03b967ec6ada836c5dd2207a17a2f3971a91448485",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    },
+    {
+      "path": "CITATION.cff",
+      "lines": 15,
+      "words": 64,
+      "sha256": "d7f5a1b4a77078596c29b8d0106f9ebfba8573184a6396ee022bade383bf1620",
+      "review_status": "inspected; findings and unresolved source checks in report"
+    }
+  ],
+  "game_records": [
+    {
+      "id": "level-one",
+      "title": "Level One: A Diabetes Game",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "ava-type-1",
+      "title": "AvaType1",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "flightglucose",
+      "title": "FlightGlucose",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "mydiabetic",
+      "title": "MyDiabetic",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "rufus",
+      "title": "Rufus, the Bear with Diabetes",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "glucozor",
+      "title": "GlucoZor",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "novi-chek",
+      "title": "Novi-Chek: diabète de type 1",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "sweet-strategy",
+      "title": "Sweet Strategy",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "eddii",
+      "title": "eddii",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "captain-novolin",
+      "title": "Captain Novolin",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "packy-and-marlon",
+      "title": "Packy & Marlon",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "monster-manor",
+      "title": "Monster Manor",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "koodak-e-tavana",
+      "title": "Koodak-e-Tavana Insulin Injection Game",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "ar-food-game",
+      "title": "Augmented-Reality Diabetes Education Game",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "food-quiz",
+      "title": "Food Quiz",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "social-diabetes-platform",
+      "title": "Social Diabetes Learning Platform",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "pal",
+      "title": "PAL",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "diaquarium",
+      "title": "Diaquarium",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "diabetic-mario",
+      "title": "Diabetic Mario",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "virtual-coach",
+      "title": "Virtual Coach",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "tako-dojo",
+      "title": "Tako Dojo",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "qare-and-qure",
+      "title": "Qare and Qure",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "sparapani-prototype",
+      "title": "Brazilian Paediatric T1D Serious-Game Framework",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "tangbao-superman",
+      "title": "Tangbao Superman Transformation",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "diaped",
+      "title": "DiaPed",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "wecan",
+      "title": "WeCan",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "emoticare",
+      "title": "emoTICare",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "norlev-smartphone-prototype",
+      "title": "Nørlev Participatory Smartphone Game Prototype",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "turkish-game-video-rct",
+      "title": "Turkish Digital Game and Video Animation Intervention",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "glucoboy-didget",
+      "title": "GlucoBoy / DIDGET",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "mundo-carakuato",
+      "title": "Mundo Carakuato",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "xugarhero",
+      "title": "Xugarhero",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "jerry-the-bear",
+      "title": "Jerry the Bear",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "diabetes-spel",
+      "title": "DiabetesSpel",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "diabetes-academy",
+      "title": "Diabetes Academy",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "diabetics-diner",
+      "title": "Diabetic's Diner",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "i-got-this",
+      "title": "I Got This",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "hell-hath-no-insulin",
+      "title": "Hell Hath No Insulin",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "permanence",
+      "title": "Permanence",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "holesome",
+      "title": "Holesome",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "stable-t1d",
+      "title": "stable T1D",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "wst",
+      "title": "Web-based Simulation Training for Adults with T1D",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "exert1d",
+      "title": "ExerT1D",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "insuonline",
+      "title": "InsuOnline",
+      "status": "record inspected; not playtested; no installation test"
+    },
+    {
+      "id": "t1d-simulator",
+      "title": "T1D Simulator",
+      "status": "record inspected; not playtested; no installation test"
+    }
+  ]
+}

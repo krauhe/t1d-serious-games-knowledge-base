@@ -1,0 +1,12 @@
+{
+  "documents": 30,
+  "games": 45,
+  "scholarly_urls_checked": 148,
+  "canonical_identifiers": 141,
+  "identifiers_with_retained_fulltext": 65,
+  "identifiers_without_retained_fulltext_or_identity_unresolved": 76,
+  "misidentified_citations": 12,
+  "article_files_total": 84,
+  "original_article_files": 40,
+  "note": "Retained files include candidate matches, different formats and unrelated records reached through erroneous citations. Counts are not numbers of fully appraised studies."
+}

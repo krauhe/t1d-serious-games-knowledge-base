@@ -1,0 +1,4 @@
+interface:
+  display_name: "T1D Knowledge Base Scientific Review"
+  short_description: "Audit T1D game evidence, claims, sources and chapters"
+  default_prompt: "Use $t1d-kb-scientific-review to audit the requested knowledge-base content, verify its claims against sources, acquire available full texts, and report prioritised findings."

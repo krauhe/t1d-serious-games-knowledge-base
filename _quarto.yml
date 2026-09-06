@@ -3,7 +3,7 @@ project:
   output-dir: _site
   resources:
     - figures/original/pixel-landscape-background.png
-    - figures/original/pixel-biomes-background.png
+    - figures/original/pixel-arcade-biomes-background.png
     - figures/original/t1d-serious-games-header-icon.png
     - figures/original/t1d-serious-games-header-mark.png
     - figures/original/t1d-serious-games-pixel-mark.png

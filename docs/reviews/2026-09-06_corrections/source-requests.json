@@ -1,0 +1,12 @@
+{
+  "purpose": "Targeted correction sources, not a new systematic search",
+  "date": "2026-09-06",
+  "urls": [
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/32591906/","locations":[{"path":"knowledge/physiology/glucose-insulin-system.qmd","label":"Chadt and Al-Hasani (2020)"}]},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/30116732/","locations":[{"path":"knowledge/physiology/meals-insulin-exercise.qmd","label":"Gradel et al. (2018)"}]},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/19444330/","locations":[{"path":"knowledge/physiology/model-families.qmd","label":"Kovatchev et al. (2009)"}]},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/26426068/","locations":[{"path":"knowledge/physiology/variability-and-safety.qmd","label":"Steiner et al. (2015)"}]},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/7018254/","locations":[{"path":"knowledge/physiology/glucose-insulin-system.qmd","label":"Rizza et al. (1981)"}]},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/20936056/","locations":[{"path":"knowledge/physiology/model-families.qmd","label":"Cobelli et al. (2009)"}]}
+  ]
+}

@@ -1,0 +1,421 @@
+[
+  {
+    "identifier": "10.1177/19322968231223759",
+    "findings": "F03, F18",
+    "inspection_depth": "Full-text methods, outcomes, allocation changes, tables and disclosures",
+    "assessment": "Randomised commercial trial with a glycaemic endpoint; post-randomisation exclusions and allocation changes limit interpretation.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Ahmadi 2025 - Gaming the System A Fun Continuous Glucose Monitor Interface Improves Glycemic Outcomes f - 61a1c36fd2237280.xml",
+        "sha256": "7cab707f67bb17c4e566c752f74c9b39ba54f5e2209b0dc82f70dea534d17c49",
+        "retrieval_route": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11572176/fullTextXML",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://doi.org/10.1177/19322968231223759"
+    ]
+  },
+  {
+    "identifier": "10.1145/2207676.2207687",
+    "findings": "F12",
+    "inspection_depth": "Title, abstract and study scope",
+    "assessment": "Non-diabetes tutorial experiments; not evidence for a universal five-to-eight-participant rule.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Andersen_2012_ImpactTutorials.pdf",
+        "sha256": "2655f5ba2f27fcc3ef4811050d8da8edb1730b15486cb7540bfc18d22b74329e",
+        "retrieval_route": "Existing file identified by direct reading",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://doi.org/10.1145/2207676.2207687"
+    ]
+  },
+  {
+    "identifier": "10.1089/g4h.2015.0038",
+    "findings": "F02",
+    "inspection_depth": "Author manuscript, abstract, Methods 4.1-4.3, results and limitations",
+    "assessment": "Uncontrolled Android pilot; 12 children aged 9-13; diabetes not required for eligibility.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Baghaei 2016 - Diabetic Mario.pdf",
+        "sha256": "b4c64d8a3ceac512090858623b5f9a0b8f7dac317785eb4eaa037e03b1c5b31c",
+        "retrieval_route": "Existing file identified by direct reading",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://doi.org/10.1089/g4h.2015.0038"
+    ]
+  },
+  {
+    "identifier": "10.2196/79338",
+    "findings": "F19",
+    "inspection_depth": "Abstract and review scope; full-text XML retained, complete critical appraisal outstanding",
+    "assessment": "Broader paediatric digital-health comparator, not exclusively serious games.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Beh 2026 - Digital Health Interventions in Children and Adolescents With Type 1 Diabetes Mellitus and - fa8f0e2468249101.xml",
+        "sha256": "aae48b7d36b29396915a23e55945c44416c333ad10135d7b1af1968965030bda",
+        "retrieval_route": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12954698/fullTextXML",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12954698/"
+    ]
+  },
+  {
+    "identifier": "10.1136/bmjopen-2019-036453",
+    "findings": "F07",
+    "inspection_depth": "Abstract, objectives and eligibility scope",
+    "assessment": "Adjacent healthcare sustainability evidence; cannot establish causes of T1D game discontinuation.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Braithwaite 2020 - Built to last The sustainability of healthcare system improvements, programmes and interv.xml",
+        "sha256": "ca7de7257f606963355611b32f9a700f5c4649f920b6ee2e655075712b085665",
+        "retrieval_route": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7265014/fullTextXML",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://doi.org/10.1136/bmjopen-2019-036453"
+    ]
+  },
+  {
+    "identifier": "10.3109/14639239709089835",
+    "findings": "Executive assessment; section 4",
+    "inspection_depth": "Abstract and bibliographic metadata only",
+    "assessment": "59 participants, six-month study; selected behavioural signals. Full text still required for deeper appraisal.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [],
+    "access_status": "full text not acquired; wishlist",
+    "metadata_urls": [
+      "https://doi.org/10.3109/14639239709089835",
+      "https://pubmed.ncbi.nlm.nih.gov/9183781/"
+    ]
+  },
+  {
+    "identifier": "10.1037/a0019902",
+    "findings": "Section 4",
+    "inspection_depth": "Title, abstract and selected experimental/discussion sections of author-deposited PDF",
+    "assessment": "Text-learning retrieval/transfer experiments; no T1D or simulation efficacy inference.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Butler_2010_RetrievalTransfer.pdf",
+        "sha256": "324d4bc5ceb78ab140ea17922b15c034a002ab437dc52f7cb85b1babcc3e87c3",
+        "retrieval_route": "https://sites.wustl.edu/mdl1/files/2026/06/Butler-2010-Repeated-testing-produces-superior-transfer-of-learning-relative-to-repeated-studying.pdf",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://doi.org/10.1037/a0019902",
+      "https://sites.wustl.edu/mdl1/files/2026/06/Butler-2010-Repeated-testing-produces-superior-transfer-of-learning-relative-to-repeated-studying.pdf"
+    ]
+  },
+  {
+    "identifier": "10.1037/a0031026",
+    "findings": "F11",
+    "inspection_depth": "Title, abstract, Methods and Results of experiments 1 and 2, and sample feedback",
+    "assessment": "60 and 24 university students analysed; delayed inference questions favour explanation feedback in these experimental conditions.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Butler_2013_ExplanationFeedbackTransfer.pdf",
+        "sha256": "9e0081b434d4ceb33414e0b7e806569cc2654fda15650520b7b48dbfe57acf73",
+        "retrieval_route": "https://sites.wustl.edu/mdl1/files/2026/06/Butler-et-al.-2013-Explanation-feedback-is-better-than-correct-answer-feedback-for-promoting-transfer-of-learning.pdf",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://sites.wustl.edu/mdl1/files/2026/06/Butler-et-al.-2013-Explanation-feedback-is-better-than-correct-answer-feedback-for-promoting-transfer-of-learning.pdf"
+    ]
+  },
+  {
+    "identifier": "10.1109/rbme.2009.2036073",
+    "findings": "F01",
+    "inspection_depth": "Metadata and abstract; no acquired full text",
+    "assessment": "Correct intended review identity; model claims require subsequent full-text verification.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [],
+    "access_status": "full text not acquired; wishlist",
+    "metadata_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/20936056/"
+    ]
+  },
+  {
+    "identifier": "10.5812/ijp.25(3)2015.427",
+    "findings": "F17",
+    "inspection_depth": "Full-text title, abstract and endpoint description",
+    "assessment": "Observed injection distress is not independently assessed injection technique.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Ebrahimpour 2015 - Insulin Injection Distress Trial.pdf",
+        "sha256": "d8d372aff783a011bf007274e2f4845c6e1702b2fa15717870fb41380fd7d903",
+        "retrieval_route": "existing local scholarly collection",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://doi.org/10.5812/ijp.25(3)2015.427"
+    ]
+  },
+  {
+    "identifier": "10.1038/s41598-025-30114-1",
+    "findings": "F15, F17",
+    "inspection_depth": "Title, abstract and targeted methods/results passages",
+    "assessment": "2026 volume, online 2025. Abstract session-completion wording differs from body participant-attendance denominator; preserve discrepancy.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Gu 2025 - Tangbao VR Serious Game.html",
+        "sha256": "3620285ec667984f77dc6f545bdec6f47a41de414c23aec415e7193617946f62",
+        "retrieval_route": "existing local scholarly collection",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      },
+      {
+        "path": "private-literature/articles/Gu 2025 - Tangbao VR Serious Game.pdf",
+        "sha256": "f72feb19cc3f3b6eaefc5802bd9607c54abd65d63274f841649605f792bdbcfe",
+        "retrieval_route": "existing local scholarly collection",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://doi.org/10.1038/s41598-025-30114-1",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12775479/"
+    ]
+  },
+  {
+    "identifier": "10.1007/s40262-014-0165-y",
+    "findings": "F01, F16",
+    "inspection_depth": "Full-text identity and targeted pharmacology passages",
+    "assessment": "Correct Haahr/Heise degludec review; quantitative values require study/formulation context.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Haahr_2014_RW_DegludecPharmacology.html",
+        "sha256": "bec03eba6cade7270934377706b56325224471e8c9cb01a80b79e475f5fe4862",
+        "retrieval_route": "existing local scholarly collection",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/25179915/"
+    ]
+  },
+  {
+    "identifier": "10.3389/fdgth.2022.1014375",
+    "findings": "F07",
+    "inspection_depth": "Abstract, objectives and eligibility scope",
+    "assessment": "Low-/middle-income-country digital-health sustainability review; adjacent rather than direct T1D game evidence.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Kabore 2022 - Barriers and facilitators for the sustainability of digital health interventions in low an.xml",
+        "sha256": "7cfacd42a246ed994dfdba55727a84035227056b2a1435a5d197b0ccc454c702",
+        "retrieval_route": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9742266/fullTextXML",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://doi.org/10.3389/fdgth.2022.1014375"
+    ]
+  },
+  {
+    "identifier": "https://lawrencehallofscience.org/science-apps/i-got-this/",
+    "findings": "F04",
+    "inspection_depth": "Official product page visible text fetched from local computer",
+    "assessment": "T2D protagonist and Lawrence Hall of Science provenance; no installation or store/device test.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [],
+    "access_status": "official page read; not a scholarly full-text request",
+    "metadata_urls": [],
+    "local_response": {
+      "url": "https://lawrencehallofscience.org/science-apps/i-got-this/",
+      "status": 200,
+      "final_url": "https://lawrencehallofscience.org/science-apps/i-got-this/",
+      "checked_at": "2026-09-06T06:10:00.275964+00:00"
+    }
+  },
+  {
+    "identifier": "10.1109/comapp.2018.8460213",
+    "findings": "F10",
+    "inspection_depth": "Publication metadata; primary full text not acquired; anchor review description checked separately",
+    "assessment": "Bibliographic title is wrong in the KB; paired caregiver architecture remains unverified, not disproven.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [],
+    "access_status": "full text not acquired; wishlist",
+    "metadata_urls": [
+      "https://doi.org/10.1109/COMAPP.2018.8460213"
+    ]
+  },
+  {
+    "identifier": "10.1590/1980-220x-reeusp-2024-0134en",
+    "findings": "F19",
+    "inspection_depth": "Abstract and review scope; full-text XML retained, complete critical appraisal outstanding",
+    "assessment": "53-study broad family/child educational-technology comparator; not an exclusively digital-game review.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Morgado 2025 - Educational technologies for families and children with type 1 diabetes a scoping review - 7fae3b3e51921a8c.xml",
+        "sha256": "a59aaa225412794700ee4a35a03af09350ff87affad7608a9a06c2d674ceb3d1",
+        "retrieval_route": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11774519/fullTextXML",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/39899746/"
+    ]
+  },
+  {
+    "identifier": "10.1177/19322968211018236",
+    "findings": "F02, F10",
+    "inspection_depth": "Review methods, scope and relevant game-description tables",
+    "assessment": "Secondary extraction checked against primary reports; not treated as error-free.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Nørlev 2022 - RW - Game Mechanisms in T1D Serious Games.pdf",
+        "sha256": "5377a5890a500fd55f8e04fc32b59c001a1697c41986d8b12a48870e2b7164e5",
+        "retrieval_route": "existing local scholarly collection",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      },
+      {
+        "path": "private-literature/articles/Nørlev_2022_RW_T1DSeriousGameMechanisms.html",
+        "sha256": "3508b836ec0b52064320f578fa431b3f393db6d5913e061fba6fd3190e41e342",
+        "retrieval_route": "existing local scholarly collection",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/34024156/",
+      "https://doi.org/10.1177/19322968211018236"
+    ]
+  },
+  {
+    "identifier": "10.1016/j.diabres.2024.111833",
+    "findings": "F04-F06",
+    "inspection_depth": "Full-text eligibility, tables, availability results, discussion and conclusion",
+    "assessment": "Mixed T1D/T2D review; limited/non-public release is not a measured longitudinal disappearance rate.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Reinders 2024 - RW - Serious Digital Games Accessibility.pdf",
+        "sha256": "f0e797a3c360830f972ae4dee9f9a56e709c6f96c4f1df07abae52ea9f539c56",
+        "retrieval_route": "existing local scholarly collection",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://doi.org/10.1016/j.diabres.2024.111833"
+    ]
+  },
+  {
+    "identifier": "10.1152/ajpendo.1981.240.6.e630",
+    "findings": "F01",
+    "inspection_depth": "Correct identity and abstract; full text outstanding",
+    "assessment": "Correct dose-response study identity; no full re-extraction of quantitative physiology claimed.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [],
+    "access_status": "full text not acquired; wishlist",
+    "metadata_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/7018254/"
+    ]
+  },
+  {
+    "identifier": "10.3102/0034654307313795",
+    "findings": "F11",
+    "inspection_depth": "Title, abstract and review scope",
+    "assessment": "Feedback effectiveness is conditional; no proof of a universal T1D simulation feedback architecture.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Shute_2008_RW_FormativeFeedback.pdf",
+        "sha256": "4d09067f11e38176db4ed3291917771dc5371473179f1e3b143730be7eb5b05a",
+        "retrieval_route": "existing local scholarly collection",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://doi.org/10.3102/0034654307313795"
+    ]
+  },
+  {
+    "identifier": "10.1016/j.pedhc.2024.05.009",
+    "findings": "F17",
+    "inspection_depth": "Abstract and bibliographic metadata only",
+    "assessment": "Feasibility/resilience study; full-text appraisal remains blocked by retrieval gap.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [],
+    "access_status": "full text not acquired; wishlist",
+    "metadata_urls": [
+      "https://doi.org/10.1016/j.pedhc.2024.05.009",
+      "https://pubmed.ncbi.nlm.nih.gov/38935014/"
+    ]
+  },
+  {
+    "identifier": "10.2196/43574",
+    "findings": "Executive assessment; F05, F18; section 4",
+    "inspection_depth": "Full-text eligibility, quantitative results and limitations",
+    "assessment": "Mixed-diabetes HbA1c estimate and activity heterogeneity checked; not T1D educational-transfer evidence.",
+    "checked_on": "2026-09-06",
+    "identity_verified_for_this_use": true,
+    "fulltext_files": [
+      {
+        "path": "private-literature/articles/Yao 2024 - RW - Electronic Games Diabetes Meta-analysis.pdf",
+        "sha256": "02ee69ba1e6f82807177afdf2ddc39d4df8ee9072463bc2cf1ecd2eb5186a28c",
+        "retrieval_route": "existing local scholarly collection",
+        "identity_status": "manually checked; appraisal depth explicitly limited"
+      }
+    ],
+    "access_status": "full text retained",
+    "metadata_urls": [
+      "https://doi.org/10.2196/43574"
+    ]
+  }
+]
