@@ -31,21 +31,15 @@ website:
       - section: "Start here"
         contents:
           - index.qmd
-          - methods.qmd
-          - references/SOURCE-INDEX.md
-          - references/ELIGIBILITY-DECISIONS.md
-          - references/PAYWALLED-WISHLIST.md
-          - docs/reviews/2026-09-06_scientific-content-audit/full-text-backlog.md
           - glossary.qmd
       - section: "Games and evidence"
         contents:
+          - text: "Game catalogue"
+            href: explorer.html
           - knowledge/games/index.qmd
           - knowledge/games/evidence-map.qmd
-          - knowledge/games/catalogue.qmd
-          - knowledge/games/profiles.qmd
           - knowledge/games/availability.qmd
-          - text: "Comparative analysis"
-            href: knowledge/comparisons/comparative-analysis.qmd
+          - knowledge/comparisons/comparative-analysis.qmd
       - section: "Learning and design"
         contents:
           - knowledge/design/index.qmd
@@ -65,6 +59,13 @@ website:
           - knowledge/sustainability/index.qmd
           - knowledge/sustainability/why-games-disappear.qmd
           - knowledge/sustainability/maintenance-patterns.qmd
+      - section: "Methods and sources"
+        contents:
+          - methods.qmd
+          - references/SOURCE-INDEX.md
+          - references/ELIGIBILITY-DECISIONS.md
+          - references/PAYWALLED-WISHLIST.md
+          - docs/reviews/2026-09-06_scientific-content-audit/full-text-backlog.md
 
 format:
   html:

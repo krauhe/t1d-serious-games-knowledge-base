@@ -50,7 +50,7 @@ The current evidence map includes:
 
 | Question | Suggested entry point |
 |---|---|
-| Which games exist, and are they still accessible? | [Game catalogue](knowledge/games/catalogue.qmd) and [availability analysis](knowledge/games/availability.qmd) |
+| Which games exist, and are they still accessible? | [Searchable game catalogue](https://krauhe.github.io/t1d-serious-games-knowledge-base/explorer.html): year, language, platform, audience, learning goals, evidence, access and price; expandable descriptions and sources |
 | What does the evidence actually establish? | [Evidence map](knowledge/games/evidence-map.qmd) |
 | How should a learning game be designed? | [Learning science](knowledge/design/learning-science.qmd) and [game mechanisms](knowledge/design/game-mechanisms.qmd) |
 | How should outcomes be evaluated? | [Evaluation framework](knowledge/design/evaluation.qmd) |
@@ -79,7 +79,7 @@ The work is presented as a structured scoping review and evidence map. It is not
 
 ## Website and local development
 
-The source is organised as a multi-page scientific website with responsive navigation, full-text search, linked references, and an interactive game explorer. The publication configuration is defined in `_quarto.yml`, while the repository's dependency-light builder generates the complete public-safe site in `_site/`.
+The source is organised as a multi-page scientific website with an edge-docked collapsible menu, full-text search, linked references, and one sortable game catalogue. Select a game to expand its description, access links and study results. The publication configuration is defined in `_quarto.yml`, while the repository's dependency-light builder generates the complete public-safe site in `_site/`.
 
 ```text
 pnpm install

@@ -3,8 +3,6 @@
 (function () {
   'use strict';
 
-  const menuButton = document.querySelector('.menu-button');
-  const sidebar = document.getElementById('site-sidebar');
   const searchButton = document.querySelector('.search-button');
   const searchPanel = document.getElementById('search-panel');
   const searchClose = document.querySelector('.search-close');
@@ -36,10 +34,6 @@
   reducedMotion.addEventListener?.('change', requestBackgroundUpdate);
   updateBackgroundPosition();
 
-  menuButton?.addEventListener('click', function () {
-    const isOpen = document.body.classList.toggle('sidebar-open');
-    menuButton.setAttribute('aria-expanded', String(isOpen));
-  });
 
   function openSearch() {
     searchPanel.hidden = false;

@@ -133,7 +133,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Foods move through a stylised bloodstream; the player times insulin and fast carbohydrate to keep simulated glucose within range. More than 60 short levels introduce carbohydrate counting, insulin ratios, exercise and ketones through progressively harder decisions. The central activity is timing an intervention and observing its consequence, rather than reading a reference page.",
+      "catalogue_date": {
+        "year": 2025,
+        "kind": "release",
+        "label": "2025",
+        "basis": "iOS launch April 2025; Android release May 2025; version 1.6 listed in 2026"
+      }
     },
     {
       "id": "ava-type-1",
@@ -251,7 +258,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Players change food, insulin and activity inputs in a real-time glucose simulation and observe the AVA robot's state. Arcade challenges ask them to keep glucose within a target range, while quizzes and lesson levels cover ratios, correction factors and basal insulin. Progress tracking and visual themes accompany the simulation; learning effects have not been established.",
+      "catalogue_date": {
+        "year": 2026,
+        "kind": "release",
+        "label": "2026",
+        "basis": "iOS version 1.0 February 2026; version 1.1.3 March 2026"
+      }
     },
     {
       "id": "flightglucose",
@@ -366,7 +380,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Players select a scenario, administer insulin or carbohydrate, adjust basal insulin or exercise, and observe a time-compressed glucose trajectory. Missions and difficulty tiers cover situations including hypoglycaemia, ketones and alcohol, with tutorial and pass/fail feedback. Browser access was documented in 2026, but subsequent local connection failures prevent a current public-access claim.",
+      "catalogue_date": {
+        "year": null,
+        "kind": "unknown",
+        "label": "Not established",
+        "basis": "Public browser version verified August 2026; Cross-client access inconsistency documented 2026-09-05: indexed content remained retrievable, while direct Windows HTTPS connections failed during the TLS handshake"
+      }
     },
     {
       "id": "mydiabetic",
@@ -506,7 +527,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "A child character follows a daily routine in which the player obtains food and supplies, performs care tasks and manages simulated glucose. Levels introduce insulin pens, pumps, glucose meters, continuous glucose monitoring and other procedures through mini-games and repeated practice. The published co-design programme involved children with type 1 diabetes and peers without diabetes.",
+      "catalogue_date": {
+        "year": 2024,
+        "kind": "study",
+        "label": "2024 study; release unknown",
+        "basis": "Academic development 2016-2022; peer-reviewed feasibility publication 2024; public iOS and Android releases active in 2026"
+      }
     },
     {
       "id": "rufus",
@@ -628,7 +656,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Children care for a bear with diabetes by checking glucose, preparing insulin and meals, and completing care tasks. Progress unlocks 21 animated stories, and an optional physical bear extends the role play beyond the screen. The learner practises caring for another character rather than entering their own treatment data.",
+      "catalogue_date": {
+        "year": 2021,
+        "kind": "release",
+        "label": "2021 app",
+        "basis": "Physical comfort bear used for decades; interactive mobile app launched through Breakthrough T1D and Empath Labs in 2021; Android update December 2025"
+      }
     },
     {
       "id": "glucozor",
@@ -744,7 +779,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Players feed, treat and play with a dinosaur, responding to its simulated glucose changes. Mini-games connect food, insulin and activity with the animal's daily care. The French-language product is aimed at children, with parental involvement specified in its terms.",
+      "catalogue_date": {
+        "year": 2015,
+        "kind": "documented",
+        "label": "By 2015",
+        "basis": "Web/mobile product publicly documented by 2015; official site and legal terms accessible in 2026"
+      }
     },
     {
       "id": "novi-chek",
@@ -861,7 +903,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Novi-Chek combines illustrated reference material and diabetes quizzes with an avatar's mountain ascent. Correct responses and progression equip the avatar, while reminders and treatment information sit alongside the game elements. Its stated audience of adolescents and young adults distinguishes it from products designed for younger children.",
+      "catalogue_date": {
+        "year": 2017,
+        "kind": "documented",
+        "label": "By 2017; revised 2020",
+        "basis": "award-winning first version by 2017; second version 2020; store listing indexed with an October 2024 update, but direct storefront access could not be verified from the local computer in September 2026"
+      }
     },
     {
       "id": "sweet-strategy",
@@ -977,7 +1026,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "This educational companion combines a food database with travel-themed, puzzle and cooking mini-games. The activities concern carbohydrate calculation, food selection and everyday situations involving type 1 diabetes. The Taiwan store lists Traditional Chinese and English, but English in-game content has not been independently verified.",
+      "catalogue_date": {
+        "year": 2022,
+        "kind": "release",
+        "label": "2022",
+        "basis": "iOS release 2022; version 1.3 January 2023; listing visible in 2026"
+      }
     },
     {
       "id": "eddii",
@@ -1101,7 +1157,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Users connect continuous glucose monitoring or log health information, interact with the eddii character, and earn rewards through games and quizzes. Feedback and summaries are tied to real-world data rather than a wholly fictional glucose system. The evaluated Dexcom G6-linked version should be distinguished from the company's later virtual-care services.",
+      "catalogue_date": {
+        "year": 2023,
+        "kind": "documented",
+        "label": "By 2023",
+        "basis": "public iOS/Android product active by 2023; Dexcom partner listing and nationwide US virtual care active in 2026"
+      }
     },
     {
       "id": "captain-novolin",
@@ -1210,7 +1273,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "In this Super Nintendo Entertainment System platform game, players move Captain Novolin through food-themed enemies while collecting food and insulin. Diabetes questions interrupt the action, combining factual recall with the platforming challenge. It is a historical commercial game, not a current source of treatment instruction.",
+      "catalogue_date": {
+        "year": 1992,
+        "kind": "release",
+        "label": "1992",
+        "basis": "SNES release 1992; discontinued"
+      }
     },
     {
       "id": "packy-and-marlon",
@@ -1330,7 +1400,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Players guide two elephant protagonists through an adventure while making contextual decisions about food, insulin and glucose monitoring. Diabetes tasks are embedded in the action and story rather than presented only as separate quizzes. A six-month controlled trial tested self-care, family communication, knowledge and clinical outcomes; these did not all improve.",
+      "catalogue_date": {
+        "year": 1997,
+        "kind": "study",
+        "label": "1990s release; 1997 trial",
+        "basis": "1990s SNES release; exact release date not reverified in this correction; discontinued"
+      }
     },
     {
       "id": "monster-manor",
@@ -1443,7 +1520,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Logging a real blood-glucose check earns rewards for collecting and caring for monsters. The monster collection gives a reason to return and repeat the monitoring activity. This is reinforcement of a real-world routine, not a simulation that teaches why a glucose trajectory changes.",
+      "catalogue_date": {
+        "year": 2013,
+        "kind": "release",
+        "label": "2013",
+        "basis": "mobile launch 2013; unavailable by the 2024 accessibility audit"
+      }
     },
     {
       "id": "koodak-e-tavana",
@@ -1556,7 +1640,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Children rehearse the sequence of an insulin injection and receive procedural feedback. Repetition focuses on a specific care task and the distress associated with it, rather than general glucose management. The small controlled study measured injection-related behavioural distress, not independent injection competence.",
+      "catalogue_date": {
+        "year": 2015,
+        "kind": "study",
+        "label": "2014–2015 reports",
+        "basis": "research prototype reported 2014-2015"
+      }
     },
     {
       "id": "ar-food-game",
@@ -1671,7 +1762,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Children manipulate physical markers while a tablet overlays food-related educational content and feedback. Tangible choices connect the physical cards with an augmented representation on screen. The prototype was evaluated for educational use, but a maintained public release was not located.",
+      "catalogue_date": {
+        "year": 2017,
+        "kind": "study",
+        "label": "2017 study",
+        "basis": "research prototype published 2017"
+      }
     },
     {
       "id": "food-quiz",
@@ -1779,7 +1877,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Children classify food items and receive feedback on whether their answers are correct. Scores organise repeated practice around food and carbohydrate knowledge. The interaction is a focused quiz rather than a dynamic model of food, insulin and exercise.",
+      "catalogue_date": {
+        "year": 2010,
+        "kind": "study",
+        "label": "2010 report",
+        "basis": "research prototype described 2010"
+      }
     },
     {
       "id": "social-diabetes-platform",
@@ -1899,7 +2004,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Young people complete diabetes learning activities and share or compare progress in a social environment. Goals, badges and mini-games combine individual tasks with peer-oriented interaction. The reported platform is a research prototype, with no maintained public service located.",
+      "catalogue_date": {
+        "year": 2012,
+        "kind": "study",
+        "label": "2012 reports",
+        "basis": "prototype papers 2012"
+      }
     },
     {
       "id": "pal",
@@ -2017,7 +2129,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Children interact with a social robot or tablet avatar, work towards learning goals and review progress through a dashboard. Caregivers and clinicians participate in the goal-setting and feedback arrangement. The intervention is a connected coaching system, not a standalone downloadable game.",
+      "catalogue_date": {
+        "year": 2019,
+        "kind": "study",
+        "label": "2016–2019 studies",
+        "basis": "EU research prototype evaluated 2016-2019"
+      }
     },
     {
       "id": "diaquarium",
@@ -2127,7 +2246,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Diabetes-related activities contribute to the care and development of a virtual aquarium. Collection and progression give visible rewards for repeated routines such as monitoring. The aquarium represents progress metaphorically rather than reproducing glucose physiology.",
+      "catalogue_date": {
+        "year": 2018,
+        "kind": "study",
+        "label": "2018 report",
+        "basis": "research prototype published 2018"
+      }
     },
     {
       "id": "diabetic-mario",
@@ -2238,7 +2364,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Players navigate an Android platform environment while making food, insulin and activity-related choices that affect the character. Goals and feedback connect diabetes-themed decisions with progress through levels. The one-week pilot recruited community children and did not require a diagnosis of diabetes.",
+      "catalogue_date": {
+        "year": 2016,
+        "kind": "study",
+        "label": "2016 study",
+        "basis": "research prototype published 2016"
+      }
     },
     {
       "id": "virtual-coach",
@@ -2346,7 +2479,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "A virtual coach presents tasks, asks the learner to make diabetes-management choices and returns feedback. Goals structure practice in everyday self-management and knowledge. The reported intervention uses coaching and scaffolding rather than a conventional action-game loop.",
+      "catalogue_date": {
+        "year": 2015,
+        "kind": "study",
+        "label": "2015 report",
+        "basis": "prototype reported 2015"
+      }
     },
     {
       "id": "tako-dojo",
@@ -2456,7 +2596,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Players complete diabetes knowledge activities and challenges within a martial-arts-themed progression. Levels and feedback organise repeated practice for an adolescent audience. The published pre/post evaluation does not establish a controlled clinical effect.",
+      "catalogue_date": {
+        "year": 2019,
+        "kind": "study",
+        "label": "2019 evaluation",
+        "basis": "research evaluation published 2019"
+      }
     },
     {
       "id": "qare-and-qure",
@@ -2562,7 +2709,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Moosa et al. describe a children's diabetes health-game concept called Qare and Qure. The primary full text has not been verified, so specific player roles, linked-play architecture and moment-to-moment gameplay remain unconfirmed. No maintained public build was located.",
+      "catalogue_date": {
+        "year": 2018,
+        "kind": "study",
+        "label": "2018 report",
+        "basis": "research prototype reported 2018"
+      }
     },
     {
       "id": "sparapani-prototype",
@@ -2672,7 +2826,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "This work translates school-age children's experiences of diabetes into requirements for a serious game. It addresses everyday self-care and coping rather than documenting a complete publicly playable product. Narrative, goals and feedback are proposed design elements, not an evaluated released game loop.",
+      "catalogue_date": {
+        "year": 2019,
+        "kind": "study",
+        "label": "2019 framework",
+        "basis": "conceptual framework published 2019"
+      }
     },
     {
       "id": "tangbao-superman",
@@ -2786,7 +2947,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Children complete superhero-themed diabetes tasks in an immersive virtual-reality environment across structured sessions. Missions, an avatar and repeated feedback organise practice around self-management situations. The four-week study measured a self-management scale and usability, not a knowledge-test or biomedical endpoint.",
+      "catalogue_date": {
+        "year": 2025,
+        "kind": "study",
+        "label": "2025 online; 2026 issue",
+        "basis": "VR intervention evaluated 2025 and published in the 2026 journal volume"
+      }
     },
     {
       "id": "diaped",
@@ -2898,7 +3066,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "DiaPed provides Arabic- and French-language mobile education through short modules and challenges. Quizzes, levels and immediate feedback repeatedly test diabetes knowledge and daily self-management content. The published uncontrolled study measured immediate knowledge change rather than delayed application to unfamiliar situations.",
+      "catalogue_date": {
+        "year": 2025,
+        "kind": "study",
+        "label": "2025 study",
+        "basis": "Tunisian study published 2025"
+      }
     },
     {
       "id": "wecan",
@@ -3006,7 +3181,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "WeCan combines smartphone game-based activities with goals and motivational feedback for adolescents with type 1 diabetes. Its intended focus includes resilience and self-management, rather than glucose simulation alone. The two-arm study principally tested feasibility, including recruitment, completion and satisfaction.",
+      "catalogue_date": {
+        "year": 2024,
+        "kind": "study",
+        "label": "2024 study",
+        "basis": "feasibility trial published 2024"
+      }
     },
     {
       "id": "emoticare",
@@ -3123,7 +3305,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "A graphical time-travel adventure asks adolescents to complete emotion-focused tasks and reflect on diabetes-related situations. Narrative missions address illness perception, emotional awareness, coping and social skills. The programme is a psychosocial intervention, not an insulin-dosing trainer.",
+      "catalogue_date": {
+        "year": 2025,
+        "kind": "study",
+        "label": "2025 reports; registered 2024",
+        "basis": "trial registered 2024; protocol and outcomes published 2025"
+      }
     },
     {
       "id": "norlev-smartphone-prototype",
@@ -3231,7 +3420,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Children participated in iterative development of smartphone-game concepts for everyday life with type 1 diabetes. The work examined proposed goals, feedback and narrative ideas rather than releasing a stable public game. It contributes participatory-design findings, not evidence that a finished game improves self-management.",
+      "catalogue_date": {
+        "year": 2022,
+        "kind": "study",
+        "label": "2022 design study",
+        "basis": "participatory design study published 2022"
+      }
     },
     {
       "id": "turkish-game-video-rct",
@@ -3342,7 +3538,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Children received a digital educational game together with video animation. The trial abstract reports self-management, quality-of-life and glycaemic outcomes, but provides insufficient detail to reconstruct the game's precise interaction loop. Any observed effect concerns the combined intervention, not the game in isolation.",
+      "catalogue_date": {
+        "year": 2025,
+        "kind": "study",
+        "label": "2025 trial",
+        "basis": "randomised trial published 2025"
+      }
     },
     {
       "id": "glucoboy-didget",
@@ -3445,7 +3648,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Dedicated glucose-meter hardware links real blood-glucose tests to rewards in console games. Test activity unlocks items or progression rather than controlling a simulated glucose system. GlucoBoy and DIDGET belong to different hardware generations, both now discontinued.",
+      "catalogue_date": {
+        "year": 2010,
+        "kind": "release",
+        "label": "2000s GlucoBoy; 2010 DIDGET",
+        "basis": "Game Boy Advance accessory launched in the 2000s; DIDGET launched 2010; discontinued"
+      }
     },
     {
       "id": "mundo-carakuato",
@@ -3540,7 +3750,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Reinders et al. list Mundo Carakuato as a diabetes-related educational adventure for children. The retained secondary description identifies challenges about diabetes and self-care; detailed gameplay and current distribution have not been independently verified. The review link documents the listing and is not a link to play the game.",
+      "catalogue_date": {
+        "year": 2024,
+        "kind": "review",
+        "label": "Listed in 2024 review",
+        "basis": "app-store product identified in Reinders et al. 2024"
+      }
     },
     {
       "id": "xugarhero",
@@ -3635,7 +3852,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Reinders et al. identify Xugarhero among diabetes-related app-store games. The retained description indicates superhero-themed learning activities, but language, precise gameplay and current access remain incompletely verified. No product-specific outcome evaluation was located.",
+      "catalogue_date": {
+        "year": 2024,
+        "kind": "review",
+        "label": "Listed in 2024 review",
+        "basis": "app-store product identified in Reinders et al. 2024"
+      }
     },
     {
       "id": "jerry-the-bear",
@@ -3740,7 +3964,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Children care for a connected toy bear by checking its glucose, administering pretend insulin and feeding meals. Tangible role play makes diabetes procedures something performed for a character and discussed with family. The physical product and companion content should not be conflated with the later Rufus app.",
+      "catalogue_date": {
+        "year": null,
+        "kind": "decade",
+        "label": "2010s",
+        "basis": "physical connected toy and companion content launched in the 2010s"
+      }
     },
     {
       "id": "diabetes-spel",
@@ -3835,7 +4066,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "The retained review describes a Dutch-language diabetes education game using questions and short activities. Its documented learning target is diabetes knowledge, with quiz feedback rather than a physiological simulation. Current product access and a detailed independent gameplay description remain unverified.",
+      "catalogue_date": {
+        "year": 2024,
+        "kind": "review",
+        "label": "Listed in 2024 review",
+        "basis": "app-store product identified in Reinders et al. 2024"
+      }
     },
     {
       "id": "diabetes-academy",
@@ -3929,7 +4167,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Diabetes Academy appears in the mixed-diabetes product inventory of Reinders et al. Educational modules, questions and rewards are recorded, but the intended age range, language and current distribution are not fully established. It should not be treated as a verified T1D-specific intervention.",
+      "catalogue_date": {
+        "year": 2024,
+        "kind": "review",
+        "label": "Listed in 2024 review",
+        "basis": "app-store product identified in Reinders et al. 2024"
+      }
     },
     {
       "id": "diabetics-diner",
@@ -4027,7 +4272,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "The retained secondary description places food-related decisions in a diner-themed game. Food selection, carbohydrate content and scoring are the recorded elements; detailed operation and current distribution have not been independently verified. Its listing establishes a historical product lead, not measured learning benefit.",
+      "catalogue_date": {
+        "year": 2024,
+        "kind": "review",
+        "label": "Listed in 2024 review",
+        "basis": "app-store product identified in Reinders et al. 2024"
+      }
     },
     {
       "id": "i-got-this",
@@ -4131,7 +4383,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Players follow a teenage girl through symptoms, diagnosis of type 2 diabetes and subsequent everyday decisions. The narrative uses character identification and choices to represent the experience of illness. English and Spanish versions are described by the creator, but it is not a T1D-management simulation.",
+      "catalogue_date": {
+        "year": null,
+        "kind": "unknown",
+        "label": "Not established",
+        "basis": "Official educational product page retained; exact release/version history not re-extracted"
+      }
     },
     {
       "id": "hell-hath-no-insulin",
@@ -4232,7 +4491,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "This independent Windows game uses narrative and symbolic action to represent recurring insulin demands and interruption. Its subject is the experience of living with type 1 diabetes rather than formal instruction in treatment decisions. It is distributed through itch.io; no peer-reviewed outcome evaluation was located.",
+      "catalogue_date": {
+        "year": null,
+        "kind": "unknown",
+        "label": "Not established",
+        "basis": "independent itch.io release; listing active in 2026"
+      }
     },
     {
       "id": "permanence",
@@ -4331,7 +4597,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "A short interactive narrative explores the persistent presence of chronic illness and its relationship to identity. Choice and atmosphere are used for reflection and perspective taking rather than glucose-management rehearsal. The independent game is distributed through itch.io.",
+      "catalogue_date": {
+        "year": null,
+        "kind": "unknown",
+        "label": "Not established",
+        "basis": "independent itch.io listing active in 2026"
+      }
     },
     {
       "id": "holesome",
@@ -4428,7 +4701,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Holesome uses a compact symbolic interaction to represent diabetes-related experience. It is catalogued as an experiential work rather than a skills-training intervention; more detailed mechanics were not independently verified. The creator distributes it through itch.io.",
+      "catalogue_date": {
+        "year": null,
+        "kind": "unknown",
+        "label": "Not established",
+        "basis": "independent itch.io listing active in 2026"
+      }
     },
     {
       "id": "stable-t1d",
@@ -4526,7 +4806,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "This web product uses game-like progress cues around tracking or reflecting on diabetes routines. Goals and feedback concern self-monitoring rather than a documented fictional management scenario. Its precise game structure and educational effects remain insufficiently established.",
+      "catalogue_date": {
+        "year": null,
+        "kind": "unknown",
+        "label": "Not established",
+        "basis": "public web product active in 2026"
+      }
     },
     {
       "id": "wst",
@@ -4636,7 +4923,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Adults replay and manipulate personalised diabetes scenarios to examine alternative decisions. The intervention centres on retrospective pattern interpretation and counterfactual comparison rather than an action-game challenge. A completed pilot is registered, but a public maintained training service was not located.",
+      "catalogue_date": {
+        "year": null,
+        "kind": "unknown",
+        "label": "Not established",
+        "basis": "completed pilot trial"
+      }
     },
     {
       "id": "exert1d",
@@ -4735,7 +5029,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Adolescents take part in active video games combined with peer interaction and diabetes-specific exercise education. Physical movement is part of the intervention, not merely a represented event in a screen-based simulation. Qualitative and feasibility reports address acceptability, delivery and exercise-management awareness.",
+      "catalogue_date": {
+        "year": 2025,
+        "kind": "study",
+        "label": "2025–2026 reports",
+        "basis": "protocol and qualitative development published"
+      }
     },
     {
       "id": "insuonline",
@@ -4843,7 +5144,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Clinicians manage simulated clinical cases and receive feedback on insulin-prescribing decisions. Case progression and scores structure practice for professionals rather than newly diagnosed patients. The registered intervention concerns insulin management across diabetes types, not exclusively type 1 diabetes.",
+      "catalogue_date": {
+        "year": null,
+        "kind": "unknown",
+        "label": "Not established",
+        "basis": "clinician-training trial registered"
+      }
     },
     {
       "id": "t1d-simulator",
@@ -4956,7 +5264,14 @@
         ],
         "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Players choose food, insulin and activity actions for fixed fictional characters, advance simulated time and observe the glucose trajectory. Campaign and challenge structures allow alternative decisions to be compared across everyday scenarios. The public browser game is available in Danish and English; its educational outcomes have not been independently evaluated.",
+      "catalogue_date": {
+        "year": null,
+        "kind": "unknown",
+        "label": "Not established",
+        "basis": "public browser release active in 2026"
+      }
     },
     {
       "id": "dextro-dash-2000",
@@ -5064,7 +5379,18 @@
         ],
         "evidence_basis": "Desk-research design inference based on developer documentation; not a playtest or measured comparative advantage."
       },
-      "playtest_status": "not_playtested"
+      "playtest_status": "not_playtested",
+      "description": "Players guide DEX across platforms with food encounters, insulin pickups, diamonds and route choices while observing simulated glucose. Movement and item collection combine an arcade challenge with a fictional glucose-management scenario. The public build is a proof of concept, with no demonstrated learning or clinical outcomes.",
+      "catalogue_date": {
+        "year": null,
+        "kind": "unknown",
+        "label": "Not established",
+        "basis": "Public playable prototype documented on 15 September 2026; initial release date not established"
+      }
     }
-  ]
+  ],
+  "editorial_revision": {
+    "date": "2026-09-15",
+    "scope": "Consolidated product descriptions and display dates from retained catalogue and profile evidence. Release, report and review dates are distinguished; this is not a new availability or literature-search update."
+  }
 }

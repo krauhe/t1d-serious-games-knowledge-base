@@ -63,6 +63,10 @@ for (const entry of pageEntries) {
   });
 }
 
+for (const game of readJson(path.join(projectRoot, 'data/games.json')).games) {
+  searchIndex.push({id: 'game-' + game.id, title: game.title, text: game.description + ' ' + game.languages.join(' ') + ' ' + game.learning_objectives.join(' ')});
+}
+
 const headerMarkPath = path.join(projectRoot, 'figures', 'original', 't1d-serious-games-header-icon.png');
 const backgroundPath = path.join(projectRoot, 'figures', 'original', 'pixel-arcade-biomes-background.png');
 const pixelFontPath = path.join(projectRoot, 'assets', 'fonts', 'PressStart2P-Regular.ttf');
@@ -102,18 +106,19 @@ ${baseStyles}
   <a class="skip-link" href="#${pageIdByOutput.get('index.html')}">Skip to content</a>
   <div class="site-background" aria-hidden="true"></div>
   <header class="site-header">
-    <button class="menu-button" type="button" aria-controls="site-sidebar" aria-expanded="false">Menu</button>
+
     <a class="site-brand" href="#${pageIdByOutput.get('index.html')}" aria-label="T1D Serious Games Knowledge Base, home"><span class="brand-mark-frame"><img class="brand-mark" src="${headerMarkDataUri}" alt="" aria-hidden="true"></span><span class="brand-title" aria-hidden="true">T1D Serious Games Knowledge Base</span></a>
     <button class="search-button" type="button" aria-controls="search-panel" aria-expanded="false">Search</button>
   </header>
+  <button class="menu-button sidebar-dock" type="button" aria-controls="site-sidebar" aria-expanded="true">Hide menu</button>
   <div class="private-build-banner"><strong>Private tablet edition.</strong> This self-contained file includes third-party game images retained for private scholarly review. Do not publish or redistribute it.</div>
   <div class="site-shell">
     <aside class="site-sidebar" id="site-sidebar" aria-label="Knowledge-base navigation">${renderNavigation()}</aside>
     <main class="article" id="main-content">
-      <div class="tablet-export-status"><span>Private offline edition</span><span>Generated ${generatedAt}</span><span>Historical search: 24 August 2026; targeted corrections: 6 September 2026</span></div>
+      <div class="tablet-export-status"><span>Private offline edition</span><span>Generated ${generatedAt}</span></div>
       ${chapters.join('\n')}
       <footer class="article-footer">
-        <p>This knowledge base distinguishes measured evidence, adjacent evidence, public product information, and design inference. It does not provide individual medical advice.</p>
+        <p>Educational and research resource; not individual medical advice.</p>
         <p>Original content, structured data, and original figures: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer">CC BY 4.0</a> · Software: MIT License · © 2026 Kristian Rauhe Harreby</p>
       </footer>
     </main>
@@ -127,6 +132,7 @@ ${baseStyles}
   </section>
   <script>
 window.T1D_TABLET_SEARCH_INDEX = ${safeJsonForScript(searchIndex)};
+${fs.readFileSync(path.join(projectRoot, 'tools/sidebar.js'), 'utf8')}
 ${tabletScript()}
   </script>
 </body>
@@ -183,7 +189,12 @@ function rewriteInternalLinks(fragment, currentOutput) {
     const pathPart = target.split(/[?#]/, 1)[0];
     const resolvedOutput = normaliseUrl(path.posix.join(path.posix.dirname(currentOutput), pathPart));
     const targetId = pageIdByOutput.get(resolvedOutput);
-    if (targetId) return `href=${quote}#${targetId}${quote}`;
+    if (targetId) {
+      const fragment = target.includes('#') ? target.slice(target.indexOf('#') + 1) : '';
+      // Catalogue game anchors are unique across the offline document.
+      const anchor = resolvedOutput === 'explorer.html' && fragment.startsWith('game-') ? fragment : targetId;
+      return `href=${quote}#${anchor}${quote}`;
+    }
 
     const linkedFile = resolveInsideSite(resolvedOutput);
     if (fs.existsSync(linkedFile) && fs.statSync(linkedFile).isFile()) {
@@ -234,8 +245,6 @@ function renderNavigation() {
 function tabletScript() {
   return `(function () {
     'use strict';
-    const menuButton = document.querySelector('.menu-button');
-    const sidebar = document.getElementById('site-sidebar');
     const searchButton = document.querySelector('.search-button');
     const searchPanel = document.getElementById('search-panel');
     const searchClose = document.querySelector('.search-close');
@@ -268,16 +277,6 @@ function tabletScript() {
     }
     updateBackgroundPosition();
 
-    menuButton?.addEventListener('click', function () {
-      const isOpen = document.body.classList.toggle('sidebar-open');
-      menuButton.setAttribute('aria-expanded', String(isOpen));
-    });
-
-    sidebar?.addEventListener('click', function (event) {
-      if (!event.target.closest('a')) return;
-      document.body.classList.remove('sidebar-open');
-      menuButton?.setAttribute('aria-expanded', 'false');
-    });
 
     function openSearch() {
       searchPanel.hidden = false;

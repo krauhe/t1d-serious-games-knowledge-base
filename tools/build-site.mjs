@@ -12,6 +12,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { marked } from 'marked';
+import { renderCatalogue } from './catalogue.mjs';
 
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDirectory, '..');
@@ -49,6 +50,7 @@ try {
 
 copyFileIfPresent('styles.css', 'styles.css');
 copyFileIfPresent('tools/site.js', 'site.js');
+copyFileIfPresent('tools/sidebar.js', 'sidebar.js');
 copyFileIfPresent('data/games.json', 'data/games.json');
 copyFileIfPresent('data/studies.json', 'data/studies.json');
 copyFileIfPresent('docs/reviews/2026-09-06_scientific-content-audit/source-access-register.json', 'docs/reviews/2026-09-06_scientific-content-audit/source-access-register.json');
@@ -68,7 +70,9 @@ if (includePrivateImages) {
 }
 
 const searchIndex = [];
-for (const item of flattenedNavigation) {
+// Old bookmarks lead to short relocation pages, not duplicate inventories.
+const relocationPages = ['knowledge/games/catalogue.qmd', 'knowledge/games/profiles.qmd'].map(source => ({source, title:'Game catalogue', relocation:true}));
+for (const item of [...flattenedNavigation, ...relocationPages]) {
   if (!item.source) continue;
   const sourcePath = path.join(projectRoot, item.source);
   if (!fs.existsSync(sourcePath)) continue;
@@ -91,7 +95,7 @@ for (const item of flattenedNavigation) {
   });
   fs.writeFileSync(outputPath, pageHtml, 'utf8');
 
-  searchIndex.push({
+  if (!item.relocation) searchIndex.push({
     title: parsed.title,
     url: outputRelativePath.replaceAll('\\', '/'),
     text: plainText(renderedBody).slice(0, 12000)
@@ -100,7 +104,10 @@ for (const item of flattenedNavigation) {
 
 const explorer = buildExplorer();
 fs.writeFileSync(path.join(outputDirectory, 'explorer.html'), explorer.html, 'utf8');
-searchIndex.push({ title: 'Game explorer', url: 'explorer.html', text: explorer.searchText });
+searchIndex.push({ title: 'Game catalogue', url: 'explorer.html', text: explorer.searchText });
+for (const game of readJson('data/games.json').games) {
+  searchIndex.push({ title: game.title, url: `explorer.html#game-${game.id}`, text: `${game.description} ${game.languages.join(' ')} ${game.learning_objectives.join(' ')}` });
+}
 
 fs.writeFileSync(
   path.join(outputDirectory, 'search-index.js'),
@@ -108,7 +115,7 @@ fs.writeFileSync(
   'utf8'
 );
 
-console.log(`Built ${searchIndex.length} pages in ${outputDirectory}`);
+console.log(`Built ${flattenedNavigation.length} reading pages with ${searchIndex.length} search entries in ${outputDirectory}`);
 console.log(includePrivateImages
   ? 'Private image mode: ON. The output must not be published.'
   : 'Private image mode: OFF. Uncleared third-party images were not copied.');
@@ -218,22 +225,22 @@ function renderPage({ title, description, body, currentOutput, privateImageBuild
   <link rel="icon" type="image/png" href="${rootPrefix}figures/original/t1d-serious-games-header-icon.png">
   <link rel="stylesheet" href="${rootPrefix}styles.css">
 </head>
-<body data-root-prefix="${rootPrefix}">
+<body data-root-prefix="${rootPrefix}"${currentOutput === 'explorer.html' ? ' class="catalogue-page"' : ''}>
   <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="site-background" aria-hidden="true"></div>
   <header class="site-header">
-    <button class="menu-button" type="button" aria-controls="site-sidebar" aria-expanded="false">Menu</button>
+
     <a class="site-brand" href="${rootPrefix}index.html" aria-label="T1D Serious Games Knowledge Base, home"><span class="brand-mark-frame"><img class="brand-mark" src="${rootPrefix}figures/original/t1d-serious-games-header-icon.png" alt="" aria-hidden="true"></span><span class="brand-title" aria-hidden="true">T1D Serious Games Knowledge Base</span></a>
     <button class="search-button" type="button" aria-controls="search-panel" aria-expanded="false">Search</button>
   </header>
+  <button class="menu-button sidebar-dock" type="button" aria-controls="site-sidebar" aria-expanded="true">Hide menu</button>
   ${privateNotice}
   <div class="site-shell">
     <aside class="site-sidebar" id="site-sidebar" aria-label="Knowledge-base navigation">${sidebar}</aside>
     <main class="article" id="main-content">
-      <div class="article-status"><span>Scientific working edition</span><span>Historical search: 24 August 2026</span><span>Targeted corrections: 6 September 2026</span></div>
       ${body}
       <footer class="article-footer">
-        <p>This knowledge base distinguishes measured evidence, adjacent evidence, public product information, and design inference. It does not provide individual medical advice.</p>
+        <p>Educational and research resource; not individual medical advice.</p>
         <p>Original content, structured data, and original figures: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer">CC BY 4.0</a> · Software: <a href="${rootPrefix}LICENSE" rel="license">MIT License</a> · © 2026 Kristian Rauhe Harreby</p>
       </footer>
     </main>
@@ -246,6 +253,7 @@ function renderPage({ title, description, body, currentOutput, privateImageBuild
     </div>
   </section>
   <script src="${rootPrefix}search-index.js"></script>
+  <script src="${rootPrefix}sidebar.js"></script>
   <script src="${rootPrefix}site.js"></script>
 </body>
 </html>`;
@@ -264,102 +272,19 @@ function renderNavigation(currentOutput, rootPrefix) {
 }
 
 function buildExplorer() {
-  const cataloguePath = path.join(projectRoot, 'data', 'games.json');
-  if (!fs.existsSync(cataloguePath)) {
-    const body = '<h1>Game explorer</h1><p>The structured game catalogue is being assembled. This page will become available when <code>data/games.json</code> has been validated.</p>';
-    return {
-      html: renderPage({ title: 'Game explorer', description: '', body, currentOutput: 'explorer.html', privateImageBuild: includePrivateImages }),
-      searchText: 'Game explorer structured catalogue'
-    };
-  }
-
-  const catalogue = readJson('data/games.json');
-  const games = Array.isArray(catalogue) ? catalogue : catalogue.games || [];
-  const cards = games.map(game => renderGameCard(game)).join('\n');
-  const body = `
-    <h1>Game explorer</h1>
-    <p class="lead">Compare intended audiences, platforms, learning objectives, evidence, provenance, cost, and current availability. Absence of evaluation is shown explicitly; public availability is not treated as evidence of effectiveness.</p>
-    <div class="explorer-summary"><strong>${games.length}</strong><span>catalogued games and game-like interventions</span></div>
-    <div class="explorer-controls" aria-label="Catalogue filters">
-      <label>Search<input id="game-search" type="search" placeholder="Title, mechanism, learning objective"></label>
-      <label>Availability<select id="availability-filter"><option value="">All</option>${optionsFor(games, game => game.availability?.status)}</select></label>
-      <label>Evidence<select id="evidence-filter"><option value="">All</option>${optionsFor(games, game => game.evidence?.level)}</select></label>
-      <label>Platform<select id="platform-filter"><option value="">All</option>${optionsFor(games, game => game.platforms, true)}</select></label>
-    </div>
-    <p id="game-result-count" class="result-count" aria-live="polite"></p>
-    <div class="game-grid" id="game-grid">${cards}</div>
-    <script>${explorerScript()}</script>`;
-
+  const games = readJson('data/games.json').games;
+  const studies = readJson('data/studies.json').studies;
+  const body = renderCatalogue(games, {
+    renderStudyDetails, studies,
+    imageFor(game) {
+      const file = findPrivateImageName(game.id);
+      return file ? `<img src="assets/game-images/${encodeURIComponent(file)}" alt="Representative image for ${escapeAttribute(game.title)}">` : '';
+    }
+  });
   return {
-    html: renderPage({ title: 'Game explorer', description: 'Structured comparison of serious games relevant to type 1 diabetes.', body, currentOutput: 'explorer.html', privateImageBuild: includePrivateImages }),
-    searchText: games.map(game => `${game.title} ${game.genre || ''} ${(game.learning_objectives || []).join(' ')}`).join(' ')
+    html: renderPage({title:'Game catalogue', description:'Compare game descriptions, release and study years, languages, platforms, evidence and access.', body, currentOutput:'explorer.html', privateImageBuild:includePrivateImages}),
+    searchText: 'Game catalogue: searchable comparison by year, language, audience, platform, learning objectives, evidence and access.'
   };
-}
-
-function renderGameCard(game) {
-  const screenshot = game.screenshot || {};
-  // Private images are discovered locally by stable game ID. Their filenames
-  // and storage details do not belong in the public catalogue.
-  const localImageName = findPrivateImageName(game.id);
-  const localImagePath = localImageName ? path.join(projectRoot, 'figures', 'game-images-review-only', localImageName) : '';
-  const canShowPrivateImage = includePrivateImages && localImagePath && fs.existsSync(localImagePath);
-  const image = canShowPrivateImage
-    ? `<img src="assets/game-images/${encodeURIComponent(localImageName)}" alt="Representative image for ${escapeAttribute(game.title)}">`
-    : `<div class="game-image-placeholder" aria-label="Image not reproduced"><span>Image not reproduced</span></div>`;
-  const sourceLink = screenshot.source_url
-    ? `<a class="image-source-link" href="${escapeAttribute(screenshot.source_url)}" target="_blank" rel="noopener noreferrer">Image source</a>`
-    : '';
-  const officialUrl = game.links?.official?.[0] || game.links?.stores?.[0] || game.links?.publications?.[0] || '';
-  const evidenceLevel = game.evidence?.level || 'Evidence status not classified';
-  const evidenceDetail = game.evidence?.design_detail || '';
-  // Vis appraisal pr. rapport; et spils evidenskategori er ikke en kvalitetsdom.
-  const studyDetails = renderStudyDetails(game);
-  const availability = game.availability?.status || 'Availability uncertain';
-  const availabilityDetail = game.availability?.status_detail || '';
-  const price = game.availability?.price || 'Price not verified';
-  const linkLabel = availability === 'publicly available'
-    ? 'Open verified access link'
-    : availability === 'availability incompletely verified'
-      ? 'Open recorded link (availability uncertain)'
-      : 'Open documented source link';
-  const platforms = game.platforms || [];
-  const objectives = game.learning_objectives || [];
-  const searchable = plainText([
-    game.title,
-    ...(game.aliases || []),
-    game.genre,
-    game.core_gameplay_loop,
-    ...(game.platforms || []),
-    ...(game.languages || []),
-    ...(game.learning_objectives || []),
-    ...(game.game_mechanisms || []),
-    ...(game.pedagogical_mechanisms || []),
-    game.developer?.classification,
-    ...(game.developer?.names || []),
-    game.evidence?.level,
-    game.evidence?.summary,
-    game.availability?.status
-  ].filter(Boolean).join(' ')).toLowerCase();
-
-  return `<article class="game-card" data-search="${escapeAttribute(searchable)}" data-availability="${escapeAttribute(availability)}" data-evidence="${escapeAttribute(evidenceLevel)}" data-platforms="${escapeAttribute(platforms.join('|'))}">
-    <div class="game-image">${image}${sourceLink}</div>
-    <div class="game-card-body">
-      <div class="game-card-kicker">${escapeHtml(game.target_population?.diabetes_specificity || game.scope_group || 'Diabetes-related')}</div>
-      <h2>${escapeHtml(game.title || 'Untitled game')}</h2>
-      <p>${escapeHtml(game.core_gameplay_loop || game.genre || 'Gameplay description not available.')}</p>
-      <dl class="game-facts">
-        <div><dt>Platform</dt><dd>${escapeHtml(platforms.join(', ') || 'Not verified')}</dd></div>
-        <div><dt>Evidence</dt><dd>${escapeHtml(evidenceLevel)}${evidenceDetail && evidenceDetail !== evidenceLevel ? `<span class="facet-detail">${escapeHtml(evidenceDetail)}</span>` : ''}</dd></div>
-        <div><dt>Availability</dt><dd>${escapeHtml(availability)}${availabilityDetail && availabilityDetail !== availability ? `<span class="facet-detail">${escapeHtml(availabilityDetail)}</span>` : ''}<span class="facet-detail">${escapeHtml(price)}</span></dd></div>
-        <div><dt>Provenance</dt><dd>${escapeHtml(game.developer?.classification || 'Not classified')}${game.developer?.names?.length ? `<span class="facet-detail">${escapeHtml(game.developer.names.join('; '))}</span>` : ''}</dd></div>
-      </dl>
-      <p class="evidence-summary">${escapeHtml(game.evidence?.summary || 'No evidence summary extracted.')}</p>
-      <p class="facet-detail">Availability checked: ${escapeHtml(game.availability?.verified_on || 'unknown')}. Scientific appraisal: ${escapeHtml(game.evidence?.appraisal_date || 'not recorded')}. Not playtested.</p>
-      ${studyDetails}
-      ${objectives.length ? `<div class="tag-list">${objectives.slice(0, 6).map(item => `<span>${escapeHtml(item)}</span>`).join('')}</div>` : ''}
-      <div class="game-card-links">${officialUrl ? `<a href="${escapeAttribute(officialUrl)}" target="_blank" rel="noopener noreferrer">${linkLabel}</a>` : '<span>No active access link verified</span>'}</div>
-    </div>
-  </article>`;
 }
 
 function findPrivateImageName(gameId) {
@@ -389,7 +314,7 @@ function renderStudyDetails(game) {
       '<li><strong>' + escapeHtml(domain.replaceAll('_', ' ')) + ':</strong> ' + escapeHtml(concern) + '</li>'
     ).join('');
     const sources = study.report_urls.map((url, index) =>
-      '<a href="' + escapeAttribute(url) + '" target="_blank" rel="noopener noreferrer">Report source ' + (index + 1) + '</a>'
+      '<a href="' + escapeAttribute(url) + '" target="_blank" rel="noopener noreferrer">Read ' + escapeHtml(study.report_citation) + (index ? ' (alternative full-text route)' : '') + '</a>'
     ).join(' · ');
     return '<details class="study-appraisal"><summary>' + escapeHtml(study.report_citation) +
       '</summary><p><strong>Extraction:</strong> ' + escapeHtml(study.extraction_status) +
@@ -401,41 +326,6 @@ function renderStudyDetails(game) {
       '.</p><ul>' + outcomes + '</ul><h3>Methodological concerns</h3><ul>' + domains +
       '</ul><p>' + sources + '</p></details>';
   }).join('');
-}
-
-function optionsFor(games, accessor, flatten = false) {
-  const values = games.flatMap(game => {
-    const value = accessor(game);
-    return flatten && Array.isArray(value) ? value : [value];
-  }).filter(Boolean);
-  return [...new Set(values)].sort((a, b) => a.localeCompare(b))
-    .map(value => `<option value="${escapeAttribute(value)}">${escapeHtml(value)}</option>`).join('');
-}
-
-function explorerScript() {
-  return `(function () {
-    const cards = [...document.querySelectorAll('.game-card')];
-    const search = document.getElementById('game-search');
-    const availability = document.getElementById('availability-filter');
-    const evidence = document.getElementById('evidence-filter');
-    const platform = document.getElementById('platform-filter');
-    const count = document.getElementById('game-result-count');
-    function update() {
-      const query = search.value.trim().toLowerCase();
-      let visible = 0;
-      for (const card of cards) {
-        const matches = (!query || card.dataset.search.includes(query))
-          && (!availability.value || card.dataset.availability === availability.value)
-          && (!evidence.value || card.dataset.evidence === evidence.value)
-          && (!platform.value || card.dataset.platforms.split('|').includes(platform.value));
-        card.hidden = !matches;
-        if (matches) visible += 1;
-      }
-      count.textContent = visible + ' of ' + cards.length + ' records shown';
-    }
-    [search, availability, evidence, platform].forEach(control => control.addEventListener('input', update));
-    update();
-  }());`;
 }
 
 function plainText(html) {

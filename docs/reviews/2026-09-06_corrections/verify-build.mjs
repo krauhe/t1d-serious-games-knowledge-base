@@ -12,11 +12,12 @@ const explorer = read('_site/explorer.html');
 const tablet = read('output/private/T1D-Serious-Games-Knowledge-Base-private.html');
 const games = JSON.parse(read('data/games.json')).games;
 const studies = JSON.parse(read('data/studies.json')).studies;
-const cards = [...explorer.matchAll(/<article class="game-card"[\s\S]*?<\/article>/g)].map(match => match[0]);
-assert.equal(cards.length, games.length, 'Missing game cards');
+const cards = [...explorer.matchAll(/<tbody class="game-entry"[\s\S]*?<\/tbody>/g)].map(match => match[0]);
+assert.equal(cards.length, games.length, 'Missing catalogue rows');
 assert.equal((explorer.match(/class="study-appraisal"/g) || []).length, studies.length, 'Missing study details');
 assert.equal((tablet.match(/class="study-appraisal"/g) || []).length, studies.length, 'Tablet study details differ');
-assert.equal((tablet.match(/class="tablet-chapter"/g) || []).length, 27);
+const chapterCount = JSON.parse(read('data/navigation.json')).flatMap(section => section.items).length;
+assert.equal((tablet.match(/class="tablet-chapter"/g) || []).length, chapterCount);
 const card = id => {
   const title = games.find(game => game.id === id).title;
   return cards.find(html => html.includes('<h2>' + title.replaceAll('&', '&amp;') + '</h2>'));
@@ -40,4 +41,4 @@ if (!isPrivate) {
   assert.ok(!fs.existsSync(privateImages) || fs.readdirSync(privateImages).length === 0, 'Private image files in public build');
   assert.doesNotMatch(explorer, /src="assets\/game-images\//);
 }
-console.log(JSON.stringify({mode:isPrivate?'private':'public',games:cards.length,studyReports:studies.length,tabletChapters:27,validation:'static assertions passed; no browser visual test'}, null, 2));
+console.log(JSON.stringify({mode:isPrivate?'private':'public',games:cards.length,studyReports:studies.length,tabletChapters:chapterCount,validation:'static assertions passed; no browser visual test'}, null, 2));

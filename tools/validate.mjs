@@ -42,6 +42,7 @@ if (!fs.existsSync(cataloguePath)) {
       'id', 'title', 'target_population', 'platforms', 'genre',
       'learning_objectives', 'core_gameplay_loop', 'game_mechanisms',
       'pedagogical_mechanisms', 'developer', 'evidence', 'availability',
+      'description', 'catalogue_date', 'languages', 'release_history',
       'links', 'screenshot', 'playtest_status'
     ];
     const evidenceLevels = new Set([
@@ -67,6 +68,10 @@ if (!fs.existsSync(cataloguePath)) {
       }
       if (game.id && identifiers.has(game.id)) findings.push(`Duplicate game id: ${game.id}`);
       if (game.id) identifiers.add(game.id);
+      if (!game.description || game.description.length < 100) findings.push(`${label}: missing substantive description.`);
+      if (!game.languages?.length) findings.push(`${label}: language must be recorded or explicitly unknown.`);
+      if (!game.catalogue_date?.label || !game.catalogue_date?.basis) findings.push(`${label}: display date lacks provenance.`);
+      if (game.catalogue_date?.kind === 'unknown' && game.catalogue_date?.year !== null) findings.push(`${label}: unknown date must not use the access year.`);
       if (game.playtest_status !== 'not_playtested') {
         findings.push(`${label}: playtest_status must remain 'not_playtested' during this desk-research phase.`);
       }

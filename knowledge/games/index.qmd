@@ -5,19 +5,13 @@ description: "A structured, evidence-aware entry point to games for type 1 diabe
 toc: true
 ---
 
-## Scope and source note
+Games for ==type 1 diabetes (T1D)== range from procedural rehearsal and glucose simulation to character care, emotional coping and experiential narratives. The [game catalogue](../../explorer.html) contains the product descriptions, dates, languages, evidence and access links.
 
-This section maps digital serious games, simulations, experiential games and selected adjacent gamified products relevant to ==type 1 diabetes (T1D)== education and self-management. Discovery combined independent database and product searches, reference-list and forward-citation searching, and comparison with multiple reviews; no single review defines the scope. The [methods](../../methods.qmd) distinguish these routes and their documentation limits. The inherited search cut-off is 24 August 2026, with incomplete historical raw records. The catalogue received targeted scientific corrections on 6 September 2026; individual availability dates remain separate.
-
-This is a structured scoping review and evidence map, not a registered systematic review. Product descriptions are based on publications, registries, official websites and distribution listings. No listed game was directly playtested during this desk-research phase. Availability, price and regional access are therefore dated observations rather than permanent product attributes.
-
-## Executive synthesis
+## State of the field
 
 Serious games can provide repeated, low-consequence practice and several small studies report immediate knowledge, procedural or psychosocial improvements. The literature does **not** establish that T1D serious games as a class improve long-term self-management or ==glycated haemoglobin (HbA1c)==. A mixed-diabetes meta-analysis found no statistically significant HbA1c effect (mean difference −0.09 percentage points, 95% confidence interval −0.29 to 0.10; *P*=.36) ([Yao et al., 2024](https://doi.org/10.2196/43574)). A 2026 paediatric T1D scoping review identified 23 studies: mobile applications accounted for 52%, goal setting, challenges, and fun were each coded in 96%, social features in 35%, and 70% of studies lacked an explicit theoretical framework. The review reported promising effects across several outcome classes but concluded that sustained benefit remains inadequately established ([Guan et al., 2026](https://doi.org/10.1186/s12887-026-07142-5)).
 
 The field also has an availability problem. In a 2024 mixed-T1D/T2D review and accessibility audit, 21 of 23 research-origin games were not publicly available, whereas app-store products were easier to obtain but generally lacked peer-reviewed product evaluation ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)). Research evidence and public access frequently concern different products.
-
-The current catalogue contains **46** games, prototypes and explicitly labelled adjacent products, including the separately dated addition of DEXTRO DASH 2000 as a proof of concept on 15 September 2026. Affiliated projects are assessed under the same evidence, provenance and availability criteria as every other record; a public release is not evidence of educational effectiveness.
 
 ![Figure 1. Selected milestones in T1D serious games. The four columns show changes in platform and educational structure from console games to mobile, tangible, participatory, browser, virtual-reality and exergame formats. The examples are illustrative rather than exhaustive. Column colour identifies broad, partly overlapping periods of development or reporting, not exact release dates, evidence quality or effectiveness.](../../figures/original/t1d-games-selected-timeline.svg)
 
@@ -42,24 +36,9 @@ An **experiential game** primarily represents what living with a condition feels
 
 **Transfer** is the application of learning beyond the practised task. Immediate recall of the same material is not evidence of transfer to unfamiliar scenarios or daily self-management.
 
-## Navigate this section
+## Where the main gaps remain
 
-1. [Evidence map](evidence-map.qmd) — outcome studies, methodological strength and permitted claims.
-2. [Complete catalogue](catalogue.qmd) — all 46 records with audience, platform, provenance, evidence and access links.
-3. [Availability and sustainability](availability.qmd) — current access, discontinuation and why research games often disappear.
-4. [Selected profiles](profiles.qmd) — evidence-aware descriptions of active, historical, research and experiential games.
-5. [`data/games.json`](../../data/games.json) — the machine-readable source, including uncertainty and verification dates.
-
-## Interpretation principles
-
-1. **Outcome proximity matters.** A quiz score, observed procedure, self-reported behaviour and clinical biomarker answer different questions.
-2. **Acceptability is not effectiveness.** Completion and satisfaction show that an intervention can be used, not that it produces learning or health benefit.
-3. **A compound intervention cannot identify a game effect.** If a study combines a game with animation, coaching or exercise, the components cannot be credited separately without an appropriate design.
-4. **Public visibility is not scientific validation.** Store ratings, downloads and developer testimonials are adoption or marketing signals.
-5. **Publication is not availability.** A peer-reviewed prototype may remain inaccessible outside its study population.
-6. **Absence of evidence is recorded explicitly.** “No evaluation located” is not equivalent to evidence of no effect.
-
-The adjacent eddii trial reports a glycaemic signal but has allocation/exclusion concerns and does not establish learning; see the [evidence map](evidence-map.qmd) for the correction and tested population.
+Newly diagnosed adults, caregiver learning and delayed transfer to unfamiliar situations remain less well characterised than immediate outcomes in children. The [evidence map](evidence-map.qmd) examines those outcome gaps; [design comparisons](../comparisons/comparative-analysis.qmd) contrast what the different interaction structures ask a learner to do. [Availability](availability.qmd) concerns whether those interventions can actually be obtained.
 
 ## References
 

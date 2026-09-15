@@ -68,6 +68,14 @@ Availability is recorded separately from evidence. Every catalogue record should
 
 Regional app-store availability is difficult to exhaustively verify. A game visible in one storefront is therefore not labelled globally available without supporting checks.
 
+## Reading the catalogue
+
+The [game catalogue](explorer.html) combines product descriptions, access metadata and report-level appraisals. A publication link is labelled as research or review evidence, never used as a substitute play link.
+
+The year column distinguishes a documented release from a study year, online/issue publication date or secondary-review listing. An unknown release date remains unknown even if the product was accessed in 2026. Dates and descriptions were reorganised on 15 September 2026 from the retained product and profile records; this editorial revision is not a new search or availability check.
+
+**Direct evidence** comes from a relevant T1D-game population. **Adjacent evidence** comes from a different disease, learning setting or population. **Industry practice** describes a production convention without implying effectiveness. **Design inference** is a proposal requiring evaluation. **Product claims** describe what a developer or distributor asserts, not independently measured outcomes.
+
 ## Conflicts of interest and equal treatment
 
 Project-affiliated games are catalogued with the same schema, evidence thresholds, availability checks, and uncertainty labels as other products. They receive no implementation chapter, composite ranking advantage, or exemption from the distinction between developer claims and independent evidence.

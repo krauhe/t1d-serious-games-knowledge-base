@@ -97,39 +97,10 @@ The inherited narrative grouped records as follows. Without a record-level ledge
 
 The reported counts are preserved as historical claims. Differences may reflect coverage, query timing or indexing, but their specific cause cannot be established without the missing exports. A fresh forward-citation search must carry its own execution date.
 
-## 4. Principal post-2020 and comparator evidence
+## 4. Product and study records
 
-| Source | Design and population | Key extract used in the review |
-|---|---|---|
-| Reinders et al. (2024), DOI [10.1016/j.diabres.2024.111833](https://doi.org/10.1016/j.diabres.2024.111833) | Mixed T1D/T2D review plus accessibility audit; 21 studies, 23 research games and 13 app-store games | 21/23 research-origin games were not public; no web/PC research games could be located; only 1/11 research mobile games was free in Google Play; 13/13 app-store games were in iOS, 5/13 in Google Play and 11/13 were free |
-| Guan et al. (2026), DOI [10.1186/s12887-026-07142-5](https://doi.org/10.1186/s12887-026-07142-5) | Scoping review, Jan 2010–25 Jan 2026; 762 records, 23 included | Mobile apps 52%, websites 17%; goals/challenges/fun each 96%; social features 35%; 70% lacked an explicit theory; long-term evidence remained limited |
-| Novak (2024), DOI [10.2196/49478](https://doi.org/10.2196/49478) | Iterative co-design/feasibility of MyDiabetic; children aged 5–12 | 32 participants across iterations plus five peers; improvement after one week, without controlled long-term clinical evidence |
-| Gu et al. (2026; online 2025), DOI [10.1038/s41598-025-30114-1](https://doi.org/10.1038/s41598-025-30114-1) | Four-week, four-hospital single-group VR study; n=54, age 4–9 | Self-management scale domain effects 0.78–1.27, not knowledge; child usability 86/100. Abstract: 95% session completion; body: 95% of children attended at least 10/12 sessions. No control or biomedical endpoint |
-| Atitallah et al. (2025), DOI [10.1177/30502225251357044](https://doi.org/10.1177/30502225251357044) | Single-group DiaPed study; n=40 | Knowledge 29.8±6.02 to 68.6±1.58/70, P<.001, reported d=6.72; severe ceiling and no comparator |
-| WeCan feasibility study (2024), DOI [10.1016/j.pedhc.2024.05.009](https://doi.org/10.1016/j.pedhc.2024.05.009) | Two-arm feasibility study; n=61 | Recruitment 62.89%; 20/31 intervention participants completed (64.52%); 82% of respondents satisfied; not an efficacy trial |
-| Martín-Ávila et al. (2025), DOI [10.3389/fendo.2025.1668398](https://doi.org/10.3389/fendo.2025.1668398) | emoTICare quasi-experimental study; n=44 adolescents | Reduced perceived illness threat and preliminary socioemotional changes; small sample and limited causal certainty |
-| Turkish game/video trial (2025), DOI [10.1016/j.pedn.2025.01.023](https://doi.org/10.1016/j.pedn.2025.01.023) | Single-blind randomised trial; n=55 | Quality of life higher and HbA1c moved favourably versus control (P<.05); abstract lacks magnitude and cannot isolate game from video |
-| Yao et al. (2024), DOI [10.2196/43574](https://doi.org/10.2196/43574) | Meta-analysis of nine prospective electronic-game studies across diabetes types | HbA1c: seven studies, n=607, MD −0.09 percentage points, 95% CI −0.29 to 0.10, P=.36; physical activity SMD 0.84, 95% CI 0.30–1.38, P=.002, I²=85% |
+The [game catalogue](../explorer.html) provides all product descriptions, access observations and report-level evidence in one place. The [study register](../data/studies.json) is the machine-readable source for participant numbers, instruments, follow-up, results and appraisal.
 
-## 5. Current-product verification register
-
-| Product | Verified access point | Point-in-time status |
-|---|---|---|
-| Level One | [Official site](https://playlevelone.com/), [Apple](https://apps.apple.com/us/app/level-one-a-diabetes-game/id6739605694), [Google Play](https://play.google.com/store/apps/details?id=com.medlevelex.diabetes) | Free iOS/Android; no in-app purchases claimed; account introduced; region completeness uncertain |
-| AvaType1 | [Official site](https://avatype1.com/), [Apple](https://apps.apple.com/us/app/avatype1/id6758495309) | Free iOS/iPadOS; English; active March 2026 version verified |
-| FlightGlucose | Recorded official domain: `diabetessimulations.com` (not linked because local HTTPS access failed) | Automated and Chromium tests from the local computer failed during the TLS handshake on 5 September 2026, while indexed content remained retrievable; five free scenarios and paid subscriptions claimed; independent clinical validation not located |
-| MyDiabetic | [Official site](https://www.my-diabetic.com/), [Apple](https://apps.apple.com/us/app/mydiabetic/id1492327698) | Free public iOS/Android; English/Czech; published feasibility evidence |
-| Rufus | [Google Play](https://play.google.com/store/apps/details?id=com.sproutel.rufus) | Free; 10,000+ Google Play downloads; active update in December 2025 |
-| GlucoZor | [Official site](https://www.glucozor.fr/) | French educational ecosystem; current store distribution incompletely verified |
-| Novi-Chek | [Official Roche page](https://www.accu-chek.fr/produits/application/novi-chek) | Product-information page accessible; target age approximately 13–25; indexed store metadata reported an October 2024 update, but tested App Store and Google Play acquisition links returned HTTP 404 on 5 September 2026 |
-| Sweet Strategy | [Apple Taiwan](https://apps.apple.com/tw/app/%E7%94%9C-%E6%94%BB%E7%95%A5/id1619470848) | Free iOS; Traditional Chinese; region-specific listing |
-| eddii | [Official site](https://www.eddiihealth.com/eddii-app), [Dexcom partner page](https://www.dexcom.com/en-us/partnerships/digital-health-apps/eddii) | Commercial US gamified management/virtual-care product; adjacent, not a pure education game |
-| Hell Hath No Insulin | [itch.io](https://weeabetes.itch.io/hell-hath-no-insulin) | Public independent experiential game |
-| Permanence | [itch.io](https://ivy-leaves.itch.io/permanence) | Public independent narrative game |
-| Holesome | [itch.io](https://holesome.itch.io/holesome) | Public independent experiential game |
-
-All 46 catalogue records include an availability date and confidence rating. Low confidence means that a bibliographic or historical record was verified but the current store, region or device state could not be reproduced comprehensively.
-
-## 6. Correction-era registers
+## 5. Correction-era registers
 
 The [study register](../data/studies.json) separates primary-report extraction from product metadata and flags incomplete fields. The [eligibility ledger](ELIGIBILITY-DECISIONS.md) records comparator scope and unresolved candidates. The [6 September source correction register](../docs/reviews/2026-09-06_corrections/source-access.json) preserves exact attempted URLs, verified identities, access status and source-reading depth for the newly substituted references.

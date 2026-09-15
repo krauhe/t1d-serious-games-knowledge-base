@@ -1,103 +1,44 @@
 ---
-title: "Evidence Map"
-subtitle: "What has been measured, and what the evidence permits us to conclude"
-description: "Controlled studies, feasibility evidence, design research and unsupported claims in type 1 diabetes serious games."
+title: "What Game Studies Have Found"
+description: "Knowledge, procedural distress, engagement, self-management and clinical outcomes in diabetes-game studies."
 toc: true
 ---
 
-## Scope
+## Knowledge and practical competence
 
-This evidence map concerns games for ==type 1 diabetes (T1D)== education, self-management, coping and closely related purposes. It separates research design from product availability and separates proximal educational outcomes from real-world transfer and clinical outcomes. The corpus combines independent searching with reference-list checking and comparisons across reviews; its historical search cut-off is 24 August 2026. The [methods](../../methods.qmd) describe the discovery routes and the limits of the retained search documentation. The most recent dedicated review searched six databases through 25 January 2026 and included 23 paediatric T1D studies ([Guan et al., 2026](https://doi.org/10.1186/s12887-026-07142-5)).
+Immediate knowledge scores can improve substantially without demonstrating durable competence. In [DiaPed](../../explorer.html#game-diaped), 40 children and adolescents improved from 29.8±6.02 to 68.6±1.58 out of 70. The uncontrolled design and near-maximum post-test score prevent attribution to the game alone and leave delayed transfer untested ([Atitallah et al., 2025](https://doi.org/10.1177/30502225251357044)).
 
-## Appraisal provenance
+The distinction also works in the other direction. In the six-month [Packy & Marlon trial](../../explorer.html#game-packy-and-marlon), 59 participants aged 8–16 showed improved reported self-care (*P*=.003) and parent communication (*P*=.025), but no between-group difference in knowledge or ==glycated haemoglobin (HbA1c)==. Self-efficacy (*P*=.07) and urgent-care use (*P*=.08) showed non-significant trends ([Brown et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9183781/)). A knowledge test, family communication measure and clinical endpoint therefore answer different questions about the same game.
 
-Targeted corrections were made on **6 September 2026**. This was not a rerun of the historical search. The [study register](../../data/studies.json) reports extraction depth, population, denominators, outcome constructs and methodological concerns separately. Some entries remain abstract-supported or incompletely extracted; a catalogue category is not a quality rating.
+Population matters as much as the endpoint. The [Diabetic Mario](../../explorer.html#game-diabetic-mario) Android pilot enrolled 12 community children aged 9–13 without requiring diabetes. Its one-week questionnaire findings cannot establish efficacy in children with ==type 1 diabetes (T1D)== ([Baghaei et al., 2016](https://doi.org/10.1089/g4h.2015.0038)).
 
-## Evidence classes
+## Procedural distress and psychosocial learning
 
-| Class | What it can establish | Principal limitation |
-|---|---|---|
-| **Controlled outcome study** | Differences between allocated or comparison groups under specified conditions | Small samples, allocation quality, compound interventions and short follow-up can still limit causal inference |
-| **Uncontrolled pre/post study** | Whether measured outcomes changed during exposure | Cannot separate the intervention from testing effects, maturation, attention, regression or concurrent education |
-| **Feasibility/usability purpose (with or without randomisation)** | Recruitment, completion, acceptability, technical use and implementation barriers | Does not establish educational or clinical effectiveness |
-| **Participatory co-design study** | Requirements, preferences and context reported by intended users | Does not establish that the resulting design changes outcomes |
-| **Development or conceptual description** | Mechanism, architecture, rationale and design history | No measured product effect |
-| **Public product without peer-reviewed evaluation** | Current access and documented product features | Effectiveness remains unknown |
-| **Marketing or developer claim** | What a developer asserts about a product | Not independent outcome evidence |
+A focused intervention can support a more specific interpretation than a general claim of “better self-management”. In a randomised one-week study of 30 children, the [Koodak-e-Tavana injection game](../../explorer.html#game-koodak-e-tavana) reduced observed injection-related behavioural distress relative to control (*P*=.03). The endpoint was distress during a procedure, not independent injection competence or long-term coping ([Ebrahimpour et al., 2015](https://doi.org/10.5812/ijp.25(3)2015.427)).
 
-## Pivotal and recent studies
+[emoTICare](../../explorer.html#game-emoticare) instead addresses illness perception, emotional awareness and social skills. Its quasi-experimental study of 44 adolescents reported reduced perceived illness threat and preliminary socioemotional changes. The small non-randomised design does not establish a general treatment effect on diabetes distress ([Martín-Ávila et al., 2025](https://doi.org/10.3389/fendo.2025.1668398)). These endpoints should remain distinct from empathy or recognition, the intended purposes of several unevaluated experiential games.
 
-The table provides a bounded synthesis; support depth and outstanding appraisal fields are reported in the study register. A ==randomised controlled trial (RCT)== compares allocated groups and can support causal inference when allocation, retention and analysis are adequate.
+## Engagement: satisfaction and return use are different
 
-| Product/intervention | Design and population | Findings used in this map | Interpretive limit |
-|---|---|---|---|
-| Packy & Marlon | RCT; 59 participants aged 8–16; six months | Improved reported self-care (*P*=.003) and parent communication (*P*=.025); no difference in diabetes knowledge or ==glycated haemoglobin (HbA1c)==; urgent-care trend *P*=.08 ([Brown et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9183781/)) | Small early-console study; self-report and historical context; no demonstrated biomedical effect |
-| Koodak-e-Tavana | Randomised one-week study; 30 children | Reduced observed injection-related behavioural distress: within-intervention *P*=.001; between groups *P*=.03 ([Ebrahimpour et al., 2015](https://doi.org/10.5812/ijp.25(3)2015.427)) | Narrow target, small sample and no durability evidence |
-| Diabetic Mario | Uncontrolled one-week Android pilot; 12 community-recruited children aged 9–13; diabetes not required | General-health/diabetes knowledge questionnaire (21 items) and usability ([Baghaei et al., 2016](https://doi.org/10.1089/g4h.2015.0038)) | Not a comparative study and not a diagnosed-T1D sample; no T1D clinical or transfer effect established |
-| eddii | Initially randomised; 92 children with T1D aged 5–12; 70 in glycaemic analysis (38/32); six intervention weeks | Adjusted difference-in-differences in continuous-glucose-monitor time in range: +5.38 percentage points, *P*=.001 ([Ahmadi and Lucero, 2025; online 2024](https://doi.org/10.1177/19322968231223759)) | Three replacement enrollees assigned intervention non-randomly; post-randomisation exclusions; high baseline time in range; company-sponsored with author employment; no educational-transfer endpoint |
-| MyDiabetic | Iterative co-design and feasibility; 32 children across iterations plus five peers | Short one-week educational improvement and extensive design input ([Novak, 2024](https://doi.org/10.2196/49478)) | No controlled long-term or clinical endpoint |
-| WeCan | Two-arm feasibility; 61 recruited | Recruitment 62.89%; 20 of 31 intervention participants completed; 82% of respondents were satisfied ([WeCan study, 2024](https://doi.org/10.1016/j.pedhc.2024.05.009)) | Designed to test feasibility, not efficacy; satisfaction excludes non-responders |
-| emoTICare | Quasi-experimental; 44 adolescents | Reduced perceived illness threat and preliminary socioemotional changes ([Martín-Ávila et al., 2025](https://doi.org/10.3389/fendo.2025.1668398)) | Small non-randomised study; findings do not establish a general effect on diabetes distress |
-| Tangbao Superman Transformation | Four-week, four-hospital single-group study; 54 children aged 4–9 | Self-Management Scale for T1D Children (SMS-T1DC) domains, not knowledge: reported effects 0.78–1.27; attendance discrepancy discussed below; child ==System Usability Scale (SUS)== score 86/100 ([Gu et al., 2026; online 2025](https://doi.org/10.1038/s41598-025-30114-1)) | No comparator or biomedical endpoint; immersive ==virtual reality (VR)== hardware limits generalisability |
-| DiaPed | Single-group pre/post; 40 children and adolescents | Knowledge increased from 29.8±6.02 to 68.6±1.58 out of 70; *P*<.001; reported *d*=6.72 ([Atitallah et al., 2025](https://doi.org/10.1177/30502225251357044)) | Near-maximum post-test score, no comparator and no delayed transfer measure |
-| Digital game plus animation | Single-blind RCT; 55 children | Abstract reports better quality of life and favourable HbA1c differences versus control, *P*<.05 ([Turkish trial, 2025](https://doi.org/10.1016/j.pedn.2025.01.023)) | Effect magnitude absent from abstract; game effect cannot be separated from animation |
-| Electronic games across diabetes types | Meta-analysis; seven HbA1c studies, 607 participants | HbA1c mean difference −0.09 percentage points, 95% ==confidence interval (CI)== −0.29 to 0.10, *P*=.36; physical-activity standardised mean difference 0.84, CI 0.30–1.38, *P*=.002, with high heterogeneity ([Yao et al., 2024](https://doi.org/10.2196/43574)) | Mixed diabetes populations and intervention types; physical-activity result includes exergames and is not evidence for screen-based simulation |
+In the two-arm [WeCan feasibility study](../../explorer.html#game-wecan), 20 of 31 intervention participants completed the programme, while 82% of responding participants reported satisfaction. Satisfaction among respondents is compatible with substantial non-completion; it is not a measure of retention for everyone recruited ([Wu et al., 2024](https://doi.org/10.1016/j.pedhc.2024.05.009)).
 
-## Evidence by outcome domain
+The [Tangbao virtual-reality study](../../explorer.html#game-tangbao-superman) followed 54 children aged 4–9 for four weeks. It reported self-management-scale domain effects of 0.78–1.27 and a child usability score of 86/100. Its abstract's “95% session completion” differs from the body’s statement that 95% of children attended at least 10 of 12 sessions; the denominators cannot be treated as equivalent. With no comparator or biomedical endpoint, these results describe feasibility and measured change, not causal clinical benefit ([Gu et al., 2026; online 2025](https://doi.org/10.1038/s41598-025-30114-1)).
 
-### Knowledge
+## Glycaemic outcomes
 
-The uncontrolled DiaPed study reports a large immediate knowledge change compatible with learning, but the lack of controls, ceiling effects and possible reuse of closely aligned assessment content weaken causal and transfer claims. Packy & Marlon produced behavioural and communication changes without a knowledge difference, demonstrating that outcome classes are not interchangeable.
+Across mixed diabetes populations, seven studies with 607 participants produced a pooled HbA1c difference of −0.09 percentage points (95% confidence interval −0.29 to 0.10; *P*=.36). The same meta-analysis found a physical-activity standardised mean difference of 0.84 (95% confidence interval 0.30–1.38), but with high heterogeneity and interventions including active video games. That activity result cannot be transferred to sedentary glucose simulations ([Yao et al., 2024](https://doi.org/10.2196/43574)).
 
-### Practical self-management competence
+The [eddii trial](../../explorer.html#game-eddii) provides a product-specific glycaemic signal. Of 92 randomised children with T1D aged 5–12, 70 entered the glycaemic analysis. The adjusted difference-in-differences in continuous-glucose-monitor time in range was +5.38 percentage points over six intervention weeks (*P*=.001). Non-random assignment of three replacement participants, post-randomisation exclusions, high baseline time in range and sponsor/author interests limit inference. The trial tested a particular data-linked interface, not educational transfer or every later eddii service ([Ahmadi and Lucero, 2025; online 2024](https://doi.org/10.1177/19322968231223759)).
 
-Evidence is more informative when the target is specific. Koodak-e-Tavana assessed observed injection-related behavioural distress, **not independent injection competence**; Packy & Marlon assessed reported self-care. Tangbao used a self-management scale, not a knowledge test. Many other studies use the phrase “self-management” without testing performance in a novel scenario. A stronger assessment would require an unfamiliar case, an explanation of the chosen action, a safety score and delayed reassessment.
+A [Turkish trial](../../explorer.html#game-turkish-game-video-rct) with 55 children reported favourable quality-of-life and HbA1c differences after a **game-plus-animation** intervention. The available abstract does not provide effect magnitudes, and the game cannot be credited separately from the animation ([Tınmaz and Altundağ, 2025](https://doi.org/10.1016/j.pedn.2025.01.023)).
 
-### Transfer
+## The unresolved question: transfer
 
-The studies extracted here do not establish durable transfer to unfamiliar scenarios. This is not an exhaustive field-wide absence claim. Simulations can vary meal composition, timing, insulin action, activity and uncertainty while preserving underlying principles, but that theoretical affordance is not itself evidence that transfer occurs. Near-transfer and far-transfer outcomes should be prespecified separately.
+The studies extracted here do not establish durable application to unfamiliar scenarios or everyday management. A later review of 23 paediatric T1D studies also found that sustained benefit remained inadequately established ([Guan et al., 2026](https://doi.org/10.1186/s12887-026-07142-5)). This is a limitation of the reviewed evidence, not proof that games cannot produce transfer.
 
-### Self-efficacy and autonomy
+For a causal-learning game, the useful next test is whether a learner can predict and explain an **unseen** scenario after a delay—not whether they can repeat a level they have practised. For a procedural or psychosocial game, assessments should match the intended skill or experience. The [evaluation chapter](../design/evaluation.qmd) sets out designs and instruments for these questions.
 
-Packy & Marlon reported a non-significant self-efficacy trend (*P*=.07). Feasibility studies sometimes report confidence or perceived competence, but small samples and multiple outcomes limit inference. Autonomy-supportive design—optional exploration, reversible choices and legible explanations—remains a justified design property, not a demonstrated psychological effect.
-
-### Distress, coping and resilience
-
-The small Koodak-e-Tavana trial reported an injection-distress difference. emoTICare addresses illness perception, emotional awareness and social skills. Independent experiential games may support recognition or empathy, but no peer-reviewed outcome evaluation was located for the catalogued titles. Games should not be described as psychological treatment without a dedicated intervention, validated instrument, comparator and follow-up.
-
-### Engagement and sustained use
-
-Tangbao's abstract states 95% session completion, whereas its body states that 95% of children attended at least 10 of 12 sessions. These are different denominators and the discrepancy remains unresolved; WeCan reported satisfaction among respondents while only 64.52% of intervention participants completed. Satisfaction among completers can coexist with substantial attrition. Minimum reporting should include offers, starts, return use, completion, exposure distribution and reasons for discontinuation.
-
-### Behaviour and clinical endpoints
-
-Packy & Marlon improved reported self-care and communication without improving HbA1c. The combined Turkish intervention is promising but underreported and component effects are inseparable. The pooled mixed-diabetes HbA1c estimate is small and statistically non-significant. The eddii trial adds a product-specific glycaemic signal with important allocation, missing-data and sponsor-related concerns. Thus selected educational, behavioural and glycaemic effects have been reported, but neither a class-wide clinical benefit nor educational transfer from a glycaemic improvement is established.
-
-## Claim discipline
-
-| Observation | Permitted conclusion | Conclusion not permitted |
-|---|---|---|
-| Users rate a game highly | The product was acceptable to surveyed users | The product is effective education or treatment |
-| Immediate post-test rises | Test-proximal learning is compatible with the data | Knowledge is durable or transfers to daily life |
-| Logging increases | The rewarded action increased | Understanding or safer management improved |
-| HbA1c changes after game plus animation | The compound intervention may have affected HbA1c | The game component caused the change |
-| A physiological model passes validation tests | Specified simulated relationships match the validation targets | Players understand those relationships or change behaviour |
-| A product remains in an app store | It is visible in that store, region and date | It is maintained everywhere, clinically endorsed or effective |
-
-## Methodological priorities
-
-1. Pre-register a primary learning construct and a plausible causal pathway.
-2. Use parallel assessment forms and delayed follow-up, not only repeated immediate quizzes.
-3. Measure transfer with unfamiliar scenarios and explicit causal explanations.
-4. Report intervention exposure, non-use and attrition at the participant level.
-5. Isolate game components when claiming mechanism-specific effects.
-6. Separate model validation, usability, learning, behaviour and clinical outcomes.
-7. Include adverse experiences, anxiety, accessibility and inequitable access.
-8. Archive a runnable build, version identifier and maintenance contact with every publication.
-
-## Limitations of this evidence map
-
-The search was not prospectively registered, selection and extraction were not duplicated by a second independent reviewer, and several historically important articles were accessible only through abstracts or bibliographic records. Product availability varies by region, device and account. Heterogeneous games and outcomes preclude a defensible pooled T1D-only effect estimate. The historical search cut-off is 24 August 2026; the targeted 6 September correction does not establish completeness up to the later date.
+The [catalogue](../../explorer.html) contains the full product-linked sample, instrument, follow-up, result and appraisal records. [Methods and sources](../../methods.qmd) document the search limits and distinguish full-text from abstract-supported extraction.
 
 ## References
 
@@ -127,13 +68,9 @@ The search was not prospectively registered, selection and extraction were not d
 
 [Yao, W. et al. (2024) ‘Electronic interactive games for glycemic control in individuals with diabetes: Systematic review and meta-analysis’, *JMIR Serious Games*, 12, e43574.](https://doi.org/10.2196/43574)
 
+
 ## Abbreviation glossary
 
-| Abbreviation | Meaning |
-|---|---|
-| CI | Confidence interval; an uncertainty range around an estimated effect. |
-| HbA1c | Glycated haemoglobin; a biomarker reflecting average glycaemia over approximately 2–3 months. |
-| RCT | Randomised controlled trial; a comparative experiment using random allocation. |
-| SUS | System Usability Scale; a standard questionnaire for perceived usability. |
-| T1D | Type 1 diabetes. |
-| VR | Virtual reality; an immersive computer-generated environment. |
+**HbA1c — Glycated haemoglobin:** a biomarker reflecting average glycaemia over approximately two to three months.
+
+**T1D — Type 1 diabetes.**
