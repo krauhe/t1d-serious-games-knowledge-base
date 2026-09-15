@@ -20,19 +20,21 @@ The comparison separates five questions:
 
 These dimensions cannot be collapsed into a defensible single score. Public accessibility does not demonstrate educational effectiveness, while an evaluated intervention has little practical reach if the tested version is no longer obtainable. Breadth, realism, simplicity, emotional engagement, and evidential maturity should therefore be reported separately.
 
-## Contemporary public-product comparison
+## Contemporary product comparison
+
+Advantages and limitations in this table are **desk-research design inferences**, not observed usability or measured comparative effects. ‘No study located’ is bounded by the retained search record, whose limitations are described in [Methods](../../methods.qmd).
 
 | Product | Primary interaction and learning scope | Principal design advantage | Principal limitation | Product-specific evidence | Access at last verification |
 |---|---|---|---|---|---|
 | [Level One](https://playlevelone.com/) | Short physics-like puzzles about food, insulin, glucose, ketones, exercise, and timing | Rapid entry into progressively harder causal problems | Abstract representation may not make every mechanism explicit | No peer-reviewed outcome evaluation located | Free iOS/Android; account and regional limits apply |
-| [AvaType1](https://avatype1.com/) | Narrative everyday scenarios with choices about living with T1D | Situational framing can connect knowledge to social context | Breadth, depth, and current platform support were incompletely verified | No independent controlled outcome evaluation located | Public iOS/Android listings were identified |
+| [AvaType1](https://avatype1.com/) | Glucose simulation with arcade mini-games and tiered explanations | Situational framing can connect knowledge to social context | Breadth, depth, and current platform support were incompletely verified | No independent controlled outcome evaluation located | US iOS/iPadOS listing verified; Android not verified |
 | FlightGlucose | Browser scenarios spanning insulin, meals, activity, hypoglycaemia, ketones, and alcohol | Installation-free scenario structure when hosting is reachable | Developer, clinical, language, and evaluation claims require fuller independent verification | No peer-reviewed outcome evaluation located | No locally functioning access link on 5 September 2026; indexed content advertised five free scenarios and subscriptions |
 | [MyDiabetic](https://www.my-diabetic.com/) | Guide a child character through devices, food, insulin, and daily routines | Participatory design and concrete care context | Short, uncontrolled learning evidence does not establish durable competence | Co-design and feasibility evaluation; no controlled long-term outcome evidence ([Novak, 2024](https://doi.org/10.2196/49478)) | Free iOS/Android; English and Czech verified |
 | [Rufus](https://www.breakthrought1d.org/news-and-updates/new-interactive-rufus-the-bear-with-diabetes/) | Care for a bear through monitoring, meals, insulin, tasks, and stories | Emotional distance and role play may suit younger children | Correct completion of a care animation is not necessarily physiological understanding | No controlled evaluation of the current product located | Free mobile app; optional physical bear has separate access conditions |
 | [GlucoZor](https://www.glucozor.fr/) | Dinosaur care, quizzes, and mini-games for children and parents | Child- and family-oriented French presentation | Contemporary store access and independent evaluation remain uncertain | Development information; no controlled current-product outcome study located | Official French site active; app continuity incompletely verified |
 | [T1D Simulator](https://krauhe.github.io/t1d-simulator/) | Select actions for fixed fictional characters, advance time, observe glucose trajectories, and compare alternatives | Broad, time-compressed causal simulation with counterfactual comparison | A broad interface and interacting variables may increase initial cognitive load | No peer-reviewed educational outcome evaluation located | Free browser access in Danish and English; no account identified |
 
-The representative images and their source links can be inspected in the [Game explorer](../../explorer.html). Images shown in the private build are not automatically cleared for public republication.
+The representative images and their source links can be inspected in the [Game explorer](../../explorer.html).
 
 ## Design-archetype comparison
 
@@ -58,9 +60,9 @@ MyDiabetic and Rufus foreground care tasks. Level One, FlightGlucose, and T1D Si
 
 ## Comparison with historically evaluated games
 
-The 1994 console game Packy & Marlon remains important because it had a six-month controlled evaluation. Among 59 participants aged 8-16 years, the study reported improved parent communication and self-care, no difference in diabetes knowledge or glycated haemoglobin, and only a non-significant trend in urgent care ([Brown et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9183781/)). The result demonstrates neither class-wide clinical benefit nor failure. It shows that behavioural and relational outcomes may change without a knowledge-test or biomedical effect.
+The 1990s console game Packy & Marlon remains important because it had a six-month controlled evaluation. Among 59 participants aged 8-16 years, the study reported improved parent communication and self-care, no difference in diabetes knowledge or glycated haemoglobin, and only a non-significant trend in urgent care ([Brown et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9183781/)). The result demonstrates neither class-wide clinical benefit nor failure. It shows that behavioural and relational outcomes may change without a knowledge-test or biomedical effect.
 
-No equivalent controlled product-specific outcome study was located for the contemporary public products in the comparison table. Consequently, a claim that any of them is educationally superior would exceed the evidence.
+No equivalent controlled product-specific outcome study was identified for the selected products in this table within the documented searches. This selection is not the entire field: the adjacent CGM-linked eddii product has a controlled glycaemic trial with methodological concerns, described in the [evidence map](../games/evidence-map.qmd). Consequently, a claim that any of them is educationally superior would exceed the evidence.
 
 ## Comparison with participatory research
 

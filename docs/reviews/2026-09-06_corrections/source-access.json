@@ -1,0 +1,349 @@
+{
+  "date": "2026-09-06",
+  "scope": "New physiological citation corrections; original audit register remains a historical snapshot.",
+  "records": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32591906/",
+      "pmid": "32591906",
+      "doi": "10.1007/s00424-020-02417-x",
+      "title": "Glucose transporters in adipose tissue, liver, and skeletal muscle in metabolic health and disease.",
+      "authors": "Chadt A, Al-Hasani H.",
+      "checked_at": "2026-09-06T06:47:11.341903+00:00",
+      "identity_status": "matched against Europe PMC metadata and inspected article body or abstract; cited PubMed destination may be access-restricted",
+      "access_status": "full text retained; selected relevant sections inspected",
+      "inspection_depth": "identity and targeted relevant full-text paragraphs; not a complete critical appraisal",
+      "attempts": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32591906/",
+          "kind": "cited destination",
+          "attempted_at": "2026-09-06T06:47:11.341903+00:00",
+          "status": 203,
+          "final_url": "https://pubmed.ncbi.nlm.nih.gov/32591906/",
+          "bytes": 5565
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32591906%20AND%20SRC%3AMED&format=json&resultType=core",
+          "kind": "Europe PMC metadata",
+          "attempted_at": "2026-09-06T06:47:12.203065+00:00",
+          "status": 200,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32591906%20AND%20SRC%3AMED&format=json&resultType=core",
+          "bytes": 6349
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7462924/fullTextXML",
+          "kind": "repository full text XML",
+          "attempted_at": "2026-09-06T06:47:12.565129+00:00",
+          "status": 200,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7462924/fullTextXML",
+          "bytes": 390209
+        }
+      ],
+      "additional_attempts": [],
+      "retained_files": [
+        {
+          "sha256": "928cfa93011015b3c0ae4c14ada5de8f5e9a4ad35a0c9ee321e8622fc98ae5e5",
+          "route": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7462924/fullTextXML",
+          "format": "XML"
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30116732/",
+      "pmid": "30116732",
+      "doi": "10.1155/2018/1205121",
+      "title": "Factors Affecting the Absorption of Subcutaneously Administered Insulin: Effect on Variability.",
+      "authors": "Gradel AKJ, Porsgaard T, Lykkesfeldt J, Seested T, Gram-Nielsen S, Kristensen NR, Refsgaard HHF.",
+      "checked_at": "2026-09-06T06:47:11.341903+00:00",
+      "identity_status": "matched against Europe PMC metadata and inspected article body or abstract; cited PubMed destination may be access-restricted",
+      "access_status": "full text retained; selected relevant sections inspected",
+      "inspection_depth": "identity and targeted relevant full-text paragraphs; not a complete critical appraisal",
+      "attempts": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30116732/",
+          "kind": "cited destination",
+          "attempted_at": "2026-09-06T06:47:11.341903+00:00",
+          "status": 203,
+          "final_url": "https://pubmed.ncbi.nlm.nih.gov/30116732/",
+          "bytes": 5565
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30116732%20AND%20SRC%3AMED&format=json&resultType=core",
+          "kind": "Europe PMC metadata",
+          "attempted_at": "2026-09-06T06:47:12.217161+00:00",
+          "status": 200,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30116732%20AND%20SRC%3AMED&format=json&resultType=core",
+          "bytes": 7299
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6079517/fullTextXML",
+          "kind": "repository full text XML",
+          "attempted_at": "2026-09-06T06:47:12.569128+00:00",
+          "status": 200,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6079517/fullTextXML",
+          "bytes": 256483
+        }
+      ],
+      "additional_attempts": [],
+      "retained_files": [
+        {
+          "sha256": "7b8a2606c011c09b47bbc2f941b0f55fe87ceb9c7bf5e6d673daad78ddd44edb",
+          "route": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6079517/fullTextXML",
+          "format": "XML"
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19444330/",
+      "pmid": "19444330",
+      "doi": "10.1177/193229680900300106",
+      "title": "In silico preclinical trials: a proof of concept in closed-loop control of type 1 diabetes.",
+      "authors": "Kovatchev BP, Breton M, Man CD, Cobelli C.",
+      "checked_at": "2026-09-06T06:47:11.341903+00:00",
+      "identity_status": "matched against Europe PMC metadata and inspected article body or abstract; cited PubMed destination may be access-restricted",
+      "access_status": "full text not acquired; abstract-supported only",
+      "inspection_depth": "bibliographic metadata and abstract",
+      "attempts": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19444330/",
+          "kind": "cited destination",
+          "attempted_at": "2026-09-06T06:47:11.342910+00:00",
+          "status": 203,
+          "final_url": "https://pubmed.ncbi.nlm.nih.gov/19444330/",
+          "bytes": 5565
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A19444330%20AND%20SRC%3AMED&format=json&resultType=core",
+          "kind": "Europe PMC metadata",
+          "attempted_at": "2026-09-06T06:47:12.249441+00:00",
+          "status": 200,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A19444330%20AND%20SRC%3AMED&format=json&resultType=core",
+          "bytes": 6868
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2681269/fullTextXML",
+          "kind": "repository full text XML",
+          "attempted_at": "2026-09-06T06:47:12.575870+00:00",
+          "status": 404,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2681269/fullTextXML",
+          "bytes": 0
+        }
+      ],
+      "additional_attempts": [
+        {
+          "url": "https://doi.org/10.1177/193229680900300106",
+          "kind": "cited destination",
+          "attempted_at": "2026-09-06T07:13:14.689499+00:00",
+          "status": 403,
+          "final_url": "https://journals.sagepub.com/doi/10.1177/193229680900300106",
+          "bytes": 5714
+        },
+        {
+          "url": "https://api.crossref.org/works/10.1177%2F193229680900300106",
+          "kind": "Crossref metadata",
+          "attempted_at": "2026-09-06T07:13:15.027151+00:00",
+          "status": 200,
+          "final_url": "https://api.crossref.org/works/10.1177%2F193229680900300106",
+          "bytes": 11375
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1177/193229680900300106%22&format=json&resultType=core",
+          "kind": "Europe PMC metadata",
+          "attempted_at": "2026-09-06T07:13:15.520039+00:00",
+          "status": 200,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1177/193229680900300106%22&format=json&resultType=core",
+          "bytes": 6829
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2681269/fullTextXML",
+          "kind": "repository full text XML",
+          "attempted_at": "2026-09-06T07:13:15.920799+00:00",
+          "status": 404,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2681269/fullTextXML",
+          "bytes": 0
+        },
+        {
+          "url": "https://journals.sagepub.com/doi/pdf/10.1177/193229680900300106",
+          "kind": "publisher PDF",
+          "attempted_at": "2026-09-06T07:13:16.092373+00:00",
+          "status": 403,
+          "final_url": "https://journals.sagepub.com/doi/pdf/10.1177/193229680900300106",
+          "bytes": 5726
+        }
+      ],
+      "retained_files": []
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26426068/",
+      "pmid": "26426068",
+      "doi": "10.3390/biom5042223",
+      "title": "Impact of Alcohol on Glycemic Control and Insulin Action.",
+      "authors": "Steiner JL, Crowell KT, Lang CH.",
+      "checked_at": "2026-09-06T06:47:12.694947+00:00",
+      "identity_status": "matched against Europe PMC metadata and inspected article body or abstract; cited PubMed destination may be access-restricted",
+      "access_status": "full text retained; selected relevant sections inspected",
+      "inspection_depth": "identity and targeted relevant full-text paragraphs; not a complete critical appraisal",
+      "attempts": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26426068/",
+          "kind": "cited destination",
+          "attempted_at": "2026-09-06T06:47:12.694947+00:00",
+          "status": 203,
+          "final_url": "https://pubmed.ncbi.nlm.nih.gov/26426068/",
+          "bytes": 5565
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A26426068%20AND%20SRC%3AMED&format=json&resultType=core",
+          "kind": "Europe PMC metadata",
+          "attempted_at": "2026-09-06T06:47:13.054678+00:00",
+          "status": 200,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A26426068%20AND%20SRC%3AMED&format=json&resultType=core",
+          "bytes": 6922
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4693236/fullTextXML",
+          "kind": "repository full text XML",
+          "attempted_at": "2026-09-06T06:47:13.283581+00:00",
+          "status": 200,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4693236/fullTextXML",
+          "bytes": 224034
+        }
+      ],
+      "additional_attempts": [],
+      "retained_files": [
+        {
+          "sha256": "cdcc7e7c08f19642fce07b222dcd0fbedb3209df06127f82550d618a8330ff92",
+          "route": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4693236/fullTextXML",
+          "format": "XML"
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7018254/",
+      "pmid": "7018254",
+      "doi": "10.1152/ajpendo.1981.240.6.e630",
+      "title": "Dose-response characteristics for effects of insulin on production and utilization of glucose in man.",
+      "authors": "Rizza RA, Mandarino LJ, Gerich JE.",
+      "checked_at": "2026-09-06T06:47:12.973769+00:00",
+      "identity_status": "matched against Europe PMC metadata and inspected article body or abstract; cited PubMed destination may be access-restricted",
+      "access_status": "full text not acquired; abstract-supported only",
+      "inspection_depth": "bibliographic metadata and abstract",
+      "attempts": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7018254/",
+          "kind": "cited destination",
+          "attempted_at": "2026-09-06T06:47:12.973769+00:00",
+          "status": 203,
+          "final_url": "https://pubmed.ncbi.nlm.nih.gov/7018254/",
+          "bytes": 5565
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A7018254%20AND%20SRC%3AMED&format=json&resultType=core",
+          "kind": "Europe PMC metadata",
+          "attempted_at": "2026-09-06T06:47:13.358649+00:00",
+          "status": 200,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A7018254%20AND%20SRC%3AMED&format=json&resultType=core",
+          "bytes": 5532
+        }
+      ],
+      "additional_attempts": [
+        {
+          "url": "https://doi.org/10.1152/ajpendo.1981.240.6.E630",
+          "kind": "cited destination",
+          "attempted_at": "2026-09-06T07:13:14.690018+00:00",
+          "status": 403,
+          "final_url": "https://journals.physiology.org/doi/10.1152/ajpendo.1981.240.6.E630",
+          "bytes": 5732
+        },
+        {
+          "url": "https://api.crossref.org/works/10.1152%2Fajpendo.1981.240.6.E630",
+          "kind": "Crossref metadata",
+          "attempted_at": "2026-09-06T07:13:15.565983+00:00",
+          "status": 200,
+          "final_url": "https://api.crossref.org/works/10.1152%2Fajpendo.1981.240.6.E630",
+          "bytes": 8995
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1152/ajpendo.1981.240.6.E630%22&format=json&resultType=core",
+          "kind": "Europe PMC metadata",
+          "attempted_at": "2026-09-06T07:13:16.003363+00:00",
+          "status": 200,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1152/ajpendo.1981.240.6.E630%22&format=json&resultType=core",
+          "bytes": 5500
+        }
+      ],
+      "retained_files": []
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20936056/",
+      "pmid": "20936056",
+      "doi": "10.1109/rbme.2009.2036073",
+      "title": "Diabetes: Models, Signals, and Control.",
+      "authors": "Cobelli C, Man CD, Sparacino G, Magni L, De Nicolao G, Kovatchev BP.",
+      "checked_at": "2026-09-06T06:47:12.996689+00:00",
+      "identity_status": "matched against Europe PMC metadata and inspected article body or abstract; cited PubMed destination may be access-restricted",
+      "access_status": "full text not acquired; abstract-supported only",
+      "inspection_depth": "bibliographic metadata and abstract",
+      "attempts": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20936056/",
+          "kind": "cited destination",
+          "attempted_at": "2026-09-06T06:47:12.996689+00:00",
+          "status": 203,
+          "final_url": "https://pubmed.ncbi.nlm.nih.gov/20936056/",
+          "bytes": 5565
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20936056%20AND%20SRC%3AMED&format=json&resultType=core",
+          "kind": "Europe PMC metadata",
+          "attempted_at": "2026-09-06T06:47:13.359648+00:00",
+          "status": 200,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20936056%20AND%20SRC%3AMED&format=json&resultType=core",
+          "bytes": 4875
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2951686/fullTextXML",
+          "kind": "repository full text XML",
+          "attempted_at": "2026-09-06T06:47:13.595660+00:00",
+          "status": 404,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2951686/fullTextXML",
+          "bytes": 0
+        }
+      ],
+      "additional_attempts": [
+        {
+          "url": "https://doi.org/10.1109/RBME.2009.2036073",
+          "kind": "cited destination",
+          "attempted_at": "2026-09-06T07:13:14.690018+00:00",
+          "status": 202,
+          "final_url": "https://ieeexplore.ieee.org/document/5342789/",
+          "bytes": 0
+        },
+        {
+          "url": "https://api.crossref.org/works/10.1109%2FRBME.2009.2036073",
+          "kind": "Crossref metadata",
+          "attempted_at": "2026-09-06T07:13:15.328626+00:00",
+          "status": 200,
+          "final_url": "https://api.crossref.org/works/10.1109%2FRBME.2009.2036073",
+          "bytes": 36669
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1109/RBME.2009.2036073%22&format=json&resultType=core",
+          "kind": "Europe PMC metadata",
+          "attempted_at": "2026-09-06T07:13:15.761917+00:00",
+          "status": 200,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1109/RBME.2009.2036073%22&format=json&resultType=core",
+          "bytes": 4835
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2951686/fullTextXML",
+          "kind": "repository full text XML",
+          "attempted_at": "2026-09-06T07:13:16.156377+00:00",
+          "status": 404,
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2951686/fullTextXML",
+          "bytes": 0
+        }
+      ],
+      "retained_files": []
+    }
+  ]
+}

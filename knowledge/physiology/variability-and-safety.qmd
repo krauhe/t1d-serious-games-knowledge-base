@@ -2,8 +2,8 @@
 title: "Variability and safety"
 description: "Contextual modifiers, acute risks, uncertainty, and educational boundaries for type 1 diabetes serious games."
 status: "Foundational synthesis"
-updated: 2026-09-05
-evidence-cutoff: "Curated source review updated through 2025; links checked in the source review"
+updated: 2026-09-06
+evidence-cutoff: "Inherited curated synthesis; targeted citation corrections and appraisal on 6 September 2026, not a comprehensive search update"
 source-note: "This page supports safe educational design and does not replace clinical or emergency guidance."
 ---
 
@@ -33,11 +33,11 @@ Some people experience phase-related changes in insulin sensitivity and glucose,
 
 ### Alcohol
 
-Ethanol metabolism shifts hepatic redox state and can inhibit gluconeogenesis. This can increase delayed hypoglycaemia susceptibility when hepatic glucose production is needed, especially when glycogen availability is limited. Alcohol can also impair recognition and response to hypoglycaemia. The effect depends on amount, food, activity, insulin, and timing; it is not appropriately represented as a fixed glucose decrement ([Turner et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11679452/); [Lieber, 2004](https://pubmed.ncbi.nlm.nih.gov/15303622/)).
+Ethanol metabolism shifts hepatic redox state and can inhibit gluconeogenesis. This can increase delayed hypoglycaemia susceptibility when hepatic glucose production is needed, especially when glycogen availability is limited. Alcohol can also impair recognition and response to hypoglycaemia. The effect depends on amount, food, activity, insulin, and timing; it is not appropriately represented as a fixed glucose decrement ([Turner et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11679452/); [Steiner et al., 2015](https://pubmed.ncbi.nlm.nih.gov/26426068/)).
 
 ### Temperature, site, and tissue
 
-Local heat, exercise of nearby muscle, injection depth, anatomical region, and subcutaneous blood flow can change insulin absorption. Repeated use of the same site can produce lipohypertrophy, where absorption becomes slower and more variable ([Heinemann, 2018](https://pubmed.ncbi.nlm.nih.gov/30058925/); [Frid et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27594187/)). These factors change timing and uncertainty rather than simply multiplying insulin “strength.”
+Local heat, exercise of nearby muscle, injection depth, anatomical region, and subcutaneous blood flow can change insulin absorption. Repeated use of the same site can produce lipohypertrophy, where absorption becomes slower and more variable ([Gradel et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30116732/); [Frid et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27594187/)). These factors change timing and uncertainty rather than simply multiplying insulin “strength.”
 
 ## Acute safety concepts
 
@@ -56,6 +56,8 @@ A serious game may teach why hypoglycaemia or DKA can develop and may direct pla
 :::
 
 ## A useful uncertainty taxonomy
+
+**Design framework proposed in this knowledge base**, not an empirically validated classification of game effectiveness.
 
 | Source of variation | Example | Appropriate game treatment |
 |---|---|---|
@@ -95,12 +97,12 @@ A serious game may teach why hypoglycaemia or DKA can develop and may direct pla
 - [Gamarra, E. and Trimboli, P. (2023). Menstrual cycle, glucose control and insulin sensitivity in type 1 diabetes: a systematic review. *Journal of Personalized Medicine*, 13, 374.](https://pubmed.ncbi.nlm.nih.gov/36836608/)
 - [Glaser, N. et al. (2022). International Society for Pediatric and Adolescent Diabetes clinical practice consensus guidelines 2022: diabetic ketoacidosis and hyperglycemic hyperosmolar state. *Pediatric Diabetes*, 23, 835–856.](https://pubmed.ncbi.nlm.nih.gov/36250645/)
 - [Gonder-Frederick, L.A. et al. (1990). Environmental stress and blood glucose change in insulin-dependent diabetes mellitus. *Health Psychology*, 9, 503–515.](https://pubmed.ncbi.nlm.nih.gov/2226381/)
-- [Heinemann, L. (2018). Factors affecting the absorption of subcutaneously administered insulin: effect on variability. *Diabetes Therapy*, 9, 457–471.](https://pubmed.ncbi.nlm.nih.gov/30058925/)
+- [Gradel, A.K.J. et al. (2018). Factors affecting the absorption of subcutaneously administered insulin: effect on variability. *Journal of Diabetes Research*, 2018, 1205121.](https://pubmed.ncbi.nlm.nih.gov/30116732/)
 - [Hirsch, I.B. et al. (1990). Failure of nocturnal hypoglycemia to cause daytime hyperglycemia in patients with insulin-dependent diabetes mellitus. *Diabetes Care*, 13, 133–142.](https://pubmed.ncbi.nlm.nih.gov/2190769/)
 - [Kitabchi, A.E. et al. (2009). Hyperglycemic crises in adult patients with diabetes. *Diabetes Care*, 32, 1335–1343.](https://pubmed.ncbi.nlm.nih.gov/19564476/)
-- [Lieber, C.S. (2004). The discovery of the microsomal ethanol oxidizing system and its physiologic and pathologic role. *Drug Metabolism Reviews*, 36, 511–529.](https://pubmed.ncbi.nlm.nih.gov/15303622/)
+- [Steiner, J.L., Crowell, K.T. and Lang, C.H. (2015). Impact of alcohol on glycemic control and insulin action. *Biomolecules*, 5, 2223–2246.](https://pubmed.ncbi.nlm.nih.gov/26426068/)
 - [Porcellati, F. et al. (2013). Thirty years of research on the dawn phenomenon. *Diabetes Care*, 36, 3860–3862.](https://pmc.ncbi.nlm.nih.gov/articles/PMC3836156/)
-- [Reutrakul, S. and Van Cauter, E. (2014). Interactions between sleep, circadian function, and glucose metabolism. *Sleep Medicine Clinics*, 9, 47–55.](https://pubmed.ncbi.nlm.nih.gov/24628249/)
+- [Reutrakul, S. and Van Cauter, E. (2014). Interactions between sleep, circadian function, and glucose metabolism. *Annals of the New York Academy of Sciences*, 1311, 151–173.](https://pubmed.ncbi.nlm.nih.gov/24628249/)
 - [Turner, B.C. et al. (2001). The effect of evening alcohol consumption on next-morning glucose control in type 1 diabetes. *Diabetes Care*, 24, 1888–1893.](https://pubmed.ncbi.nlm.nih.gov/11679452/)
 - [Wiesli, P. et al. (2005). Acute psychological stress affects glucose concentrations in patients with type 1 diabetes following food intake but not in the fasting state. *Diabetes Care*, 28, 1910–1915.](https://pubmed.ncbi.nlm.nih.gov/16043731/)
 - [Wolfsdorf, J.I. et al. (2018). International Society for Pediatric and Adolescent Diabetes clinical practice consensus guidelines 2018: diabetic ketoacidosis and the hyperglycemic hyperosmolar state. *Pediatric Diabetes*, 19(Suppl 27), 155–177.](https://pubmed.ncbi.nlm.nih.gov/29900641/)

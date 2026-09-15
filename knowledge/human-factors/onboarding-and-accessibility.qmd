@@ -8,7 +8,7 @@ date: "2026-09-05"
 
 ## The first interaction is part of the educational intervention
 
-An educational game about ==type 1 diabetes (T1D)== cannot produce learning if the intended user does not reach a meaningful action, cannot identify the consequence, or leaves before understanding the task. Entry friction is therefore not merely a usability concern. It changes exposure to the intervention and can selectively exclude people who are newly diagnosed, distressed, fatigued, unfamiliar with games, using assistive technology, or reading in a non-primary language.
+An educational game about ==type 1 diabetes (T1D)== cannot produce learning if the intended user does not reach a meaningful action, cannot identify the consequence, or leaves before understanding the task. Entry friction is therefore not merely a usability concern. **Design hypothesis:** it may change exposure and selectively exclude people who are newly diagnosed, distressed, fatigued, unfamiliar with games, using assistive technology, or reading in a non-primary language.
 
 Evidence from game-tutorial research indicates that more instruction is not uniformly better. Tutorial benefit depends on the complexity of the game and on whether information is presented when it becomes actionable ([Andersen et al., 2012](https://doi.org/10.1145/2207676.2207687)). In digital game-based learning, scaffolding has a moderate average association with learning, but effects vary substantially by design and context ([Cai et al., 2022](https://doi.org/10.1007/s10648-021-09655-0)). These results support progressive, contextual instruction; they do not establish a universal maximum number of onboarding screens or clicks.
 
@@ -39,9 +39,9 @@ Defaults can reduce decision effort, but their effects depend on whether the def
 
 ## Feedback should explain causality
 
-Formative feedback is most useful when it is specific, task-focused, supportive, and sufficiently timed for the learner to connect action and consequence. A score or correctness marker alone supplies less diagnostic information than feedback that identifies the relevant principle or misconception ([Hattie and Timperley, 2007](https://doi.org/10.3102/003465430298487); [Shute, 2008](https://doi.org/10.3102/0034654307313795)).
+Formative-feedback reviews emphasise that effects depend on task, learner and timing; feedback should be tested for whether it is specific, task-focused, supportive, and sufficiently timed for the learner to connect action and consequence. A score or correctness marker alone supplies less diagnostic information than feedback that identifies the relevant principle or misconception ([Hattie and Timperley, 2007](https://doi.org/10.3102/003465430298487); [Shute, 2008](https://doi.org/10.3102/0034654307313795)).
 
-For a dynamic T1D scenario, a useful feedback sequence is:
+**Design inference.** For a dynamic T1D scenario, the following sequence is proposed for evaluation:
 
 1. **Predict:** elicit a forecast before the player can see the outcome.
 2. **Act:** permit one physiologically interpretable action.
@@ -105,7 +105,7 @@ Usability testing should include more than whether participants eventually succe
 8. perceived competence, pressure, distress, and willingness to try another strategy; and
 9. accessibility barriers by device, input method, language, age, and prior experience.
 
-Five to eight participants from a relatively homogeneous user group can reveal recurrent interface problems, but such a sample does not estimate population prevalence or educational effectiveness. Children, adolescents, newly diagnosed adults, experienced adults, caregivers, and clinicians should not be treated as interchangeable test populations.
+**Formative-testing proposal:** recruit in iterative rounds matched to the task and user group; document which problems recur, what changes were made, and why further rounds are or are not needed. No universal participant count is claimed. A small formative sample cannot estimate population prevalence or establish educational effectiveness. Children, adolescents, newly diagnosed adults, experienced adults, caregivers, and clinicians should not be treated as interchangeable test populations.
 
 ## References
 

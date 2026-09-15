@@ -50,6 +50,9 @@ try {
 copyFileIfPresent('styles.css', 'styles.css');
 copyFileIfPresent('tools/site.js', 'site.js');
 copyFileIfPresent('data/games.json', 'data/games.json');
+copyFileIfPresent('data/studies.json', 'data/studies.json');
+copyFileIfPresent('docs/reviews/2026-09-06_scientific-content-audit/source-access-register.json', 'docs/reviews/2026-09-06_scientific-content-audit/source-access-register.json');
+copyFileIfPresent('docs/reviews/2026-09-06_corrections/source-access.json', 'docs/reviews/2026-09-06_corrections/source-access.json');
 copyFileIfPresent('LICENSE', 'LICENSE');
 copyDirectoryIfPresent('figures/original', 'figures/original');
 copyDirectoryIfPresent('figures/game-images-cleared', 'figures/game-images-cleared');
@@ -120,12 +123,32 @@ function clearOutputDirectory(directory) {
     throw new Error(`Refusing to clear unexpected output directory: ${resolvedRoot}`);
   }
   fs.mkdirSync(resolvedRoot, { recursive: true });
-  for (const entry of fs.readdirSync(resolvedRoot, { withFileTypes: true })) {
-    const target = path.resolve(resolvedRoot, entry.name);
-    if (path.dirname(target) !== resolvedRoot) {
-      throw new Error(`Refusing to clear output outside _site: ${target}`);
+  if (fs.lstatSync(resolvedRoot).isSymbolicLink()) throw new Error('Refusing to clear a linked output root.');
+  clearGeneratedChildren(resolvedRoot);
+}
+
+// Dropbox kan låse selve mappeknuden, selv når dens genererede filer kan fjernes.
+// Ryd derfor filer først. En tom, låst mappe er harmløs; en ulæselig mappe eller
+// en fil, som ikke kunne fjernes, skal stadig blokere den offentlige bygning.
+function clearGeneratedChildren(directory) {
+  const relative = path.relative(expectedOutputDirectory, directory);
+  if (relative.startsWith('..') || path.isAbsolute(relative)) {
+    throw new Error(`Refusing to clear output outside _site: ${directory}`);
+  }
+  for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+    const target = path.resolve(directory, entry.name);
+    if (path.dirname(target) !== directory) throw new Error(`Unexpected output entry: ${target}`);
+    if (entry.isDirectory() && !entry.isSymbolicLink()) {
+      clearGeneratedChildren(target);
+      try {
+        fs.rmdirSync(target);
+      } catch (error) {
+        if (!['EPERM', 'EBUSY'].includes(error?.code) || fs.readdirSync(target).length !== 0) throw error;
+      }
+    } else {
+      // Følg ikke symbolske links ud af den validerede outputmappe.
+      fs.unlinkSync(target);
     }
-    fs.rmSync(target, { recursive: true, force: true, maxRetries: 20, retryDelay: 250 });
   }
 }
 
@@ -207,7 +230,7 @@ function renderPage({ title, description, body, currentOutput, privateImageBuild
   <div class="site-shell">
     <aside class="site-sidebar" id="site-sidebar" aria-label="Knowledge-base navigation">${sidebar}</aside>
     <main class="article" id="main-content">
-      <div class="article-status"><span>Scientific working edition</span><span>Evidence search closed 24 August 2026</span></div>
+      <div class="article-status"><span>Scientific working edition</span><span>Historical search: 24 August 2026</span><span>Targeted corrections: 6 September 2026</span></div>
       ${body}
       <footer class="article-footer">
         <p>This knowledge base distinguishes measured evidence, adjacent evidence, public product information, and design inference. It does not provide individual medical advice.</p>
@@ -289,6 +312,8 @@ function renderGameCard(game) {
   const officialUrl = game.links?.official?.[0] || game.links?.stores?.[0] || game.links?.publications?.[0] || '';
   const evidenceLevel = game.evidence?.level || 'Evidence status not classified';
   const evidenceDetail = game.evidence?.design_detail || '';
+  // Vis appraisal pr. rapport; et spils evidenskategori er ikke en kvalitetsdom.
+  const studyDetails = renderStudyDetails(game);
   const availability = game.availability?.status || 'Availability uncertain';
   const availabilityDetail = game.availability?.status_detail || '';
   const price = game.availability?.price || 'Price not verified';
@@ -326,8 +351,11 @@ function renderGameCard(game) {
         <div><dt>Platform</dt><dd>${escapeHtml(platforms.join(', ') || 'Not verified')}</dd></div>
         <div><dt>Evidence</dt><dd>${escapeHtml(evidenceLevel)}${evidenceDetail && evidenceDetail !== evidenceLevel ? `<span class="facet-detail">${escapeHtml(evidenceDetail)}</span>` : ''}</dd></div>
         <div><dt>Availability</dt><dd>${escapeHtml(availability)}${availabilityDetail && availabilityDetail !== availability ? `<span class="facet-detail">${escapeHtml(availabilityDetail)}</span>` : ''}<span class="facet-detail">${escapeHtml(price)}</span></dd></div>
-        <div><dt>Provenance</dt><dd>${escapeHtml(game.developer?.classification || 'Not classified')}</dd></div>
+        <div><dt>Provenance</dt><dd>${escapeHtml(game.developer?.classification || 'Not classified')}${game.developer?.names?.length ? `<span class="facet-detail">${escapeHtml(game.developer.names.join('; '))}</span>` : ''}</dd></div>
       </dl>
+      <p class="evidence-summary">${escapeHtml(game.evidence?.summary || 'No evidence summary extracted.')}</p>
+      <p class="facet-detail">Availability checked: ${escapeHtml(game.availability?.verified_on || 'unknown')}. Scientific appraisal: ${escapeHtml(game.evidence?.appraisal_date || 'not recorded')}. Not playtested.</p>
+      ${studyDetails}
       ${objectives.length ? `<div class="tag-list">${objectives.slice(0, 6).map(item => `<span>${escapeHtml(item)}</span>`).join('')}</div>` : ''}
       <div class="game-card-links">${officialUrl ? `<a href="${escapeAttribute(officialUrl)}" target="_blank" rel="noopener noreferrer">${linkLabel}</a>` : '<span>No active access link verified</span>'}</div>
     </div>
@@ -338,8 +366,41 @@ function findPrivateImageName(gameId) {
   if (!includePrivateImages || !gameId) return '';
   const directory = path.join(projectRoot, 'figures', 'game-images-review-only');
   if (!fs.existsSync(directory)) return '';
-  const expectedPrefix = `${String(gameId).toLowerCase()}_`;
+  // AR-figurens arkivnavn afviger fra katalog-id'et; bevar den hentede fil.
+  const imageStem = gameId === 'ar-food-game' ? 'ar-diabetes-game' : gameId;
+  const expectedPrefix = `${String(imageStem).toLowerCase()}_`;
   return fs.readdirSync(directory).find(name => name.toLowerCase().startsWith(expectedPrefix)) || '';
+}
+
+// Hent fra det fælles register, så web- og tabletbygninger viser samme data.
+function renderStudyDetails(game) {
+  const register = readJson('data/studies.json');
+  return (game.evidence?.study_ids || []).map(id => {
+    const study = register.studies.find(item => item.id === id && item.game_id === game.id);
+    if (!study) throw new Error('Missing study link: ' + id);
+    const outcomes = study.outcomes.map(outcome =>
+      '<li><strong>' + escapeHtml(outcome.construct) + ':</strong> ' +
+      escapeHtml(outcome.reported_result) + ' <span class="facet-detail">Instrument: ' +
+      escapeHtml(outcome.instrument || 'not extracted') + '; follow-up: ' +
+      escapeHtml(outcome.follow_up || 'not extracted') + '; denominator: ' +
+      escapeHtml(String(outcome.denominator ?? 'not extracted')) + '.</span></li>'
+    ).join('');
+    const domains = Object.entries(study.appraisal).map(([domain, concern]) =>
+      '<li><strong>' + escapeHtml(domain.replaceAll('_', ' ')) + ':</strong> ' + escapeHtml(concern) + '</li>'
+    ).join('');
+    const sources = study.report_urls.map((url, index) =>
+      '<a href="' + escapeAttribute(url) + '" target="_blank" rel="noopener noreferrer">Report source ' + (index + 1) + '</a>'
+    ).join(' · ');
+    return '<details class="study-appraisal"><summary>' + escapeHtml(study.report_citation) +
+      '</summary><p><strong>Extraction:</strong> ' + escapeHtml(study.extraction_status) +
+      '. ' + escapeHtml(study.support_depth) + '.</p><p><strong>Design/purpose:</strong> ' +
+      escapeHtml(study.design) + '; ' + escapeHtml(study.purpose) +
+      '.</p><p><strong>Population:</strong> ' + escapeHtml(study.population) +
+      '.</p><p><strong>Sample:</strong> ' + escapeHtml(String(study.sample.reported ?? 'not extracted')) +
+      '.</p><p><strong>Version:</strong> ' + escapeHtml(study.intervention_version) +
+      '.</p><ul>' + outcomes + '</ul><h3>Methodological concerns</h3><ul>' + domains +
+      '</ul><p>' + sources + '</p></details>';
+  }).join('');
 }
 
 function optionsFor(games, accessor, flatten = false) {

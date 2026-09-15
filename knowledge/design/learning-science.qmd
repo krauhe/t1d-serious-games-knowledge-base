@@ -40,14 +40,14 @@ Simulation fidelity should be judged relative to the learning objective. More ph
 
 Outcome feedback reports what occurred: for example, that a simulated glucose trace rose. Explanatory feedback helps the learner identify why the change occurred and what evidence would distinguish competing explanations. Formative-feedback research emphasises specificity, task focus and an actionable route forward ([Shute, 2008](https://doi.org/10.3102/0034654307313795); [Hattie and Timperley, 2007](https://doi.org/10.3102/003465430298487)).
 
-A useful feedback architecture has four layers:
+**Design inference.** We propose four feedback layers for testing; this is not an empirically validated T1D architecture:
 
 1. **State:** what changed, and over what interval?
 2. **Attribution:** which mechanism or prior action contributed materially?
 3. **Uncertainty:** which alternative explanations remain possible?
 4. **Next experiment:** which single change would make the explanation more discriminating?
 
-Immediate disclosure of the complete answer can suppress reasoning. Feedback may instead be staged: first request a prediction, then show the outcome, then ask for an explanation, and finally offer a mechanistic account. Scaffolding should be removable as competence develops.
+**Design hypothesis:** feedback could be staged as prediction, outcome, learner explanation and optional mechanistic account. Whether withholding an explanation helps depends on task and learner and requires evaluation. In two non-diabetes university-student experiments (analysed samples 60 and 24), explanation feedback improved performance on delayed inference questions relative to correct-answer feedback; this supports testing explanatory content, not a universal disclosure schedule ([Butler et al., 2013](https://sites.wustl.edu/mdl1/files/2026/06/Butler-et-al.-2013-Explanation-feedback-is-better-than-correct-answer-feedback-for-promoting-transfer-of-learning.pdf)).
 
 > **Evidence label — Adjacent evidence.** Reviews of scaffolding in digital game-based learning support guided assistance on average, but effects vary with the support type, learner and task. This warrants controlled, context-sensitive scaffolding rather than assuming that more hints are always better ([Cai et al., 2022](https://doi.org/10.1007/s10648-021-09655-0)).
 
@@ -65,9 +65,9 @@ In T1D games, retrieval can take several forms:
 4. **Conditional retrieval:** determine when a principle applies and when it does not.
 5. **Explanatory retrieval:** justify a decision without selecting from supplied answers.
 
-Quizzes are strongest when they are integrated with the situation, use corrective feedback and reappear after spacing. A repeated item presented immediately after its answer primarily tests recognition or short-lived recall. Parallel cases with different surface details are a stronger test of principle-based learning.
+**Design inference from adjacent retrieval research:** integrate quizzes with relevant situations, corrective feedback and spaced revisits, then test whether this improves delayed learning in the intended T1D population. A repeated item presented immediately after its answer primarily tests recognition or short-lived recall. Parallel cases with different surface details are a stronger test of principle-based learning.
 
-> **Evidence label — Direct T1D evidence.** Several recent T1D game studies report large immediate pre/post knowledge changes, but many are uncontrolled, short and vulnerable to item repetition or ceiling effects. The earlier controlled Packy & Marlon study did not show a knowledge advantage despite behavioural changes. The direct evidence therefore supports measuring knowledge, but not treating immediate knowledge gain as sufficient evidence of competence ([Nørlev et al., 2022](https://doi.org/10.1177/19322968211018236); [Yao et al., 2024](https://doi.org/10.2196/43574)).
+> **Evidence label — Direct T1D evidence.** The earlier controlled Packy & Marlon study reported behavioural differences without a knowledge advantage. Immediate knowledge, reported behaviour and durable competence must therefore remain separate endpoints ([Brown et al., 1997](https://doi.org/10.3109/14639239709089835)).
 
 ## Transfer and causal mental models
 
@@ -81,13 +81,13 @@ Three complementary probes can distinguish memorisation from causal understandin
 2. **Intervention:** choose which variable to change to test a hypothesis.
 3. **Explanation:** state the mechanism and identify evidence inconsistent with it.
 
-> **Evidence label — Direct T1D evidence gap.** Published T1D game studies rarely use delayed, unfamiliar scenarios to measure transfer. Simulation has a plausible advantage for causal learning, but that advantage remains unestablished until learners outperform an appropriate comparator on new cases.
+> **Evidence label — Direct T1D evidence gap.** The studies extracted in this map do not establish durable transfer to unfamiliar scenarios; incomplete extraction and search records prevent an exhaustive absence claim. Simulation has a plausible advantage for causal learning, but that advantage remains unestablished until learners outperform an appropriate comparator on new cases.
 
 ## Social and caregiver learning
 
-Self-management is distributed across people and settings, particularly for children. Games can create a shared object for discussion: a child and caregiver can compare predictions, explain an outcome and negotiate who is responsible for which decision. Paired games such as Qare and Qure and participatory projects such as PAL explicitly represent caregiver or care-team roles ([Moosa et al., 2018](https://doi.org/10.1109/COMAPP.2018.8460213); [Nørlev et al., 2022](https://doi.org/10.2196/33955)).
+**Design rationale:** co-play can provide a shared task for children and caregivers to discuss. Nørlev and colleagues describe social mechanisms, but their presence does not establish a collaborative-learning effect ([Nørlev et al., 2022](https://doi.org/10.1177/19322968211018236)). Qare and Qure's paired caregiver architecture has not been verified from its primary report; the previously cited Nørlev smartphone study is not a PAL study.
 
-> **Evidence label — Direct T1D evidence.** Packy & Marlon's improvement in parent communication is the clearest controlled signal that a game can change family interaction, although the sample was small and the outcome was self-reported ([Brown et al., 1997](https://doi.org/10.3109/14639239709089835)).
+> **Evidence label — Direct T1D evidence.** Packy & Marlon's improvement in parent communication is one reported controlled family-communication signal, although the sample was small and the outcome was self-reported ([Brown et al., 1997](https://doi.org/10.3109/14639239709089835)).
 
 > **Evidence label — Design inference.** Structured co-play or a private caregiver debrief may deliver social learning with lower privacy and safeguarding burdens than an open social network. A shared score is useful only if it prompts explanation rather than comparison of personal glucose control.
 
@@ -124,6 +124,7 @@ These are design hypotheses. Their value depends on usability testing and outcom
 
 ## References
 
+- [Butler, A.C., Godbole, N. and Marsh, E.J. (2013) “Explanation feedback is better than correct answer feedback for promoting transfer of learning”, *Journal of Educational Psychology*, 105(2), pp. 290–298.](https://sites.wustl.edu/mdl1/files/2026/06/Butler-et-al.-2013-Explanation-feedback-is-better-than-correct-answer-feedback-for-promoting-transfer-of-learning.pdf)
 - [Brown, S.J. et al. (1997) “Educational video game for juvenile diabetes: results of a controlled trial”, *Medical Informatics*, 22(1), pp. 77–89.](https://doi.org/10.3109/14639239709089835)
 - [Butler, A.C. (2010) “Repeated testing produces superior transfer of learning relative to repeated studying”, *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 36(5), pp. 1118–1133.](https://doi.org/10.1037/a0019902)
 - [Cai, Z. et al. (2022) “Effects of scaffolding in digital game-based learning on students’ achievement: a three-level meta-analysis”, *Educational Psychology Review*, 34, pp. 537–574.](https://doi.org/10.1007/s10648-021-09655-0)
@@ -132,8 +133,8 @@ These are design hypotheses. Their value depends on usability testing and outcom
 - [Ericsson, K.A., Krampe, R.T. and Tesch-Römer, C. (1993) “The role of deliberate practice in the acquisition of expert performance”, *Psychological Review*, 100(3), pp. 363–406.](https://doi.org/10.1037/0033-295X.100.3.363)
 - [Gris, G. and Bengtson, C. (2021) “Assessment measures in game-based learning research: a systematic review”, *International Journal of Serious Games*, 8(1), pp. 3–26.](https://doi.org/10.17083/ijsg.v8i1.383)
 - [Hattie, J. and Timperley, H. (2007) “The power of feedback”, *Review of Educational Research*, 77(1), pp. 81–112.](https://doi.org/10.3102/003465430298487)
-- [Martín-Ávila, A. et al. (2025) “The impact of the emoTICare program on socioemotional adjustment and psychological well-being in adolescents with type 1 diabetes mellitus”, *Frontiers in Endocrinology*, 16, 1668398.](https://doi.org/10.3389/fendo.2025.1668398)
-- [Moosa, S. et al. (2018) “Qare and Qure: paired educational games for children with diabetes and caregivers”, *COMAPP 2018*.](https://doi.org/10.1109/COMAPP.2018.8460213)
+- [Martín-Ávila, J. et al. (2025) “The impact of the emoTICare program on socioemotional adjustment and psychological well-being in adolescents with type 1 diabetes mellitus”, *Frontiers in Endocrinology*, 16, 1668398.](https://doi.org/10.3389/fendo.2025.1668398)
+- [Moosa, A.M., Al-Maadeed, N. and Al-Jaam, J.M. (2018) “A Simple Health-Based Game for Children”, *COMAPP 2018*.](https://doi.org/10.1109/COMAPP.2018.8460213)
 - [Nørlev, J. et al. (2022a) “Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage”, *Journal of Diabetes Science and Technology*, 16(5), pp. 1253–1269.](https://doi.org/10.1177/19322968211018236)
 - [Nørlev, J. et al. (2022b) “Using distance communication for the user-centered development of a smartphone-based serious game for children with type 1 diabetes: Participatory design approach”, *JMIR Serious Games*, 10(1), e33955.](https://doi.org/10.2196/33955)
 - [Ntoumanis, N. et al. (2021) “A meta-analysis of self-determination theory-informed intervention studies in the health domain”, *Health Psychology Review*, 15(2), pp. 214–244.](https://doi.org/10.1080/17437199.2020.1718529)
@@ -141,7 +142,7 @@ These are design hypotheses. Their value depends on usability testing and outcom
 - [Ryan, R.M., Rigby, C.S. and Przybylski, A.K. (2006) “The motivational pull of video games: a self-determination theory approach”, *Motivation and Emotion*, 30, pp. 344–360.](https://doi.org/10.1007/s11031-006-9051-8)
 - [Shute, V.J. (2008) “Focus on formative feedback”, *Review of Educational Research*, 78(1), pp. 153–189.](https://doi.org/10.3102/0034654307313795)
 - [Wouters, P. et al. (2013) “A meta-analysis of the cognitive and motivational effects of serious games”, *Journal of Educational Psychology*, 105(2), pp. 249–265.](https://doi.org/10.1037/a0031311)
-- [Yao, M. et al. (2024) “Effects of electronic games on diabetes self-management and outcomes: systematic review and meta-analysis”, *Journal of Medical Internet Research*, 26, e43574.](https://doi.org/10.2196/43574)
+- [Yao, W. et al. (2024) “Electronic interactive games for glycemic control in individuals with diabetes: systematic review and meta-analysis”, *JMIR Serious Games*, 12, e43574.](https://doi.org/10.2196/43574)
 
 ## Abbreviation glossary
 

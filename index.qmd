@@ -16,7 +16,7 @@ Measured knowledge gain, practical competence, transfer to unfamiliar situations
 
 ## Why this resource exists
 
-The field has repeatedly produced promising academic prototypes that ceased to be accessible after the study period. In a 2024 accessibility review, 21 of 23 research-origin games could not be accessed publicly; app-store games were easier to find but usually lacked peer-reviewed evaluation ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)). This creates a persistent separation between evaluated interventions and usable products.
+Research publication does not guarantee public release. In a 2024 **mixed-diabetes** accessibility review, 21 of 23 research-origin games could not be accessed publicly; app-store games were easier to find but usually lacked peer-reviewed evaluation ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)). This documents a separation between evaluated interventions and publicly accessible products at that audit; it does not establish that 21 previously public games disappeared.
 
 The purpose of this repository is therefore broader than identifying a single preferred game. It supports four tasks:
 
@@ -29,7 +29,7 @@ The purpose of this repository is therefore broader than identifying a single pr
 
 This knowledge base originated in research undertaken to improve [T1D Simulator](https://github.com/krauhe/t1d-simulator), an educational game for exploring glucose dynamics in T1D. Its broader purpose is to facilitate the discovery, use, design, evaluation, and long-term maintenance of T1D learning games, irrespective of product, developer, or institutional origin.
 
-> **Evidence label — Sustainability hypothesis.** Static educational material such as a brochure can often be revised as a bounded content object. A serious game requires continuing coordination across T1D physiology and clinical practice, pedagogy, game design, software engineering, user experience, accessibility, evaluation, governance, and lived experience. When time-limited funding ends or a central researcher, developer, clinician, or community advocate changes role, tacit knowledge and operational ownership may be lost. This may contribute to the documented disappearance of evaluated games, although the relative importance of these causes has not yet been established empirically ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
+> **Evidence label — Sustainability hypothesis.** Static educational material such as a brochure can often be revised as a bounded content object. A serious game requires continuing coordination across T1D physiology and clinical practice, pedagogy, game design, software engineering, user experience, accessibility, evaluation, governance, and lived experience. When time-limited funding ends or a central researcher, developer, clinician, or community advocate changes role, tacit knowledge and operational ownership may be lost. This may contribute to the documented lack of public access to research-origin games, although the relative importance of these causes has not yet been established empirically ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
 
 The knowledge base therefore separates reusable evidence, design patterns, evaluation methods, documented failures, and maintenance practices from any single product. The source code, physiological simulation model, and technical documentation underpinning T1D Simulator are available under the [GNU General Public License version 3](https://github.com/krauhe/t1d-simulator/blob/main/LICENSE). The knowledge base's original scientific content, structured data, and figures are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), while its software and build tooling use the [MIT License](LICENSE). Together, these resources are intended to reduce duplicated work and support current and future serious-game teams working for the benefit of the T1D community.
 
@@ -60,14 +60,14 @@ This loop is a design hypothesis rather than proof of effectiveness. Its educati
 
 ## Scope and status
 
-The principal evidence search closed on 24 August 2026. Availability and price are time-dependent and carry a verification date and confidence rating. The repository is maintained as a living scientific resource; omissions and corrections should be documented transparently as the evidence map develops.
+The inherited search cut-off is 24 August 2026. Historical query and screening records are incomplete. A targeted scientific audit and correction on 6 September 2026 is documented in [Methods](methods.qmd); it is not a comprehensive search update. Availability and price are time-dependent and carry a verification date and confidence rating. The repository is maintained as a living scientific resource; omissions and corrections should be documented transparently as the evidence map develops.
 
 ## References
 
 1. [Nørlev, J. et al. (2022) “Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage: A systematic scoping review”, *Journal of Diabetes Science and Technology*, 16(5), 1253-1269.](https://pubmed.ncbi.nlm.nih.gov/34024156/)
 2. [Reinders, E.F.H. et al. (2024) “Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers”, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
 3. [Guan, Y. et al. (2026) “Application of gamified interventions in children with type 1 diabetes: A scoping review”, *BMC Pediatrics*, 26, 779.](https://doi.org/10.1186/s12887-026-07142-5)
-4. [Yao, M. et al. (2024) “Effects of electronic games on diabetes self-management and outcomes: Systematic review and meta-analysis”, *Journal of Medical Internet Research*, 26, e43574.](https://doi.org/10.2196/43574)
+4. [Yao, W. et al. (2024) “Electronic interactive games for glycemic control in individuals with diabetes: Systematic review and meta-analysis”, *JMIR Serious Games*, 12, e43574.](https://doi.org/10.2196/43574)
 
 ## Abbreviation glossary
 

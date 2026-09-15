@@ -2,7 +2,7 @@
 
 ## 1. Current phase
 
-The repository begins as a private, owner-maintained scientific working resource. Public release, contributor roles, licences, and publication infrastructure require separate decisions. The absence of an open licence during this phase means that repository access does not grant permission to redistribute its content.
+This is an owner-maintained scientific working resource with public publication infrastructure. Original scientific content, structured data and original figures use **CC BY 4.0**; software and build tooling use the **MIT License**, as specified in [LICENSING.md](LICENSING.md) and [LICENSE](LICENSE). Third-party material is governed by its own rights. Proposed contributor roles below do not imply that a multi-person editorial board already exists.
 
 ## 2. Maintainer responsibilities
 
@@ -50,7 +50,7 @@ Public release requires:
 2. validation of the structured catalogue;
 3. resolution or explicit labelling of source-access gaps;
 4. removal of uncleared third-party images from the public build;
-5. a selected code licence and content licence;
+5. compliance with the existing code/content licences and third-party exclusions;
 6. accessibility and local-link testing;
 7. conflict-of-interest disclosures; and
 8. an explicit owner decision to publish.

@@ -19,7 +19,7 @@
     <g>
       <circle cx="165" cy="190" r="13" fill="#2563a6" stroke="white" stroke-width="4"/>
       <rect x="62" y="112" width="206" height="49" rx="12" fill="#e6f0fb" stroke="#a9c5e0"/>
-      <text x="165" y="143" text-anchor="middle" font-size="19" font-weight="700" fill="#173b5d">1992-1997</text>
+      <text x="165" y="143" text-anchor="middle" font-size="19" font-weight="700" fill="#173b5d">1990s-2000s</text>
     </g>
     <g>
       <circle cx="510" cy="190" r="13" fill="#087f7a" stroke="white" stroke-width="4"/>
@@ -41,12 +41,12 @@
   <g filter="url(#shadow)" font-family="Inter, Segoe UI, sans-serif">
     <g>
       <rect x="35" y="235" width="270" height="365" rx="18" fill="white" stroke="#cfdbe4"/>
-      <text x="62" y="274" font-size="15" font-weight="700" fill="#2563a6" letter-spacing="1.1">CONSOLE ERA</text>
+      <text x="62" y="274" font-size="15" font-weight="700" fill="#2563a6" letter-spacing="1.1">CONSOLES + METERS</text>
       <text x="62" y="313" font-size="20" font-weight="700" fill="#173b5d">Captain Novolin</text>
       <text x="62" y="339" font-size="14" fill="#5c6f82">Action platformer • 1992</text>
       <line x1="62" y1="361" x2="278" y2="361" stroke="#dce5eb"/>
       <text x="62" y="397" font-size="20" font-weight="700" fill="#173b5d">Packy &amp; Marlon</text>
-      <text x="62" y="423" font-size="14" fill="#5c6f82">Adventure platformer • 1994</text>
+      <text x="62" y="423" font-size="14" fill="#5c6f82">Adventure • trial published 1997</text>
       <text x="62" y="452" font-size="14" fill="#456278">Six-month controlled trial</text>
       <line x1="62" y1="474" x2="278" y2="474" stroke="#dce5eb"/>
       <text x="62" y="510" font-size="20" font-weight="700" fill="#173b5d">Glucoboy</text>
@@ -86,9 +86,9 @@
 
     <g>
       <rect x="1070" y="235" width="295" height="365" rx="18" fill="white" stroke="#cfdbe4"/>
-      <text x="1097" y="274" font-size="15" font-weight="700" fill="#7255ad" letter-spacing="1.1">DIVERSE CONTEMPORARY FORMS</text>
+      <text x="1097" y="274" font-size="15" font-weight="700" fill="#7255ad" letter-spacing="1.1">CONTEMPORARY FORMS</text>
       <text x="1097" y="313" font-size="20" font-weight="700" fill="#173b5d">Level One + AvaType1</text>
-      <text x="1097" y="339" font-size="14" fill="#5c6f82">Mobile puzzles + narrative</text>
+      <text x="1097" y="339" font-size="14" fill="#5c6f82">Mobile puzzles + simulation</text>
       <line x1="1097" y1="361" x2="1338" y2="361" stroke="#dce5eb"/>
       <text x="1097" y="397" font-size="20" font-weight="700" fill="#173b5d">T1D Simulator</text>
       <text x="1097" y="423" font-size="14" fill="#5c6f82">Browser causal simulation</text>

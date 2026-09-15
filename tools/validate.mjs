@@ -176,6 +176,8 @@ if (findings.length) {
   process.exit(1);
 }
 
+// Kør også de kendte faglige regressionschecks; dette er ikke klinisk sign-off.
+execFileSync(process.execPath, [path.join(projectRoot, 'tools/check-scientific-regressions.mjs')], { stdio: 'inherit' });
 console.log('Knowledge-base validation: OK');
 notes.forEach(note => console.log(`  - ${note}`));
 console.log(`  - ${navigationItems.filter(item => item.source).length} navigable source pages checked.`);
@@ -188,7 +190,7 @@ function listFiles(directory, predicate) {
   const results = [];
   if (!fs.existsSync(directory)) return results;
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
-    if (['.git', 'node_modules', '_site'].includes(entry.name)) continue;
+    if (['.git', 'node_modules', '_site', '.validation', 'private-literature'].includes(entry.name)) continue;
     const fullPath = path.join(directory, entry.name);
     if (entry.isDirectory()) results.push(...listFiles(fullPath, predicate));
     else if (predicate(fullPath)) results.push(fullPath);

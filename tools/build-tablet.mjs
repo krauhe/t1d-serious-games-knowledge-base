@@ -110,7 +110,7 @@ ${baseStyles}
   <div class="site-shell">
     <aside class="site-sidebar" id="site-sidebar" aria-label="Knowledge-base navigation">${renderNavigation()}</aside>
     <main class="article" id="main-content">
-      <div class="tablet-export-status"><span>Private offline edition</span><span>Generated ${generatedAt}</span><span>Evidence search closed 24 August 2026</span></div>
+      <div class="tablet-export-status"><span>Private offline edition</span><span>Generated ${generatedAt}</span><span>Historical search: 24 August 2026; targeted corrections: 6 September 2026</span></div>
       ${chapters.join('\n')}
       <footer class="article-footer">
         <p>This knowledge base distinguishes measured evidence, adjacent evidence, public product information, and design inference. It does not provide individual medical advice.</p>

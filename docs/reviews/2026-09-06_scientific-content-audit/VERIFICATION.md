@@ -2,6 +2,8 @@
 
 Checked 6 September 2026.
 
+The numbered results immediately below describe the **original audit phase before content corrections**. The dated correction addendum at the end records the current deliverable state.
+
 1. The project-local skill passed the bundled skill-creator frontmatter validator. Its retrieval and inventory helpers were exercised on the actual knowledge base. Validation of skill syntax does not establish scientific correctness.
 2. All generated JSON records parsed. The coverage register contains 30 source documents and 45 games; the manual appraisal ledger contains 22 sources with explicit reading depth. Sixteen have retained full texts, five scholarly sources remain on the wishlist, and one is an official product page.
 3. The existing repository structural validator passed through `verify.mjs`, which excludes ignored `.validation` scratch files without changing the validator itself. It checked 45 game records, 24 navigable sources and 25 already-rendered HTML pages. This is structural validation, not evidence validation.
@@ -12,3 +14,16 @@ Checked 6 September 2026.
 8. The audit documents 24 findings: 23 open and one partially addressed through acquisition policy and wishlist updates. No commit, push, repository-visibility change or website publication was performed.
 
 Reproduction scripts in this directory are developer tools. `prepare.py` and `finalize.py` depend on the retained private acquisition logs and original inventory; these inputs are not falsely represented as public raw search exports. The report, coverage, access register and appraised-source ledger remain inspectable without those private reading copies. A new literature search should record fresh execution dates rather than reuse the audit date.
+
+## Correction addendum — 6 September 2026
+
+1. Checkpoint `593485b3f295f029354fe17d85849ba198a5c992` was committed and pushed before the authorised corrections. Subsequent corrections remain local. No Simulator files were changed.
+2. The updated report and finding register agree: 18 findings fixed, six partially addressed. The partial items are F08, F09, F18, F19, F21 and F24; each records its remaining work. `finalize.py` now reads the correction status register rather than resetting statuses during regeneration.
+3. Scientific regression checks pass for 45 games and 23 linked study/report records. The private website and tablet build pass static correction-propagation checks; the tablet contains 27 chapters and retains the 12 review images. The final public-mode `_site` contains 27 pages, no private-build marker and no private game-image files. Structural validation covers 26 navigable source documents and their generated links/assets. These are static checks, not scientific certification or visual browser testing.
+4. The final audit PDF contains **16 pages and 93 link annotations**, with `Page x / y` on every page and no out-of-page text flagged by geometry checks. Every final page was visually inspected: pages 1–16 in contact sheets, with page 11 re-inspected individually after the final wording change. Pixel hashes confirmed that the other 15 page images were unchanged by that final rendering. The original timeline was independently rasterised and inspected for clipping and label readability; this is not a screenshot of the website.
+5. Main local link checking covered 166 URLs: 131 reachable, 32 restricted and three technically failed requests. All three were retrieved in a separate follow-up. Thus 134 were technically reachable and 32 restricted at those checks; generic publisher landing pages remain distinct from verified full article content. Raw run and follow-up results are preserved in the correction link register without overwriting unsuccessful attempts.
+6. Six corrected physiological source identities have a new access register. Three additional full texts were retained and inspected in relevant sections; three remained unavailable after fallback attempts and are on the wishlist. Three previously retained physiological articles have a separate targeted-inspection ledger. Original audit registers remain historical snapshots.
+7. The browser tool refused local-file access. No alternate browsing route was used to bypass that restriction. Website visual inspection, game installation, playtesting and device/region access tests remain incomplete.
+8. Dropbox intermittently prevented removal of generated directory nodes. The builder now clears generated files first, tolerating only a demonstrably empty directory locked with `EPERM` or `EBUSY`; unreadable or non-empty failed removals still stop public builds. The target is restricted to `_site`, symbolic links are not followed, and a linked root is refused. No Windows security settings were changed. Both build modes were verified after the correction; all source images and downloaded papers were preserved.
+
+See [the correction record](../2026-09-06_corrections.md) and its linked registers for details. Remaining full-text and search/appraisal gaps must not be represented as completed work.

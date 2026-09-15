@@ -61,6 +61,8 @@ Small moderated samples can reveal prominent interface problems; they cannot est
 
 ## Stage 2: feasibility and signal detection
 
+Feasibility is a study purpose, not a synonym for absence of randomisation. Report allocation design and feasibility objectives independently.
+
 A feasibility study asks whether recruitment, delivery, measurement, retention and safety procedures work well enough for a definitive test. Pre/post change in a single group can provide a signal, but it cannot separate intervention effects from testing, maturation, regression to the mean, researcher attention or concurrent education.
 
 Report at minimum:
@@ -77,6 +79,8 @@ Report at minimum:
 > **Evidence label — Direct T1D evidence.** The emoTICare analysis included 44 of 73 enrolled adolescents. Improvements after the intervention are useful pilot signals, but loss between enrolment and analysis and the lack of a concurrent control group constrain causal inference ([Martín-Ávila et al., 2025](https://doi.org/10.3389/fendo.2025.1668398)).
 
 ## Stage 3: controlled outcome evaluation
+
+Methodological credibility must be appraised separately from accurate numerical transcription. Record allocation/concealment, outcome validity, missing data, protocol-to-report consistency and funding/conflicts. ‘Not assessed’ is not ‘low risk’. The [study register](../../data/studies.json) makes these domains visible, including outstanding extraction. For example, the eddii report includes post-randomisation exclusions and non-random replacement assignments despite its randomised-trial label ([Ahmadi and Lucero, 2025](https://doi.org/10.1177/19322968231223759)). These are structured concerns, not a claimed formal risk-of-bias score.
 
 The comparator determines the scientific question:
 
@@ -110,7 +114,7 @@ For causal reasoning, use unfamiliar traces or scenarios. Ask the participant to
 
 > **Evidence label — Adjacent evidence.** Retrieval research supports delayed testing and transfer-oriented prompts, while game-evaluation reviews document overreliance on immediate knowledge and instruments with weak validity evidence ([Butler, 2010](https://doi.org/10.1037/a0019902); [Gris and Bengtson, 2021](https://doi.org/10.17083/ijsg.v8i1.383)).
 
-> **Evidence label — Direct T1D evidence gap.** Delayed transfer to unfamiliar T1D scenarios is rarely tested. A simulation should not claim to teach causal reasoning until performance improves on cases not encountered during play.
+> **Evidence label — Direct T1D evidence gap.** The extracted studies do not establish delayed transfer to unfamiliar T1D scenarios; incomplete screening and extraction prevent an exhaustive field-wide claim. A simulation should not claim to teach causal reasoning until performance improves on cases not encountered during play.
 
 ## Measuring player experience and engagement
 
@@ -156,7 +160,7 @@ Record:
 7. ownership of clinical-content and software updates;
 8. version compatibility between the evaluated and public product.
 
-> **Evidence label — Direct T1D evidence.** Reinders et al. found that 21 of 23 research-origin diabetes games were not publicly available in their 2024 audit. Availability is therefore an outcome that must be measured independently of efficacy ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
+> **Evidence label — Mixed-diabetes availability evidence.** Reinders et al. found that 21 of 23 research-origin diabetes games were not publicly available in their 2024 audit. Availability is therefore an outcome that must be measured independently of efficacy ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
 
 ## Claim matrix
 
@@ -200,7 +204,7 @@ The United Kingdom Medical Research Council framework for complex interventions 
 - [Reinders, E.F.H. et al. (2024) “Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers”, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
 - [Skivington, K. et al. (2021) “A new framework for developing and evaluating complex interventions: update of Medical Research Council guidance”, *BMJ*, 374, n2061.](https://doi.org/10.1136/bmj.n2061)
 - [Vanden Abeele, V. et al. (2020) “Development and validation of the Player Experience Inventory”, *International Journal of Human-Computer Studies*, 135, 102370.](https://doi.org/10.1016/j.ijhcs.2019.102370)
-- [Yao, M. et al. (2024) “Effects of electronic games on diabetes self-management and outcomes: systematic review and meta-analysis”, *Journal of Medical Internet Research*, 26, e43574.](https://doi.org/10.2196/43574)
+- [Yao, W. et al. (2024) “Electronic interactive games for glycemic control in individuals with diabetes: systematic review and meta-analysis”, *JMIR Serious Games*, 12, e43574.](https://doi.org/10.2196/43574)
 
 ## Abbreviation glossary
 

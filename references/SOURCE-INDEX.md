@@ -1,12 +1,14 @@
-# Source Register and Reproducible Search Log
+# Source Register and Historical Search Summary
 
 **Review:** *Serious Games for Type 1 Diabetes Education and Self-Management: Evidence, Availability, and Design Lessons*
 
-**Search close:** 24 August 2026
+**Historical search close:** 24 August 2026
+
+**Targeted correction/appraisal:** 6 September 2026. This is not a comprehensive search update. Complete historical database exports, executed query strings and record-level screening decisions were not recovered in the audit. The tables below preserve the earlier reported search summary, not a fully reproducible search log.
 
 **Review type:** Structured scoping review and evidence map; not registered or claimed as a formal systematic review.
 
-**Anchor:** Nørlev et al. (2022), PMID 34024156, PMCID PMC9445355, DOI [10.1177/19322968211018236](https://doi.org/10.1177/19322968211018236).
+**Initial reference-list source:** Nørlev et al. (2022; online 2021), PMID 34024156, PMCID PMC9445355, DOI [10.1177/19322968211018236](https://doi.org/10.1177/19322968211018236).
 
 This register separates bibliographic evidence, product verification and image provenance. A located product page is evidence of point-in-time availability, not evidence of educational or clinical effectiveness. A developer claim is recorded as a claim unless independently measured.
 
@@ -30,14 +32,14 @@ This register separates bibliographic evidence, product verification and image p
 
 ### 1.2 Query families
 
-Queries were adapted to each interface; Boolean syntax and controlled vocabulary were used where supported.
+The inherited report lists the following query families. They are not retained execution records for each database and cannot establish the exact historic result set.
 
 1. `("type 1 diabetes" OR T1D OR "insulin-dependent diabetes") AND ("serious game" OR videogame OR "video game" OR gamif* OR simulation OR "digital game")`
 2. `("type 1 diabetes" OR T1D) AND (child* OR adolescen* OR adult* OR caregiver* OR parent*) AND (education OR "self-management" OR coping OR distress OR resilience) AND (game* OR simulation OR "virtual reality" OR "augmented reality")`
 3. `diabetes AND (experiential game OR narrative game OR empathy game OR lived experience) AND (itch.io OR independent)`
 4. Exact titles, aliases, DOI and author–year combinations for every study and product named by Nørlev et al. and Reinders et al.
 5. Product-specific searches combining title with `official`, `App Store`, `Google Play`, `price`, `download`, `discontinued`, `trial`, `evaluation` and `publication`.
-6. Anchor forward-citation search using DOI `10.1177/19322968211018236`, PMID `34024156`, exact title and OpenAlex work `W3164185498`.
+6. Forward-citation search of the initial review using DOI `10.1177/19322968211018236`, PMID `34024156`, exact title and OpenAlex work `W3164185498`.
 
 ### 1.3 Eligibility and classification
 
@@ -45,15 +47,15 @@ Included records had a substantive game, simulation, playful narrative or game-m
 
 Excluded records were: generic health gamification with no diabetes relevance; conventional educational videos or static information without interactive play; insulin-dosing or monitoring applications with no meaningful game layer; and marketing pages that did not identify a stable product. Purely physiological simulation papers without a learner-facing intervention were excluded from the game evidence set.
 
-Evidence was coded in descending inferential order: controlled outcome study; pre/post or feasibility study; usability or participatory co-design; development or conceptual report; public unevaluated product; and unsupported marketing/developer claim. Availability was coded independently from evidence.
+The inherited catalogue used navigation categories, not a completed risk-of-bias hierarchy: controlled outcome study; pre/post or feasibility study; usability or participatory co-design; development or conceptual report; public unevaluated product; and unsupported marketing/developer claim. Availability was coded independently from evidence.
 
 ### 1.4 Deduplication
 
-Bibliographic records were reconciled by DOI, then PMID, then exact title plus author/year. Downloaded files were checked by SHA-256 hash. No duplicate file hashes remained on 24 August 2026. HTML anti-bot pages incorrectly returned as article downloads were removed and counted as unavailable, not as full text.
+Bibliographic records were reconciled by DOI, then PMID, then exact title plus author/year. Downloaded files were checked by SHA-256 hash. The earlier report stated that no duplicate file hashes remained on 24 August 2026; the historical deduplication ledger was not recovered, so that claim cannot be independently reproduced. HTML anti-bot pages incorrectly returned as article downloads were removed and counted as unavailable, not as full text.
 
-## 2. Nørlev anchor review: all 18 included game-related articles
+## 2. Reference-list checking: 18 articles included by Nørlev et al.
 
-Nørlev et al. searched through 23 September 2020 and limited the review to children aged 8–14 years. The following table gives a complete acquisition status for its 18 included records (references 28–45 in the anchor article).
+Nørlev et al. searched through 23 September 2020 and limited the review to children aged 8–14 years. The following table gives a complete acquisition status for its 18 included records (references 28–45 in that review).
 
 | Ref. | Article or chapter | Game/topic | Full-text status on 24 Aug 2026 |
 |---:|---|---|---|
@@ -76,33 +78,33 @@ Nørlev et al. searched through 23 September 2020 and limited the review to chil
 | 44 | Sparapani et al. (2019) | Brazilian conceptual framework | **Downloaded:** PMC HTML |
 | 45 | Kamel Boulos et al. (2015) | Monster Manor and diabetes games | **Downloaded:** JMIR PDF |
 
-The acquisition criterion is therefore met: every anchor record has either lawful local full text or an explicit access status. No paywall was bypassed.
+The acquisition criterion is therefore met: every record in this 18-article check has either lawful local full text or an explicit access status. No paywall was bypassed.
 
-## 3. Forward-citation audit of Nørlev et al.
+## 3. Reported historical forward-citation search of Nørlev et al.
 
 | Index/search | Raw citing records | Interpretation |
 |---|---:|---|
-| OpenAlex | 36 | Broadest set; includes preprints, peripheral methodology and secondary citations |
-| Semantic Scholar | 24 | Smaller indexed set; overlaps the clinically relevant core |
+| OpenAlex | 36 reported | Raw export absent; individual records and completeness not re-verifiable |
+| Semantic Scholar | 24 reported | Raw export absent; overlap and deduplication not re-verifiable |
 | Exact-title/DOI searches | supplementary | Reconciled title variants, publisher versions and late-indexed 2025–2026 publications |
 
-Relevant citing records were classified by how they used the review:
+The inherited narrative grouped records as follows. Without a record-level ledger, these groups do not establish that each article cites the Nørlev review or how it uses it:
 
 1. **Updated mapping/review:** Guan et al. (2026), a paediatric T1D gamification scoping review; Reinders et al. (2024) was located independently and used as an accessibility comparator.
 2. **New intervention or outcome evidence:** emoTICare protocol and outcome study; Turkish combined game/video randomised trial; DiaPed; MyDiabetic; the Nørlev participatory prototype; and a Brazilian prototype report.
 3. **Design/theory extension:** participatory design, artificial-intelligence serious-game review and broader health-game mechanism papers.
 4. **Peripheral citation:** generic digital-health, education or review-methodology papers that cite Nørlev without adding a T1D game, outcome or availability finding.
 
-Raw citation-count disagreement is retained rather than forced into a false single count. It reflects database coverage, not a substantive contradiction.
+The reported counts are preserved as historical claims. Differences may reflect coverage, query timing or indexing, but their specific cause cannot be established without the missing exports. A fresh forward-citation search must carry its own execution date.
 
 ## 4. Principal post-2020 and comparator evidence
 
 | Source | Design and population | Key extract used in the review |
 |---|---|---|
-| Reinders et al. (2024), DOI [10.1016/j.diabres.2024.111833](https://doi.org/10.1016/j.diabres.2024.111833) | Review plus accessibility audit; 21 studies, 23 research games and 13 app-store games | 21/23 research-origin games were not public; no web/PC research games could be located; only 1/11 research mobile games was free in Google Play; 13/13 app-store games were in iOS, 5/13 in Google Play and 11/13 were free |
+| Reinders et al. (2024), DOI [10.1016/j.diabres.2024.111833](https://doi.org/10.1016/j.diabres.2024.111833) | Mixed T1D/T2D review plus accessibility audit; 21 studies, 23 research games and 13 app-store games | 21/23 research-origin games were not public; no web/PC research games could be located; only 1/11 research mobile games was free in Google Play; 13/13 app-store games were in iOS, 5/13 in Google Play and 11/13 were free |
 | Guan et al. (2026), DOI [10.1186/s12887-026-07142-5](https://doi.org/10.1186/s12887-026-07142-5) | Scoping review, Jan 2010–25 Jan 2026; 762 records, 23 included | Mobile apps 52%, websites 17%; goals/challenges/fun each 96%; social features 35%; 70% lacked an explicit theory; long-term evidence remained limited |
 | Novak (2024), DOI [10.2196/49478](https://doi.org/10.2196/49478) | Iterative co-design/feasibility of MyDiabetic; children aged 5–12 | 32 participants across iterations plus five peers; improvement after one week, without controlled long-term clinical evidence |
-| Gu et al. (2025), DOI [10.1038/s41598-025-30114-1](https://doi.org/10.1038/s41598-025-30114-1) | Four-week, four-hospital single-group VR study; n=54, age 4–9 | All educational domains P<.001, effects 0.78–1.27; child System Usability Scale 86/100; 95% completion; no control or biomedical endpoint |
+| Gu et al. (2026; online 2025), DOI [10.1038/s41598-025-30114-1](https://doi.org/10.1038/s41598-025-30114-1) | Four-week, four-hospital single-group VR study; n=54, age 4–9 | Self-management scale domain effects 0.78–1.27, not knowledge; child usability 86/100. Abstract: 95% session completion; body: 95% of children attended at least 10/12 sessions. No control or biomedical endpoint |
 | Atitallah et al. (2025), DOI [10.1177/30502225251357044](https://doi.org/10.1177/30502225251357044) | Single-group DiaPed study; n=40 | Knowledge 29.8±6.02 to 68.6±1.58/70, P<.001, reported d=6.72; severe ceiling and no comparator |
 | WeCan feasibility study (2024), DOI [10.1016/j.pedhc.2024.05.009](https://doi.org/10.1016/j.pedhc.2024.05.009) | Two-arm feasibility study; n=61 | Recruitment 62.89%; 20/31 intervention participants completed (64.52%); 82% of respondents satisfied; not an efficacy trial |
 | Martín-Ávila et al. (2025), DOI [10.3389/fendo.2025.1668398](https://doi.org/10.3389/fendo.2025.1668398) | emoTICare quasi-experimental study; n=44 adolescents | Reduced perceived illness threat and preliminary socioemotional changes; small sample and limited causal certainty |
@@ -126,4 +128,8 @@ Raw citation-count disagreement is retained rather than forced into a false sing
 | Permanence | [itch.io](https://ivy-leaves.itch.io/permanence) | Public independent narrative game |
 | Holesome | [itch.io](https://holesome.itch.io/holesome) | Public independent experiential game |
 
-All 45 catalogue records include an availability date and confidence rating. Low confidence means that a bibliographic or historical record was verified but the current store, region or device state could not be reproduced comprehensively.
+All 46 catalogue records include an availability date and confidence rating. Low confidence means that a bibliographic or historical record was verified but the current store, region or device state could not be reproduced comprehensively.
+
+## 6. Correction-era registers
+
+The [study register](../data/studies.json) separates primary-report extraction from product metadata and flags incomplete fields. The [eligibility ledger](ELIGIBILITY-DECISIONS.md) records comparator scope and unresolved candidates. The [6 September source correction register](../docs/reviews/2026-09-06_corrections/source-access.json) preserves exact attempted URLs, verified identities, access status and source-reading depth for the newly substituted references.

@@ -11,6 +11,8 @@ Nørlev et al. identified recurrent mechanisms in games for children aged 8–14
 
 ## From learning objective to playable rule
 
+The mapping and uncited recommendations below are **design hypotheses and ethical positions**, not demonstrated mechanism-specific effects. Explicit evidence blocks identify the relevant empirical support and its population.
+
 | Learning purpose | Candidate game mechanism | Required learning action | Principal validity risk |
 |---|---|---|---|
 | Recall concepts | Spaced challenge, quiz, card or dialogue choice | Retrieve and discriminate | Repeated-item memorisation |
@@ -101,7 +103,7 @@ Meaningful autonomy requires choices whose consequences a learner can understand
 
 Social play can support explanation, observational learning and distributed responsibility. It can also expose health information, intensify comparison and create moderation or safeguarding obligations.
 
-> **Evidence label — Direct T1D evidence.** Packy & Marlon's communication outcome suggests that shared game content can affect parent–child conversation. Qare and Qure and PAL provide design precedents for paired or care-team roles, but not strong comparative outcome evidence ([Brown et al., 1997](https://doi.org/10.3109/14639239709089835); [Moosa et al., 2018](https://doi.org/10.1109/COMAPP.2018.8460213)).
+> **Evidence label — Direct T1D evidence.** Packy & Marlon reported a parent-communication difference in a small trial; this does not isolate social play as the active component ([Brown et al., 1997](https://doi.org/10.3109/14639239709089835)). Qare and Qure's paired-caregiver interpretation is unverified from the primary report and is not used as supporting evidence.
 
 > **Evidence label — Design inference.** Begin with local cooperative play, shared prediction or a structured debrief before building an open social network. The smaller design can test whether conversation is the active mechanism without immediately assuming moderation, identity and disclosure risks.
 
@@ -151,8 +153,8 @@ For each feature, record:
 - [Ebrahimpour, F. et al. (2015) “Effect of playing interactive computer game on distress of insulin injection among type 1 diabetic children”, *Iranian Journal of Pediatrics*, 25(3), e427.](https://doi.org/10.5812/ijp.25(3)2015.427)
 - [Johnson, D. et al. (2016) “Gamification for health and wellbeing: a systematic review”, *Internet Interventions*, 6, pp. 89–106.](https://doi.org/10.1016/j.invent.2016.10.002)
 - [Lindholm Olinder, A. et al. (2022) “ISPAD Clinical Practice Consensus Guidelines 2022: diabetes education in children and adolescents”, *Pediatric Diabetes*, 23(8), pp. 1229–1242.](https://doi.org/10.1111/pedi.13418)
-- [Martín-Ávila, A. et al. (2025) “The impact of the emoTICare program on socioemotional adjustment and psychological well-being in adolescents with type 1 diabetes mellitus”, *Frontiers in Endocrinology*, 16, 1668398.](https://doi.org/10.3389/fendo.2025.1668398)
-- [Moosa, S. et al. (2018) “Qare and Qure: paired educational games for children with diabetes and caregivers”, *COMAPP 2018*.](https://doi.org/10.1109/COMAPP.2018.8460213)
+- [Martín-Ávila, J. et al. (2025) “The impact of the emoTICare program on socioemotional adjustment and psychological well-being in adolescents with type 1 diabetes mellitus”, *Frontiers in Endocrinology*, 16, 1668398.](https://doi.org/10.3389/fendo.2025.1668398)
+- [Moosa, A.M., Al-Maadeed, N. and AlJa'am, J.M. (2018) “A Simple Health-Based Game for Children”, *COMAPP 2018*.](https://doi.org/10.1109/COMAPP.2018.8460213)
 - [Nørlev, J. et al. (2022) “Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage”, *Journal of Diabetes Science and Technology*, 16(5), pp. 1253–1269.](https://doi.org/10.1177/19322968211018236)
 - [Ntoumanis, N. et al. (2021) “A meta-analysis of self-determination theory-informed intervention studies in the health domain”, *Health Psychology Review*, 15(2), pp. 214–244.](https://doi.org/10.1080/17437199.2020.1718529)
 - [Ryan, R.M., Rigby, C.S. and Przybylski, A.K. (2006) “The motivational pull of video games”, *Motivation and Emotion*, 30, pp. 344–360.](https://doi.org/10.1007/s11031-006-9051-8)

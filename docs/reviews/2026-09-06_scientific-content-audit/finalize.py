@@ -62,10 +62,15 @@ def main():
         ledger.append(item)
     (OUT/'inspected-sources.json').write_text(json.dumps(ledger,ensure_ascii=False,indent=2),encoding='utf-8')
     text = REPORT.read_text(encoding='utf-8')
+    # Senere rettelser må ikke nulstilles til OPEN ved regenerering af registret.
+    correction_file = ROOT/'docs/reviews/2026-09-06_corrections/finding-status.json'
+    corrections = {row['id']: row for row in json.loads(correction_file.read_text(encoding='utf-8'))['findings']} if correction_file.exists() else {}
     findings = []
     for m in re.finditer(r'^### (F\d+) — (Major|Minor|Editorial): (.+)$', text, re.M):
         findings.append({'id':m[1], 'severity':m[2].lower(), 'title':m[3], 'status':'partially addressed' if m[1]=='F21' else 'open',
                          'report_line':text[:m.start()].count('\n')+1})
+        if m[1] in corrections:
+            findings[-1].update({key: corrections[m[1]][key] for key in ['status', 'updated_on', 'resolution', 'files']})
     assert len(findings) == 24
     result={'review_date':'2026-09-06','report_sha256':hashlib.sha256(REPORT.read_bytes()).hexdigest(),
             'findings':findings,'note':'Finding statuses refer to reviewed scientific content, not the newly delivered audit tooling.'}

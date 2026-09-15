@@ -58,6 +58,14 @@ date: "2026-09-05"
 
 **RCT - Randomised controlled trial.** Participants are assigned by a random process to intervention and comparator conditions.
 
+**SMS-T1DC - Self-Management Scale for T1D Children.** The self-management measure reported in the Tangbao study; it must not be relabelled as a knowledge test.
+
+**SUS - System Usability Scale.** A questionnaire producing a usability score on a 0–100 scale; a score is not a percentage of successful tasks or a clinical outcome.
+
+**TIR - Time in range.** The percentage of glucose observations within a stated interval. The interval, measurement source, observation period and denominator must be reported.
+
+**NIH - National Institutes of Health.** The United States biomedical research agency identified in relevant educational-product funding records.
+
 **T1D - Type 1 diabetes.** An autoimmune disease requiring exogenous insulin because insulin-producing beta cells are destroyed.
 
 **T2D - Type 2 diabetes.** A heterogeneous metabolic disease characterised by insulin resistance and progressive impairment of insulin secretion.

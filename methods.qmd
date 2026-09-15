@@ -8,30 +8,33 @@ date: "2026-09-05"
 
 ## Review type and scope
 
-The present resource is a structured scoping review and evidence map. It is not represented as a registered systematic review. The anchor publication was the systematic scoping review by [Nørlev et al. (2022)](https://pubmed.ncbi.nlm.nih.gov/34024156/), whose search ended on 23 September 2020 and focused on children aged 8-14 years. Those boundaries made independent searching necessary for adults, newly diagnosed people, caregivers, psychological outcomes, experiential games, contemporary commercial products, and work published after the anchor search.
+The present resource is a structured scoping review and evidence map, not a registered systematic review. Discovery combined independent database and product searches, backward and forward citation searching, and comparison with multiple reviews. No individual review defines the inclusion boundaries or serves as the sole evidential basis.
 
-The independent search closed on 24 August 2026. The eligibility scope includes ==type 1 diabetes (T1D)== education and self-management, serious games, simulations, gamified educational interventions, virtual and augmented reality, narrative or experiential games, and selected mixed-diabetes or professional-training comparators. Exergames, physical games, clinician-training products, and weakly gamified utilities are classified separately rather than merged with core T1D learning games.
+The review by [Nørlev et al. (2022; first published online in 2021)](https://pubmed.ncbi.nlm.nih.gov/34024156/) was an initial source for reference-list and forward-citation searching. This is what earlier versions called an “anchor”: a bibliographic starting point, not an assumption of completeness. Its search ended on 23 September 2020 and concerned children aged 8–14 years; independent searches and other reviews were needed to cover additional populations, purposes and publication dates.
+
+The inherited review states a search cut-off of 24 August 2026. The 6 September audit could not recover complete database exports or record-level screening decisions, so this date is historical provenance rather than a reproducibility guarantee. The eligibility scope includes ==type 1 diabetes (T1D)== education and self-management, serious games, simulations, gamified educational interventions, virtual and augmented reality, narrative or experiential games, and selected mixed-diabetes or professional-training comparators. Exergames, physical games, clinician-training products, and weakly gamified utilities are classified separately rather than merged with core T1D learning games.
 
 ## Search and discovery routes
 
-Discovery combined:
+The inherited source index **reports** the following discovery routes. Complete historical exports are not retained, so coverage of each route cannot be independently reconstructed:
 
-1. backward citation chaining from the 18 game-related articles included by Nørlev et al.;
-2. forward citation checking in at least two citation indexes, supplemented by exact-title searches;
-3. independent searches of PubMed and PubMed Central, Crossref and OpenAlex, JMIR, ACM, IEEE Xplore, ClinicalTrials.gov, app stores, official product sites, and independent distribution platforms;
+1. independent searches of PubMed and PubMed Central, Crossref and OpenAlex, JMIR, ACM, IEEE Xplore, ClinicalTrials.gov, app stores, official product sites, and independent distribution platforms;
+2. backward citation chaining, including the 18 game-related articles included by Nørlev et al.;
+3. forward citation checking in at least two citation indexes, supplemented by exact-title searches;
 4. comparison with later reviews, particularly [Reinders et al. (2024)](https://doi.org/10.1016/j.diabres.2024.111833), [Yao et al. (2024)](https://doi.org/10.2196/43574), and the paediatric T1D review by [Guan et al. (2026)](https://doi.org/10.1186/s12887-026-07142-5); and
 5. manual availability verification because publication status does not establish continued public access.
 
-Search concepts combined diabetes terms with game, serious game, simulation, gamification, virtual reality, augmented reality, narrative, education, self-management, resilience, coping, distress, child, adolescent, adult, caregiver, and clinician terms. Database-specific queries, retrieval outcomes, and individual eligibility decisions are retained in the source register and acquisition notes.
+Search concepts combined diabetes terms with game, serious game, simulation, gamification, virtual reality, augmented reality, narrative, education, self-management, resilience, coping, distress, child, adolescent, adult, caregiver, and clinician terms. The source index preserves search concepts and summary counts, but not complete database-specific executed queries, raw citation-index result sets, deduplication decisions or individual exclusion reasons. The original OpenAlex and Semantic Scholar totals cannot be re-created from those summaries. Newly performed targeted searches and access attempts are dated separately; missing historical decisions will not be retrospectively invented.
 
 ## Evidence classes
 
-Each study or product is separated into one of the following evidence classes:
+Catalogue categories are navigation labels, not a risk-of-bias hierarchy. **Design, purpose and appraisal are separate:** a randomised study may have a feasibility purpose. The [study register](data/studies.json) separates the report, tested version, population, denominator, outcome, support depth and domain concerns. Null or ‘not assessed’ fields mean incomplete extraction, not absence of a problem.
 
 | Class | What it can establish | Recurrent limitations |
 |---|---|---|
 | Controlled outcome study | Comparative effects under the tested conditions | Small samples, short follow-up, contamination, composite interventions |
-| Pre/post or feasibility study | Change over time, feasibility, recruitment, retention, and signals for later testing | No counterfactual; maturation and expectancy effects |
+| Uncontrolled pre/post design | Change over time | No counterfactual; maturation, retesting and expectancy effects |
+| Feasibility purpose, randomised or non-randomised | Recruitment, retention, implementation and planning estimates | Usually insufficient precision for efficacy; design must be reported separately |
 | Usability or participatory design study | Interaction barriers, acceptability, requirements, and design priorities | Does not establish learning or clinical benefit |
 | Development description or conceptual framework | Intervention rationale, mechanics, architecture, and intended mechanisms | Intended mechanisms may not occur in practice |
 | Public product without peer-reviewed evaluation | Current functionality, access, price, and stated purpose | No independent effectiveness inference is justified |
@@ -71,14 +74,20 @@ Project-affiliated games are catalogued with the same schema, evidence threshold
 
 ## Updating
 
-The scientific search date and each product-verification date are versioned separately. Substantive corrections should identify the affected claim, source, prior wording, new wording, and date. A future update may meet formal systematic-review standards, but that designation will not be used unless protocol, reproducible searches, screening, duplicate assessment, and reporting requirements are fulfilled.
+The historical search cut-off, targeted appraisal date, individual source-access timestamp, product-availability date and generated-build date are separate fields. The 6 September 2026 corrections do not refresh every product's availability or establish that every retained full text has been critically appraised. Substantive corrections should identify the affected claim, source, prior wording, new wording, and date. A future update may meet formal systematic-review standards, but that designation will not be used unless protocol, reproducible searches, screening, duplicate assessment, and reporting requirements are fulfilled.
+
+The separately dated addition of DEXTRO DASH 2000 on 15 September 2026 is a user-nominated product inclusion based on developer documentation and local access checks, not a comprehensive literature-search update or an effectiveness evaluation.
+
+## Targeted comparator additions: 6 September 2026
+
+These sources broaden the interpretation without being counted as new core game trials. [Morgado et al. (2025)](https://pubmed.ncbi.nlm.nih.gov/39899746/) map educational technologies for children and families, including non-digital resources. [Beh et al. (2026)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12954698/) review broader paediatric T1D digital-health interventions and theoretical frameworks. Their scope/abstracts were inspected and full texts retained; complete critical appraisal and primary-study deduplication remain pending. Neither comparator permits pooling all educational technology with serious games. The [eligibility ledger](references/ELIGIBILITY-DECISIONS.md) records these distinctions and unresolved product candidates.
 
 ## References
 
 1. [Nørlev, J. et al. (2022) “Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage: A systematic scoping review”, *Journal of Diabetes Science and Technology*, 16(5), 1253-1269.](https://pubmed.ncbi.nlm.nih.gov/34024156/)
 2. [Reinders, E.F.H. et al. (2024) “Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers”, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
 3. [Guan, Y. et al. (2026) “Application of gamified interventions in children with type 1 diabetes: A scoping review”, *BMC Pediatrics*, 26, 779.](https://doi.org/10.1186/s12887-026-07142-5)
-4. [Yao, M. et al. (2024) “Effects of electronic games on diabetes self-management and outcomes: Systematic review and meta-analysis”, *Journal of Medical Internet Research*, 26, e43574.](https://doi.org/10.2196/43574)
+4. [Yao, W. et al. (2024) “Electronic interactive games for glycemic control in individuals with diabetes: Systematic review and meta-analysis”, *JMIR Serious Games*, 12, e43574.](https://doi.org/10.2196/43574)
 
 ## Abbreviation glossary
 

@@ -1,0 +1,868 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-06",
+  "scope": "Study/report-level register; incomplete extraction is explicit. Descriptive reports are not outcome trials. Repeated reports must be linked before pooling.",
+  "studies": [
+    {
+      "id": "mydiabetic-1",
+      "game_id": "mydiabetic",
+      "report_citation": "Novak 2024, doi:10.2196/49478",
+      "report_urls": [
+        "https://doi.org/10.2196/49478"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "three iterative co-design/evaluation cycles",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": "32 children across iterations; five peers additionally exposed",
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "positive acceptance and reported one-week educational improvement",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "small heterogeneous samples, brief exposure, no controlled clinical endpoint"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "eddii-1",
+      "game_id": "eddii",
+      "report_citation": "Ahmadi and Lucero (2025; online 2024), doi:10.1177/19322968231223759",
+      "report_urls": [
+        "https://doi.org/10.1177/19322968231223759"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "glycaemic efficacy",
+      "design": "randomised controlled trial with subsequent non-random replacement allocation",
+      "population": "children with T1D aged 5–12, using iPhone and Dexcom G6; US recruitment",
+      "sample": {
+        "reported": 92,
+        "randomised": 92,
+        "analysed": 70,
+        "analysis_groups": {
+          "intervention": 38,
+          "control": 32
+        }
+      },
+      "outcomes": [
+        {
+          "construct": "CGM time in range",
+          "reported_result": "adjusted difference-in-differences +5.38 percentage points; P=.001",
+          "instrument": "Dexcom G6 CGM; 70–180 mg/dL range",
+          "follow_up": "six intervention weeks after two-week onboarding; four-week post-intervention observation also reported",
+          "denominator": 70
+        }
+      ],
+      "appraisal": {
+        "allocation": "initial randomisation; three subsequent consecutive enrollees assigned intervention rather than control as replacements",
+        "measurement": "objective CGM endpoint; high baseline time in range (~75%) limits generalisation; no knowledge/transfer assessment",
+        "missing_data": "92 randomised, 89 completed six weeks, only 70 included in glycaemic analysis",
+        "selective_reporting": "no completed protocol-to-report audit; reported self-care scale means exceed the stated 1–5 scale, requiring clarification; these values not used here",
+        "conflicts": "sponsored by Eddii, Inc.; author employment disclosed",
+        "limitations": "post-randomisation exclusions; three consecutive replacement enrollees assigned intervention; high baseline time in range; company sponsorship and author employment; no educational-transfer endpoint"
+      },
+      "extraction_status": "targeted primary-report extraction",
+      "support_depth": "full-text methods, outcomes, tables, allocation changes and disclosures inspected",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "packy-and-marlon-1",
+      "game_id": "packy-and-marlon",
+      "report_citation": "Brown et al. 1997",
+      "report_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/9183781/"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "six-month randomised trial",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": 59,
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "improved parent communication (P=.025) and self-care (P=.003); urgent visits trend P=.08; no knowledge or HbA1c difference",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "small single-era study; several borderline outcomes"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "abstract and metadata only; full-text appraisal outstanding",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "monster-manor-1",
+      "game_id": "monster-manor",
+      "report_citation": "Kamel Boulos et al. 2015",
+      "report_urls": [
+        "https://doi.org/10.2196/games.3930"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "viewpoint and product description",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": null,
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "no controlled outcomes",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "developer-facing description"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "koodak-e-tavana-1",
+      "game_id": "koodak-e-tavana",
+      "report_citation": "Ebrahimpour et al. 2015",
+      "report_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4324272/",
+        "https://doi.org/10.5812/ijp.25(3)2015.427"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "randomised one-week study",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": 30,
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "observed injection-related behavioural distress, not injection competence",
+          "reported_result": "observational distress score improved; intervention within-group P=.001, between-group P=.03",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "short follow-up and small single-site sample"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "full-text abstract and endpoint description; complete domain appraisal outstanding",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "ar-food-game-1",
+      "game_id": "ar-food-game",
+      "report_citation": "Calle-Bustos et al. 2017",
+      "report_urls": [
+        "https://doi.org/10.1371/journal.pone.0184645"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "prototype evaluation",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": "reported in article",
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "usability and learning-related measures",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "no long-term clinical endpoint"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "food-quiz-1",
+      "game_id": "food-quiz",
+      "report_citation": "Glasemann et al. 2010",
+      "report_urls": [
+        "https://doi.org/10.1145/1858171.1858219"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "design paper",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": null,
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "no controlled clinical outcomes",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "concept-oriented"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "social-diabetes-platform-1",
+      "game_id": "social-diabetes-platform",
+      "report_citation": "Brox et al. 2012; Lauritzen et al. 2012; Bomark et al. 2012",
+      "report_urls": [
+        "https://doi.org/10.5220/0003874104590466"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "design and platform papers",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": "varied",
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "requirements, feasibility and acceptability",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "no durable outcome evidence"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "pal-1",
+      "game_id": "pal",
+      "report_citation": "Peters et al. 2019",
+      "report_urls": [
+        "https://doi.org/10.1145/3312714.3312736"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "objectives/dashboard design study",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": "reported in source",
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "usability and engagement",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "multi-component system and no isolated clinical effect"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "diaquarium-1",
+      "game_id": "diaquarium",
+      "report_citation": "Rønningen et al. 2018",
+      "report_urls": [
+        "https://doi.org/10.1007/978-3-319-78759-6_40"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "prototype paper",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": "reported in source",
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "design and usability",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "no clinical endpoint"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "diabetic-mario-1",
+      "game_id": "diabetic-mario",
+      "report_citation": "Baghaei et al. (2016)",
+      "report_urls": [
+        "https://doi.org/10.1089/g4h.2015.0038"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "feasibility and short-term knowledge pilot",
+      "design": "uncontrolled pre/post pilot",
+      "population": "12 community-recruited Auckland children, aged 9–13; diabetes diagnosis not required",
+      "sample": {
+        "reported": 12,
+        "randomised": 0,
+        "analysed": 12
+      },
+      "outcomes": [
+        {
+          "construct": "general-health/diabetes knowledge",
+          "reported_result": "short-term pre/post assessment; no between-group effect can be estimated",
+          "instrument": "21-item questionnaire",
+          "follow_up": "one-week exposure; no delayed transfer assessment extracted",
+          "denominator": 12
+        }
+      ],
+      "appraisal": {
+        "allocation": "no control or randomisation",
+        "measurement": "repeated questionnaire; general-health content, not T1D competence",
+        "missing_data": "not fully audited",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "community sample without required diabetes diagnosis; no causal, durable or T1D-specific effect established"
+      },
+      "extraction_status": "targeted primary-report extraction",
+      "support_depth": "author manuscript Methods 4.1–4.3, results and limitations inspected",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "virtual-coach-1",
+      "game_id": "virtual-coach",
+      "report_citation": "Pesare et al. 2015",
+      "report_urls": [
+        "https://doi.org/10.18293/DMS2015-035"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "conference paper",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": null,
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "conceptual and technical",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "no controlled endpoints"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "tako-dojo-1",
+      "game_id": "tako-dojo",
+      "report_citation": "D'Aprile et al. 2019",
+      "report_urls": [
+        "https://doi.org/10.1007/s10758-017-9344-x"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "adolescent evaluation",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": 124,
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "knowledge/acceptability reported",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "limited controlled clinical evidence"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "qare-and-qure-1",
+      "game_id": "qare-and-qure",
+      "report_citation": "Moosa, A.M., Al-Maadeed, N. and Al-Jaam, J.M. (2018). A Simple Health-Based Game for Children. doi:10.1109/COMAPP.2018.8460213",
+      "report_urls": [
+        "https://doi.org/10.1109/COMAPP.2018.8460213"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "development description",
+      "design": "conference development report; primary full text not acquired",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": null,
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "not extracted",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "paired caregiver interpretation unverified; no outcome claim permitted from metadata"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "metadata and secondary review; primary full text not acquired",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "sparapani-prototype-1",
+      "game_id": "sparapani-prototype",
+      "report_citation": "Sparapani et al. 2019",
+      "report_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6432989/"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "qualitative framework",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": "reported in article",
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "design requirements",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "not an outcome trial"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "tangbao-superman-1",
+      "game_id": "tangbao-superman",
+      "report_citation": "Gu et al. (2026; online 2025)",
+      "report_urls": [
+        "https://doi.org/10.1038/s41598-025-30114-1",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12775479/"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "feasibility and self-management",
+      "design": "four-week multisite single-group pre/post",
+      "population": "54 children with T1D aged 4–9; four hospitals",
+      "sample": {
+        "reported": 54,
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "self-management, not knowledge",
+          "reported_result": "reported standardised domain effects 0.78–1.27",
+          "instrument": "Self-Management Scale for T1D Children (SMS-T1DC)",
+          "follow_up": "four weeks",
+          "denominator": 54
+        },
+        {
+          "construct": "attendance",
+          "reported_result": "body: 95% of children attended at least 10/12 sessions; abstract instead says 95% session completion",
+          "instrument": "session records",
+          "follow_up": "four weeks",
+          "denominator": "participant versus session denominator inconsistent"
+        }
+      ],
+      "appraisal": {
+        "allocation": "single group; maturation, attention and retesting not controlled",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "single group; no biomedical endpoint; attendance-denominator discrepancy; short follow-up"
+      },
+      "extraction_status": "targeted primary-report extraction",
+      "support_depth": "full-text targeted methods/results; abstract/body discrepancy preserved",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "diaped-1",
+      "game_id": "diaped",
+      "report_citation": "Atitallah et al. 2025",
+      "report_urls": [
+        "https://doi.org/10.1177/30502225251357044"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "pre/post",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": 40,
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "knowledge score 29.8 (SD 6.02) to 68.6 (SD 1.58) of 70, P<.001; reported d=6.72",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "no control and extreme ceiling effect"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "wecan-1",
+      "game_id": "wecan",
+      "report_citation": "WeCan feasibility study 2024",
+      "report_urls": [
+        "https://doi.org/10.1016/j.pedhc.2024.05.009"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "two-arm feasibility",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": 61,
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "Recruitment 62.89%; intervention completion 20/31 (64.52%); 82% satisfaction among respondents, not all enrolled participants",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "not powered for efficacy"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "emoticare-1",
+      "game_id": "emoticare",
+      "report_citation": "Martín-Ávila et al. 2025",
+      "report_urls": [
+        "https://doi.org/10.1371/journal.pone.0325763",
+        "https://doi.org/10.3389/fendo.2025.1668398"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "quasi-experimental",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": 44,
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "reduced perceived illness threat and changes/trends in emotional awareness and social skills",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "small sample, non-definitive control structure, short follow-up"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "norlev-smartphone-prototype-1",
+      "game_id": "norlev-smartphone-prototype",
+      "report_citation": "Nørlev et al. 2022",
+      "report_urls": [
+        "https://doi.org/10.2196/33955"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "participatory design",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": "reported in article",
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "design requirements and preferences",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "no released intervention or effectiveness test"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "turkish-game-video-rct-1",
+      "game_id": "turkish-game-video-rct",
+      "report_citation": "Turkish digital game/video RCT 2025",
+      "report_urls": [
+        "https://doi.org/10.1016/j.pedn.2025.01.023"
+      ],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "two-arm randomised trial",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": 55,
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "quality of life higher and HbA1c decreased in intervention while increasing in control; P<.05",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "abstract omits effect magnitude and the game effect cannot be separated from video"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "wst-1",
+      "game_id": "wst",
+      "report_citation": "NCT04439903",
+      "report_urls": [],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "pilot",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": 15,
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "feasibility",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "small and not necessarily a game"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    },
+    {
+      "id": "insuonline-1",
+      "game_id": "insuonline",
+      "report_citation": "NCT01759953",
+      "report_urls": [],
+      "intervention_version": "version tested in cited report; exact build identifier not extracted",
+      "purpose": "requires primary-report extraction",
+      "design": "controlled professional-education study",
+      "population": "requires primary-report extraction; do not substitute current product audience",
+      "sample": {
+        "reported": "see registry",
+        "randomised": null,
+        "analysed": null
+      },
+      "outcomes": [
+        {
+          "construct": "requires primary-report extraction",
+          "reported_result": "professional knowledge/decision outcomes",
+          "instrument": null,
+          "follow_up": null,
+          "denominator": null
+        }
+      ],
+      "appraisal": {
+        "allocation": "not assessed",
+        "measurement": "not assessed",
+        "missing_data": "not assessed",
+        "selective_reporting": "protocol comparison not completed",
+        "conflicts": "not extracted",
+        "limitations": "not patient education and not T1D-specific"
+      },
+      "extraction_status": "incomplete inherited summary; not a completed study appraisal",
+      "support_depth": "not independently established for all reported fields in this correction",
+      "appraised_on": "2026-09-06"
+    }
+  ]
+}

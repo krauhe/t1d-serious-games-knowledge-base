@@ -1,0 +1,2715 @@
+{
+  "scope": "166 unique URLs from navigable scientific source files; historical audit references and non-navigable private operational artifacts excluded",
+  "main_run_at": "2026-09-06T07:29:16.621Z",
+  "main_counts": {
+    "working": 131,
+    "restricted": 32,
+    "broken": 3
+  },
+  "followup_at": "2026-09-06T07:30:37.944Z",
+  "followup_counts": {
+    "working": 3
+  },
+  "combined_technical_counts": {
+    "reachable": 134,
+    "restricted": 32,
+    "unresolved_failed_requests": 0
+  },
+  "limits": "Technical retrieval is not publication-identity verification, complete visible-content verification, full-text acquisition, game installation or scientific appraisal. Redirecting/APA landing titles in follow-up do not independently confirm full article content.",
+  "results": [
+    {
+      "url": "https://apps.apple.com/tw/app/%E7%94%9C-%E6%94%BB%E7%95%A5/id1619470848",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://apps.apple.com/tw/app/%E7%94%9C-%E6%94%BB%E7%95%A5/id1619470848",
+      "redirected": false,
+      "content_type": "text/html",
+      "title": "‎《甜．攻略》App - App Store",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 413,
+      "sources": [
+        "knowledge/games/availability.qmd",
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://apps.apple.com/us/app/avatype1/id6758495309",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://apps.apple.com/us/app/avatype1/id6758495309",
+      "redirected": false,
+      "content_type": "text/html",
+      "title": "‎AvaType1 App - App Store",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 87,
+      "sources": [
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://apps.apple.com/us/app/level-one-a-diabetes-game/id6739605694",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://apps.apple.com/us/app/level-one-a-diabetes-game/id6739605694",
+      "redirected": false,
+      "content_type": "text/html",
+      "title": "‎Level One: A Diabetes Game App - App Store",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 89,
+      "sources": [
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://apps.apple.com/us/app/mydiabetic/id1492327698",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://apps.apple.com/us/app/mydiabetic/id1492327698",
+      "redirected": false,
+      "content_type": "text/html",
+      "title": "‎MyDiabetic App - App Store",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 86,
+      "sources": [
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://arxiv.org/abs/2103.06681",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2103.06681",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2103.06681] Research Software Sustainability and Citation",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 147,
+      "sources": [
+        "knowledge/sustainability/maintenance-patterns.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.09089",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2507.09089",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2507.09089] Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 36,
+      "sources": [
+        "knowledge/sustainability/maintenance-patterns.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://avatype1.com/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://avatype1.com/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "AVA Type 1 — Making Diabetes Education an Adventure",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 123,
+      "sources": [
+        "knowledge/comparisons/comparative-analysis.qmd",
+        "knowledge/games/availability.qmd",
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT01759953",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://clinicaltrials.gov/study/NCT01759953",
+      "redirected": false,
+      "content_type": "text/html",
+      "title": "ClinicalTrials.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 339,
+      "sources": [
+        "knowledge/games/catalogue.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT04439903",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://clinicaltrials.gov/study/NCT04439903",
+      "redirected": false,
+      "content_type": "text/html",
+      "title": "ClinicalTrials.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 165,
+      "sources": [
+        "knowledge/games/catalogue.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT06331429",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://clinicaltrials.gov/study/NCT06331429",
+      "redirected": false,
+      "content_type": "text/html",
+      "title": "ClinicalTrials.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 177,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redirected": false,
+      "content_type": "text/html",
+      "title": "Deed - Attribution 4.0 International - Creative Commons",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 147,
+      "sources": [
+        "index.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-319-78759-6_40",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://link.springer.com/10.1007/978-3-319-78759-6_40",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Client Challenge",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 507,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1007/s10648-019-09498-w",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s10648-019-09498-w",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Client Challenge",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 186,
+      "sources": [
+        "knowledge/design/game-mechanisms.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1007/s10648-021-09655-0",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://link.springer.com/10.1007/s10648-021-09655-0",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Client Challenge",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 145,
+      "sources": [
+        "knowledge/design/game-mechanisms.qmd",
+        "knowledge/design/learning-science.qmd",
+        "knowledge/human-factors/onboarding-and-accessibility.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1007/s10664-026-10889-1",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://link.springer.com/10.1007/s10664-026-10889-1",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Client Challenge",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 138,
+      "sources": [
+        "knowledge/sustainability/maintenance-patterns.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1007/s10758-017-9344-x",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s10758-017-9344-x",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Client Challenge",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 291,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1007/s11031-006-9051-8",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s11031-006-9051-8",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Client Challenge",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 160,
+      "sources": [
+        "knowledge/design/game-mechanisms.qmd",
+        "knowledge/design/learning-science.qmd",
+        "knowledge/human-factors/onboarding-and-accessibility.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1016/j.diabres.2024.111833",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0168822724007435",
+      "redirected": true,
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Redirecting",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 579,
+      "sources": [
+        "index.qmd",
+        "knowledge/comparisons/comparative-analysis.qmd",
+        "knowledge/design/evaluation.qmd",
+        "knowledge/games/availability.qmd",
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/index.qmd",
+        "knowledge/games/profiles.qmd",
+        "knowledge/sustainability/maintenance-patterns.qmd",
+        "knowledge/sustainability/why-games-disappear.qmd",
+        "methods.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1016/j.dss.2012.03.002",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0167923612000887",
+      "redirected": true,
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Redirecting",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 268,
+      "sources": [
+        "knowledge/sustainability/maintenance-patterns.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijhcs.2019.102370",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1071581919301302",
+      "redirected": true,
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Redirecting",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 326,
+      "sources": [
+        "knowledge/design/evaluation.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1016/j.invent.2016.10.002",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S2214782916300380",
+      "redirected": true,
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Redirecting",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 258,
+      "sources": [
+        "knowledge/design/game-mechanisms.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jcps.2014.08.002",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://myscp.onlinelibrary.wiley.com/doi/10.1016/j.jcps.2014.08.002",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 375,
+      "sources": [
+        "knowledge/human-factors/onboarding-and-accessibility.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1016/j.pedhc.2024.05.009",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0891524524001391",
+      "redirected": true,
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Redirecting",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 285,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/evidence-map.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/PAYWALLED-WISHLIST.md",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1016/j.pedn.2025.01.023",
+      "classification": "broken",
+      "status": null,
+      "final_url": null,
+      "redirected": false,
+      "content_type": null,
+      "title": null,
+      "note": "fetch failed",
+      "elapsed_ms": 19240,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/evidence-map.qmd",
+        "references/PAYWALLED-WISHLIST.md",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": {
+        "url": "https://doi.org/10.1016/j.pedn.2025.01.023",
+        "classification": "working",
+        "status": 200,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0882596325000314",
+        "redirected": true,
+        "content_type": "text/html;charset=UTF-8",
+        "title": "Redirecting",
+        "note": "Redirect followed and final destination retrieved.",
+        "elapsed_ms": 770,
+        "sources": [
+          "knowledge/games/catalogue.qmd",
+          "knowledge/games/evidence-map.qmd",
+          "references/PAYWALLED-WISHLIST.md",
+          "references/SOURCE-INDEX.md"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1017/bpp.2018.43",
+      "classification": "broken",
+      "status": null,
+      "final_url": null,
+      "redirected": false,
+      "content_type": null,
+      "title": null,
+      "note": "fetch failed",
+      "elapsed_ms": 10482,
+      "sources": [
+        "knowledge/human-factors/onboarding-and-accessibility.qmd"
+      ],
+      "followup": {
+        "url": "https://doi.org/10.1017/bpp.2018.43",
+        "classification": "working",
+        "status": 200,
+        "final_url": "https://www.cambridge.org/core/journals/behavioural-public-policy/article/when-and-why-defaults-influence-decisions-a-metaanalysis-of-default-effects/67AF6972CFB52698A60B6BD94B70C2C0",
+        "redirected": true,
+        "content_type": "text/html; charset=utf-8",
+        "title": "When and why defaults influence decisions: a meta-analysis of default effects | Behavioural Public Policy | Cambridge Core",
+        "note": "Redirect followed and final destination retrieved.",
+        "elapsed_ms": 673,
+        "sources": [
+          "knowledge/human-factors/onboarding-and-accessibility.qmd"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1037/0033-2909.125.6.627",
+      "classification": "broken",
+      "status": null,
+      "final_url": null,
+      "redirected": false,
+      "content_type": null,
+      "title": null,
+      "note": "fetch failed",
+      "elapsed_ms": 10405,
+      "sources": [
+        "knowledge/design/game-mechanisms.qmd",
+        "knowledge/human-factors/onboarding-and-accessibility.qmd"
+      ],
+      "followup": {
+        "url": "https://doi.org/10.1037/0033-2909.125.6.627",
+        "classification": "working",
+        "status": 200,
+        "final_url": "https://psycnet.apa.org/doiLanding?doi=10.1037/0033-2909.125.6.627",
+        "redirected": true,
+        "content_type": "text/html; charset=UTF-8",
+        "title": "APA PsycNet",
+        "note": "Redirect followed and final destination retrieved.",
+        "elapsed_ms": 1288,
+        "sources": [
+          "knowledge/design/game-mechanisms.qmd",
+          "knowledge/human-factors/onboarding-and-accessibility.qmd"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1037/0033-295X.100.3.363",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://psycnet.apa.org/doiLanding?doi=10.1037/0033-295X.100.3.363",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "APA PsycNet",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 9093,
+      "sources": [
+        "knowledge/design/learning-science.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1037/a0019902",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://psycnet.apa.org/doiLanding?doi=10.1037/a0019902",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "APA PsycNet",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 564,
+      "sources": [
+        "knowledge/design/evaluation.qmd",
+        "knowledge/design/learning-science.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1037/a0031311",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://psycnet.apa.org/doiLanding?doi=10.1037/a0031311",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "APA PsycNet",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 568,
+      "sources": [
+        "knowledge/design/learning-science.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1037/ccp0000501",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://psycnet.apa.org/doiLanding?doi=10.1037/ccp0000501",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "APA PsycNet",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 630,
+      "sources": [
+        "knowledge/human-factors/onboarding-and-accessibility.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1038/s41598-025-30114-1",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41598-025-30114-1&code=22928c73-51f3-43af-8e3f-aa518c71e44c",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Client Challenge",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 728,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/evidence-map.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1080/10810730.2019.1701586",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://www.tandfonline.com/doi/full/10.1080/10810730.2019.1701586",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 255,
+      "sources": [
+        "knowledge/design/game-mechanisms.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1080/17437199.2020.1718529",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://www.tandfonline.com/doi/full/10.1080/17437199.2020.1718529",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 171,
+      "sources": [
+        "knowledge/design/game-mechanisms.qmd",
+        "knowledge/design/learning-science.qmd",
+        "knowledge/human-factors/onboarding-and-accessibility.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1086/651235",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://academic.oup.com/jcr/article-lookup/doi/10.1086/651235",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 233,
+      "sources": [
+        "knowledge/human-factors/onboarding-and-accessibility.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1089/g4h.2015.0038",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/full/10.1089/g4h.2015.0038",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 207,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/evidence-map.qmd",
+        "knowledge/games/profiles.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1097/00004479-200101000-00004",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://www.ovid.com/jnls/ambulatorycaremanagement/abstract/00004479-200101000-00004~management-of-chronic-pediatric-diseases-with-interactive?redirectionsource=fulltextview",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Management of Chronic Pediatric Diseases with... : Journal of Ambulatory Care Management",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 728,
+      "sources": [
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1109/COMAPP.2018.8460213",
+      "classification": "working",
+      "status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/8460213/",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 216,
+      "sources": [
+        "knowledge/design/game-mechanisms.qmd",
+        "knowledge/design/learning-science.qmd",
+        "knowledge/games/catalogue.qmd",
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1111/j.1467-9280.2006.01693.x",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 173,
+      "sources": [
+        "knowledge/design/learning-science.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1111/pedi.13418",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://onlinelibrary.wiley.com/doi/10.1111/pedi.13418",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 218,
+      "sources": [
+        "knowledge/design/game-mechanisms.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1111/pedi.13428",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://onlinelibrary.wiley.com/doi/10.1111/pedi.13428",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 313,
+      "sources": [
+        "knowledge/design/game-mechanisms.qmd",
+        "knowledge/human-factors/onboarding-and-accessibility.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1136/bmj.g1687",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://www.bmj.com/lookup/doi/10.1136/bmj.g1687",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Attention Required! | Cloudflare",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 226,
+      "sources": [
+        "knowledge/design/evaluation.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1136/bmj.n2061",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://www.bmj.com/lookup/doi/10.1136/bmj.n2061",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Attention Required! | Cloudflare",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 123,
+      "sources": [
+        "knowledge/design/evaluation.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1136/bmjopen-2019-036453",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2019-036453",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Attention Required! | Cloudflare",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 199,
+      "sources": [
+        "knowledge/games/availability.qmd",
+        "knowledge/sustainability/why-games-disappear.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1145/1858171.1858219",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/1858171.1858219",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 191,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1145/2207676.2207687",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/2207676.2207687",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 251,
+      "sources": [
+        "knowledge/human-factors/onboarding-and-accessibility.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1145/3106237.3106246",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3106237.3106246",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 235,
+      "sources": [
+        "knowledge/sustainability/maintenance-patterns.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1145/3312714.3312736",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://dl.acm.org/citation.cfm?doid=3312714.3312736",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 233,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1159/000550880",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://karger.com/article/doi/10.1159/000550880",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 172,
+      "sources": [
+        "knowledge/games/profiles.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1177/10468781221120686",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1177/10468781221120686",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 176,
+      "sources": [
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1177/19322968211018236",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1177/19322968211018236",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 171,
+      "sources": [
+        "knowledge/design/game-mechanisms.qmd",
+        "knowledge/design/learning-science.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1177/19322968231223759",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1177/19322968231223759",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 167,
+      "sources": [
+        "knowledge/design/evaluation.qmd",
+        "knowledge/games/availability.qmd",
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/evidence-map.qmd",
+        "knowledge/games/profiles.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1177/30502225251357044",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1177/30502225251357044",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 165,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/evidence-map.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1186/s12887-026-07142-5",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://link.springer.com/10.1186/s12887-026-07142-5",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Client Challenge",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 201,
+      "sources": [
+        "index.qmd",
+        "knowledge/games/evidence-map.qmd",
+        "knowledge/games/index.qmd",
+        "methods.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1207/s15516709cog1202_4",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog1202_4",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 170,
+      "sources": [
+        "knowledge/design/game-mechanisms.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.12688/f1000research.23224.1",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://f1000research.com/articles/9-295/v1",
+      "redirected": true,
+      "content_type": "text/html;charset=UTF-8",
+      "title": "An environment for sustainable research software in... | F1000Research",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 520,
+      "sources": [
+        "knowledge/sustainability/why-games-disappear.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1371/journal.pcbi.1005412",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005412",
+      "redirected": true,
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Ten simple rules for making research software more robust | PLOS Computational Biology",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 1220,
+      "sources": [
+        "knowledge/sustainability/maintenance-patterns.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1371/journal.pone.0184645",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0184645",
+      "redirected": true,
+      "content_type": "text/html;charset=UTF-8",
+      "title": "An augmented reality game to support therapeutic education for children with diabetes | PLOS One",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 1034,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.14279/eceasst.v83.2622",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://eceasst.org/index.php/eceasst/article/view/2622",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "A concise guide to good practices for automated testing and documentation of Research Software | Electronic Communications of the EASST",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 590,
+      "sources": [
+        "knowledge/sustainability/maintenance-patterns.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.15497/RDA00068",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://zenodo.org/records/6623556",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "FAIR Principles for Research Software (FAIR4RS Principles) | Zenodo",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 790,
+      "sources": [
+        "knowledge/sustainability/maintenance-patterns.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.1587/transinf.2025EDL8005",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://www.jstage.jst.go.jp/article/transinf/E108.D/11/E108.D_2025EDL8005/_article",
+      "redirected": true,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Abandonment and Resilience: Understanding Core Developer Turnover in Open-Source Software",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 1909,
+      "sources": [
+        "knowledge/sustainability/maintenance-patterns.qmd",
+        "knowledge/sustainability/why-games-disappear.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.17083/ijsg.v8i1.383",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://journal.seriousgamessociety.org/index.php/IJSG/article/view/383",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Assessment Measures in Game-based Learning Research: A Systematic Review | International Journal of Serious Games",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 932,
+      "sources": [
+        "knowledge/design/evaluation.qmd",
+        "knowledge/design/learning-science.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.18293/DMS2015-035",
+      "classification": "working",
+      "status": 200,
+      "final_url": "http://ksiresearchorg.ipage.com/seke/dms15paper/dms15paper_35.pdf",
+      "redirected": true,
+      "content_type": "application/pdf",
+      "title": "",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 837,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.2105/AJPH.89.9.1322",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://ajph.aphapublications.org/doi/full/10.2105/AJPH.89.9.1322",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 203,
+      "sources": [
+        "knowledge/design/evaluation.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.2196/33955",
+      "classification": "working",
+      "status": 202,
+      "final_url": "https://games.jmir.org/2022/1/e33955",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 535,
+      "sources": [
+        "knowledge/comparisons/comparative-analysis.qmd",
+        "knowledge/design/evaluation.qmd",
+        "knowledge/design/learning-science.qmd",
+        "knowledge/games/catalogue.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.2196/43574",
+      "classification": "working",
+      "status": 202,
+      "final_url": "https://games.jmir.org/2024/1/e43574",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 221,
+      "sources": [
+        "index.qmd",
+        "knowledge/design/evaluation.qmd",
+        "knowledge/design/learning-science.qmd",
+        "knowledge/games/evidence-map.qmd",
+        "knowledge/games/index.qmd",
+        "methods.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.2196/49478",
+      "classification": "working",
+      "status": 202,
+      "final_url": "http://preprints.jmir.org/preprint/49478/accepted",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 442,
+      "sources": [
+        "knowledge/comparisons/comparative-analysis.qmd",
+        "knowledge/design/evaluation.qmd",
+        "knowledge/games/availability.qmd",
+        "knowledge/games/evidence-map.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.2196/65665",
+      "classification": "working",
+      "status": 202,
+      "final_url": "https://diabetes.jmir.org/2025/1/e65665",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 529,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.2196/99345",
+      "classification": "working",
+      "status": 202,
+      "final_url": "https://diabetes.jmir.org/2026/1/e99345",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 222,
+      "sources": [
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.2196/games.3930",
+      "classification": "working",
+      "status": 202,
+      "final_url": "http://games.jmir.org/2015/1/e3/",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 360,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.2196/jmir.1923",
+      "classification": "working",
+      "status": 202,
+      "final_url": "http://www.jmir.org/2011/4/e126/",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 377,
+      "sources": [
+        "knowledge/design/evaluation.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.2337/dc25-0985",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://diabetesjournals.org/care/article/48/10/1803/163201/Effect-of-Diactive-1-mHealth-Supported-Progressive",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 259,
+      "sources": [
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.2337/dci17-0041",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://diabetesjournals.org/care/article/40/12/1790/36977/The-Use-of-Language-in-Diabetes-Care-and-Education",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 226,
+      "sources": [
+        "knowledge/design/game-mechanisms.qmd",
+        "knowledge/human-factors/onboarding-and-accessibility.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.2337/dci19-0028",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://diabetesjournals.org/care/article/42/8/1593/36184/Clinical-Targets-for-Continuous-Glucose-Monitoring",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 161,
+      "sources": [
+        "knowledge/design/evaluation.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.3102/003465430298487",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.3102/003465430298487",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 238,
+      "sources": [
+        "knowledge/design/learning-science.qmd",
+        "knowledge/human-factors/onboarding-and-accessibility.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.3102/0034654307313795",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.3102/0034654307313795",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 166,
+      "sources": [
+        "knowledge/design/game-mechanisms.qmd",
+        "knowledge/design/learning-science.qmd",
+        "knowledge/human-factors/onboarding-and-accessibility.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.3102/0034654315582065",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.3102/0034654315582065",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 164,
+      "sources": [
+        "knowledge/design/learning-science.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.3109/14639239709089835",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://www.tandfonline.com/doi/full/10.3109/14639239709089835",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 233,
+      "sources": [
+        "knowledge/design/evaluation.qmd",
+        "knowledge/design/game-mechanisms.qmd",
+        "knowledge/design/learning-science.qmd",
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.3389/fdgth.2022.1014375",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2022.1014375/full",
+      "redirected": true,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Frontiers | Barriers and facilitators for the sustainability of digital health interventions in low and middle-income countries: A systematic review",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 674,
+      "sources": [
+        "knowledge/games/availability.qmd",
+        "knowledge/sustainability/why-games-disappear.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.3389/fendo.2025.1668398",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2025.1668398/full",
+      "redirected": true,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Frontiers | The impact of the emoTICare program on socioemotional adjustment and psychological well-being in adolescents with type 1 diabetes mellitus",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 785,
+      "sources": [
+        "knowledge/design/evaluation.qmd",
+        "knowledge/design/game-mechanisms.qmd",
+        "knowledge/design/learning-science.qmd",
+        "knowledge/games/evidence-map.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.5220/0003874104590466",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://www.scitepress.org/Link.aspx?doi=10.5220/0003874104590466",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "SciTePress - Publication Details",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 1932,
+      "sources": [
+        "knowledge/games/catalogue.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.5812/ijp.25(3)2015.427",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://brieflands.com/journals/ijp/articles/427",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Effect of Playing Interactive Computer Game on Distress of Insulin Injection Among Type 1 Diabetic Children",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 412,
+      "sources": [
+        "knowledge/comparisons/comparative-analysis.qmd",
+        "knowledge/design/evaluation.qmd",
+        "knowledge/design/game-mechanisms.qmd",
+        "knowledge/design/learning-science.qmd",
+        "knowledge/games/evidence-map.qmd",
+        "knowledge/games/profiles.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://doi.org/10.7717/peerj-cs.86",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://peerj.com/articles/cs-86",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 203,
+      "sources": [
+        "knowledge/sustainability/maintenance-patterns.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Captain_Novolin",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Captain_Novolin",
+      "redirected": false,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Captain Novolin - Wikipedia",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 281,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Packy_and_Marlon",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Packy_and_Marlon",
+      "redirected": false,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Packy and Marlon - Wikipedia",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 76,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://github.com/krauhe/t1d-simulator",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://github.com/krauhe/t1d-simulator",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "GitHub - krauhe/t1d-simulator: Interactive learning game about T1D and blood sugar using fixed fictional characters. · GitHub",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 941,
+      "sources": [
+        "index.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://github.com/krauhe/t1d-simulator/blob/main/LICENSE",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://github.com/krauhe/t1d-simulator/blob/main/LICENSE",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "t1d-simulator/LICENSE at main · krauhe/t1d-simulator · GitHub",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 625,
+      "sources": [
+        "index.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://hdl.handle.net/11586/188854",
+      "classification": "restricted",
+      "status": 403,
+      "final_url": "https://ricerca.uniba.it/handle/11586/188854",
+      "redirected": true,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "note": "Access restricted or automated requests refused (HTTP 403).",
+      "elapsed_ms": 1623,
+      "sources": [
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://hdl.handle.net/1721.1/15234",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://dspace.mit.edu/entities/publication/cd896f2b-f18f-485f-8725-b16055e873c1",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "A physiologic model of glucose metabolism in man and its use to design and assess improved insulin therapies for diabetes",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 712,
+      "sources": [
+        "knowledge/physiology/model-families.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://holesome.itch.io/holesome",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://holesome.itch.io/holesome",
+      "redirected": false,
+      "content_type": "text/html",
+      "title": "Holesome by Holesome",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 453,
+      "sources": [
+        "knowledge/games/availability.qmd",
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://ivy-leaves.itch.io/permanence",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://ivy-leaves.itch.io/permanence",
+      "redirected": false,
+      "content_type": "text/html",
+      "title": "Permanence by Ivy Leaves, Keagan Bowler",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 495,
+      "sources": [
+        "knowledge/games/availability.qmd",
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://krauhe.github.io/t1d-simulator/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://krauhe.github.io/t1d-simulator/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "T1D Simulator – Try. Learn. Repeat.",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 422,
+      "sources": [
+        "knowledge/comparisons/comparative-analysis.qmd",
+        "knowledge/games/availability.qmd",
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://lawrencehallofscience.org/science-apps/i-got-this/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://lawrencehallofscience.org/science-apps/i-got-this/",
+      "redirected": false,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "I Got This &#8211; The Lawrence Hall of Science",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 281,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/ELIGIBILITY-DECISIONS.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.medlevelex.diabetes",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://play.google.com/store/apps/details?id=com.medlevelex.diabetes",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 415,
+      "sources": [
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.sproutel.rufus",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://play.google.com/store/apps/details?id=com.sproutel.rufus",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 262,
+      "sources": [
+        "knowledge/games/availability.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://playlevelone.com/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://playlevelone.com/",
+      "redirected": false,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Level One - A Game to Master Type 1 Diabetes",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 3172,
+      "sources": [
+        "knowledge/comparisons/comparative-analysis.qmd",
+        "knowledge/games/availability.qmd",
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12954698/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12954698/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Digital Health Interventions in Children and Adolescents With Type 1 Diabetes Mellitus and Their Impact on Clinical and Behavioral Outcomes: Scoping Review - PMC",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 607,
+      "sources": [
+        "methods.qmd",
+        "references/ELIGIBILITY-DECISIONS.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13451009/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13451009/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "A Serious Digital Game (SugarVita) to Support Diabetes Self-Management: Pilot Randomized Controlled Trial - PMC",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 498,
+      "sources": [
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3836156/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3836156/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Thirty Years of Research on the Dawn Phenomenon: Lessons to Optimize Blood Glucose Control in Diabetes - PMC",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 420,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4324272/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4324272/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "The Design and Development of a Computer Game on Insulin Injection - PMC",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 249,
+      "sources": [
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4816200/",
+      "classification": "restricted",
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4816200/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Checking your browser – reCAPTCHA",
+      "note": "Automated access challenge detected; requires manual browser verification.",
+      "elapsed_ms": 317,
+      "sources": [
+        "knowledge/physiology/meals-insulin-exercise.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6432989/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6432989/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Conceptual framework for designing video games for children with type 1 diabetes - PMC",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 277,
+      "sources": [
+        "knowledge/games/catalogue.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11189794/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/11189794/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 498,
+      "sources": [
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11679452/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/11679452/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 197,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12450450/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/12450450/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 204,
+      "sources": [
+        "knowledge/physiology/index.qmd",
+        "knowledge/physiology/meals-insulin-exercise.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15382830/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/15382830/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 178,
+      "sources": [
+        "knowledge/physiology/model-families.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16033737/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/16033737/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 187,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16043731/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/16043731/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 194,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17284617/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/17284617/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 201,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17926672/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/17926672/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 209,
+      "sources": [
+        "knowledge/physiology/model-families.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19444330/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/19444330/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 205,
+      "sources": [
+        "knowledge/physiology/model-families.qmd",
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19469670/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/19469670/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 348,
+      "sources": [
+        "knowledge/physiology/glucose-insulin-system.qmd",
+        "knowledge/physiology/model-families.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19564476/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/19564476/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 193,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1987794/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/1987794/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 426,
+      "sources": [
+        "knowledge/physiology/glucose-insulin-system.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20167177/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/20167177/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 446,
+      "sources": [
+        "knowledge/physiology/model-families.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20357381/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/20357381/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 261,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20546255/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/20546255/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 219,
+      "sources": [
+        "knowledge/physiology/glucose-insulin-system.qmd",
+        "knowledge/physiology/index.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20936056/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/20936056/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 385,
+      "sources": [
+        "knowledge/physiology/model-families.qmd",
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2190769/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/2190769/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 193,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2226381/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/2226381/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 373,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23172972/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/23172972/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 494,
+      "sources": [
+        "knowledge/physiology/meals-insulin-exercise.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23613599/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/23613599/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 1109,
+      "sources": [
+        "knowledge/physiology/meals-insulin-exercise.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23672623/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/23672623/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 1468,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23883381/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/23883381/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 196,
+      "sources": [
+        "knowledge/physiology/glucose-insulin-system.qmd",
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24009261/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/24009261/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 4311,
+      "sources": [
+        "knowledge/physiology/glucose-insulin-system.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24606397/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/24606397/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 206,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24628249/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/24628249/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 220,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24876534/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/24876534/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 266,
+      "sources": [
+        "knowledge/physiology/model-families.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24962915/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/24962915/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 1156,
+      "sources": [
+        "knowledge/physiology/glucose-insulin-system.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25179915/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/25179915/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 193,
+      "sources": [
+        "knowledge/physiology/meals-insulin-exercise.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25998293/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/25998293/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 1229,
+      "sources": [
+        "knowledge/physiology/meals-insulin-exercise.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26426068/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/26426068/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 225,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26499756/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/26499756/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 216,
+      "sources": [
+        "knowledge/physiology/meals-insulin-exercise.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27594187/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/27594187/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 214,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27739515/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/27739515/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 340,
+      "sources": [
+        "knowledge/physiology/index.qmd",
+        "knowledge/physiology/meals-insulin-exercise.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28126459/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/28126459/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 200,
+      "sources": [
+        "knowledge/physiology/index.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28731034/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/28731034/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 371,
+      "sources": [
+        "knowledge/physiology/glucose-insulin-system.qmd",
+        "knowledge/physiology/index.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29900641/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/29900641/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 295,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30067154/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/30067154/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 195,
+      "sources": [
+        "knowledge/physiology/glucose-insulin-system.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30116732/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/30116732/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 207,
+      "sources": [
+        "knowledge/physiology/meals-insulin-exercise.qmd",
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30968756/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/30968756/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 193,
+      "sources": [
+        "knowledge/physiology/glucose-insulin-system.qmd",
+        "knowledge/physiology/index.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3126668/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/3126668/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 208,
+      "sources": [
+        "knowledge/physiology/meals-insulin-exercise.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32591906/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/32591906/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 201,
+      "sources": [
+        "knowledge/physiology/glucose-insulin-system.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34024156/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/34024156/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 2294,
+      "sources": [
+        "index.qmd",
+        "knowledge/comparisons/comparative-analysis.qmd",
+        "knowledge/games/availability.qmd",
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/evidence-map.qmd",
+        "knowledge/games/index.qmd",
+        "methods.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36250645/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/36250645/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 4332,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36549943/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/36549943/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 195,
+      "sources": [
+        "knowledge/physiology/meals-insulin-exercise.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36836608/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/36836608/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 201,
+      "sources": [
+        "knowledge/physiology/variability-and-safety.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38935014/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/38935014/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 183,
+      "sources": [
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39899746/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/39899746/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 481,
+      "sources": [
+        "methods.qmd",
+        "references/ELIGIBILITY-DECISIONS.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39904003/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/39904003/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 355,
+      "sources": [
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/443421/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/443421/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 193,
+      "sources": [
+        "knowledge/physiology/model-families.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6259925/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/6259925/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 263,
+      "sources": [
+        "knowledge/physiology/meals-insulin-exercise.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7018254/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/7018254/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 16748,
+      "sources": [
+        "knowledge/physiology/glucose-insulin-system.qmd",
+        "knowledge/physiology/model-families.qmd",
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8405758/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/8405758/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 212,
+      "sources": [
+        "knowledge/physiology/meals-insulin-exercise.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9183781/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/9183781/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 218,
+      "sources": [
+        "knowledge/comparisons/comparative-analysis.qmd",
+        "knowledge/games/evidence-map.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9353622/",
+      "classification": "working",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/9353622/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 754,
+      "sources": [
+        "knowledge/physiology/meals-insulin-exercise.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://sites.wustl.edu/mdl1/files/2026/06/Butler-et-al.-2013-Explanation-feedback-is-better-than-correct-answer-feedback-for-promoting-transfer-of-learning.pdf",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://bpb-us-e2.wpmucdn.com/sites.wustl.edu/dist/8/805/files/2026/06/Butler-et-al.-2013-Explanation-feedback-is-better-than-correct-answer-feedback-for-promoting-transfer-of-learning.pdf",
+      "redirected": true,
+      "content_type": "application/pdf",
+      "title": "",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 837,
+      "sources": [
+        "knowledge/design/learning-science.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://stablet1d.com/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://stablet1d.com/",
+      "redirected": false,
+      "content_type": "text/html",
+      "title": "stable: Live your best life with T1D",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 322,
+      "sources": [
+        "knowledge/games/catalogue.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://vbn.aau.dk/en/publications/making-chocolate-covered-broccoli-designing-a-mobile-learning-gam/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://vbn.aau.dk/en/publications/making-chocolate-covered-broccoli-designing-a-mobile-learning-gam/",
+      "redirected": false,
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Making Chocolate-covered Broccoli: Designing a Mobile Learning Game about Food for Young People with Diabetes - Aalborg University's Research Portal",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 501,
+      "sources": [
+        "references/PAYWALLED-WISHLIST.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://weeabetes.itch.io/hell-hath-no-insulin",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://weeabetes.itch.io/hell-hath-no-insulin",
+      "redirected": false,
+      "content_type": "text/html",
+      "title": "Hell Hath No Insulin by Weeabetes",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 610,
+      "sources": [
+        "knowledge/games/availability.qmd",
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://www.accu-chek.fr/produits/application/novi-chek",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://www.accu-chek.fr/produits/application/novi-chek",
+      "redirected": false,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Novi-Chek I Application I Diabète de type 1",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 378,
+      "sources": [
+        "knowledge/games/availability.qmd",
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://www.breakthrought1d.org/news-and-updates/new-interactive-rufus-the-bear-with-diabetes/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://www.breakthrought1d.org/news-and-updates/new-interactive-rufus-the-bear-with-diabetes/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Rufus, the Bear with Diabetes®, \"2.0\" - Breakthrough T1D",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 456,
+      "sources": [
+        "knowledge/comparisons/comparative-analysis.qmd",
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://www.dexcom.com/en-us/partnerships/digital-health-apps/eddii",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://www.dexcom.com/partnerships/digital-health-apps/eddii?ipc=DK",
+      "redirected": true,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Connect Dexcom CGM to eddii Diabetes Health App | Dexcom",
+      "note": "Redirect followed and final destination retrieved.",
+      "elapsed_ms": 902,
+      "sources": [
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://www.eddiihealth.com/eddii-app",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://www.eddiihealth.com/eddii-app",
+      "redirected": false,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 542,
+      "sources": [
+        "knowledge/games/availability.qmd",
+        "knowledge/games/catalogue.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://www.glucozor.fr/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://www.glucozor.fr/",
+      "redirected": false,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "GlucoZor - Comprendre le diabète en s'amusant !",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 607,
+      "sources": [
+        "knowledge/comparisons/comparative-analysis.qmd",
+        "knowledge/games/availability.qmd",
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://www.my-diabetic.com/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://www.my-diabetic.com/",
+      "redirected": false,
+      "content_type": "text/html",
+      "title": "Home",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 664,
+      "sources": [
+        "knowledge/comparisons/comparative-analysis.qmd",
+        "knowledge/games/availability.qmd",
+        "knowledge/games/catalogue.qmd",
+        "knowledge/games/profiles.qmd",
+        "references/SOURCE-INDEX.md"
+      ],
+      "followup": null
+    },
+    {
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "classification": "working",
+      "status": 200,
+      "final_url": "https://www.w3.org/TR/WCAG22/",
+      "redirected": false,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "note": "Destination retrieved.",
+      "elapsed_ms": 444,
+      "sources": [
+        "knowledge/human-factors/onboarding-and-accessibility.qmd"
+      ],
+      "followup": null
+    }
+  ]
+}

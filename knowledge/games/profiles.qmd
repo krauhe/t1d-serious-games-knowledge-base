@@ -5,13 +5,13 @@ description: "Evidence-aware profiles of current, historical, research and exper
 toc: true
 ---
 
-## Scope and image policy
+## Scope and appraisal status
 
 These profiles expand the most consequential records in the complete catalogue of ==type 1 diabetes (T1D)== games. They describe documented product characteristics and study findings; they are not direct play reviews. Every record remains `not_playtested` for this desk-research phase.
 
-No third-party game image is embedded on this public-source page. “Image/source” links lead to an official page, store listing, article figure or historical source. The JSON catalogue separately records a private-review file path where a local copy exists, together with source URL, copyright holder and reuse status. Public visibility does not by itself authorise republication.
+Product descriptions are desk observations. Statements that no study was located refer to the documented searches through 24 August 2026 and targeted corrections on 6 September 2026, not proof that no study exists. Study/version correspondence and unextracted fields are explicit in the [study register](../../data/studies.json).
 
-## Currently available core games
+## Core games: public access and unresolved availability
 
 ### AvaType1
 
@@ -123,7 +123,7 @@ Sweet Strategy is a Traditional Chinese iOS/iPadOS companion containing educatio
 
 ### Packy & Marlon
 
-**Purpose and loop.** The 1994 SNES adventure embedded diabetes tasks in an action-platform story featuring elephant protagonists.
+**Purpose and loop.** The 1990s SNES adventure embedded diabetes tasks in an action-platform story featuring elephant protagonists.
 
 **Provenance.** Raya Systems and Sculptured Software developed the commercial game; it subsequently became the subject of a controlled research evaluation.
 
@@ -145,7 +145,16 @@ Sweet Strategy is a Traditional Chinese iOS/iPadOS companion containing educatio
 
 **Design relevance.** A reward can increase a monitored action without teaching interpretation. The product also demonstrates that reputable partners do not guarantee long-term public continuity.
 
+### eddii: adjacent gamified management
+
+A commercial gamified interface was compared with the Dexcom G6 app in children with T1D aged 5–12. Of 92 randomised participants, 70 entered the glycaemic analysis (38 intervention, 32 control). The adjusted time-in-range difference-in-differences was +5.38 percentage points (*P*=.001) during six intervention weeks. Three replacement participants were assigned intervention non-randomly; post-randomisation exclusions, high baseline time in range and sponsor/author conflicts limit inference. This is evidence about the studied CGM-linked version, not proof of learning or efficacy of all current services ([Ahmadi and Lucero, 2025; online 2024](https://doi.org/10.1177/19322968231223759)).
+
 ## Consequential research prototypes
+
+### Diabetic Mario
+
+The Android prototype was evaluated in an uncontrolled one-week pilot with 12 children aged 9–13 recruited from an Auckland community sample. Diabetes was not an eligibility requirement. The 21-item general-health/diabetes questionnaire and usability observations cannot establish a controlled effect in children with T1D ([Baghaei et al., 2016](https://doi.org/10.1089/g4h.2015.0038)). A public maintained build was not located.
+
 
 ### Koodak-e-Tavana Insulin Injection Game
 
@@ -153,7 +162,7 @@ This Persian personal-computer prototype rehearsed insulin injection with childr
 
 ### Augmented-Reality Diabetes Education Game
 
-Children manipulated physical cards while a tablet overlaid educational feedback. The study supports feasibility and usability, not durable clinical effect ([Calle-Bustos et al., 2017](https://doi.org/10.1371/journal.pone.0184645)). The setup was not maintained as a public product. Tangible manipulation may make abstract food relationships concrete, but required hardware raises deployment and maintenance costs. [Open article and image source](https://doi.org/10.1371/journal.pone.0184645).
+Children manipulated physical cards while a tablet overlaid educational feedback. The study supports feasibility and usability, not durable clinical effect ([Calle-Bustos et al., 2017](https://doi.org/10.1371/journal.pone.0184645)). A maintained public release was not located; prior public release and the reason for non-availability were not established. Tangible manipulation may make abstract food relationships concrete, but required hardware raises deployment and maintenance costs. [Open article and image source](https://doi.org/10.1371/journal.pone.0184645).
 
 ### PAL
 
@@ -165,7 +174,7 @@ Tako Dojo used a martial-arts-themed mobile progression for adolescents. A pre/p
 
 ### Tangbao Superman Transformation
 
-This Mandarin Chinese narrative-driven ==virtual reality (VR)== intervention was studied for four weeks across four hospitals in 54 children aged 4–9. Educational domains improved with reported standardised effects of 0.78–1.27; completion was 95% and the child usability score was 86/100 ([Gu et al., 2025](https://doi.org/10.1038/s41598-025-30114-1)). Without a comparator or biomedical endpoint, the data support feasibility and test-proximal change, not causal or clinical efficacy. Specialised hardware further limits transferability.
+This Mandarin Chinese narrative-driven ==virtual reality (VR)== intervention was studied for four weeks across four hospitals in 54 children aged 4–9. Self-management scale domains, not knowledge, improved with reported standardised effects of 0.78–1.27. Child usability was 86/100. The abstract's 95% session-completion wording differs from the body's statement that 95% of children attended at least 10/12 sessions ([Gu et al., 2026; online 2025](https://doi.org/10.1038/s41598-025-30114-1)). Without a comparator or biomedical endpoint, the data support feasibility and test-proximal change, not causal or clinical efficacy. Specialised hardware further limits transferability.
 
 ### DiaPed
 
@@ -187,7 +196,7 @@ ExerT1D combines active video games, peers and diabetes-specific exercise discus
 
 ### I Got This
 
-This short mobile narrative represented diagnosis and early daily decisions for a teenager. Ayogo and the Diabetes Hands Foundation developed it with documented community involvement. No controlled evaluation was located and current store access was uncertain. It should be classified as an empathy/awareness product rather than a competence intervention unless outcomes demonstrate otherwise ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
+This narrative follows a teenage girl diagnosed with **type 2 diabetes**, so it is an adjacent experiential resource, not T1D-management evidence. It was developed by the Lawrence Hall of Science at the University of California, Berkeley, within a United States National Institutes of Health (NIH)-funded educational collaboration. The official page presents English and Spanish versions; contemporary store acquisition and installation were not verified. Lived-experience co-design was not established from the inspected material. [Official creator description, checked 6 September 2026](https://lawrencehallofscience.org/science-apps/i-got-this/).
 
 ### Hell Hath No Insulin
 
@@ -202,6 +211,8 @@ Permanence is an independent short browser/personal-computer narrative about chr
 Holesome is a compact independent experiential game distributed through itch.io. Its lived-experience framing was not independently verified beyond the product material, and no peer-reviewed outcome evaluation was located. [Product and image source](https://holesome.itch.io/holesome).
 
 ## Cross-profile conclusions
+
+The following are **design interpretations**, not measured comparative advantages or field-wide rankings.
 
 1. **Complete games and evaluated games are not the same set.** Public products are more accessible; research prototypes usually provide stronger study documentation.
 2. **Narrow outcomes permit stronger tests.** Injection distress, procedure performance or a defined causal concept is easier to evaluate than “diabetes management”.

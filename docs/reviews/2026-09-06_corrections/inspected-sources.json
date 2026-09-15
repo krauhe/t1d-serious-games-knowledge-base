@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-06",
+  "new_corrected_sources": "source-access.json records six corrected source identities, including three new retained full texts and three missing full texts",
+  "original_game_and_learning_appraisals": "../2026-09-06_scientific-content-audit/inspected-sources.json",
+  "additional_reinspection": [
+    {
+      "identifier": "https://pubmed.ncbi.nlm.nih.gov/20546255/",
+      "citation": "Gerich (2010)",
+      "file": "private-literature/articles/Gerich_2010_RW_RenalRoleInGlucoseHomeostasis.html",
+      "sha256": "d2e7cb2cbb84a33420f63cf15e5e2fb5d8bd5e6708210b27e6a39becac8ed1d5",
+      "inspection_depth": "Retained full-text renal-gluconeogenesis discussion and quantitative overnight-fasting context",
+      "claim": "Approximately 75–80% hepatic and 20–25% renal contribution in reviewed overnight-fasted human physiology; not a universal T1D parameter.",
+      "inspection_date": "2026-09-06",
+      "acquisition": "Pre-existing retained article; original retrieval date not re-established here",
+      "limitation": "Targeted claim inspection, not a complete critical appraisal of all claims in the article."
+    },
+    {
+      "identifier": "https://pubmed.ncbi.nlm.nih.gov/24009261/",
+      "citation": "Basu et al. (2013)",
+      "file": "private-literature/articles/Basu_2013_PlasmaToInterstitialGlucoseLag.html",
+      "sha256": "41b3880263d0dd83c807231e1f76f4e7c368393e59dfd3b50660fdd479a6500d",
+      "inspection_depth": "Retained full-text abstract, participant/protocol descriptions and selected results",
+      "claim": "Eight healthy overnight-fasted adults, abdominal microdialysis and glucose tracers; mean appearance-delay estimates 5.3–6.2 minutes, not total CGM lag.",
+      "inspection_date": "2026-09-06",
+      "acquisition": "Pre-existing retained article; original retrieval date not re-established here",
+      "limitation": "Targeted claim inspection, not a complete critical appraisal of all claims in the article."
+    },
+    {
+      "identifier": "https://pubmed.ncbi.nlm.nih.gov/30968756/",
+      "citation": "Najjar and Perdomo (2019)",
+      "file": "private-literature/articles/Najjar_2019_RW_HepaticInsulinClearance.html",
+      "sha256": "c2b4463c0401853f095960f7c23903e2dc8d484877b8e057b29d600a30279aae",
+      "inspection_depth": "Retained full-text hepatic first-pass extraction discussion",
+      "claim": "Substantial and variable first-pass extraction; removed a fixed half-extraction/portal ratio assertion rather than presenting it as a universal constant.",
+      "inspection_date": "2026-09-06",
+      "acquisition": "Pre-existing retained article; original retrieval date not re-established here",
+      "limitation": "Targeted claim inspection, not a complete critical appraisal of all claims in the article."
+    }
+  ]
+}

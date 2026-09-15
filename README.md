@@ -38,7 +38,7 @@ The project's origin does not confer evidentiary priority. Every catalogued prod
 
 The current evidence map includes:
 
-1. **A structured catalogue of 45 games and game-like interventions**, including active products, historical releases, research prototypes, experiential games, clinician-training games, and adjacent categories.
+1. **A structured catalogue of 46 games and game-like interventions**, including active products, historical releases, research prototypes, experiential games, clinician-training games, and adjacent categories.
 2. **An evidence map** that distinguishes controlled outcome studies, pre/post and feasibility studies, usability and co-design work, development descriptions, unevaluated public products, and developer claims.
 3. **Availability and provenance records** covering platform, audience, language, cost, region, access restrictions, developer type, release status, and verification confidence.
 4. **Learning and game-design foundations** addressing simulation, deliberate practice, feedback, retrieval, progression, narrative, social learning, motivation, accessibility, and cognitive load.

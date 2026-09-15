@@ -2,11 +2,11 @@
 
 ## T1D Serious Games Knowledge Base
 
-**Review date:** 6 September 2026. **Reviewed revision:** `22261b2f17acb66bcc77d1e446a93ee58fecde02`, with the local working tree inspected. **Mode:** critical review; chapter corrections are proposed, not implemented. **Audience:** researchers, clinicians, educators, developers and maintainers.
+**Review date:** 6 September 2026. **Reviewed revision:** `22261b2f17acb66bcc77d1e446a93ee58fecde02`, with the local working tree inspected. **Original mode:** critical review. **Correction update:** 6 September 2026, local changes after pushed checkpoint `593485b`. The executive findings below describe the original reviewed state; each finding now has a dated disposition. See the [correction record](2026-09-06_corrections.md) for implemented changes, verification and residual work. **Audience:** researchers, clinicians, educators, developers and maintainers.
 
 ## 1. Executive assessment
 
-The knowledge base has a useful multidisciplinary structure, but its current scientific reliability is insufficient for use as an independently verified reference. The principal problem is not simply a shortage of citations. Some citations identify different publications; some studies are assigned the wrong population or design; and several plausible design or sustainability hypotheses become empirical assertions when repeated elsewhere.
+At the reviewed revision, the knowledge base had a useful multidisciplinary structure, but its scientific reliability was insufficient for use as an independently verified reference. The principal problem is not simply a shortage of citations. Some citations identify different publications; some studies are assigned the wrong population or design; and several plausible design or sustainability hypotheses become empirical assertions when repeated elsewhere.
 
 The audit identified **12 distinct PubMed identifiers that do not identify the work attributed to them** in the physiological chapters. Several resolve to completely unrelated subjects, including leukaemia, ovarian tissue, neuronal neurotransmitter release and ultrasound beamforming. Successful network responses therefore concealed substantive bibliographic errors. This finding does not demonstrate that every associated physiological proposition is false; it demonstrates that the stated support is invalid.
 
@@ -40,9 +40,11 @@ The historical 24 August 2026 evidence cut-off was not silently advanced. Source
 
 ## 3. Priority findings
 
-Findings are **OPEN** unless a specific partial action is recorded. F21 is partially addressed through the new acquisition rules and expanded wishlist; source gaps remain. “Major” denotes a defect materially affecting scientific interpretation, provenance or reproducibility. “Minor” denotes a narrower correction or qualification. “Editorial” denotes internal status or presentation inconsistency. These labels describe consequences, not evidence that harm has occurred.
+**Correction status, 6 September 2026: 18 fixed; six partially addressed (F08, F09, F18, F19, F21 and F24).** Historical findings and proposed corrections are retained below so the original defects remain traceable. “Fixed” means the located defect was corrected and checked; it does not certify every claim in the chapter. “Major” denotes a defect materially affecting scientific interpretation, provenance or reproducibility. “Minor” denotes a narrower correction or qualification. “Editorial” denotes internal status or presentation inconsistency. These labels describe consequences, not evidence that harm has occurred.
 
 ### F01 — Major: twelve misidentified physiological references
+
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** The 12 rejected identifiers were removed from current physiological chapters. Intended references were corrected where identified; unsupported propositions were removed or narrowed. Three newly identified full texts were acquired; Rizza, Cobelli and Kovatchev remain explicitly abstract/metadata-supported where used.
 
 **Locations:** `knowledge/physiology/glucose-insulin-system.qmd:20–38`; `meals-insulin-exercise.qmd:25–35`; `variability-and-safety.qmd:36–40`; `model-families.qmd:24–47`, and their reference lists. Exact occurrences are retained in the source register.
 
@@ -67,6 +69,8 @@ Findings are **OPEN** unless a specific partial action is recorded. F21 is parti
 
 ### F02 — Major: a controlled study is created from an uncontrolled pilot
 
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** Diabetic Mario is now an uncontrolled one-week Android pilot in 12 community children aged 9–13; diabetes was not required. Game, study, catalogue, profile and evidence-map records agree.
+
 **Locations:** `data/games.json`, record `diabetic-mario`, particularly `evidence.level`, `target_population` and `platforms`; `knowledge/games/catalogue.qmd`, Diabetic Mario row; `knowledge/games/evidence-map.qmd`, knowledge evidence table.
 
 The record assigns “controlled outcome study”, a personal-computer platform and T1D-specific framing. The retained author manuscript describes a pre/post pilot, 12 children aged 9–13, Samsung tablets/Android, and one week of exposure. Diabetes was not an eligibility requirement. There was no concurrent comparator. The manuscript reports a health-knowledge questionnaire, not demonstrated diabetes-management competence.
@@ -74,6 +78,8 @@ The record assigns “controlled outcome study”, a personal-computer platform 
 **Correction:** classify the evaluated version as an uncontrolled mobile pilot, explicitly separate the intended diabetes audience from the recruited sample, supply the actual sample size and assessment, and avoid borrowing T1D specificity from the anchor review. Secondary reviews can themselves misclassify primary research. [Baghaei et al. (2016), Methods §4.1–4.3](https://doi.org/10.1089/g4h.2015.0038).
 
 ### F03 — Major: eddii's outcome evidence is materially understated
+
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** eddii now includes the company-sponsored controlled trial: 92 randomised, 70 in the glycaemic analysis, adjusted difference-in-differences of 5.38 percentage points in time in range over six weeks, P=.001. Allocation changes, exclusions, high baseline control and conflicts are stated; no learning transfer is inferred.
 
 **Locations:** `data/games.json`, record `eddii`; `knowledge/games/catalogue.qmd`, adjacent-management table; `knowledge/games/availability.qmd`, eddii row.
 
@@ -85,6 +91,8 @@ Important limitations include exclusion after randomisation, reassignment of thr
 
 ### F04 — Major: I Got This has the wrong disease and provenance
 
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** I Got This is classified as adjacent T2D experiential education and attributed to the Lawrence Hall of Science, University of California, Berkeley. English/Spanish and inspected official-page provenance are distinguished from untested store acquisition.
+
 **Locations:** `data/games.json`, record `i-got-this`; `knowledge/games/catalogue.qmd` and `profiles.qmd`, experiential-game entries.
 
 The record calls the work T1D-specific and attributes it to Ayogo and the Diabetes Hands Foundation. The official page, fetched locally with matching visible content, describes a girl diagnosed with **T2D**, identifies the Lawrence Hall of Science as creator, and describes public research funding and clinical/educational collaborators. Reinders' own table also identifies T2D.
@@ -92,6 +100,8 @@ The record calls the work T1D-specific and attributes it to Ayogo and the Diabet
 **Correction:** retain it as an explicitly adjacent experiential game; correct disease, developer, languages and official source. The product page's download claims still require contemporary store/device confirmation. [Lawrence Hall of Science (n.d.)](https://lawrencehallofscience.org/science-apps/i-got-this/), [Reinders et al. (2024), Table 2](https://doi.org/10.1016/j.diabres.2024.111833).
 
 ### F05 — Major: mixed-diabetes findings are labelled direct T1D evidence
+
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** Reinders and Yao are identified as mixed-diabetes evidence. Their results no longer establish T1D-specific educational or clinical efficacy.
 
 **Locations:** `knowledge/sustainability/why-games-disappear.qmd:12,73,101`; `knowledge/games/availability.qmd:10`; `knowledge/design/learning-science.qmd:70`.
 
@@ -101,6 +111,8 @@ Reinders explicitly included T1D and T2D, children and adults. Its overall 23-ga
 
 ### F06 — Major: non-release is converted into disappearance
 
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** Non-public availability at an audit is separated from documented withdrawal after public release. The 21/23 figure is no longer treated as a disappearance rate.
+
 **Locations:** `index.qmd:19`; `knowledge/sustainability/why-games-disappear.qmd:14`; `knowledge/games/availability.qmd`, explanatory sections.
 
 “The finding establishes loss of access” is too strong. Reinders reports that 21/23 research games were not published/available publicly, and its conclusion specifically discusses games never publicly released. That observation is not a longitudinal estimate of previously available products becoming unavailable. A discontinued commercial game and a never-released prototype represent different implementation failures.
@@ -109,6 +121,8 @@ Reinders explicitly included T1D and T2D, children and adults. Its overall 23-ga
 
 ### F07 — Major: sustainability hypotheses become established causal explanations
 
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** Funding, staffing, brochure maintenance and care-pathway explanations are labelled hypotheses or adjacent implementation evidence. No explanation of an individual's care, or completed guideline audit, is claimed.
+
 **Locations:** `knowledge/games/availability.qmd`, “Why a research game often disappears” and “Why games are rarely offered during diagnosis education”; contrast `index.qmd`, explicitly labelled sustainability hypothesis.
 
 Funding termination, staff turnover, multidisciplinary dependence and procurement constraints are plausible explanations. The resource sometimes labels them appropriately, but elsewhere states the causal account without study-specific evidence. The brochure comparison is particularly categorical. General digital-health and software-maintenance evidence cannot quantify which causes dominate T1D game non-release or discontinuation.
@@ -116,6 +130,8 @@ Funding termination, staff turnover, multidisciplinary dependence and procuremen
 **Correction:** maintain a three-part distinction: observed access state; documented project-specific cause, where available; and untested system-level hypothesis. Describe how the hypothesis could be tested through maintainer interviews, archived release histories and reasons-for-closure coding. Existing adjacent sustainability literature can inform those questions without becoming direct T1D causal evidence. [Braithwaite et al. (2020)](https://doi.org/10.1136/bmjopen-2019-036453), [Kaboré et al. (2022)](https://doi.org/10.3389/fdgth.2022.1014375).
 
 ### F08 — Major: historical search reproducibility is overstated
+
+**STATUS: PARTIALLY ADDRESSED (2026-09-06, local correction after `593485b`).** Unsupported claims of fully reproducible historical searching were removed. Missing original queries, citation-index exports and screening decisions cannot be reconstructed as observations; the historical search remains incompletely reproducible.
 
 **Locations:** `methods.qmd:27`; `references/SOURCE-INDEX.md`, §§1 and 3.
 
@@ -127,6 +143,8 @@ This is an **auditability gap**, not evidence that the historical searches were 
 
 ### F09 — Major: study extraction is incomplete despite a complete-looking schema
 
+**STATUS: PARTIALLY ADDRESSED (2026-09-06, local correction after `593485b`).** Added 23 linked study/report records with intervention version, purpose, design, population, denominators, instruments, follow-up, support depth and missing fields. Key erroneous extractions were repaired, but inherited records still require primary-report extraction; this is not a completed study database.
+
 **Locations:** `data/games.json`, including `ar-food-game`, `pal`, `diaquarium`, `diabetic-mario`, `norlev-smartphone-prototype`, `insuonline` and `eddii`; `tools/validate.mjs`.
 
 Fields contain placeholders such as “reported in article”, “see source” and “varied”. Several study strings have no stable identifier; `eddii.links.publications` is empty despite a study being mentioned. The current validator checks record shape and selected enum values, not study identity, comparator, analysed denominator, outcome instrument, timing, effect estimate or correspondence with the prose.
@@ -135,6 +153,8 @@ Fields contain placeholders such as “reported in article”, “see source” 
 
 ### F10 — Major: Qare and Qure's paired-caregiver interpretation is unverified
 
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** The unsupported paired-caregiver architecture was removed rather than declared false. Moosa and colleagues' article identity was corrected to A Simple Health-Based Game for Children; the unavailable primary full text and unverified gameplay are explicit.
+
 **Locations:** `knowledge/design/learning-science.qmd:88,136`; `data/games.json`, `qare-and-qure`; related catalogue row.
 
 The bibliography supplies a title about paired educational games for children and caregivers. The DOI identifies **A Simple Health-Based Game for Children**, by Moosa, Al-Maadeed and AlJa'am. The anchor review describes a child character and an arcade-style game; it does not establish the asserted linked child–caregiver system. The primary full text was not obtained.
@@ -142,6 +162,8 @@ The bibliography supplies a title about paired educational games for children an
 **Correction:** repair the bibliographic title and flag paired-role gameplay as unverified pending the original paper. Do not infer two user roles from a product's two-word name. The nearby citation to Nørlev's separate participatory smartphone study also does not document PAL's dashboard. Cite each project to its own publication. [Nørlev et al. (2022a), evidence table](https://doi.org/10.1177/19322968211018236), [Moosa et al. (2018; metadata verified, full text outstanding)](https://doi.org/10.1109/COMAPP.2018.8460213).
 
 ### F11 — Major: prescriptive learning claims exceed their cited support
+
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** The proposed feedback architecture, repeated attempts and scenario sequence are marked design inferences. Butler's explanation-feedback results are restricted to the inspected non-T1D experiments; unsupported T1D transfer and paired-learning claims were removed.
 
 **Locations:** `knowledge/design/learning-science.qmd:43–50,68,84`; `knowledge/design/game-mechanisms.qmd`; `knowledge/comparisons/comparative-analysis.qmd`, archetype discussion.
 
@@ -153,6 +175,8 @@ A concrete adjacent source is available for a narrower claim: Butler and colleag
 
 ### F12 — Minor: the five-to-eight-user heuristic needs qualification
 
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** Removed the universal five-to-eight-participant prescription; formative recruitment is now an iterative design proposal contingent on audience heterogeneity and observed problems.
+
 **Location:** `knowledge/human-factors/onboarding-and-accessibility.qmd:108`.
 
 A precise sample-size range is provided without a source or an explicit iterative-testing rationale. The text correctly says that such a sample cannot estimate prevalence or effectiveness. Nevertheless, the range can be read as a generally adequate design rule across highly different ages, literacy levels and access needs.
@@ -160,6 +184,8 @@ A precise sample-size range is provided without a source or an explicit iterativ
 **Correction:** present a small first round as a pragmatic formative-testing proposal, not a universal adequacy threshold. Specify target group, tasks, stopping criterion and repeated rounds; distinguish issue discovery from quantitative estimation. The tutorial evidence cited earlier does not validate this sample-size rule. [Andersen et al. (2012)](https://doi.org/10.1145/2207676.2207687).
 
 ### F13 — Major: field-wide absence claims lack reproducible bounds
+
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** No-study and no-transfer statements are bounded to the located corpus and search limitations. Game records explicitly state that absence of located evidence does not establish absence of research.
 
 **Locations:** product profiles and JSON statements of “no independent evaluation”; `knowledge/design/learning-science.qmd:84,90`; MyDiabetic's “Best-documented” JSON summary.
 
@@ -169,6 +195,8 @@ A precise sample-size range is provided without a source or an explicit iterativ
 
 ### F14 — Minor: platform and availability representations disagree
 
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** AvaType1 platform and gameplay descriptions now match the canonical record; Android availability is not asserted. Product access and evidence appraisal dates are separated, and installation remains unverified.
+
 **Locations:** `knowledge/comparisons/comparative-analysis.qmd`, AvaType1 row; `data/games.json`, `ava-type-1`; headings for “currently available” companions and FlightGlucose.
 
 The comparison says AvaType1 iOS/Android listings were identified, whereas the canonical record lists only iOS/iPadOS and explicitly notes iOS-only access. Several “currently available” groupings include products whose public acquisition is incompletely verified.
@@ -176,6 +204,8 @@ The comparison says AvaType1 iOS/Android listings were identified, whereas the c
 **Correction:** generate repeated factual fields from the canonical catalogue. Separate an active website, a visible store listing, a completed installation and a successful play session. A group heading must not silently upgrade a record's access status. This audit did not install the apps and does not settle their complete regional availability.
 
 ### F15 — Minor: bibliographic metadata needs a second pass beyond wrong identifiers
+
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** Known metadata defects were corrected across current prose: Yao's title/initial, Moosa's paper, Gu's 2026 volume with online-2025 date, Ahmadi's initial, Horowitz's title and Reutrakul's journal details. Unverified historical release dating was softened.
 
 **Locations:** physiological reference lists; Gu citations in profiles/source index; Yao entries in the home page and methods.
 
@@ -185,6 +215,8 @@ A useful negative control: the MyDiabetic PDF's filename suggests Koutna, but it
 
 ### F16 — Major: quantitative physiology is not consistently anchored to context
 
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** Quantitative anchors identify population, protocol, units and source depth. Rizza's healthy-participant glucose-production/utilization values are not lipolysis thresholds; hepatic extraction, sensor lag and post-exercise duration are no longer presented as universal T1D constants.
+
 **Locations:** `knowledge/physiology/glucose-insulin-system.qmd`; `meals-insulin-exercise.qmd`; `variability-and-safety.qmd`; `model-families.qmd`.
 
 The chapters contain useful distinctions between compartments, timing, counterregulation and model purpose. However, several numerical or mechanistic claims sit beside mismatched references, and some “established evidence” callouts provide no direct citation at the point of assertion. A correct-looking range is insufficient for modelling unless population, protocol, formulation, measurement compartment and uncertainty are identifiable.
@@ -192,6 +224,8 @@ The chapters contain useful distinctions between compartments, timing, counterre
 **Correction:** after F01, create a quantitative claim table for values actually retained in the prose: value/range, units, population, experimental conditions, source location and intended scope. Distinguish plasma pharmacokinetics from glucose-lowering pharmacodynamics and interstitial measurement delay from model compartments. Avoid declaring general physiological propositions false solely because the present citation is wrong.
 
 ### F17 — Major: endpoint labels obscure what was measured
+
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** Tangbao self-management scores are no longer knowledge scores; its abstract/body attendance-denominator discrepancy is preserved. Injection distress is distinguished from technique competence, and WeCan satisfaction from programme completion.
 
 **Locations:** `knowledge/games/evidence-map.qmd`, practical competence section; Gu/DiaPed/WeCan records; `methods.qmd`, evidence classes.
 
@@ -201,6 +235,8 @@ Injection-related observed distress is not injection-technique competence. A sel
 
 ### F18 — Major: numerical accuracy is not the same as methodological credibility
 
+**STATUS: PARTIALLY ADDRESSED (2026-09-06, local correction after `593485b`).** The key eddii, Mario and Tangbao interpretations now include study-specific limitations, and every study record has explicit appraisal domains. Missing-data, measurement, protocol comparison and conflict appraisal are still incomplete for other reports; no full-corpus risk-of-bias assessment is claimed.
+
 **Locations:** outcome summaries throughout `knowledge/games/evidence-map.qmd`, `profiles.qmd`, and `data/games.json`.
 
 The summaries usually acknowledge small samples and short follow-up. They rarely provide outcome-specific appraisal of allocation, departures from assignment, missing data, measurement validity, selective reporting or commercial conflicts. Reporting a very large pre/post effect without the calculation convention is particularly difficult to interpret. The detailed eddii reading illustrates why design labels alone cannot provide credibility ratings.
@@ -208,6 +244,8 @@ The summaries usually acknowledge small samples and short follow-up. They rarely
 **Correction:** appraise each important endpoint using design-appropriate domains and justify judgments. Do not reduce qualitative studies, feasibility studies and controlled trials to a single ascending “quality” hierarchy. For meta-analyses, preserve populations, comparators, heterogeneity and uncertainty; do not pool incomparable learning and clinical outcomes. No new pooled effect was calculated in this audit.
 
 ### F19 — Major: useful comparator literature is omitted or disconnected
+
+**STATUS: PARTIALLY ADDRESSED (2026-09-06, local correction after `593485b`).** Morgado and Beh are connected as adjacent comparator reviews with bounded inspection depth. An eligibility register distinguishes them from pending candidates such as bant, Diabetes Journey and Diactive. Complete forward-citation reconciliation and candidate/full-text screening remain outstanding.
 
 **Locations:** `references/SOURCE-INDEX.md`; learning/evaluation chapters; catalogue records for adjacent interventions.
 
@@ -217,6 +255,8 @@ Targeted searching identified a 53-study family/child educational-technology rev
 
 ### F20 — Minor: “neutral” comparison still contains unlabelled preferences
 
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** Comparison advantages and trade-offs are labelled design inferences, not measured superiority; physiological breadth does not define a universal product ranking. eddii is acknowledged within its different, data-connected scope.
+
 **Locations:** `data/games.json`, multiple `design_assessment.design_relevance` fields; comparison archetypes.
 
 The revised comparative chapter appropriately treats T1D Simulator as one product among others. Residual JSON advice nevertheless assumes a lightweight, no-personal-health-data simulation as the preferred destination, including instructions to avoid proprietary devices or preserve a particular data boundary. Those may suit one project but are not universal rules for an inclusive knowledge base. Some strengths/limitations also read as observed usability judgments despite desk-research status.
@@ -225,15 +265,19 @@ The revised comparative chapter appropriately treats T1D Simulator as one produc
 
 ### F21 — Major: source acquisition was too narrowly governed and incompletely tracked
 
-**Status: PARTIALLY ADDRESSED — 6 September 2026.** Acquisition policy and wishlist coverage improved; unresolved full texts and incomplete appraisal remain.
+**STATUS: PARTIALLY ADDRESSED (2026-09-06, local correction after `593485b`).** Acquisition and inspection are separately logged. Three additional full texts were retained and inspected in relevant sections; three corrected physiological sources remain inaccessible in full text after fallback attempts. The broader historical full-text backlog remains incomplete.
+
+**Original audit-phase status:** partially addressed before the content-correction phase; acquisition policy and wishlist coverage had improved, while full-text and appraisal gaps remained.
 
 **Locations:** `references/PAYWALLED-WISHLIST.md`; source-register acquisition statements.
 
 The previous wishlist sometimes treated absence of an explicit redistribution licence as a reason not to retain an author-uploaded paper for private reading. Ordinary lawful access and permission to republish are separate questions. Meanwhile, numerous learning-science and physiological citations had no corresponding entry in the game-focused wishlist.
 
-**Action in this audit:** expanded the acquisition backlog, reused existing legitimate article files, acquired open full texts where routes worked, and recorded unsuccessful routes rather than retaining challenge pages. Brown's discovered author-upload route returned Hypertext Transfer Protocol (HTTP) status 403 locally; this is recorded as a retrieval limitation, not a finding about the paper's copyright status. Unrelated papers reached through wrong citations are not counted as acquisition of the intended work. The reviewed scientific chapters have not been rewritten.
+**Original audit-phase action:** expanded the acquisition backlog, reused existing legitimate article files, acquired open full texts where routes worked, and recorded unsuccessful routes rather than retaining challenge pages. Brown's discovered author-upload route returned Hypertext Transfer Protocol (HTTP) status 403 locally; this was recorded as a retrieval limitation, not a finding about the paper's copyright status. Unrelated papers reached through wrong citations were not counted as acquisition of the intended work. Scientific chapters were not rewritten during that original audit phase; subsequent corrections are recorded in the current status above.
 
 ### F22 — Editorial: governance contradicts the current licensing documents
+
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** Governance now agrees with the existing CC BY 4.0 text and original-figure licence and MIT code licence, without implying that third-party material inherits them.
 
 **Location:** `GOVERNANCE.md:5–7`, compared with `LICENSING.md`, `CONTRIBUTING.md` and `CITATION.cff`.
 
@@ -243,6 +287,8 @@ Governance still describes a private initial phase and absence of an open licenc
 
 ### F23 — Major: living-update provenance is insufficiently granular
 
+**STATUS: FIXED (2026-09-06, local correction after `593485b`).** Historical search cut-off, targeted appraisal/correction date, availability checks and build dates are distinct. New eligibility and acquisition decisions retain their own dates rather than being backdated into the historical search.
+
 **Locations:** frontmatter across chapters; site-wide cut-off text; `references/PAYWALLED-WISHLIST.md`, SugarVita entry.
 
 The resource mixes an August evidence cut-off, September availability checks, physiology metadata claiming review through 2025, and later comparator discoveries. These can coexist, but readers cannot reliably tell which search supports each chapter or whether a later addition changes field-wide conclusions.
@@ -250,6 +296,8 @@ The resource mixes an August evidence cut-off, September availability checks, ph
 **Correction:** retain separate dates for scientific search, substantive appraisal, product access, content revision and rendered build. Add a change record explaining whether an update adds evidence, changes interpretation or merely repairs metadata. Do not let a rebuild date imply fresh literature searching.
 
 ### F24 — Major: correction propagation and release checks are inadequate
+
+**STATUS: PARTIALLY ADDRESSED (2026-09-06, local correction after `593485b`).** Known-error regression tests, linked study rendering and structural checks now cover canonical data and derived builds. The timeline was corrected. Independent browser visual inspection could not be completed because the browser tool refused local-file access; static and PDF inspection do not replace it.
 
 **Locations:** repeated catalogue/profile/comparison tables; `data/games.json`; `tools/build-site.mjs`; `tools/validate.mjs`.
 
@@ -296,11 +344,11 @@ Its safeguards were exercised against the actual corpus. They exposed mismatched
 
 ## 7. Residual limitations and acceptance status
 
-**Complete:** source-corpus and 45-record inspection; located findings; new skill and supporting workflow; local retrieval attempts; expanded full-text backlog; explicit source-access and coverage records.
+**Implemented:** corrections to the located citation, study-classification, endpoint, inference, provenance and governance defects; a linked 23-report study register; known-error regression tests; propagated web/tablet content; additional lawful source retrieval and an updated wishlist. The original coverage and acquisition registers remain historical snapshots; the correction register is an additive, dated record.
 
-**Not complete:** independent appraisal of every underlying publication; retrieval of all cited full texts; a complete new systematic search; installation/playtesting; a specialist clinical sign-off; implementation of the proposed content corrections.
+**Not complete:** independent primary-report extraction and appraisal of every underlying publication; retrieval of all cited full texts; reconstruction of missing historical search exports; complete forward-citation/candidate screening; installation/playtesting; a specialist clinical sign-off; independent browser visual inspection of the revised website.
 
-Of 24 findings, 23 remain open and F21 is partially addressed. No scientific chapter correction is claimed. Status must change only after the affected canonical and derived representations have been corrected and checked. This report should not be treated as certification of the existing website.
+Of 24 findings, **18 are fixed and six partially addressed**. Each partial disposition specifies the remaining work. The original findings are not silently rewritten as if the errors had never existed. Neither passing regression checks nor obtaining full text certifies the website scientifically. Final corrections remain local and were not pushed after the requested checkpoint.
 
 ## 8. Abbreviations and terms
 
@@ -323,7 +371,7 @@ Of 24 findings, 23 remain open and F21 is partially addressed. No scientific cha
 
 The cited sources and inspection depth are indexed in [inspected-sources.json](2026-09-06_scientific-content-audit/inspected-sources.json). Full-text gaps are distinguished from bibliographic errors in the [acquisition backlog](2026-09-06_scientific-content-audit/full-text-backlog.md). References below preserve the article identity; an accessible abstract is not labelled a full-text appraisal.
 
-A final local check of these 22 exact source URLs classified 16 as reachable and six as access-restricted, with none classified as broken. The restricted publisher routes were Ahmadi, Andersen, Baghaei, Braithwaite, Nørlev and Shute. Their publication identities and retained reading copies were checked separately; the publisher links are **not fully verified public-access routes**. A working abstract page does not imply access to the complete paper.
+The original audit-phase local check of these 22 exact source URLs classified 16 as reachable and six as access-restricted, with none classified as broken. The restricted publisher routes were Ahmadi, Andersen, Baghaei, Braithwaite, Nørlev and Shute. Their publication identities and retained reading copies were checked separately; the publisher links are **not fully verified public-access routes**. A working abstract page does not imply access to the complete paper.
 
 1. [Ahmadi, F. and Lucero, A. (2025; online 2024). Gaming the System: A Fun Continuous Glucose Monitor Interface Improves Glycemic Outcomes for Children. *Journal of Diabetes Science and Technology*, 19(3), 836–842.](https://doi.org/10.1177/19322968231223759)
 2. [Andersen, E. et al. (2012). The impact of tutorials on games of varying complexity. *Proceedings of CHI 2012*.](https://doi.org/10.1145/2207676.2207687)

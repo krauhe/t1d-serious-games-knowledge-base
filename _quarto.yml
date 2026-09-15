@@ -33,7 +33,9 @@ website:
           - index.qmd
           - methods.qmd
           - references/SOURCE-INDEX.md
+          - references/ELIGIBILITY-DECISIONS.md
           - references/PAYWALLED-WISHLIST.md
+          - docs/reviews/2026-09-06_scientific-content-audit/full-text-backlog.md
           - glossary.qmd
       - section: "Games and evidence"
         contents:

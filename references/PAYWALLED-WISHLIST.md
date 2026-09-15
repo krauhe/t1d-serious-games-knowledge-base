@@ -10,6 +10,25 @@ This list includes subscription barriers, unsuccessful open-access retrievals an
 
 The [6 September acquisition backlog](../docs/reviews/2026-09-06_scientific-content-audit/full-text-backlog.md) extends this priority list to all unresolved linked scholarly sources encountered in the scientific audit. Its [source-access register](../docs/reviews/2026-09-06_scientific-content-audit/source-access-register.json) records attempted routes and separates retained candidate files from scientific verification. The priority records below are retained for continuity; they do not constitute the complete backlog.
 
+## Correction update — 6 September 2026
+
+Newly used Chadt and Al-Hasani (2020), Gradel et al. (2018), and Steiner et al. (2015) full-text XML files were retained and their relevant body sections inspected. They are not acquisition gaps. Rizza (1981), Cobelli (2009), and Kovatchev (2009) were checked through PubMed/Europe PMC and DOI/publisher routes but full texts were not acquired; this includes failed open-repository routes and must not be labelled uniformly as paywalls. Exact attempts and verified identities are in the [correction access register](../docs/reviews/2026-09-06_corrections/source-access.json).
+
+| Source requiring full text | Verified identifier | Current use |
+|---|---|---|
+| Rizza, Mandarino and Gerich (1981), Dose-response characteristics for effects of insulin on production and utilization of glucose in man | [PMID 7018254](https://pubmed.ncbi.nlm.nih.gov/7018254/) | Healthy-participant dose-response comparison; abstract-only limitation explicit |
+| Cobelli et al. (2009), Diabetes: Models, Signals, and Control | [PMID 20936056](https://pubmed.ncbi.nlm.nih.gov/20936056/) | Model-family overview; complete primary review appraisal outstanding |
+| Kovatchev et al. (2009), In silico preclinical trials: a proof of concept in closed-loop control of type 1 diabetes | [PMID 19444330](https://pubmed.ncbi.nlm.nih.gov/19444330/) | Specific preclinical regulatory-use statement; abstract inspected |
+
+The original audit backlog preserves erroneous citation identities as historical findings. The 12 rejected physiological identifiers in F01 are **not active requests to acquire those unrelated articles**; consult the correction log before acquisition. Unidentified DeFronzo/Søeborg/Bondia attributions were removed rather than replaced with plausible but unverified papers.
+
+## Targeted author follow-up — 15 September 2026
+
+1. **Hejlesen, Plougmann and Cavan (2000), “DiasNet: an Internet tool for communication and education in diabetes”, pp. 563–567, PMID 11187615.** [Institutional bibliographic record](https://vbn.aau.dk/en/publications/diasnet-an-internet-tool-for-communication-and-education-in-diabe/) verified locally (HTTP 200); no full-text download link on that record. PubMed returned a cookie challenge locally. Abstract consulted through indexed PubMed content, not full-text appraisal. Seek an author copy or interlibrary loan. This is an educational-simulation antecedent, not a new serious-game trial.
+2. **Nørlev and Hangaard (2026), “Development of a Digitally Applicable Tool for Identifying Insulin Adherence Challenges Prior to Consultation”, pp. 2299–2303, DOI 10.3233/SHTI260680.** [Institutional article record](https://vbn.aau.dk/en/publications/development-of-a-digitally-applicable-tool-for-identifying-insuli/) verified locally (HTTP 200), including abstract and declared CC BY-NC 4.0 open-access status. Its linked repository PDF (`/files/832919582/SHTI-336-SHTI260680.pdf`) returned HTTP 403 with an anti-bot challenge. Not acquired; this is an open-access retrieval failure, not evidence of a subscription paywall. Retry the institutional or publisher route lawfully. Used only to identify an adjacent research direction; not evidence of game effectiveness.
+
+The Nørlev (2022) participatory-design paper and Lauritzen et al. (2012) social-games paper were already retained locally and were not downloaded again.
+
 ## 1. Highest acquisition priority
 
 | Priority | Source | Stable identifier | Current full-text status | Why it matters |
@@ -20,7 +39,7 @@ The [6 September acquisition backlog](../docs/reviews/2026-09-06_scientific-cont
 | 4 | *The Effect of Diabetes Education Given to Children With Type 1 Diabetes Mellitus With Digital Games and Video Animation on Quality of Life* (2025) | [DOI 10.1016/j.pedn.2025.01.023](https://doi.org/10.1016/j.pedn.2025.01.023); [PMID 39904003](https://pubmed.ncbi.nlm.nih.gov/39904003/) | Elsevier full text access restricted; abstract available. | Randomised trial reporting quality-of-life and metabolic outcomes, although the combined intervention prevents isolation of the game component. |
 | 5 | Muñoz-Pardeza et al. (2025), *Effect of Diactive-1 mHealth-Supported Progressive Resistance Training on Insulin Requirements, Glycemic Stability, and Muscular Strength in Children and Adolescents With Type 1 Diabetes* | [DOI 10.2337/dc25-0985](https://doi.org/10.2337/dc25-0985) | American Diabetes Association full text currently available only by purchase or subscription. | Controlled 24-week outcome study of a gamified exercise intervention with insulin, glycaemic, safety, and strength endpoints. |
 
-## 2. Nørlev anchor-review sources without retained full text
+## 2. Sources identified through Nørlev et al. without retained full text
 
 | Source | Stable identifier | Current full-text status | Suggested lawful route |
 |---|---|---|---|

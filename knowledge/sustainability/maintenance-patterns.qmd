@@ -126,7 +126,7 @@ Create a recurring content audit with three independent questions:
 2. **Correct implementation:** does the software still represent the approved rule or model?
 3. **Demonstrated learning:** does evidence support the public educational claim for this version and population?
 
-> **Evidence label — Direct T1D evidence.** Research-game availability and public-product evaluation were largely disconnected in Reinders et al.'s audit. A maintenance system must therefore track current access and current evidence separately ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
+> **Evidence label — Mixed-diabetes availability evidence.** Research-game availability and public-product evaluation were largely disconnected in Reinders et al.'s audit. A maintenance system must therefore track current access and current evidence separately ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
 
 A public evidence register should label controlled studies, uncontrolled feasibility, usability/co-design, development descriptions and marketing claims separately. Null results and discontinued versions remain part of the record.
 

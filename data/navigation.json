@@ -5,7 +5,9 @@
       { "title": "Home", "source": "index.qmd" },
       { "title": "Methods and sources", "source": "methods.qmd" },
       { "title": "Source register", "source": "references/SOURCE-INDEX.md" },
+      { "title": "Eligibility decisions", "source": "references/ELIGIBILITY-DECISIONS.md" },
       { "title": "Full-text wishlist", "source": "references/PAYWALLED-WISHLIST.md" },
+      { "title": "Historical access backlog", "source": "docs/reviews/2026-09-06_scientific-content-audit/full-text-backlog.md" },
       { "title": "Glossary", "source": "glossary.qmd" }
     ]
   },

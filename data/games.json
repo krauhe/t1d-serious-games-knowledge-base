@@ -1,9 +1,9 @@
 {
   "catalogue_title": "Serious Games for Type 1 Diabetes Education and Self-Management",
-  "catalogue_version": "2026-09-05-v3",
+  "catalogue_version": "2026-09-15",
   "verification_date": "2026-09-05",
   "scope": "Structured scoping-review catalogue of T1D-specific digital serious games, selected experiential games, and clearly labelled adjacent gamified products.",
-  "epistemic_note": "Availability and price are point-in-time observations. App-store visibility may vary by country, device and account. No product was playtested in this desk-research phase. Developer statements are not treated as evidence of effectiveness.",
+  "epistemic_note": "Game evidence categories describe publication design, not study quality or current-version efficacy. Study-level extraction depth and missing data are explicit. Availability dates are independent of the 2026-09-06 scientific correction. All design assessments are desk-research inferences, not playtests.",
   "required_record_status": "not_playtested",
   "games": [
     {
@@ -82,7 +82,10 @@
           "account and analytics requirements",
           "English only"
         ],
-        "design_detail": "public product without peer-reviewed outcome evaluation located"
+        "design_detail": "public product without peer-reviewed outcome evaluation located",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "publicly available",
@@ -127,7 +130,8 @@
         "design_relevance": [
           "strong comparator for fast start",
           "useful example of progressive micro-levels and visible causal effects"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -197,7 +201,10 @@
           "two App Store ratings at verification",
           "iOS only"
         ],
-        "design_detail": "public product without peer-reviewed evaluation"
+        "design_detail": "public product without peer-reviewed evaluation",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "publicly available",
@@ -241,7 +248,8 @@
         "design_relevance": [
           "direct comparator for layered scientific depth",
           "shows value of a character that reacts to glucose"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -312,7 +320,10 @@
           "some alarmist crisis framing",
           "mixed clinical claims require expert audit"
         ],
-        "design_detail": "public product without peer-reviewed evaluation"
+        "design_detail": "public product without peer-reviewed evaluation",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "availability incompletely verified",
@@ -325,15 +336,15 @@
         "confidence": "moderate",
         "status_detail": "availability incompletely verified: direct Windows TLS handshake failed although indexed content remained retrievable"
       },
-    "links": {
-      "official": [],
-      "stores": [],
-      "archives": [],
-      "publications": []
-    },
-    "screenshot": {
-      "file": null,
-      "source_url": null,
+      "links": {
+        "official": [],
+        "stores": [],
+        "archives": [],
+        "publications": []
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
         "captured_on": "2026-08-24",
         "copyright_holder": "Diabetes Simulations",
         "reuse_status": "image unavailable; no local image retained"
@@ -352,7 +363,8 @@
         "design_relevance": [
           "direct browser-simulation comparator",
           "illustrates both value and risk of crisis-oriented scenarios"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -440,7 +452,12 @@
           "no randomized comparison",
           "no long-term retention or HbA1c evidence"
         ],
-        "design_detail": "participatory co-design and short feasibility/learning evaluation"
+        "design_detail": "participatory co-design and short feasibility/learning evaluation",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "mydiabetic-1"
+        ]
       },
       "availability": {
         "status": "publicly available",
@@ -484,9 +501,10 @@
           "brief efficacy testing"
         ],
         "design_relevance": [
-          "strongest precedent for combining physiology, procedures and daily life",
+          "a design precedent combining physiology, procedures and daily life",
           "supports an audio-guided novice path"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -561,7 +579,10 @@
           "young-child focus",
           "physical bear access differs by region"
         ],
-        "design_detail": "public product; no peer-reviewed outcome evaluation located"
+        "design_detail": "public product; no peer-reviewed outcome evaluation located",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "publicly available",
@@ -604,7 +625,8 @@
         "design_relevance": [
           "supports character-centred safe practice",
           "demonstrates continuity between physical comfort objects and digital learning"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -672,7 +694,10 @@
           "store availability uncertain",
           "older technology"
         ],
-        "design_detail": "public product without independent peer-reviewed outcome evaluation"
+        "design_detail": "public product without independent peer-reviewed outcome evaluation",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "availability incompletely verified",
@@ -716,7 +741,8 @@
         "design_relevance": [
           "example of transparent industry/nonprofit provenance",
           "illustrates maintenance risk despite an active website"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -786,24 +812,27 @@
           "industry provenance",
           "French/region limitation"
         ],
-        "design_detail": "public product without independent outcome evaluation"
+        "design_detail": "public product without independent outcome evaluation",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
-      "status": "availability incompletely verified",
+        "status": "availability incompletely verified",
         "price": "free",
         "monetisation": "industry-funded",
-      "regions": "official French product page accessible; direct iOS and Android acquisition could not be verified from the local computer",
+        "regions": "official French product page accessible; direct iOS and Android acquisition could not be verified from the local computer",
         "account_requirements": "not established",
         "hardware_dependencies": "smartphone",
         "verified_on": "2026-09-05",
-      "confidence": "high for product-page continuity; low for current app acquisition",
-      "status_detail": "official Roche product page accessible; tested App Store and Google Play links returned HTTP 404"
+        "confidence": "high for product-page continuity; low for current app acquisition",
+        "status_detail": "official Roche product page accessible; tested App Store and Google Play links returned HTTP 404"
       },
       "links": {
         "official": [
           "https://www.accu-chek.fr/produits/application/novi-chek"
         ],
-      "stores": [],
+        "stores": [],
         "archives": [],
         "publications": [
           "https://doi.org/10.1016/j.diabres.2024.111833"
@@ -829,7 +858,8 @@
         "design_relevance": [
           "shows how a progress narrative can organise reference material",
           "useful comparator for transition-age users"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -897,7 +927,10 @@
           "regional and language limitation",
           "hybrid utility rather than a full serious game"
         ],
-        "design_detail": "public product without peer-reviewed evaluation located"
+        "design_detail": "public product without peer-reviewed evaluation located",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "publicly available",
@@ -941,7 +974,8 @@
         "design_relevance": [
           "supports culturally local food content",
           "shows value of daily-situation modules"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -1000,23 +1034,28 @@
         "lived_experience_involvement": "founder narrative includes diabetes community motivation, but specific lived-experience co-design not verified here"
       },
       "evidence": {
-        "level": "public product without peer-reviewed evaluation",
+        "level": "controlled outcome study",
         "studies": [
           {
-            "citation": "Ahmadi et al. 2024, JDST 19322968231223759",
-            "design": "product-related study",
-            "sample_size": "see source",
-            "outcomes": "engagement-related evidence",
-            "limitations": "not equivalent to proof of learning or clinical benefit for the current product"
+            "citation": "Ahmadi and Lucero (2025; online 2024), doi:10.1177/19322968231223759",
+            "design": "randomised controlled trial with subsequent non-random replacement allocation",
+            "sample_size": "92 randomised; 70 in glycaemic analysis (38 intervention, 32 control)",
+            "outcomes": "Adjusted time-in-range difference-in-differences +5.38 percentage points (P=.001) over six intervention weeks",
+            "limitations": "post-randomisation exclusions; three consecutive replacement enrollees assigned intervention; high baseline time in range; company sponsorship and author employment; no educational-transfer endpoint"
           }
         ],
-        "summary": "Should be listed as a gamified management utility, not a stand-alone education game.",
+        "summary": "A T1D paediatric trial reported an adjusted +5.38 percentage-point time-in-range difference-in-differences (P=.001); it did not test educational transfer. Allocation changes and exclusions limit causal confidence.",
         "limitations": [
           "real health data and privacy considerations",
           "US care-service coupling",
           "mixed diabetes population"
         ],
-        "design_detail": "public product with limited related publication; independent educational efficacy not established"
+        "design_detail": "randomised controlled glycaemic-outcome trial of the studied iPhone/Dexcom G6 version; company-sponsored",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "eddii-1"
+        ]
       },
       "availability": {
         "status": "publicly available",
@@ -1036,7 +1075,9 @@
         ],
         "stores": [],
         "archives": [],
-        "publications": []
+        "publications": [
+          "https://doi.org/10.1177/19322968231223759"
+        ]
       },
       "screenshot": {
         "source_url": "https://www.eddiihealth.com/eddii-app",
@@ -1056,9 +1097,9 @@
           "commercial and regional dependencies"
         ],
         "design_relevance": [
-          "illustrates risks of mixing simulation with real patient data",
-          "supports a clear boundary between learning products and therapeutic services"
-        ]
+          "Real-data integration can support reflection but adds consent, privacy, device and service dependencies; assess these tradeoffs for the intended purpose."
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -1122,7 +1163,10 @@
           "obsolete platform",
           "no product-specific trial"
         ],
-        "design_detail": "development history; no controlled product-specific outcome study located"
+        "design_detail": "development history; no controlled product-specific outcome study located",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "discontinued",
@@ -1163,7 +1207,8 @@
         ],
         "design_relevance": [
           "shows the limits of attaching quizzes to unrelated action play"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -1174,7 +1219,7 @@
         "Packy and Marlon"
       ],
       "release_history": [
-        "SNES release 1994",
+        "1990s SNES release; exact release date not reverified in this correction",
         "discontinued"
       ],
       "scope_group": "historical_core",
@@ -1231,13 +1276,18 @@
             "limitations": "small single-era study; several borderline outcomes"
           }
         ],
-        "summary": "The strongest early evidence concerned communication and self-care rather than glycaemic control.",
+        "summary": "The early trial reported communication and self-care signals rather than demonstrated glycaemic benefit.",
         "limitations": [
           "small sample",
           "obsolete platform",
           "limited replication"
         ],
-        "design_detail": "controlled outcome study"
+        "design_detail": "controlled outcome study",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "packy-and-marlon-1"
+        ]
       },
       "availability": {
         "status": "discontinued",
@@ -1277,7 +1327,8 @@
         ],
         "design_relevance": [
           "supports contextual action and caregiver communication beyond factual quizzes"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -1345,7 +1396,12 @@
           "real-data reward may privilege measurement frequency over interpretation",
           "no clinical trial"
         ],
-        "design_detail": "development description/viewpoint"
+        "design_detail": "development description/viewpoint",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "monster-manor-1"
+        ]
       },
       "availability": {
         "status": "discontinued",
@@ -1384,7 +1440,8 @@
         ],
         "design_relevance": [
           "warns that maintenance and educational depth matter as much as initial engagement"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -1451,7 +1508,12 @@
           "short follow-up",
           "no public release"
         ],
-        "design_detail": "small randomised trial"
+        "design_detail": "small randomised trial",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "koodak-e-tavana-1"
+        ]
       },
       "availability": {
         "status": "study or trial only",
@@ -1491,7 +1553,8 @@
         ],
         "design_relevance": [
           "supports focused low-consequence practice for stressful procedures"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -1561,7 +1624,12 @@
           "small evaluation",
           "not public"
         ],
-        "design_detail": "feasibility/usability study"
+        "design_detail": "feasibility/usability study",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "ar-food-game-1"
+        ]
       },
       "availability": {
         "status": "research prototype; not publicly available",
@@ -1600,7 +1668,8 @@
         ],
         "design_relevance": [
           "supports concrete visual manipulation but not required hardware"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -1664,7 +1733,12 @@
           "very narrow",
           "not public"
         ],
-        "design_detail": "development/conceptual study"
+        "design_detail": "development/conceptual study",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "food-quiz-1"
+        ]
       },
       "availability": {
         "status": "research prototype; not publicly available",
@@ -1702,7 +1776,8 @@
         ],
         "design_relevance": [
           "avoid separating a generic quiz from the simulated consequence"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -1777,7 +1852,12 @@
           "privacy/moderation burden",
           "prototype discontinued"
         ],
-        "design_detail": "participatory design/development"
+        "design_detail": "participatory design/development",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "social-diabetes-platform-1"
+        ]
       },
       "availability": {
         "status": "research prototype; not publicly available",
@@ -1816,7 +1896,8 @@
         ],
         "design_relevance": [
           "social features require a governance model, not only UI"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -1889,7 +1970,12 @@
           "high hardware and deployment burden",
           "prototype dependence"
         ],
-        "design_detail": "feasibility and participatory design"
+        "design_detail": "feasibility and participatory design",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "pal-1"
+        ]
       },
       "availability": {
         "status": "research prototype; not publicly available",
@@ -1928,7 +2014,8 @@
         ],
         "design_relevance": [
           "a lightweight web game should not inherit unnecessary hardware dependence"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -1993,7 +2080,12 @@
           "extrinsic routine mapping",
           "unavailable"
         ],
-        "design_detail": "design/usability study"
+        "design_detail": "design/usability study",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "diaquarium-1"
+        ]
       },
       "availability": {
         "status": "research prototype; not publicly available",
@@ -2032,7 +2124,8 @@
         ],
         "design_relevance": [
           "progression should reward understanding rather than data entry alone"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -2045,14 +2138,14 @@
       ],
       "scope_group": "research_prototype",
       "target_population": {
-        "diabetes_specificity": "T1D-specific",
-        "age_range": "children",
+        "diabetes_specificity": "general diabetes/health education; pilot did not require diabetes",
+        "age_range": "9–13 years in pilot",
         "roles": [
-          "child with T1D"
+          "child; diabetes status not required"
         ]
       },
       "platforms": [
-        "PC prototype"
+        "Android"
       ],
       "languages": [
         "English"
@@ -2083,23 +2176,28 @@
         "lived_experience_involvement": "co-design details limited"
       },
       "evidence": {
-        "level": "controlled outcome study",
+        "level": "pre/post or feasibility study",
         "studies": [
           {
-            "citation": "Baghaei et al. 2016",
-            "design": "prototype evaluation",
-            "sample_size": "reported in article",
-            "outcomes": "engagement and knowledge-related measures",
-            "limitations": "short and small"
+            "citation": "Baghaei et al. (2016)",
+            "design": "uncontrolled pre/post pilot",
+            "sample_size": 12,
+            "outcomes": "21-item general-health/diabetes knowledge questionnaire and usability after one week; no comparator",
+            "limitations": "community sample without required diabetes diagnosis; no causal, durable or T1D-specific effect established"
           }
         ],
-        "summary": "Supports integrated game context but lacks long-term evidence.",
+        "summary": "Pilot acceptability and general-health knowledge observations; not a controlled T1D outcome study.",
         "limitations": [
           "prototype",
           "borrowed franchise language",
           "no clinical outcome"
         ],
-        "design_detail": "small comparative usability/learning study"
+        "design_detail": "uncontrolled one-week Android pilot; 12 community-recruited children aged 9–13; no diabetes eligibility requirement",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "diabetic-mario-1"
+        ]
       },
       "availability": {
         "status": "research prototype; not publicly available",
@@ -2107,7 +2205,7 @@
         "monetisation": "research funded",
         "regions": "New Zealand research setting",
         "account_requirements": "study participation",
-        "hardware_dependencies": "PC",
+        "hardware_dependencies": "Android device (research version)",
         "verified_on": "2026-08-24",
         "confidence": "high",
         "status_detail": "research-only; unavailable"
@@ -2132,12 +2230,13 @@
           "integrates decisions into play"
         ],
         "limitations": [
-          "limited physiological depth",
-          "not maintained"
+          "limited outcome evidence",
+          "public maintained build not located; discontinuation cause unknown"
         ],
         "design_relevance": [
           "game actions should remain causally tied to learning goals"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -2202,7 +2301,12 @@
           "sparse reporting",
           "unavailable"
         ],
-        "design_detail": "development/feasibility description"
+        "design_detail": "development/feasibility description",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "virtual-coach-1"
+        ]
       },
       "availability": {
         "status": "research prototype; not publicly available",
@@ -2239,7 +2343,8 @@
         ],
         "design_relevance": [
           "coaching should be optional and directly connected to observable simulation"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -2304,7 +2409,12 @@
           "study reporting access limited",
           "not public"
         ],
-        "design_detail": "pre/post evaluation"
+        "design_detail": "pre/post evaluation",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "tako-dojo-1"
+        ]
       },
       "availability": {
         "status": "study or trial only",
@@ -2343,7 +2453,8 @@
         ],
         "design_relevance": [
           "age-tailored framing may be more useful than a single universal tone"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -2362,8 +2473,7 @@
         "diabetes_specificity": "T1D-specific",
         "age_range": "children",
         "roles": [
-          "child with T1D",
-          "caregiver"
+          "child; caregiver player role unverified"
         ]
       },
       "platforms": [
@@ -2372,23 +2482,18 @@
       "languages": [
         "English"
       ],
-      "genre": "paired child-caregiver educational games",
+      "genre": "children's health-game research prototype; detailed architecture unverified",
       "learning_objectives": [
         "self-care",
         "caregiver support",
         "knowledge"
       ],
-      "core_gameplay_loop": "Child and caregiver use linked game experiences to complete diabetes-management challenges.",
+      "core_gameplay_loop": "A children's health-game concept is described in Moosa et al. (2018). Detailed player roles and linked-play architecture await primary full-text verification.",
       "game_mechanisms": [
-        "paired roles",
-        "goals",
-        "feedback",
-        "progression"
+        "not verified from primary full text"
       ],
       "pedagogical_mechanisms": [
-        "caregiver co-learning",
-        "social support",
-        "retrieval"
+        "not verified from primary full text"
       ],
       "developer": {
         "names": [
@@ -2401,19 +2506,24 @@
         "level": "development description or conceptual framework",
         "studies": [
           {
-            "citation": "Moosa et al. 2018",
-            "design": "conference paper",
-            "sample_size": "reported in source",
-            "outcomes": "design/usability",
-            "limitations": "no long-term outcomes"
+            "citation": "Moosa, A.M., Al-Maadeed, N. and Al-Jaam, J.M. (2018). A Simple Health-Based Game for Children. doi:10.1109/COMAPP.2018.8460213",
+            "design": "conference development report; primary full text not acquired",
+            "sample_size": null,
+            "outcomes": "not extracted",
+            "limitations": "paired caregiver interpretation unverified; no outcome claim permitted from metadata"
           }
         ],
-        "summary": "Distinctive paired-role concept without public deployment evidence.",
+        "summary": "Metadata and secondary description only; paired child-caregiver mechanics not verified.",
         "limitations": [
           "prototype",
           "IEEE report access limited"
         ],
-        "design_detail": "development/conference evaluation"
+        "design_detail": "development/conference evaluation",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "qare-and-qure-1"
+        ]
       },
       "availability": {
         "status": "research prototype; not publicly available",
@@ -2442,17 +2552,15 @@
         "reuse_status": "image unavailable"
       },
       "design_assessment": {
-        "strengths": [
-          "explicit caregiver role",
-          "shared learning"
-        ],
+        "strengths": [],
         "limitations": [
-          "coordination friction",
-          "unavailable"
+          "primary full-text appraisal outstanding",
+          "public release not located"
         ],
         "design_relevance": [
-          "catalogues and scenario libraries should identify caregiver suitability explicitly"
-        ]
+          "Do not infer collaborative roles or educational effects from a product name."
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -2518,7 +2626,12 @@
           "no public product",
           "no measured learning effect"
         ],
-        "design_detail": "qualitative/conceptual framework"
+        "design_detail": "qualitative/conceptual framework",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "sparapani-prototype-1"
+        ]
       },
       "availability": {
         "status": "research prototype; not publicly available",
@@ -2556,7 +2669,8 @@
         ],
         "design_relevance": [
           "supports grounding scenarios in lived experience rather than abstract curriculum alone"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -2611,11 +2725,11 @@
         "level": "pre/post or feasibility study",
         "studies": [
           {
-            "citation": "Gu et al. 2025",
+            "citation": "Gu et al. (2026; online 2025)",
             "design": "four-week multisite single-group pre/post",
             "sample_size": 54,
-            "outcomes": "all educational domains P<.001, standardised effects 0.78-1.27; SUS-C 86/100; 95% completion",
-            "limitations": "no control group, short duration, no biomedical endpoint"
+            "outcomes": "Self-Management Scale for T1D Children (SMS-T1DC) domains, not a knowledge test: reported effects 0.78–1.27; child usability 86/100. Abstract says 95% session completion; body says 95% of children attended at least 10/12 sessions.",
+            "limitations": "single group; no biomedical endpoint; attendance-denominator discrepancy; short follow-up"
           }
         ],
         "summary": "Large short-term changes are compatible with learning but vulnerable to testing, maturation and expectancy effects.",
@@ -2624,7 +2738,12 @@
           "young narrow age range",
           "VR access burden"
         ],
-        "design_detail": "single-group pre/post feasibility study"
+        "design_detail": "single-group pre/post feasibility study",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "tangbao-superman-1"
+        ]
       },
       "availability": {
         "status": "study or trial only",
@@ -2664,7 +2783,8 @@
         ],
         "design_relevance": [
           "supports multimodal feedback but not necessarily VR"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -2731,7 +2851,12 @@
           "ceiling",
           "small sample"
         ],
-        "design_detail": "single-group pre/post study"
+        "design_detail": "single-group pre/post study",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "diaped-1"
+        ]
       },
       "availability": {
         "status": "study or trial only",
@@ -2770,7 +2895,8 @@
         ],
         "design_relevance": [
           "knowledge tests should include delayed and transfer measures"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -2825,7 +2951,7 @@
             "citation": "WeCan feasibility study 2024",
             "design": "two-arm feasibility",
             "sample_size": 61,
-            "outcomes": "recruitment 62.89%; intervention completion 64.52% (20/31); 82% satisfied",
+            "outcomes": "Recruitment 62.89%; intervention completion 20/31 (64.52%); 82% satisfaction among respondents, not all enrolled participants",
             "limitations": "not powered for efficacy"
           }
         ],
@@ -2834,7 +2960,12 @@
           "attrition",
           "no efficacy conclusion"
         ],
-        "design_detail": "two-arm feasibility study"
+        "design_detail": "two-arm feasibility study",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "wecan-1"
+        ]
       },
       "availability": {
         "status": "study or trial only",
@@ -2872,7 +3003,8 @@
         ],
         "design_relevance": [
           "measure starts, returns and completion rather than satisfaction alone"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -2941,7 +3073,12 @@
           "limited causal certainty",
           "not public"
         ],
-        "design_detail": "small quasi-experimental outcome study"
+        "design_detail": "small quasi-experimental outcome study",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "emoticare-1"
+        ]
       },
       "availability": {
         "status": "study or trial only",
@@ -2983,7 +3120,8 @@
         ],
         "design_relevance": [
           "supports optional emotional and social scenarios without claiming psychotherapy"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -3047,7 +3185,12 @@
           "prototype",
           "no public access"
         ],
-        "design_detail": "participatory co-design"
+        "design_detail": "participatory co-design",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "norlev-smartphone-prototype-1"
+        ]
       },
       "availability": {
         "status": "research prototype; not publicly available",
@@ -3085,7 +3228,8 @@
         ],
         "design_relevance": [
           "structured playtesting with intended users should precede effectiveness claims"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -3151,7 +3295,12 @@
           "limited reporting",
           "not public"
         ],
-        "design_detail": "single-blind randomised controlled trial"
+        "design_detail": "single-blind randomised controlled trial",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "turkish-game-video-rct-1"
+        ]
       },
       "availability": {
         "status": "study or trial only",
@@ -3190,7 +3339,8 @@
         ],
         "design_relevance": [
           "future evaluation should preregister effect sizes and isolate game components"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -3251,7 +3401,10 @@
           "hardware lock-in",
           "reward focuses on measurement rather than interpretation"
         ],
-        "design_detail": "public product/development history"
+        "design_detail": "public product/development history",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "discontinued",
@@ -3289,7 +3442,8 @@
         ],
         "design_relevance": [
           "avoid requiring personal health data or proprietary devices"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -3343,7 +3497,10 @@
         "limitations": [
           "provenance and current status incomplete"
         ],
-        "design_detail": "public product without product-specific outcome evidence located"
+        "design_detail": "public product without product-specific outcome evidence located",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "availability incompletely verified",
@@ -3380,7 +3537,8 @@
         ],
         "design_relevance": [
           "directory entries require dated confidence labels"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -3434,7 +3592,10 @@
         "limitations": [
           "sparse public documentation"
         ],
-        "design_detail": "public product without product-specific outcome evidence located"
+        "design_detail": "public product without product-specific outcome evidence located",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "availability incompletely verified",
@@ -3471,7 +3632,8 @@
         ],
         "design_relevance": [
           "avoid a directory entry without verification date and provenance"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -3533,7 +3695,10 @@
           "physical cost",
           "availability turnover"
         ],
-        "design_detail": "public product with limited formal outcome evidence located"
+        "design_detail": "public product with limited formal outcome evidence located",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "availability incompletely verified",
@@ -3572,7 +3737,8 @@
         ],
         "design_relevance": [
           "fictional characters can permit emotional and procedural distance"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -3626,7 +3792,10 @@
         "limitations": [
           "verification incomplete"
         ],
-        "design_detail": "public product without product-specific outcome evidence located"
+        "design_detail": "public product without product-specific outcome evidence located",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "availability incompletely verified",
@@ -3663,7 +3832,8 @@
         ],
         "design_relevance": [
           "localisation alone does not establish experiential learning"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -3716,7 +3886,10 @@
         "limitations": [
           "T1D specificity and current status unclear"
         ],
-        "design_detail": "public product without product-specific outcome evidence located"
+        "design_detail": "public product without product-specific outcome evidence located",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "availability incompletely verified",
@@ -3753,7 +3926,8 @@
         ],
         "design_relevance": [
           "directory should distinguish T1D-specific from mixed content"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -3809,7 +3983,10 @@
         "limitations": [
           "T1D specificity and nutritional accuracy unclear"
         ],
-        "design_detail": "public product without product-specific outcome evidence located"
+        "design_detail": "public product without product-specific outcome evidence located",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "availability incompletely verified",
@@ -3847,7 +4024,8 @@
         ],
         "design_relevance": [
           "food should be modelled quantitatively, not as intrinsically good or bad"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -3856,31 +4034,32 @@
       "title": "I Got This",
       "aliases": [],
       "release_history": [
-        "mobile narrative game released 2015",
-        "later availability uncertain"
+        "Official educational product page retained; exact release/version history not re-extracted"
       ],
-      "scope_group": "experiential_game",
+      "scope_group": "adjacent_t2d_experiential",
       "target_population": {
-        "diabetes_specificity": "T1D-specific",
-        "age_range": "adolescents and peers",
+        "diabetes_specificity": "T2D-specific protagonist; adjacent to T1D scope",
+        "age_range": "adolescents and general educational audiences; exact eligibility not applicable",
         "roles": [
-          "young person with T1D",
-          "peer without T1D"
+          "learner",
+          "peer",
+          "family"
         ]
       },
       "platforms": [
         "mobile"
       ],
       "languages": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "genre": "short narrative experience of diagnosis and daily life",
+      "genre": "interactive narrative about type 2 diabetes",
       "learning_objectives": [
         "empathy",
         "diagnosis experience",
         "daily-life awareness"
       ],
-      "core_gameplay_loop": "Follow a teenager through diagnosis and early daily decisions in a short interactive story.",
+      "core_gameplay_loop": "Follow a teenage girl through symptoms, diagnosis of type 2 diabetes, and subsequent daily-life decisions.",
       "game_mechanisms": [
         "narrative",
         "character identification",
@@ -3892,35 +4071,39 @@
       ],
       "developer": {
         "names": [
-          "Ayogo",
-          "Diabetes Hands Foundation"
+          "Lawrence Hall of Science, University of California, Berkeley"
         ],
-        "classification": "commercial/nonprofit collaboration",
-        "lived_experience_involvement": "diabetes-community involvement documented"
+        "classification": "academic; federally funded educational collaboration",
+        "lived_experience_involvement": "not established by the inspected official page"
       },
       "evidence": {
         "level": "public product without peer-reviewed evaluation",
         "studies": [],
-        "summary": "Designed primarily for empathy and awareness rather than competence testing.",
+        "summary": "Narrative purpose documented by the official creator; no qualifying outcome study identified in the retained searches. Not T1D-management evidence.",
         "limitations": [
           "short",
           "availability uncertain"
         ],
-        "design_detail": "public product without controlled evaluation located"
+        "design_detail": "public product without controlled evaluation located",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "availability incompletely verified",
-        "price": "historically free",
-        "monetisation": "sponsor/nonprofit",
-        "regions": "historically mobile stores",
+        "price": "officially presented as free; current acquisition not verified",
+        "monetisation": "NIH-funded educational development; current distribution terms not verified",
+        "regions": "official English/Spanish educational resource; store regions not verified",
         "account_requirements": "unknown",
         "hardware_dependencies": "compatible legacy mobile device",
-        "verified_on": "2026-08-24",
-        "confidence": "moderate",
-        "status_detail": "current store availability uncertain"
+        "verified_on": "2026-09-06",
+        "confidence": "high for official-page identity; low for acquisition",
+        "status_detail": "official page verified; installation, store listing and device compatibility not verified"
       },
       "links": {
-        "official": [],
+        "official": [
+          "https://lawrencehallofscience.org/science-apps/i-got-this/"
+        ],
         "stores": [],
         "archives": [],
         "publications": [
@@ -3931,7 +4114,7 @@
         "file": null,
         "source_url": null,
         "captured_on": "2026-08-24",
-        "copyright_holder": "Ayogo/Diabetes Hands Foundation",
+        "copyright_holder": "Lawrence Hall of Science; specific image rights not established",
         "reuse_status": "image unavailable"
       },
       "design_assessment": {
@@ -3945,7 +4128,8 @@
         ],
         "design_relevance": [
           "supports a distinct empathy/experience mode rather than conflating it with physiology training"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -4002,7 +4186,10 @@
           "small independent work",
           "no outcome study"
         ],
-        "design_detail": "public product without peer-reviewed evaluation"
+        "design_detail": "public product without peer-reviewed evaluation",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "publicly available",
@@ -4042,7 +4229,8 @@
         ],
         "design_relevance": [
           "experiential truth can complement but not substitute for causal simulation"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -4098,7 +4286,10 @@
           "no evaluation",
           "not practical training"
         ],
-        "design_detail": "public product without peer-reviewed evaluation"
+        "design_detail": "public product without peer-reviewed evaluation",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "publicly available",
@@ -4137,7 +4328,8 @@
         ],
         "design_relevance": [
           "separate emotional narrative goals from physiological competence claims"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -4191,7 +4383,10 @@
           "no evaluation",
           "limited documentation"
         ],
-        "design_detail": "public product without peer-reviewed evaluation"
+        "design_detail": "public product without peer-reviewed evaluation",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "publicly available",
@@ -4230,7 +4425,8 @@
         ],
         "design_relevance": [
           "directory taxonomy should include experiential games without implying clinical efficacy"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -4285,7 +4481,10 @@
           "evidence absent",
           "privacy and health-data boundaries require review"
         ],
-        "design_detail": "public product without peer-reviewed outcome evaluation located"
+        "design_detail": "public product without peer-reviewed outcome evaluation located",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "publicly available",
@@ -4324,7 +4523,8 @@
         ],
         "design_relevance": [
           "preserve the no-personal-health-data boundary"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -4390,7 +4590,12 @@
           "small study",
           "not public"
         ],
-        "design_detail": "small completed pilot"
+        "design_detail": "small completed pilot",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "wst-1"
+        ]
       },
       "availability": {
         "status": "study or trial only",
@@ -4428,7 +4633,8 @@
         ],
         "design_relevance": [
           "counterfactual replay can support causal comparison without requiring a competitive game structure"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -4485,7 +4691,10 @@
           "hardware/access",
           "not public"
         ],
-        "design_detail": "protocol/qualitative co-design"
+        "design_detail": "protocol/qualitative co-design",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "research prototype; not publicly available",
@@ -4523,7 +4732,8 @@
         ],
         "design_relevance": [
           "simulate exercise consequences while making clear that play is not physical activity"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -4588,7 +4798,12 @@
           "different audience",
           "different outcomes"
         ],
-        "design_detail": "clinician-training trial"
+        "design_detail": "clinician-training trial",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": [
+          "insuonline-1"
+        ]
       },
       "availability": {
         "status": "study or trial only",
@@ -4625,7 +4840,8 @@
         ],
         "design_relevance": [
           "professional and patient directories should remain separate"
-        ]
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     },
@@ -4692,7 +4908,10 @@
           "no validated sustained-engagement or clinical outcome evidence",
           "formal co-design evidence not identified"
         ],
-        "design_detail": "public product without peer-reviewed outcome evaluation located"
+        "design_detail": "public product without peer-reviewed outcome evaluation located",
+        "appraisal_date": "2026-09-06",
+        "search_scope": "Inherited searches documented through 2026-08-24; targeted scientific correction 2026-09-06. No-study-located labels are bounded retrieval statements, not proof of absence.",
+        "study_ids": []
       },
       "availability": {
         "status": "publicly available",
@@ -4734,7 +4953,116 @@
         ],
         "design_relevance": [
           "offers a public comparator for mechanistic, counterfactual learning in a browser environment"
+        ],
+        "evidence_basis": "Desk-research design inference unless a specific study is cited; not a playtest or measured comparative advantage."
+      },
+      "playtest_status": "not_playtested"
+    },
+    {
+      "id": "dextro-dash-2000",
+      "title": "DEXTRO DASH 2000",
+      "aliases": [
+        "Dextro Dash"
+      ],
+      "release_history": [
+        "Public playable prototype documented on 15 September 2026; initial release date not established"
+      ],
+      "scope_group": "currently_available_core",
+      "development_status": "proof of concept",
+      "target_population": {
+        "diabetes_specificity": "T1D-oriented fictional glucose-management scenario",
+        "age_range": "not validated",
+        "roles": [
+          "learner",
+          "game developer"
         ]
+      },
+      "platforms": [
+        "desktop web browser with keyboard"
+      ],
+      "languages": [
+        "English"
+      ],
+      "genre": "physiology-coupled arcade platformer",
+      "learning_objectives": [
+        "Explore interactions between food, insulin, activity and simulated glucose; developer intention, not a demonstrated learning outcome"
+      ],
+      "core_gameplay_loop": "Guide the fictional character DEX through platforms, food encounters, insulin pickups and diamonds while observing simulated glucose and arcade movement effects.",
+      "game_mechanisms": [
+        "platform navigation",
+        "food encounters",
+        "collectibles",
+        "route choices",
+        "stage progression"
+      ],
+      "pedagogical_mechanisms": [
+        "action-consequence feedback (intended)",
+        "experiential exploration (intended)"
+      ],
+      "developer": {
+        "names": [
+          "Kristian Rauhe Harreby",
+          "Development collaboration with OpenAI Codex, according to project README"
+        ],
+        "classification": "independent/developer-led",
+        "affiliation": "The concept developer also maintains this knowledge base; product information is developer-authored.",
+        "lived_experience_involvement": "Formal lived-experience participatory co-design not established in inspected public documentation"
+      },
+      "evidence": {
+        "level": "public product without peer-reviewed evaluation",
+        "studies": [],
+        "summary": "Public proof of concept. Educational effectiveness, transfer, sustained engagement and clinical benefit are not established.",
+        "limitations": [
+          "Developer-authored description, not independent product evaluation",
+          "No outcome study cited in the inspected project materials",
+          "Arcade movement and life penalties are not clinically calibrated representations of symptoms or risk"
+        ],
+        "design_detail": "Developer-described playable prototype; no research participants or outcome measurements reported",
+        "appraisal_date": "2026-09-15",
+        "search_scope": "User-nominated addition; targeted inspection of official project page and repository on 15 September 2026, not a comprehensive product-specific literature search.",
+        "study_ids": []
+      },
+      "availability": {
+        "status": "publicly available",
+        "price": "free",
+        "monetisation": "No payment requirement described in inspected project materials",
+        "regions": "Public web page retrieved locally in Denmark; other regions not tested",
+        "account_requirements": "No account requirement described by developer",
+        "hardware_dependencies": "Desktop browser and keyboard; tablet/touch operation not verified",
+        "verified_on": "2026-09-15",
+        "confidence": "High for product-page identity and source access; functionality, device and regional coverage not playtested",
+        "status_detail": "Official playable-prototype page and public GitHub repository returned HTTP 200 with matching product identity; this was retrieval, not execution of the game"
+      },
+      "links": {
+        "official": [
+          "https://krauhe.github.io/dextro-dash-2000/",
+          "https://github.com/krauhe/dextro-dash-2000"
+        ],
+        "stores": [],
+        "archives": [],
+        "publications": []
+      },
+      "screenshot": {
+        "file": null,
+        "source_url": null,
+        "captured_on": null,
+        "copyright_holder": "not assessed",
+        "reuse_status": "image not included in this addition"
+      },
+      "design_assessment": {
+        "strengths": [
+          "A documented approach to integrating glucose feedback into platform-game actions",
+          "Browser distribution and source release under GNU General Public License version 3"
+        ],
+        "limitations": [
+          "Educational outcomes and age suitability are unvalidated",
+          "Reflex demands may compete with reflection",
+          "Clinical meaning of arcade penalties should not be assumed"
+        ],
+        "design_relevance": [
+          "A proof of concept for testing whether arcade action can support causal learning; comparison requires prospective evaluation"
+        ],
+        "evidence_basis": "Desk-research design inference based on developer documentation; not a playtest or measured comparative advantage."
       },
       "playtest_status": "not_playtested"
     }

@@ -1,13 +1,11 @@
 {
-  "review_date": "2026-09-06",
-  "report_sha256": "0f7e728d39a9e092a20d7b16ea78158f46855e27238eb020dc77124bfba315e5",
+  "date": "2026-09-06",
+  "checkpoint_commit": "593485b3f295f029354fe17d85849ba198a5c992",
+  "scope": "Local authorised corrections after the pushed checkpoint; fixed refers to the located defect, not comprehensive scientific certification.",
   "findings": [
     {
       "id": "F01",
-      "severity": "major",
-      "title": "twelve misidentified physiological references",
       "status": "fixed",
-      "report_line": 45,
       "updated_on": "2026-09-06",
       "resolution": "The 12 rejected identifiers were removed from current physiological chapters. Intended references were corrected where identified; unsupported propositions were removed or narrowed. Three newly identified full texts were acquired; Rizza, Cobelli and Kovatchev remain explicitly abstract/metadata-supported where used.",
       "files": [
@@ -16,10 +14,7 @@
     },
     {
       "id": "F02",
-      "severity": "major",
-      "title": "a controlled study is created from an uncontrolled pilot",
       "status": "fixed",
-      "report_line": 70,
       "updated_on": "2026-09-06",
       "resolution": "Diabetic Mario is now an uncontrolled one-week Android pilot in 12 community children aged 9–13; diabetes was not required. Game, study, catalogue, profile and evidence-map records agree.",
       "files": [
@@ -30,10 +25,7 @@
     },
     {
       "id": "F03",
-      "severity": "major",
-      "title": "eddii's outcome evidence is materially understated",
       "status": "fixed",
-      "report_line": 80,
       "updated_on": "2026-09-06",
       "resolution": "eddii now includes the company-sponsored controlled trial: 92 randomised, 70 in the glycaemic analysis, adjusted difference-in-differences of 5.38 percentage points in time in range over six weeks, P=.001. Allocation changes, exclusions, high baseline control and conflicts are stated; no learning transfer is inferred.",
       "files": [
@@ -44,10 +36,7 @@
     },
     {
       "id": "F04",
-      "severity": "major",
-      "title": "I Got This has the wrong disease and provenance",
       "status": "fixed",
-      "report_line": 92,
       "updated_on": "2026-09-06",
       "resolution": "I Got This is classified as adjacent T2D experiential education and attributed to the Lawrence Hall of Science, University of California, Berkeley. English/Spanish and inspected official-page provenance are distinguished from untested store acquisition.",
       "files": [
@@ -58,10 +47,7 @@
     },
     {
       "id": "F05",
-      "severity": "major",
-      "title": "mixed-diabetes findings are labelled direct T1D evidence",
       "status": "fixed",
-      "report_line": 102,
       "updated_on": "2026-09-06",
       "resolution": "Reinders and Yao are identified as mixed-diabetes evidence. Their results no longer establish T1D-specific educational or clinical efficacy.",
       "files": [
@@ -73,10 +59,7 @@
     },
     {
       "id": "F06",
-      "severity": "major",
-      "title": "non-release is converted into disappearance",
       "status": "fixed",
-      "report_line": 112,
       "updated_on": "2026-09-06",
       "resolution": "Non-public availability at an audit is separated from documented withdrawal after public release. The 21/23 figure is no longer treated as a disappearance rate.",
       "files": [
@@ -86,10 +69,7 @@
     },
     {
       "id": "F07",
-      "severity": "major",
-      "title": "sustainability hypotheses become established causal explanations",
       "status": "fixed",
-      "report_line": 122,
       "updated_on": "2026-09-06",
       "resolution": "Funding, staffing, brochure maintenance and care-pathway explanations are labelled hypotheses or adjacent implementation evidence. No explanation of an individual's care, or completed guideline audit, is claimed.",
       "files": [
@@ -100,10 +80,7 @@
     },
     {
       "id": "F08",
-      "severity": "major",
-      "title": "historical search reproducibility is overstated",
       "status": "partially addressed",
-      "report_line": 132,
       "updated_on": "2026-09-06",
       "resolution": "Unsupported claims of fully reproducible historical searching were removed. Missing original queries, citation-index exports and screening decisions cannot be reconstructed as observations; the historical search remains incompletely reproducible.",
       "files": [
@@ -114,10 +91,7 @@
     },
     {
       "id": "F09",
-      "severity": "major",
-      "title": "study extraction is incomplete despite a complete-looking schema",
       "status": "partially addressed",
-      "report_line": 144,
       "updated_on": "2026-09-06",
       "resolution": "Added 23 linked study/report records with intervention version, purpose, design, population, denominators, instruments, follow-up, support depth and missing fields. Key erroneous extractions were repaired, but inherited records still require primary-report extraction; this is not a completed study database.",
       "files": [
@@ -128,10 +102,7 @@
     },
     {
       "id": "F10",
-      "severity": "major",
-      "title": "Qare and Qure's paired-caregiver interpretation is unverified",
       "status": "fixed",
-      "report_line": 154,
       "updated_on": "2026-09-06",
       "resolution": "The unsupported paired-caregiver architecture was removed rather than declared false. Moosa and colleagues' article identity was corrected to A Simple Health-Based Game for Children; the unavailable primary full text and unverified gameplay are explicit.",
       "files": [
@@ -143,10 +114,7 @@
     },
     {
       "id": "F11",
-      "severity": "major",
-      "title": "prescriptive learning claims exceed their cited support",
       "status": "fixed",
-      "report_line": 164,
       "updated_on": "2026-09-06",
       "resolution": "The proposed feedback architecture, repeated attempts and scenario sequence are marked design inferences. Butler's explanation-feedback results are restricted to the inspected non-T1D experiments; unsupported T1D transfer and paired-learning claims were removed.",
       "files": [
@@ -156,10 +124,7 @@
     },
     {
       "id": "F12",
-      "severity": "minor",
-      "title": "the five-to-eight-user heuristic needs qualification",
       "status": "fixed",
-      "report_line": 176,
       "updated_on": "2026-09-06",
       "resolution": "Removed the universal five-to-eight-participant prescription; formative recruitment is now an iterative design proposal contingent on audience heterogeneity and observed problems.",
       "files": [
@@ -168,10 +133,7 @@
     },
     {
       "id": "F13",
-      "severity": "major",
-      "title": "field-wide absence claims lack reproducible bounds",
       "status": "fixed",
-      "report_line": 186,
       "updated_on": "2026-09-06",
       "resolution": "No-study and no-transfer statements are bounded to the located corpus and search limitations. Game records explicitly state that absence of located evidence does not establish absence of research.",
       "files": [
@@ -182,10 +144,7 @@
     },
     {
       "id": "F14",
-      "severity": "minor",
-      "title": "platform and availability representations disagree",
       "status": "fixed",
-      "report_line": 196,
       "updated_on": "2026-09-06",
       "resolution": "AvaType1 platform and gameplay descriptions now match the canonical record; Android availability is not asserted. Product access and evidence appraisal dates are separated, and installation remains unverified.",
       "files": [
@@ -195,10 +154,7 @@
     },
     {
       "id": "F15",
-      "severity": "minor",
-      "title": "bibliographic metadata needs a second pass beyond wrong identifiers",
       "status": "fixed",
-      "report_line": 206,
       "updated_on": "2026-09-06",
       "resolution": "Known metadata defects were corrected across current prose: Yao's title/initial, Moosa's paper, Gu's 2026 volume with online-2025 date, Ahmadi's initial, Horowitz's title and Reutrakul's journal details. Unverified historical release dating was softened.",
       "files": [
@@ -209,10 +165,7 @@
     },
     {
       "id": "F16",
-      "severity": "major",
-      "title": "quantitative physiology is not consistently anchored to context",
       "status": "fixed",
-      "report_line": 216,
       "updated_on": "2026-09-06",
       "resolution": "Quantitative anchors identify population, protocol, units and source depth. Rizza's healthy-participant glucose-production/utilization values are not lipolysis thresholds; hepatic extraction, sensor lag and post-exercise duration are no longer presented as universal T1D constants.",
       "files": [
@@ -222,10 +175,7 @@
     },
     {
       "id": "F17",
-      "severity": "major",
-      "title": "endpoint labels obscure what was measured",
       "status": "fixed",
-      "report_line": 226,
       "updated_on": "2026-09-06",
       "resolution": "Tangbao self-management scores are no longer knowledge scores; its abstract/body attendance-denominator discrepancy is preserved. Injection distress is distinguished from technique competence, and WeCan satisfaction from programme completion.",
       "files": [
@@ -237,10 +187,7 @@
     },
     {
       "id": "F18",
-      "severity": "major",
-      "title": "numerical accuracy is not the same as methodological credibility",
       "status": "partially addressed",
-      "report_line": 236,
       "updated_on": "2026-09-06",
       "resolution": "The key eddii, Mario and Tangbao interpretations now include study-specific limitations, and every study record has explicit appraisal domains. Missing-data, measurement, protocol comparison and conflict appraisal are still incomplete for other reports; no full-corpus risk-of-bias assessment is claimed.",
       "files": [
@@ -251,10 +198,7 @@
     },
     {
       "id": "F19",
-      "severity": "major",
-      "title": "useful comparator literature is omitted or disconnected",
       "status": "partially addressed",
-      "report_line": 246,
       "updated_on": "2026-09-06",
       "resolution": "Morgado and Beh are connected as adjacent comparator reviews with bounded inspection depth. An eligibility register distinguishes them from pending candidates such as bant, Diabetes Journey and Diactive. Complete forward-citation reconciliation and candidate/full-text screening remain outstanding.",
       "files": [
@@ -264,10 +208,7 @@
     },
     {
       "id": "F20",
-      "severity": "minor",
-      "title": "“neutral” comparison still contains unlabelled preferences",
       "status": "fixed",
-      "report_line": 256,
       "updated_on": "2026-09-06",
       "resolution": "Comparison advantages and trade-offs are labelled design inferences, not measured superiority; physiological breadth does not define a universal product ranking. eddii is acknowledged within its different, data-connected scope.",
       "files": [
@@ -277,10 +218,7 @@
     },
     {
       "id": "F21",
-      "severity": "major",
-      "title": "source acquisition was too narrowly governed and incompletely tracked",
       "status": "partially addressed",
-      "report_line": 266,
       "updated_on": "2026-09-06",
       "resolution": "Acquisition and inspection are separately logged. Three additional full texts were retained and inspected in relevant sections; three corrected physiological sources remain inaccessible in full text after fallback attempts. The broader historical full-text backlog remains incomplete.",
       "files": [
@@ -290,10 +228,7 @@
     },
     {
       "id": "F22",
-      "severity": "editorial",
-      "title": "governance contradicts the current licensing documents",
       "status": "fixed",
-      "report_line": 278,
       "updated_on": "2026-09-06",
       "resolution": "Governance now agrees with the existing CC BY 4.0 text and original-figure licence and MIT code licence, without implying that third-party material inherits them.",
       "files": [
@@ -302,10 +237,7 @@
     },
     {
       "id": "F23",
-      "severity": "major",
-      "title": "living-update provenance is insufficiently granular",
       "status": "fixed",
-      "report_line": 288,
       "updated_on": "2026-09-06",
       "resolution": "Historical search cut-off, targeted appraisal/correction date, availability checks and build dates are distinct. New eligibility and acquisition decisions retain their own dates rather than being backdated into the historical search.",
       "files": [
@@ -319,10 +251,7 @@
     },
     {
       "id": "F24",
-      "severity": "major",
-      "title": "correction propagation and release checks are inadequate",
       "status": "partially addressed",
-      "report_line": 298,
       "updated_on": "2026-09-06",
       "resolution": "Known-error regression tests, linked study rendering and structural checks now cover canonical data and derived builds. The timeline was corrected. Independent browser visual inspection could not be completed because the browser tool refused local-file access; static and PDF inspection do not replace it.",
       "files": [
@@ -332,6 +261,5 @@
         "figures/original/t1d-games-selected-timeline.svg"
       ]
     }
-  ],
-  "note": "Finding statuses refer to reviewed scientific content, not the newly delivered audit tooling."
+  ]
 }

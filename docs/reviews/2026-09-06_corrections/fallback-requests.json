@@ -1,0 +1,5 @@
+{"urls":[
+  {"url":"https://doi.org/10.1177/193229680900300106","locations":[{"path":"knowledge/physiology/model-families.qmd","label":"Kovatchev et al. (2009)"}]},
+  {"url":"https://doi.org/10.1109/RBME.2009.2036073","locations":[{"path":"knowledge/physiology/model-families.qmd","label":"Cobelli et al. (2009)"}]},
+  {"url":"https://doi.org/10.1152/ajpendo.1981.240.6.E630","locations":[{"path":"knowledge/physiology/glucose-insulin-system.qmd","label":"Rizza et al. (1981)"}]}
+]}

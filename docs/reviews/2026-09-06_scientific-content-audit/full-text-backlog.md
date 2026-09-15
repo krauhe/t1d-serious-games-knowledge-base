@@ -1,5 +1,7 @@
 # Supplementary full-text acquisition backlog
 
+**Historical audit snapshot, with correction note dated 6 September 2026.** Rejected citation identities in F01 are not active requests for the unrelated papers they identified. Corrected source identities and subsequent access attempts are listed in the current full-text wishlist and correction register. This snapshot is not a list of sources independently appraised as supporting the revised content.
+
 Checked 6 September 2026. This register covers the linked scholarly sources encountered in the audit, including physiological and learning-science references. It is not limited to paywalls: repository failures and unresolved bibliographic identities are separate states. Candidate downloads are not proof that claims are supported.
 
 | Source or intended citation | Identifier | Status and next route |

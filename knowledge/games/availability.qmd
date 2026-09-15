@@ -1,13 +1,13 @@
 ---
 title: "Availability and Sustainability"
-subtitle: "Why evaluated games disappear and public games remain unevaluated"
+subtitle: "Public access, non-release, and maintenance hypotheses"
 description: "Point-in-time access, maintenance barriers and sustainability practices for type 1 diabetes serious games."
 toc: true
 ---
 
 ## The accessibility paradox
 
-For ==type 1 diabetes (T1D)== serious games, scientific evaluation and public availability frequently concern different products. [Reinders et al. (2024)](https://doi.org/10.1016/j.diabres.2024.111833) reviewed 21 studies, 23 research-origin games and 13 app-store games. Their audit found:
+Scientific evaluation and public availability concern partly different product sets. The **mixed-diabetes (type 1 diabetes, T1D; and type 2 diabetes, T2D)** audit by [Reinders et al. (2024)](https://doi.org/10.1016/j.diabres.2024.111833) reviewed 21 studies, 23 research-origin games and 13 app-store games. Their audit found:
 
 1. **21 of 23 research-origin games were not publicly available.**
 2. No identified web or personal-computer research game could be located.
@@ -15,11 +15,11 @@ For ==type 1 diabetes (T1D)== serious games, scientific evaluation and public av
 4. All 13 app-store games were visible in Apple’s store, five were visible in Google Play and 11 were free.
 5. The public products generally lacked peer-reviewed product-level outcome evaluation.
 
-This is not a simple quality ranking. Research prototypes can generate valuable design and feasibility evidence without becoming distributable products. Public products can be maintained and widely used without having undergone independent comparative evaluation. A useful knowledge base must therefore report **evidence** and **availability** as separate dimensions.
+The 21/23 figure describes non-availability/non-release at an audit, **not a longitudinal disappearance rate**. It does not establish that all games had previously been public, or why access was absent. This is not a quality ranking. Research prototypes can generate valuable design and feasibility evidence without becoming distributable products. Public products can be maintained and widely used without having undergone independent comparative evaluation. A useful knowledge base must therefore report **evidence** and **availability** as separate dimensions.
 
 ## Point-in-time access snapshot
 
-The entries below are the most accessible core or companion products identified in the 24 August 2026 audit, with selected products rechecked on 5 September 2026. Store and browser access can differ by country, device, operating-system version, account, and transport-security compatibility.
+The entries below are selected core or companion products, including incompletely verified access, identified in the 24 August 2026 audit, with selected products rechecked on 5 September 2026. Store and browser access can differ by country, device, operating-system version, account, and transport-security compatibility.
 
 | Product | Access point | Observed status | Cost/account caveat | Evidence caveat |
 |---|---|---|---|---|
@@ -32,11 +32,13 @@ The entries below are the most accessible core or companion products identified 
 | [T1D Simulator](https://krauhe.github.io/t1d-simulator/) | Browser | Public | Free; no account identified | No peer-reviewed educational outcome evidence located |
 | [Novi-Chek](https://www.accu-chek.fr/produits/application/novi-chek) | Mobile; French | Official product-information page accessible; tested App Store and Google Play acquisition links returned HTTP 404 | Historically free; present acquisition and regional availability remain incompletely verified | No controlled product trial located |
 | [Sweet Strategy](https://apps.apple.com/tw/app/%E7%94%9C-%E6%94%BB%E7%95%A5/id1619470848) | Taiwan iOS | Public regional listing | Free; Traditional Chinese | No independent product outcome evaluation located |
-| [eddii](https://www.eddiihealth.com/eddii-app) | United States mobile service | Public | Download and care-service terms differ; real health-data integration | Adjacent management service; independent educational efficacy unestablished |
+| [eddii](https://www.eddiihealth.com/eddii-app) | United States mobile service | Public | Download and care-service terms differ; real health-data integration | Company-sponsored paediatric T1D glycaemic trial with allocation/exclusion concerns; educational transfer untested ([Ahmadi and Lucero, 2025](https://doi.org/10.1177/19322968231223759)) |
 
 Publicly accessible experiential works include [Hell Hath No Insulin](https://weeabetes.itch.io/hell-hath-no-insulin), [Permanence](https://ivy-leaves.itch.io/permanence) and [Holesome](https://holesome.itch.io/holesome). These are relevant to lived experience, identity and burden, but no peer-reviewed outcome evaluation was located.
 
-## Why a research game often disappears
+## Maintenance hypotheses, not established causes
+
+The following mechanisms are **design and implementation hypotheses**. Adjacent healthcare and digital-health sustainability reviews identify organisational, funding and technical factors, but do not estimate their causal contribution to T1D game discontinuation ([Braithwaite et al., 2020](https://doi.org/10.1136/bmjopen-2019-036453); [Kaboré et al., 2022](https://doi.org/10.3389/fdgth.2022.1014375)).
 
 ### Funding ends before maintenance begins
 
@@ -44,7 +46,7 @@ Research grants commonly fund requirements work, a prototype, recruitment, analy
 
 ### The build is not a citable research object
 
-Articles often describe a game without providing a versioned executable, source repository, installation instructions, licence, archival identifier or maintenance contact. The paper survives; the product does not. This was a recurrent finding in the accessibility audit ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
+Articles often describe a game without providing a versioned executable, source repository, installation instructions, licence, archival identifier or maintenance contact. An article can remain available without a public executable. Non-release must be distinguished from loss of a previously public product in interpreting the accessibility audit ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)).
 
 ### Multidisciplinary knowledge is concentrated in people
 
@@ -64,7 +66,7 @@ Language, food culture, insulin terminology, glucose units, school roles and cli
 
 ## Why games are rarely offered during diagnosis education
 
-The literature and product audit support system-level explanations, not an account of any individual clinical encounter:
+These are **candidate system-level barriers**, not demonstrated explanations of routine-care practice or an individual clinical encounter. In particular, the frequency of named-game recommendations in guidelines has not been systematically audited here:
 
 1. **No stable procurement object:** staff cannot recommend an obsolete build, study login or unsupported device.
 2. **Weak product-level evidence:** pooled reviews rarely identify which current product works for which learner.
@@ -75,7 +77,7 @@ The literature and product audit support system-level explanations, not an accou
 7. **Discovery failure:** biomedical databases omit independent games; app stores omit evidence; papers omit surviving access links.
 8. **Equity:** hardware, language, region, reading level, disability access and connectivity determine who can participate.
 
-A brochure is easier to print, revise, approve and hand to every patient. That operational advantage does not mean a brochure teaches dynamic causal relationships better; it means the maintenance and governance burden is lower.
+**Project hypothesis:** a brochure may be easier to revise and distribute than a maintained game. No direct comparative study of their lifecycle costs, governance burden or diagnosis-education adoption was identified in this review. The hypothesis does not establish comparative educational effectiveness.
 
 ## Availability states used in this knowledge base
 
@@ -93,6 +95,8 @@ Price is recorded separately as free, paid, subscription/service-based, historic
 
 ## Minimum survival package for future projects
 
+**Proposed operational practices**, not interventions proven to prolong T1D game survival:
+
 1. **Versioned release:** archive the exact evaluated build and identify its platform requirements.
 2. **Open metadata:** publish title history, audience, learning objectives, mechanisms, evidence, access and owner contact in a machine-readable record.
 3. **Scientific provenance:** link every clinical or physiological claim to a maintained source register.
@@ -108,6 +112,8 @@ Open source and artificial intelligence may reduce some programming, documentati
 
 ## Re-verification schedule
 
+**Proposed maintenance policy**; these intervals are not evidence-based and do not imply that recurring checks already run:
+
 1. Check active core products every six months.
 2. Check store- and region-limited records from at least two regions where practical.
 3. Preserve the previous observation; do not silently overwrite access history.
@@ -117,9 +123,15 @@ Open source and artificial intelligence may reduce some programming, documentati
 
 ## Image access and republication
 
-The catalogue retains an image source URL, copyright holder and reuse status where these were identifiable. A private scholarly build may display lawfully acquired review copies. A public build should embed only images with adequate permission or licence; otherwise it should provide a labelled link to the official screenshot or source page. Public visibility of an image is not, by itself, republication permission.
+Representative image/source links are provided where available. Public pages do not embed uncleared third-party game images.
 
 ## References
+
+[Ahmadi, F. and Lucero, A. (2025; online 2024) ‘Gaming the system: A fun continuous glucose monitor interface improves glycemic outcomes for children’, *Journal of Diabetes Science and Technology*.](https://doi.org/10.1177/19322968231223759)
+
+[Braithwaite, J. et al. (2020) ‘Built to last? The sustainability of healthcare system improvements, programmes and interventions: a systematic integrative review’, *BMJ Open*, 10, e036453.](https://doi.org/10.1136/bmjopen-2019-036453)
+
+[Kaboré, S.S. et al. (2022) ‘Barriers and facilitators for the sustainability of digital health interventions in low- and middle-income countries: a systematic review’, *Frontiers in Digital Health*, 4, 1014375.](https://doi.org/10.3389/fdgth.2022.1014375)
 
 [Novak, D. (2024) ‘A serious game (MyDiabetic) to support children's education in type 1 diabetes mellitus: Iterative participatory co-design and feasibility study’, *JMIR Serious Games*, 12, e49478.](https://doi.org/10.2196/49478)
 

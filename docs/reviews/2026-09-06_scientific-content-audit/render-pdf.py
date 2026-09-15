@@ -100,7 +100,7 @@ def render():
     doc.build(story,onFirstPage=furniture,onLaterPages=furniture)
     with pymupdf.open(draft) as pdf:
         for i,page in enumerate(pdf,1):
-            page.insert_text((54,A4[1]-28),'Review findings remain open in the scientific content.',fontsize=7.5,color=(.35,.43,.48))
+            page.insert_text((54,A4[1]-28),'Dated correction status and residual limitations are recorded in the report.',fontsize=7.1,color=(.35,.43,.48))
             page.insert_textbox(pymupdf.Rect(420,A4[1]-37,A4[0]-54,A4[1]-18),f'Page {i} / {len(pdf)}',fontsize=8,align=2,color=(.25,.35,.4))
         pdf.save(PDF,deflate=True)
     print(PDF)
