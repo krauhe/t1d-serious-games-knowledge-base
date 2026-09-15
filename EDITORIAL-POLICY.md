@@ -46,3 +46,11 @@ Corrections should preserve an audit trail in Git. A substantive correction must
 ## 9. Responsible use of artificial intelligence
 
 Artificial-intelligence tools may assist with discovery, drafting, data normalisation, link checking, and maintenance. They must not be treated as sources. A human maintainer remains responsible for checking citations against the cited source, verifying quantitative claims, reviewing clinical and ethical framing, and rejecting fabricated or unsupported material.
+
+## 10. Information density and single-source presentation
+
+Give each substantive topic a primary home. Keep product metadata and standard profiles in one catalogue, comparative outcome synthesis in the evidence map, learning mechanisms in learning science, study design in evaluation, access observations in availability, and operational requirements in maintenance. Other chapters should add a distinct interpretation or link to that home rather than repeat its findings.
+
+Every game uses the same short profile order: play and learning, development, evidence, and access. Keep detailed metadata and report-level appraisals expandable. Do not invent detail to fill a template when the sources are incomplete.
+
+Remove repeated introductions, scope disclaimers, study summaries, concluding lists and unused references. Preserve quantitative context, uncertainty, attribution and first-use definitions needed to interpret a passage independently. Concision must not turn an uncontrolled result into an effectiveness claim or a historical listing into current availability.

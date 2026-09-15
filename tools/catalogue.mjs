@@ -53,7 +53,6 @@ function renderGame(game, {renderStudyDetails, imageFor, studies}) {
   const image = imageFor(game);
   const detailsId = `details-${game.id}`;
   const facts = [
-    ['Developer / ownership', `${game.developer.names.join('; ')} (${game.developer.classification})`],
     ['Lived-experience involvement', game.developer.lived_experience_involvement],
     ['Audience', `${game.target_population.age_range}; ${game.target_population.roles.join('; ')}. ${game.target_population.diabetes_specificity}`],
     ['Release and reporting history', game.release_history.join('; ')],
@@ -62,7 +61,6 @@ function renderGame(game, {renderStudyDetails, imageFor, studies}) {
     ['Game mechanisms', game.game_mechanisms.join('; ')],
     ['Learning objectives (intended)', game.learning_objectives.join('; ')],
     ['Pedagogical mechanisms (proposed)', game.pedagogical_mechanisms.join('; ')],
-    ['Access', `${game.availability.status}. ${game.availability.status_detail}`],
     ['Price / monetisation', `${game.availability.price}. ${game.availability.monetisation}`],
     ['Regions / account', `${[].concat(game.availability.regions || []).join('; ')}. ${game.availability.account_requirements}`]
   ];
@@ -76,15 +74,23 @@ function renderGame(game, {renderStudyDetails, imageFor, studies}) {
     </tr>
     <tr class="game-detail-row" id="${detailsId}" hidden><td colspan="9">
       <div class="game-detail-body">
-        <h2>${esc(game.title)}</h2><p class="game-description">${esc(game.description)}</p>
-        ${image ? `<figure class="game-figure">${image}${game.screenshot.source_url ? `<figcaption>${external(game.screenshot.source_url, 'Image source')}</figcaption>` : ''}</figure>` : ''}
+        <h2>${esc(game.title)}</h2>
+        <div class="game-profile">
+          <p class="game-description"><strong>Play and learning.</strong> ${esc(game.description)}</p>
+          <p class="profile-development"><strong>Development.</strong> ${esc(game.developer.names.join('; '))} (${esc(game.developer.classification)}).${game.developer.affiliation ? ` ${esc(game.developer.affiliation)}` : ''}</p>
+          <p class="evidence-summary"><strong>Evidence.</strong> ${esc(game.evidence.summary)}</p>
+          <p class="profile-access"><strong>Access.</strong> ${esc(game.availability.status_detail)}. Availability checked: ${esc(game.availability.verified_on)} (${esc(game.availability.confidence)}).</p>
+        </div>
+        ${image ? `<figure class="game-figure">${image}</figure>` : ''}
         <div class="product-links">${renderLinks(game, studies)}</div>
+        <details class="product-record"><summary>Product details and study reports</summary>
         <dl class="game-facts">${facts.map(([label,value]) => `<div><dt>${esc(label)}</dt><dd>${esc(value || 'Not established')}</dd></div>`).join('')}</dl>
-        <h3>Evidence and measured outcomes</h3><p class="evidence-summary">${esc(game.evidence.summary)}</p>
+        <h3>Study reports</h3>
         <p class="facet-detail">${esc(game.evidence.level)}. ${esc(game.evidence.design_detail)}</p>
         ${renderStudyDetails(game)}
         <details class="design-notes"><summary>Design strengths and limitations — interpretation</summary><p>${esc(game.design_assessment.evidence_basis)}</p><dl><dt>Strengths</dt><dd>${list(game.design_assessment.strengths)}</dd><dt>Limitations</dt><dd>${list(game.design_assessment.limitations)}</dd><dt>Design relevance</dt><dd>${list(game.design_assessment.design_relevance)}</dd></dl></details>
-        <p class="facet-detail">Availability checked: ${esc(game.availability.verified_on)} (${esc(game.availability.confidence)}). Scientific appraisal: ${esc(game.evidence.appraisal_date)}. Not playtested.</p>
+        <p class="facet-detail">Scientific appraisal: ${esc(game.evidence.appraisal_date)}. ${esc(game.evidence.search_scope)} Not playtested.</p>
+        </details>
         <a class="game-permalink" href="#game-${esc(game.id)}">Link to this game</a>
       </div>
     </td></tr></tbody>`;
@@ -93,7 +99,10 @@ function renderGame(game, {renderStudyDetails, imageFor, studies}) {
 function renderLinks(game, studies) {
   const links = [];
   const seen = new Set();
-  const add = (url,label) => { if (!seen.has(url)) { links.push(external(url,label)); seen.add(url); } };
+  const imageSource = game.screenshot?.source_url;
+  // Kildelinket står uden for billedrammen, så det også findes uden et billede.
+  // Genbrug et eksisterende produkt-/artikellink, når det er samme destination.
+  const add = (url,label) => { if (!seen.has(url)) { links.push(external(url, url === imageSource && label !== 'Image source' ? `${label} · image source` : label)); seen.add(url); } };
   for (const url of game.links.official || []) {
     const label = /clinicaltrials\.gov/.test(url) ? 'Trial registration' : /github\.com/.test(url) ? 'Source repository' : /itch\.io/.test(url) ? 'Game distribution page' : /github\.io/.test(url) && game.availability.status === 'publicly available' ? 'Play in browser' : 'Official website';
     add(url,label);
@@ -107,6 +116,7 @@ function renderLinks(game, studies) {
     add(url,label);
   }
   for (const url of game.links.archives || []) add(url, 'Historical product information');
+  if (imageSource) add(imageSource, 'Image source');
   if (!game.links.official?.some(url => !url.includes('clinicaltrials.gov')) && !game.links.stores?.length) links.unshift('<span>No current public game-access link verified.</span>');
   return links.join(' <span aria-hidden="true">·</span> ');
 }

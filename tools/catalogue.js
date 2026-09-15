@@ -9,6 +9,17 @@
   let sortKey = 'title';
   let direction = 1;
 
+  // Et manglende eller beskadiget billede må ikke efterlade en tom ramme.
+  // Kildelinket bevares i produktets almindelige linkrække. Capture er nødvendigt,
+  // fordi billeders error-hændelser ikke bobler; cachede fejl kontrolleres også.
+  function removeFailedImage(image) {
+    if (image?.tagName === 'IMG') image.closest('.game-figure')?.remove();
+  }
+  table.addEventListener('error', event => removeFailedImage(event.target), true);
+  table.querySelectorAll('.game-figure img').forEach(image => {
+    if (image.complete && image.naturalWidth === 0) removeFailedImage(image);
+  });
+
   function filter() {
     const terms = search.value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
     let visible = 0;

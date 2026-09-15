@@ -449,7 +449,7 @@ pre code { padding: 0; background: transparent; }
 .facet-detail { display: block; margin-top: 0.3rem; color: var(--muted); font-size: 0.76rem; font-weight: 400; line-height: 1.4; }
 .catalogue-note { font-size: 0.81rem; color: var(--muted); }
 .product-links { display: flex; flex-wrap: wrap; gap: 6px 10px; font-size: 0.86rem; }
-.study-appraisal, .design-notes { padding: 12px 0; border-top: 1px solid var(--line); font-size: 0.9rem; }
+.study-appraisal, .design-notes, .product-record { padding: 12px 0; border-top: 1px solid var(--line); font-size: 0.9rem; }
 summary { cursor: pointer; font-weight: 650; color: #214967; }
 #catalogue-reset { align-self: end; min-height: 42px; border: 1px solid #bfcfd9; border-radius: 9px; background: white; color: var(--navy); font: inherit; cursor: pointer; }
 .article > p, .tablet-chapter > p { max-width: 85ch; }

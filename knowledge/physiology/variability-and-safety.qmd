@@ -75,15 +75,9 @@ A serious game may teach why hypoglycaemia or DKA can develop and may direct pla
 - Population averages for sleep, stress, menstrual phase, and season are especially poor individual predictors.
 - Acute safety thresholds and treatment protocols depend on clinical context and current guidance; this page deliberately does not reproduce them.
 
-## Implications for serious-game design
+## Combined-scenario checks
 
-::: {.callout-note title="Modelling and design inference"}
-1. Prefer causal modifiers with uncertainty ranges over deterministic event scripts.
-2. Distinguish acute glucose direction from later risk; alcohol and exercise are important examples.
-3. Give players explanatory feedback such as “absorption is delayed” or “illness raised hepatic output,” not blame-based feedback.
-4. Test combinations, including illness plus reduced intake, evening exercise plus sleep, and heat plus an active subcutaneous depot.
-5. Provide explicit boundaries between educational simulation, personal health data, and clinical decision support.
-:::
+**Design inference:** test illness with reduced intake, evening exercise followed by sleep, and heat during absorption from an active insulin depot. Explain which process changed and distinguish a conditional response from a prediction about the player.
 
 ## References
 

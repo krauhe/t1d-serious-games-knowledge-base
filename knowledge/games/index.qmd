@@ -5,54 +5,24 @@ description: "A structured, evidence-aware entry point to games for type 1 diabe
 toc: true
 ---
 
-Games for ==type 1 diabetes (T1D)== range from procedural rehearsal and glucose simulation to character care, emotional coping and experiential narratives. The [game catalogue](../../explorer.html) contains the product descriptions, dates, languages, evidence and access links.
+Type 1 diabetes (T1D) games span procedural rehearsal, glucose simulation, character care, coping and experiential narrative. The [catalogue](../../explorer.html) contains their descriptions, dates, languages and access routes; the [evidence map](evidence-map.qmd) contains outcome findings.
 
-## State of the field
+## How the field developed
 
-Serious games can provide repeated, low-consequence practice and several small studies report immediate knowledge, procedural or psychosocial improvements. The literature does **not** establish that T1D serious games as a class improve long-term self-management or ==glycated haemoglobin (HbA1c)==. A mixed-diabetes meta-analysis found no statistically significant HbA1c effect (mean difference −0.09 percentage points, 95% confidence interval −0.29 to 0.10; *P*=.36) ([Yao et al., 2024](https://doi.org/10.2196/43574)). A 2026 paediatric T1D scoping review identified 23 studies: mobile applications accounted for 52%, goal setting, challenges, and fun were each coded in 96%, social features in 35%, and 70% of studies lacked an explicit theoretical framework. The review reported promising effects across several outcome classes but concluded that sustained benefit remains inadequately established ([Guan et al., 2026](https://doi.org/10.1186/s12887-026-07142-5)).
+![Selected milestones in T1D serious games. Columns represent overlapping periods of development or reporting, not exact release dates or evidence quality.](../../figures/original/t1d-games-selected-timeline.svg)
 
-The field also has an availability problem. In a 2024 mixed-T1D/T2D review and accessibility audit, 21 of 23 research-origin games were not publicly available, whereas app-store products were easier to obtain but generally lacked peer-reviewed product evaluation ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)). Research evidence and public access frequently concern different products.
+Early console games embedded diabetes tasks in platform adventures. Later products used mobile quizzes, virtual pets and rewards linked to real monitoring. Research programmes also explored augmented reality, social robots and immersive virtual reality. Recent browser and mobile products include both explicit glucose simulations and narratives concerned with living with diabetes. Product-specific histories and sources are in the [catalogue](../../explorer.html).
 
-![Figure 1. Selected milestones in T1D serious games. The four columns show changes in platform and educational structure from console games to mobile, tangible, participatory, browser, virtual-reality and exergame formats. The examples are illustrative rather than exhaustive. Column colour identifies broad, partly overlapping periods of development or reporting, not exact release dates, evidence quality or effectiveness.](../../figures/original/t1d-games-selected-timeline.svg)
+A paediatric T1D review identified 23 studies: 52% concerned mobile applications, 35% included social features and 70% lacked an explicit theoretical framework. Those frequencies describe the reviewed interventions, not which mechanisms caused benefit ([Guan et al., 2026](https://doi.org/10.1186/s12887-026-07142-5)).
 
-## What can be concluded?
+## Different purposes require different evidence
 
-| Epistemic category | Current conclusion |
-|---|---|
-| **Established** | Selected studies report acceptability, immediate knowledge change, self-reported behaviour or injection distress; these constructs are not interchangeable. The mixed-diabetes audit documents limited public access, not a disappearance rate. |
-| **Plausible, with partial evidence** | Well-scaffolded simulation may strengthen causal mental models; narrative may support identification and discussion; focused procedural rehearsal may reduce task-related distress. |
-| **Unsupported as a general claim** | Gamification reliably improves HbA1c; satisfaction proves learning; app-store ratings demonstrate clinical benefit; a scientifically detailed model automatically produces understanding. |
-| **Unknown** | Which mechanisms support durable transfer; the required dose of play; comparative effectiveness between genres; effects in newly diagnosed adults; long-term harms, equity and maintenance. |
+A **serious game** has a purpose beyond entertainment. **Gamification** adds game elements to an otherwise non-game activity; rewarding logging is therefore distinct from practising glucose interpretation. A **simulation** represents a system, whereas an **experiential game** represents aspects of an experience. These categories can overlap.
 
-## Conceptual boundaries
+Physiological fidelity matters when a game teaches glucose dynamics. A narrative about disclosure or social burden needs appropriate experiential and psychosocial appraisal, not necessarily a glucose model. Neither interface polish nor mechanistic detail establishes learning.
 
-A **serious game** is a complete game intended to produce an outcome beyond entertainment, such as knowledge, procedural competence, coping or professional learning. The label does not guarantee educational quality.
-
-**Gamification** adds selected game-design elements—such as points, streaks, quests or badges—to an activity that is not otherwise a complete game. Rewarding glucose logging is not equivalent to teaching interpretation.
-
-A **simulation** is an interactive representation of a system. It becomes a serious game when goals, constraints, progression, feedback and meaningful agency are added. Physiological fidelity and pedagogical fidelity are separate properties.
-
-An **experiential game** primarily represents what living with a condition feels like or demands. Appropriate outcomes may include reflection, recognition or empathy rather than factual knowledge or dosing competence.
-
-**Transfer** is the application of learning beyond the practised task. Immediate recall of the same material is not evidence of transfer to unfamiliar scenarios or daily self-management.
-
-## Where the main gaps remain
-
-Newly diagnosed adults, caregiver learning and delayed transfer to unfamiliar situations remain less well characterised than immediate outcomes in children. The [evidence map](evidence-map.qmd) examines those outcome gaps; [design comparisons](../comparisons/comparative-analysis.qmd) contrast what the different interaction structures ask a learner to do. [Availability](availability.qmd) concerns whether those interventions can actually be obtained.
+Research on newly diagnosed adults, delayed transfer and long-term use remains limited in the reviewed corpus. Read the [evidence map](evidence-map.qmd) for the specific findings and uncertainty, [design comparisons](../comparisons/comparative-analysis.qmd) for interaction differences and [availability](availability.qmd) for the gap between studied and obtainable products.
 
 ## References
 
-[Nørlev, J. et al. (2022) ‘Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage: A systematic scoping review’, *Journal of Diabetes Science and Technology*, 16(5), pp. 1253–1269.](https://pubmed.ncbi.nlm.nih.gov/34024156/)
-
 [Guan, Y. et al. (2026) ‘Application of gamified interventions in children with type 1 diabetes: A scoping review’, *BMC Pediatrics*, 26, 779.](https://doi.org/10.1186/s12887-026-07142-5)
-
-[Reinders, E.F.H. et al. (2024) ‘Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers’, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
-
-[Yao, W. et al. (2024) ‘Electronic interactive games for glycemic control in individuals with diabetes: Systematic review and meta-analysis’, *JMIR Serious Games*, 12, e43574.](https://doi.org/10.2196/43574)
-
-## Abbreviation glossary
-
-| Abbreviation | Meaning |
-|---|---|
-| HbA1c | Glycated haemoglobin; a biomarker reflecting average glycaemia over approximately 2–3 months. |
-| T1D | Type 1 diabetes; autoimmune diabetes requiring exogenous insulin. |

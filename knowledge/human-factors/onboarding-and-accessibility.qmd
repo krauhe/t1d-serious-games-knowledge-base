@@ -4,130 +4,66 @@ description: "Human-factors principles for helping learners reach meaningful int
 date: "2026-09-05"
 ---
 
-# Onboarding, Cognitive Load, Accessibility, and Ethical Engagement
+## Reach the first meaningful action
 
-## The first interaction is part of the educational intervention
+An initial action should teach the core interaction, not merely dismiss instructions. Tutorial research found that benefits depend on game complexity; it does not establish a universal number of clicks or an ideal onboarding duration ([Andersen et al., 2012](https://doi.org/10.1145/2207676.2207687)).
 
-An educational game about ==type 1 diabetes (T1D)== cannot produce learning if the intended user does not reach a meaningful action, cannot identify the consequence, or leaves before understanding the task. Entry friction is therefore not merely a usability concern. **Design hypothesis:** it may change exposure and selectively exclude people who are newly diagnosed, distressed, fatigued, unfamiliar with games, using assistive technology, or reading in a non-primary language.
+For a type 1 diabetes (T1D) learning game, the following are **design proposals**:
 
-Evidence from game-tutorial research indicates that more instruction is not uniformly better. Tutorial benefit depends on the complexity of the game and on whether information is presented when it becomes actionable ([Andersen et al., 2012](https://doi.org/10.1145/2207676.2207687)). In digital game-based learning, scaffolding has a moderate average association with learning, but effects vary substantially by design and context ([Cai et al., 2022](https://doi.org/10.1007/s10648-021-09655-0)). These results support progressive, contextual instruction; they do not establish a universal maximum number of onboarding screens or clicks.
+1. State the educational purpose and distinguish fictional scenarios from personal treatment advice.
+2. Offer a recommended starting scenario; defer settings that do not affect the first task.
+3. Introduce controls when they become necessary, with skip, replay and help available.
+4. Let the player act and inspect a consequence before requiring further instruction.
+5. Allow pause and exit without loss-framed pressure to continue.
 
-## A low-friction entry model
+Do not remove information needed for meaningful consent merely to reduce clicks. Explanatory feedback and gradual withdrawal of guidance are covered in [learning science](../design/learning-science.qmd).
 
-**Design inference.** A first session should minimise decisions that are not required for the first meaningful learning action. A practical sequence is:
+## Choice without unnecessary setup
 
-1. state the educational purpose and non-personalised nature of the experience;
-2. offer one clearly recommended starting route;
-3. provide a safe default character or scenario while retaining an obvious way to change it;
-4. teach only the controls needed for the immediate action;
-5. make the first physiological consequence visible quickly; and
-6. move optional theory, configuration, and advanced controls behind progressive disclosure.
+Defaults influence decisions, but their effects depend on context and perceived recommendation ([Jachimowicz et al., 2019](https://doi.org/10.1017/bpp.2018.43)). Choice-overload findings are heterogeneous: more options do not invariably reduce satisfaction or participation ([Chernev et al., 2015](https://doi.org/10.1016/j.jcps.2014.08.002); [Scheibehenne et al., 2010](https://doi.org/10.1086/651235)).
 
-This is not an argument for hiding material risks or consent-relevant information. It distinguishes information that must precede participation from explanation that is more comprehensible after the learner has a concrete event to interpret.
+A testable approach is to offer one suggested route while keeping alternatives visible. Defer advanced parameters until the learner understands their consequences. Measure hesitation, mistaken choices and abandonment rather than treating fewer screens as sufficient evidence of improvement.
 
-## Choice architecture without removing autonomy
+## Emotional safety
 
-Defaults can reduce decision effort, but their effects depend on whether the default is interpreted as an endorsement and whether preferences are sufficiently heterogeneous ([Jachimowicz et al., 2019](https://doi.org/10.1017/bpp.2018.43)). Choice-overload effects are context-dependent rather than universal ([Chernev et al., 2015](https://doi.org/10.1016/j.jcps.2014.08.002); [Scheibehenne et al., 2010](https://doi.org/10.1086/651235)).
+Diabetes communication guidance recommends person-centred, non-judgemental language; psychological-care guidance addresses distress and developmental context ([Dickinson et al., 2017](https://doi.org/10.2337/dci17-0041); [de Wit et al., 2022](https://doi.org/10.1111/pedi.13428)). These are clinical communication resources, not trials of particular game messages.
 
-**Design inference.** A recommended route is preferable to an undifferentiated set of equally prominent modes when the learner cannot yet evaluate their consequences. The interface should still permit a deliberate alternative. Useful choices concern learning preference, such as **let me try**, **show me**, or **explain more**; early choices about physiological parameters or complex game modes may impose effort before the user has a basis for deciding.
+Describe the event and its cause: “The delayed meal and continuing insulin action overlapped,” rather than labelling the player or glucose result “bad”. A virtual character can create distance from personal experience, but that effect must be tested rather than assumed.
 
-## Competence, autonomy, and relatedness
+Proposed safeguards are to avoid punishment for real glucose readings, compulsory public comparison, loss-framed streaks, purchases needed to avert simulated harm, and rewards contingent on disclosure of health data. Offer control over distressing content and caregiver participation. [Game mechanisms](../design/game-mechanisms.qmd) discusses motivation and rewards.
 
-==Self-determination theory (SDT)== proposes that autonomy, competence, and relatedness support internalised motivation. In videogame studies, experienced autonomy and competence were associated with enjoyment, preference, and intention to play again ([Ryan, Rigby and Przybylski, 2006](https://doi.org/10.1007/s11031-006-9051-8)). Meta-analyses of SDT-informed health interventions report small but robust behavioural effects across heterogeneous contexts; these results are adjacent evidence rather than direct evidence for T1D serious games ([Ntoumanis et al., 2021](https://doi.org/10.1080/17437199.2020.1718529); [Sheeran et al., 2020](https://doi.org/10.1037/ccp0000501)).
+## Accessibility checks
 
-**Design inference.** Competence should be produced by understandable mastery rather than by praise disconnected from performance. Autonomy should concern meaningful strategy rather than excessive configuration. Relatedness may be supported through family discussion, cooperative goals, believable characters, or comparison of approaches, but public competition is not required and may be inappropriate for sensitive health outcomes.
+The **Web Content Accessibility Guidelines (WCAG) 2.2** provide a standards-based starting point, not certification of an untested product ([W3C, 2023](https://www.w3.org/TR/WCAG22/)). Check the actual tasks and devices:
 
-## Feedback should explain causality
+| Area | Practical check |
+|---|---|
+| Input | Complete essential actions by keyboard and touch; avoid hover-only controls and precision-dependent targets. |
+| Visual information | Pair colour with labels or patterns; test contrast, zoom and small screens. |
+| Motion and time | Support reduced motion, pause and alternatives to unnecessary time limits. |
+| Audio | Provide captions or text equivalents; do not make sound the only feedback. |
+| Reading | Explain specialist terms when needed; layer optional detail without hiding the task. |
+| Assistive technology | Check control names, focus order, state announcements and recovery from dialogs. |
+| Access conditions | Test low bandwidth, interrupted sessions and the declared offline mode. |
 
-Formative-feedback reviews emphasise that effects depend on task, learner and timing; feedback should be tested for whether it is specific, task-focused, supportive, and sufficiently timed for the learner to connect action and consequence. A score or correctness marker alone supplies less diagnostic information than feedback that identifies the relevant principle or misconception ([Hattie and Timperley, 2007](https://doi.org/10.3102/003465430298487); [Shute, 2008](https://doi.org/10.3102/0034654307313795)).
+## Observe the first session
 
-**Design inference.** For a dynamic T1D scenario, the following sequence is proposed for evaluation:
+Ask intended users to start unaided, explain the goal, make one choice, interpret its consequence, find help and stop or resume. Record task success, time to meaningful action, critical errors, requests for help and reasons for quitting. A successful click sequence with an incorrect explanation is not successful onboarding.
 
-1. **Predict:** elicit a forecast before the player can see the outcome.
-2. **Act:** permit one physiologically interpretable action.
-3. **Observe:** show the trajectory and relevant lag rather than only a final score.
-4. **Explain:** identify the mechanism and the evidence limits of the representation.
-5. **Retry:** preserve the initial conditions while allowing a different action.
-6. **Vary:** change one contextual factor to test transfer.
-
-![Figure 1. Predict-Act-Observe-Explain-Retry-Vary learning loop. The six boxes represent learner activities; arrows indicate the intended sequence, and the return arrow indicates repeated hypothesis testing. Blue denotes learner decisions, teal denotes observable model response, amber denotes explanatory support, and purple denotes transfer-oriented variation. The loop is a design framework, not evidence that a specific game produces learning.](../../figures/original/predict-act-learning-loop.svg)
-
-## Failure, language, and emotional safety
-
-Diabetes-related outcomes carry moral and emotional meaning. Language that describes a glucose trace as “bad”, a person as “non-compliant”, or an error as personal failure can reinforce stigma. Consensus guidance recommends neutral, person-centred, strengths-based language in diabetes care and education ([Dickinson et al., 2017](https://doi.org/10.2337/dci17-0041)). International paediatric guidance also treats psychological wellbeing, family context, and diabetes distress as integral rather than optional aspects of care ([de Wit et al., 2022](https://doi.org/10.1111/pedi.13428)).
-
-**Directly relevant principle.** Feedback should describe the action, the simulated mechanism, and the limits of the scenario rather than judging the learner's identity or worth. Failure can be framed as information for the next hypothesis. Acute risks such as severe hypoglycaemia or diabetic ketoacidosis should be explained accurately, but dramatic language is not required to communicate seriousness.
-
-## Ethical engagement
-
-Game designers often measure return, session length, streak continuation, and conversion. A health-learning context requires an additional question: does the engagement mechanism support the learner's goals, or exploit loss aversion, social pressure, uncertainty, or fear?
-
-**Ethical design constraints** should exclude:
-
-1. streak loss or punishment for respecting a stop decision;
-2. false urgency, artificial scarcity, or hidden probabilities;
-3. variable-ratio monetised rewards, loot boxes, or paid clinical advantage;
-4. public comparison of sensitive health performance by default;
-5. shame, fear, or identity-based judgement as retention mechanisms; and
-6. unnecessary collection of health, child, or behavioural data.
-
-External rewards are not uniformly harmful, but expected controlling rewards can reduce voluntary interest, whereas informational feedback can support competence ([Deci, Koestner and Ryan, 1999](https://doi.org/10.1037/0033-2909.125.6.627)). A reward should therefore clarify progress, unlock meaningful practice, or acknowledge mastery rather than substitute for the learning activity.
-
-## Accessibility as a design and evaluation requirement
-
-Accessibility includes more than conformance testing at the end of development. It affects the information architecture, input methods, timing, colour use, animation, language, reading burden, audio alternatives, and whether a scenario can be completed without precise motor control.
-
-At minimum, developers should test:
-
-1. keyboard-only and switch-compatible navigation;
-2. programmatic names, roles, states, and focus order;
-3. text scaling and narrow-screen reflow;
-4. colour-independent representation of glucose zones and trends;
-5. captions or transcripts for speech and meaningful sound;
-6. reduction or disabling of non-essential motion;
-7. pause and speed controls without penalty;
-8. comprehension across age, prior diabetes knowledge, and game familiarity; and
-9. the reading level of player-facing text separately from the scientific documentation.
-
-The Web Content Accessibility Guidelines provide a general digital baseline, not evidence that a disease-learning experience is cognitively or emotionally accessible ([W3C, 2023](https://www.w3.org/TR/WCAG22/)). Moderated observation with representative users remains necessary.
-
-## What to measure in early testing
-
-Usability testing should include more than whether participants eventually succeed:
-
-1. time from page readiness to the first meaningful learning action;
-2. number and type of decisions before that action;
-3. time to the first interpretable consequence;
-4. whether the participant can explain the purpose and next step;
-5. whether the participant recognises the scenario as fictional and non-personalised;
-6. assistance required and points of hesitation;
-7. comprehension of the causal explanation;
-8. perceived competence, pressure, distress, and willingness to try another strategy; and
-9. accessibility barriers by device, input method, language, age, and prior experience.
-
-**Formative-testing proposal:** recruit in iterative rounds matched to the task and user group; document which problems recur, what changes were made, and why further rounds are or are not needed. No universal participant count is claimed. A small formative sample cannot estimate population prevalence or establish educational effectiveness. Children, adolescents, newly diagnosed adults, experienced adults, caregivers, and clinicians should not be treated as interchangeable test populations.
+Include people with different ages, diabetes experience, literacy, language and device access. This is a sampling proposal; a few convenient testers cannot establish accessibility for all intended users. Keep detailed efficacy and retention study design in the [evaluation chapter](../design/evaluation.qmd).
 
 ## References
 
-1. [Andersen, E. et al. (2012) “The impact of tutorials on games of varying complexity”, *CHI '12*, 59-68.](https://doi.org/10.1145/2207676.2207687)
-2. [Cai, Z. et al. (2022) “Effects of scaffolding in digital game-based learning on students' achievement”, *Educational Psychology Review*, 34, 537-574.](https://doi.org/10.1007/s10648-021-09655-0)
-3. [Chernev, A., Böckenholt, U. and Goodman, J. (2015) “Choice overload: A conceptual review and meta-analysis”, *Journal of Consumer Psychology*, 25(2), 333-358.](https://doi.org/10.1016/j.jcps.2014.08.002)
-4. [Deci, E.L., Koestner, R. and Ryan, R.M. (1999) “A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation”, *Psychological Bulletin*, 125(6), 627-668.](https://doi.org/10.1037/0033-2909.125.6.627)
-5. [de Wit, M. et al. (2022) “ISPAD Clinical Practice Consensus Guidelines 2022: Psychological care of children, adolescents and young adults with diabetes”, *Pediatric Diabetes*, 23(8), 1373-1389.](https://doi.org/10.1111/pedi.13428)
-6. [Dickinson, J.K. et al. (2017) “The use of language in diabetes care and education”, *Diabetes Care*, 40, 1790-1799.](https://doi.org/10.2337/dci17-0041)
-7. [Hattie, J. and Timperley, H. (2007) “The power of feedback”, *Review of Educational Research*, 77(1), 81-112.](https://doi.org/10.3102/003465430298487)
-8. [Jachimowicz, J.M. et al. (2019) “When and why defaults influence decisions”, *Behavioural Public Policy*, 3(2), 159-186.](https://doi.org/10.1017/bpp.2018.43)
-9. [Ntoumanis, N. et al. (2021) “A meta-analysis of self-determination theory-informed intervention studies in the health domain”, *Health Psychology Review*, 15(2), 214-244.](https://doi.org/10.1080/17437199.2020.1718529)
-10. [Ryan, R.M., Rigby, C.S. and Przybylski, A.K. (2006) “The motivational pull of video games”, *Motivation and Emotion*, 30, 344-360.](https://doi.org/10.1007/s11031-006-9051-8)
-11. [Scheibehenne, B., Greifeneder, R. and Todd, P.M. (2010) “Can there ever be too many options?”, *Journal of Consumer Research*, 37(3), 409-425.](https://doi.org/10.1086/651235)
-12. [Sheeran, P. et al. (2020) “Self-determination theory interventions for health behavior change”, *Journal of Consulting and Clinical Psychology*, 88(8), 726-737.](https://doi.org/10.1037/ccp0000501)
-13. [Shute, V.J. (2008) “Focus on formative feedback”, *Review of Educational Research*, 78(1), 153-189.](https://doi.org/10.3102/0034654307313795)
-14. [W3C (2023) “Web Content Accessibility Guidelines (WCAG) 2.2”.](https://www.w3.org/TR/WCAG22/)
+- [Andersen, E. et al. (2012) “The impact of tutorials on games of varying complexity”, *CHI '12*, 59-68.](https://doi.org/10.1145/2207676.2207687)
 
-## Abbreviation glossary
+- [Chernev, A., Böckenholt, U. and Goodman, J. (2015) “Choice overload: A conceptual review and meta-analysis”, *Journal of Consumer Psychology*, 25(2), 333-358.](https://doi.org/10.1016/j.jcps.2014.08.002)
 
-**SDT - Self-determination theory.** A motivation framework centred on autonomy, competence, and relatedness.
+- [de Wit, M. et al. (2022) “ISPAD Clinical Practice Consensus Guidelines 2022: Psychological care of children, adolescents and young adults with diabetes”, *Pediatric Diabetes*, 23(8), 1373-1389.](https://doi.org/10.1111/pedi.13428)
 
-**T1D - Type 1 diabetes.** An autoimmune disease that requires exogenous insulin.
+- [Dickinson, J.K. et al. (2017) “The use of language in diabetes care and education”, *Diabetes Care*, 40, 1790-1799.](https://doi.org/10.2337/dci17-0041)
 
-**WCAG - Web Content Accessibility Guidelines.** International recommendations for making web content more accessible to people with disabilities.
+- [Jachimowicz, J.M. et al. (2019) “When and why defaults influence decisions”, *Behavioural Public Policy*, 3(2), 159-186.](https://doi.org/10.1017/bpp.2018.43)
+
+- [Scheibehenne, B., Greifeneder, R. and Todd, P.M. (2010) “Can there ever be too many options?”, *Journal of Consumer Research*, 37(3), 409-425.](https://doi.org/10.1086/651235)
+
+- [W3C (2023) “Web Content Accessibility Guidelines (WCAG) 2.2”.](https://www.w3.org/TR/WCAG22/)

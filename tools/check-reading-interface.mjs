@@ -4,6 +4,7 @@ import vm from 'node:vm';
 import assert from 'node:assert/strict';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {renderCatalogue} from './catalogue.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = file => fs.readFileSync(path.join(root,file), 'utf8');
 const games = JSON.parse(read('data/games.json')).games;
@@ -36,12 +37,25 @@ const headers = ['title','year','language','platform','audience','objectives','e
   button.querySelector = () => button.indicator;
   return button;
 });
-table.querySelectorAll = selector => selector === '.game-entry' ? rows : headers;
+// Dækker både billeder, der allerede er fejlet, og senere indlæsningsfejl.
+function imageFixture(complete, naturalWidth) {
+  const figure = {removed:false,remove(){this.removed=true;}};
+  return {tagName:'IMG',complete,naturalWidth,figure,closest:selector=>selector === '.game-figure' ? figure : null};
+}
+const cachedFailure = imageFixture(true,0), loadedImage = imageFixture(true,400), pendingImage = imageFixture(false,0);
+table.querySelectorAll = selector => selector === '.game-entry' ? rows : selector === '[data-sort]' ? headers : selector === '.game-figure img' ? [cachedFailure,loadedImage,pendingImage] : [];
 let order = [...rows];
 table.append = row => { order = order.filter(item => item !== row); order.push(row); };
 const window = new Element(); window.location = {hash:''};
 const document = {getElementById:id => elements[id]};
 vm.runInNewContext(read('tools/catalogue.js'), {window,document});
+assert.equal(cachedFailure.figure.removed,true);
+assert.equal(loadedImage.figure.removed,false);
+assert.equal(pendingImage.figure.removed,false);
+table.emit('error',{target:pendingImage});
+assert.equal(pendingImage.figure.removed,true);
+// Andre ressourcers fejl må ikke fjerne spilelementer.
+table.emit('error',{target:{tagName:'SCRIPT'}});
 assert.equal(rows.filter(row => !row.hidden).length,46);
 elements['game-search'].value = 'Danish'; elements['game-search'].emit('input');
 assert.ok(rows.some(row => !row.hidden && row.id === 'game-t1d-simulator'));
@@ -95,8 +109,26 @@ menu.button.emit('click'); menu.doc.emit('click',{target:new Element()}); assert
 menu=sidebarTest(); menu.media.matches=true; menu.media.emit('change'); assert.equal(menu.sidebar.hidden,true);
 
 const html=read('_site/explorer.html');
+const renderWithoutImage = game => renderCatalogue([game],{renderStudyDetails:()=>'',imageFor:()=>'',studies:[]});
+const sourceGame = games.find(game=>game.id==='level-one');
+const noImage = renderWithoutImage(sourceGame);
+assert.doesNotMatch(noImage,/<figure\b|<img\b/,'No reserved image area without an image');
+assert.ok(noImage.includes(`href="${sourceGame.screenshot.source_url}"`),'Missing image-source link');
+const sharedLinkGame = games.find(game=>game.id==='rufus');
+const sharedLinks = [...renderWithoutImage(sharedLinkGame).matchAll(/href="([^"]+)"/g)].map(m=>m[1]);
+assert.equal(sharedLinks.filter(url=>url===sharedLinkGame.screenshot.source_url).length,1,'Duplicated source/product link');
+const withoutSource = renderWithoutImage({...sourceGame,screenshot:{}});
+assert.doesNotMatch(withoutSource,/<figure\b|<img\b|>Image source</,'No invented image or link without a source');
+for (const figure of html.matchAll(/<figure class="game-figure">([\s\S]*?)<\/figure>/g)) assert.match(figure[1],/<img\b[^>]*src="[^"]+"/);
+if (!fs.existsSync(path.join(root,'_site/PRIVATE-IMAGE-BUILD.txt'))) assert.doesNotMatch(html,/<figure class="game-figure">/,'Public build must not reserve private-image space');
 assert.equal((html.match(/class="game-entry"/g)||[]).length,games.length);
 assert.equal((html.match(/class="game-description"/g)||[]).length,games.length);
+assert.equal((html.match(/class="game-profile"/g)||[]).length,games.length);
+assert.equal((html.match(/class="product-record"/g)||[]).length,games.length);
+// Alle profiler skal have samme korte struktur; de detaljerede studier bevares nedenunder.
+for (const profile of html.matchAll(/<div class="game-profile">([\s\S]*?)<\/div>/g)) {
+  assert.match(profile[1], /<strong>Play and learning\.<\/strong>[\s\S]*<strong>Development\.<\/strong>[\s\S]*<strong>Evidence\.<\/strong>[\s\S]*<strong>Access\.<\/strong>/);
+}
 assert.equal((html.match(/class="study-appraisal"/g)||[]).length,23);
 assert.equal((html.match(/class="game-table"/g)||[]).length,1);
 assert.doesNotMatch(html,/Image not reproduced|Open verified access link|\[object Object\]|undefined/);
@@ -113,6 +145,7 @@ const tabletPath='output/private/T1D-Serious-Games-Knowledge-Base-private.html';
 if(process.argv.includes('--tablet')) {
   const tablet=read(tabletPath);
   assert.equal((tablet.match(/class="game-entry"/g)||[]).length,games.length);
+  assert.equal((tablet.match(/class="game-profile"/g)||[]).length,games.length);
   const ids=[...tablet.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
   assert.equal(new Set(ids).size,ids.length,'Duplicate offline anchors');
   const gameLinks=[...tablet.matchAll(/href="#(game-[^"]+)"/g)].map(m=>m[1]);

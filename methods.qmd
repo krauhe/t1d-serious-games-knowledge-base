@@ -1,104 +1,48 @@
 ---
-title: "Methods, Evidence Classification, and Source Handling"
-description: "Scope, search approach, eligibility, evidence tiers, and availability verification."
-date: "2026-09-05"
+title: "Methods and Sources"
+description: "Scope, search provenance, evidence classification and verification limits."
+date: "2026-09-15"
 ---
 
-# Methods, Evidence Classification, and Source Handling
+## Scope and search provenance
 
-## Review type and scope
+This is a structured scoping review and evidence map of type 1 diabetes (T1D) games, not a registered systematic review. It includes education, self-management, coping and experiential games; mixed-diabetes, clinician-training, physical-game, exergame and gamified-utility comparators are labelled separately.
 
-The present resource is a structured scoping review and evidence map, not a registered systematic review. Discovery combined independent database and product searches, backward and forward citation searching, and comparison with multiple reviews. No individual review defines the inclusion boundaries or serves as the sole evidential basis.
+The inherited review reports independent database and product searches, backward references and forward citations through **24 August 2026**. [Nørlev et al. (2022; online 2021)](https://pubmed.ncbi.nlm.nih.gov/34024156/) was a starting point for citation searching, not the sole inclusion boundary: its own search ended on 23 September 2020 and concerned children aged 8–14.
 
-The review by [Nørlev et al. (2022; first published online in 2021)](https://pubmed.ncbi.nlm.nih.gov/34024156/) was an initial source for reference-list and forward-citation searching. This is what earlier versions called an “anchor”: a bibliographic starting point, not an assumption of completeness. Its search ended on 23 September 2020 and concerned children aged 8–14 years; independent searches and other reviews were needed to cover additional populations, purposes and publication dates.
+Reported routes include PubMed/PubMed Central, Crossref/OpenAlex, JMIR, ACM, IEEE Xplore, ClinicalTrials.gov, app stores and product/distribution sites. OpenAlex and Semantic Scholar were reported as forward-citation indexes. The [source register](references/SOURCE-INDEX.md) preserves query families, summary counts and the 18-article reference-list check.
 
-The inherited review states a search cut-off of 24 August 2026. The 6 September audit could not recover complete database exports or record-level screening decisions, so this date is historical provenance rather than a reproducibility guarantee. The eligibility scope includes ==type 1 diabetes (T1D)== education and self-management, serious games, simulations, gamified educational interventions, virtual and augmented reality, narrative or experiential games, and selected mixed-diabetes or professional-training comparators. Exergames, physical games, clinician-training products, and weakly gamified utilities are classified separately rather than merged with core T1D learning games.
+**Reproducibility limitation:** complete historical exports, executed database-specific queries, deduplication records and individual screening decisions were not recovered. The reported search coverage and citation-index overlap therefore cannot be independently reconstructed. Historical counts are not presented as newly verified searches.
 
-## Search and discovery routes
+## Interpreting evidence
 
-The inherited source index **reports** the following discovery routes. Complete historical exports are not retained, so coverage of each route cannot be independently reconstructed:
+| Claim basis | Meaning |
+|---|---|
+| Direct evidence | A relevant T1D-game population and measured outcome |
+| Adjacent evidence | A different disease, population or learning context |
+| Industry practice | A documented production convention, not health-effect evidence |
+| Design inference | A reasoned proposal requiring evaluation |
+| Product claim | A developer or distributor statement, not an independently measured effect |
+| Unknown | The relevant information was not verified |
 
-1. independent searches of PubMed and PubMed Central, Crossref and OpenAlex, JMIR, ACM, IEEE Xplore, ClinicalTrials.gov, app stores, official product sites, and independent distribution platforms;
-2. backward citation chaining, including the 18 game-related articles included by Nørlev et al.;
-3. forward citation checking in at least two citation indexes, supplemented by exact-title searches;
-4. comparison with later reviews, particularly [Reinders et al. (2024)](https://doi.org/10.1016/j.diabres.2024.111833), [Yao et al. (2024)](https://doi.org/10.2196/43574), and the paediatric T1D review by [Guan et al. (2026)](https://doi.org/10.1186/s12887-026-07142-5); and
-5. manual availability verification because publication status does not establish continued public access.
+The catalogue distinguishes controlled outcomes, uncontrolled change, feasibility, usability/co-design, development work and unevaluated products. These are navigation categories, not quality scores. **Study design and purpose are separate:** a feasibility study can be randomised. The [study register](data/studies.json) records tested versions, participants, denominators, outcomes, source-reading depth and appraisal concerns; empty fields indicate incomplete extraction.
 
-Search concepts combined diabetes terms with game, serious game, simulation, gamification, virtual reality, augmented reality, narrative, education, self-management, resilience, coping, distress, child, adolescent, adult, caregiver, and clinician terms. The source index preserves search concepts and summary counts, but not complete database-specific executed queries, raw citation-index result sets, deduplication decisions or individual exclusion reasons. The original OpenAlex and Semantic Scholar totals cannot be re-created from those summaries. Newly performed targeted searches and access attempts are dated separately; missing historical decisions will not be retrospectively invented.
+Knowledge, competence, transfer, coping, engagement, behaviour and clinical outcomes are not interchangeable. The [evaluation chapter](knowledge/design/evaluation.qmd) maps each to suitable assessments.
 
-## Evidence classes
+## Product dates and access
 
-Catalogue categories are navigation labels, not a risk-of-bias hierarchy. **Design, purpose and appraisal are separate:** a randomised study may have a feasibility purpose. The [study register](data/studies.json) separates the report, tested version, population, denominator, outcome, support depth and domain concerns. Null or ‘not assessed’ fields mean incomplete extraction, not absence of a problem.
+The [catalogue](explorer.html) distinguishes release dates from study/report years; missing release dates remain unknown. Availability and prices are dated observations, not permanent attributes. Store visibility does not establish installation, regional completeness or operation on every supported device. All records remain **not playtested**.
 
-| Class | What it can establish | Recurrent limitations |
-|---|---|---|
-| Controlled outcome study | Comparative effects under the tested conditions | Small samples, short follow-up, contamination, composite interventions |
-| Uncontrolled pre/post design | Change over time | No counterfactual; maturation, retesting and expectancy effects |
-| Feasibility purpose, randomised or non-randomised | Recruitment, retention, implementation and planning estimates | Usually insufficient precision for efficacy; design must be reported separately |
-| Usability or participatory design study | Interaction barriers, acceptability, requirements, and design priorities | Does not establish learning or clinical benefit |
-| Development description or conceptual framework | Intervention rationale, mechanics, architecture, and intended mechanisms | Intended mechanisms may not occur in practice |
-| Public product without peer-reviewed evaluation | Current functionality, access, price, and stated purpose | No independent effectiveness inference is justified |
-| Marketing or developer claim | What the producer says about a product | Treated as a claim, not a measured outcome |
+Official, store, repository, trial and publication links have separate labels. A review mentioning a game is not a play link. Project-affiliated products use the same schema and evidence requirements as other games.
 
-## Outcome hierarchy
+## Updates and remaining gaps
 
-The evidence map does not combine distinct outcomes into a single effectiveness score. It records at least:
+The targeted **6 September 2026** audit corrected selected claims and sources; it was not a comprehensive search or availability refresh. Adjacent reviews added then remain incompletely appraised, and unresolved candidates are listed in the [eligibility ledger](references/ELIGIBILITY-DECISIONS.md).
 
-1. knowledge and factual recall;
-2. procedural competence and applied decision quality;
-3. transfer to unfamiliar or real-world scenarios;
-4. self-efficacy, autonomy, coping, and diabetes distress;
-5. engagement, session completion, and sustained use;
-6. self-management behaviour;
-7. healthcare use and safety events; and
-8. clinical endpoints such as ==glycated haemoglobin (HbA1c)==, continuous-glucose-monitor metrics, or insulin requirements.
+**15 September 2026:** DEXTRO DASH 2000 was added from a user nomination and developer documentation, without an outcome evaluation. Catalogue restructuring and editorial compression on that date do not refresh the scientific search, product verification or full-text appraisal dates.
 
-A statistically significant knowledge effect is not classified as demonstrated behaviour change. User satisfaction is not classified as transfer. A change in a surrogate endpoint is not automatically a patient-important clinical benefit.
+Full-text limitations are recorded in the [wishlist](references/PAYWALLED-WISHLIST.md) and source ledgers. Acquisition, resource identity and scientific appraisal are distinct: retaining a file does not establish that every claim has been checked against it.
 
-## Availability and sustainability verification
+## Reference
 
-Availability is recorded separately from evidence. Every catalogue record should state:
-
-1. public, study-only, archived, discontinued, prototype, or uncertain status;
-2. price or subscription status;
-3. platform, hardware, region, and language limitations;
-4. account and connectivity requirements;
-5. verification date and confidence; and
-6. official, store, publication, and archive links where available.
-
-Regional app-store availability is difficult to exhaustively verify. A game visible in one storefront is therefore not labelled globally available without supporting checks.
-
-## Reading the catalogue
-
-The [game catalogue](explorer.html) combines product descriptions, access metadata and report-level appraisals. A publication link is labelled as research or review evidence, never used as a substitute play link.
-
-The year column distinguishes a documented release from a study year, online/issue publication date or secondary-review listing. An unknown release date remains unknown even if the product was accessed in 2026. Dates and descriptions were reorganised on 15 September 2026 from the retained product and profile records; this editorial revision is not a new search or availability check.
-
-**Direct evidence** comes from a relevant T1D-game population. **Adjacent evidence** comes from a different disease, learning setting or population. **Industry practice** describes a production convention without implying effectiveness. **Design inference** is a proposal requiring evaluation. **Product claims** describe what a developer or distributor asserts, not independently measured outcomes.
-
-## Conflicts of interest and equal treatment
-
-Project-affiliated games are catalogued with the same schema, evidence thresholds, availability checks, and uncertainty labels as other products. They receive no implementation chapter, composite ranking advantage, or exemption from the distinction between developer claims and independent evidence.
-
-## Updating
-
-The historical search cut-off, targeted appraisal date, individual source-access timestamp, product-availability date and generated-build date are separate fields. The 6 September 2026 corrections do not refresh every product's availability or establish that every retained full text has been critically appraised. Substantive corrections should identify the affected claim, source, prior wording, new wording, and date. A future update may meet formal systematic-review standards, but that designation will not be used unless protocol, reproducible searches, screening, duplicate assessment, and reporting requirements are fulfilled.
-
-The separately dated addition of DEXTRO DASH 2000 on 15 September 2026 is a user-nominated product inclusion based on developer documentation and local access checks, not a comprehensive literature-search update or an effectiveness evaluation.
-
-## Targeted comparator additions: 6 September 2026
-
-These sources broaden the interpretation without being counted as new core game trials. [Morgado et al. (2025)](https://pubmed.ncbi.nlm.nih.gov/39899746/) map educational technologies for children and families, including non-digital resources. [Beh et al. (2026)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12954698/) review broader paediatric T1D digital-health interventions and theoretical frameworks. Their scope/abstracts were inspected and full texts retained; complete critical appraisal and primary-study deduplication remain pending. Neither comparator permits pooling all educational technology with serious games. The [eligibility ledger](references/ELIGIBILITY-DECISIONS.md) records these distinctions and unresolved product candidates.
-
-## References
-
-1. [Nørlev, J. et al. (2022) “Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage: A systematic scoping review”, *Journal of Diabetes Science and Technology*, 16(5), 1253-1269.](https://pubmed.ncbi.nlm.nih.gov/34024156/)
-2. [Reinders, E.F.H. et al. (2024) “Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers”, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
-3. [Guan, Y. et al. (2026) “Application of gamified interventions in children with type 1 diabetes: A scoping review”, *BMC Pediatrics*, 26, 779.](https://doi.org/10.1186/s12887-026-07142-5)
-4. [Yao, W. et al. (2024) “Electronic interactive games for glycemic control in individuals with diabetes: Systematic review and meta-analysis”, *JMIR Serious Games*, 12, e43574.](https://doi.org/10.2196/43574)
-
-## Abbreviation glossary
-
-**HbA1c - Glycated haemoglobin.** The proportion of haemoglobin with glucose attached, used as an integrated marker of glycaemia over approximately the preceding two to three months.
-
-**T1D - Type 1 diabetes.** An autoimmune disease that requires exogenous insulin because endogenous insulin secretion becomes insufficient.
+[Nørlev, J. et al. (2022) ‘Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage: A systematic scoping review’, *Journal of Diabetes Science and Technology*, 16(5), pp. 1253–1269.](https://pubmed.ncbi.nlm.nih.gov/34024156/)

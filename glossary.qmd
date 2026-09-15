@@ -50,13 +50,35 @@ date: "2026-09-05"
 
 ## Common abbreviations
 
+**AI - Artificial intelligence.** In the maintenance chapter, software assistants that generate or explain code and text.
+
 **AR - Augmented reality.** Digital elements are overlaid on a view of the physical environment.
 
 **CGM - Continuous glucose monitoring.** A sensor estimates interstitial glucose repeatedly over time and displays current values and trends.
 
+**CONSORT-EHEALTH - Consolidated Standards of Reporting Trials for electronic and mobile health.** A reporting extension for web- and mobile-delivered trials.
+
+**DKA - Diabetic ketoacidosis.** An acute complication involving ketonaemia and metabolic acidosis; not equivalent to nutritional ketosis.
+
+**FAIR4RS - Findable, Accessible, Interoperable and Reusable principles for research software.** A framework for software identification, metadata and reuse conditions.
+
+**FDA - United States Food and Drug Administration.** The regulatory agency discussed in the model-family chapter.
+
+**GI - Glycaemic index.** An empirical ranking of the glucose response to a fixed amount of available carbohydrate.
+
+**GLUT4 - Glucose transporter type 4.** A transporter recruited to muscle and adipose-cell membranes in response to insulin; contraction also stimulates muscle recruitment.
+
+**HAAF - Hypoglycaemia-associated autonomic failure.** Reduced warning and counterregulatory responses associated with antecedent hypoglycaemia.
+
 **HbA1c - Glycated haemoglobin.** A marker reflecting average glycaemia over approximately two to three months.
 
 **RCT - Randomised controlled trial.** Participants are assigned by a random process to intervention and comparator conditions.
+
+**PXI - Player Experience Inventory.** A questionnaire covering functional and psychosocial dimensions of player experience, not learning outcomes.
+
+**RE-AIM - Reach, Effectiveness, Adoption, Implementation and Maintenance.** A framework for evaluating individual and organisational effects.
+
+**SDT - Self-determination theory.** A motivation theory centred on autonomy, competence and relatedness.
 
 **SMS-T1DC - Self-Management Scale for T1D Children.** The self-management measure reported in the Tangbao study; it must not be relabelled as a knowledge test.
 
@@ -71,3 +93,7 @@ date: "2026-09-05"
 **T2D - Type 2 diabetes.** A heterogeneous metabolic disease characterised by insulin resistance and progressive impairment of insulin secretion.
 
 **VR - Virtual reality.** A computer-generated environment presented with an immersive display, commonly a headset.
+
+**TIDieR - Template for Intervention Description and Replication.** A checklist for reporting interventions in reproducible detail.
+
+**WCAG - Web Content Accessibility Guidelines.** Standards-based guidance for accessible web content.

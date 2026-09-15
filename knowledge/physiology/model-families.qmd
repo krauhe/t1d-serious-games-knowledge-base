@@ -77,17 +77,6 @@ The final step is not reducible to physiological fit. Educational validity requi
 - Exercise, stress, illness, menstrual-cycle effects, and long-term adaptation remain incompletely represented in general-purpose glucose–insulin models.
 - “Virtual patient” is a modelling term, not proof that the simulation predicts a real individual.
 
-## Implications for serious-game design
-
-::: {.callout-note title="Modelling and design inference"}
-1. Select structure from learning objectives, then document omitted physiology.
-2. Use published models as evidence-bearing components, not as authority for uncited extensions.
-3. Validate every newly added modifier independently before testing combinations.
-4. Keep population variability separate from player personalisation unless real clinical validation and governance exist.
-5. Make uncertainty visible in explanatory text, scenario ranges, or repeated trials.
-6. Avoid outputs that resemble personal dose calculators or clinical predictions.
-:::
-
 ## References
 
 - [Bergman, R.N. et al. (1979). Quantitative estimation of insulin sensitivity. *American Journal of Physiology*, 236, E667–E677.](https://pubmed.ncbi.nlm.nih.gov/443421/)

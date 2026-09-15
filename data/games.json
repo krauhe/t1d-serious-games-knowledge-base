@@ -468,7 +468,7 @@
             "limitations": "small heterogeneous samples, brief exposure, no controlled clinical endpoint"
           }
         ],
-        "summary": "Best-documented currently downloadable T1D-specific research game, but effectiveness remains preliminary.",
+        "summary": "Participatory co-design and brief educational evaluation; no randomised comparison or established long-term effectiveness.",
         "limitations": [
           "no randomized comparison",
           "no long-term retention or HbA1c evidence"
@@ -2077,7 +2077,7 @@
             "limitations": "multi-component system and no isolated clinical effect"
           }
         ],
-        "summary": "Ambitious social-robot ecosystem with limited evidence of durable transfer.",
+        "summary": "Usability and design evidence for a multi-component coaching system; durable transfer not established.",
         "limitations": [
           "high hardware and deployment burden",
           "prototype dependence"
@@ -2775,7 +2775,7 @@
             "limitations": "not an outcome trial"
           }
         ],
-        "summary": "Strong lived-context elicitation, but not evidence for a released game.",
+        "summary": "Children's experiences informed design requirements; no learning outcome or released-game evaluation.",
         "limitations": [
           "no public product",
           "no measured learning effect"

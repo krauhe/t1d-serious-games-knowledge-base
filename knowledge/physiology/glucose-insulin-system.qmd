@@ -60,15 +60,9 @@ Insulin concentrations below use microunits per millilitre (μU/mL); the histori
 - Counterregulatory thresholds vary with antecedent glucose exposure and study protocol.
 - Sensor lag is dynamic. A single fixed delay cannot reproduce all rates of change, tissue conditions, and devices.
 
-## Implications for serious-game design
+## Representation in a game
 
-::: {.callout-note title="Modelling and design inference"}
-1. Represent at least two conceptually separate insulin effects: suppression of glucose production and stimulation of peripheral disposal.
-2. Show that a delayed insulin action can overlap a meal, exercise bout, or recovery period after the initiating decision.
-3. Treat counterregulation as conditional and capacity-limited, not as a guaranteed correction.
-4. If the interface presents sensor glucose, distinguish the displayed measurement from the underlying physiological state.
-5. Use variability to demonstrate uncertainty, but make its major drivers visible so that players can learn causal reasoning.
-:::
+**Design inference:** distinguish active physiological processes from the delayed sensor display. Explanatory layers can show hepatic production, peripheral disposal and the measurement process separately; do not present counterregulation as a guaranteed correction.
 
 ## References
 

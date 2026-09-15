@@ -20,37 +20,33 @@ Different game structures practise different skills. This chapter compares inter
 
 [Rufus](../../explorer.html#game-rufus), [GlucoZor](../../explorer.html#game-glucozor) and [MyDiabetic](../../explorer.html#game-mydiabetic) organise learning around character care or everyday routines. Level One, FlightGlucose, and T1D Simulator place greater emphasis on manipulating variables and interpreting consequences, although their scope and degree of abstraction differ.
 
-Narrative and character identification can support attention, emotional distance, and discussion, but a character is not a mechanism by itself. [Nørlev et al. (2022)](https://pubmed.ncbi.nlm.nih.gov/34024156/) identified narrative, feedback, goals, avatars, simulation, levels, and social interaction across T1D games, but the review could not establish an optimal combination.
+Narrative and character identification may support attention, emotional distance and discussion; those are design hypotheses, not effects established by the presence of a character. [Nørlev et al. (2022a)](https://pubmed.ncbi.nlm.nih.gov/34024156/) identified narrative, feedback, goals, avatars, simulation, levels and social interaction across T1D games, without establishing an optimal combination.
 
 **Design inference.** Character-based context is most educationally useful when it changes the reasoning problem: for example, when the scenario makes time, uncertainty, competing goals, or caregiver roles visible. Cosmetic narrative without integration into decisions may improve presentation without improving transfer.
 
 ### Procedural rehearsal versus causal explanation
 
-MyDiabetic and Rufus foreground care tasks. Level One, FlightGlucose, and T1D Simulator foreground causal consequences to different degrees. Historical Koodak-e-Tavana work illustrates the value of a narrowly specified procedural target: a 30-child randomised study reported reduced insulin-injection distress over one week, but its size and follow-up constrain generalisation ([Ebrahimpour et al., 2015](https://doi.org/10.5812/ijp.25(3)2015.427)).
-
-**Comparative implication.** A procedural game should measure procedure performance or procedure-related distress. A causal simulation should measure prediction, explanation, and transfer. Neither should borrow the other's evidence simply because both concern T1D.
+MyDiabetic and Rufus foreground care tasks. Level One, FlightGlucose, and T1D Simulator foreground causal consequences to different degrees. [Koodak-e-Tavana](../../explorer.html#game-koodak-e-tavana) instead targets injection-related distress. Procedure performance, distress, prediction and explanation require different assessments; one game's evidence cannot establish another's effect merely because both concern T1D.
 
 ## What participatory research adds
 
-MyDiabetic and the Nørlev smartphone prototype document participatory work with children or families ([Novak, 2024](https://doi.org/10.2196/49478); [Nørlev et al., 2022](https://doi.org/10.2196/33955)). Other products document varying combinations of clinical, academic, commercial, nonprofit, or lived-experience involvement, but public descriptions rarely establish who controlled learning objectives, physiological claims, interaction decisions, or long-term maintenance.
+MyDiabetic and the Nørlev smartphone prototype document participatory work with children or families ([Novak, 2024](https://doi.org/10.2196/49478); [Nørlev et al., 2022b](https://doi.org/10.2196/33955)). The catalogue records clinical, academic, commercial, nonprofit and lived-experience involvement separately. These labels do not establish who controlled design decisions or accepted maintenance responsibilities.
 
-Lived experience and participatory co-design answer related but different questions. Lived experience can identify neglected problems and sustain motivation. Participatory methods can reveal variation between intended users and make design decisions auditable. Neither replaces physiological validation or outcome evaluation.
+Lived experience can identify neglected problems; participatory methods can examine variation between intended users. Neither establishes an intervention's effectiveness or, where relevant, its physiological validity.
 
-## Priority comparative studies
+## Useful comparisons to test
 
-1. Compare a micro-puzzle introduction with a broad-simulation introduction on time to meaningful action, comprehension, and dropout.
-2. Compare static explanation, worked animation, and interactive counterfactual replay on delayed transfer to unseen glucose scenarios.
-3. Test whether character-based context improves explanation, memory, distress, or caregiver discussion, and identify for whom it does not.
-4. Separate effects in children, adolescents, newly diagnosed adults, experienced adults, and caregivers.
-5. Archive the exact intervention version, assessment, tutorial state, and scenario set so a later product update does not inherit unsupported evidence.
-6. Report adverse interpretations, including false confidence, model over-trust, shame, anxiety, and unsafe real-world experimentation.
+Compare a constrained introduction with broad simulation on comprehension and time to meaningful action. Compare static explanation, animation and counterfactual replay on delayed transfer. Test whether character-based context changes reasoning, discussion or distress, and for whom.
+
+These are proposed studies. Comparator selection, version archiving and adverse-interpretation assessment are specified in [evaluation](../design/evaluation.qmd).
 
 ## References
 
-2. [Ebrahimpour, F. et al. (2015) “The effect of playing an insulin injection game on behavioural distress in children with type 1 diabetes”, *Iranian Journal of Pediatrics*.](https://doi.org/10.5812/ijp.25(3)2015.427)
-3. [Novak, D. (2024) “A serious game (MyDiabetic) to support children's education in type 1 diabetes mellitus: Iterative participatory co-design and feasibility study”, *JMIR Serious Games*, 12, e49478.](https://doi.org/10.2196/49478)
-4. [Nørlev, J. et al. (2022a) “Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage: A systematic scoping review”, *Journal of Diabetes Science and Technology*, 16(5), 1253-1269.](https://pubmed.ncbi.nlm.nih.gov/34024156/)
-5. [Nørlev, J. et al. (2022b) “Using distance communication for the user-centered development of a smartphone-based serious game for children with type 1 diabetes: Participatory design approach”, *JMIR Serious Games*, 10(1), e33955.](https://doi.org/10.2196/33955)
+[Novak, D. (2024) “A serious game (MyDiabetic) to support children's education in type 1 diabetes mellitus: Iterative participatory co-design and feasibility study”, *JMIR Serious Games*, 12, e49478.](https://doi.org/10.2196/49478)
+
+[Nørlev, J. et al. (2022a) “Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage: A systematic scoping review”, *Journal of Diabetes Science and Technology*, 16(5), 1253-1269.](https://pubmed.ncbi.nlm.nih.gov/34024156/)
+
+[Nørlev, J. et al. (2022b) “Using distance communication for the user-centered development of a smartphone-based serious game for children with type 1 diabetes: Participatory design approach”, *JMIR Serious Games*, 10(1), e33955.](https://doi.org/10.2196/33955)
 
 ## Abbreviation glossary
 

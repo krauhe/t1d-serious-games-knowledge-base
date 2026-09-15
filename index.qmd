@@ -16,28 +16,14 @@ Explore games for ==type 1 diabetes (T1D)== education, self-management and psych
 4. **[T1D Physiology and Modelling](knowledge/physiology/index.qmd):** scientific foundations for games that represent glucose or treatment dynamics; not a requirement for every psychosocial game.
 5. **[Human factors](knowledge/human-factors/onboarding-and-accessibility.qmd) and [sustainability](knowledge/sustainability/index.qmd):** how to make games easier to enter, use and maintain.
 
-## The central evidence gap
+## Evidence and access
 
-Evaluated games and accessible games are often different products. In a mixed-diabetes audit, **21 of 23 research-origin games were not publicly available**; this was a point-in-time access finding, not proof that previously released games had disappeared ([Reinders et al., 2024](https://doi.org/10.1016/j.diabres.2024.111833)). A later paediatric T1D review found promising short-term results but insufficient evidence of sustained benefit ([Guan et al., 2026](https://doi.org/10.1186/s12887-026-07142-5)).
-
-The catalogue brings product descriptions, access information and study results together. The evidence chapters explain where findings agree, where they differ and what remains untested.
+Studies and obtainable products often concern different games. The [evidence map](knowledge/games/evidence-map.qmd) separates learning, psychosocial, behavioural and clinical findings; [availability](knowledge/games/availability.qmd) examines the access gap.
 
 ## Why this project exists
 
 This knowledge base grew out of research for [T1D Simulator](https://github.com/krauhe/t1d-simulator). Its purpose extends beyond that game: help people discover, develop, evaluate and maintain useful T1D learning experiences, regardless of who creates them.
 
-Our **sustainability hypothesis** is that a brochure is easier to maintain than a game requiring coordinated software, clinical, pedagogical and design expertise. When funding ends or key contributors leave, a game may lose both operational ownership and undocumented knowledge. The importance of these causes in T1D games has not yet been established.
+Our [sustainability hypothesis](knowledge/sustainability/why-games-disappear.qmd) concerns the combined expertise needed to keep games usable after funding or key contributors change. Open evidence, reusable design knowledge and documented evaluation methods are intended to reduce duplicated work.
 
-Open evidence, reusable design knowledge and documented evaluation methods can reduce duplicated work. This knowledge base uses Creative Commons Attribution 4.0 for original content and data, and the MIT License for software. T1D Simulator's source and physiological model use the [GNU General Public License version 3](https://github.com/krauhe/t1d-simulator/blob/main/LICENSE).
-
-A simulation offers a distinctive learning possibility:
-
-> Predict → act → observe → explain → change one condition → try again.
-
-Whether that activity produces durable understanding is an empirical question. The [learning science chapter](knowledge/design/learning-science.qmd) examines the conditions under which practice and feedback support learning; the [methods](methods.qmd) document this resource's search scope and limitations.
-
-## References
-
-[Reinders, E.F.H. et al. (2024) ‘Serious digital games for diabetes mellitus: A scoping review of its current state, accessibility, and functionality for patients and healthcare providers’, *Diabetes Research and Clinical Practice*, 216, 111833.](https://doi.org/10.1016/j.diabres.2024.111833)
-
-[Guan, Y. et al. (2026) ‘Application of gamified interventions in children with type 1 diabetes: A scoping review’, *BMC Pediatrics*, 26, 779.](https://doi.org/10.1186/s12887-026-07142-5)
+Original content and data use Creative Commons Attribution 4.0; software uses the MIT License. T1D Simulator's source and physiological model use the [GNU General Public License version 3](https://github.com/krauhe/t1d-simulator/blob/main/LICENSE).

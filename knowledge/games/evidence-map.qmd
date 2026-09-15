@@ -56,10 +56,6 @@ The [catalogue](../../explorer.html) contains the full product-linked sample, in
 
 [Guan, Y. et al. (2026) ‘Application of gamified interventions in children with type 1 diabetes: A scoping review’, *BMC Pediatrics*, 26, 779.](https://doi.org/10.1186/s12887-026-07142-5)
 
-[Novak, D. (2024) ‘A serious game (MyDiabetic) to support children's education in type 1 diabetes mellitus: Iterative participatory co-design and feasibility study’, *JMIR Serious Games*, 12, e49478.](https://doi.org/10.2196/49478)
-
-[Nørlev, J. et al. (2022) ‘Game mechanisms in serious games that teach children with type 1 diabetes how to self-manage: A systematic scoping review’, *Journal of Diabetes Science and Technology*, 16(5), pp. 1253–1269.](https://pubmed.ncbi.nlm.nih.gov/34024156/)
-
 [Martín-Ávila, J. et al. (2025) ‘The impact of the emoTICare program on socioemotional adjustment and psychological well-being in adolescents with type 1 diabetes mellitus’, *Frontiers in Endocrinology*, 16, 1668398.](https://doi.org/10.3389/fendo.2025.1668398)
 
 [Tınmaz, G. and Altundağ, S. (2025) ‘The effect of diabetes education given to children with type 1 diabetes mellitus with digital games and video animation on quality of life’, *Journal of Pediatric Nursing*, 81, pp. 142–154.](https://doi.org/10.1016/j.pedn.2025.01.023)
@@ -67,7 +63,6 @@ The [catalogue](../../explorer.html) contains the full product-linked sample, in
 [Wu, Y. et al. (2024) ‘Delivering a smartphone serious game-based intervention to promote resilience for adolescents with type 1 diabetes: A feasibility study’, *Journal of Pediatric Health Care*, 38(6), pp. 893–902.](https://doi.org/10.1016/j.pedhc.2024.05.009)
 
 [Yao, W. et al. (2024) ‘Electronic interactive games for glycemic control in individuals with diabetes: Systematic review and meta-analysis’, *JMIR Serious Games*, 12, e43574.](https://doi.org/10.2196/43574)
-
 
 ## Abbreviation glossary
 

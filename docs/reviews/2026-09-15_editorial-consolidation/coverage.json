@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-15",
+  "mode": "editorial revision",
+  "baseline_commit": "ca374050377c966439d508f6a1c82bd39f09eaa1",
+  "counts": [
+    {
+      "file": "index.qmd",
+      "before": 410,
+      "after": 256
+    },
+    {
+      "file": "glossary.qmd",
+      "before": 652,
+      "after": 867
+    },
+    {
+      "file": "knowledge/games/index.qmd",
+      "before": 602,
+      "after": 281
+    },
+    {
+      "file": "knowledge/games/evidence-map.qmd",
+      "before": 797,
+      "after": 797
+    },
+    {
+      "file": "knowledge/games/availability.qmd",
+      "before": 473,
+      "after": 243
+    },
+    {
+      "file": "knowledge/comparisons/comparative-analysis.qmd",
+      "before": 592,
+      "after": 474
+    },
+    {
+      "file": "knowledge/design/index.qmd",
+      "before": 446,
+      "after": 92
+    },
+    {
+      "file": "knowledge/design/learning-science.qmd",
+      "before": 1778,
+      "after": 634
+    },
+    {
+      "file": "knowledge/design/game-mechanisms.qmd",
+      "before": 1835,
+      "after": 658
+    },
+    {
+      "file": "knowledge/design/evaluation.qmd",
+      "before": 2061,
+      "after": 764
+    },
+    {
+      "file": "knowledge/human-factors/onboarding-and-accessibility.qmd",
+      "before": 1355,
+      "after": 569
+    },
+    {
+      "file": "knowledge/physiology/index.qmd",
+      "before": 697,
+      "after": 119
+    },
+    {
+      "file": "knowledge/physiology/glucose-insulin-system.qmd",
+      "before": 1070,
+      "after": 1008
+    },
+    {
+      "file": "knowledge/physiology/meals-insulin-exercise.qmd",
+      "before": 980,
+      "after": 910
+    },
+    {
+      "file": "knowledge/physiology/variability-and-safety.qmd",
+      "before": 979,
+      "after": 929
+    },
+    {
+      "file": "knowledge/physiology/model-families.qmd",
+      "before": 1091,
+      "after": 1007
+    },
+    {
+      "file": "knowledge/sustainability/index.qmd",
+      "before": 365,
+      "after": 96
+    },
+    {
+      "file": "knowledge/sustainability/why-games-disappear.qmd",
+      "before": 1707,
+      "after": 537
+    },
+    {
+      "file": "knowledge/sustainability/maintenance-patterns.qmd",
+      "before": 1959,
+      "after": 773
+    },
+    {
+      "file": "methods.qmd",
+      "before": 1210,
+      "after": 509
+    },
+    {
+      "file": "references/SOURCE-INDEX.md",
+      "before": 1420,
+      "after": 1420
+    },
+    {
+      "file": "references/ELIGIBILITY-DECISIONS.md",
+      "before": 372,
+      "after": 372
+    },
+    {
+      "file": "references/PAYWALLED-WISHLIST.md",
+      "before": 1451,
+      "after": 1451
+    },
+    {
+      "file": "docs/reviews/2026-09-06_scientific-content-audit/full-text-backlog.md",
+      "before": 2618,
+      "after": 2618
+    }
+  ],
+  "total": {
+    "before": 21059,
+    "after": 11523,
+    "reduction": 45.28230210361366
+  },
+  "coverage": {
+    "navigable_sources_read": 24,
+    "game_profiles_inspected": 46,
+    "study_reports_preserved": 23,
+    "new_primary_source_appraisals": 0
+  },
+  "unchanged_checks": {
+    "quantitative_anchor_table": true,
+    "study_register": true
+  },
+  "word_count_method": "Remove initial YAML front matter, reference section and anything after it, and Markdown link destinations; count Unicode letter/number runs. Totals exclude references/ and docs/ source ledgers and generated game content.",
+  "limitations": [
+    "Editorial inspection is not source verification.",
+    "Semantic overlap is not measured by exact-paragraph matching.",
+    "No browser or tablet visual test."
+  ]
+}

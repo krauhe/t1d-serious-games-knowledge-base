@@ -63,16 +63,9 @@ High-intensity intervals and resistance exercise evoke stronger catecholamine re
 - Average pharmacokinetic curves conceal substantial within-person variability.
 - Evidence on fat and protein supports delayed effects, but no single universal conversion rule is valid across meals and individuals.
 
-## Implications for serious-game design
+## Representation in a game
 
-::: {.callout-note title="Modelling and design inference"}
-1. Use time-distributed events rather than instant changes.
-2. Allow the player to inspect overlapping meal appearance, insulin action, and activity effects as separate conceptual layers.
-3. Give meals a small number of physiologically interpretable profiles—such as rapid, mixed, and delayed—rather than claiming food-specific precision.
-4. Separate continuous aerobic activity from high-intensity and resistance activity; their acute glucose directions are not interchangeable.
-5. Carry exercise effects into recovery. Ending all effects when the activity animation stops teaches the wrong time scale.
-6. Do not turn simulated responses into personal carbohydrate or insulin recommendations.
-:::
+**Design inference:** show meal appearance, insulin action and activity as overlapping time courses. A small set of interpretable meal profiles can expose differences without claiming food-specific precision. Continue recovery effects after the activity animation ends.
 
 ## References
 
