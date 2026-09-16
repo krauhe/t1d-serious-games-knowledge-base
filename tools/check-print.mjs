@@ -9,15 +9,15 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
 const code = read('tools/print.js');
 
-function fixture({ unavailable = false, throws = false, studies = false } = {}) {
+function fixture({ unavailable = false, throws = false, edition = 'full' } = {}) {
   const events = {}, classes = new Set();
   const details = [{ open: false }, { open: true }];
   let click, printCalls = 0, imageCalls = 0;
   const button = { addEventListener(type, handler) { click = handler; } };
-  const checkbox = { checked: studies }, status = {};
+  const selector = { value: edition }, status = {};
   const document = {
     fonts: { ready: Promise.resolve() },
-    getElementById: id => ({ 'save-pdf': button, 'pdf-study-details': checkbox, 'pdf-status': status }[id]),
+    getElementById: id => ({ 'save-pdf': button, 'pdf-edition': selector, 'pdf-status': status }[id]),
     querySelectorAll: selector => selector === 'main details' ? details : [{ decode() { imageCalls++; return Promise.reject(Error('Broken image')); } }],
     body: { classList: {
       toggle(name, enabled) { enabled ? classes.add(name) : classes.delete(name); },
@@ -35,7 +35,7 @@ function fixture({ unavailable = false, throws = false, studies = false } = {}) 
     }
   };
   vm.runInNewContext(code, { document, window });
-  return { click: () => click(), events, classes, details, button, status, checkbox,
+  return { click: () => click(), events, classes, details, button, status, selector,
     counts: () => ({ printCalls, imageCalls }) };
 }
 
@@ -43,14 +43,14 @@ let test = fixture();
 await test.click();
 assert.deepEqual(test.counts(), { printCalls: 1, imageCalls: 1 });
 assert.equal(test.button.disabled, false);
-assert.equal(test.classes.has('print-study-details'), false);
+assert.equal(test.classes.has('print-study-details'), true);
 test.events.beforeprint(); // Gentaget event må ikke overskrive den oprindelige tilstand.
 test.events.afterprint();
 assert.deepEqual(test.details.map(detail => detail.open), [false, true]);
 test.events.afterprint(); // Kan også sendes efter annullering eller mere end én gang.
-test.checkbox.checked = true;
+test.selector.value = 'compact';
 await test.click();
-assert.equal(test.classes.has('print-study-details'), true);
+assert.equal(test.classes.has('print-study-details'), false);
 test.events.afterprint();
 assert.equal(test.classes.has('print-study-details'), false);
 
@@ -64,7 +64,7 @@ assert.equal(test.counts().printCalls, 0);
 assert.match(test.status.textContent, /Share or Print/);
 
 // Browserens egen Print-menu skal også åbne detaljer og respektere valget.
-test = fixture({ studies: true });
+test = fixture();
 test.events.beforeprint();
 assert.ok(test.details.every(detail => detail.open));
 assert.ok(test.classes.has('print-study-details'));
@@ -77,6 +77,7 @@ assert.match(css, /size: A4 portrait/);
 assert.match(css, /counter\(page\)/);
 assert.match(css, /\.game-table \.game-detail-row[\s\S]*?display: block !important/);
 assert.match(css, /body:not\(\.print-study-details\) \.study-appraisal/);
+assert.match(css, /\.game-table \.game-entry \+ \.game-entry \{ break-before: auto;/);
 
 const games = JSON.parse(read('data/games.json')).games;
 const navigation = JSON.parse(read('data/navigation.json')).flatMap(group => group.items);
@@ -88,6 +89,8 @@ function inspectEdition(file, isPrivate) {
   assert.equal((html.match(/class="game-figure"/g) || []).length > 0, isPrivate);
   assert.equal(html.includes('<strong>Private tablet edition.</strong>'), isPrivate);
   assert.match(html, /id="save-pdf"/);
+  assert.match(html, /<option value="full" selected>/);
+  assert.match(html, /<option value="compact">/);
   assert.match(html, /id="reading-contents"/);
   const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
   assert.equal(new Set(ids).size, ids.length, 'Reading edition has duplicate anchors');

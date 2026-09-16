@@ -3,7 +3,7 @@
   'use strict';
   const button = document.getElementById('save-pdf');
   if (!button) return;
-  const includeStudies = document.getElementById('pdf-study-details');
+  const edition = document.getElementById('pdf-edition');
   const status = document.getElementById('pdf-status');
   let previousDetails = null;
 
@@ -13,7 +13,7 @@
     if (!previousDetails) {
       previousDetails = [...document.querySelectorAll('main details')].map(detail => [detail, detail.open]);
     }
-    document.body.classList.toggle('print-study-details', includeStudies.checked);
+    document.body.classList.toggle('print-study-details', edition.value === 'full');
     previousDetails.forEach(([detail]) => { detail.open = true; });
   }
 

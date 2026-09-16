@@ -52,7 +52,7 @@ Games should neither trivialise hypoglycaemia nor use frightening imagery as a d
 When insulin is severely deficient relative to counterregulatory drive, adipose lipolysis supplies fatty acids to the liver, where ketone production can accelerate. ==Diabetic ketoacidosis== (DKA) combines ketonaemia, metabolic acidosis, dehydration, and electrolyte disturbance and requires urgent medical assessment and treatment ([Kitabchi et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19564476/); [Glaser et al., 2022](https://pubmed.ncbi.nlm.nih.gov/36250645/)). Nutritional ketosis is not physiologically equivalent to DKA: context, insulin availability, glucose, acid–base state, and clinical symptoms differ.
 
 ::: {.callout-warning title="Educational boundary"}
-A serious game may teach why hypoglycaemia or DKA can develop and may direct players to authoritative care resources. It must not diagnose the player, calculate personal corrective insulin, prescribe carbohydrate treatment, or substitute its simulated state for real glucose or ketone measurements. Any real-world emergency message should be authored or reviewed against current clinical guidance for the intended country and audience.
+For a game intended solely as nonmedical education, simulated glucose and ketone states must not be presented as measurements of the player or used as personal diagnosis or dosing advice. Therapeutic or decision-support games require a separate regulatory and clinical assessment; “serious game” is not a regulatory exemption. See [regulatory boundaries](../regulation/regulatory-boundaries.qmd). Any real-world emergency message should be authored or reviewed against current clinical guidance for the intended country and audience.
 :::
 
 ## A useful uncertainty taxonomy

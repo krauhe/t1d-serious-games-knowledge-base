@@ -1,0 +1,71 @@
+---
+title: "How glucose moves through the body"
+description: "Detailed physiological reference: mechanisms, quantitative evidence and limitations."
+source-version: "2026-09-16-v1"
+status: "Canonical physiology reference; source appraisal varies by claim"
+---
+
+<!-- Generated from BG-SCIENCE.md; make scientific changes in the canonical source. -->
+
+[Physiology contents](../index.qmd)
+
+> **Reference status:** source version 2026-09-16-v1. Automatic transfer is not a new literature search or independent verification of every claim. Quantities describe the cited populations and protocols, not personal treatment parameters.
+
+<a id="glucose-distribution"></a>
+
+Plasma glucose is the regulated variable in glucose homeostasis, but it is only one of three operational pools through which glucose distributes: the intravascular plasma compartment, the interstitial fluid that bathes peripheral tissues, and the intracellular space. Equilibration kinetics across these pools, together with the molecular machinery that gates each interface, determine how rapidly a meal-derived glucose load or an exogenous insulin dose translates into a change in measured (capillary, venous, or sensor) blood glucose. In type 1 diabetes (T1D), the loss of endogenous insulin secretion preferentially disrupts insulin-dependent transport into skeletal muscle and adipose tissue, redistributing the glucose load toward the plasma and interstitial compartments and underwriting much of the postprandial hyperglycemia observed clinically.
+
+### Mechanism
+
+**Transmembrane transport is GLUT-isoform-specific.** Glucose, a polar hexose, cannot cross plasma membranes by passive diffusion and depends on facilitative GLUT (SLC2) carriers. The four isoforms relevant for whole-body glucose distribution have distinct kinetic properties and tissue distributions ([Chadt & Al-Hasani, 2020](https://pubmed.ncbi.nlm.nih.gov/32591906/); [Sun et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37358764/)):
+
+- **GLUT1** (ubiquitous; erythrocytes, blood-brain-barrier endothelium, basal expression in most tissues): high affinity (Km ≈ 1–2 mmol/L); supports basal glucose uptake at concentrations well below normoglycemia.
+- **GLUT2** (hepatocytes, pancreatic β-cells, intestinal/renal basolateral membranes): low affinity (Km ≈ 17 mmol/L), high capacity, and operationally **bidirectional**. Sun et al. (2023) note that GLUT2 "allows the glucose concentration to reach balance on the bilateral sides of the cellular membrane," underpinning its role in hepatic glucose efflux during fasting and uptake during the postprandial period.
+- **GLUT3** (neurons, brain parenchyma): very high affinity (Km ≈ 1.4 mmol/L; values derive from heterologous expression-system kinetics and rodent studies — direct in vivo human Km measurement is not feasible), permitting near-saturated glucose uptake even when plasma glucose falls into hypoglycemic territory.
+- **GLUT4** (skeletal muscle, cardiac muscle, adipose tissue): Km ≈ 5 mmol/L. In the basal state, ~95% of GLUT4 resides in intracellular GLUT4 storage vesicles (GSVs); insulin signaling (via PI3K (phosphatidylinositol 3-kinase, generates PIP3 for downstream kinase activation) → Akt (protein kinase B, central insulin signaling node) → AS160/TBC1D4 (Rab-GAP proteins gating GLUT4 vesicle exocytosis)) and contraction signaling (via AMPK (AMP-activated protein kinase, energy-sensing kinase activated by contraction), Rac1 (small Rho-family GTPase driving actin remodeling for GLUT4 docking)) trigger exocytotic translocation to the sarcolemma/T-tubular membrane, increasing surface GLUT4 by 5- to 10-fold ([Chadt & Al-Hasani, 2020](https://pubmed.ncbi.nlm.nih.gov/32591906/); [Sylow et al., 2017](https://pubmed.ncbi.nlm.nih.gov/27739515/)).
+
+**Phosphorylation traps glucose intracellularly — except in liver and kidney.** Once across the membrane, glucose is phosphorylated to glucose-6-phosphate (G6P) by hexokinase II (muscle, adipose) or glucokinase (hexokinase IV; hepatocytes, β-cells). G6P is anionic and cannot exit through any GLUT isoform. Whether glucose can return to the circulation therefore depends on whether the cell expresses **glucose-6-phosphatase (G6Pase)**, the gluconeogenic enzyme that hydrolyzes G6P back to free glucose. G6Pase is robustly expressed in hepatocytes and renal proximal tubule cells, but is essentially absent from skeletal muscle and adipose tissue. As a consequence:
+
+- In muscle and adipose tissue, the GLUT4-hexokinase couple constitutes a near-unidirectional glucose sink under physiological conditions. Glucose imported via GLUT4 commits to local glycolysis, glycogen synthesis, or lipogenesis. There is no significant counterflux of free glucose to plasma.
+- In liver and kidney, GLUT2-mediated transport is bidirectional and the G6Pase pathway permits net glucose release. The liver thus alternates between net uptake (postprandial, high portal-vein glucose and insulin) and net release (fasting, low insulin, counterregulatory hormone activation).
+
+**The two-compartment plasma–tissue model abstracts this asymmetry.** Tracer-based glucose kinetic models (e.g., the Steele single-pool, the Cobelli–Bergman two-compartment minimal model, and the [Hovorka 2004](https://pubmed.ncbi.nlm.nih.gov/15382830/) glucoregulatory research model) describe glucose dynamics with an "accessible" plasma pool Q1 and a "non-accessible" peripheral pool Q2, exchanging at rates defined by k12 and the insulin-modulated rate x1. Mechanistically, Q2 is best interpreted as the rapidly equilibrating extracellular interstitial pool plus a model-fitted contribution from the slowly turning over intracellular pool. The k12·Q2 backward flux in such models is therefore not literal release of glucose from muscle myocytes; rather, it is the equilibration of interstitial glucose with plasma down a concentration gradient ([Cengiz & Tamborlane, 2009](https://pubmed.ncbi.nlm.nih.gov/19469670/)).
+
+### Quantitative characterization
+
+| Quantity | Value | Notes | Source |
+|---|---|---|---|
+| Plasma glucose distribution volume (initial, V₁) | ~0.10 L/kg (~7 L for 70 kg adult) | Reflects central extracellular fluid; estimated from 3-min IV glucose increment | [Ishihara et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10233198/) |
+| Total glucose distribution volume (Vₘ, used in two-compartment models) | 0.16 L/kg | Tracer-derived parameter used in the Hovorka 2004 model; encompasses plasma plus rapidly equilibrating extracellular pool. Primary IVGTT identification ([Hovorka et al., 2002](https://pubmed.ncbi.nlm.nih.gov/11934663/)) is paywalled — see wishlist | [Hovorka et al., 2004](https://pubmed.ncbi.nlm.nih.gov/15382830/) |
+| GLUT1 Km (glucose) | ~1–2 mmol/L | High affinity; saturating at normoglycemia | [Chadt & Al-Hasani, 2020](https://pubmed.ncbi.nlm.nih.gov/32591906/) |
+| GLUT2 Km (glucose) | ~17 mmol/L | Low affinity, bidirectional; flux scales linearly across physiological range | [Sun et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37358764/); [Chadt & Al-Hasani, 2020](https://pubmed.ncbi.nlm.nih.gov/32591906/) |
+| GLUT3 Km (glucose) | ~1.4 mmol/L | Highest affinity; preserves neuronal uptake during hypoglycemia | [Chadt & Al-Hasani, 2020](https://pubmed.ncbi.nlm.nih.gov/32591906/) |
+| GLUT4 Km (glucose) | ~5 mmol/L | Close to euglycemic plasma glucose; uptake ≈ linear in physiological range | [Chadt & Al-Hasani, 2020](https://pubmed.ncbi.nlm.nih.gov/32591906/) |
+| Surface GLUT4 fold-change with insulin (skeletal muscle) | ~5–10× | Half-maximal translocation in 5–10 min; full effect within 20–30 min. Kinetic figures derive from secondary reviews; canonical primary source ([Richter & Hargreaves, 2013](https://pubmed.ncbi.nlm.nih.gov/23899560/)) is paywalled — see wishlist | [Chadt & Al-Hasani, 2020](https://pubmed.ncbi.nlm.nih.gov/32591906/) |
+| Plasma → subcutaneous interstitial glucose lag (healthy adults, fasting) | mean 5.3–6.2 min (95th-percentile upper bound ~9.8 min) | Microdialysis with 6,6-²H₂ and 1-¹³C glucose tracers | [Basu et al., 2013](https://pubmed.ncbi.nlm.nih.gov/24009261/) |
+| Hovorka model k₁₂ (Q2 → Q1 transfer) | 0.066 min⁻¹ (τ ≈ 15 min) | Tracer-derived from healthy subjects | [Hovorka et al., 2004](https://pubmed.ncbi.nlm.nih.gov/15382830/) |
+
+### T1D-specific aspects
+
+In T1D, β-cell loss eliminates endogenous insulin secretion, so plasma insulin is determined entirely by exogenous administration (subcutaneous, intraperitoneal, or — in research settings — intravenous routes). Because GLUT4 surface density is insulin-gated, the absence of postprandial portal insulin pulses produces three quantitatively important distribution shifts:
+
+1. **Reduced peripheral glucose disposal capacity.** Skeletal muscle glucose uptake is the largest insulin-sensitive sink ([Chadt and Al-Hasani, 2020](https://pubmed.ncbi.nlm.nih.gov/32591906/)). Without sufficient circulating insulin, GLUT4 translocation is blunted, and the ingested carbohydrate load accumulates in the plasma–interstitial pool rather than partitioning into muscle glycogen. This is the dominant mechanism of postprandial hyperglycemia in under-insulinized T1D.
+
+2. **Preserved non-insulin-dependent uptake.** GLUT1 (erythrocytes, brain endothelium), GLUT2 (liver, β-cells now lost, intestine, kidney), and GLUT3 (neurons) remain insulin-independent. Cerebral glucose extraction is therefore largely preserved across normoglycemic-to-mildly-hyperglycemic ranges, but becomes rate-limited when plasma glucose falls below ~3.0 mmol/L because GLUT1 transport at the blood-brain barrier becomes substrate-limited. This kinetic boundary defines the neuroglycopenic threshold rather than any insulin signaling event.
+
+3. **Preserved hepatic glucose efflux capacity.** GLUT2 and G6Pase remain expressed and functional, so the liver can still release glucose during fasting or counterregulatory activation. In under-insulinized T1D, however, hepatic glucose production is also pathologically elevated because insulin's normal restraint on glycogenolysis and gluconeogenesis is absent — a topic developed in [§2](02-hepatic-glucose-production.qmd).
+
+4. **Exercise as an insulin-independent disposal route.** Muscle contraction translocates GLUT4 via an AMPK/Rac1-dependent pathway that does not require insulin signaling ([Sylow et al., 2017](https://pubmed.ncbi.nlm.nih.gov/27739515/)). This is the mechanistic basis for exercise-induced glucose lowering in T1D and explains why the same exercise bout that normalizes blood glucose in a person with adequate insulin on board can precipitate hypoglycemia when residual circulating insulin is high.
+
+5. **Sensor-to-blood-glucose lag.** Continuous glucose monitors (CGMs) measure interstitial glucose in subcutaneous tissue. The intrinsic plasma–interstitial physiological delay is 5–6 min in healthy adults ([Basu et al., 2013](https://pubmed.ncbi.nlm.nih.gov/24009261/)) and modestly longer (7–10 min) in fasting T1D, with additional sensor-electrochemistry lag of 1–5 min. This is clinically relevant during rapid glucose excursions: during a fast fall, sensor glucose overestimates true plasma glucose, which is the kinetic basis for treating impending hypoglycemia on the trend rather than the absolute reading.
+
+### Sources
+
+> - Chadt A, Al-Hasani H. (2020). "Glucose transporters in adipose tissue, liver, and skeletal muscle in metabolic health and disease." *Pflügers Archiv – European Journal of Physiology*, 472(9):1273–1298. [PubMed](https://pubmed.ncbi.nlm.nih.gov/32591906/) [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7462924/)
+> - Sun B, Chen H, Xue J, Li P, Fu X. (2023). "The role of GLUT2 in glucose metabolism in multiple organs and tissues." *Molecular Biology Reports*, 50(8):6963–6974. [PubMed](https://pubmed.ncbi.nlm.nih.gov/37358764/) [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10374759/)
+> - Sylow L, Kleinert M, Richter EA, Jensen TE. (2017). "Exercise-stimulated glucose uptake — regulation and implications for glycaemic control." *Nature Reviews Endocrinology*, 13(3):133–148. [PubMed](https://pubmed.ncbi.nlm.nih.gov/27739515/)
+> - DeFronzo RA, Jacot E, Jequier E, Maeder E, Wahren J, Felber JP. (1981). "The effect of insulin on the disposal of intravenous glucose. Results from indirect calorimetry and hepatic and femoral venous catheterization." *Diabetes*, 30(12):1000–1007. [PubMed](https://pubmed.ncbi.nlm.nih.gov/7030826/)
+> - Basu A, Dube S, Slama M, et al. (2013). "Time lag of glucose from intravascular to interstitial compartment in humans." *Diabetes*, 62(12):4083–4087. [PubMed](https://pubmed.ncbi.nlm.nih.gov/24009261/) [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3837059/)
+> - Cengiz E, Tamborlane WV. (2009). "A tale of two compartments: interstitial versus blood glucose monitoring." *Diabetes Technology & Therapeutics*, 11(Suppl 1):S11–S16. [PubMed](https://pubmed.ncbi.nlm.nih.gov/19469670/) [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC2903977/)
+> - Ishihara H, Hashiba E, Okawa H, et al. (1999). "Estimation of the initial distribution volume of glucose by an incremental plasma glucose level at 3 min after i.v. glucose in humans." *British Journal of Clinical Pharmacology*, 47(4):361–364. [PubMed](https://pubmed.ncbi.nlm.nih.gov/10233198/) [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC2014248/)
+> - Hovorka R, Canonico V, Chassin LJ, et al. (2004). "Nonlinear model predictive control of glucose concentration in subjects with type 1 diabetes." *Physiological Measurement*, 25(4):905–920. [PubMed](https://pubmed.ncbi.nlm.nih.gov/15382830/)

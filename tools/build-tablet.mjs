@@ -61,7 +61,7 @@ for (const entry of pageEntries) {
   searchIndex.push({
     id: identifier,
     title: entry.title,
-    text: plainText(body).slice(0, 16000)
+    text: plainText(body)
   });
 }
 
@@ -122,7 +122,12 @@ ${fs.readFileSync(path.join(projectRoot, 'tools/print.css'), 'utf8')}
       <section class="pdf-export" id="pdf-export" aria-labelledby="pdf-export-title">
         <h2 id="pdf-export-title">Save the complete knowledge base as PDF</h2>
         <p>All ${pageEntries.length} chapters and all game profiles are included. Choose <strong>Save as PDF</strong> in your browser's print dialog. On tablets, PDF saving may be under Print or Share. The PDF layout removes menus and backgrounds.</p>
-        <label><input id="pdf-study-details" type="checkbox"> Include detailed study appraisals and design notes</label>
+        <label for="pdf-edition">PDF edition</label>
+        <select id="pdf-edition">
+          <option value="full" selected>Full scholarly edition — chapters, profiles, study appraisals and design notes</option>
+          <option value="compact">Compact catalogue edition — same chapters, shorter game records</option>
+        </select>
+        <p class="pdf-edition-note">Both editions retain the complete scientific chapters and references. Compact omits only the expanded study appraisals and design notes in game records; it is not an abridgement of the review.</p>
         <button id="save-pdf" type="button">Save as PDF</button>
         <p id="pdf-status" role="status"></p>
         <noscript>Use your browser's Print command. Game profiles remain included; JavaScript is needed to expand detailed study appraisals.</noscript>
@@ -229,6 +234,7 @@ function mimeTypeFor(filePath) {
     '.jpeg': 'image/jpeg',
     '.jpg': 'image/jpeg',
     '.json': 'application/json',
+    '.md': 'text/markdown',
     '.png': 'image/png',
     '.svg': 'image/svg+xml',
     '.ttf': 'font/ttf',

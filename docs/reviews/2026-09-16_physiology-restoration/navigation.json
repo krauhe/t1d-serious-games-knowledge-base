@@ -1,0 +1,122 @@
+[
+  {
+    "title": "How glucose moves through the body",
+    "source": "knowledge/physiology/reference/01-glucose-distribution.qmd"
+  },
+  {
+    "title": "Hepatic glucose production",
+    "source": "knowledge/physiology/reference/02-hepatic-glucose-production.qmd"
+  },
+  {
+    "title": "The kidneys in glucose homeostasis",
+    "source": "knowledge/physiology/reference/03-renal-glucose-handling.qmd"
+  },
+  {
+    "title": "The brain's glucose consumption",
+    "source": "knowledge/physiology/reference/04-brain-glucose-consumption.qmd"
+  },
+  {
+    "title": "Carbohydrates — from mouth to blood glucose",
+    "source": "knowledge/physiology/reference/05-carbohydrates.qmd"
+  },
+  {
+    "title": "Fat and protein — the forgotten macronutrients",
+    "source": "knowledge/physiology/reference/06-fat-and-protein.qmd"
+  },
+  {
+    "title": "Insulin — from injection to effect",
+    "source": "knowledge/physiology/reference/07-insulin-pharmacology.qmd"
+  },
+  {
+    "title": "Aerobic exercise — running, cycling, swimming",
+    "source": "knowledge/physiology/reference/08-aerobic-exercise.qmd"
+  },
+  {
+    "title": "Anaerobic training — resistance training and sprinting",
+    "source": "knowledge/physiology/reference/09-anaerobic-exercise.qmd"
+  },
+  {
+    "title": "Exercise-induced inflammation — when exercise hurts",
+    "source": "knowledge/physiology/reference/10-exercise-inflammation.qmd"
+  },
+  {
+    "title": "Relaxation, yoga, and meditation — stress reduction and blood glucose",
+    "source": "knowledge/physiology/reference/10b-relaxation-yoga.qmd"
+  },
+  {
+    "title": "Counterregulatory hormones — the body's defense against hypoglycemia",
+    "source": "knowledge/physiology/reference/11-counterregulatory-hormones.qmd"
+  },
+  {
+    "title": "The dawn phenomenon — pre-awakening glucose rise",
+    "source": "knowledge/physiology/reference/12-dawn-phenomenon.qmd"
+  },
+  {
+    "title": "The Somogyi effect — rebound hyperglycemia after nocturnal hypoglycemia",
+    "source": "knowledge/physiology/reference/13-somogyi-effect.qmd"
+  },
+  {
+    "title": "Diurnal variation in insulin sensitivity",
+    "source": "knowledge/physiology/reference/14-diurnal-variation-isf.qmd"
+  },
+  {
+    "title": "Menstrual cycle and insulin requirements",
+    "source": "knowledge/physiology/reference/15-menstrual-cycle.qmd"
+  },
+  {
+    "title": "Seasonal variation in glycemia and insulin requirements",
+    "source": "knowledge/physiology/reference/16-seasonal-variation.qmd"
+  },
+  {
+    "title": "Acute illness and infection — sick-day physiology",
+    "source": "knowledge/physiology/reference/17-illness-infection.qmd"
+  },
+  {
+    "title": "Sleep and sleep deprivation",
+    "source": "knowledge/physiology/reference/18-sleep-deprivation.qmd"
+  },
+  {
+    "title": "Alcohol — ethanol metabolism, gluconeogenesis, and delayed hypoglycemia",
+    "source": "knowledge/physiology/reference/19-alcohol.qmd"
+  },
+  {
+    "title": "Psychological stress",
+    "source": "knowledge/physiology/reference/20-psychological-stress.qmd"
+  },
+  {
+    "title": "Temperature and climate",
+    "source": "knowledge/physiology/reference/21-temperature-climate.qmd"
+  },
+  {
+    "title": "Injection site, technique, and lipohypertrophy",
+    "source": "knowledge/physiology/reference/22-injection-site.qmd"
+  },
+  {
+    "title": "Ketone bodies and diabetic ketoacidosis",
+    "source": "knowledge/physiology/reference/23-ketones-dka.qmd"
+  },
+  {
+    "title": "Insulin overdose and the limitations of counterregulation",
+    "source": "knowledge/physiology/reference/24-insulin-overdose.qmd"
+  },
+  {
+    "title": "Non-linearity in insulin action — threshold effects and dose-response saturation",
+    "source": "knowledge/physiology/reference/25-nonlinear-insulin.qmd"
+  },
+  {
+    "title": "Glucotoxicity — hyperglycemia-induced insulin resistance and tissue damage",
+    "source": "knowledge/physiology/reference/26-glucotoxicity.qmd"
+  },
+  {
+    "title": "CGM technology — continuous glucose monitoring sensors and algorithms",
+    "source": "knowledge/physiology/reference/27-cgm-technology.qmd"
+  },
+  {
+    "title": "Mathematical models of glucose-insulin dynamics in research",
+    "source": "knowledge/physiology/reference/28-mathematical-models.qmd"
+  },
+  {
+    "title": "Comparison of major T1D glucose-insulin research models",
+    "source": "knowledge/physiology/reference/29-model-comparison.qmd"
+  }
+]

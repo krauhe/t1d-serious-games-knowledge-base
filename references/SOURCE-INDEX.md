@@ -12,6 +12,15 @@
 
 This register separates bibliographic evidence, product verification and image provenance. A located product page is evidence of point-in-time availability, not evidence of educational or clinical effectiveness. A developer claim is recorded as a claim unless independently measured.
 
+## Targeted chapter development — 16 September 2026
+
+The historical game-search cut-off is unchanged. The subsequent work comprises targeted learning/design appraisal, upstream physiology corrections and structural transfer, sustainability synthesis, and a new regulatory chapter. These are not a new comprehensive search of all games or an independent revalidation of every inherited source.
+
+1. [Learning and evaluation source record](../docs/reviews/2026-09-16_learning-depth.md): inspected studies, quantitative extraction, adjacent-evidence boundaries and full-text access.
+2. [Physiology transfer record](../docs/reviews/2026-09-16_physiology-restoration.md): canonical source version, coverage, corrections and inherited verification limits.
+3. [Regulatory source record](../docs/reviews/2026-09-16_regulatory-sources.md): six official guidance/web sources retained locally with relevant sections inspected, including the January 2026 FDA clinical-decision-support guidance. Direct consolidated EU legislation remains a recorded full-text gap; no individual product was assigned legal status.
+4. [Content-depth record](../docs/reviews/2026-09-16_content-depth-restoration.md): sustainability and outcome-synthesis checks, including [Zurynski et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10641997/), *Built to last? Barriers and facilitators of healthcare program sustainability: a systematic integrative review*, *Implementation Science*, 18:62. Full PMC article acquired and inspected; its healthcare-programme findings remain adjacent evidence, not T1D-game survival estimates.
+
 ## 1. Search methods
 
 ### 1.1 Sources searched
@@ -102,5 +111,7 @@ The reported counts are preserved as historical claims. Differences may reflect 
 The [game catalogue](../explorer.html) provides all product descriptions, access observations and report-level evidence in one place. The [study register](../data/studies.json) is the machine-readable source for participant numbers, instruments, follow-up, results and appraisal.
 
 ## 5. Correction-era registers
+
+The [physiology transfer report](../docs/reviews/2026-09-16_physiology-restoration.md) records canonical-source corrections, full chapter coverage and the distinction between transferred citations and newly appraised evidence. Its [acquisition backlog](../docs/reviews/2026-09-16_physiology-restoration/full-text-backlog.md) identifies unmatched full-text routes.
 
 The [study register](../data/studies.json) separates primary-report extraction from product metadata and flags incomplete fields. The [eligibility ledger](ELIGIBILITY-DECISIONS.md) records comparator scope and unresolved candidates. The [6 September source correction register](../docs/reviews/2026-09-06_corrections/source-access.json) preserves exact attempted URLs, verified identities, access status and source-reading depth for the newly substituted references.

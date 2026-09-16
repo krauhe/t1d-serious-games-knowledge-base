@@ -182,6 +182,7 @@ if (findings.length) {
 }
 
 // Kør også de kendte faglige regressionschecks; dette er ikke klinisk sign-off.
+execFileSync(process.execPath, [path.join(projectRoot, 'tools/import-physiology.mjs'), '--auto', '--check'], { stdio: 'inherit' });
 execFileSync(process.execPath, [path.join(projectRoot, 'tools/check-scientific-regressions.mjs')], { stdio: 'inherit' });
 execFileSync(process.execPath, [path.join(projectRoot, 'tools/check-print.mjs')], { stdio: 'inherit' });
 console.log('Knowledge-base validation: OK');

@@ -2,6 +2,8 @@
 .pdf-export { padding: 20px; border: 1px solid #b9d6d5; border-radius: 12px; background: #eef7f5; scroll-margin-top: 100px; margin-bottom: 32px; }
 .pdf-export h2 { margin-top: 0; font-size: 1.4rem; }
 .pdf-export label { display: block; margin: 12px 0; }
+.pdf-export select { width: 100%; max-width: 100%; padding: 10px; font: inherit; border: 1px solid #8cadaa; border-radius: 6px; background: white; color: #172b38; }
+.pdf-edition-note { font-size: 0.9rem; }
 .pdf-export button { border: 0; border-radius: 8px; padding: 12px 20px; background: #076963; color: white; font: inherit; font-weight: 650; cursor: pointer; }
 .pdf-export button:disabled { opacity: 0.6; cursor: wait; }
 #pdf-status { font-size: 0.85rem; margin-bottom: 0; }
@@ -55,7 +57,8 @@
   .game-table > thead, .game-table > caption, .game-table .game-summary { display: none !important; }
   .game-detail-body { max-width: none !important; padding: 5mm 0; font-size: 11pt; }
   .game-table .game-detail-row > td { padding: 0; background: white; }
-  .game-table .game-entry + .game-entry { break-before: page; }
+  /* Profiler følger hinanden: korte spilbeskrivelser skal ikke efterlade en tom halv side. */
+  .game-table .game-entry + .game-entry { break-before: auto; border-top: 1px solid #bcc9ce; padding-top: 4mm; }
   .game-detail-body h2 { margin-top: 0; }
   .game-facts { display: block; margin: 4mm 0; }
   .game-facts > div { margin-bottom: 2mm; }

@@ -1,6 +1,7 @@
 ---
 title: "Maintenance, Governance and Succession Patterns"
 description: "Practical patterns for keeping evidence, code and responsibility transferable"
+date: "2026-09-16"
 ---
 
 ## Assign ownership before release
@@ -19,6 +20,12 @@ The following is a **proposed operational checklist**, informed by research-soft
 | Distribution and succession | Hosting and store ownership, support route, successor and retirement conditions |
 
 An owner may cover several roles, but a role should not exist only as tacit knowledge.
+
+### Separate permission, capability and responsibility
+
+A reusable project needs three different things: permission to change and redistribute the material; sufficient information and tools to make a working change; and someone authorised to decide whether the change should ship. A code licence addresses the first, not the other two. A successor can possess a repository but lack the hosting account, a necessary asset licence or authority to approve clinical content. Treating these as separate handover questions makes the open-source proposal operational rather than assuming that visibility guarantees continuation.
+
+For a T1D game, keep a component-level rights record for code, scientific prose, artwork, sound, fonts, translations and third-party services. Do not assume a code licence covers a research paper or commercial image used during development. Record which assets can be replaced without changing the learning task. These are proposed governance safeguards; licence compatibility and any medical-device responsibilities require their own assessment, as discussed in [regulatory boundaries](../regulation/regulatory-boundaries.qmd).
 
 ## Make the project reconstructible
 
@@ -43,6 +50,18 @@ The [model-family chapter](../physiology/model-families.qmd) specifies model val
 
 Keep dependencies proportionate to the task. For each external service, record what stops working if it disappears, who controls access and whether an offline or replaceable alternative exists. A dependency lockfile preserves a version selection, not the future availability of the service.
 
+### Worked handover example: a meal-timing scenario
+
+Suppose a successor changes a scenario about delayed glucose appearance after a mixed meal. The handover package should let them locate four different records: the physiological source and its applicable population; the simplified rule used by the game; the intended learner decision; and the test that checks the expected trajectory. A parameter can be physiologically defensible yet make the learning task impossible, while a playable task can still teach the wrong causal relation. Neither a model test nor a usability test alone resolves both questions.
+
+A proposed review sequence is to reproduce the existing scenario, document the intended change, verify the relevant source, compare old and new trajectories, and test whether players can still explain the outcome. Keep the original measured outcomes attached to the evaluated version. If the change alters the explanation or decision structure, label the revised scenario as unevaluated until the relevant learner assessment has been repeated. This example applies to simulation-based objectives; a coping narrative would instead preserve its psychological rationale, dialogue and assessment.
+
+### Budget for continued operation, not only new features
+
+For planning, divide work into scheduled content review, platform/security maintenance, user support, accessibility/localisation, and evaluation. For each category record a responsible person, an estimated recurring effort and a trigger for unscheduled work. Examples are a cited correction, an operating-system incompatibility, a reported inaccessible control or a change in the product's intended purpose. The budget need not assume every task is performed every month; it must identify what will happen when a task becomes necessary.
+
+An offline educational game may reduce dependence on a hosted service, but it still needs a distribution route and a way to communicate corrections. A hosted product can centralise updates but creates an ongoing service obligation. These are architectural trade-offs, not evidence that one delivery model has superior long-term learning outcomes.
+
 ## Support contribution and succession
 
 Provide small, reproducible issues, contribution instructions, test expectations and a named review route. Credit maintenance, clinical review, translations and documentation alongside new features; research-software sustainability work argues for recognising these contributions ([Druskat et al., 2021](https://arxiv.org/abs/2103.06681)).
@@ -54,6 +73,8 @@ Test a handover: can someone other than the original author build the project, e
 **Artificial intelligence (AI)** assistants may help explain code, draft tests or find inconsistencies, but productivity and maintainability effects are context-dependent. A two-phase study with 151 participants found no clear downstream maintainability advantage or disadvantage when new developers modified AI-assisted code ([Borg et al., 2026](https://doi.org/10.1007/s10664-026-10889-1)). A randomised study of 16 experienced open-source developers completing 246 tasks in familiar repositories found that early-2025 tools increased completion time by 19%; this preprint does not establish the effect of later tools or other developer populations ([Becker et al., 2025](https://arxiv.org/abs/2507.09089)).
 
 Proposed safeguards are to keep changes reviewable, require relevant before/after tests, verify scientific references independently and retain human responsibility for clinical claims and releases. Do not submit private health data or credentials to an assistant without appropriate authorisation and governance. Generated explanations are useful handover material only after someone checks them against the actual code.
+
+For a concrete evaluation of AI-assisted maintenance, compare completed tasks on the same acceptance criteria: source accuracy, defects introduced, reviewer time, reproducibility and time to a releasable result. Counting generated lines or an assistant's reported completion time misses review and correction work. Record the tool version and the maintainer's familiarity with the project. This proposed protocol tests whether assistance reduces the full maintenance burden, rather than presuming that faster drafting makes the product sustainable.
 
 ## Retire explicitly when maintenance ends
 
@@ -78,3 +99,11 @@ Publish the final supported version, end-of-support date, known failures and sta
 - [Smith, A.M. et al. (2016) “Software citation principles”, *PeerJ Computer Science*, 2, e86.](https://doi.org/10.7717/peerj-cs.86)
 
 - [Taschuk, M. and Wilson, G. (2017) “Ten simple rules for making research software more robust”, *PLOS Computational Biology*, 13(4), e1005412.](https://doi.org/10.1371/journal.pcbi.1005412)
+
+## Abbreviation glossary
+
+**AI — Artificial intelligence:** software assistance whose output still requires task-specific verification.
+
+**FAIR4RS — Findable, Accessible, Interoperable and Reusable principles for research software:** principles for identifying, describing and enabling reuse of research software.
+
+**T1D — Type 1 diabetes.**

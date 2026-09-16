@@ -21,6 +21,12 @@ const outputDirectory = path.join(projectRoot, '_site');
 const expectedOutputDirectory = path.resolve(projectRoot, '_site');
 const includePrivateImages = process.argv.includes('--private-images');
 
+// Synkronisér før navigation og kildetekster læses. En fejlet import stopper
+// bygningen før den eksisterende hjemmeside erstattes.
+execFileSync(process.execPath, [path.join(scriptDirectory, 'sync-physiology.mjs')], {
+  cwd: projectRoot, stdio: 'inherit'
+});
+
 if (path.resolve(outputDirectory) !== expectedOutputDirectory || path.basename(outputDirectory) !== '_site') {
   throw new Error(`Refusing to replace unexpected output directory: ${outputDirectory}`);
 }
@@ -57,6 +63,19 @@ copyFileIfPresent('data/games.json', 'data/games.json');
 copyFileIfPresent('data/studies.json', 'data/studies.json');
 copyFileIfPresent('docs/reviews/2026-09-06_scientific-content-audit/source-access-register.json', 'docs/reviews/2026-09-06_scientific-content-audit/source-access-register.json');
 copyFileIfPresent('docs/reviews/2026-09-06_corrections/source-access.json', 'docs/reviews/2026-09-06_corrections/source-access.json');
+// Kildeaudit er downloadbare bilag, ikke ekstra kapitler i læseudgaven.
+for (const file of [
+  '2026-09-16_learning-depth.md', '2026-09-16_physiology-restoration.md',
+  '2026-09-16_regulatory-sources.md', '2026-09-16_content-depth-restoration.md',
+  '2026-09-16_physiology-restoration/full-text-backlog.md'
+]) copyFileIfPresent('docs/reviews/' + file, 'docs/reviews/' + file);
+for (const directory of ['2026-09-16_learning-depth', '2026-09-16_physiology-restoration']) {
+  const source = path.join(projectRoot, 'docs/reviews', directory);
+  for (const file of fs.readdirSync(source).filter(file => file.endsWith('.json'))) {
+    const relative = `docs/reviews/${directory}/${file}`;
+    copyFileIfPresent(relative, relative);
+  }
+}
 copyFileIfPresent('LICENSE', 'LICENSE');
 copyDirectoryIfPresent('figures/original', 'figures/original');
 copyDirectoryIfPresent('figures/game-images-cleared', 'figures/game-images-cleared');
@@ -100,7 +119,8 @@ for (const item of [...flattenedNavigation, ...relocationPages]) {
   if (!item.relocation) searchIndex.push({
     title: parsed.title,
     url: outputRelativePath.replaceAll('\\', '/'),
-    text: plainText(renderedBody).slice(0, 12000)
+    // Lange fysiologikapitler skal også kunne findes på begreber nær slutningen.
+    text: plainText(renderedBody)
   });
 }
 
@@ -208,7 +228,8 @@ function renderMarkdown(markdown) {
   );
   const withHighlights = withCallouts.replace(/==([^=\n]+)==/g, '<mark>$1</mark>');
   return marked.parse(withHighlights)
-    .replace(/href="([^"]+)\.(?:qmd|md)(#[^"]*)?"/g, 'href="$1.html$2"')
+    .replace(/href="([^"]+)\.(qmd|md)(#[^"]*)?"/g, (match, target, extension, anchor = '') =>
+      target.includes('docs/reviews/2026-09-16_') ? match : `href="${target}.html${anchor}"`)
     .replace(/<a href="(https?:\/\/[^\"]+)"/g, '<a target="_blank" rel="noopener noreferrer" href="$1"');
 }
 

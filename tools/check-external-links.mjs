@@ -305,7 +305,7 @@ function decodeEntities(value) {
 function restrictionReason(status, finalUrl, title, sample) {
   if ([401, 403, 407, 429, 451].includes(status)) return `Access restricted or automated requests refused (HTTP ${status}).`;
   if (/\/(?:login|signin|sign-in|oauth)(?:[/?#]|$)/i.test(finalUrl)) return 'Redirected to an authentication page.';
-  const challengeTitle = /captcha|human verification|verify you are human|checking your browser|access denied|just a moment|attention required/i.test(title);
+  const challengeTitle = /captcha|client challenge|human verification|verify you are human|checking your browser|access denied|just a moment|attention required/i.test(title);
   const openingContent = sample.slice(0, 3000);
   const explicitChallenge = /verify you are human|checking your browser before accessing|access denied.{0,100}(?:request|reference|ray id)/i.test(openingContent);
   if (challengeTitle || explicitChallenge) {

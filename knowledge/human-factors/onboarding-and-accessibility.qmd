@@ -1,12 +1,16 @@
 ---
 title: "Onboarding, Cognitive Load, Accessibility, and Ethical Engagement"
 description: "Human-factors principles for helping learners reach meaningful interaction without coercive engagement."
-date: "2026-09-05"
+date: "2026-09-16"
 ---
 
 ## Reach the first meaningful action
 
 An initial action should teach the core interaction, not merely dismiss instructions. Tutorial research found that benefits depend on game complexity; it does not establish a universal number of clicks or an ideal onboarding duration ([Andersen et al., 2012](https://doi.org/10.1145/2207676.2207687)).
+
+That qualification comes from a large field experiment, not merely designer preference. Andersen et al. randomly assigned new players to eight tutorial variants in three games, collecting behaviour from more than 45,000 players. In the complex protein-folding game Foldit, contextual tutorials increased median active play time from 510 to 660 seconds and median completed levels from four to seven compared with no tutorial. Return rates did not improve significantly. The simpler games, Refraction and Hello Worlds, did not show comparable benefits for play time or completed levels; some tutorial/help comparisons were unfavourable. The outcomes were gameplay proxies, not an independent test of scientific understanding ([Andersen et al., 2012](https://doi.org/10.1145/2207676.2207687)).
+
+This is adjacent evidence for testing the *need for each explanation*. It is not evidence that less instruction is always better. The games attracted different self-selected audiences, demographic information was unavailable, and Foldit required a download whereas the simpler games were browser games. Complexity and audience were therefore not experimentally separated across products. A new diabetes learner may know the interface genre but not the meaning of a delayed physiological consequence, or understand diabetes well but be unfamiliar with game controls. Onboarding should establish which problem it is solving.
 
 For a type 1 diabetes (T1D) learning game, the following are **design proposals**:
 
@@ -18,11 +22,25 @@ For a type 1 diabetes (T1D) learning game, the following are **design proposals*
 
 Do not remove information needed for meaningful consent merely to reduce clicks. Explanatory feedback and gradual withdrawal of guidance are covered in [learning science](../design/learning-science.qmd).
 
+### Reduce setup without removing agency
+
+Distinguish **interaction friction**—actions required to operate the product—from **instructional effort**—thinking needed to learn. Entering settings that are irrelevant to the first task is friction. Making a prediction before running a case can be useful instructional effort. Counting both as undesirable clicks would favour passive demonstration over learning. The proposed target is fewer non-instructional actions before the first interpretable choice, not the fewest possible interactions overall.
+
+A suitable first scenario can supply a fictional starting state, one explicit objective and the few controls needed for that objective. Optional technical detail should remain reachable without becoming a prerequisite for starting. A returning learner should be able to resume or choose another task rather than repeat an introductory sequence. For assessment, compare the revised and existing routes on successful unaided entry, correct interpretation of the first consequence and abandonment. A faster route that produces more misunderstanding is not an improvement.
+
+Tutorial restriction deserves its own test. In Andersen et al., blocking unrelated controls until a prescribed action was completed did not provide a general engagement advantage. A constrained demonstration can still be justified for a particular learning task, but it should not be assumed superior to exploration. If guidance blocks progress, explain what action is required and allow recovery when the interface, device or learner's needs differ from the expected path ([Andersen et al., 2012](https://doi.org/10.1145/2207676.2207687)).
+
 ## Choice without unnecessary setup
 
 Defaults influence decisions, but their effects depend on context and perceived recommendation ([Jachimowicz et al., 2019](https://doi.org/10.1017/bpp.2018.43)). Choice-overload findings are heterogeneous: more options do not invariably reduce satisfaction or participation ([Chernev et al., 2015](https://doi.org/10.1016/j.jcps.2014.08.002); [Scheibehenne et al., 2010](https://doi.org/10.1086/651235)).
 
 A testable approach is to offer one suggested route while keeping alternatives visible. Defer advanced parameters until the learner understands their consequences. Measure hesitation, mistaken choices and abandonment rather than treating fewer screens as sufficient evidence of improvement.
+
+Jachimowicz et al.'s meta-analysis included 58 studies with 73,675 participants and found a substantial average default effect (standardised difference *d* = 0.68; 95% confidence interval 0.53–0.83), alongside marked variation and some null or negative findings. Defaults were more influential when interpreted as an endorsement or as the existing state. These were varied decision contexts, not T1D-game onboarding experiments ([Jachimowicz et al., 2019](https://doi.org/10.1017/bpp.2018.43)).
+
+This provides a reason to make the rationale for an educational default visible. “Suggested first scenario: practise reading the timeline” conveys an instructional recommendation. Silently preselecting a treatment-like value may instead look like advice for the user. Defaults should describe the fictional task, not imply personal suitability. Make alternatives accessible, preserve the ability to change a choice and distinguish an example from an individual recommendation. These are design safeguards inferred from the endorsement mechanism, not tested clinical effects of specific wording.
+
+Choice-overload research also argues against a blanket rule to remove options. The reviews cited above differ in their emphasis on average effects and moderators. The design problem is more specific: how difficult are the options to compare, how clear is the user's goal, and do they have enough knowledge to choose? A concise recommended path and a separate exploration route can address different needs without requiring an expert to navigate a beginner-only workflow. Test both routes with their intended users rather than average away the difference.
 
 ## Emotional safety
 
@@ -32,9 +50,19 @@ Describe the event and its cause: “The delayed meal and continuing insulin act
 
 Proposed safeguards are to avoid punishment for real glucose readings, compulsory public comparison, loss-framed streaks, purchases needed to avert simulated harm, and rewards contingent on disclosure of health data. Offer control over distressing content and caregiver participation. [Game mechanisms](../design/game-mechanisms.qmd) discusses motivation and rewards.
 
+### Psychosocial objectives are not secondary glucose objectives
+
+The International Society for Pediatric and Adolescent Diabetes (ISPAD) psychological-care guideline treats diabetes distress as an emotional response to living with and managing diabetes, rather than simply another name for depression. It recommends attention to family functioning, perceived treatment burden, developmental readiness and continuing, mutually agreed caregiver support. These are clinical recommendations for youth and families; adult design decisions require attention to a different life context ([de Wit et al., 2022](https://doi.org/10.1111/pedi.13428)).
+
+For games, the implication is to distinguish at least three design purposes. A procedure-familiarisation game may help a child understand what happens during an injection. A coping game may rehearse asking for support or managing an uncomfortable social encounter. An experiential game may communicate the interruptions and competing demands associated with diabetes to someone who does not have it. These activities need different success criteria. A glucose target is not an adequate score for a conversation about disclosure, and a favourable reaction to a story is not evidence of improved coping outside the game.
+
+The proposed review question for each difficult scene is: what interpretation might the learner take away? A failed fictional case should not imply that real-life difficulty reflects laziness, inadequate intelligence or moral failure. Nor should a reassuring presentation deny genuine treatment burdens. Describe the represented event precisely, acknowledge the relevant constraint, and provide a concrete next learning action. Allow users to leave, revisit or skip emotionally demanding material. These are ethically motivated design choices grounded in person-centred communication guidance, not claims that one tone is universally preferred ([Dickinson et al., 2017](https://doi.org/10.2337/dci17-0041)).
+
+A psychosocial game also needs an explicit support boundary. If a user discloses distress, a generic praise message is not a clinical response. Determine before testing what staff will do when difficulties arise, what assistance the product actually offers, and whether sensitive information is collected at all. The ISPAD recommendation that identified psychosocial problems should lead to appropriate follow-up supports the importance of a real support pathway; it does not establish that an educational game can provide psychological treatment ([de Wit et al., 2022](https://doi.org/10.1111/pedi.13428)).
+
 ## Accessibility checks
 
-The **Web Content Accessibility Guidelines (WCAG) 2.2** provide a standards-based starting point, not certification of an untested product ([W3C, 2023](https://www.w3.org/TR/WCAG22/)). Check the actual tasks and devices:
+The **Web Content Accessibility Guidelines (WCAG) 2.2** provide a standards-based starting point, not certification of an untested product ([W3C, 2024](https://www.w3.org/TR/WCAG22/)). Check the actual tasks and devices:
 
 | Area | Practical check |
 |---|---|
@@ -46,11 +74,21 @@ The **Web Content Accessibility Guidelines (WCAG) 2.2** provide a standards-base
 | Assistive technology | Check control names, focus order, state announcements and recovery from dialogs. |
 | Access conditions | Test low bandwidth, interrupted sessions and the declared offline mode. |
 
+Several requirements have immediate design consequences. WCAG 2.2 level AA includes an alternative to dragging where dragging is not essential, a minimum pointer-target criterion of 24 × 24 Cascading Style Sheets (CSS) pixels with specified exceptions, and protection against author-created content entirely obscuring keyboard focus. Ordinary text normally requires a contrast ratio of at least 4.5:1; large text has a 3:1 threshold. These are conformance criteria with definitions and exceptions, not proof that a small control is comfortable to use or that every user can operate it ([W3C, 2024](https://www.w3.org/TR/WCAG22/)).
+
+For a glucose-chart game, the proposed application goes beyond colouring a curve differently. Make the time axis and units explicit; provide an accessible account of the relevant change; distinguish planned actions, ongoing processes and observed values without relying on colour alone. If a task requires selecting a moment on a chart, offer a non-dragging way to choose it. A screen reader should receive meaningful task information, not a continuous stream of every animated point. The appropriate announcement frequency depends on the interaction and needs testing with assistive-technology users.
+
+Motor skill should only affect the result when it is part of the declared objective. If the aim is causal reasoning, inability to perform a timed gesture is a confound, not evidence of poor understanding. Where arcade action is itself an intended part of the experience, an alternative mode can preserve the educational decision while changing its motor demands. Whether that alternative preserves learning is an empirical question; it should not be labelled equivalent solely because it contains the same text.
+
+Accessibility also includes recovering after interruption. A proposed resumable state should preserve the scenario, the learner's earlier choice and a short account of what happened, so that returning does not require reconstructing the entire session. Test the declared offline behaviour and identify which functions genuinely require a network. Avoid claiming universal accessibility from a checklist or a technically valid page: actual task completion on the intended devices remains necessary.
+
 ## Observe the first session
 
 Ask intended users to start unaided, explain the goal, make one choice, interpret its consequence, find help and stop or resume. Record task success, time to meaningful action, critical errors, requests for help and reasons for quitting. A successful click sequence with an incorrect explanation is not successful onboarding.
 
 Include people with different ages, diabetes experience, literacy, language and device access. This is a sampling proposal; a few convenient testers cannot establish accessibility for all intended users. Keep detailed efficacy and retention study design in the [evaluation chapter](../design/evaluation.qmd).
+
+During formative testing, distinguish observation from intervention. Record the unaided attempt before teaching the participant where to click, and preserve assistance as part of the result. Follow an incorrect interpretation with an open question about the person's reasoning rather than immediately correcting it; otherwise the session measures the researcher's explanation. Observe stopping and resuming as well as starting. People who decline a session or stop early can reveal barriers that completion-only feedback systematically excludes. These are proposed usability procedures, not a claim that a fixed number of testers can identify every important problem.
 
 ## References
 
@@ -66,4 +104,4 @@ Include people with different ages, diabetes experience, literacy, language and 
 
 - [Scheibehenne, B., Greifeneder, R. and Todd, P.M. (2010) “Can there ever be too many options?”, *Journal of Consumer Research*, 37(3), 409-425.](https://doi.org/10.1086/651235)
 
-- [W3C (2023) “Web Content Accessibility Guidelines (WCAG) 2.2”.](https://www.w3.org/TR/WCAG22/)
+- [W3C (2024) “Web Content Accessibility Guidelines (WCAG) 2.2”, Recommendation of 12 December 2024.](https://www.w3.org/TR/WCAG22/)

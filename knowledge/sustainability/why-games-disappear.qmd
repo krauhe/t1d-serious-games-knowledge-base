@@ -1,6 +1,7 @@
 ---
 title: "Why Serious Games Disappear"
 description: "Evidence, system barriers and testable hypotheses about discontinuation"
+date: "2026-09-16"
 ---
 
 ## Non-availability is not necessarily abandonment
@@ -11,7 +12,11 @@ Our **sustainability hypothesis** is that a brochure requires fewer interdepende
 
 ## What adjacent research suggests
 
-Healthcare sustainability reviews identify organisational capacity, funding, adaptation and implementation context as recurring influences ([Braithwaite et al., 2020](https://doi.org/10.1136/bmjopen-2019-036453)). A digital-health review in low- and middle-income countries also identifies technical and infrastructure constraints; its setting limits direct transfer to T1D-game projects elsewhere ([Kaboré et al., 2022](https://doi.org/10.3389/fdgth.2022.1014375)).
+Healthcare research distinguishes maintaining an intervention from maintaining its benefits. In 92 studies, only 27 defined sustainability and only 11 explicitly evaluated it after initial funding ended. Consequently, a report of “long-term implementation” does not necessarily test survival after a grant. The review concerned organisational/system outcomes and excluded evaluations confined to patient or community outcomes ([Braithwaite et al., 2020](https://doi.org/10.1136/bmjopen-2019-036453)).
+
+The subsequent barriers review included 124 studies. Leadership/support was reported in 61 (49.2%), training/support/supervision in 54 (43.5%), and staffing/turnover in 50 (40.3%). These are frequencies of reported factors, **not causal effect sizes or probabilities of failure**. Only eight studies explicitly described discontinued programmes: the literature therefore provides a much stronger account of reported sustainment conditions than of why unsuccessful programmes stop. This is adjacent healthcare evidence, predominantly from high-income settings, not a cohort of diabetes games ([Zurynski et al., 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10641997/)).
+
+A separate review of 12 digital-health studies in low- and middle-income countries included four qualitative, four quantitative and four mixed-methods studies. Reported constraints included unreliable connectivity, electricity, equipment, training and the additional work of using a digital system alongside paper records. This last finding is pertinent to an adoption hypothesis: a game that adds work without replacing an existing task may remain an optional extra. The review does not measure that mechanism in T1D education, and infrastructure findings cannot simply be transferred to every clinic ([Kaboré et al., 2022](https://doi.org/10.3389/fdgth.2022.1014375)).
 
 Research-software work describes a mismatch between incentives for novel outputs and recognition or funding for maintenance ([Anzt et al., 2021](https://doi.org/10.12688/f1000research.23224.1)). In an observational analysis of more than 36,000 open-source projects, 89% had lost their core development team at least once and 27% of abandoned projects attracted a new core developer. These findings concern software generally, not health games; recruiting a successor is not proof of sustained recovery ([Nourry et al., 2025](https://doi.org/10.1587/transinf.2025EDL8005)).
 
@@ -34,9 +39,25 @@ Availability alone does not create an education pathway. A product must also fit
 
 Uncertain ownership, unclear evaluation and staff effort are plausible adoption barriers supported indirectly by the implementation literature above. Their relevance to an individual clinic requires local investigation. This knowledge base cannot explain why any particular person received—or did not receive—a game during diagnosis education.
 
+### The brochure comparison: specify the task being replaced
+
+The hypothesis is not that brochures require no expertise or that games are intrinsically better. Both require accurate content, localisation and revision. Their functions differ: a document can present instructions and remain available for reference; an interactive simulation can expose the consequences of an action and let the learner repeat a controlled comparison. A fair evaluation would compare the same learning objective, staff contact and access period—not an engaging, supported game against an unattended leaflet.
+
+Consider a hypothetical clinic teaching the distinction between insulin delivery and delayed effect. A brochure might explain the time course; a game could ask the learner to predict a fictional trajectory, observe it and explain a mismatch. The proposed benefit is improved causal reasoning, not the amount of information displayed. The competing costs include introduction, troubleshooting, debriefing and keeping the exercise clinically appropriate. These are **evaluation questions**, not demonstrated advantages of either medium.
+
+For an implementation study, record the number eligible, offered the game, able to access it, starting it and completing the intended activity. Interview both users and non-users. Otherwise good satisfaction among completers can conceal failure at referral or setup. Assess staff time separately from player time and report whether the activity supplements or replaces education. This proposed measurement structure distinguishes a learning failure from a distribution or workflow failure; it should accompany the outcome designs in [evaluation](../design/evaluation.qmd).
+
+### Maintenance can change the intervention
+
+A working successor is not necessarily the intervention that was evaluated. Replacing a discontinued social service may remove peer support; shortening a tutorial may change guidance; translating a scenario may alter what the learner understands. Conversely, preserving an obsolete version can leave it unusable. The appropriate object of preservation is therefore not only the executable: it includes the learning task, content rationale, evaluated version and assessment conditions.
+
+As a design inference, substantial changes should trigger a proportional re-evaluation. A corrected broken link may need a functional check; replacing explanatory feedback with points changes a proposed learning mechanism and needs learner-level testing. This is preferable to treating every software release as equally evidence-backed—or requiring a new clinical trial for every typographical correction.
+
 ## Research that would distinguish the causes
 
 Follow research-origin games longitudinally from study completion: distinguish never released, released but inaccessible, supported, archived and replaced. Interview developers and educators about costs, staff turnover, handover and referral decisions. Compare those histories with actual releases and usage rather than attributing disappearance to the end of funding by default.
+
+Define success before collecting the data. “Still downloadable”, “can be rebuilt”, “has an accountable maintainer”, “is offered by a clinic” and “continues to benefit learners” are different endpoints. Use a fixed follow-up date and retain unsuccessful projects in the sample. Excluding projects whose authors cannot be contacted would preferentially remove precisely the histories that a sustainability investigation needs to understand.
 
 Open evidence, documented design and reusable software may reduce reconstruction work for successors. Whether this improves T1D-game survival is a testable proposition, not an established benefit of this knowledge base.
 
@@ -49,3 +70,9 @@ Open evidence, documented design and reusable software may reduce reconstruction
 - [Kaboré, S.S. et al. (2022) “Barriers and facilitators for the sustainability of digital health interventions in low- and middle-income countries: a systematic review”, *Frontiers in Digital Health*, 4, 1014375.](https://doi.org/10.3389/fdgth.2022.1014375)
 
 - [Nourry, O. et al. (2025) “Abandonment and resilience: understanding core developer turnover in open source software”, *IEICE Transactions on Information and Systems*, E108.D(11), pp. 1412–1415.](https://doi.org/10.1587/transinf.2025EDL8005)
+
+- [Zurynski, Y. et al. (2023) “Built to last? Barriers and facilitators of healthcare program sustainability: a systematic integrative review”, *Implementation Science*, 18, 62.](https://pmc.ncbi.nlm.nih.gov/articles/PMC10641997/)
+
+## Abbreviation glossary
+
+**T1D — Type 1 diabetes:** the disease context for the proposed game-adoption and sustainability research.

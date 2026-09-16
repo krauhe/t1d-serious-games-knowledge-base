@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-16",
+  "method": "Exact-title discovery followed by local-PC PubMed, Europe PMC metadata and DOI/publisher requests. No access-control bypass.",
+  "queries": [
+    "\"The effect of insulin on the disposal of intravenous glucose\" 1981 pubmed",
+    "\"Absorption kinetics of insulin after subcutaneous administration\" Søeborg 2009",
+    "\"The discovery of the microsomal ethanol oxidizing system\" 2004 pubmed"
+  ],
+  "records": [
+    {
+      "citation": "DeFronzo et al. (1981)",
+      "title": "The effect of insulin on the disposal of intravenous glucose. Results from indirect calorimetry and hepatic and femoral venous catheterization.",
+      "pmid": "7030826",
+      "rejected_pmid": "7026740",
+      "doi": "10.2337/diab.30.12.1000",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/7030826/",
+      "pubmed_http": 203,
+      "pubmed_identity": "Local browser-challenge page, not an inspected article record",
+      "metadata_route": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:7030826%20AND%20SRC:MED&format=json&resultType=core",
+      "metadata_identity": "Exact title, author list and DOI match",
+      "publisher_requested_url": "https://doi.org/10.2337/diab.30.12.1000",
+      "publisher_access": "HTTP 403; final destination not captured",
+      "full_text_status": "Not acquired; wishlist updated. PubMed record has no abstract.",
+      "claim_handling": "Unverified precise fractions removed; numerical original appraisal remains pending."
+    },
+    {
+      "citation": "Søeborg et al. (2009)",
+      "title": "Absorption kinetics of insulin after subcutaneous administration.",
+      "pmid": "19028573",
+      "rejected_pmid": "19150402",
+      "doi": "10.1016/j.ejps.2008.10.018",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/19028573/",
+      "pubmed_http": 203,
+      "pubmed_identity": "Local browser-challenge page, not an inspected article record",
+      "metadata_route": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19028573%20AND%20SRC:MED&format=json&resultType=core",
+      "metadata_identity": "Exact title, author list and DOI match; abstract inspected",
+      "publisher_requested_url": "https://doi.org/10.1016/j.ejps.2008.10.018",
+      "publisher_final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0928098708004454",
+      "publisher_access": "HTTP 200, title Redirecting, 2679 bytes; not full text",
+      "full_text_status": "Not acquired; wishlist updated",
+      "claim_handling": "Specific oligomer concentration cut-offs and absorption times removed; general mechanism attributed to retained Gradel review."
+    },
+    {
+      "citation": "Lieber (2004)",
+      "title": "The discovery of the microsomal ethanol oxidizing system and its physiologic and pathologic role.",
+      "pmid": "15554233",
+      "rejected_pmid": "15303622",
+      "doi": "10.1081/dmr-200033441",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/15554233/",
+      "pubmed_http": 203,
+      "pubmed_identity": "Local browser-challenge page, not an inspected article record",
+      "metadata_route": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15554233%20AND%20SRC:MED&format=json&resultType=core",
+      "metadata_identity": "Exact title, author and DOI match; abstract inspected",
+      "publisher_requested_url": "https://doi.org/10.1081/dmr-200033441",
+      "publisher_access": "PowerShell request failed with 'Operation is not valid due to the current state of the object'; no verified final destination or full text",
+      "full_text_status": "Not acquired; wishlist updated",
+      "claim_handling": "Unverified numeric clearance, redox-fold-change and induction fractions removed; general metabolic mechanism retained with Steiner."
+    }
+  ],
+  "targeted_full_text_reinspection": [
+    {
+      "source": "Haahr and Heise (2014)",
+      "local_file": "T1D Simulator/docs/references/Haahr_2014_RW_DegludecPharmacology.html",
+      "location": "Variability in Glucose-Lowering Effect section",
+      "finding": "20% versus 82% CV concerns glucose-infusion-rate area under the curve over 0–24 hours at steady state, not plasma insulin AUC. T1D, daily 0.4 U/kg, 24-hour clamps on days 6, 9 and 12.",
+      "inspection_depth": "Relevant full-text section and adjacent study description; not complete review appraisal"
+    }
+  ]
+}

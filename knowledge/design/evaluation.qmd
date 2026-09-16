@@ -5,7 +5,7 @@ description: "A staged framework for testing usability, learning, transfer, psyc
 
 ## Match the test to the intended change
 
-Evaluation of a type 1 diabetes (T1D) game should begin with one primary learning or psychosocial objective. Map the player's activity to a proposed mechanism, then to an observable outcome. This follows complex-intervention guidance without assuming that a plausible mechanism is effective ([Skivington et al., 2021](https://doi.org/10.1136/bmj.n2061)).
+Evaluation of a type 1 diabetes (T1D) game should begin with its intended learning, psychosocial or behavioural changes. Map the player's activity to a proposed mechanism, then to observable outcomes. A confirmatory trial needs prespecified priorities and a plan for multiple endpoints; a complex intervention need not have only one worthwhile outcome. This follows complex-intervention guidance without assuming that a plausible mechanism is effective ([Skivington et al., 2021](https://doi.org/10.1136/bmj.n2061)).
 
 | Intended claim | Suitable observation | What it does not establish |
 |---|---|---|
@@ -19,11 +19,27 @@ Evaluation of a type 1 diabetes (T1D) game should begin with one primary learnin
 
 Game-based-learning measurement reviews identify inconsistent construct and instrument selection; a bespoke quiz needs validation rather than merely a numerical score ([Gris and Bengtson, 2021](https://doi.org/10.17083/ijsg.v8i1.383)). Existing product results are in the [evidence map](../games/evidence-map.qmd) and [catalogue](../../explorer.html), not repeated here.
 
+Gris and Bengtson examined 91 empirical studies. Learning was more commonly measured directly, whereas engagement and usability often relied on indirect measures; use of instruments without established psychometric properties weakened interpretation. For developers, the important distinction is between a measure's convenient availability and its fitness for the claim. A game's built-in score may count speed, repeated attempts and earned items as well as knowledge. It cannot serve as a knowledge test until those contributions are separated and its interpretation is justified ([Gris and Bengtson, 2021](https://doi.org/10.17083/ijsg.v8i1.383)).
+
+## What existing studies teach about interpretation
+
+Three examples illustrate different errors to avoid, rather than provide another product overview.
+
+**Random allocation does not necessarily create a treatment comparison.** In the augmented-reality food study by Calle-Bustos et al., 70 children aged 5–14 were allocated to groups receiving different post-test forms, but both groups played the educational game. The forms used either the same foods as the pre-test or different foods; all post-test foods had appeared in the game. Scores improved after play, and the post-test forms did not differ significantly. This is evidence of immediate performance after exposure, not superiority over conventional education. Nor are different pre-test items necessarily untrained transfer items. The design did not establish retention after a meaningful delay or everyday food-estimation competence ([Calle-Bustos et al., 2017](https://doi.org/10.1371/journal.pone.0184645)).
+
+**Satisfaction and continued-use intentions are not effectiveness.** The bant trial randomised 92 adolescents aged 11–16 to usual care with or without a gamified self-management application for 12 months. The primary glycated-haemoglobin (HbA1c) analysis did not demonstrate an intervention advantage. At 12 months, 34 of 45 satisfaction respondents were satisfied or very satisfied, and 43 of 45 said they would continue using it if available. Yet only 16 of the 46 intervention participants were classified as moderately or highly engaged across the trial. An exploratory subgroup defined by frequent glucose testing at trial end contained only eight intervention and five control participants. Its favourable HbA1c findings cannot replace the randomised primary analysis: selecting participants by post-allocation behaviour can destroy the comparability created by randomisation ([Goyal et al., 2017](https://doi.org/10.2196/mhealth.7336)).
+
+**A promising psychosocial signal still needs measurement scrutiny.** Ebrahimpour et al. randomised 30 children aged 3–12 to an insulin-injection game or no additional intervention. Mothers rated injection-related behaviour using the Observational Scale of Behavioral Distress–Revised (OSBD-R). The report found a between-group repeated-measures result (*p* = 0.033), while separate time-point comparisons were not statistically significant. Mean distress scores moved from 2.4 to 1.45 in the game group and from 2.5 to 2.1 in controls at the last reported assessment. The small sample, parent-completed observations without reported blinded assessment, and absence of an attention-matched comparator constrain causal interpretation. These findings concern observed procedural distress, not a general anxiety disorder, diabetes distress or glycaemic control ([Ebrahimpour et al., 2015](https://doi.org/10.5812/ijp.25(3)2015.427)).
+
+Together, these examples show why a review must retain the assignment, assessment and analysis details. “Randomised”, “significant” and “well received” answer different questions. A small positive study is a reason to investigate the target mechanism with greater precision, not to assume all intended effects have been established.
+
 ## Develop the study in stages
 
 **Usability:** observe intended users completing the first meaningful action, interpreting feedback and recovering from mistakes. Record where help was required. Use the task checklist in [human factors](../human-factors/onboarding-and-accessibility.qmd).
 
 **Feasibility:** estimate recruitment, delivery, exposure, retention, missing data and assessment burden. Report denominators at each stage. Satisfaction among respondents must not be presented as retention among everyone enrolled. A feasibility study may be randomised; its purpose and precision still limit efficacy conclusions.
+
+Set progression criteria before recruitment. For example, a team may decide that it can proceed only if intended users can complete the target practice without continuous researcher assistance and if delayed assessments can be collected with acceptable burden. The actual thresholds depend on the delivery setting and available resources; an arbitrary universal percentage would create false precision. Failure to meet a criterion should trigger an interpretable revision, not retrospective redefinition of success. This reflects the feasibility questions in the Medical Research Council (MRC) framework: recruitment, retention, intervention delivery and the evaluability of the intended outcomes ([Skivington et al., 2021](https://doi.org/10.1136/bmj.n2061)).
 
 **Comparative evaluation:** prespecify the primary endpoint, analysis, clinically or educationally meaningful difference, follow-up and sample-size rationale. Randomisation reduces allocation bias but does not resolve attrition, selective reporting or unblinded outcome measurement.
 
@@ -37,15 +53,31 @@ Game-based-learning measurement reviews identify inconsistent construct and inst
 
 Combined game, coaching and animation interventions test the package unless the design separates components. Document concurrent teaching and researcher assistance.
 
-## Instruments and follow-up
+An active comparator is particularly important when the question concerns a game mechanic. If the game group receives immediate explanations, additional contact and twice as much practice, a difference from a leaflet cannot be attributed specifically to interactivity. Conversely, matching every element is unnecessary when the pragmatic question is whether offering the complete package improves usual care. State which of these questions the study addresses. A component comparison may hold the scenarios, time allowance and feedback constant while changing whether learners predict before observing; that would estimate the added value of prediction more directly.
 
-For knowledge or causal reasoning, reserve unseen cases and assess them after a meaningful delay. Use parallel forms where possible, prespecified scoring rubrics and blinded scoring of explanations. Assess agreement between scorers. Report whether tasks resemble training closely or demand a different context; the distinction between retrieval and transfer is developed in [learning science](learning-science.qmd).
+## Assess reasoning independently of the training interface
+
+A proposed causal-learning assessment can use an unfamiliar fictional case with three separately scored tasks: predict the direction or timing of a change, justify it using the relevant relationship, and revise the plan when one constraint changes. Reserve these cases before training and do not supply hints that reveal the answer. A correct selection with an incorrect justification should remain distinguishable from a justified response. Scoring can credit an appropriate recognition of uncertainty rather than penalise it as indecision.
+
+For a bespoke test, document its content coverage and how questions were selected. Ask domain specialists whether the items represent the intended capability and intended users how they interpret the instructions. Pilot whether all items are trivially easy or impossibly difficult, and check consistency between scorers for open explanations. A questionnaire's internal consistency alone does not establish that it measures transfer. The case content, scoring rubric and relationship to training are necessary to interpret its score; measurement weaknesses identified by [Gris and Bengtson (2021)](https://doi.org/10.17083/ijsg.v8i1.383) make these details substantive rather than administrative.
+
+Include an immediate assessment only if it serves the research question, and distinguish it from delayed retention. Repeating identical questions may itself provide retrieval practice or reveal the expected answers. Parallel forms can reduce that problem, but they need comparable difficulty. For a simulator, an assessment outside the original interface can help determine whether learners understand the relation or have learned where to click. It still does not demonstrate unsupervised clinical competence; any real-world application requires a separately justified study and appropriate clinical oversight.
+
+## Instruments and follow-up
 
 The **Player Experience Inventory (PXI)** measures functional and psychosocial aspects of player experience. It is not a learning test ([Vanden Abeele et al., 2020](https://doi.org/10.1016/j.ijhcs.2019.102370)). Pair experience questionnaires with behavioural use data, and report the denominator, recall period and instrument version.
 
 For psychosocial objectives, distinguish task-related anxiety, diabetes distress, self-efficacy, illness perception and general well-being. Select a measure validated for the intended age and language; adapting wording or scoring may change its validity. Capture adverse interpretations, shame, false confidence and model over-trust as well as intended benefits.
 
+Use a process evaluation to interpret outcomes. Interviews can identify why learners stopped, which explanations they misunderstood, whether another person completed the task, and whether the game competed with existing educational work. Logs can establish that an explanation was opened but not that it was understood. Combining observations, interviews and quantitative measures is consistent with the MRC framework's emphasis on mechanisms, implementation and context; it should answer a specific uncertainty rather than add questionnaires without purpose ([Skivington et al., 2021](https://doi.org/10.1136/bmj.n2061)).
+
 Clinical evaluation requires expertise and governance beyond game analytics. **Continuous glucose monitoring (CGM)** outcomes require a defined glucose interval, observation window, data completeness and analysis unit; consensus recommendations inform interpretation but do not make glucose metrics appropriate for every educational objective ([Battelino et al., 2019](https://doi.org/10.2337/dci19-0028)). Do not select a clinical endpoint solely because it is easy to export.
+
+## Analyse assignment, use and missing data separately
+
+The effect of *offering* an intervention and the association between *using* it and outcome are different quantities. A primary analysis preserving random allocation addresses the former. A comparison of frequent and infrequent players may reflect motivation, baseline skill, family support or illness burden as well as exposure. Logging more sessions does not remove those differences. Treat exposure–outcome analyses as exploratory unless the design and assumptions support a stronger causal interpretation.
+
+Show the participant flow from eligibility through allocation, exposure and each assessment. For each endpoint report how many people contributed data and why others did not. Missing delayed assessments can be especially informative if people leave because the task is inaccessible or frustrating. Report estimates with uncertainty rather than presenting a nonsignificant result as proof of equivalence. Equally, a statistically significant change within the game group is not a demonstrated between-group benefit. These reporting distinctions are part of making a digital intervention evaluable and reproducible ([Eysenbach, 2011](https://doi.org/10.2196/jmir.1923)).
 
 ## Preserve enough detail for replication
 
@@ -60,6 +92,12 @@ Retain the tested version, tutorial state, scenario set, intervention dose, asse
 The corresponding operational requirements—ownership, updates, reproducible builds and retirement—are specified in [maintenance patterns](../sustainability/maintenance-patterns.qmd). A proposed minimum protocol should contain a target population, primary objective, intervention/comparator description, assessment schedule, analysis plan and access follow-up.
 
 ## References
+
+- [Calle-Bustos, A.-M. et al. (2017) “An augmented reality game to support therapeutic education for children with diabetes”, *PLOS ONE*, 12(9), e0184645.](https://doi.org/10.1371/journal.pone.0184645)
+
+- [Ebrahimpour, F. et al. (2015) “Effect of playing interactive computer game on distress of insulin injection among type 1 diabetic children”, *Iranian Journal of Pediatrics*, 25(3), e427.](https://doi.org/10.5812/ijp.25(3)2015.427)
+
+- [Goyal, S. et al. (2017) “A mobile app for the self-management of type 1 diabetes among adolescents: a randomized controlled trial”, *JMIR mHealth and uHealth*, 5(6), e82.](https://doi.org/10.2196/mhealth.7336)
 
 - [Battelino, T. et al. (2019) “Clinical targets for continuous glucose monitoring data interpretation: recommendations from the international consensus on time in range”, *Diabetes Care*, 42(8), pp. 1593–1603.](https://doi.org/10.2337/dci19-0028)
 

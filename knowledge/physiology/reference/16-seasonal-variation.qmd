@@ -1,0 +1,59 @@
+---
+title: "Seasonal variation in glycemia and insulin requirements"
+description: "Detailed physiological reference: mechanisms, quantitative evidence and limitations."
+source-version: "2026-09-16-v1"
+status: "Canonical physiology reference; source appraisal varies by claim"
+---
+
+<!-- Generated from BG-SCIENCE.md; make scientific changes in the canonical source. -->
+
+[Physiology contents](../index.qmd)
+
+> **Reference status:** source version 2026-09-16-v1. Automatic transfer is not a new literature search or independent verification of every claim. Quantities describe the cited populations and protocols, not personal treatment parameters.
+
+<a id="seasonal-variation"></a>
+
+Glycemic control in T1D is not a stationary signal. Repeated cross-sectional and longitudinal analyses of large registries demonstrate that mean HbA1c oscillates predictably with the calendar, with a winter peak and a late-summer trough in the northern hemisphere. The amplitude is small in absolute terms (≈0.2–0.7 percentage points in most cohorts) but exceeds the typical month-to-month within-subject coefficient of variation in stable adult T1D and is therefore detectable at population level. The phenomenon matters for three reasons: (i) it is a confounder in clinical trials and HbA1c-based diagnostic thresholds when enrollment or assay timing is not balanced across seasons; (ii) it shifts the operating point of automated insulin delivery (AID) algorithms and predictive bolus advisors that assume stationary insulin needs; (iii) it points to modifiable upstream drivers — temperature, activity, daylight, infections — each with mechanistic links covered elsewhere in this document.
+
+### 16.1 Magnitude and timing in T1D registries
+
+The most rigorous T1D-specific dataset is from the Lodz pediatric clinic (central Poland, 51°N): 3,935 HbA1c measurements in 677 children showed a sine-wave with peak in February (and secondary peaks in November–December) and trough in August–September; the winter–summer difference was 0.44–0.67 percentage points across consecutive years (max single-month delta 0.72 pp), against a cohort mean HbA1c of 7.65 ± 1.12% [Mianowska 2011]. The signal was confined to schoolchildren (≥7 y); preschoolers showed white-noise variability, attributable to caregiver-controlled rather than child-driven activity and meal patterns. Swedish pediatric registry data (n ≈ 8,000) reproduce a seasonal HbA1c pattern with similar phasing [Hanberger 2014]. Adult T1D data are sparser; a Japanese tertiary-care series (n = 88 with severe-hypoglycemia events) reported median HbA1c 9.1% (winter) vs 7.7% (summer), though the comparison did not reach significance given small subgroup sizes (P = 0.13) [Tsujimoto 2014]. As a working figure for adult T1D, an amplitude of ≈0.2–0.5 pp is consistent with the published data, with the larger end of that range applying to high-latitude, lifestyle-active subgroups; pediatric amplitudes are typically larger.
+
+### 16.2 Mechanism 1 — temperature and insulin absorption
+
+Ambient temperature correlated negatively with HbA1c in Lodz schoolchildren at R = −0.56 (p = 0.0002), and hours of sunshine and solar irradiance similarly with R ≈ −0.52 [Mianowska 2011]. Mechanistically, warmer ambient and skin temperature raises subcutaneous blood flow and accelerates insulin absorption from the depot; this is treated quantitatively in [§21](21-temperature-climate.qmd) (temperature/climate effects on insulin absorption). The same physics produces the paradoxical Tsujimoto finding of *more* severe hypoglycemia in summer in T1D (35.2% vs 18.2% of cases, p = 0.01) despite *lower* mean HbA1c [Tsujimoto 2014]: a faster, taller insulin-action curve sharpens both the average effect and the tail risk of overshoot, particularly when meal-bolus timing or basal rates set in cooler months are not retitrated. *Caveat:* the temperature contribution cannot be cleanly separated from concurrent changes in physical activity and clothing-mediated heat exposure at the injection site, and most observational studies do not adjudicate these.
+
+### 16.3 Mechanism 2 — physical activity seasonality
+
+Daylight hours and ambient temperature jointly drive an outdoor-activity gradient that is steep in temperate latitudes. Pedometer and accelerometer data in non-diabetic populations show 20–40% higher daily step counts in summer than winter at latitudes >40°. Exercise increases insulin sensitivity acutely (next 24–48 h) and chronically (training adaptation), and this is the dominant pathway by which behavior couples to seasonal HbA1c (mechanism quantified in [§10](10-exercise-inflammation.qmd), exercise). The pediatric school-vs-preschool dissociation in [Mianowska 2011] is the strongest single piece of evidence that activity, not photoperiod or vitamin D *per se*, drives the bulk of the signal: preschoolers experience the same temperature, daylight and vitamin D as schoolchildren but lack the autonomous outdoor-play exposure, and they show no seasonal HbA1c pattern. *Caveat:* activity is partially confounded with school-holiday meal patterns (different carbohydrate loads, snacking frequency), which the registry data cannot resolve.
+
+### 16.4 Mechanism 3 — vitamin D and insulin sensitivity
+
+25-hydroxyvitamin D follows a strong seasonal cycle at temperate latitudes (winter trough roughly 30–50% below summer peak), and observational studies link low 25(OH)D to higher HbA1c and lower insulin sensitivity. However, Mendelian randomization in 443,734 Europeans found no causal effect of genetically lowered vitamin D on T1D risk [Manousaki 2021], and randomized supplementation trials in established T1D have not produced clinically meaningful HbA1c reductions. The most defensible position is that vitamin D is a *marker* of light exposure and outdoor activity rather than a major independent driver of seasonal glycemia in T1D; any direct β-cell or muscle insulin-signaling effect is small relative to the activity and absorption mechanisms above.
+
+### 16.5 Mechanism 4 — winter respiratory infections
+
+Winter respiratory virus seasons (influenza, RSV, rhinovirus, since 2020 SARS-CoV-2) drive transient insulin resistance via cytokine release (TNF-α, IL-6) and counter-regulatory hormone activation (mechanism in [§17](17-illness-infection.qmd), illness/infection). Infection episodes are typically days-to-weeks long, which is short relative to the 8–12 week HbA1c integration window, but their winter clustering biases the integrated signal upward. The SWEET registry showed that pandemic-era disruption changed not only T1D incidence seasonality but the timing of glycemic control nadirs, supporting infection load as a real contributor [SWEET 2022]. *Caveat:* corticosteroid prescriptions for respiratory illness amplify the effect and are not consistently captured in registry data.
+
+### 16.6 Mechanism 5 — diet, light exposure and circadian alignment
+
+Northern-hemisphere winter is associated with higher caloric and carbohydrate intake (holidays, comfort foods, reduced fresh produce), shorter photoperiods, and circadian phase-delay in late chronotypes. Each of these has plausible mechanistic links to insulin sensitivity (circadian misalignment lowers peripheral insulin sensitivity by 10–15% in controlled lab studies), but the specific contribution to seasonal HbA1c in T1D has not been quantified. Holiday-period (Dec–early Jan) glucose excursions are clearly visible in CGM cohort data but represent a minority of the integrated winter excess.
+
+### 16.7 Latitude, hemisphere asymmetry and equatorial cohorts
+
+Seasonal amplitude is not universal. The T1D incidence-seasonality literature, which is methodologically simpler than HbA1c-seasonality, found that of 105 worldwide centers only 42 showed significant seasonality in incidence; latitude largely accounted for the difference, with southern-hemisphere centers showing inverted (July–September peak) patterns consistent with their winter [Moltchanova 2009]. For HbA1c specifically, Scandinavian, German, Polish and UK studies show clear winter peaks; equatorial and low-latitude cohorts show attenuated or absent patterns; a North Indian study found a *monsoon* peak rather than a thermal-winter peak, attributed to monsoon-related activity restriction and festival-period dietary patterns [Sapra 2024]. The takeaway: the *direction* and *magnitude* of seasonal HbA1c variation in any given clinic depends on local climate amplitude, cultural activity patterns, and infection ecology — temperate-zone Northern Hemisphere data should not be extrapolated to equatorial care.
+
+### 16.8 Open questions and climate-change implications
+
+Whether climate-change-driven warming and milder winters will compress the seasonal HbA1c amplitude in temperate latitudes is unresolved. A naive prediction from the Mianowska temperature correlation (R = −0.56) is that winter HbA1c would fall as winters warm, narrowing the seasonal swing; this is plausible but unproven and ignores compensating shifts in infection seasonality and indoor heating practices. Whether AID systems should incorporate seasonal priors on basal rate and ICR/ISF is an open algorithmic question — current commercial systems adapt within days-to-weeks but do not encode an annual cycle.
+
+> **Sources:**
+> - Mianowska B, Fendler W, Szadkowska A, et al. (2011). "HbA(1c) levels in schoolchildren with type 1 diabetes are seasonally variable and dependent on weather conditions." *Diabetologia*, 54(4):749-756. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21188352/) [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3052478/)
+> - Hanberger L, Åkesson K, Samuelsson U. (2014). "Glycated haemoglobin variations in paediatric type 1 diabetes: the impact of season, gender and age." *Acta Paediatr*, 103(4):398-403. [PubMed](https://pubmed.ncbi.nlm.nih.gov/24299617/)
+> - Tsujimoto T, Yamamoto-Honda R, Kajio H, et al. (2014). "Seasonal Variations of Severe Hypoglycemia in Patients With Type 1 Diabetes Mellitus, Type 2 Diabetes Mellitus, and Non-diabetes Mellitus: Clinical Analysis of 578 Hypoglycemia Cases." *Medicine (Baltimore)*, 93(23):e148. [PubMed](https://pubmed.ncbi.nlm.nih.gov/25415670/) [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4616344/)
+> - Moltchanova EV, Schreier N, Lammi N, Karvonen M. (2009). "Seasonal variation of diagnosis of Type 1 diabetes mellitus in children worldwide." *Diabet Med*, 26(7):673-678. [PubMed](https://pubmed.ncbi.nlm.nih.gov/19573115/)
+> - Manousaki D, Harroud A, Mitchell RE, et al. (2021). "Vitamin D levels and risk of type 1 diabetes: A Mendelian randomization study." *PLoS Med*, 18(2):e1003536. [PubMed](https://pubmed.ncbi.nlm.nih.gov/33630834/) [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7906317/)
+> - Pereira MT, Lira D, Bacelar C, et al. (2015). "Seasonal variation of haemoglobin A1c in a Portuguese adult population." *Arq Bras Endocrinol Metabol*, 59(3):231-235. [PubMed](https://pubmed.ncbi.nlm.nih.gov/26154091/)
+> - Kamrath C, Rosenbauer J, Eckert AJ, et al. (2022). "The COVID-19 Pandemic Affects Seasonality, With Increasing Cases of New-Onset Type 1 Diabetes in Children, From the Worldwide SWEET Registry." *Diabetes Care*, 45(11):2594-2601. [Diabetes Journals](https://diabetesjournals.org/care/article/45/11/2594/147675/)
+> - Sapra A, et al. (2024). "Seasonal variation of HbA1c levels in diabetic and non-diabetic patients" (North India). [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11070616/)
+>

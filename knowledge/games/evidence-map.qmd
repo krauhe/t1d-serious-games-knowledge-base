@@ -2,6 +2,7 @@
 title: "What Game Studies Have Found"
 description: "Knowledge, procedural distress, engagement, self-management and clinical outcomes in diabetes-game studies."
 toc: true
+date: "2026-09-16"
 ---
 
 ## Knowledge and practical competence
@@ -28,9 +29,19 @@ The [Tangbao virtual-reality study](../../explorer.html#game-tangbao-superman) f
 
 Across mixed diabetes populations, seven studies with 607 participants produced a pooled HbA1c difference of −0.09 percentage points (95% confidence interval −0.29 to 0.10; *P*=.36). The same meta-analysis found a physical-activity standardised mean difference of 0.84 (95% confidence interval 0.30–1.38), but with high heterogeneity and interventions including active video games. That activity result cannot be transferred to sedentary glucose simulations ([Yao et al., 2024](https://doi.org/10.2196/43574)).
 
+The review included nine studies overall, with 913 participants, of whom 747 had type 2 diabetes. It required a glycaemic endpoint and searched through 1 April 2023. Its pooled estimate therefore answers a narrower question than whether games improve T1D learning or coping. The HbA1c confidence interval includes no difference and changes in either direction; it does not establish equivalence. Nor does a small favourable point estimate establish clinical benefit, despite more affirmative language in the review's discussion. The findings are best read as insufficient evidence of a pooled glycaemic advantage within the included interventions, rather than a verdict on every game mechanism ([Yao et al., 2024](https://doi.org/10.2196/43574)).
+
 The [eddii trial](../../explorer.html#game-eddii) provides a product-specific glycaemic signal. Of 92 randomised children with T1D aged 5–12, 70 entered the glycaemic analysis. The adjusted difference-in-differences in continuous-glucose-monitor time in range was +5.38 percentage points over six intervention weeks (*P*=.001). Non-random assignment of three replacement participants, post-randomisation exclusions, high baseline time in range and sponsor/author interests limit inference. The trial tested a particular data-linked interface, not educational transfer or every later eddii service ([Ahmadi and Lucero, 2025; online 2024](https://doi.org/10.1177/19322968231223759)).
 
 A [Turkish trial](../../explorer.html#game-turkish-game-video-rct) with 55 children reported favourable quality-of-life and HbA1c differences after a **game-plus-animation** intervention. The available abstract does not provide effect magnitudes, and the game cannot be credited separately from the animation ([Tınmaz and Altundağ, 2025](https://doi.org/10.1016/j.pedn.2025.01.023)).
+
+## What the contrast between studies means
+
+The intervention's route to an outcome matters. The eddii trial tested a gamified interface connected to actual glucose data; the injection study rehearsed a procedure; a glucose simulation instead asks learners to reason about represented physiology. A positive result for one route cannot validate the others. In particular, a behavioural effect produced while a tool remains in use is not necessarily knowledge retained after it is removed. These distinctions explain why the evidence should be synthesised by task and endpoint rather than reduced to a single “games work” conclusion.
+
+Study exposure also changes the interpretation. A one-week reduction in procedural distress addresses an immediate clinical experience; a six-month behavioural trial addresses a longer period but may still have limited precision for infrequent outcomes. Conversely, an uncontrolled near-ceiling knowledge score can identify an educational signal while providing little information about which learner can apply the content independently. These are different evidentiary strengths, not a simple ordering by publication year or technical sophistication.
+
+For designers, the clearest implication is to connect the repeated player action to the intended outcome. Rehearsing an injection sequence, explaining a delayed glucose response and practising disclosure to a peer should not share an undifferentiated success metric. The studies above support investigating these specific tasks; they do not establish that adding more mechanics, more realistic graphics or a more detailed physiological model improves learning. Such component-level claims require comparisons that actually manipulate those features.
 
 ## The unresolved question: transfer
 

@@ -1,0 +1,343 @@
+{
+  "date": "2026-09-16",
+  "scope": "Targeted chapter deepening and acquisition; not an updated systematic search",
+  "method": "Web title/identifier searches, local full-text inspection, local HTTP GET and identity checks; duplicates recognised by DOI/title and hashes; no database exhaustive screening count claimed",
+  "queries": [
+    {
+      "interface": "web search",
+      "query": "\"A meta-analysis of the cognitive and motivational effects of serious games\" 0.29 0.36",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Effects of scaffolding in digital game-based learning\" 2022 0.43",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"The Gamification of Learning\" Sailer Homner 0.49 2020",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "site.selfdeterminationtheory.org \"1999\" \"meta-analytic review\" pdf",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "site.selfdeterminationtheory.org \"motivational pull of video games\" pdf",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "site.selfdeterminationtheory.org \"meta-analysis\" \"Ntoumanis\" 2021 pdf",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"A meta-analysis of narrative game-based interventions\" pdf Zhou",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "Kato 2008 video game improves behavioral outcomes adolescents young adults cancer randomized trial 375 Re Mission full text",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Roediger\" \"Karpicke\" \"2006\" \"Test-enhanced learning\" pdf wustl",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Ericsson\" \"1993\" \"role of deliberate practice\" pdf",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Hattie\" \"Timperley\" \"2007\" \"power of feedback\" pdf",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Cai\" \"Effects of Scaffolding\" \"09655\" pdf",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Development and validation of the Player Experience Inventory\" pdf",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Better reporting of interventions\" \"TIDieR\" pdf hoffmann",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Can there ever be too many options\" pdf scheibehenne",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Evaluating the public health impact\" \"RE-AIM\" pdf 1999",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Development and validation of the Player Experience Inventory\" \"pdf\" Abeele 2020",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Ntoumanis\" \"2021\" \"1718529\" full pdf",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Choice overload\" \"Chernev\" \"2015\" pdf",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Deci\" \"1999\" \"Koestner\" \"627\" filetype:pdf",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Roediger\" \"Karpicke\" \"2006\" site.psych.purdue.edu pdf",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"The role of deliberate practice\" site.edu pdf Ericsson 1993",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Ntoumanis\" \"1718529\" pdf",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Development and validation of the player experience inventory\" repository",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"1999_Deci\" \"pdf\"",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"1718529\" Ntoumanis",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Player Experience Inventory\" \"lirias\" 2020",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Evaluating the public health impact\" \"PMC\" 1999",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation\" pdf 1999 site.edu",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"A meta-analysis of self-determination theory-informed intervention studies in the health domain\"",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Self-determination theory interventions versus usual care\" 2023",
+      "date": "2026-09-16"
+    },
+    {
+      "interface": "web search",
+      "query": "\"Mathiesen\" \"02308\" \"PMC\"",
+      "date": "2026-09-16"
+    }
+  ],
+  "acquisitions": [
+    {
+      "file": "private-literature/articles/Wouters 2013 - RW - Cognitive and Motivational Effects of Serious Games.pdf",
+      "doi": "10.1037/a0031311",
+      "url": "https://ocw.metu.edu.tr/pluginfile.php/11786/mod_resource/content/1/A%20Meta-Analysis%20of%20the%20Cognitive%20and%20Motivational%20Effects%20of%20Serious%20Games.pdf",
+      "sha256": "83eac56f6d783f0896b856635087868f80fdc9985dd76d90ddc08eebc521e75d",
+      "reading": "abstract and introduction; pooled outcomes",
+      "checked": "2026-09-16",
+      "http_status": 200,
+      "identity": "title and author/body matched locally",
+      "final_redirect": "not separately retained",
+      "access": "lawfully public article or author/institutional copy; W3C public standard",
+      "redistribution": "not inferred from access; ignored local collection only"
+    },
+    {
+      "file": "private-literature/articles/Kato 2008 - Re-Mission Randomized Trial.pdf",
+      "doi": "10.1542/peds.2007-3134",
+      "url": "https://www.semel.ucla.edu/sites/default/files/publications/Aug%202008%20-%20A%20Video%20Game%20Improves%20Behavioral%20Outcomes.pdf",
+      "sha256": "8371b914b56355452d1aa5d02381767a8a20a09291773d1b7ecd5af2239b6fed",
+      "reading": "PDF pages 1–3, 6–9; intervention, denominators, results, limits",
+      "checked": "2026-09-16",
+      "http_status": 200,
+      "identity": "title and author/body matched locally",
+      "final_redirect": "not separately retained",
+      "access": "lawfully public article or author/institutional copy; W3C public standard",
+      "redistribution": "not inferred from access; ignored local collection only"
+    },
+    {
+      "file": "private-literature/articles/W3C 2024 - Web Content Accessibility Guidelines 2.2.html",
+      "doi": null,
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "sha256": "6e3c5fe397257cae509a2fb4752b73062cf8cbeb92c2cec618989b17e4cf7057",
+      "reading": "Recommendation date; criteria 1.4.3, 2.4.11, 2.5.7, 2.5.8",
+      "checked": "2026-09-16",
+      "http_status": 200,
+      "identity": "title and author/body matched locally",
+      "final_redirect": "not separately retained",
+      "access": "lawfully public article or author/institutional copy; W3C public standard",
+      "redistribution": "not inferred from access; ignored local collection only"
+    },
+    {
+      "file": "private-literature/articles/Hattie 2007 - RW - Power of Feedback.pdf",
+      "doi": "10.3102/003465430298487",
+      "url": "https://educacion.udd.cl/files/2018/04/The-Power-of-Feedback.pdf",
+      "sha256": "43093b9c37fac0a3d1d594d261fc6e172758d59972d4ad00e442dd08b9c9ad1d",
+      "reading": "title/abstract and printed pages 83–86, 92, 96–97",
+      "checked": "2026-09-16",
+      "http_status": 200,
+      "identity": "title and author/body matched locally",
+      "final_redirect": "not separately retained",
+      "access": "lawfully public article or author/institutional copy; W3C public standard",
+      "redistribution": "not inferred from access; ignored local collection only"
+    },
+    {
+      "file": "private-literature/articles/Scheibehenne 2010 - RW - Choice Overload.pdf",
+      "doi": "10.1086/651235",
+      "url": "https://scheibehenne.de/ScheibehenneGreifenederTodd2010.pdf",
+      "sha256": "38838cd013ff6eef376ca5c84e8f5617ff4bcd233919540fec97e39ef60dcf04",
+      "reading": "title/abstract: heterogeneous effects, average near zero",
+      "checked": "2026-09-16",
+      "http_status": 200,
+      "identity": "title and author/body matched locally",
+      "final_redirect": "not separately retained",
+      "access": "lawfully public article or author/institutional copy; W3C public standard",
+      "redistribution": "not inferred from access; ignored local collection only"
+    },
+    {
+      "file": "private-literature/articles/Hoffmann 2014 - TIDieR Checklist and Guide.pdf",
+      "doi": "10.1136/bmj.g1687",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/1425450/1/HOFFMANN%20et%20al%20-%20TIDIER%20intervention%20description%20manuscript%20-%20REVISED%20version%20-%20clean%20copy.pdf",
+      "sha256": "6ec74b57e76f1578a27597ef36efe520ca83531c2444f602dd92c1a453c9a78d",
+      "reading": "title/author identity; full checklist not reappraised in this pass",
+      "checked": "2026-09-16",
+      "http_status": 200,
+      "identity": "title and author/body matched locally",
+      "final_redirect": "not separately retained",
+      "access": "lawfully public article or author/institutional copy; W3C public standard",
+      "redistribution": "not inferred from access; ignored local collection only"
+    },
+    {
+      "file": "private-literature/articles/Chernev 2015 - RW - Choice Overload.pdf",
+      "doi": "10.1016/j.jcps.2014.08.002",
+      "url": "https://chernev.com/wp-content/uploads/2017/02/ChoiceOverload_JCP_2015.pdf",
+      "sha256": "7728f6c24621178e9325ef7ebd2e7650651a955d7e09d7092ddbf80ff0b5e57d",
+      "reading": "title/abstract; moderator account only, not a new quantitative claim",
+      "checked": "2026-09-16",
+      "http_status": 200,
+      "identity": "title and author/body matched locally",
+      "final_redirect": "not separately retained",
+      "access": "lawfully public article or author/institutional copy; W3C public standard",
+      "redistribution": "not inferred from access; ignored local collection only"
+    },
+    {
+      "file": "private-literature/articles/Ryan 2006 - Motivational Pull of Video Games.pdf",
+      "doi": "10.1007/s11031-006-9051-8",
+      "url": "https://selfdeterminationtheory.org/wp-content/uploads/2020/10/2006_RyanRigbyPrzybylski_MandE.pdf",
+      "sha256": "3541204dae640596f6ba3cd4b662302c5d1dfb626780d39198818c320aef87a1",
+      "reading": "title/abstract, four studies; association, not clinical efficacy",
+      "checked": "2026-09-16",
+      "http_status": 200,
+      "identity": "title and author/body matched locally",
+      "final_redirect": "not separately retained",
+      "access": "lawfully public article or author/institutional copy; W3C public standard",
+      "redistribution": "not inferred from access; ignored local collection only"
+    },
+    {
+      "file": "private-literature/articles/Roediger 2006 - Test-Enhanced Learning.pdf",
+      "doi": "10.1111/j.1467-9280.2006.01693.x",
+      "url": "https://learninglab.psych.purdue.edu/downloads/2006/2006_Roediger_Karpicke_PsychSci.pdf",
+      "sha256": "c957ab90e2fa8ce4139af6bedeacdb2ffeee80dc46e08011d625a37f52c11aec",
+      "reading": "title/abstract, immediate versus delayed retention distinction",
+      "checked": "2026-09-16",
+      "http_status": 200,
+      "identity": "title and author/body matched locally",
+      "final_redirect": "not separately retained",
+      "access": "lawfully public article or author/institutional copy; W3C public standard",
+      "redistribution": "not inferred from access; ignored local collection only"
+    },
+    {
+      "file": "private-literature/articles/Ntoumanis 2021 - RW - Self Determination Health Interventions.pdf",
+      "doi": "10.1080/17437199.2020.1718529",
+      "url": "https://selfdeterminationtheory.org/wp-content/uploads/2020/05/2020_NtoumanisEtAl_MetaAnalysisHealth.pdf",
+      "sha256": "b7c59b595eefc79475f1868a81ebee9f8797a115d72e07bd90a975b315eceaa4",
+      "reading": "PDF pages 2–3, abstract, inclusion and theory; author open-access version dated 2020, issue 2021",
+      "checked": "2026-09-16",
+      "http_status": 200,
+      "identity": "title and author/body matched locally",
+      "final_redirect": "not separately retained",
+      "access": "lawfully public article or author/institutional copy; W3C public standard",
+      "redistribution": "not inferred from access; ignored local collection only"
+    },
+    {
+      "file": "private-literature/articles/Mathiesen 2023 - RW - Self Determination Interventions Diabetes.xml",
+      "doi": "10.1186/s13643-023-02308-z",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10483731/fullTextXML",
+      "sha256": "f8f64cba998c49305946c84326499b55cecbcd6d63bc7ee4483b549912e18bd5",
+      "reading": "abstract, discussion and limitations; mixed T1D/T2D care interventions",
+      "checked": "2026-09-16",
+      "http_status": 200,
+      "identity": "title and author/body matched locally",
+      "final_redirect": "not separately retained",
+      "access": "lawfully public article or author/institutional copy; W3C public standard",
+      "redistribution": "not inferred from access; ignored local collection only"
+    }
+  ],
+  "excluded_or_not_appraised": [
+    "Search hits without matching primary-source identity not used",
+    "OVERCOME 2026 type 2 diabetes non-game trial surfaced incidentally; not appraised or used; not claimed as a complete update of diabetes SDT evidence",
+    "An inadvertently opened unrelated PMC identifier (PMC10483872) was rejected; correct Mathiesen identifier is PMC10483731"
+  ],
+  "gaps": [
+    {
+      "doi": "10.1037/0033-295X.100.3.363",
+      "status": "Full text unresolved; institutional candidate request failed, not classified paywall"
+    },
+    {
+      "doi": "10.1007/s10648-021-09655-0",
+      "status": "DOI gave client challenge; abstract-level existing claim retained"
+    },
+    {
+      "doi": "10.1080/10810730.2019.1701586",
+      "status": "Publisher 403; abstract-level existing claim retained"
+    },
+    {
+      "doi": "10.1037/0033-2909.125.6.627",
+      "status": "DOI returns generic PsycNet shell; abstract-level reward contingency claim retained"
+    },
+    {
+      "doi": "10.1016/j.ijhcs.2019.102370",
+      "status": "DOI redirect shell; publisher abstract available, full text unresolved"
+    },
+    {
+      "doi": "10.2105/AJPH.89.9.1322",
+      "status": "PMC PDF candidate returns download interstitial, not article; full text unresolved"
+    }
+  ]
+}

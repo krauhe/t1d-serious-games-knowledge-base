@@ -52,7 +52,7 @@ assert.match(byGame('i-got-this').developer.names.join(' '), /Lawrence Hall/);
 assert.match(byGame('qare-and-qure').core_gameplay_loop, /unverified|verification/i);
 assert.ok(!byGame('ava-type-1').platforms.includes('Android'));
 const invalidPmids = ['7026740','32591907','7011057','12107742','18175767','19150402','30058925','24729196','15303622','20948577','29994703','21129332'];
-for (const file of fs.readdirSync(path.join(root, 'knowledge/physiology')).filter(file => file.endsWith('.qmd'))) {
+for (const file of fs.readdirSync(path.join(root, 'knowledge/physiology'), { recursive: true }).filter(file => file.endsWith('.qmd'))) {
   const text = read('knowledge/physiology/' + file);
   for (const pmid of invalidPmids) assert.ok(!text.includes('/' + pmid + '/'), file + ': rejected citation ' + pmid);
 }

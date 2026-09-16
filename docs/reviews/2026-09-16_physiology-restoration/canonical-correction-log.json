@@ -1,0 +1,326 @@
+{
+  "date": "2026-09-16",
+  "applied": true,
+  "applied_by": "Main agent using apply_patch to canonical BG-SCIENCE.md; verified source version 2026-09-16-v1",
+  "scope": "Targeted inherited defects, not full-source review",
+  "changes": [
+    {
+      "id": "C01",
+      "section": "1",
+      "count": 8,
+      "reason": "Preserve corrected Chadt and Al-Hasani identity established in 6 September audit."
+    },
+    {
+      "id": "C10",
+      "section": "1",
+      "count": 4,
+      "reason": "Exact-title PubMed match for DeFronzo 1981; quantitative original remains full-text gap."
+    },
+    {
+      "id": "C38",
+      "section": "1",
+      "count": 1,
+      "reason": "Exact identity repaired but original numerical result not available; remove unsupported percentage."
+    },
+    {
+      "id": "C39",
+      "section": "1",
+      "count": 1,
+      "reason": "Do not claim numerical primary-source verification from a PubMed record without abstract."
+    },
+    {
+      "id": "C40",
+      "section": "1",
+      "count": 1,
+      "reason": "Retain qualitative muscle role supported by reviewed transporter synthesis, not unchecked precise fraction."
+    },
+    {
+      "id": "C44",
+      "section": "1",
+      "count": 1,
+      "reason": "Remove affiliated implementation reference from scientific prose."
+    },
+    {
+      "id": "C50",
+      "section": "1",
+      "count": 1,
+      "reason": "Remove punctuation artefact after unverified numeric clause removal."
+    },
+    {
+      "id": "C13",
+      "section": "5",
+      "count": 1,
+      "reason": "Do not restore unsupported 20% estimate behind known bibliographic mismatch."
+    },
+    {
+      "id": "C14",
+      "section": "5",
+      "count": 1,
+      "reason": "Remove unmatched Wolever bibliography record rather than substitute a different work."
+    },
+    {
+      "id": "C01",
+      "section": "7",
+      "count": 2,
+      "reason": "Preserve corrected Chadt and Al-Hasani identity established in 6 September audit."
+    },
+    {
+      "id": "C02",
+      "section": "7",
+      "count": 4,
+      "reason": "Preserve corrected Rizza identity; does not validate every attributed result."
+    },
+    {
+      "id": "C03",
+      "section": "7",
+      "count": 5,
+      "reason": "Preserve corrected Haahr and Heise identity."
+    },
+    {
+      "id": "C06",
+      "section": "7",
+      "count": 8,
+      "reason": "Named absorption review is by Gradel et al.; source inspected in prior audit."
+    },
+    {
+      "id": "C07",
+      "section": "7",
+      "count": 1,
+      "reason": "Repair author, journal, identifier and bibliographic identity together."
+    },
+    {
+      "id": "C11",
+      "section": "7",
+      "count": 2,
+      "reason": "Exact-title PubMed match for Soeborg et al. 2009; quantitative original remains full-text gap."
+    },
+    {
+      "id": "C16",
+      "section": "7",
+      "count": 1,
+      "reason": "Correct reversed direction: FoxO1 exclusion reduces transcriptional activation."
+    },
+    {
+      "id": "C17",
+      "section": "7",
+      "count": 1,
+      "reason": "Preserve September correction: Rizza glucose production/utilization data do not establish lipolysis EC50."
+    },
+    {
+      "id": "C18",
+      "section": "7",
+      "count": 1,
+      "reason": "Remove unverified adipose EC50 incorrectly attributed to the Rizza glucose study."
+    },
+    {
+      "id": "C41",
+      "section": "7",
+      "count": 1,
+      "reason": "Separate abstract-level identity from detailed pharmacokinetic values not inspected in full text."
+    },
+    {
+      "id": "C47",
+      "section": "7",
+      "count": 1,
+      "reason": "Haahr full-text Variability in Glucose-Lowering Effect section identifies GIR AUC, not plasma insulin exposure AUC."
+    },
+    {
+      "id": "C48",
+      "section": "7",
+      "count": 1,
+      "reason": "Correct endpoint and supply repeated-clamp context directly beside values."
+    },
+    {
+      "id": "C49",
+      "section": "7",
+      "count": 1,
+      "reason": "Do not mix pharmacokinetic exposure variability with pharmacodynamic GIR variability or overclaim isolated mechanistic causality."
+    },
+    {
+      "id": "C45",
+      "section": "10b",
+      "count": 1,
+      "reason": "Separate general modelling proposal from affiliated implementation."
+    },
+    {
+      "id": "C08",
+      "section": "11",
+      "count": 1,
+      "reason": "Remove wrong identifier; existing Cryer 2013 citation remains."
+    },
+    {
+      "id": "C09",
+      "section": "11",
+      "count": 1,
+      "reason": "Remove rejected bibliography record, already corrected in KB."
+    },
+    {
+      "id": "C46",
+      "section": "18",
+      "count": 1,
+      "reason": "Replace metaphor with physiological terminology."
+    },
+    {
+      "id": "C12",
+      "section": "19",
+      "count": 5,
+      "reason": "Exact-title PubMed match for Lieber 2004; quantitative original remains full-text gap."
+    },
+    {
+      "id": "C42",
+      "section": "19",
+      "count": 1,
+      "reason": "Retain mechanism; remove unavailable numeric support."
+    },
+    {
+      "id": "C43",
+      "section": "19",
+      "count": 2,
+      "reason": "Remove unverified numerical values dependent on inaccessible Lieber original."
+    },
+    {
+      "id": "C51",
+      "section": "19",
+      "count": 1,
+      "reason": "Do not retain precise induction/clearance fractions from an inaccessible original."
+    },
+    {
+      "id": "C19",
+      "section": "25",
+      "count": 1,
+      "reason": "Remove false precision, unverified table provenance and arithmetic error; preserve verified endpoint context."
+    },
+    {
+      "id": "C20",
+      "section": "25",
+      "count": 1,
+      "reason": "Distinguish speculative downstream dosing inferences from the healthy experimental data."
+    },
+    {
+      "id": "C28",
+      "section": "25",
+      "count": 1,
+      "reason": "Negative receptor binding cooperativity does not establish a positively cooperative whole-body Hill slope."
+    },
+    {
+      "id": "C29",
+      "section": "25",
+      "count": 1,
+      "reason": "Do not retain unverified Hill coefficient ranges as measurements."
+    },
+    {
+      "id": "C30",
+      "section": "25",
+      "count": 1,
+      "reason": "Correct low-concentration asymptote of the displayed Hill equation."
+    },
+    {
+      "id": "C31",
+      "section": "25",
+      "count": 1,
+      "reason": "Distinguish midpoint from derivative maximum and unsupported clinical extrapolation."
+    },
+    {
+      "id": "C32",
+      "section": "25",
+      "count": 1,
+      "reason": "Remove fabricated precision and invalid conversion of single-point glucose uptake change to EC50 shift."
+    },
+    {
+      "id": "C33",
+      "section": "25",
+      "count": 1,
+      "reason": "Preserve inspected evidence boundary rather than invent spread from the original's inaccessible tables."
+    },
+    {
+      "id": "C34",
+      "section": "25",
+      "count": 1,
+      "reason": "Remove a second unverified Hill-coefficient range."
+    },
+    {
+      "id": "C35",
+      "section": "25",
+      "count": 1,
+      "reason": "Single clamp endpoint does not identify EC50."
+    },
+    {
+      "id": "C36",
+      "section": "25",
+      "count": 1,
+      "reason": "Correct glucose-pool/insulin-state confusion and avoid mechanically importing incompatible parameter scales."
+    },
+    {
+      "id": "C37",
+      "section": "25",
+      "count": 1,
+      "reason": "Correct conflation of year, volume and identifier for Hovorka MPC paper."
+    },
+    {
+      "id": "C05",
+      "section": "28",
+      "count": 2,
+      "reason": "Preserve corrected Kovatchev in-silico study identity."
+    },
+    {
+      "id": "C21",
+      "section": "28",
+      "count": 1,
+      "reason": "Remove unsupported universal regulatory requirement; scope-specific acceptance retained."
+    },
+    {
+      "id": "C22",
+      "section": "28",
+      "count": 1,
+      "reason": "Remove unverified parameter count and false complete-physiology assertion."
+    },
+    {
+      "id": "C04",
+      "section": "29",
+      "count": 2,
+      "reason": "Preserve corrected Cobelli 2009 identity."
+    },
+    {
+      "id": "C05",
+      "section": "29",
+      "count": 2,
+      "reason": "Preserve corrected Kovatchev in-silico study identity."
+    },
+    {
+      "id": "C15",
+      "section": "29",
+      "count": 1,
+      "reason": "Remove unresolved Bondia citation identity rejected by September audit."
+    },
+    {
+      "id": "C23",
+      "section": "29",
+      "count": 1,
+      "reason": "Remove unsupported product/model ranking."
+    },
+    {
+      "id": "C24",
+      "section": "29",
+      "count": 1,
+      "reason": "Remove unsupported quantified regulatory-development saving."
+    },
+    {
+      "id": "C25",
+      "section": "29",
+      "count": 1,
+      "reason": "Do not transform inherited time-sensitive product statement into current verification."
+    },
+    {
+      "id": "C26",
+      "section": "29",
+      "count": 1,
+      "reason": "Preserve purpose-specific regulatory qualification and avoid universal absence claim."
+    },
+    {
+      "id": "C27",
+      "section": "29",
+      "count": 1,
+      "reason": "Remove unsupported exhaustive field-wide absence claim and architectural impossibility."
+    }
+  ]
+}

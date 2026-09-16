@@ -1,0 +1,182 @@
+[
+  {
+    "id": "C01", "section": "*", "pattern": "32591907", "replacement": "32591906",
+    "reason": "Preserve corrected Chadt and Al-Hasani identity established in 6 September audit."
+  },
+  {
+    "id": "C02", "section": "*", "pattern": "7011057", "replacement": "7018254",
+    "reason": "Preserve corrected Rizza identity; does not validate every attributed result."
+  },
+  {
+    "id": "C03", "section": "*", "pattern": "24729196", "replacement": "25179915",
+    "reason": "Preserve corrected Haahr and Heise identity."
+  },
+  {
+    "id": "C04", "section": "*", "pattern": "20948577", "replacement": "20936056",
+    "reason": "Preserve corrected Cobelli 2009 identity."
+  },
+  {
+    "id": "C05", "section": "*", "pattern": "21129332", "replacement": "19444330",
+    "reason": "Preserve corrected Kovatchev in-silico study identity."
+  },
+  {
+    "id": "C06", "section": "*", "pattern": "\\[Heinemann, 2018\\]\\(https://pubmed.ncbi.nlm.nih.gov/30058925/\\)", "replacement": "[Gradel et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30116732/)",
+    "reason": "Named absorption review is by Gradel et al.; source inspected in prior audit."
+  },
+  {
+    "id": "C07", "section": "7", "pattern": "- Heinemann L\\. \\(2018\\)\\.[^\\n]+", "replacement": "- Gradel AKJ et al. (2018). Factors affecting the absorption of subcutaneously administered insulin: effect on variability. *Journal of Diabetes Research*, 2018, 1205121. [PubMed](https://pubmed.ncbi.nlm.nih.gov/30116732/)",
+    "reason": "Repair author, journal, identifier and bibliographic identity together."
+  },
+  {
+    "id": "C08", "section": "*", "pattern": "\\[Cryer, 2002\\]\\(https://pubmed.ncbi.nlm.nih.gov/12107742/\\); ", "replacement": "",
+    "reason": "Remove wrong identifier; existing Cryer 2013 citation remains."
+  },
+  {
+    "id": "C09", "section": "*", "pattern": "^> - Cryer PE\\. \\(2002\\)[^\\n]+\\n", "flags":"gm", "replacement": "",
+    "reason": "Remove rejected bibliography record, already corrected in KB."
+  },
+  {
+    "id": "C10", "section": "*", "pattern": "7026740", "replacement": "7030826",
+    "reason": "Exact-title PubMed match for DeFronzo 1981; quantitative original remains full-text gap."
+  },
+  {
+    "id": "C11", "section": "*", "pattern": "19150402", "replacement": "19028573",
+    "reason": "Exact-title PubMed match for Soeborg et al. 2009; quantitative original remains full-text gap."
+  },
+  {
+    "id": "C12", "section": "*", "pattern": "15303622", "replacement": "15554233",
+    "reason": "Exact-title PubMed match for Lieber 2004; quantitative original remains full-text gap."
+  },
+  {
+    "id": "C13", "section": "5", "pattern": ": between-laboratory and between-subject variability in GI for the same food can exceed ~20% \\(\\[Wolever, 2008\\]\\(https://pubmed.ncbi.nlm.nih.gov/18175767/\\)\\)", "replacement": ". A specific percentage for between-laboratory and between-person variability is not retained because the inherited Wolever attribution did not identify the intended source",
+    "reason": "Do not restore unsupported 20% estimate behind known bibliographic mismatch."
+  },
+  {
+    "id": "C14", "section": "*", "pattern": "^> - Wolever TM\\. \\(2008\\)[^\\n]+\\n", "flags":"gm", "replacement": "",
+    "reason": "Remove unmatched Wolever bibliography record rather than substitute a different work."
+  },
+  {
+    "id": "C15", "section": "29", "pattern": "^> Bondia J[^\\n]+\\n", "flags":"gm", "replacement": "",
+    "reason": "Remove unresolved Bondia citation identity rejected by September audit."
+  },
+  {
+    "id": "C16", "section": "7", "pattern": "causing nuclear exclusion and de-repression of gluconeogenic transcription", "replacement": "causing nuclear exclusion and reduced activation of gluconeogenic transcription",
+    "reason": "Correct reversed direction: FoxO1 exclusion reduces transcriptional activation."
+  },
+  {
+    "id": "C17", "section": "7", "pattern": "Tissue-level dose–response is graded:[^\\n]+See §25 for the full Rizza dataset and tissue-specific Hill kinetics\\.", "replacement": "Tissue-level dose–response is graded. In 15 healthy participants, half-maximal suppression of glucose production occurred at 29±2 μU/mL and half-maximal stimulation of utilization at 55±7 μU/mL ([Rizza et al., 1981](https://pubmed.ncbi.nlm.nih.gov/7018254/), abstract-supported; full-text appraisal pending). The inspected abstract does not establish a lipolysis threshold or Hill coefficient. See §25 for the distinction between measured endpoints and model parameters.",
+    "reason": "Preserve September correction: Rizza glucose production/utilization data do not establish lipolysis EC50."
+  },
+  {
+    "id": "C18", "section": "7", "pattern": "^\\| Insulin EC50, suppression of adipocyte lipolysis[^\\n]+\\n", "flags":"gm", "replacement": "",
+    "reason": "Remove unverified adipose EC50 incorrectly attributed to the Rizza glucose study."
+  },
+  {
+    "id": "C19", "section": "25", "pattern": "### Tissue-specific EC50 values:[\\s\\S]*?(?=### HGP suppression)", "replacement": "### Endpoint-specific half-maximal insulin concentrations\n\nIn 15 healthy participants, Rizza, Mandarino and Gerich compared insulin effects on glucose production and utilization using sequential two-hour insulin infusions and a glucose tracer. The inspected abstract reports half-maximal concentrations of **29±2 μU/mL for suppression of glucose production** and **55±7 μU/mL for stimulation of utilization** ([Rizza et al., 1981](https://pubmed.ncbi.nlm.nih.gov/7018254/)). The ratio of these reported means is approximately **1.90**, not threefold. The uncertainty notation is retained as reported; its definition was not independently checked in full text.\n\nThese are whole-body experimental endpoints in healthy volunteers, not direct measurements of an anatomical liver or muscle receptor EC50 in T1D. The original has not been fully appraised here. The inherited table's lipolysis values, receptor occupancies and graph-derived Hill coefficients are therefore not reproduced as established Rizza findings. A mechanistic model may use distinct action channels, but its Hill coefficient and tissue attribution require their own evidence or an explicit calibration assumption.\n\nEndogenous insulin enters the portal circulation before peripheral circulation, whereas subcutaneous insulin enters peripheral circulation first. Hepatic extraction and the resulting portal–peripheral gradient vary with physiological conditions; no fixed ratio is adopted here ([Najjar and Perdomo, 2019](https://pubmed.ncbi.nlm.nih.gov/30968756/)).\n\n",
+    "reason": "Remove false precision, unverified table provenance and arithmetic error; preserve verified endpoint context."
+  },
+  {
+    "id": "C20", "section": "25", "pattern": "### T1D-specific implications: variable ICR, the small-dose paradox, and post-meal dynamics", "replacement": "### T1D-specific modelling hypotheses: dose dependence and post-meal dynamics\n\n**Hypothesis boundary:** the following dose-size examples are mechanistic illustrations, not measured human T1D dose-response relationships or treatment rules. The healthy clamp results do not identify plasma concentrations or outcomes for a 1-unit or 4-unit subcutaneous bolus in an individual. No universal small-dose threshold or personal correction rule follows from them.",
+    "reason": "Distinguish speculative downstream dosing inferences from the healthy experimental data."
+  },
+  {
+    "id": "C21", "section": "28", "pattern": "For regulatory purposes, the FDA-accepted UVA/Padova platform requires that a new control algorithm demonstrate safe performance in all 300 virtual subjects — a criterion that captures the long tail of inter-individual variability that small clinical trials may miss\\.", "replacement": "Virtual-cohort composition and acceptance criteria depend on the platform version and intended regulatory evaluation. The cited preclinical acceptance does not establish a universal FDA requirement to test every algorithm on exactly 300 virtual subjects ([Kovatchev et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19444330/)).",
+    "reason": "Remove unsupported universal regulatory requirement; scope-specific acceptance retained."
+  },
+  {
+    "id": "C22", "section": "28", "pattern": "A model with 300 parameters \\(UVA/Padova\\) can simulate the full range of T1D physiology, but its parameters are proprietary and cannot be re-estimated from standard clinical data — the model is a fixed simulation tool, not a fitting framework\\.", "replacement": "Detailed virtual-population platforms require more identification data and implementation information than compact identification models. A subject count is not a parameter count, and no model reproduces the full range of T1D physiology. Access and re-estimation constraints should be specified for the particular implementation and licence.",
+    "reason": "Remove unverified parameter count and false complete-physiology assertion."
+  },
+  {
+    "id": "C23", "section": "29", "pattern": "is the most comprehensive validated T1D simulator available", "replacement": "is an influential meal-response and virtual-population platform",
+    "reason": "Remove unsupported product/model ranking."
+  },
+  {
+    "id": "C24", "section": "29", "pattern": "by eliminating a bottleneck that previously required 12–18 months of animal studies before human trials could begin", "replacement": "by enabling specified preclinical evaluation in silico; a universal time saving is not established here",
+    "reason": "Remove unsupported quantified regulatory-development saving."
+  },
+  {
+    "id": "C25", "section": "29", "pattern": "As of 2024, no exercise model is included in the standard licensed version, though research extensions have been published independently \\(Breton et al\\. 2009; Resalat et al\\. 2019\\)\\.", "replacement": "Exercise extensions have been published, but feature coverage of a currently licensed distribution was not independently checked during this restoration.",
+    "reason": "Do not transform inherited time-sensitive product statement into current verification."
+  },
+  {
+    "id": "C26", "section": "29", "pattern": "The UVA/Padova simulator is FDA-accepted for device trials but is proprietary and lacks exercise\\.", "replacement": "UVA/Padova has a specific preclinical regulatory-use history; access conditions and exercise coverage depend on version and distribution.",
+    "reason": "Preserve purpose-specific regulatory qualification and avoid universal absence claim."
+  },
+  {
+    "id": "C27", "section": "29", "pattern": "\\*\\*Long-term complications\\.\\*\\* All current models[^\\n]+", "replacement": "**Long-term complications.** The acute glucose–insulin models compared here primarily describe hours-to-days trajectories. Modelling vascular complications or progressive beta-cell loss requires additional processes and longitudinal validation; this comparison does not establish that no such models exist.",
+    "reason": "Remove unsupported exhaustive field-wide absence claim and architectural impossibility."
+  },
+  {
+    "id":"C28", "section":"25", "pattern":"This negative cooperativity is the molecular origin[^\\n]+", "replacement":"Receptor binding cooperativity and whole-body dose-response steepness are different quantities. A Hill coefficient fitted to a whole-body endpoint cannot be assigned to receptor binding without an independently identified mechanistic model.", "reason":"Negative receptor binding cooperativity does not establish a positively cooperative whole-body Hill slope."
+  },
+  {
+    "id":"C29", "section":"25", "pattern":"For whole-body insulin action on hepatic EGP[^\\n]+", "replacement":"For whole-body insulin action, the Hill coefficient must be estimated for a specified endpoint and protocol. No empirical range for this coefficient is adopted from the abstract-only Rizza record.", "reason":"Do not retain unverified Hill coefficient ranges as measurements."
+  },
+  {
+    "id":"C30", "section":"25", "pattern":"Effect increases slowly and approximately linearly with dose;", "replacement":"Effect is approximately proportional to I^n, not generally linear;", "reason":"Correct low-concentration asymptote of the displayed Hill equation."
+  },
+  {
+    "id":"C31", "section":"25", "pattern":"The steepest portion of the dose-response curve; small concentration changes produce large effect changes\\. This is the clinically relevant operating range for most T1D correction boluses\\.", "replacement":"Half-maximal effect occurs at EC50. The location of maximum slope on a linear concentration axis depends on n; this is not a validated operating range for a personal correction bolus.", "reason":"Distinguish midpoint from derivative maximum and unsupported clinical extrapolation."
+  },
+  {
+    "id":"C32", "section":"25", "pattern":"\\*\\*Table 25-2:[\\s\\S]*?(?=### Controversies)", "replacement":"**Parameter-identification limitation.** A percentage change in glucose disposal at one insulin concentration does not identify a matching percentage change in EC50. Changes in maximal response, glucose effectiveness, insulin exposure and basal flux may produce similar observations. Exercise, lipid exposure and hyperglycaemia can modify insulin action, but the inherited percentage-shift table is not retained as measured tissue-specific EC50 data.\n\n", "reason":"Remove fabricated precision and invalid conversion of single-point glucose uptake change to EC50 shift."
+  },
+  {
+    "id":"C33", "section":"25", "pattern":"\\*\\*Population vs\\. individual EC50 variability\\.\\*\\*[^\\n]+", "replacement":"**Population versus individual variability.** The Rizza estimates describe 15 healthy participants. Their abstract does not establish the inherited 30–40% coefficient of variation or a twofold individual range; neither is retained as a verified result.", "reason":"Preserve inspected evidence boundary rather than invent spread from the original's inaccessible tables."
+  },
+  {
+    "id":"C34", "section":"25", "pattern":"\\*\\*Hill coefficient uncertainty\\.\\*\\*[^\\n]+", "replacement":"**Hill coefficient uncertainty.** Steeper and shallower fitted curves produce different local sensitivities even at the same EC50. Identification requires concentration–response observations across an adequate range; choosing n for simulation is a modelling assumption unless a suitable experimental fit is documented.", "reason":"Remove a second unverified Hill-coefficient range."
+  },
+  {
+    "id":"C35", "section":"25", "pattern":"corresponding to a rightward EC50 shift of a similar magnitude", "replacement":"which does not by itself identify the magnitude of an EC50 shift", "reason":"Single clamp endpoint does not identify EC50."
+  },
+  {
+    "id":"C36", "section":"25", "pattern":"Compartmental models of insulin action[^\\n]+", "replacement":"**Modelling inference.** A saturating response may be appropriate when extrapolation beyond an empirically calibrated operating range is necessary. Its input must be the insulin concentration corresponding to the fitted experiment, or a correctly scaled insulin-effect state. In the Hovorka formulation, Q2 is a glucose pool, not an insulin concentration; substituting Q2 into an insulin Hill equation is dimensionally incorrect. Basal equilibrium, endpoint scaling, maximal effect and dynamic delays must be re-identified and validated together rather than changed by inserting a published EC50 into an unrelated state equation ([Hovorka et al., 2004](https://pubmed.ncbi.nlm.nih.gov/15382830/)).", "reason":"Correct glucose-pool/insulin-state confusion and avoid mechanically importing incompatible parameter scales."
+  },
+  {
+    "id":"C37", "section":"25", "pattern":"^> - Hovorka R[^\\n]+\\n", "flags":"gm", "replacement":"> - Hovorka R et al. (2004). Nonlinear model predictive control of glucose concentration in subjects with type 1 diabetes. *Physiological Measurement*, 25, 905–920. [PubMed](https://pubmed.ncbi.nlm.nih.gov/15382830/)\n", "reason":"Correct conflation of year, volume and identifier for Hovorka MPC paper."
+  },
+  {
+    "id":"C38", "section":"1", "pattern":"\\(the dominant fate, ~75–80% of insulin-stimulated muscle glucose disposal — \\[DeFronzo et al\\., 1981\\]\\(https://pubmed.ncbi.nlm.nih.gov/7030826/\\)\\)", "replacement":"", "reason":"Exact identity repaired but original numerical result not available; remove unsupported percentage."
+  },
+  {
+    "id":"C39", "section":"1", "pattern":"^\\| Insulin-mediated glucose disposal during euglycemic clamp[^\\n]+\\n", "flags":"gm", "replacement":"", "reason":"Do not claim numerical primary-source verification from a PubMed record without abstract."
+  },
+  {
+    "id":"C40", "section":"1", "pattern":"\\(~75–85% of insulin-mediated disposal; \\[DeFronzo et al\\., 1981\\]\\(https://pubmed.ncbi.nlm.nih.gov/7030826/\\)\\)", "replacement":"([Chadt and Al-Hasani, 2020](https://pubmed.ncbi.nlm.nih.gov/32591906/))", "reason":"Retain qualitative muscle role supported by reviewed transporter synthesis, not unchecked precise fraction."
+  },
+  {
+    "id":"C41", "section":"7", "pattern":"In typical pharmaceutical concentrations \\(100 U/mL\\),[^\\n]+\\[Søeborg et al\\., 2009\\]\\(https://pubmed.ncbi.nlm.nih.gov/19028573/\\)\\)\\.", "replacement":"Oligomer distributions depend on formulation and concentration. The exact concentration cut-offs and oligomer-specific absorption times attributed to Søeborg et al. are not retained because the full paper was not acquired; the general association mechanism is discussed in [Gradel et al. (2018)](https://pubmed.ncbi.nlm.nih.gov/30116732/).", "reason":"Separate abstract-level identity from detailed pharmacokinetic values not inspected in full text."
+  },
+  {
+    "id":"C42", "section":"19", "pattern":"The cytosolic NADH/NAD\\+ ratio in the hepatocyte rises by a factor[^\\n]+", "replacement":"Ethanol oxidation increases the reduced-to-oxidised nicotinamide adenine dinucleotide ratio (NADH/NAD+), favouring lactate over pyruvate and limiting substrate availability for gluconeogenesis. The magnitude depends on compartment, dose and metabolic context; the inherited fixed fold-change and clearance estimates are not retained from the inaccessible Lieber full text ([Steiner et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4693236/)).", "reason":"Retain mechanism; remove unavailable numeric support."
+  },
+  {
+    "id":"C43", "section":"19", "pattern":"^\\| (Hepatic ethanol clearance, saturated|Cytosolic hepatocyte NADH/NAD\\+ ratio shift)[^\\n]+\\n", "flags":"gm", "replacement":"", "reason":"Remove unverified numerical values dependent on inaccessible Lieber original."
+  },
+  {
+    "id":"C44", "section":"*", "pattern":"glucoregulatory model used in this simulator", "replacement":"glucoregulatory research model", "reason":"Remove affiliated implementation reference from scientific prose."
+  },
+  {
+    "id":"C45", "section":"*", "pattern":"The simulator-relevant point:", "replacement":"**Modelling inference:**", "reason":"Separate general modelling proposal from affiliated implementation."
+  },
+  {
+    "id":"C46", "section":"*", "pattern":"Normal sleep architecture and its endocrine choreography", "replacement":"Normal sleep architecture and endocrine timing", "reason":"Replace metaphor with physiological terminology."
+  },
+  {
+    "id":"C47", "section":"7", "pattern":"within-subject AUC variability ~4-fold lower than glargine U100 \\(CV ~20% vs ~82%\\)", "replacement":"within-subject variability of the 0–24-hour glucose infusion rate area under the curve (GIR AUC, a pharmacodynamic glucose-lowering endpoint) was lower than glargine U100 at steady state (CV 20% vs 82%; daily 0.4 U/kg dosing in the reviewed T1D clamp trial)", "reason":"Haahr full-text Variability in Glucose-Lowering Effect section identifies GIR AUC, not plasma insulin exposure AUC."
+  },
+  {
+    "id":"C48", "section":"7", "pattern":"\\| Degludec within-subject AUC variability \\(CV%\\) \\| ~20% \\(vs ~82% for glargine U100\\) \\| ~4-fold reduction; multi-hexamer depot mechanism \\|", "replacement":"| Degludec within-subject variability in glucose-lowering effect (CV of 24-hour GIR AUC) | 20% versus 82% for glargine U100 | Pharmacodynamic endpoint, not insulin-concentration AUC; T1D, 0.4 U/kg daily, clamps on days 6, 9 and 12 at steady state |", "reason":"Correct endpoint and supply repeated-clamp context directly beside values."
+  },
+  {
+    "id":"C49", "section":"7", "pattern":"although degludec achieves ~4-fold lower within-subject variability than glargine U100 \\(CV ~20% vs ~82%\\) by virtue of its multi-hexamer depot mechanism", "replacement":"whereas a separate repeated-clamp comparison found lower within-subject variability in degludec's glucose-lowering effect than glargine U100 (CV of 24-hour GIR AUC 20% versus 82%, after daily 0.4 U/kg dosing at steady state). This pharmacodynamic comparison must not be interpreted as variability in plasma insulin AUC or attributed solely to one molecular feature", "reason":"Do not mix pharmacokinetic exposure variability with pharmacodynamic GIR variability or overclaim isolated mechanistic causality."
+  },
+  {
+    "id":"C50", "section":"1", "pattern":"glycogen synthesis ,", "replacement":"glycogen synthesis,", "reason":"Remove punctuation artefact after unverified numeric clause removal."
+  },
+  {
+    "id":"C51", "section":"19", "pattern":"which contributes ~10% of clearance at moderate doses but is induced 5-10-fold during chronic intake", "replacement":"whose contribution increases with chronic ethanol exposure", "reason":"Do not retain precise induction/clearance fractions from an inaccessible original."
+  }
+]

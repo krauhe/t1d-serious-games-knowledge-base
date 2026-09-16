@@ -1,17 +1,73 @@
 ---
 title: "T1D Physiology and Modelling"
-description: "A selective scientific foundation for games that represent glucose regulation, treatment dynamics, variability, or physiological safety."
-status: "Foundational synthesis"
-updated: 2026-09-05
-evidence-cutoff: "Curated source review updated through 2025; links checked in the source review"
-source-note: "This module reorganises general physiological and modelling evidence for game developers. It is not a clinical protocol or treatment guide."
+description: "A detailed physiological and modelling reference, with short orientation chapters for game developers."
+status: "Canonical reference with orientation chapters"
+updated: 2026-09-16
+source-note: "Detailed chapters are generated from the canonical BG-SCIENCE reference; transfer does not constitute independent source reappraisal."
 ---
 
 This section covers type 1 diabetes (T1D) physiology for games that represent glucose, insulin, meals or activity. It is not required for every psychosocial, narrative or communication game.
+
+## Orientation
+
+The following short chapters introduce concepts and their relevance to game design. They do not replace the detailed reference below.
 
 1. [The glucose–insulin system](glucose-insulin-system.qmd): glucose sources and disposal, tissue-specific insulin action, counterregulation and measurement lag.
 2. [Meals, insulin and exercise](meals-insulin-exercise.qmd): absorption, delayed action and overlapping processes.
 3. [Variability and safety](variability-and-safety.qmd): sleep, illness, stress, alcohol, tissue conditions and acute safety concepts.
 4. [Model families](model-families.qmd): alternative model structures, assumptions and validation.
 
-The chapters distinguish physiological evidence from modelling proposals. Quantitative anchors retain their experimental populations and limitations; none should be converted into a personal prediction or dose recommendation. Detailed immunology, long-term complications and individual treatment algorithms are outside this module.
+## Detailed physiological reference
+
+These 30 chapters retain the mechanisms, quantitative tables, study context and references of the canonical physiological document. They are synchronised from that source, excluding affiliated-game implementation notes. This is a reference for scientific and educational development, not an individual treatment algorithm. Claim-level appraisal remains uneven; source-transfer completeness is not evidence that every underlying result has been independently verified.
+
+### Glucose homeostasis
+
+1. [Glucose distribution](reference/01-glucose-distribution.qmd)
+2. [Hepatic glucose production](reference/02-hepatic-glucose-production.qmd)
+3. [Renal glucose handling](reference/03-renal-glucose-handling.qmd)
+4. [Brain glucose consumption](reference/04-brain-glucose-consumption.qmd)
+
+### Nutrition and insulin pharmacology
+
+1. [Carbohydrate digestion, absorption and gastric emptying](reference/05-carbohydrates.qmd)
+2. [Fat and protein](reference/06-fat-and-protein.qmd)
+3. [Insulin: injection, distribution and action](reference/07-insulin-pharmacology.qmd)
+
+### Activity and recovery
+
+1. [Aerobic exercise](reference/08-aerobic-exercise.qmd)
+2. [Resistance exercise and sprinting](reference/09-anaerobic-exercise.qmd)
+3. [Exercise-induced inflammation](reference/10-exercise-inflammation.qmd)
+4. [Relaxation, yoga and meditation](reference/10b-relaxation-yoga.qmd)
+
+### Hormones and temporal variation
+
+1. [Counterregulation](reference/11-counterregulatory-hormones.qmd)
+2. [Dawn phenomenon](reference/12-dawn-phenomenon.qmd)
+3. [Somogyi hypothesis](reference/13-somogyi-effect.qmd)
+4. [Diurnal insulin sensitivity](reference/14-diurnal-variation-isf.qmd)
+5. [Menstrual cycle](reference/15-menstrual-cycle.qmd)
+6. [Seasonal variation](reference/16-seasonal-variation.qmd)
+
+### Context and treatment delivery
+
+1. [Illness and infection](reference/17-illness-infection.qmd)
+2. [Sleep and sleep deprivation](reference/18-sleep-deprivation.qmd)
+3. [Alcohol](reference/19-alcohol.qmd)
+4. [Psychological stress](reference/20-psychological-stress.qmd)
+5. [Temperature and climate](reference/21-temperature-climate.qmd)
+6. [Injection site and lipohypertrophy](reference/22-injection-site.qmd)
+
+### Acute complications and nonlinear responses
+
+1. [Ketogenesis and diabetic ketoacidosis](reference/23-ketones-dka.qmd)
+2. [Insulin overdose and counterregulatory limits](reference/24-insulin-overdose.qmd)
+3. [Nonlinear insulin action](reference/25-nonlinear-insulin.qmd)
+4. [Glucotoxicity](reference/26-glucotoxicity.qmd)
+
+### Measurement and research models
+
+1. [Continuous glucose monitoring](reference/27-cgm-technology.qmd)
+2. [Mathematical modelling, identification and validation](reference/28-mathematical-models.qmd)
+3. [Comparison of research-model families](reference/29-model-comparison.qmd)

@@ -29,6 +29,10 @@ The original audit backlog preserves erroneous citation identities as historical
 
 The Nørlev (2022) participatory-design paper and Lauritzen et al. (2012) social-games paper were already retained locally and were not downloaded again.
 
+## Regulatory source gap — 16 September 2026
+
+**European Parliament and Council (2017, consolidated 19 July 2026), Regulation (EU) 2017/745 on medical devices; CELEX 02017R0745-20260719.** High priority before a definitive legal update. The consolidated version was identified through official EUR-Lex search results, but local PDF, HTML and original-law requests returned HTTP 202 with empty content. This is an **open-access retrieval failure**, not a paywall. Direct verification of Articles 2, 10, 52 and 61, Annex VIII Rule 11 and amendments remains outstanding. The regulatory chapter therefore relies on acquired MDCG guidance and explicitly states this limitation. Lawful next route: normal browser access to EUR-Lex or an official institutional legal-library copy. Exact attempted URLs and source-reading boundaries are retained in the [regulatory source record](../docs/reviews/2026-09-16_regulatory-sources.md).
+
 ## 1. Highest acquisition priority
 
 | Priority | Source | Stable identifier | Current full-text status | Why it matters |
@@ -64,6 +68,21 @@ The Nørlev (2022) participatory-design paper and Lauritzen et al. (2012) social
 | Reinders et al. (2026), *A Serious Digital Game (SugarVita) to Support Diabetes Self-Management: Pilot Randomized Controlled Trial* | [DOI 10.2196/99345](https://doi.org/10.2196/99345); [PMCID PMC13451009](https://pmc.ncbi.nlm.nih.gov/articles/PMC13451009/) | The article is openly readable, but the official PDF and repository endpoints returned empty files or server errors during local acquisition on 5 September 2026. No invalid placeholder was retained. | Type 2 diabetes comparator published after the principal T1D review search; relevant to physiology-based game simulation and evaluation design. |
 
 ## 5. Suggested access routes
+
+### Additional learning-science access gaps, 16 September 2026
+
+These are unresolved full-text acquisitions, not confirmed subscription barriers. Existing bounded conceptual or abstract-level uses remain limited accordingly; detailed attempts are in the [learning source record](../docs/reviews/2026-09-16_learning-depth.md).
+
+| Source | DOI | Observed access limitation |
+|---|---|---|
+| Ericsson et al. (1993), deliberate practice | `10.1037/0033-295X.100.3.363` | Institutional retrieval failed. |
+| Cai et al. (2022), scaffolding meta-analysis | `10.1007/s10648-021-09655-0` | Publisher client challenge. |
+| Zhou et al. (2020), narrative health games | `10.1080/10810730.2019.1701586` | Publisher HTTP 403. |
+| Deci et al. (1999), extrinsic rewards | `10.1037/0033-2909.125.6.627` | Generic publisher shell, not validated full text. |
+| Vanden Abeele et al. (2020), Player Experience Inventory | `10.1016/j.ijhcs.2019.102370` | Redirect shell; abstract accessible. |
+| Glasgow et al. (1999), RE-AIM | `10.2105/AJPH.89.9.1322` | PDF endpoint returned an interstitial rather than the article. |
+
+The [physiology acquisition backlog](../docs/reviews/2026-09-16_physiology-restoration/full-text-backlog.md) separately records inherited source URLs without a matched local full text. This is an acquisition gap, not a finding that every source is paywalled; duplicated publication routes still require identity reconciliation.
 
 1. Use an authorised institutional subscription or interlibrary-loan service.
 2. Request a lawful author manuscript from the corresponding author.

@@ -1,0 +1,506 @@
+{
+  "source": "T1D Simulator/docs/BG-SCIENCE.md",
+  "source_version": "2026-09-16-v1",
+  "source_sha256": "8b40791f736fb8d7ed07c5dd2a7bea5c5f5297691e1640f3ede27451b2cdc7b4",
+  "hash_normalization": "UTF-8 text with LF line endings",
+  "generator_sha256": "e20f1480128b0cdc57e75fad8edab2a08a97b3084bb45e420c3405e38b1c3a31",
+  "source_git_at_generation": {
+    "commit": "116246411614fbd80c0212a5b54be21c31ce5ff2",
+    "source_dirty": true
+  },
+  "mode": "Structural transfer from canonical source; no KB-specific scientific corrections; not independent source appraisal",
+  "sections": [
+    {
+      "id": "1",
+      "title": "How glucose moves through the body",
+      "source_line": 91,
+      "output": "knowledge/physiology/reference/01-glucose-distribution.qmd",
+      "source_words": 1697,
+      "restored_words": 1599,
+      "output_sha256": "6de4bfe6498e04b0b42136a11482b33bfab6bba32d812d5d50fe0a688132a6d6",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "2",
+      "title": "Hepatic glucose production",
+      "source_line": 155,
+      "output": "knowledge/physiology/reference/02-hepatic-glucose-production.qmd",
+      "source_words": 2043,
+      "restored_words": 1973,
+      "output_sha256": "3f620af5a84cd1fe5c17e772b5586d13415a310b0fa6286eaece4f488f15e860",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "3",
+      "title": "The kidneys in glucose homeostasis",
+      "source_line": 227,
+      "output": "knowledge/physiology/reference/03-renal-glucose-handling.qmd",
+      "source_words": 1454,
+      "restored_words": 1399,
+      "output_sha256": "3e9f9cd000fa77039e905a67d11e62042e6452369d7e368836fabbb4e508e5cb",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "4",
+      "title": "The brain's glucose consumption",
+      "source_line": 297,
+      "output": "knowledge/physiology/reference/04-brain-glucose-consumption.qmd",
+      "source_words": 2431,
+      "restored_words": 2321,
+      "output_sha256": "563c9868c0df3e2509bbf0764c64860f69498164ce3d811cf569da5b82a3b3bf",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "5",
+      "title": "Carbohydrates -- from mouth to blood glucose",
+      "source_line": 388,
+      "output": "knowledge/physiology/reference/05-carbohydrates.qmd",
+      "source_words": 10524,
+      "restored_words": 10357,
+      "output_sha256": "101762a3eb03f224fbb3eb6e28d43c603e9b718e920f7a1b35bbeff732c6f1b8",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "6",
+      "title": "Fat and protein -- the forgotten macronutrients",
+      "source_line": 725,
+      "output": "knowledge/physiology/reference/06-fat-and-protein.qmd",
+      "source_words": 3239,
+      "restored_words": 3080,
+      "output_sha256": "d0e2ce2e5bbba7d50d165252d0a93a821d3eaba56b88c790c4d0945219847b23",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "7",
+      "title": "Insulin -- from injection to effect",
+      "source_line": 824,
+      "output": "knowledge/physiology/reference/07-insulin-pharmacology.qmd",
+      "source_words": 3420,
+      "restored_words": 3223,
+      "output_sha256": "fd6d994ef9d947f5a80ff5191fcbcfb0f12609b05a6efc2c300114bb9b3cc519",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "8",
+      "title": "Aerobic exercise -- running, cycling, swimming",
+      "source_line": 935,
+      "output": "knowledge/physiology/reference/08-aerobic-exercise.qmd",
+      "source_words": 2745,
+      "restored_words": 2662,
+      "output_sha256": "a40095a2a5ede831389db79f6dba7ab79fed355666f9b21eea36cffc15a4ec64",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "9",
+      "title": "Anaerobic training -- resistance training and sprinting",
+      "source_line": 1028,
+      "output": "knowledge/physiology/reference/09-anaerobic-exercise.qmd",
+      "source_words": 3809,
+      "restored_words": 3620,
+      "output_sha256": "1bd9e79732057e82359c1ded9c77935a46445bb1e6a00f042c45db3fc6f958ed",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "10",
+      "title": "Exercise-induced inflammation -- when exercise hurts",
+      "source_line": 1137,
+      "output": "knowledge/physiology/reference/10-exercise-inflammation.qmd",
+      "source_words": 3456,
+      "restored_words": 3345,
+      "output_sha256": "273011c586dec44654beffb85f6682e55ce047aa3c34af7e446c47e5a998d0c5",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "10b",
+      "title": "Relaxation, yoga, and meditation -- stress reduction and blood glucose",
+      "source_line": 1239,
+      "output": "knowledge/physiology/reference/10b-relaxation-yoga.qmd",
+      "source_words": 2081,
+      "restored_words": 2015,
+      "output_sha256": "a19bc71f86ef9779b185e998b01a391fc675277c3bf1a578b4c6903e13455d1c",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "11",
+      "title": "Counterregulatory hormones — the body's defense against hypoglycemia",
+      "source_line": 1315,
+      "output": "knowledge/physiology/reference/11-counterregulatory-hormones.qmd",
+      "source_words": 2993,
+      "restored_words": 2974,
+      "output_sha256": "4ecd1aabee7bd45e59eee9191a9c05bae3d4995606f707353682412275c86cca",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "12",
+      "title": "The dawn phenomenon — pre-awakening glucose rise",
+      "source_line": 1410,
+      "output": "knowledge/physiology/reference/12-dawn-phenomenon.qmd",
+      "source_words": 2545,
+      "restored_words": 2528,
+      "output_sha256": "6f8446fbdb73a77134d5cc52a3b02b79028afe63f0ef08da6c86c3af76746d8a",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "13",
+      "title": "The Somogyi effect — rebound hyperglycemia after nocturnal hypoglycemia",
+      "source_line": 1463,
+      "output": "knowledge/physiology/reference/13-somogyi-effect.qmd",
+      "source_words": 2517,
+      "restored_words": 2498,
+      "output_sha256": "1c5630e5f78b4d13a51ac9123178b47821264189383ba88983c6cc87f873060a",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "14",
+      "title": "Diurnal variation in insulin sensitivity",
+      "source_line": 1541,
+      "output": "knowledge/physiology/reference/14-diurnal-variation-isf.qmd",
+      "source_words": 3649,
+      "restored_words": 3555,
+      "output_sha256": "1de685789ddf3d99614e27f54f382fe03ff4e315338ae3fde3827eb906bbd826",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "15",
+      "title": "Menstrual cycle and insulin requirements",
+      "source_line": 1655,
+      "output": "knowledge/physiology/reference/15-menstrual-cycle.qmd",
+      "source_words": 1918,
+      "restored_words": 1907,
+      "output_sha256": "c56b69d0d3cb53580a4655e98046d55bc617ed98afb93ab7b4262da597c48209",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "16",
+      "title": "Seasonal variation in glycemia and insulin requirements",
+      "source_line": 1714,
+      "output": "knowledge/physiology/reference/16-seasonal-variation.qmd",
+      "source_words": 1526,
+      "restored_words": 1504,
+      "output_sha256": "11e173061ecf985b0ff69dd8fd808fce09fee5dcee44d5bf9d495b57fe5276a6",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "17",
+      "title": "Acute illness and infection — sick-day physiology",
+      "source_line": 1767,
+      "output": "knowledge/physiology/reference/17-illness-infection.qmd",
+      "source_words": 2462,
+      "restored_words": 2429,
+      "output_sha256": "b7391ce719650fbb11d1ba72a7531b326dd059f8fe7962bd435a78198104cb4e",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "18",
+      "title": "Sleep and sleep deprivation",
+      "source_line": 1845,
+      "output": "knowledge/physiology/reference/18-sleep-deprivation.qmd",
+      "source_words": 2384,
+      "restored_words": 2349,
+      "output_sha256": "e1b15722d43defe8af6265d8bd06857854df846e798b9294b3352488920b5c7b",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "19",
+      "title": "Alcohol -- ethanol metabolism, gluconeogenesis, and delayed hypoglycemia",
+      "source_line": 1909,
+      "output": "knowledge/physiology/reference/19-alcohol.qmd",
+      "source_words": 2504,
+      "restored_words": 2493,
+      "output_sha256": "40a753f7f07fb28dad2d9d75203cad3fa2dca9445730e202042097f1a705da75",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "20",
+      "title": "Psychological stress",
+      "source_line": 1992,
+      "output": "knowledge/physiology/reference/20-psychological-stress.qmd",
+      "source_words": 2340,
+      "restored_words": 2311,
+      "output_sha256": "f089f0fdf0ec2899950f16368a1b735664c569a545828d80c22ac8e747db93cf",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "21",
+      "title": "Temperature and climate",
+      "source_line": 2074,
+      "output": "knowledge/physiology/reference/21-temperature-climate.qmd",
+      "source_words": 2156,
+      "restored_words": 2128,
+      "output_sha256": "85485129b233eaf1cc38620313bcafb5a436afa6ac78919b9724a2b8a74dc364",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "22",
+      "title": "Injection site, technique, and lipohypertrophy",
+      "source_line": 2134,
+      "output": "knowledge/physiology/reference/22-injection-site.qmd",
+      "source_words": 2269,
+      "restored_words": 2228,
+      "output_sha256": "c67ca7308c7a7873f3e2a334b9b5aaef9d10fa51b4b2f8d0a8fbf6ec64ada981",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "23",
+      "title": "Ketone bodies and diabetic ketoacidosis",
+      "source_line": 2203,
+      "output": "knowledge/physiology/reference/23-ketones-dka.qmd",
+      "source_words": 5026,
+      "restored_words": 4933,
+      "output_sha256": "c04be7dc4216758a8a18d2eda72ffa605154a74972fc5b3c7d76f1d3fbd64c93",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "24",
+      "title": "Insulin overdose and the limitations of counterregulation",
+      "source_line": 2360,
+      "output": "knowledge/physiology/reference/24-insulin-overdose.qmd",
+      "source_words": 2260,
+      "restored_words": 2234,
+      "output_sha256": "4121a9e1b72045d604e22d8b86318341ceb7cfe40b2fd05acbca60b0dbcd8cba",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "25",
+      "title": "Non-linearity in insulin action — threshold effects and dose-response saturation",
+      "source_line": 2412,
+      "output": "knowledge/physiology/reference/25-nonlinear-insulin.qmd",
+      "source_words": 3357,
+      "restored_words": 3278,
+      "output_sha256": "5f47b63667a7614064a4bf3c9abf8a38cdea899b59e1dc7bde2a6fddf2fb2872",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "26",
+      "title": "Glucotoxicity — hyperglycemia-induced insulin resistance and tissue damage",
+      "source_line": 2527,
+      "output": "knowledge/physiology/reference/26-glucotoxicity.qmd",
+      "source_words": 3713,
+      "restored_words": 3691,
+      "output_sha256": "7bbfece503bb1dd13137925aabe4595b31f6c49aeb7abf3ab1ca24620b370208",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "27",
+      "title": "CGM technology — continuous glucose monitoring sensors and algorithms",
+      "source_line": 2636,
+      "output": "knowledge/physiology/reference/27-cgm-technology.qmd",
+      "source_words": 2592,
+      "restored_words": 2572,
+      "output_sha256": "1338ca15d3db707e404004a26a6a29094bb4c4b2746a47429b984377c05b1c36",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "28",
+      "title": "Mathematical models of glucose-insulin dynamics in research",
+      "source_line": 2788,
+      "output": "knowledge/physiology/reference/28-mathematical-models.qmd",
+      "source_words": 3917,
+      "restored_words": 3897,
+      "output_sha256": "3d40784985338033af952887d962881220efbfe16d7fb6a7e9b387ff142a4c7b",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    },
+    {
+      "id": "29",
+      "title": "Comparison of major T1D glucose-insulin research models",
+      "source_line": 2913,
+      "output": "knowledge/physiology/reference/29-model-comparison.qmd",
+      "source_words": 3709,
+      "restored_words": 3683,
+      "output_sha256": "3bc13184d3461f5324bc5cbf105bc44cfca288d85b2160d8c409ddf75192e15a",
+      "coverage": "Transferred without scientific rewriting; source appraisal incomplete"
+    }
+  ],
+  "omissions": [
+    {
+      "section": "1",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "*Implementation: see [§3 Glucose — The Body's Fuel in MODEL-IMPLEMENTATION.md](MODEL-IMPLEMENTATION.md#glucose) for the simulator implementation. NB: only the two-compartment plasma–tissue exchange (Q1, Q2 with k₁₂ = 0.066 min⁻¹) and distribution volume (V_G = 0.16 L/kg body weight) are modeled. The Q2 pool conflates interstitial and intracellular kinetics, the asymmetric phosphorylation trap (G6Pase present in liver/kidney, absent in muscle/adipose) is not represented, and individual GLUT transporter dynamics (GLUT1/2/3 vs insulin-regulated GLUT4) are abstracted into a single insulin-dependent disposal rate via the x1 and x2 insulin-action states.*"
+    },
+    {
+      "section": "2",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "*Implementation: see [§3 Glucose — The Body's Fuel in MODEL-IMPLEMENTATION.md](MODEL-IMPLEMENTATION.md#glucose) and [§7 Stress Hormones in MODEL-IMPLEMENTATION.md](MODEL-IMPLEMENTATION.md#stress-hormones) for the simulator implementation. NB: the simulator models a basal EGP rate (EGP0) suppressed by insulin and amplified by stress hormones (acute and chronic). Glycogen-vs-gluconeogenesis split, the portal-peripheral insulin gradient asymmetry, and the substrate-specific kinetics are abstracted away. Glycogen depletion limits acute counterregulation in the simulator.*"
+    },
+    {
+      "section": "3",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "*Implementation: see [§3 Glucose — The Body's Fuel in MODEL-IMPLEMENTATION.md](MODEL-IMPLEMENTATION.md#glucose) for the simulator implementation. NB: only the renal glucose excretion threshold (R_thr = 9 mmol/L) is currently modeled; renal gluconeogenesis, glomerular hyperfiltration, individual TmG variation, and SGLT2 inhibitor pharmacology are documented here as reference knowledge but are not implemented in the simulator.*"
+    },
+    {
+      "section": "4",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "*Implementation: see [§3 Glucose — The Body's Fuel in MODEL-IMPLEMENTATION.md](MODEL-IMPLEMENTATION.md#glucose) for the simulator implementation. NB: the simulator models brain glucose consumption as a fixed insulin-independent rate (F01) per kg body weight, with linearly reduced consumption when BG drops below ~4.5 mmol/L (Hovorka 2004 formulation). It does not model: GLUT1/GLUT3 saturation kinetics explicitly, regional gray/white matter variation, the astrocyte–neuron lactate shuttle, ketone utilization during prolonged hypoglycemia or fasting, BBB GLUT1 adaptation in chronic hyper- or hypoglycemia, HAAF-related symptom-threshold shifts (HAAF is implemented elsewhere as autonomic counterregulation, not as cerebral symptom thresholds), or DKA-associated cerebral edema risk.*"
+    },
+    {
+      "section": "4",
+      "reason": "Part divider replaced by module navigation",
+      "original": "# Part 2: Macronutrient handling"
+    },
+    {
+      "section": "5",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "*Implementation: see [§5 Food — From Plate to Bloodstream in MODEL-IMPLEMENTATION.md](MODEL-IMPLEMENTATION.md#food) for the simulator implementation. NB: the simulator uses the two-compartment Hovorka 2004 gut absorption model with a single composite first-order time constant τ_G per food and bioavailability A_G; it does not separate SGLT1, GLUT2, and GLUT5 fluxes; it does not model the lag-then-linear solid emptying profile; the volume-dependent caloric clamp is captured only indirectly through composition-dependent τ_G; soluble and insoluble fibre are aggregated into a single fibre modulator; first-pass splanchnic extraction is implicit in A_G rather than represented as a separate hepatic compartment; diabetic gastroparesis is not modelled. The dynamic τ_G system implements fat-mediated, fibre-mediated, carb-type-mediated, and hyperglycaemia-mediated (Michaelis-Menten saturating modifier above 8 mmol/L, calibrated against Schvarcz et al. 1997) modifiers as multiplicative scalings; the variability and modelling-parameters sections above provide quantitative targets for extending this system with exercise, stress, sleep, and stochastic variability modifiers.*"
+    },
+    {
+      "section": "6",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "*Implementation: see [§Food — From Plate to Bloodstream in MODEL-IMPLEMENTATION.md](MODEL-IMPLEMENTATION.md#food) and [FFA-Induced Insulin Resistance in MODEL-IMPLEMENTATION.md](MODEL-IMPLEMENTATION.md#ffa-resistance) for the simulator implementation. NB: the simulator (a) approximates fat-induced gastric-emptying delay through a single fat-dose-dependent additive term in τG without resolving CCK/GLP-1/PYY kinetics; (b) represents the protein-driven late hyperglycemia as a delayed glucose-appearance flux rather than as an explicit α-cell glucagon response acting on hepatic glucose output (i.e., glucagon kinetics are not represented as a state variable); (c) implements FFA-induced peripheral insulin resistance as a static postprandial adjustment rather than the time-developing DAG–PKCθ-driven phenomenon documented above; (d) does not differentiate protein-source absorption kinetics. The dose-thresholds (≥ 75 g protein alone, ≥ 12.5 g in mixed meals) and the additivity coefficient from Smart 2013 are useful reference values for calibrating these terms but are not currently parameterized as such.*"
+    },
+    {
+      "section": "6",
+      "reason": "Part divider replaced by module navigation",
+      "original": "# Part 3: Insulin pharmacology"
+    },
+    {
+      "section": "7",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "*Implementation: see [§4 Insulin — The Key to the Cells in MODEL-IMPLEMENTATION.md](MODEL-IMPLEMENTATION.md#insulin) for the simulator implementation. NB: the simulator (a) uses a two-compartment Hovorka 2004 SC absorption cascade (S1 → S2 → plasma I) with a single absorption rate constant per insulin source rather than resolving hexamer → dimer → monomer dissociation kinetics; (b) does not differentiate insulin analogues by molecular chemistry — calibration is via lumped Tmax and bioavailability for each insulin \"type\" rather than via the analogue-specific dissociation constants; (c) does not model dose-volume-dependent absorption slowing for large boluses; (d) does not model hepatic first-pass extraction (since SC-injected insulin bypasses portal delivery, the simplification is appropriate for the SC-therapy context but excludes the modelling of physiological/intra-portal infusion modes); (e) does not represent insulin antibodies, lipohypertrophy, or regional injection-site variability as state variables; (f) represents insulin signaling at the kinetic-rate level (x1 transport, x2 disposal, x3 EGP suppression remote effects) rather than as explicit IR–IRS–PI3K–Akt–AS160 cascades. The intra-injection variability noted above is partially captured via a CV ≈ 25% on the absorption time constant (see §13 Variability in MODEL-IMPLEMENTATION.md).*"
+    },
+    {
+      "section": "7",
+      "reason": "Part divider replaced by module navigation",
+      "original": "# Part 4: Physical Activity"
+    },
+    {
+      "section": "8",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "*Implementation: see [Activity -- Four Activity Types with Different Physiology in MODEL-IMPLEMENTATION.md](MODEL-IMPLEMENTATION.md#activity) for the simulator implementation. NB: the simulator uses the Rashid/Resalat extended Hovorka model with a discrete fast (contraction-mediated) and slow (PEIS) component; substrate switching between CHO and fat oxidation is not represented; AMPK / Ca²⁺ / Rac1 activation is collapsed into a single contraction-effect surrogate; and the SC insulin-absorption acceleration during exercise is approximated by a heart-rate-scaled rate constant rather than mechanistic blood-flow / temperature compartments.*"
+    },
+    {
+      "section": "9",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "*Implementation: see [§Activity — Four Activity Types with Different Physiology in MODEL-IMPLEMENTATION.md](MODEL-IMPLEMENTATION.md#activity) for the simulator implementation. The simulator separates contraction-mediated uptake, exercise-specific hepatic glucose production, delayed insulin-mediated sensitivity, perfusion-dependent insulin absorption and muscle-glycogen turnover. Strength training uses a smooth fourth-order Hill latency gate with a 150-minute half-onset time for its insulin-mediated sensitivity response. This keeps the response near baseline during a 45-minute bout and early recovery, consistent with Young et al. (2023), while avoiding an unsupported biological switch at one exact minute. The half-onset time is a conservative implementation parameter rather than an identified molecular constant. The exercise-specific hepatic response is shared by all fictional characters; only the existing weight-based body scale changes. The absolute contraction flux is scaled around the 70 kg reference because the game has no independent lean-mass state. Plasma lactate and MCT1/MCT4 transport are not explicit states; their net hepatic contribution is aggregated in the exercise-specific hepatic-drive term. Prandial state and time of day affect the shared insulin and circadian physiology but are not resistance-specific parameters.*"
+    },
+    {
+      "section": "10",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "*Implementation: see [§Activity — Four Activity Types in MODEL-IMPLEMENTATION.md](MODEL-IMPLEMENTATION.md#activity). NB: exercise-induced inflammation is not currently implemented in the simulator — neither the acute pro-inflammatory cytokine state, the eccentric-damage signal, nor the 24–72 h post-damaging-exercise insulin-resistance phase. The simulator's PEIS model (see §8) captures the *anti-inflammatory* insulin-sensitizing aftereffect of moderate non-damaging exercise but not its inverse for damaging or unaccustomed exercise. A future extension would require a fitness-level state, an exercise-novelty / eccentric-load metric, or per-session muscle-damage scoring with a 24–72 h decaying insulin-resistance multiplier acting on both peripheral glucose disposal and hepatic insulin sensitivity.*"
+    },
+    {
+      "section": "10b",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "*Implementation: the simulator does not model heart rate variability, vagal tone, or relaxation-practice modalities (yoga vs meditation vs breathwork). Cortisol and catecholamine modulation is implemented through a generic stress-input parameter (see [§Stress hormones in MODEL-IMPLEMENTATION.md](MODEL-IMPLEMENTATION.md#stress-hormones)); decreases in that parameter therefore approximate the indirect glycaemic effect of relaxation training but do not represent any practice-specific mechanism.*"
+    },
+    {
+      "section": "10b",
+      "reason": "Part divider replaced by module navigation",
+      "original": "# Part 5: Hormones and Circadian Rhythm"
+    },
+    {
+      "section": "11",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** See [Stress Hormones — The Body's Counterplay](MODEL-IMPLEMENTATION.md#stress-hormones) in MODEL-IMPLEMENTATION for how this is modeled in the simulator."
+    },
+    {
+      "section": "12",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** See [The Dawn Phenomenon and Circadian Insulin Sensitivity](MODEL-IMPLEMENTATION.md#dawn) in MODEL-IMPLEMENTATION for how this is modeled."
+    },
+    {
+      "section": "13",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** Not separately modeled in the simulator; emerges from interaction of the counterregulatory hormone model and basal insulin pharmacokinetics."
+    },
+    {
+      "section": "14",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** See [The Dawn Phenomenon and Circadian Insulin Sensitivity](MODEL-IMPLEMENTATION.md#dawn) in MODEL-IMPLEMENTATION for how this is modeled in the simulator. The simulator uses a ~50% peak-to-trough ISF amplitude (1.20 → 0.70 → 1.20) based on the Toffanin (2013) virtual-patient curve, dampened relative to algorithm-design references. This is an engineering heuristic for educational realism — it is *not* a population-validated T1D physiological curve (Hinshaw 2013 found no statistically significant population-wide diurnal SI rhythm in T1D adults). The choice should be revisited if better quantitative human T1D data become available."
+    },
+    {
+      "section": "15",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** Not currently modeled in the simulator (deferred — see TODO #24)."
+    },
+    {
+      "section": "16",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** Not separately modeled in the simulator (subsumed into §21 Temperature/climate effects on insulin absorption)."
+    },
+    {
+      "section": "16",
+      "reason": "Part divider replaced by module navigation",
+      "original": "# Part 6: Lifestyle and External Factors"
+    },
+    {
+      "section": "17",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** Not currently modeled as a discrete event in the simulator. Components (cytokine-induced insulin resistance, counterregulatory hormone activation) draw on the same physiological pathways modeled in [Stress Hormones](MODEL-IMPLEMENTATION.md#stress-hormones) and [Inflammation/FFA Resistance](MODEL-IMPLEMENTATION.md#ffa-resistance)."
+    },
+    {
+      "section": "18",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** Not currently modeled in the simulator. Sleep effects (cortisol elevation, sympathetic tone, ISF reduction) are subsumed into the [Stress Hormones](MODEL-IMPLEMENTATION.md#stress-hormones) framework if the player simulates a stressed/sleep-deprived state by adjusting stress inputs."
+    },
+    {
+      "section": "19",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** Not currently modeled in the simulator (deferred -- see TODO #28)."
+    },
+    {
+      "section": "20",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** Acute psychological stress effects are subsumed into the [Stress Hormones](MODEL-IMPLEMENTATION.md#stress-hormones) framework. The simulator's stress-hormone driver is intentionally agnostic to the trigger (illness, exercise overshoot, psychological stress)."
+    },
+    {
+      "section": "21",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** Not currently modeled as a discrete temperature input. The exercise-induced absorption acceleration is partly captured in the activity model — see [Activity Effects on Insulin and Glucose](MODEL-IMPLEMENTATION.md#activity)."
+    },
+    {
+      "section": "22",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** Not currently modeled as a discrete site selection in the simulator. The Hovorka two-compartment subcutaneous absorption model used (see [Insulin Absorption](MODEL-IMPLEMENTATION.md#insulin)) implicitly represents abdominal-region kinetics, the most common site in clinical practice."
+    },
+    {
+      "section": "22",
+      "reason": "Part divider replaced by module navigation",
+      "original": "# Part 7: Complications and Warning Signs"
+    },
+    {
+      "section": "23",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** See [Ketones and Ketoacidosis (DKA)](MODEL-IMPLEMENTATION.md#ketones) in MODEL-IMPLEMENTATION for how this is modeled in the simulator. Note: as of 2026-06-06 the CPT-1 gate is fed by a combined hepatic FFA pool — adipose-lipolysis-derived FFA plus a weighted fraction of the dietary (chylomicron-remnant + LPL-spillover) pool — so the dietary-fat contribution to ketogenesis discussed above is now represented in lumped form. The chain-length-specific medium-chain triglyceride (MCT) pathway, which bypasses CPT-1 entirely, remains unmodeled and is the residual documented gap relative to the reference physiology."
+    },
+    {
+      "section": "24",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** Insulin overdose is not a separately modeled scenario; it emerges from the existing insulin pharmacokinetic and counterregulatory hormone models — see [Insulin Pharmacokinetics](MODEL-IMPLEMENTATION.md#insulin) and [Stress Hormones](MODEL-IMPLEMENTATION.md#stress-hormones)."
+    },
+    {
+      "section": "25",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** The simulator applies a Hill target to the muscle transport and disposal channels (`x1`/`x2`; EC50 55 mU/L, n = 1.5), and post-exercise insulin sensitivity shifts that EC50 leftward. Adipose anti-lipolysis already uses a separate Hill response. The hepatic `x3` channel remains a documented linear early-response approximation because a literal plasma-referenced hepatic Hill curve was incompatible with the model's basal insulin scale. See [Non-linear Insulin Dose-Response](MODEL-IMPLEMENTATION.md#nonlinear-insulin) and the [implementation decision](reviews/2026-06-13_nonlinear-insulin-dose-response-decision.md)."
+    },
+    {
+      "section": "26",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "**Active in simulator**"
+    },
+    {
+      "section": "26",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** See [Glucotoxic Insulin Resistance](MODEL-IMPLEMENTATION.md#glucotoxicity) in MODEL-IMPLEMENTATION for how this is modeled."
+    },
+    {
+      "section": "26",
+      "reason": "Part divider replaced by module navigation",
+      "original": "# Part 8: Technology and Research Models"
+    },
+    {
+      "section": "27",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** See [CGM Sensor Modeling](MODEL-IMPLEMENTATION.md#cgm) in MODEL-IMPLEMENTATION for how the simulator's CGM is modeled (lag, noise, calibration drift)."
+    },
+    {
+      "section": "28",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** The T1D Simulator implements the [Hovorka 2004 nonlinear MPC model](MODEL-IMPLEMENTATION.md#hovorka-model). See §29 below for comparison with other research models."
+    },
+    {
+      "section": "29",
+      "reason": "Affiliated simulator implementation footer",
+      "original": "> 🔧 **Implementation:** The T1D Simulator uses the [Hovorka 2004 model](MODEL-IMPLEMENTATION.md#hovorka-model) — chosen for its T1D specificity, identifiability with clinical clamp data, and computational tractability for browser-based simulation."
+    }
+  ]
+}

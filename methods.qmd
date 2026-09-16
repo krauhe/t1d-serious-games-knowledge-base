@@ -41,6 +41,8 @@ The targeted **6 September 2026** audit corrected selected claims and sources; i
 
 **15 September 2026:** DEXTRO DASH 2000 was added from a user nomination and developer documentation, without an outcome evaluation. Catalogue restructuring and editorial compression on that date do not refresh the scientific search, product verification or full-text appraisal dates.
 
+**16 September 2026:** learning, evaluation and sustainability chapters were expanded through targeted source appraisal; a regulatory chapter was added from official guidance. Detailed physiology was restored from the corrected canonical physiological reference, with source-version and transfer records. This is not a comprehensive search update or independent verification of every transferred claim. The [source register](references/SOURCE-INDEX.md) links the chapter-specific records and unresolved access gaps.
+
 Full-text limitations are recorded in the [wishlist](references/PAYWALLED-WISHLIST.md) and source ledgers. Acquisition, resource identity and scientific appraisal are distinct: retaining a file does not establish that every claim has been checked against it.
 
 ## Reference

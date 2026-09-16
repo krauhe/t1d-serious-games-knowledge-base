@@ -15,6 +15,7 @@ Explore games for ==type 1 diabetes (T1D)== education, self-management and psych
 3. **[Learning science](knowledge/design/learning-science.qmd) and [design comparisons](knowledge/comparisons/comparative-analysis.qmd):** how to structure practice, feedback, narrative and progression.
 4. **[T1D Physiology and Modelling](knowledge/physiology/index.qmd):** scientific foundations for games that represent glucose or treatment dynamics; not a requirement for every psychosocial game.
 5. **[Human factors](knowledge/human-factors/onboarding-and-accessibility.qmd) and [sustainability](knowledge/sustainability/index.qmd):** how to make games easier to enter, use and maintain.
+6. **[Regulatory boundaries](knowledge/regulation/regulatory-boundaries.qmd):** education, disease self-management and medical-device development in the European Union and United States.
 
 ## Evidence and access
 

@@ -18,11 +18,31 @@ The mechanisms below are **design proposals** for type 1 diabetes (T1D) games. T
 
 [Learning science](learning-science.qmd) explains feedback and practice; [design comparisons](../comparisons/comparative-analysis.qmd) shows how products implement different interaction structures.
 
+An instructional mechanic is not identical to a visual theme. In a food-estimation task, judging portion size is the relevant activity; collecting decorative coins between questions is a separate activity. Either could contribute to the experience, but only the first directly practises the stated competence. This distinction helps identify what to test: whether a mechanic changes the quantity or quality of practice, supplies informative feedback, supports participation, or merely adds a competing task. The following applications are proposed design analyses unless an outcome study is specified.
+
+## Gamification: measured gains and unresolved mechanisms
+
+**Gamification** adds game-design elements to an activity that is not otherwise a complete game. It should not be treated as interchangeable with a simulation or a narrative serious game. Sailer and Homner pooled educational gamification studies and found benefits for cognitive outcomes (Hedges' *g* = 0.49; 95% confidence interval [CI] 0.30–0.69; 19 samples, 1,686 participants), motivation (*g* = 0.36; 95% CI 0.18–0.54; 16 samples) and behavioural learning outcomes (*g* = 0.25; 95% CI 0.04–0.46; nine samples). The behavioural category mainly concerned activity within learning environments, not disease-management behaviour ([Sailer and Homner, 2020](https://doi.org/10.1007/s10648-019-09498-w)).
+
+The qualification is substantial. In their subset with experimental designs or pre/post quasi-experimental designs, the cognitive advantage remained statistically significant, whereas motivation (*g* = 0.22; 95% CI −0.11–0.56) and behavioural outcomes (*g* = 0.27; 95% CI −0.16–0.70) did not. Smaller subsets reduced precision; these results neither establish absence of benefit nor justify unqualified promises of engagement. They show why the outcome, design quality and uncertainty must accompany the favourable overall average.
+
+Health-specific evidence exposes a further attribution problem. Johnson et al. included 19 empirical reports; 18 combined multiple game elements and none isolated individual elements. In the review's outcome-level tabulation, 22 of 37 health/well-being impacts were positive and 15 were mixed or neutral. Those proportions are not success probabilities for new products. Among 12 studies additionally assessing user experience, two reported negative impacts. Reward use was common, but intrinsic motivation was not directly tested as an outcome or mediator in the included studies ([Johnson et al., 2016](https://doi.org/10.1016/j.invent.2016.10.002)). Thus a product containing points that improves an outcome does not demonstrate that its points caused the improvement.
+
+The practical implication is to describe a proposed causal chain before adding a feature. For example: a progress indicator makes completed practice visible; this may encourage another relevant attempt; additional attempts may improve delayed inference. Those are three different observations. Logging the extra attempt addresses only the middle step. If the display increases clicks without improving explanations or retention, the educational case for it remains incomplete.
+
 ## Narrative and character identification
 
 A meta-analysis of narrative health-game interventions reported beneficial behavioural effects across heterogeneous interventions and populations. It does not isolate the effect of adding a story to a T1D game ([Zhou et al., 2020](https://doi.org/10.1080/10810730.2019.1701586)).
 
 Narrative should alter the decision problem: a character's schedule, uncertainty or social obligations can create competing goals. A decorative character that never affects choices adds presentation but not necessarily a learning activity. For psychosocial games, dialogue and recognition may themselves be the activity; success need not be a physiological metric.
+
+### An informative example from another disease
+
+*Re-Mission* integrated cancer-treatment actions into an action game: the player controlled a nanobot inside fictional patients, using treatment-related tools to address cancer and adverse effects. A multicentre randomised trial enrolled 375 patients aged 13–29 undergoing cancer treatment. Both groups received a computer and a commercial game; the intervention group also received Re-Mission. At one- and three-month follow-up, the intervention favoured cancer knowledge, self-efficacy and objective medication-adherence measures. Electronic antibiotic monitoring was available for 200 participants and chemotherapy-metabolite assays for 54; these are not outcomes measured in all 375. Self-reported adherence, stress, perceived control and quality of life did not show the same intervention advantage ([Kato et al., 2008](https://www.semel.ucla.edu/sites/default/files/publications/Aug%202008%20-%20A%20Video%20Game%20Improves%20Behavioral%20Outcomes.pdf)).
+
+This is **adjacent evidence** that a disease-targeted game can influence specified behaviours, not proof that cancer-game imagery or medication-as-ammunition is appropriate for diabetes. The comparison tested the targeted game package, not story alone; participants could recognise their assigned content and outcome denominators varied. Importantly, fictional patients did not die after failure: the nanobot powered down and the mission could be retried. This is a documented design example of consequential gameplay without requiring death as the teaching device, not evidence that this specific failure treatment caused the trial's benefit.
+
+For T1D, a narrative can instead make the learning objective depend on ordinary constraints: an interrupted plan, uncertainty about food, disclosure to a friend, or asking for help. The story should not imply that a person earns a morally desirable identity through glucose control. A branching conversation may legitimately offer several defensible responses. In that setting, the reflection after a choice matters more than identifying a single “correct” emotional reaction. These are ethical and instructional proposals; their acceptability needs participatory testing with the intended population.
 
 ## Progression and difficulty
 
@@ -34,15 +54,27 @@ Separate three forms of progression:
 
 This is an instructional proposal. Evidence for scaffolding and its limits is discussed in [learning science](learning-science.qmd). A simulation should not silently change its physiological rules to increase difficulty: change the scenario, uncertainty or constraints, and keep the explanation consistent with the represented system.
 
+Difficulty must also be attributed to the right task. Faster animation, smaller targets or more distracting enemies can increase motor difficulty without increasing causal reasoning. Conversely, making a case less predictable can add uncertainty without teaching how to reason about it. A proposed progression first checks that the player can use the controls, then introduces an additional decision or competing objective, and only later reduces support. Separate those adjustments in the scenario specification so that a failed attempt can be interpreted.
+
+Replay has two distinct purposes. An immediate restart can help the learner compare alternatives while remembering the original case; a later, varied case can examine retention and transfer. A reward system that only encourages repeating the easiest completed level may increase use without supplying either form of progression. Unlocking content on the basis of demonstrated reasoning is a defensible hypothesis, but a compulsory gate can exclude someone who would learn better from another explanation. Provide an alternative practice route and observe why people leave the sequence.
+
 ## Motivation and rewards
 
 **Self-determination theory (SDT)** distinguishes autonomy, competence and relatedness. Game research links satisfaction of these needs to motivation; health-intervention evidence is supportive but heterogeneous and not specific to T1D games ([Ryan et al., 2006](https://doi.org/10.1007/s11031-006-9051-8); [Ntoumanis et al., 2021](https://doi.org/10.1080/17437199.2020.1718529)).
 
 A practical translation is to offer meaningful choices, make improvement legible and allow supportive shared play. None requires unlimited options, constant praise or public competition. The relevant question is whether choices change what the learner does and understands.
 
+Diabetes-specific findings are less reassuring than the broad health literature. A review of 11 randomised trials involving 6,059 people with type 1 or type 2 diabetes found no demonstrated benefit of SDT-based interventions on quality of life, diabetes distress or glycated haemoglobin. All trials had high overall risk of bias, and certainty was low or very low; favourable autonomous-motivation findings did not establish corresponding clinical improvement. These were primarily autonomy-supporting care interventions, not games. They neither invalidate SDT as a design framework nor confirm that implementing it improves diabetes outcomes ([Mathiesen et al., 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10483731/)).
+
+Within this theory, autonomy means experiencing one's participation as voluntary and endorsed, not having the largest settings menu. Competence concerns an intelligible relationship between action and improvement, not receiving an uninformative congratulation after every click. Relatedness concerns connection and support, not simply displaying a leaderboard. A theoretical review of video-game engagement links need satisfaction to enjoyment and short-term well-being while distinguishing willing participation from pressured or compulsive engagement. Its studies concern entertainment-game experiences; they do not establish lasting clinical benefit in T1D ([Przybylski et al., 2010](https://selfdeterminationtheory.org/SDT/documents/2010_PrzybylskiRigbyRyan_ROGP.pdf)).
+
+A proposed application is therefore to offer choice over a relevant scenario, explain why a suggested task is useful, and let the learner stop after reaching that objective. Optional challenge can remain demanding. Removing all challenge would eliminate an opportunity to experience mastery; forcing a prolonged session would substitute compliance for autonomy. Player-experience questions should investigate whether the available choices felt meaningful, whether progress was understandable and whether social participation felt supportive, rather than infer those states from interface features.
+
 Gamification meta-analysis reports positive average learning effects, while health-gamification studies vary in quality, mechanisms and outcomes ([Sailer and Homner, 2020](https://doi.org/10.1007/s10648-019-09498-w); [Johnson et al., 2016](https://doi.org/10.1016/j.invent.2016.10.002)). Points and badges therefore need an explicit purpose. Reward a demonstrated skill, a useful explanation or completion of practice—not a real glucose value.
 
 Experimental reward research shows that effects on intrinsic motivation depend on reward type and contingency; it does not imply that every reward is harmful ([Deci et al., 1999](https://doi.org/10.1037/0033-2909.125.6.627)). Avoid making extrinsic rewards the only reason to repeat an activity. Test whether players still choose to practise when rewards are reduced.
+
+The recommendation not to reward a real glucose value is an ethical design position for educational games, not a claim that every real-data intervention is ineffective. Real-data gamification constitutes a different intervention: it can alter monitoring or treatment-related behaviour and requires its own clinical, privacy and regulatory assessment. In an educational simulation, awarding credit for a well-supported explanation despite an imperfect trajectory may better align the score with the learning objective. That proposal must be tested; a scoring rubric should make clear what was credited and should not imply an individual clinical target.
 
 ## Shared play
 
@@ -50,11 +82,19 @@ A proposed cooperative structure assigns one player the prediction, another the 
 
 Clinical education guidance supports developmentally appropriate family participation, but does not validate this particular game structure ([Lindholm Olinder et al., 2022](https://doi.org/10.1111/pedi.13418)). Evaluate whose reasoning changes, rather than reporting only a shared completion score.
 
+Competition and cooperation should also be separated analytically. Sailer and Homner found promising patterns for combined competitive–collaborative arrangements, but the relevant subgroups were small and actual participation in the intended social interactions was poorly documented. Those findings do not justify a mandatory public ranking of children or families. An alternative design compares a team's explanations across successive attempts or asks players to combine complementary information. Record contributions and give each person an individual transfer task; otherwise a knowledgeable participant can conceal another's misunderstanding ([Sailer and Homner, 2020](https://doi.org/10.1007/s10648-019-09498-w)).
+
 ## Check the mechanism
 
 For each feature, document the player action it elicits, the learning objective that action serves and the observation that would show it worked. Remove features that supply neither useful practice nor a justified experiential purpose. [Human factors](../human-factors/onboarding-and-accessibility.qmd) covers emotional safety and accessible entry; [evaluation](evaluation.qmd) covers testing.
 
 ## References
+
+- [Mathiesen, A.S. et al. (2023) “Self-determination theory interventions versus usual care in people with diabetes: a systematic review with meta-analysis and trial sequential analysis”, *Systematic Reviews*, 12, 158.](https://pmc.ncbi.nlm.nih.gov/articles/PMC10483731/)
+
+- [Kato, P.M. et al. (2008) “A video game improves behavioral outcomes in adolescents and young adults with cancer: a randomized trial”, *Pediatrics*, 122(2), pp. e305–e317.](https://www.semel.ucla.edu/sites/default/files/publications/Aug%202008%20-%20A%20Video%20Game%20Improves%20Behavioral%20Outcomes.pdf)
+
+- [Przybylski, A.K., Rigby, C.S. and Ryan, R.M. (2010) “A motivational model of video game engagement”, *Review of General Psychology*, 14(2), pp. 154–166.](https://selfdeterminationtheory.org/SDT/documents/2010_PrzybylskiRigbyRyan_ROGP.pdf)
 
 - [Deci, E.L., Koestner, R. and Ryan, R.M. (1999) “A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation”, *Psychological Bulletin*, 125(6), pp. 627–668.](https://doi.org/10.1037/0033-2909.125.6.627)
 

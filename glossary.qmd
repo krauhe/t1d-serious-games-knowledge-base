@@ -62,7 +62,23 @@ date: "2026-09-05"
 
 **FAIR4RS - Findable, Accessible, Interoperable and Reusable principles for research software.** A framework for software identification, metadata and reuse conditions.
 
-**FDA - United States Food and Drug Administration.** The regulatory agency discussed in the model-family chapter.
+**FDA - Food and Drug Administration.** The United States regulatory agency discussed in the regulatory and model-family chapters.
+
+**CDS - Clinical decision support.** Software supporting clinical decisions; the term describes a function, not a regulatory status.
+
+**EU - European Union.** The jurisdiction of the medical-device framework discussed here.
+
+**ISO - International Organization for Standardization.** The organisation issuing international standards, including the referenced medical-device quality-management standard.
+
+**MDCG - Medical Device Coordination Group.** European group issuing nonbinding guidance on medical devices.
+
+**MDR - Medical Device Regulation.** Here, Regulation (EU) 2017/745; not the distinct US abbreviation for Medical Device Reporting.
+
+**MDSW - Medical device software.** Software with an intended medical purpose within the applicable device definition.
+
+**PMA - Premarket approval.** An FDA market-access pathway for relevant higher-risk devices.
+
+**QMSR - Quality Management System Regulation.** FDA quality-system framework effective from 2 February 2026.
 
 **GI - Glycaemic index.** An empirical ranking of the glucose response to a fixed amount of available carbohydrate.
 
@@ -97,3 +113,13 @@ date: "2026-09-05"
 **TIDieR - Template for Intervention Description and Replication.** A checklist for reporting interventions in reproducible detail.
 
 **WCAG - Web Content Accessibility Guidelines.** Standards-based guidance for accessible web content.
+
+**CI - Confidence interval.** An interval estimate expressing statistical uncertainty under the analysis assumptions.
+
+**CSS - Cascading Style Sheets.** The language controlling web presentation; WCAG target dimensions use CSS pixels.
+
+**MRC - Medical Research Council.** The research organisation associated with the cited complex-intervention framework.
+
+**OSBD-R - Observational Scale of Behavioral Distress–Revised.** An observational measure of behavioural distress used in procedural research.
+
+**ISPAD - International Society for Pediatric and Adolescent Diabetes.** The organisation issuing the cited paediatric diabetes guidance.

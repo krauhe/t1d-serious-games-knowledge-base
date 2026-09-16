@@ -1,0 +1,187 @@
+---
+title: "Comparison of major T1D glucose-insulin research models"
+description: "Detailed physiological reference: mechanisms, quantitative evidence and limitations."
+source-version: "2026-09-16-v1"
+status: "Canonical physiology reference; source appraisal varies by claim"
+---
+
+<!-- Generated from BG-SCIENCE.md; make scientific changes in the canonical source. -->
+
+[Physiology contents](../index.qmd)
+
+> **Reference status:** source version 2026-09-16-v1. Automatic transfer is not a new literature search or independent verification of every claim. Quantities describe the cited populations and protocols, not personal treatment parameters.
+
+<a id="model-comparison"></a>
+
+Mathematical models of glucose-insulin dynamics in type 1 diabetes span six decades and range from three-state minimal descriptions intended for parameter estimation to whole-body physiological simulations with hundreds of state variables. No single model dominates across all use cases: a model well suited for quantifying insulin sensitivity from clamp data is poorly matched to real-time closed-loop control (artificial pancreas: real-time CGM-driven automated insulin delivery), while a high-fidelity virtual patient platform accepted for in silico trials (virtual cohort simulation accepted by FDA in lieu of preclinical animal trials for T1D devices since 2008) imposes computational and proprietary barriers that preclude independent implementation. This section surveys the six most influential models along shared structural and practical dimensions, identifies the trade-offs each represents, and discusses emerging paradigm shifts toward data-driven hybrids.
+
+### 29.1 Model dimensions for comparison
+
+Systematic comparison of glucose-insulin models requires a common framework. Six dimensions are most discriminating:
+
+**Structural complexity.** Compartment count and ODE dimensionality determine representational fidelity but also identifiability. A model with more parameters than can be estimated from available data is structurally unidentifiable: parameters trade off against each other, producing many equally good fits with different physiological interpretations. Structural identifiability analysis (Bellman and Astrom 1970; Cobelli and DiStefano 1980) is prerequisite for reliable parameter estimation.
+
+**Physiological scope.** Which processes are mechanistically represented (subcutaneous insulin absorption, meal absorption, endogenous glucose production, counterregulation, exercise) versus abstracted as inputs or lumped constants.
+
+**Epistemological class.** White-box models derive all equations from first principles (mass balance, enzyme kinetics); black-box models fit flexible functions to data without mechanistic constraints; gray-box models (combines mechanistic structure with empirical calibration) occupy the dominant position in the field, using known physiological structure while fitting rate constants from clinical data.
+
+**Validation depth.** Whether model outputs have been compared against independent datasets (prospective validation) or only fitted to the data used in development (in-sample fit). Triple-tracer meal studies — which isotopically label ingested glucose, endogenous glucose production, and glucose disposal separately — represent the current gold standard for validation.
+
+**Computational tractability.** Whether the model can be simulated in real-time or near-real-time, a prerequisite for closed-loop control applications.
+
+**Parameter accessibility.** Whether population-level parameter distributions are published (enabling independent reimplementation) or proprietary (requiring commercial licensing).
+
+### 29.2 Bergman Minimal Model (1979) — the identifiability benchmark
+
+The Minimal Model (Bergman et al. 1979) was designed with a single, explicit goal: to extract maximally identifiable parameters from the intravenous glucose tolerance test (IVGTT). Its three-state formulation describes plasma glucose G, plasma insulin I, and a remote insulin compartment X representing delayed insulin action in the interstitium:
+
+```
+dG/dt = -(S_G + X)·G + S_G·G_b
+dX/dt = -p_2·X + p_3·(I − I_b)
+```
+
+where S_G is glucose effectiveness (fractional glucose clearance per unit glucose, independent of insulin), S_I = p_3/p_2 is insulin sensitivity, and G_b, I_b are basal values. The formulation yields four parameters (S_G, S_I, p_2, p_3) that are structurally identifiable from a well-sampled IVGTT (Cobelli et al. 1987; Caumo and Cobelli 1993). This identifiability property, combined with a rich reference database of published S_I values (Bergman et al. 1985; Bonora et al. 1989), made the Minimal Model the reference standard for insulin resistance quantification in population studies through the 1980s and 1990s.
+
+The Minimal Model's scope is deliberately narrow. It has no meal absorption submodel (glucose appearance must be specified as an exogenous forcing function), no subcutaneous insulin pharmacokinetics, no counterregulation, and no organ-level resolution. The "remote insulin" compartment X is a mathematical convenience, not an anatomically identifiable compartment. Subsequent work showed that the model systematically underestimates hepatic insulin sensitivity relative to the tracer-based gold standard (Vicini and Cobelli 2001), and that S_I estimates conflate hepatic and peripheral insulin actions that respond differently to interventions. For T1D specifically, the model's insulin secretion equation is omitted entirely (endogenous insulin secretion is absent), leaving a two-equation system that cannot represent the full glycemic excursion following a subcutaneous bolus.
+
+Despite these limitations, the Minimal Model retains practical importance as a teaching framework, as the conceptual origin of insulin sensitivity quantification, and as the historical reference that motivated the development of more comprehensive models.
+
+### 29.3 Sorensen whole-body model (1985) — the physiological reference
+
+Sorensen's MIT doctoral thesis (1985) is the most anatomically resolved compartmental model of glucose-insulin-glucagon dynamics. The body is represented as a directed graph of organ-specific compartments connected by physiological blood flow rates:
+
+**Six organ groups:** liver, kidney, brain, gut, heart/lungs, and periphery (muscle + adipose).  
+**22 state variables:** glucose, insulin, and glucagon concentrations in each compartment.  
+**~100 parameters:** all derived from the human physiology literature, not fitted to individual patient data.
+
+The liver submodel distinguishes hepatic glucose uptake (HGU) from hepatic glucose production (HGP), each regulated by portal insulin and glucagon concentrations rather than peripheral concentrations — an anatomically important distinction because portal and peripheral hormone concentrations differ substantially after meals (Moore et al. 1993). Renal glucose excretion follows a threshold-saturation model (Skeggs filtration kinetics). Brain glucose consumption is flow-limited and insulin-independent. Glucagon is modeled with its own secretion and clearance kinetics.
+
+The Sorensen model's anatomical granularity is its strength and its limitation simultaneously. Parameter identification requires organ-specific measurements (arteriovenous difference studies, hepatic venous catheterization) that are not available in routine clinical practice, making individual patient parameterization infeasible. As a population-level physiological reference — the "ground truth" against which more parsimonious models can be benchmarked — it remains invaluable. The model was never intended for closed-loop control design; its computational cost and non-identifiability at the individual level preclude that use. Several subsequent models (Parker et al. 1999; Fabietti et al. 2006) added subcutaneous insulin pharmacokinetics to the Sorensen framework to enable control applications, at the cost of further increasing parameter count without improving identifiability.
+
+### 29.4 Hovorka 2004 nonlinear model — the closed-loop reference for T1D
+
+The Cambridge model (Hovorka et al. 2004) was constructed with an explicit design criterion: maximum physiological fidelity consistent with closed-loop control feasibility in T1D. Its 11 ODEs represent the minimal system needed to capture the key dynamics of subcutaneous insulin absorption, meal-driven glucose appearance, two-compartment glucose kinetics, and three mechanistically distinct insulin action channels:
+
+**Glucose subsystem:** plasma glucose Q_1 (mmol) and peripheral glucose Q_2 (mmol) in a two-compartment exchange model, with non-insulin-dependent clearance F_{01} (brain/red blood cells, fixed at 0.0097 mmol·kg⁻¹·min⁻¹) and renal excretion F_R (linear above 9 mmol/L).
+
+**Insulin subsystem:** two subcutaneous depot compartments (S_1, S_2 in mU) with absorption rate k_a governed by injection site pharmacokinetics; plasma insulin I (mU/L) cleared with rate constant k_e (0.138 min⁻¹).
+
+**Insulin action:** three parallel first-order compartments (x_1, x_2, x_3) with distinct activation and deactivation time constants:
+- x_1 (glucose distribution/transport): k_{a1} = 0.006 min⁻¹, τ ≈ 167 min — slow
+- x_2 (glucose disposal in periphery): k_{a2} = 0.06 min⁻¹, τ ≈ 17 min — fast
+- x_3 (EGP suppression): k_{a3} = 0.03 min⁻¹, τ ≈ 33 min — medium
+
+These three time constants capture the physiological observation that insulin's effects on different tissues operate on different timescales (Rizza et al. 1981; DeFronzo 1988), without requiring separate tissue compartments.
+
+**Gut absorption:** a two-compartment model (stomach D_1, gut D_2) with first-order transit and absorption rate k_{12} = 0.066 min⁻¹.
+
+All 30 population-mean parameters and their inter-subject distributions are published in the 2004 paper, making the model fully reproducible. The model has been validated in multiple clinical closed-loop trials (Hovorka et al. 2010, 2011, 2013) and in the AP@home consortium trials (Kovatchev et al. 2012), accumulating over 2,500 citations. Its primary limitation is linear insulin action: the x_i compartments scale linearly with plasma insulin, producing no saturation at supraphysiological doses and no threshold behavior at low doses. The UVA/Padova model addresses this with Michaelis-Menten kinetics (see [§29](29-model-comparison.qmd).5), but at the cost of added parameters and reduced identifiability.
+
+### 29.5 UVA/Padova simulator (Dalla Man and Cobelli, 2007/2014) — the FDA-accepted in silico platform
+
+The UVA/Padova model, developed collaboratively by Claudio Cobelli's group (University of Padova) and Boris Kovatchev's group (University of Virginia), is an influential meal-response and virtual-population platform. Its 2008 acceptance by the FDA as a substitute for preclinical animal trials in device evaluation (Kovatchev et al. 2009) — an in silico trial platform — was a landmark regulatory decision that materially accelerated closed-loop device development by enabling specified preclinical evaluation in silico; a universal time saving is not established here.
+
+The 2007 version (Dalla Man et al. 2007) introduced a detailed oral glucose absorption model validated against triple-tracer meal studies in healthy subjects, distinguishing solid and liquid gastric phases with separate emptying rates. The glucose-insulin subsystem uses nonlinear (Michaelis-Menten) kinetics for insulin-dependent glucose utilization, capturing dose-response saturation:
+
+```
+U_id(t) = V_{m0} + V_{mx}·x(t)) · G / (K_m0 + G)
+```
+
+where V_{mx} is an insulin action parameter, K_m0 is the half-saturation constant, and G is plasma glucose. This single nonlinear term substantially changes the model's behavior at extreme glucose and insulin concentrations relative to linear models.
+
+The 2014 update (Dalla Man et al. 2014) expanded the virtual patient population from 30 to 300 subjects (100 adults, 100 adolescents, 100 children), added incretin hormone submodels (GLP-1, GIP), time-varying insulin sensitivity, and a refined EGP model with both insulin and glucose regulation. Individual parameters are fitted to triple-tracer meal data for each virtual patient, providing a population-level validated cohort suitable for statistical evaluation of treatment algorithms.
+
+The critical limitation is proprietary access. Parameter distributions and individual virtual patient parameters are not published and are available only through commercial licensing (Epsilon Group) or formal academic collaboration agreements. This makes the UVA/Padova simulator irreproducible from the published literature alone — a significant constraint for independent scientific validation and for open-source educational applications. Exercise extensions have been published, but feature coverage of a currently licensed distribution was not independently checked during this restoration.
+
+### 29.6 Cambridge extended model (Wilinska et al. 2010) — stochastic T1D simulation environment
+
+Wilinska and colleagues at Cambridge (2010) extended the Hovorka 2004 core model into a simulation environment designed specifically for evaluating closed-loop algorithms in T1D. The structural additions address the limitation that the deterministic Hovorka model cannot represent the day-to-day and within-day variability that is one of the defining clinical challenges of T1D management.
+
+**Variability model:** insulin sensitivity (represented by the S_I scalar multiplying x_1, x_2, x_3 compartments) follows a stochastic process with two components: (1) a circadian sinusoidal component with amplitude ~20% of basal sensitivity and minimum around 08:00 (the dawn phenomenon); (2) a day-to-day random walk component with CV 15–30%. This structure is a gray-box approximation: the sinusoidal form is motivated by cortisol physiology, but the amplitude and phase parameters are fitted empirically.
+
+**Virtual population:** 18 adult T1D subjects with individually fitted parameters from clinical closed-loop data. Smaller than the UVA/Padova cohort but sufficient for algorithm development and testing.
+
+**CGM sensor model:** additive Gaussian noise plus calibration drift, with autoregressive correlation structure capturing the observed temporal autocorrelation in CGM error (Clarke and Kovatchev 2009).
+
+The Cambridge simulator has been used in multiple clinical trial simulation studies (Hovorka et al. 2010; Hovorka et al. 2011; Elleri et al. 2013) and is freely reproducible from published parameters — a critical advantage over the UVA/Padova platform for academic groups. Its fundamental physiological scope is identical to the 2004 base model (no glucagon, no exercise, no fat/protein effects), with variability layered on top statistically rather than mechanistically.
+
+### 29.7 Control-oriented algorithm models — OpenAPS, DiAs, Medtronic
+
+Several closed-loop control systems use internal glucose-insulin models that are distinct from the physiological simulation models described above. These control models are gray-box or identification models fitted in real-time from patient-specific CGM and insulin data, rather than population-level mechanistic models:
+
+**OpenAPS / Loop / AndroidAPS:** Use a simplified pharmacokinetic model of insulin-on-board (IOB) decay combined with a correction factor (sensitivity factor ISF) to predict future glucose trajectories. The underlying model is effectively a convolution of the insulin delivery history with an empirical activity curve (typically a biexponential with peak at 55–75 min for rapid-acting analogues). These are not physiological simulation models; they are control-oriented abstractions designed for robust real-time operation on embedded hardware.
+
+**DiAs (Diabetes Assistant, UVA):** Uses a zone-MPC controller with the UVA/Padova model for offline design and an online ARX (autoregressive with exogenous input) model fitted to each patient's data for real-time prediction. This hybrid approach illustrates the tension between model fidelity (offline) and identifiability (online).
+
+**Medtronic Virtual Patient (MVP):** Internal proprietary model used for the 670G/780G development. Structure is unpublished; conference presentations indicate it incorporates exercise and stress modules, but independent scientific evaluation is not possible.
+
+The gap between control-oriented models (designed for robustness and real-time feasibility) and physiological simulation models (designed for fidelity and scientific insight) is a recognized challenge in the field. Control models sacrifice physiological interpretability for operational performance; simulation models sacrifice real-time feasibility for anatomical detail.
+
+### 29.8 Comparison table
+
+| Model | Year | Compartments | Parameters | Primary use | Validation standard | Strengths | Limitations |
+|---|---|---|---|---|---|---|---|
+| Bergman Minimal | 1979 | 3 | 4 | IVGTT analysis, SI quantification | IVGTT cross-study SI databases | Identifiable; minimal; vast reference database | No meal/SC insulin; linear; T1D-incomplete |
+| Sorensen | 1985 | 22 | ~100 | Physiological reference | Human physiology literature | Organ-level resolution; glucagon; complete | Non-identifiable individually; IV-only; no SC insulin |
+| Hovorka 2004 | 2004 | 11–13 | ~30 | Closed-loop MPC design | Clinical closed-loop trials | Open parameters; identifiable; 3-channel insulin action | Linear insulin action; no glucagon; no exercise |
+| Wilinska/Cambridge | 2010 | 11–13 + stochastic | ~30 + variability | In silico algorithm testing | Clinical closed-loop trials (18 subjects) | Open; stochastic variability; CGM model | Same physiological scope as Hovorka 2004 |
+| UVA/Padova | 2007/2014 | ~30 | ~300 | FDA-accepted in silico clinical trials | Triple-tracer meal studies; 300 virtual subjects | Nonlinear; incretin; FDA-accepted; 300-subject cohort | Proprietary; no exercise (standard); closed source |
+| Parker/Sorensen ext. | 1999 | 19 | ~100 | MPC controller design | Sorensen-derived; limited prospective validation | Anatomical; SC insulin added | High parameter count; identifiability issues |
+| OpenAPS / Loop | 2014+ | ~2 (IOB curve) | 2–3 (ISF, CR, DIA) | Real-time hybrid closed-loop | Retrospective CGM outcome data | Practical; robust; patient-tunable | Not physiological; no forward simulation capability |
+
+### 29.9 Modeling paradigm trade-offs
+
+**Linear vs. nonlinear insulin action.** The Bergman, Hovorka, and Wilinska models assume insulin action scales linearly with interstitial insulin concentration. The UVA/Padova model uses Michaelis-Menten saturation for glucose disposal. Clinical data support nonlinearity: dose-response studies (Rizza et al. 1981; DeFronzo et al. 1983) show that insulin-stimulated glucose disposal approaches saturation at plasma insulin concentrations of ~80–100 mU/L (approximately 3–4× basal), with hepatic glucose production saturated at lower concentrations (~30–40 mU/L). Linear models overestimate insulin effect at supraphysiological doses and miss this tissue-specific differential sensitivity. The cost of nonlinear models is additional parameters (V_max, K_m for each tissue) and reduced structural identifiability from standard clinical data.
+
+**White-box vs. gray-box vs. black-box ML hybrids.** Pure mechanistic models (white-box) require complete a priori physiological knowledge, which does not exist for all relevant processes (e.g., stress-driven glucose variability, intra-subject day-to-day variation). Pure data-driven models (black-box) require large training datasets and provide no physiological interpretability. Gray-box approaches — mechanistic structure with empirically calibrated rate constants — dominate the field. Recent machine learning (ML) hybrid approaches (Oviedo et al. 2017; Zhu et al. 2020; Woldaregay et al. 2019) graft neural networks or Gaussian processes onto compartmental model residuals, improving short-horizon prediction accuracy (15–60 min) in exchange for reduced physiological interpretability and increased data requirements. These hybrids are promising for personalized closed-loop control but have not yet displaced mechanistic models in simulation applications.
+
+### 29.10 Modern developments
+
+**Reinforcement learning (RL) for insulin dosing.** RL agents trained in simulated environments (typically UVA/Padova) have achieved results comparable to or exceeding rule-based MPC in simulation (Fox et al. 2020; Sun et al. 2018; Bastani 2014). The primary unresolved challenge is the sim-to-real transfer gap: RL agents optimized in the UVA/Padova simulator may not generalize to real patients whose physiology differs from the virtual cohort in ways the model does not capture. This is an instance of the broader model validity problem: all results from simulation studies are only as reliable as the simulation model.
+
+**Digital twins.** Personalized glucose-insulin models fitted to individual continuous glucose monitor (CGM) and insulin pump data — sometimes called "digital twins" — represent a data-rich gray-box approach. Recent work (Visentin et al. 2018; Toffanin et al. 2019) has demonstrated that individually fitted Hovorka or UVA/Padova parameters substantially outperform population-mean models for individual prediction. The clinical bottleneck is the identification data requirement: fitting a reliable individual model requires several days of rich data with deliberate glycemic excursions, which is not routine in clinical practice.
+
+**Population modeling and variability.** Nonlinear mixed-effects (NLME) modeling (Sheiner and Beal 1980; Karlsson and Sheiner 1993) is increasingly applied to glucose-insulin data to characterize between-subject and within-subject parameter variability simultaneously. This approach — applied to the Hovorka model by Wilinska et al. (2010) and to the UVA/Padova model in its development — provides population parameter distributions rather than point estimates, enabling principled virtual patient generation.
+
+### 29.11 Open questions
+
+**Unification potential.** No single model is accepted as a universal standard across all use cases. UVA/Padova has a specific preclinical regulatory-use history; access conditions and exercise coverage depend on version and distribution. The Hovorka model is open and computationally tractable but linearly approximates insulin action. A community-maintained open-source platform with the physiological scope of UVA/Padova and the parameter transparency of Hovorka would serve the field, but requires coordinated effort and funding that has not materialized as of 2025.
+
+**Validation across populations.** All major models were parameterized primarily in adult Caucasian subjects. Evidence suggests that insulin sensitivity distributions, meal absorption kinetics, and counterregulatory responses differ by age (children vs. adults vs. elderly), ethnicity, and BMI in ways that current models do not capture. Pediatric T1D in particular — where glycemic variability is highest and closed-loop control is most studied — is addressed by the UVA/Padova adolescent/child cohorts, but without full physiological reparameterization.
+
+**Exercise and physiological stress.** No published, open-access model adequately represents the full spectrum of exercise effects (aerobic vs. anaerobic, acute vs. training-induced) or psychological stress responses on glucose metabolism. These are recognized gaps that limit the clinical applicability of current simulation environments.
+
+**Long-term complications.** The acute glucose–insulin models compared here primarily describe hours-to-days trajectories. Modelling vascular complications or progressive beta-cell loss requires additional processes and longitudinal validation; this comparison does not establish that no such models exist.
+
+### References
+
+> Bergman RN, Ider YZ, Bowden CR, Cobelli C. (1979). "Quantitative estimation of insulin sensitivity." *Am J Physiol*, 236(6):E667–E677. PMID 443421. [PubMed](https://pubmed.ncbi.nlm.nih.gov/443421/)
+>
+> Bergman RN, Finegood DT, Ader M. (1985). "Assessment of insulin sensitivity in vivo." *Endocr Rev*, 6(1):45–86. PMID 3884329. [PubMed](https://pubmed.ncbi.nlm.nih.gov/3884329/)
+>
+> Sorensen JT. (1985). "A physiologic model of glucose metabolism in man and its use to design and assess improved insulin therapies for diabetes." PhD Thesis, Massachusetts Institute of Technology. [MIT DSpace](https://hdl.handle.net/1721.1/15234)
+>
+> Hovorka R, Canonico V, Chassin LJ, et al. (2004). "Nonlinear model predictive control of glucose concentration in subjects with type 1 diabetes." *Physiol Meas*, 25(4):905–920. PMID 15382830. [PubMed](https://pubmed.ncbi.nlm.nih.gov/15382830/)
+>
+> Dalla Man C, Rizza RA, Cobelli C. (2007). "Meal simulation model of the glucose-insulin system." *IEEE Trans Biomed Eng*, 54(10):1740–1749. PMID 17926672. [PubMed](https://pubmed.ncbi.nlm.nih.gov/17926672/)
+>
+> Kovatchev BP, Breton M, Dalla Man C, Cobelli C. (2009). "In silico preclinical trials: a proof of concept in closed-loop control of type 1 diabetes." *J Diabetes Sci Technol*, 3(1):44–55. PMID 19444330. [PubMed](https://pubmed.ncbi.nlm.nih.gov/19444330/)
+>
+> Wilinska ME, Chassin LJ, Acerini CL, et al. (2010). "Simulation environment to evaluate closed-loop insulin delivery systems in type 1 diabetes." *J Diabetes Sci Technol*, 4(1):132–144. PMID 20167177. [PubMed](https://pubmed.ncbi.nlm.nih.gov/20167177/)
+>
+> Dalla Man C, Micheletto F, Lv D, et al. (2014). "The UVA/PADOVA Type 1 Diabetes Simulator: New Features." *J Diabetes Sci Technol*, 8(1):26–34. PMID 24876534. [PubMed](https://pubmed.ncbi.nlm.nih.gov/24876534/)
+>
+> Parker RS, Doyle FJ, Peppas NA. (1999). "A model-based algorithm for blood glucose control in type I diabetic patients." *IEEE Trans Biomed Eng*, 46(2):148–157. PMID 9932336. [PubMed](https://pubmed.ncbi.nlm.nih.gov/9932336/)
+>
+> Cobelli C, Toffolo G, Foster DM. (1992). "Tracer-to-tracee ratio for analysis of stable isotope tracer data: link with radioactive kinetic formalism." *Am J Physiol*, 262(6 Pt 1):E968–E975. PMID 1621872. [PubMed](https://pubmed.ncbi.nlm.nih.gov/1621872/)
+>
+> Rizza RA, Mandarino LJ, Gerich JE. (1981). "Dose-response characteristics for effects of insulin on production and utilization of glucose in man." *Am J Physiol*, 240(6):E630–E639. PMID 7015809. [PubMed](https://pubmed.ncbi.nlm.nih.gov/7015809/)
+>
+> Visentin R, Dalla Man C, Cobelli C. (2018). "One-day Bayesian clusterization of insulin sensitivity in adults with T1D: implications for the design of closed-loop control." *IEEE Trans Biomed Eng*, 65(3):539–546. PMID 28541193. [PubMed](https://pubmed.ncbi.nlm.nih.gov/28541193/)
+>
+> Cobelli C, Dalla Man C, Sparacino G, et al. (2009). "Diabetes: Models, Signals, and Control." *IEEE Rev Biomed Eng*, 2:54–96. PMID 20936056. [PubMed](https://pubmed.ncbi.nlm.nih.gov/20936056/)
+>
+>
+> Steil GM. (2013). "Algorithms for a closed-loop artificial pancreas: the case for proportional-integral-derivative control." *J Diabetes Sci Technol*, 7(6):1630–1638. PMID 24351189. [PubMed](https://pubmed.ncbi.nlm.nih.gov/24351189/)
+>
+> Resalat N, El Youssef J, Tyler N, Castle J, Jacobs PG. (2019). "A statistical virtual patient population for the glucoregulatory system in type 1 diabetes with integrated exercise model." *PLoS ONE*, 14(7):e0217301. PMID 31344037. [PubMed](https://pubmed.ncbi.nlm.nih.gov/31344037/)

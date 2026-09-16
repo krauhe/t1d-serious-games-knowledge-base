@@ -16,6 +16,7 @@ The [game catalogue](https://krauhe.github.io/t1d-serious-games-knowledge-base/e
 | How can entry and use be made easier? | [Human factors](knowledge/human-factors/onboarding-and-accessibility.qmd) |
 | What physiology matters when modelling glucose? | [T1D Physiology and Modelling](knowledge/physiology/index.qmd) |
 | What could help projects survive? | [Adoption and sustainability](knowledge/sustainability/index.qmd) |
+| When can a game become medical-device software? | [Regulatory boundaries and development pathways](knowledge/regulation/regulatory-boundaries.qmd) |
 
 The audience is researchers, clinicians, educators, designers and developers. Physiological modelling is relevant to some games, not a prerequisite for psychosocial or experiential learning.
 
@@ -37,7 +38,7 @@ Knowledge, engagement, transfer and clinical benefit are assessed separately. Ca
 
 The source uses Quarto-compatible chapters and a dependency-light builder. The generated website has full-text search, a sortable catalogue and an edge-docked collapsible menu.
 
-Use **PDF** in the website header to open the complete reading edition, then **Save as PDF** to use your browser's print dialog. All chapters and game profiles are included; detailed study appraisals are optional. PDF saving on tablets depends on the browser's Print or Share menu.
+Use **PDF** in the website header to open the complete reading edition, then **Save as PDF** to use your browser's print dialog. The **full scholarly edition** includes all chapters, game profiles and detailed study appraisals by default. **Compact catalogue edition** shortens only the expanded game records, not the scientific chapters. PDF saving on tablets depends on the browser's Print or Share menu.
 
 ```text
 pnpm install
@@ -47,6 +48,8 @@ pnpm run validate:links
 ```
 
 The last command checks external URLs from the local computer. Login barriers, challenge pages and ambiguous responses still require manual investigation.
+
+Local builds synchronise the detailed physiology chapters from the canonical scientific text when its source checkout is present. See [physiology synchronisation](docs/physiology-sync.md) for source configuration, version tracking and snapshot checks.
 
 ## Contribute and reuse
 

@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  pre-render:
+    - node tools/sync-physiology.mjs
   resources:
     - figures/original/pixel-landscape-background.png
     - figures/original/pixel-arcade-biomes-background.png
@@ -54,6 +56,39 @@ website:
           - knowledge/physiology/meals-insulin-exercise.qmd
           - knowledge/physiology/variability-and-safety.qmd
           - knowledge/physiology/model-families.qmd
+          - knowledge/physiology/reference/01-glucose-distribution.qmd
+          - knowledge/physiology/reference/02-hepatic-glucose-production.qmd
+          - knowledge/physiology/reference/03-renal-glucose-handling.qmd
+          - knowledge/physiology/reference/04-brain-glucose-consumption.qmd
+          - knowledge/physiology/reference/05-carbohydrates.qmd
+          - knowledge/physiology/reference/06-fat-and-protein.qmd
+          - knowledge/physiology/reference/07-insulin-pharmacology.qmd
+          - knowledge/physiology/reference/08-aerobic-exercise.qmd
+          - knowledge/physiology/reference/09-anaerobic-exercise.qmd
+          - knowledge/physiology/reference/10-exercise-inflammation.qmd
+          - knowledge/physiology/reference/10b-relaxation-yoga.qmd
+          - knowledge/physiology/reference/11-counterregulatory-hormones.qmd
+          - knowledge/physiology/reference/12-dawn-phenomenon.qmd
+          - knowledge/physiology/reference/13-somogyi-effect.qmd
+          - knowledge/physiology/reference/14-diurnal-variation-isf.qmd
+          - knowledge/physiology/reference/15-menstrual-cycle.qmd
+          - knowledge/physiology/reference/16-seasonal-variation.qmd
+          - knowledge/physiology/reference/17-illness-infection.qmd
+          - knowledge/physiology/reference/18-sleep-deprivation.qmd
+          - knowledge/physiology/reference/19-alcohol.qmd
+          - knowledge/physiology/reference/20-psychological-stress.qmd
+          - knowledge/physiology/reference/21-temperature-climate.qmd
+          - knowledge/physiology/reference/22-injection-site.qmd
+          - knowledge/physiology/reference/23-ketones-dka.qmd
+          - knowledge/physiology/reference/24-insulin-overdose.qmd
+          - knowledge/physiology/reference/25-nonlinear-insulin.qmd
+          - knowledge/physiology/reference/26-glucotoxicity.qmd
+          - knowledge/physiology/reference/27-cgm-technology.qmd
+          - knowledge/physiology/reference/28-mathematical-models.qmd
+          - knowledge/physiology/reference/29-model-comparison.qmd
+      - section: "Regulation and responsible development"
+        contents:
+          - knowledge/regulation/regulatory-boundaries.qmd
       - section: "Adoption and sustainability"
         contents:
           - knowledge/sustainability/index.qmd

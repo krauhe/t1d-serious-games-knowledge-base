@@ -1,0 +1,75 @@
+---
+title: "The kidneys in glucose homeostasis"
+description: "Detailed physiological reference: mechanisms, quantitative evidence and limitations."
+source-version: "2026-09-16-v1"
+status: "Canonical physiology reference; source appraisal varies by claim"
+---
+
+<!-- Generated from BG-SCIENCE.md; make scientific changes in the canonical source. -->
+
+[Physiology contents](../index.qmd)
+
+> **Reference status:** source version 2026-09-16-v1. Automatic transfer is not a new literature search or independent verification of every claim. Quantities describe the cited populations and protocols, not personal treatment parameters.
+
+<a id="renal-glucose-handling"></a>
+
+The kidneys contribute to systemic glucose homeostasis through three quantitatively distinct mechanisms: glomerular filtration of glucose with near-complete tubular reabsorption, gluconeogenesis in the renal cortex, and direct glucose uptake by the renal medulla. All three are altered in T1D in ways that affect both acute glycemic management and long-term renal outcomes.
+
+### Mechanism
+
+**Filtration and reabsorption.** With a glomerular filtration rate (GFR) of approximately 180 L/day, the healthy kidney filters approximately 180 g of glucose daily, essentially all of which is reabsorbed under euglycemic conditions ([Gerich, 2010](https://pubmed.ncbi.nlm.nih.gov/20546255/); [Ghezzi et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30132032/)). Reabsorption occurs in the proximal tubule via two apical sodium-glucose cotransporters arranged in series, with basolateral exit via a facilitative uniporter:
+
+- **SGLT2** (sodium-glucose cotransporter 2, the dominant renal glucose reabsorber; gene *SLC5A2*) is expressed in the early proximal tubule (S1/S2 segments) and mediates approximately 90% of filtered glucose reabsorption. It is a low-affinity, high-capacity transporter (Km ≈ 5 mmol/L) operating with a 1:1 Na⁺:glucose stoichiometry.
+- **SGLT1** (sodium-glucose cotransporter 1, high-affinity low-capacity reabsorber; gene *SLC5A1*) is expressed in the late proximal tubule (S3 segment) and reabsorbs the remaining ~10% under physiologic conditions. It is high-affinity, low-capacity (Km ≈ 0.4 mmol/L), with 2:1 Na⁺:glucose stoichiometry.
+- **GLUT2** (gene *SLC2A2*) on the basolateral membrane returns reabsorbed glucose to peritubular blood by facilitative diffusion ([Ghezzi et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30132032/)).
+
+**Renal gluconeogenesis.** In the post-absorptive state, the renal cortex contributes approximately 20–25% of total endogenous glucose production via gluconeogenesis; the remainder is hepatic. The renal cortex uses lactate, glutamine, and glycerol as principal substrates and is stimulated by epinephrine and inhibited by insulin ([Gerich, 2010](https://pubmed.ncbi.nlm.nih.gov/20546255/)). The renal medulla, in contrast, is a net glucose consumer. Renal gluconeogenesis is upregulated severalfold in type 2 diabetes; T1D-specific data are sparse, but the same regulatory architecture (insulin suppression) implies that endogenous glucose production from the kidney is inadequately suppressed during insulin deficiency.
+
+**Glucosuria.** Urinary glucose excretion begins when the filtered load exceeds the tubular maximum (TmG; the reabsorptive saturation point, ~260–350 mg/min/1.73 m²). The plasma concentration at which urinary glucose first appears is the renal threshold. Because individual nephrons saturate at slightly different concentrations ("nephron heterogeneity"), the threshold is splayed rather than abrupt — excretion increases gradually over a range of plasma glucose concentrations rather than as a sharp step.
+
+### Quantitative characterization
+
+| Parameter | Healthy adults | Source |
+|-----------|---------------|--------|
+| GFR | ~180 L/day | Gerich (2010) |
+| Daily filtered glucose | ~180 g | Gerich (2010) |
+| Renal threshold (population mean) | ~10–11 mmol/L | Gerich (2010); Poudel (2013) |
+| Tubular maximum (TmG) | 260–350 mg/min/1.73 m² (~375 mg/min absolute) | Gerich (2010); Poudel (2013) |
+| SGLT2 share of reabsorption | ~90% | Ghezzi et al. (2018) |
+| SGLT1 share of reabsorption | ~10% | Ghezzi et al. (2018) |
+| Renal share of post-absorptive endogenous glucose production | 20–25% (~2.0–2.5 μmol/kg/min) | Gerich (2010) |
+| Renal glucose uptake (post-absorptive) | 103 ± 10 μmol/min | Gerich (2010) |
+
+Inter-individual variation is substantial. In a controlled glucose-infusion study of 23 T1D patients, the renal threshold varied two-fold (range 6.0–14.3 mmol/L) and the TmG varied two-fold (range 0.93–1.98 mmol/min); the renal threshold was inversely correlated with creatinine clearance, and TmG was inversely correlated with both age and diabetes duration ([Johansen et al., 1984](https://pubmed.ncbi.nlm.nih.gov/6714538/)). This degree of variation means glycosuria is a poor surrogate for blood glucose at the individual level.
+
+### T1D-specific aspects
+
+**Glomerular hyperfiltration.** Whole-kidney GFR is elevated (up to ~162 mL/min/1.73 m²) in 10–67% of patients early in T1D, with mean GFR increased by approximately 27% relative to healthy controls in recently diagnosed disease ([Tonneijck et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28143897/)). Three overlapping mechanisms have been proposed:
+
+1. *Tubular hypothesis* — chronic hyperglycemia upregulates SGLT2-mediated reabsorption in the proximal tubule, reducing sodium delivery to the macula densa and suppressing tubuloglomerular feedback (macula-densa-mediated GFR self-regulation via afferent arteriolar tone); the resulting decrease in afferent arteriolar resistance raises GFR.
+2. *Vascular hypothesis* — imbalance in vasoactive factors (angiotensin II, prostaglandins, nitric oxide) increases glomerular capillary pressure.
+3. *Ultrastructural hypothesis* — proximal tubular hypertrophy from disease onset, preceding functional changes.
+
+Hyperfiltration is reversible with improved glycemic control: in T1D, lowering HbA1c from 10% to 7% reduced measured GFR from 149 to 129 mL/min/1.73 m² (16% decrease) ([Tonneijck et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28143897/)). Hyperfiltration is an independent risk factor for the initiation and progression of diabetic nephropathy.
+
+**Increased TmG and renal threshold in poor control.** Both SGLT2 mRNA and protein expression are upregulated in proximal tubules in poorly controlled diabetes, raising TmG by approximately 20% in both T1D and T2D ([Poudel, 2013](https://pubmed.ncbi.nlm.nih.gov/24014904/)). This delays the onset of glucosuria during hyperglycemic excursions, removing one of the body's natural restraints on glucose accumulation and contributing to sustained hyperglycemia.
+
+**Osmotic diuresis.** Glucose is osmotically active in the tubular lumen; each gram excreted obligates approximately 15 mL of free water. At sustained plasma glucose concentrations of 25 mmol/L, urinary glucose loss can reach 200–500 g/day with corresponding fluid loss of 3–7 L/day. Clinically: polyuria, polydipsia, and dehydration — the classic presenting triad of decompensated T1D, alongside ketoacidosis.
+
+**SGLT2 inhibitors as adjunct therapy.** The SGLT2 inhibitor class (dapagliflozin, empagliflozin, sotagliflozin) lowers plasma glucose by inducing therapeutic glucosuria of approximately 52–85 g/day, reducing fasting plasma glucose by 0.9–1.7 mmol/L and HbA1c by ~0.5%, with concomitant weight loss and blood pressure reduction ([Poudel, 2013](https://pubmed.ncbi.nlm.nih.gov/24014904/)). Despite achieving >80% transporter inhibition in vitro, only 30–50% of filtered glucose is excreted in vivo; the discrepancy is attributed to compensatory upregulation of SGLT1 in the distal proximal tubule.
+
+In T1D, SGLT2 inhibitors are not approved by the FDA. The DEPICT trials (dapagliflozin) and inTandem trials (sotagliflozin, a dual SGLT1/SGLT2 inhibitor) demonstrated HbA1c reductions of approximately 0.5% with weight loss and blood pressure reduction, but with a 2- to 4-fold increase in DKA risk relative to placebo. European approvals as adjunct therapy in T1D were subsequently withdrawn.
+
+**Euglycemic ketoacidosis.** SGLT2 inhibition can precipitate ketoacidosis at plasma glucose <11 mmol/L (200 mg/dL) in approximately 30–40% of cases — atypical for classic DKA. The mechanism is a three-step pathway: (1) urinary glucose loss reduces the glucose stimulus for endogenous insulin secretion (in T2D) or facilitates exogenous insulin dose reduction (in T1D); (2) the resulting decrease in the insulin/glucagon ratio activates hepatic carnitine palmitoyltransferase-1 and accelerates ketogenesis; (3) the absence of frank hyperglycemia delays clinical recognition ([Ogawa & Sakaguchi, 2015](https://pubmed.ncbi.nlm.nih.gov/27042271/)). Triggers include surgery, infection, fasting, dehydration, and unilateral insulin dose reduction. T1D — characterized by absolute insulin deficiency — confers the highest risk.
+
+**Long-term renal outcomes.** Diabetic nephropathy develops in approximately 30% of T1D patients over 20–30 years and is the leading cause of end-stage renal disease in this population. Early hyperfiltration is a predictor of subsequent albuminuria and GFR decline. SGLT2 inhibition reduces albuminuria and slows GFR decline in both T1D and T2D, with renoprotective effects that appear largely independent of the magnitude of glycemic improvement; the proposed mechanism is restoration of tubuloglomerular feedback and reduction in glomerular capillary pressure.
+
+### Sources
+
+- Gerich JE. (2010). "Role of the kidney in normal glucose homeostasis and in the hyperglycaemia of diabetes mellitus: therapeutic implications." *Diabetic Medicine*, 27(2):136–142. [PubMed](https://pubmed.ncbi.nlm.nih.gov/20546255/) [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4232006/)
+- Ghezzi C, Loo DDF, Wright EM. (2018). "Physiology of renal glucose handling via SGLT1, SGLT2 and GLUT2." *Diabetologia*, 61(10):2087–2097. [PubMed](https://pubmed.ncbi.nlm.nih.gov/30132032/) [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6133540/)
+- Tonneijck L, Muskiet MHA, Smits MM, et al. (2017). "Glomerular hyperfiltration in diabetes: mechanisms, clinical significance, and treatment." *Journal of the American Society of Nephrology*, 28(4):1023–1039. [PubMed](https://pubmed.ncbi.nlm.nih.gov/28143897/) [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC5373460/)
+- Poudel RR. (2013). "Renal glucose handling in diabetes and sodium glucose cotransporter 2 inhibition." *Indian Journal of Endocrinology and Metabolism*, 17(4):588–593. [PubMed](https://pubmed.ncbi.nlm.nih.gov/24014904/) [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3743357/)
+- Ogawa W, Sakaguchi K. (2015). "Euglycemic diabetic ketoacidosis induced by SGLT2 inhibitors: possible mechanism and contributing factors." *Journal of Diabetes Investigation*, 7(2):135–138. [PubMed](https://pubmed.ncbi.nlm.nih.gov/27042271/) [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4773669/)
+- Johansen K, Svendsen PA, Lørup B. (1984). "Variations in renal threshold for glucose in Type 1 (insulin-dependent) diabetes mellitus." *Diabetologia*, 26(3):180–182. [PubMed](https://pubmed.ncbi.nlm.nih.gov/6714538/) -- numbers cited from open abstract; full text on paywalled wishlist.
+- Gerich JE, Meyer C, Woerle HJ, Stumvoll M. (2001). "Renal gluconeogenesis: its importance in human glucose homeostasis." *Diabetes Care*, 24(2):382–391. [PubMed](https://pubmed.ncbi.nlm.nih.gov/11213896/) -- referenced for renal gluconeogenesis context; full text on paywalled wishlist.

@@ -1,0 +1,117 @@
+---
+title: "Regulatory Boundaries and Development Pathways for T1D Serious Games"
+description: "Distinguishing education, disease self-management and medical-device functions in the European Union and United States"
+date: "2026-09-16"
+---
+
+## The boundary is a function and its intended use, not a visual genre
+
+A game about type 1 diabetes (T1D) is not necessarily a medical device. Conversely, a therapeutic intervention does not cease to be one because its interface contains levels, characters or rewards. Guidance from the United States Food and Drug Administration (FDA) and the European Union's Medical Device Coordination Group (MDCG) makes intended medical function central to software qualification; running in a browser rather than on a dedicated device does not determine its status. MDCG provides guidance, not product-specific marketing authorisation ([FDA, 2022](https://www.fda.gov/media/80958/download), section IV; [MDCG, 2025](https://health.ec.europa.eu/document/download/b45335c5-1679-4c71-a91c-fc7a4d37f12b_en?filename=md_mdcg_2019_11_guidance_qualification_classification_software_en.pdf), sections 1–3).
+
+Four questions distinguish otherwise similar designs: who uses the output, whether it concerns a real individual, what decision or intervention it supports, and what benefit the manufacturer claims. A fictional insulin experiment for learning, a reminder to follow an existing prescription, an individual dose recommendation and a game intended to treat a psychological disorder require different analyses. Neither the phrase *serious game* nor *self-management support* resolves these questions.
+
+This chapter is a development-oriented interpretation of official guidance reviewed on **16 September 2026**, not a legal classification of any catalogued product. FDA and MDCG guidance documents are nonbinding interpretations; applicable legislation and product-specific regulatory decisions take precedence. The United States and European Union are considered separately, not as interchangeable approval systems.
+
+## United States: distinguish three regulatory positions
+
+FDA's software policy separates functions that are **not devices**, device functions for which it intends **enforcement discretion**, and device functions that are the **focus of regulatory oversight**. Enforcement discretion means that the agency does not intend to enforce specified device requirements under its stated policy; it does not mean that the function is outside the legal definition or has been cleared by FDA ([FDA, 2022](https://www.fda.gov/media/80958/download), sections V and VI).
+
+### Education without individual clinical decision-making
+
+FDA lists general patient-education functions and professional training simulations among non-device examples. Its examples include games simulating cardiac-arrest scenarios for professional training. Patient education may filter information using patient characteristics without thereby becoming a device, provided its intended function remains education rather than clinical assessment or aiding an individual's clinical decision. Thus, neither disease-specific content nor all personalisation is automatically disqualifying ([FDA, 2022](https://www.fda.gov/media/80958/download), Appendix A, items 2–3).
+
+**Application to T1D education:** adjusting reading level or selecting an introductory lesson differs from calculating what insulin a person should take. A game teaching delayed insulin action through fictional cases is closer to the educational examples, but this is an analogy, not an FDA determination. The intended use must remain consistent across the game, website, instructions and promotional statements: FDA considers more than a disclaimer when determining intended use ([FDA, 2022](https://www.fda.gov/media/80958/download), section IV).
+
+### Disease self-management without specific treatment suggestions
+
+FDA identifies certain low-risk coaching and prompting functions as candidates for enforcement discretion, including support for people with diabetes and reminders to follow predetermined medication schedules. The guidance distinguishes such support from providing specific treatment or treatment suggestions ([FDA, 2022](https://www.fda.gov/media/80958/download), section V.B).
+
+This matters for gamified utilities: rewarding completion of an existing task and generating a new dosing instruction are not the same function. However, removing the dose calculator does not by itself prove that the remaining product is non-device. Its other purposes and functions still require assessment. Enforcement discretion is also a policy position to monitor over time, not a permanent product certification.
+
+### Individual analysis, treatment and clinical decision support
+
+FDA identifies patient-specific diagnostic or treatment recommendations and insulin-pump control as examples within regulatory oversight. The **29 January 2026** clinical decision support (CDS) guidance must be considered when a product assists real clinical decisions; relying exclusively on older software guidance would miss this update ([FDA, 2022](https://www.fda.gov/media/80958/download), section V.A; [FDA, 2026a](https://www.fda.gov/media/109618/download), sections II–IV).
+
+The statutory non-device CDS exclusion described in that guidance has four cumulative criteria. These concern the types of input, analysis of medical information, recommendations to a healthcare professional, and the professional's ability to independently review their basis rather than rely primarily on them. A patient-facing recommendation is not covered by that professional-user exclusion simply because its formula is displayed. Likewise, calling a feature a training aid does not settle its status if it actually supports treatment of the user's own condition ([FDA, 2026a](https://www.fda.gov/media/109618/download), sections II–IV).
+
+The guidance specifically distinguishes a discrete laboratory glucose result from the repeated measurements generated by a **continuous glucose monitor (CGM)**. Analysis of a medically relevant signal or pattern does not satisfy the first non-device CDS criterion. This does **not** imply that every display, upload or game using glucose-related data has identical regulatory status; the complete function and other applicable policies still matter ([FDA, 2026a](https://www.fda.gov/media/109618/download), section IV.1–2).
+
+## European Union: qualification precedes classification
+
+Under the **Medical Device Regulation (MDR), Regulation (EU) 2017/745**, first ask whether the software qualifies as a device or another regulated component; only then apply risk-classification rules. MDCG defines **medical device software (MDSW)** by an intended purpose within the medical-device definition, including diagnosis, monitoring, prediction, treatment or alleviation of disease. Its decision process also considers accessories and software driving or influencing a device. General educational content is not made MDSW merely by being used in a hospital ([MDCG, 2025](https://health.ec.europa.eu/document/download/b45335c5-1679-4c71-a91c-fc7a4d37f12b_en?filename=md_mdcg_2019_11_guidance_qualification_classification_software_en.pdf), sections 2–3).
+
+MDCG explicitly states that the risk of harm is not the criterion for deciding whether software qualifies as a device. Risk becomes important in classification and the evidence and controls needed. Therefore, “low risk”, “free”, or “educational-looking” is not a substitute for analysing the intended medical purpose. The manufacturer's promotional material and clinical evaluation are among the sources defining that purpose ([MDCG, 2025](https://health.ec.europa.eu/document/download/b45335c5-1679-4c71-a91c-fc7a4d37f12b_en?filename=md_mdcg_2019_11_guidance_qualification_classification_software_en.pdf), sections 2–3.1).
+
+### Therapeutic games are explicitly within the guidance
+
+The 2025 revision describes MDSW intended to alleviate eating-disorder behaviours through personalised psychoeducational workshops, narrative scenarios and **virtual reality (VR)** video-game simulations. This is a regulatory example, not clinical evidence that those games work. It establishes that an interactive psychological intervention can have a medical purpose without calculating medication or simulating glucose. A T1D coping game consequently needs analysis of its specific claim: facilitating discussion and treating a defined psychological condition should not be treated as synonyms ([MDCG, 2025](https://health.ec.europa.eu/document/download/b45335c5-1679-4c71-a91c-fc7a4d37f12b_en?filename=md_mdcg_2019_11_guidance_qualification_classification_software_en.pdf), section 3.2).
+
+### What Rule 11 does—and does not—say
+
+For software already within scope, MDR Annex VIII **Rule 11** places information used for diagnostic or therapeutic decisions in class IIa, with higher classes where the impact of the decisions meets the specified serious-harm thresholds. Software monitoring physiological processes is generally IIa under that rule, or IIb for specified vital-parameter monitoring where variation could cause immediate danger. The residual provision assigns other software within the rule to class I. Other applicable rules and the strictest applicable classification must also be considered ([MDCG, 2025](https://health.ec.europa.eu/document/download/b45335c5-1679-4c71-a91c-fc7a4d37f12b_en?filename=md_mdcg_2019_11_guidance_qualification_classification_software_en.pdf), section 4.2).
+
+The residual provision does not turn every nonmedical game into a class I device. Nor can a T1D dose-advice product be assigned IIa solely because that is Rule 11's starting point: the consequences of incorrect decisions must be evaluated. MDCG's insulin recommendation example applies regardless of whether the dose is delivered with a pump, pen or syringe; absence of hardware control does not remove the medical purpose ([MDCG, 2025](https://health.ec.europa.eu/document/download/b45335c5-1679-4c71-a91c-fc7a4d37f12b_en?filename=md_mdcg_2019_11_guidance_qualification_classification_software_en.pdf), sections 3.2 and 4.2).
+
+## Worked scope comparison
+
+The following are hypothetical designs, not classifications of existing games. Interpretations follow the guidance above; unresolved cases need jurisdiction-specific assessment.
+
+| Function and intended use | Regulatory distinction to examine | What the design does not establish |
+|---|---|---|
+| A fictional character repeats a meal scenario with different insulin timing; feedback explains the simulated result | General education versus real-person treatment support | Physiological detail alone neither establishes nor excludes device status |
+| Players collect points for acknowledging a previously prescribed medication reminder | In the United States, possible self-management enforcement-discretion policy; in the European Union, assess the actual purpose and function | A reward mechanic does not make the reminder nonmedical |
+| A player's glucose history and insulin sensitivity generate their next corrective dose | Individual treatment recommendation; assess medical-device requirements | Calling the output a “challenge” or adding a disclaimer does not change its function |
+| A narrative game invites reflection on living with T1D without assessing or treating a disorder | Educational/experiential purpose and consistency of claims | Psychosocial subject matter alone is not a treatment claim |
+| A game adapts exercises to patient symptoms and is promoted to treat a defined psychological disorder | Therapeutic purpose; analogous EU therapeutic-game example | Absence of insulin advice is not absence of medical purpose |
+| A training module is embedded beside a real-patient decision-support module | Qualification by function and the safety of dependencies/interfaces | Separate tabs or repositories are not evidence of independent operation |
+
+## Designing a genuinely educational scope
+
+For an educational project, a defensible design starts with the learning objective and then limits functionality to that objective. The following are **design inferences**, not a legal safe harbour: use clearly fictional cases when personal treatment prediction is unnecessary; distinguish model output from clinical advice at the decision point; evaluate knowledge and transfer rather than imply unmeasured treatment benefit; and review product claims whenever a new data source or personalised feature is added.
+
+Modular design can make responsibilities clearer, but merely separating screens does not remove obligations. MDCG requires assessment of relevant dependencies and interfaces, including nonmedical features whose usability affects the medical function. A game layer supplying prompts or rewards to a treatment module may therefore need assessment as part of that configuration ([MDCG, 2025](https://health.ec.europa.eu/document/download/b45335c5-1679-4c71-a91c-fc7a4d37f12b_en?filename=md_mdcg_2019_11_guidance_qualification_classification_software_en.pdf), section 7).
+
+No prevalence estimate or developer-interview evidence was collected here to establish what T1D-game teams do specifically to avoid medical-device regulation. Fictional scenarios, disclaimers, absent health-data integration or restricted distribution may have pedagogical, privacy, resource or regulatory explanations. The observable feature can be recorded; a motive requires a developer statement or other evidence. An unavailable product must not be described as discontinued because of regulation without that evidence.
+
+## Developing a regulated game
+
+Regulated development is a legitimate route when the intended benefit requires a medical function. A useful plan separates the scientific claim, technical performance, clinical evaluation and market-access route instead of treating a favourable usability study as a complete regulatory evidence package.
+
+For European MDSW, MDCG's clinical-evaluation framework distinguishes **valid clinical association** (the scientific relationship between the output and the clinical condition), **technical performance** (reliable production of the intended output), and **clinical performance** (clinically relevant output for the intended use). The required amount and quality of evidence depend on the device's characteristics, risks and purpose. Evaluation is continuous across the product life cycle, not completed by one publication ([MDCG, 2020](https://health.ec.europa.eu/system/files/2020-09/md_mdcg_2020_1_guidance_clinic_eva_md_software_en_0.pdf), sections 3–4).
+
+**Application to games:** a plausible psychological mechanism supports the rationale, software tests support implementation reliability, and studies in intended users address the claimed patient benefit. None substitutes automatically for the others. A therapeutic coping game need not be evaluated through glucose endpoints if those are not its intended benefit; its clinical claim still needs an appropriate measurable outcome. Plan the relevant conformity assessment after establishing purpose and classification, rather than assuming that any particular game genre permits self-certification ([MDCG, 2020](https://health.ec.europa.eu/system/files/2020-09/md_mdcg_2020_1_guidance_clinic_eva_md_software_en_0.pdf), sections 4.1–4.4; [MDCG, 2025](https://health.ec.europa.eu/document/download/b45335c5-1679-4c71-a91c-fc7a4d37f12b_en?filename=md_mdcg_2019_11_guidance_qualification_classification_software_en.pdf), section 6).
+
+In the United States, applicable routes include premarket notification **510(k)** based on substantial equivalence, **De Novo** classification for suitable novel devices without a legally marketed predicate, and **premarket approval (PMA)** for relevant higher-risk devices. Exemptions also exist; the route is not chosen simply by labelling a product a game. FDA recommends early discussion for uncertain device-software functions and consideration of a pre-submission before a De Novo request ([FDA, 2022](https://www.fda.gov/media/80958/download), section V.A; [FDA, 2025](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/de-novo-classification-request); [FDA, 2026b](https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance/overview-device-regulation)).
+
+Plan maintenance alongside the initial evidence: version control, documented changes, safety-related complaints, incident handling and evaluation of whether updates affect the intended benefit. FDA's **Quality Management System Regulation (QMSR)** became effective on 2 February 2026, incorporating the International Organization for Standardization's **ISO 13485:2016** quality-management standard by reference into its framework. A development plan based solely on the former quality-system terminology is therefore outdated ([FDA, 2026b](https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance/overview-device-regulation)). The [maintenance chapter](../sustainability/maintenance-patterns.qmd) addresses organisational continuity; regulatory responsibility cannot be replaced by an available source-code repository.
+
+## Limits and further work
+
+This targeted synthesis covers device-software boundaries, not every obligation affecting games. Privacy, child participation, accessibility, consumer claims, cybersecurity, research authorisation and reimbursement require their own analyses; being outside device scope does not establish exemption from other law. No individual game's regulatory submission or complete labelling dossier was evaluated. The current consolidated MDR was identified but could not be retrieved in full from EUR-Lex locally; EU interpretation here is based on the acquired MDCG guidance, not a claimed article-by-article verification of the latest legislation. Product release decisions require checking current law and obtaining competent advice where the boundary is uncertain.
+
+## References
+
+1. [Food and Drug Administration (FDA) (2022). *Policy for Device Software Functions and Mobile Medical Applications*. September 2022.](https://www.fda.gov/media/80958/download)
+2. [Food and Drug Administration (FDA) (2025). *De Novo Classification Request*. Official development-pathway information; accessed 16 September 2026.](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/de-novo-classification-request)
+3. [Food and Drug Administration (FDA) (2026a). *Clinical Decision Support Software*. Final guidance issued 29 January 2026.](https://www.fda.gov/media/109618/download)
+4. [Food and Drug Administration (FDA) (2026b). *Overview of Device Regulation*. Includes the February 2026 QMSR update; accessed 16 September 2026.](https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance/overview-device-regulation)
+5. [Medical Device Coordination Group (MDCG) (2020). *Guidance on Clinical Evaluation (MDR) / Performance Evaluation (IVDR) of Medical Device Software*. MDCG 2020-1, March 2020.](https://health.ec.europa.eu/system/files/2020-09/md_mdcg_2020_1_guidance_clinic_eva_md_software_en_0.pdf)
+6. [Medical Device Coordination Group (MDCG) (2025). *Guidance on Qualification and Classification of Software in Regulation (EU) 2017/745 – MDR and Regulation (EU) 2017/746 – IVDR*. MDCG 2019-11 Rev.1, June 2025.](https://health.ec.europa.eu/document/download/b45335c5-1679-4c71-a91c-fc7a4d37f12b_en?filename=md_mdcg_2019_11_guidance_qualification_classification_software_en.pdf)
+
+## Abbreviations
+
+| Abbreviation | Meaning |
+|---|---|
+| CDS | Clinical decision support |
+| CGM | Continuous glucose monitor or monitoring |
+| EU | European Union |
+| FDA | United States Food and Drug Administration |
+| ISO | International Organization for Standardization |
+| IVDR | In Vitro Diagnostic Medical Devices Regulation, Regulation (EU) 2017/746; appears in cited guidance titles |
+| MDCG | Medical Device Coordination Group |
+| MDR | Medical Device Regulation, Regulation (EU) 2017/745; not the US term Medical Device Reporting |
+| MDSW | Medical device software |
+| PMA | Premarket approval |
+| QMSR | Quality Management System Regulation |
+| T1D | Type 1 diabetes |
+| VR | Virtual reality |
