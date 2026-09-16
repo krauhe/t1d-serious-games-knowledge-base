@@ -1,7 +1,7 @@
 /**
- * Create a single-file, offline tablet edition of the private knowledge base.
+ * Create a single-file reading/PDF edition or the private offline tablet edition.
  *
- * The script deliberately consumes a completed private `_site` build rather
+ * The script deliberately consumes a completed `_site` build rather
  * than the source documents. This keeps Markdown rendering identical across
  * the normal local edition and the tablet edition. CSS, JavaScript, original
  * figures, and review-only game images are embedded in the resulting HTML.
@@ -15,10 +15,12 @@ const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDirectory, '..');
 const siteDirectory = path.join(projectRoot, '_site');
 const privateBuildMarker = path.join(siteDirectory, 'PRIVATE-IMAGE-BUILD.txt');
-const outputDirectory = path.join(projectRoot, 'output', 'private');
-const outputFile = path.join(outputDirectory, 'T1D-Serious-Games-Knowledge-Base-private.html');
+const siteEdition = process.argv.includes('--site-edition');
+const privateEdition = fs.existsSync(privateBuildMarker);
+const outputDirectory = siteEdition ? siteDirectory : path.join(projectRoot, 'output', 'private');
+const outputFile = path.join(outputDirectory, siteEdition ? 'reading.html' : 'T1D-Serious-Games-Knowledge-Base-private.html');
 
-if (!fs.existsSync(privateBuildMarker)) {
+if (!siteEdition && !privateEdition) {
   throw new Error('A private site build is required. Run `node tools/build-site.mjs --private-images` first.');
 }
 
@@ -52,9 +54,9 @@ for (const entry of pageEntries) {
 
   const identifier = pageIdByOutput.get(entry.output);
   chapters.push(`<section class="tablet-chapter" id="${identifier}" data-source-page="${escapeAttribute(entry.output)}">
-    <div class="tablet-chapter-context">${escapeHtml(entry.group)} · Offline chapter</div>
+    <div class="tablet-chapter-context">${escapeHtml(entry.group)}</div>
     ${body}
-    <p class="tablet-back-link"><a href="#${pageIdByOutput.get('index.html')}">Back to contents</a></p>
+    <p class="tablet-back-link"><a href="#reading-contents">Back to contents</a></p>
   </section>`);
   searchIndex.push({
     id: identifier,
@@ -82,10 +84,12 @@ const html = `<!doctype html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Private, self-contained tablet edition of the T1D Serious Games Knowledge Base.">
-  <title>T1D Serious Games Knowledge Base · Private tablet edition</title>
+  <meta name="description" content="${privateEdition ? 'Private, self-contained tablet' : 'Complete reading and PDF'} edition of the T1D Serious Games Knowledge Base.">
+  ${siteEdition ? '<meta name="robots" content="noindex">' : ''}
+  <title>T1D Serious Games Knowledge Base${privateEdition ? ' · Private edition' : ''}</title>
   <style>
 ${baseStyles}
+${fs.readFileSync(path.join(projectRoot, 'tools/print.css'), 'utf8')}
 
 /* Single-file tablet edition: all chapters share one scrollable document. */
 .tablet-chapter { scroll-margin-top: 92px; }
@@ -102,20 +106,30 @@ ${baseStyles}
 }
   </style>
 </head>
-<body data-root-prefix="">
+<body data-root-prefix="" class="reading-edition">
   <a class="skip-link" href="#${pageIdByOutput.get('index.html')}">Skip to content</a>
   <div class="site-background" aria-hidden="true"></div>
   <header class="site-header">
 
     <a class="site-brand" href="#${pageIdByOutput.get('index.html')}" aria-label="T1D Serious Games Knowledge Base, home"><span class="brand-mark-frame"><img class="brand-mark" src="${headerMarkDataUri}" alt="" aria-hidden="true"></span><span class="brand-title" aria-hidden="true">T1D Serious Games Knowledge Base</span></a>
-    <button class="search-button" type="button" aria-controls="search-panel" aria-expanded="false">Search</button>
+    <div class="header-actions"><a class="pdf-button" href="#pdf-export">PDF</a><button class="search-button" type="button" aria-controls="search-panel" aria-expanded="false">Search</button></div>
   </header>
   <button class="menu-button sidebar-dock" type="button" aria-controls="site-sidebar" aria-expanded="true">Hide menu</button>
-  <div class="private-build-banner"><strong>Private tablet edition.</strong> This self-contained file includes third-party game images retained for private scholarly review. Do not publish or redistribute it.</div>
+  ${privateEdition ? '<div class="private-build-banner"><strong>Private tablet edition.</strong> This self-contained file includes third-party game images retained for private scholarly review. Do not publish or redistribute it.</div>' : ''}
   <div class="site-shell">
     <aside class="site-sidebar" id="site-sidebar" aria-label="Knowledge-base navigation">${renderNavigation()}</aside>
     <main class="article" id="main-content">
-      <div class="tablet-export-status"><span>Private offline edition</span><span>Generated ${generatedAt}</span></div>
+      <section class="pdf-export" id="pdf-export" aria-labelledby="pdf-export-title">
+        <h2 id="pdf-export-title">Save the complete knowledge base as PDF</h2>
+        <p>All ${pageEntries.length} chapters and all game profiles are included. Choose <strong>Save as PDF</strong> in your browser's print dialog. On tablets, PDF saving may be under Print or Share. The PDF layout removes menus and backgrounds.</p>
+        <label><input id="pdf-study-details" type="checkbox"> Include detailed study appraisals and design notes</label>
+        <button id="save-pdf" type="button">Save as PDF</button>
+        <p id="pdf-status" role="status"></p>
+        <noscript>Use your browser's Print command. Game profiles remain included; JavaScript is needed to expand detailed study appraisals.</noscript>
+      </section>
+      <h1 class="print-title">T1D Serious Games Knowledge Base</h1>
+      <div class="tablet-export-status"><span>${privateEdition ? 'Private offline edition' : 'Complete reading edition'}</span><span>Generated ${generatedAt}</span></div>
+      <nav class="reading-contents" id="reading-contents" aria-label="Contents"><h2>Contents</h2>${renderNavigation()}</nav>
       ${chapters.join('\n')}
       <footer class="article-footer">
         <p>Educational and research resource; not individual medical advice.</p>
@@ -133,6 +147,7 @@ ${baseStyles}
   <script>
 window.T1D_TABLET_SEARCH_INDEX = ${safeJsonForScript(searchIndex)};
 ${fs.readFileSync(path.join(projectRoot, 'tools/sidebar.js'), 'utf8')}
+${fs.readFileSync(path.join(projectRoot, 'tools/print.js'), 'utf8')}
 ${tabletScript()}
   </script>
 </body>
@@ -144,8 +159,8 @@ fs.writeFileSync(outputFile, html, 'utf8');
 
 const sizeMiB = fs.statSync(outputFile).size / (1024 * 1024);
 console.log(`Built ${pageEntries.length} chapters in ${outputFile}`);
-console.log(`Self-contained private tablet edition: ${sizeMiB.toFixed(2)} MiB`);
-console.log('This file contains review-only third-party images and must not be published.');
+console.log(`Self-contained ${privateEdition ? 'private' : 'public'} reading edition: ${sizeMiB.toFixed(2)} MiB`);
+if (privateEdition) console.log('This file contains review-only third-party images and must not be published.');
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));

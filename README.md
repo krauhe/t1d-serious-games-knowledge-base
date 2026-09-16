@@ -37,6 +37,8 @@ Knowledge, engagement, transfer and clinical benefit are assessed separately. Ca
 
 The source uses Quarto-compatible chapters and a dependency-light builder. The generated website has full-text search, a sortable catalogue and an edge-docked collapsible menu.
 
+Use **PDF** in the website header to open the complete reading edition, then **Save as PDF** to use your browser's print dialog. All chapters and game profiles are included; detailed study appraisals are optional. PDF saving on tablets depends on the browser's Print or Share menu.
+
 ```text
 pnpm install
 pnpm run validate

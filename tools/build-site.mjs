@@ -11,6 +11,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execFileSync } from 'node:child_process';
 import { marked } from 'marked';
 import { renderCatalogue } from './catalogue.mjs';
 
@@ -49,6 +50,7 @@ try {
 }
 
 copyFileIfPresent('styles.css', 'styles.css');
+copyFileIfPresent('tools/print.css', 'print.css');
 copyFileIfPresent('tools/site.js', 'site.js');
 copyFileIfPresent('tools/sidebar.js', 'sidebar.js');
 copyFileIfPresent('data/games.json', 'data/games.json');
@@ -114,6 +116,9 @@ fs.writeFileSync(
   `window.T1D_KB_SEARCH_INDEX = ${JSON.stringify(searchIndex)};\n`,
   'utf8'
 );
+
+// Saml præcis den aktuelle bygning; en offentlig bygning må ikke læse private billeder.
+execFileSync(process.execPath, [path.join(scriptDirectory, 'build-tablet.mjs'), '--site-edition'], { stdio: 'inherit' });
 
 console.log(`Built ${flattenedNavigation.length} reading pages with ${searchIndex.length} search entries in ${outputDirectory}`);
 console.log(includePrivateImages
@@ -224,6 +229,7 @@ function renderPage({ title, description, body, currentOutput, privateImageBuild
   <title>${escapeHtml(title)} | T1D Serious Games Knowledge Base</title>
   <link rel="icon" type="image/png" href="${rootPrefix}figures/original/t1d-serious-games-header-icon.png">
   <link rel="stylesheet" href="${rootPrefix}styles.css">
+  <link rel="stylesheet" href="${rootPrefix}print.css">
 </head>
 <body data-root-prefix="${rootPrefix}"${currentOutput === 'explorer.html' ? ' class="catalogue-page"' : ''}>
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -231,7 +237,7 @@ function renderPage({ title, description, body, currentOutput, privateImageBuild
   <header class="site-header">
 
     <a class="site-brand" href="${rootPrefix}index.html" aria-label="T1D Serious Games Knowledge Base, home"><span class="brand-mark-frame"><img class="brand-mark" src="${rootPrefix}figures/original/t1d-serious-games-header-icon.png" alt="" aria-hidden="true"></span><span class="brand-title" aria-hidden="true">T1D Serious Games Knowledge Base</span></a>
-    <button class="search-button" type="button" aria-controls="search-panel" aria-expanded="false">Search</button>
+    <div class="header-actions"><a class="pdf-button" href="${rootPrefix}reading.html#pdf-export" aria-label="Save the complete knowledge base as PDF">PDF</a><button class="search-button" type="button" aria-controls="search-panel" aria-expanded="false">Search</button></div>
   </header>
   <button class="menu-button sidebar-dock" type="button" aria-controls="site-sidebar" aria-expanded="true">Hide menu</button>
   ${privateNotice}

@@ -163,6 +163,7 @@ a:hover { color: var(--navy); }
 
 .menu-button,
 .search-button,
+.pdf-button,
 .search-close {
   border: 1px solid rgba(255, 255, 255, 0.34);
   border-radius: 10px;
@@ -172,6 +173,9 @@ a:hover { color: var(--navy); }
   font: inherit;
   cursor: pointer;
 }
+.header-actions { display: flex; align-items: center; gap: 8px; }
+.pdf-button { text-decoration: none; }
+.pdf-button:hover, .pdf-button:focus-visible { color: white; background: #ffffff26; }
 .menu-button.sidebar-dock {
   position: fixed;
   z-index: 40;
@@ -495,7 +499,7 @@ summary { cursor: pointer; font-weight: 650; color: #214967; }
 }
 @media (max-width: 780px) {
   .site-header { grid-template-columns: minmax(0, 1fr) auto; padding: 8px 12px; gap: 8px; }
-  .brand-title { max-width: 48vw; padding-bottom: 14px; font-size: 0.68rem; }
+  .brand-title { max-width: 34vw; padding-bottom: 14px; font-size: 0.68rem; }
   .brand-title::after { height: 11px; }
   .brand-mark-frame { width: 42px; height: 42px; border-radius: 10px; }
   .site-shell, .sidebar-collapsed .site-shell { padding: 12px 8px 12px 40px; }
